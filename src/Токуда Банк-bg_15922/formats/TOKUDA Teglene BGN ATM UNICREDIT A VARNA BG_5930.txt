@@ -1,0 +1,7 @@
+^.*Teglene\s+([\d\s.,]*\d)\s*([A-Z]{3}).*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]{5,}\s+\d+\*+(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;syncid#cash
+
+-----EXAMPLE-----
+TOKUDA: Teglene 400.00 BGN ATM UNICREDIT A5400276 VARNA BG 08.09.2023 19:11 670582******7050

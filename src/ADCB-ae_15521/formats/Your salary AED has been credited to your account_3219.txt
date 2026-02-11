@@ -1,0 +1,7 @@
+^.*salary.*?([A-Z]{3})\s*([\d\s.,]*\d).*credit.*?acc.*?(\d{4})\s+on\s+(\S{3}\s+\d{1,2}\s+\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#MMM dd yyyy;av_balance
+
+-----EXAMPLE-----
+Your salary AED32147.00 has been credited to your account no.XXX217001 on Aug 28 2017  3:43PM. The available balance is AED58214.53.

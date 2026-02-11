@@ -1,0 +1,7 @@
+^.*?(\d{4}) spysano ([\d\s.,]*\d) ([A-Z]{3}). Balans ([\d\s.,]*\d).*?([\d/]{8}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;balance;date#dd/MM/yy
+
+-----EXAMPLE-----
+Z rakhunku kartky 9315 spysano 89 UAH. Balans 918,20 UAH. 06/06/13 19:38 UniCredit Bank.

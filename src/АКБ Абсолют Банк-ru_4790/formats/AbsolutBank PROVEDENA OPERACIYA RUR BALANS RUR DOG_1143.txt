@@ -1,0 +1,7 @@
+^.*?PROVEDENA OPERACIYA ([\d\s.,]*\d) ([A-Z]{3}). BALANS: (-?[\d\s.,]*\d)[^;]*; ([^;]+);.*?([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;comment;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+AbsolutBank; PROVEDENA OPERACIYA 4 500.00 RUR; BALANS: 4 537.80 RUR; DOGOVOR: 0455927/001/810; 11-35 17.01.2014 Msc

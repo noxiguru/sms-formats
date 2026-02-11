@@ -1,0 +1,7 @@
+^\*(\d{4}) (\d{2}[-./]\d{2}[-./]?\d{0,4}) [\d:]+ (.озвра.*?) ([\d\s.,]*\d)\s*([а-яa-z]{1,3}|[A-Z]{3})\s*(.*?)\s+.алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;comment;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*6785 05.12 16:58 возврат 1554.40pRNAZK 97 PNP Баланс 51827.74p

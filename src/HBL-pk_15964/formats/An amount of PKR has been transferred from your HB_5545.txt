@@ -1,0 +1,7 @@
+^An amo.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*ransferred from .*?(\d{4}) to .* on (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy
+
+-----EXAMPLE-----
+An amount of PKR 20000.00 has been transferred from your HBL account # 503xxxxxxx8561 to KASHIF REHMAT Mobilink Microfinance Bank Ltd/ Jazzcash account # 033xxxx0119 through HBL Digital Banking on 01-12-2022 04:08:33.

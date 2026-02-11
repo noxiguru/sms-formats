@@ -1,0 +1,19 @@
+^(?!.*(?:тказ|озврат|tkaz|ozvrat)).*\*(\d{4}).*(?:[оo]ku[pр]k|окупк|peraci|пераци).*?([\d\s.,]*\d)\s*([а-яa-zА-ЯA-Z]{1,3})\W?\s+(.*?)\W?\s+.(?:[aа]l[aа]n|алан).*?(-?[\d\s.,]*\d)\s*([а-яa-zА-ЯA-Z]{1,3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Karta *5457. Pokupka 8800 RUR. RUTS-NIZHNEVARTOVSK. Balans 5.48 RUR. 11/10/2018
+
+-----EXAMPLE-----
+Karta *2453. Operaciya 1183 RUB. LABIRINT.RU. Balans 364927.28 RUB. 17/10/2018
+
+-----EXAMPLE-----
+Карта *1155. Операция 500.0 RUB. TELE-2. Баланс 27,790.24 RUR. 18.10.2018
+
+-----EXAMPLE-----
+Карта *5925. Операция 1149.75 РУБ. SHELL KATUKOVA 11085. Баланс 156153.37 RUB. 16.07.2019
+
+-----EXAMPLE-----
+Kаrtа *2684. Pоkupka 415.00 RUB. IKЕА DOM 6RESTAURANТ. Вalаns 9180.73 RUB. 07.02.2021

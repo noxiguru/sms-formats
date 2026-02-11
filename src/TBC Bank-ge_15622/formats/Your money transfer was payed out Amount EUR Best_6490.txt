@@ -1,0 +1,7 @@
+^Your\s+mon.*ayed\s+out.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument
+
+-----EXAMPLE-----
+Your money transfer was payed out: Amount: 200.00 EUR Best Regards

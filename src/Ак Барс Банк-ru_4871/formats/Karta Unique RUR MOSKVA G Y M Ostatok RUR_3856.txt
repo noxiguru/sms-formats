@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*nique ([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Karta*5124. Unique 150.00RUR. MOSKVA G, Y.M. 17.08.18 07:15. Ostatok 486.62RUR.

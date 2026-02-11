@@ -1,0 +1,7 @@
+^Plata.*\*(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}).*Dispo.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Plata Card 5596***9528 276.44 MDL KAUFLAND 1340 CASA 4, CHISINAU, MD 30.03.23, 16:01 Disponibil 1409.57 MDL

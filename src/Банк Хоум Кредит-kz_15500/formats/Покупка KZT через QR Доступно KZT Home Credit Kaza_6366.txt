@@ -1,0 +1,7 @@
+^\*(\d{4})\s+Покупка.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+через\s+QR.*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*1359 Покупка: -1100 KZT через QR Доступно: 68755.59 KZT ║ Home Credit Kazakhstan

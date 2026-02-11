@@ -1,0 +1,7 @@
+^.*?(?:latezh|okupka|peratsiya|латеж|окупка).*?\*([\d]{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}). (.*). (\d{2}\.[\d.]{7}).*(?:ostup|оступ).*limit.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Pokupka. Karta *3710. 1667.00 RUB. "MAMA ROMA" RESTAURANT, SANKT-PETERSB. 28.07.2017 15:48. Dostupno s uchetom rashodnogo limita 264384.14 RUB. Tinkoff.ru

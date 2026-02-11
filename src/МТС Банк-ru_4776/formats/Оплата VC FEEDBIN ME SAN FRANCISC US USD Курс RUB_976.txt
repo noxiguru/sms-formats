@@ -1,0 +1,10 @@
+^(?:Оплата|Квази|Перевод с|Oplata|Quasi|Perevod s).*?\*(\d{4});?\s*(\d{2}[-./]\d{2}[-./]?\d{0,4})[^;]+;?\s+(.*?);? ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3});?\s*((?:Курс|Kurs).*?), ([\d\s.,]*\d).*(?:Остат|Ostat|Лимит|Limit).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;payee;op_outcome;instrument;comment;outcome;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Оплата VC *7891; 03.09 14:15; FEEDBIN.ME>SAN FRANCISC US; 3,00 USD; Курс:34.0500, 102,15 RUB; Остаток: 2 489,00 RUB
+
+-----EXAMPLE-----
+Oplata VP *6409; 09.05 12:33; SHOP "UN-M RADZIVILLOVSKI>MINSK BY; 13,23 BYN; Kurs:32.5752, 430,97 RUB; Ostatok: 67 126,94 RUB

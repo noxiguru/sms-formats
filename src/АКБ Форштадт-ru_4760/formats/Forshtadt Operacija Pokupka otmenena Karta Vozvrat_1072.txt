@@ -1,0 +1,7 @@
+^.*?Pokupka otmenena.*?(\d{4}) Vozvrat. ([\d\s.,]*\d) ([а-яa-zA-Z]{3}).*alans: ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Forshtadt: Operacija Pokupka otmenena Karta: *1362 Vozvrat: 1.97 rub Balans: 1 354.94 rub

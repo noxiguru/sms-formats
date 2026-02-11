@@ -1,0 +1,13 @@
+^(?:Списание|Spisanie|Perevod).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4}).*?(?:Дата|Data):? ([\d.]{10}).*?(?:Остаток|Ostatok):? (-?[\d\s.,]*\d)(?!.*(?:дрес|dres)).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Списание на сумму: 10000.0 RUR По карте: 4036****3116; Дата: 30.12.2014 10:04; Остаток: 198305.09 RUR
+
+-----EXAMPLE-----
+Spisanie na summu: 4000.0 RUR Po karte: 6774****0426; Data: 18.12.2015 08:54; Ostatok: 4080.86 RUR
+
+-----EXAMPLE-----
+Perevod 10126.66 RUR Karta *6103 Data 10.11.2016 11:51 Ostatok 7915.66 RUR MOSCOW, DENGISEND.RU P2P

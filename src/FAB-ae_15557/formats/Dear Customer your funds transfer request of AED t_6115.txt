@@ -1,0 +1,7 @@
+^.*ransfer.*\s+of\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(to.*?)\s+has\s+been\s+processed\s+succ.*?from.*?X(\d{4})\s+on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;comment;syncid;date#dMy
+
+-----EXAMPLE-----
+Dear Customer, your funds transfer request of AED 1,000.00 to IBAN/Account/Card XXXX6733 has been processed successfully from your account/card XXXX9001 on 05/02/2024 22:54

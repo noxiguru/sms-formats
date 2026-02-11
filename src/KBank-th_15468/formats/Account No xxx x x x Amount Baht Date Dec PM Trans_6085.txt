@@ -1,0 +1,10 @@
+^.*ccount.*?(\d{4})-x\s+[Aa]mount\s+([\d\s.,]*\d)\s*(\S+)\s*[Dd]ate\s+([\d]{1,2}[-\s+](?:\w+|\d{2})[-\s+]\d{2,4}).*ransfer.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy
+
+-----EXAMPLE-----
+Account No. xxx-x-x7947-x Amount 100.00 Baht Date 18 Dec 23 3:00 PM ║ Transfer/Withdrawal
+
+-----EXAMPLE-----
+Account No. xxx-x-x8538-x Amount 185.00 Baht Date 8 Jan 24 8:03 PM ║ Transfer/Withdrawal

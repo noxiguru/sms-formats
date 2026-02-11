@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*opovnen.*?\+([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{8}) .* (vid kart.*?)\..*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;comment
+
+-----EXAMPLE-----
+Kartka 4102***6061 popovnennya +1000.00UAH 07.10.19 14:39 vid kartky 5355***9611 cherez ALFA BANK AUTHOR QUER UAH, UKR. Alfa-Bank u Vas v telefoni: https://alfabank.ua/mb

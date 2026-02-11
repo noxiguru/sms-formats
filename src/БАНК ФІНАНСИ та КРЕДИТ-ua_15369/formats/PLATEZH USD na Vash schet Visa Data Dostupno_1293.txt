@@ -1,0 +1,7 @@
+^PLATEZH \+([\d\s.,]*\d) ([A-Z]{3}).*?\*(\d{4}) Data=([\d-]{10}).*?Dostupno=(-?[\d\s.,]*\d)
+
+-----COLUMNS-----
+income;instrument;syncid;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+PLATEZH +100.00 USD na Vash schet#Visa *6183 Data=2014-06-23 10:16:47 Dostupno=1233.30

@@ -1,0 +1,7 @@
+^Покупка.*?\*(\d{4})\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*SUM.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+OST.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+Term\W?\s*(.*)
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Покупка 4301*7873 11.10.20 19:05 SUMMA: 1687.92 руб OSTATOK: 2466.34 руб Term:0399 DETSKIY MIR Tel:88001000200

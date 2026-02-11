@@ -1,0 +1,7 @@
+^.*comis.*?ard.*?(\d{4})\s+.ata.*?([\d]{4}-\d{2}-\d{2})\s+.*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Sold.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*etalii:\s+(.*)
+
+-----COLUMNS-----
+comment;date#yMd;outcome;instrument;av_balance;acc_instrument;comment
+
+-----EXAMPLE-----
+BC VICTORIABANK SA DB comision smsBanking Card: M...3030 Data: 2024-04-29 15:35:01 Suma: 20.00 MDL Sold: 39380.83 MDL Detalii: Comision SMS-Notificari Ora

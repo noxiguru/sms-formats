@@ -1,0 +1,7 @@
+^Bill\s+Pymt.*([A-Z]{3})\s*([\d\s.,]*\d).*X\d+(\d{4})(?!.*limit).*
+
+-----COLUMNS-----
+instrument;outcome;syncid
+
+-----EXAMPLE-----
+Bill Pymt for EMIRATES of AED 780.00 has been made using Credit Card XXXX43145.

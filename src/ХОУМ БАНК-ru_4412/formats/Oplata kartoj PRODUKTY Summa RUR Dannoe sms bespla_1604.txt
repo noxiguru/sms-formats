@@ -1,0 +1,7 @@
+^(?:Oplata\s+kartoj|Оплата)\s+\*(\d{4})\s+(.*?).\s+(?:Summa|Сумма).?\s*([\d\s.,]*\d)\s+([A-Z]{3}).\s+([\d.]{10})(?!.*Dostupno).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Oplata kartoj *4398 PRODUKTY 47. Summa: 495.22 RUR. 26.02.2015 20:17:50. Dannoe sms besplatnoe. Home Credit Bank +74957858222

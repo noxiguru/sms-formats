@@ -1,0 +1,7 @@
+^.*чет \d+(\d{4})\. (.*?)\. .писан.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\. .алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\. .ата (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Счет 1234567890. Komissiya po operatsiyam ekvajringa. Списано 25.88 RUR. Баланс 128513.90 RUR. Дата 30.09.2022 05:21:11

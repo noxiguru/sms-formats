@@ -1,0 +1,7 @@
+^Pre-p.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+\d{4}\*+(\d{4})\s+[\d:]{5,}\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+BALA.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Pre-purchase 3.26 AZN BOLT.EU/O/2210101003 Tallinn ESTONIA 4169**3571 14:03 10.10.22 BALANCE 10 433.22 AZN

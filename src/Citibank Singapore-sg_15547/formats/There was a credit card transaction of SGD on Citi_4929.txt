@@ -1,0 +1,7 @@
+^.*ransaction of ([A-Z]{3}|\W)\s*([\d\s.,]*\d).*nding (\d{4}) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy
+
+-----EXAMPLE-----
+There was a credit card transaction of SGD50.00 on Citibank PremierMiles Card ending 6981 on 03/01/21. View balance at www.citibank.com.sg/MOB

@@ -1,0 +1,7 @@
+^Popolnen.*\*(\d{4}).*umm.*?([\d\s.,]*\d) \(([\d\s.,]*\d)\s*([A-Z]{3})\).*esto.* ATM .* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})
+
+-----COLUMNS-----
+syncid#cash;income;op_income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Popolnenie karti 402306****4922 na summu 300 (300 USD) / Mesto: ATM MI MIROBOD BRANCH>TASHKENT UZ / Vremya: 18.04.2021 22:49:22 Ostatok: 305.90USD

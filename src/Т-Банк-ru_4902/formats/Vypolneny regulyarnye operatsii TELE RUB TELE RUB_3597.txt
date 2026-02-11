@@ -1,0 +1,7 @@
+^((?:Vypolneny|Выполнены)\s+((?:regulyar|регуляр)\S+).*?:\s*\s*"?[\w\s.-]+"?,?\s+([\d\s.,]*\d)\s*([A-Z]{3});\s*\s*"?[\w\s.-]+"?,?\s+([\d\s.,]*\d)\s*\S+;\s*\s*"?[\w\s.-]+"?,?\s+([\d\s.,]*\d)\s*\S+;\s*\s*"?[\w\s.-]+"?,?\s+([\d\s.,]*\d)\s*\S+;\s*\s*"?[\w\s.-]+"?,?\s+([\d\s.,]*\d)\s*\S+);?\s*[\w.]+$
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;outcome;outcome;outcome;outcome
+
+-----EXAMPLE-----
+Vypolneny regulyarnye operatsii: TELE2, 180 RUB; TELE2, 180 RUB; TELE2, 180 RUB; TELE2, 180 RUB; TELE2, 180 RUB; www.tinkoff.ru

@@ -1,0 +1,10 @@
+^.*\*(\d{4}), (\d{2}[-./]\d{2}[-./]\d{2,4}).*Iznos.*?([\d\s.,]*\d)\s*([A-Z]{3}), ATM.*Raspo.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Dina Debitna ****2091, 18.11.2022. u 16:08, Iznos: 10.000,00 RSD, ATM: GORNJI MILANOVAC - GORNJI MILANO/RS, Raspolozivo: 1.464.069,87 RSD
+
+-----EXAMPLE-----
+Mastercard Debit ****8198, 08.04.2023. u 17:52, Iznos: 20.000,00 RSD, ATM: GORNJI MILANOVAC - GORNJI MILANO/RS, Raspolozivo: 128.153,56 RSD

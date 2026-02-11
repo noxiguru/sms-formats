@@ -1,0 +1,7 @@
+.*?(?:karty|karta|карты|карта).*?\d+\*+\s*(\d{4}).*?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\d{2}:\d{2}(?::\d{2})?.*?(?:perevod|перевод).*?(?:na\s+summu|на\s+сумм\w*)\s+([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument
+
+-----EXAMPLE-----
+Uvazhaemyj(aya) UMID FAZILOV s vashej karty 561468******5617 28-06-2025 09:37:36 byl sovershen perevod s karty na kartu na summu 50 000.00 UZS. Esli eto sdelali ne vy, srochno obratites' v call center 4004

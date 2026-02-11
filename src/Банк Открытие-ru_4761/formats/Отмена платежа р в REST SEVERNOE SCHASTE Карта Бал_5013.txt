@@ -1,0 +1,7 @@
+^(Отмен.*?) ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? в (.*?)\.? .арт.*?(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Отмена платежа 1 р. в REST. SEVERNOE SCHASTE. Карта *6817. Баланс 9 389.66 р.

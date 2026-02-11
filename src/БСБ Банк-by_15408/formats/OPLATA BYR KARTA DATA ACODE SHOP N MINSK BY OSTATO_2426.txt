@@ -1,0 +1,7 @@
+^OPLATA([\d\s.,]*\d)\s*([A-Z]{3}).*?ART.*?(\d{4}) DATA ([\d.]{10}).*ACODE \d+\s+(.+?)\s+OSTATOK(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+OPLATA 25200 BYR KARTA #4482 DATA 17.05.2016 13:43:03 ACODE 235601 SHOP N 2>MINSK>BY OSTATOK 2236639 BYR

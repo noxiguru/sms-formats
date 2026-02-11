@@ -1,0 +1,7 @@
+^Auth.*?(\d{4}) SUM.\s*-([\d\s.,]*\d) ([A-Z]{3}).*ATM.*LIM.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Auth: VISA CLASSIC (RUR) N: *4025 SUM: -7,100.00 RUR; ATM-KOSMONAVTOV42/KOSMANAVTOVSTR42/; 21.03.2014 11:54 (UTC+4); LIM: 172.95 RUR

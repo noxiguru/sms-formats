@@ -1,0 +1,10 @@
+^.opolnen.*?\*(\d{4})\.\s+(.+?)\.?\s+na\s+([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d.]{8}) .*?stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Popolnenie kontrakta *7259. PROTSENTY ZA DEPOZIT № 4102091. na 5671,23RUR. 23.04.18 23:12. Ostatok 5716,21RUR
+
+-----EXAMPLE-----
+Popolnenie kontrakta *0015. PAYRBS na 14945,86RUR. 08.05.18 11:56. Ostatok 14946,34RUR

@@ -1,0 +1,7 @@
+^.*\*(\d{4}), (\d{2}[-./]\d{2}[-./]\d{2,4}).*Iznos.*?([\d\s.,]*\d)\s*([A-Z]{3}), Trgovac: (.*?), Raspo.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Mastercard Debit ****8198, 15.03.2023. u 17:12, Iznos: 6.451,23 RSD, Trgovac: 213 - MAXI 461 - GORNJI MILANO/RS, Raspolozivo: 172.071,46 RSD

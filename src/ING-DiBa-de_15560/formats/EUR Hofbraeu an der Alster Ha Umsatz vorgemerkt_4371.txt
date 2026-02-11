@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}):\s+(.*) ║ Umsa.*
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+-60,00 EUR: Hofbraeu an der Alster Ha ║ Umsatz vorgemerkt

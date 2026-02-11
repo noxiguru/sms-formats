@@ -1,0 +1,10 @@
+^.*?(\d{4})\s+([\d.]{10}).*(?:ebit|nique).*?-([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\s+OK.\s*Dost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Karta 4.5378 12.08.2015 20:14:30 CH Debit -200 USD PEREVOD 4.5378->4.6724 www.sbsibank.by BLR OK. Dostupno 7587818 BYR
+
+-----EXAMPLE-----
+Karta 5.6543 21.08.2018 18:33:18 Unique -503.99 RUB Y.M MOSKVA G RUS OK. Dostupno 83.71 BYN

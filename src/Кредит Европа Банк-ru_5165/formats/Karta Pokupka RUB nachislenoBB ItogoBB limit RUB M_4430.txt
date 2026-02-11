@@ -1,0 +1,16 @@
+^(?!.*mena).*#\s*(\d{4}) .*okupk.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?limit.*?(-?[\d\s.,]*\d).* (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} MCC\s*(\d+)\s+(.*?)(?: Gorod .*?)?$
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dMy;mcc;payee
+
+-----EXAMPLE-----
+Karta#4186 Pokupka: 114.00RUB nachislenoBB: 5.70 ItogoBB: 15.77 limit: 72198.66RUB 26/04/19 18:20 MCC5814 BON BON        VOLZHSKIY
+
+-----EXAMPLE-----
+Karta # 7078 Pokupka: 117.00 RUB nachislenoBB: 5.85 ItogoBB: 88.76 limit: 592.72 RUB 26/12/19 11:12 MCC 5812 PEKARNYA1 SANKT-PETERBU
+
+-----EXAMPLE-----
+Karta # 3252 Pokupka: 185.00 RUB nachislenoBB: 18.50 ItogoBB: 546.68 limit: 43196.18 RUB 26/12/19 08:54 MCC 4111 OAO CPPC LUBERCY
+
+-----EXAMPLE-----
+Karta # 0752 Pokupka: 187.00 RUB nachisleno BB: 9.35 Itogo BB: 1149.33 limit: 21348.50 RUB 02/10/21 09:41 MCC 4121 Citymobil Gorod Moskva

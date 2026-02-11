@@ -1,0 +1,7 @@
+^([\d-]{10}).*Zachislen.*(\d{4}) Summa. ([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd-MM-yyyy;syncid;income;instrument
+
+-----EXAMPLE-----
+17-07-2014 16:00:53 Zachislenie na karty 6720 Summa: 200.00 RUR Mesto: TRUST ONLINE

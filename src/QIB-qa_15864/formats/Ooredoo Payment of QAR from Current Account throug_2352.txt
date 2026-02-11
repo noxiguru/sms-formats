@@ -1,0 +1,7 @@
+^.*aymen.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) from .*?\*\d*(\d{4}) thro.*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+instrument;outcome;syncid;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Ooredoo Payment of QAR 365.00 from Current Account 01***060015 through Mobile Banking Your available balance is QAR 14,195.37 27/02/22 10:39

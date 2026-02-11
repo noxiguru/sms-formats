@@ -1,0 +1,7 @@
+^.*?(\d{4}) Vozvrat.*?(\d[\d\s.,]*) ([A-Z]{3}) \S+ (.*?) ([\d.]{10}).*?Dostupno ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;date#dd.MM.yyyy;balance
+
+-----EXAMPLE-----
+RPB cardxxx1165 Vozvrat na summu 2.76 RUR Unique 80200001 W.QIWI.RU W.QIWI.RU 18.06.2013 11:14 Dostupno 11161.82 RUR

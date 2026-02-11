@@ -1,0 +1,7 @@
+^POPOLN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*KART.*?(\d{4}) .*? ([\d.]{10}) .*OSTAT.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+POPOLNENIE 33000 BYR KARTA #7804 DATA 04.04.2016 19:06:17 PERSON TO PERSON BAPB>MINSK>BY OSTATOK 8987968 BYR

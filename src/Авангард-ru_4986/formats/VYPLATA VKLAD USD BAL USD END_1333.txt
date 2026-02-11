@@ -1,0 +1,7 @@
+^VYPLATA\s+%\s+VKLAD\s+(?!.*//)([\d\s.,]*\d).*?\*\d?(\d{4})\s+BAL\s+(-?[\d\s.,]*\d).*?([\d.]{8})(?!.*VYPLATA).*
+
+-----COLUMNS-----
+income;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+VYPLATA % VKLAD 0.10 USD #*00096 BAL 0.10 USD 31.07.14 00:30 END

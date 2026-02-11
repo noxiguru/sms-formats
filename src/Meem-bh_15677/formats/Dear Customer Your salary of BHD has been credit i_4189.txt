@@ -1,0 +1,7 @@
+^.*?,\s+(.*?alary).*?([A-Z]{3})\s*([\d\s.,]*\d\.\d{2})\d .*redit.*your\s+(\w+).*?account.*ate\s+([\d/]{10}).*
+
+-----COLUMNS-----
+comment;instrument;income;syncid;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Dear Customer,   Your salary of BHD 1,435.500 has been credit into your One Pack account with value date  27/05/2019 at 13:59

@@ -1,0 +1,7 @@
+^Payment\s+of\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+at\s+(.*?)\s+(was\s+cancelled).*with\s+(\d{4}).*
+
+-----COLUMNS-----
+instrument;income;payee;comment;syncid
+
+-----EXAMPLE-----
+Payment of AED 1 at Virgin Mobile was cancelled and the amount has been credited back to your Wio Personal card ending with 8027.

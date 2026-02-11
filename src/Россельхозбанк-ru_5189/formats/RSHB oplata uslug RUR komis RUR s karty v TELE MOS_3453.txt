@@ -1,0 +1,7 @@
+^.*?([\d/]{5}).*?plata.*?([\d\s.,]*\d)\s*([A-Z]{3}).*omis.*?\.?([\d\s.,]*\d).* s .*?(\d{4}) v\s+(.*)
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;fee;syncid;payee
+
+-----EXAMPLE-----
+RSHB 07/02 13:17:24 oplata uslug 300.00 RUR komis. 3.00 RUR s karty *9575 v TELE2 MOSCOW RU

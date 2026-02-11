@@ -1,0 +1,7 @@
+^.*iangam.*? kod.*?\d{4}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Dzer miangamya kodn e: 73683  Ayl andzanc chpoxancel Qart: 4*7920 INTERPRESS.KZ 77000.00 KZT

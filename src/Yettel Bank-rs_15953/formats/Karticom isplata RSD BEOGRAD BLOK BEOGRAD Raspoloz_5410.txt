@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*splat.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*aspol\w+:\s+(?!0,00)(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karticom 5574****9126, isplata: 2,500.00 RSD, 18.09.2022, BEOGRAD BLOK 70 BEOGRAD . Raspolozivo: 1.754.701,53 RSD 0,00 EUR 0,00 USD

@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+Spis.*([\d.]{8}).*alans.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Karta **8317 66,000.00 RUR Spisanie 07.05.15 19:04 MSK Balans 0.00 RUR iBANK.ru

@@ -1,0 +1,10 @@
+^(Zachislen.*?)\s+.art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).* ([\d-]{8}) .*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;date#yy-MM-dd
+
+-----EXAMPLE-----
+Zachislenie zarplaty karta:7029 summa:16382.00 RUR balans:17955.50 RUR 18-12-21 09:18:40
+
+-----EXAMPLE-----
+Zachislenie pensii Karta:8807 summa:8643.25 RUR balans:8891.41 RUR Sotsialnye vyplaty 19-04-03 16:40:59

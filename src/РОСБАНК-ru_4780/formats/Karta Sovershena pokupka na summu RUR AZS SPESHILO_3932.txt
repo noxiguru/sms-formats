@@ -1,0 +1,22 @@
+^.*?(\d{4}).*?(?:okup|окуп).*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s*(.*?)\.\s*(?:So?\s+.*?\.\s*|Со?\s+.*?\.\s*)?(?:Ost|Ост).*?(-?[\d\s.,]*\d).*?\D(\d{2}[\./]\d{2}[\./]\d{2})(?:\D.*|$)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;date#dMy
+
+-----EXAMPLE-----
+Karta **7078.Sovershena pokupka na summu 1000.00 RUR. AZS SPESHILOVA. Ostatok: 24336.00 RUR. 18/04/13,17:15:24.
+
+-----EXAMPLE-----
+Karta **0817.Sovershena pokupka na summu 789.77 RUR.IB.ROSBANK.RU >.So scheta spisano 789.77 RUR.Ostatok:23554.27 RUR.07/05/13,07:13:09.
+
+-----EXAMPLE-----
+Карта **6222.Совершена покупка на сумму 10.00 EUR. DRIMSIM. Остаток: 131734.99 RUR. 01/06/18.
+
+-----EXAMPLE-----
+Karta **6305.Sovershena pokupka na summu 160.00 RUR. IP MATJUSHEVA N.A.. Ostatok: 164438.26 RUR. 03.10.18.
+
+-----EXAMPLE-----
+Karta **8928.Sovershena pokupka na summu 1098.00 RUR. SPORTMASTER SHOP. Ostatok: 48667.61 RUR. 06.10.18
+
+-----EXAMPLE-----
+Karta **6564.Sovershena pokupka na summu 2570.00 RUB. KASIKOMI. Ostatok: 7734.30 RUR v tom chisle kreditny limit 85000.00 07.04.19

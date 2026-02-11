@@ -1,0 +1,7 @@
+^.*(\d{4}) Sum.*?\+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+[\d:]{5,}\s+([\d-]{8}).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;date#dd-MM-yy
+
+-----EXAMPLE-----
+ENERGBANK Depozit:2259498..6745 Sum:+4647.99MDL TRANSFER SALARIU 16:09:57 20-09-17

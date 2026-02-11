@@ -1,0 +1,7 @@
+^(.*?)\s+.аланс\s+(-?[\d\s.,]*\d)\s*([A-Z]{3}|\S)\s+║\s+.*(Отмен.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s*$
+
+-----COLUMNS-----
+payee;av_balance;acc_instrument;comment;income;instrument
+
+-----EXAMPLE-----
+Bolt Баланс 1 721.49₴ ║ 🚕 Отмена 67.00₴

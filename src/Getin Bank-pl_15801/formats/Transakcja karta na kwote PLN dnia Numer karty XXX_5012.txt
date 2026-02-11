@@ -1,0 +1,7 @@
+^Transa.*wot.*?([\d\s.,]*\d)\s*([A-Z]{3}) dnia (\d{4}[-./]\d{2}[-./]\d{2}).*art.*?X\s*(\d{4}).*ostep.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;date#yMd;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Transakcja karta na kwote 59.21 PLN dnia 2021-04-22. Numer karty 5575 XXXX XXXX 9248. Dostepne srodki: 24.41 PLN

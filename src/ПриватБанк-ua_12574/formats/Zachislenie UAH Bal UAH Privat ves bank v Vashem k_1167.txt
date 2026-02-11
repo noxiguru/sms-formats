@@ -1,0 +1,7 @@
+^(.{4})\s+([\d/]{8}).*(?:achis|arahuv).*?([\d\s.,]*\d)\s*([A-Z]{3}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+4*65 06/02/14 Zachislenie 185UAH. Bal:355.83UAH  Privat24 - ves bank v Vashem kompyutere i smartfone! privat24.ua

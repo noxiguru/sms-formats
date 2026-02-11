@@ -1,0 +1,7 @@
+^.*?(\d{4}). ([\d.]{10}) [\d:]* (.*?) -([\d\s.,]*\d) ([A-Z]{3}). Balance. ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Card *1900: 16.01.2014 12:12  www.hetzner.de>Gunzenhausen DE -34.45 EUR. Balance: 385.92 RUB

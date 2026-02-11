@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*?(.(?:tmena|тмена).*?):.*?([\d\s.,]*\d)\s*([а-яA-Z]{3});\s*(?:poluchat\S+\s+|получат\S+\s+)?(.*?);\s*(?:(?:data|дата)\W?)?\s*([\d.]{10}).*?(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta *6190: Otmena operatsii: Oplata 1.00 EUR;NETFLIX COM;12.09.2019 00:00,dostupno 121.54 RUR(kred.sr. 121.54);blok 4824.00;dolg 145054.46;limit 150000.00

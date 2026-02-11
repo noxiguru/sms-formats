@@ -1,0 +1,7 @@
+^\d+-(\d{4}) - (\d{2}[-./]\d{2}[-./]?\d{0,4}) .*plat.*?([\d\s.,]*\d)\s*([A-Z]{3}) \((.*)\).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+5168-1402 - 14/08 21:20  Oplata 1150.81 UAH (SupermarketSilpo) Balance 1927.03 UAH

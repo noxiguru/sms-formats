@@ -1,0 +1,19 @@
+^.*\*(\d{4}).*?((?:.perac|Na\s+sch.*?ozvra|На\s+сч.*?озвращ).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:tmenen|\d{2}[.-/]\d{2}[.-/]\d{2}).*?)\..*
+
+-----COLUMNS-----
+syncid;comment;income;instrument
+
+-----EXAMPLE-----
+Karta **7078.Operacija rezervirovanija za pokupku ot 17/04/13 na summu 30.00 RUR otmenena. 17/04/13,09:57:24.
+
+-----EXAMPLE-----
+Karta **7078.Na schet vozvrascheno 3685.00 RUR za operaciju na summu 3685.00 RUR za datu-08/05/13.DOSTAVKA.RU.11/05/13,22:49:11.
+
+-----EXAMPLE-----
+Karta **8841.Operacija rezervirovanija za pokupku ot 15.10.18 na summu 215.00 RUR otmenena. 15.10.18.
+
+-----EXAMPLE-----
+Karta **5186.Na schet vozvrascheno 519.00 RUR za operaciju na summu 519.00 RUR za datu-28.10.18.HTTPS://ADGUARD.COM/RU.30.10.18.
+
+-----EXAMPLE-----
+Карта **6683.На счет возвращено 16805.13 RUR за операцию на сумму 16805.13 RUR за datu-14.03.19.MMR*PANDAO.17.03.19.

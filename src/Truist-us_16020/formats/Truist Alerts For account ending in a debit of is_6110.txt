@@ -1,0 +1,7 @@
+^.*nding\s+in\s+(\d{4}).*ebit\s+of.*?(\W)\s*([\d\s.,]*\d)\s+is\s+pending.*
+
+-----COLUMNS-----
+syncid;instrument;outcome
+
+-----EXAMPLE-----
+Truist Alerts: For account ending in 4125, a debit of: $81.08 is pending. Get transaction history: text LAST Balance: BAL More info: INFO. Reply HELP for help or STOP to stop alerts.

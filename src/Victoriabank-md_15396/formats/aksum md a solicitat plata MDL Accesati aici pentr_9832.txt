@@ -1,0 +1,7 @@
+(?i)autoriza(?:[țt]i)?\s+plata
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+aksum.md a solicitat plata 472.50 MDL ║ Accesati aici pentru a autoriza plata

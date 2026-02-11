@@ -1,0 +1,7 @@
+^(?:Poluchenie n|Получение н).*?([\d/]{5}).*(?:arta|арта).*?(\d{4}).*(?:umma|умма)(?!.*(?:осту|ostu)).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:omiss|омисс).*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid#cash;outcome;instrument;fee
+
+-----EXAMPLE-----
+Poluchenie nalichnyh cherez bankomat Data: 12/05 17:42 Karta: ****6569 Summa: 9000.00RUB Komissija: 0.00RUB Terminal: A0390091,MINB,Naugorskoe sh. d.76,Orel,RU

@@ -1,0 +1,7 @@
+^.*opovn.*?\d+(\d{4}) na([\d\s.',]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.',]*\d).*? ([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+OTP Smart: Popovnennya 1234567890 na 145,00 UAH vid TOV SOFT Zalyshok: 30'201,28 UAH. Nadislano: 11:24:23 14/09/2016

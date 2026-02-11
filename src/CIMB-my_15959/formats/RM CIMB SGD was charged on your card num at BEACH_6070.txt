@@ -1,0 +1,7 @@
+^.*?:\s*([A-Z]{2,3}|\W)\s*([\d\s.,]*\d)\s+was\s+charged\s+on.*card.*?(\d{4})\s+at\s+(.*)\s+on\s+(\d{2}[-./]\d{2}[-./]?\d{0,4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+RM0 CIMB: SGD 153.25 was charged on your card num 7104 at BEACH ROAD HOTEL 1886 on 12/11. Pls call the num at the back of your card for any queries.

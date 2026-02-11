@@ -1,0 +1,7 @@
+^.*opolnen.*art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Popolnenie, Karta:7406 summa:43.150,00 RUR  balans:52.196,22 RUR  (vremya operatsii MSK 2018-02-15 13:28:57)

@@ -1,0 +1,10 @@
+^(?:Pokupk|Покупк).*?(\d{4}) .(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) ([\d-]{10}).*(?:stat|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Pokupka MC7933 summa 400 KZT UBER KZ AUG06 CJZUU HE  >help.uber.comNL 2016-08-06 04:16:36. Ostatok: 4512.63 KZT
+
+-----EXAMPLE-----
+Покупка по карте 5532 Сумма: 300,00 KZT AIRASTANA.COM 2019-05-02 08:39:45 Доступно: 984 863,94 KZT

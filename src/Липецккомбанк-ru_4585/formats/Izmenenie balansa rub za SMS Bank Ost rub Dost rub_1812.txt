@@ -1,0 +1,7 @@
+^Izm.*?-([\d\s.,]*\d)\s*([a-zA-Z]{3}).*Dost.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Izmenenie balansa: -50.00 rub. za SMS-Bank. Ost. 28 203.39 rub. Dost. 28 203.39 rub.

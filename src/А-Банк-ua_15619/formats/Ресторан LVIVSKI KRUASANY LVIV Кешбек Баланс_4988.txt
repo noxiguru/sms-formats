@@ -1,0 +1,7 @@
+^(?!.*\*\d{3})\W*([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(.*?) (Кешб.*?|)\s*Бал.*?\.?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+outcome;instrument;payee;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+🍸 166.00 ₴ Ресторан LVIVSKI KRUASANY, LVIV Кешбек 4.98  ₴ Баланс: 5350.30 ₴ ║

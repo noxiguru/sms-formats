@@ -1,0 +1,3 @@
+729
+ukrsibbank
+com.ukrsibbank.client.android

@@ -1,0 +1,7 @@
+^([\d.]{5}).*\*(\d{4})\s+Поповн.*Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+13.11 14:45 Karta: *7300 Поповнення особового карткового рахунку Summa: 1,100.00 UAH Dostupno: 9209.52 UAH Kred.limit: 30000 UAH

@@ -1,0 +1,7 @@
+^([\d.]{8}).*\*(\d{4}) .*PEREVOD S .*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:BALA|DOST).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+06.12.18 14:46 KARTA ****3936 PEREVOD S KARTY 5000.00 RUB Rocketbank.ru Card2Card, RU DOSTUPNO 196.07 RUB

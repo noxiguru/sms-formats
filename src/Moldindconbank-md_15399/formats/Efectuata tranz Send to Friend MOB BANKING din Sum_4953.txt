@@ -1,0 +1,7 @@
+^.*(?:[Ss]end to |ebitare)(?!.*[Dd]isp).* din (\d{2}[-./]\d{2}[-./]\d{2,4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;syncid
+
+-----EXAMPLE-----
+Efectuata tranz. Send to Friend "MOB_BANKING" din 17.02.21 21:32. Suma:200,00 MDL. Card:4**0971.

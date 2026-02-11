@@ -1,0 +1,7 @@
+^.*?#\d*(\d{4}) Zarahovano ([\d\s.,]*\d) ([A-Z]{3}) ([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+UKRGASBANK            Na rahunok 2625#99009 Zarahovano 1000.00 UAH 12/01/2015 Zavantazhujte programu MBanking na Vash telefon  www.ukrcard.com.ua/mobile

@@ -1,0 +1,7 @@
+^.*\*(\d{4}) snyato([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{5}) .*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM;av_balance
+
+-----EXAMPLE-----
+S vashego scheta *6194 snyato 200000.00 RUB 23.04 v 11:38. Dostupniy balans: 0 RUB

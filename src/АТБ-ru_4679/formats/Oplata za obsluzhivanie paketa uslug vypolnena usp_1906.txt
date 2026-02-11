@@ -1,0 +1,7 @@
+^.*([\d.]{10}).*?(Oplata za.*?)\..*?uspesh.*?\*(\d{4})\s+Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;comment;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+28.07.2015 03:35:58 Oplata za obsluzhivanie paketa uslug. vypolnena uspeshno. VC: *8673 Summa: 49.00 RUR. Dostupno: 3923.44 RUR.

@@ -1,0 +1,10 @@
+^Telecard;\s+[^;]*?(\d{4}|[^\d\s;]+);\s+Perevod.*?([\d\s.,]*\d)\s+([A-Z]{3}).*omissiya.?\s*([\d\s.,]*\d).*([\d.]{8}).*ostupno.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;fee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Telecard; Card5054; Perevod; Summa 9000 RUR; komissiya: 90 RUR; 21.10.14 13:52:59; GAZPROMBANK; dostupno: 5060.97 RUR
+
+-----EXAMPLE-----
+Telecard; MC Standard; Perevod; Summa 5300 RUR; komissiya: 26.5 RUR; 10.12.16 12:38:59; PEREVOD NA KARTU; dostupno: 60.24 RUR

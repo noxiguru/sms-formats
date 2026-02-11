@@ -1,0 +1,7 @@
+^Pokup.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}),\s+([\d]{4}-\d{2}-\d{2})\s+[\d:]{5,},\s+(.*?)\s+.omiss.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#yMd;payee;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Pokupka 219 180.00 UZS, po karte *9702, 2023-10-14 23:40:53, UZB, ANGLESEY FOOD DP Komissiya: 0.00 UZS. Dostupno: 2 150 181.01 UZS

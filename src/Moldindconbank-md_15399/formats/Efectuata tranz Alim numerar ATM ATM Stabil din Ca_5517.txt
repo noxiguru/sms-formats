@@ -1,0 +1,7 @@
+^.*?(?:Alim.*umerar|ополн.*?нал).*din (\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*Suma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*disp.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Efectuata tranz. Alim.numerar ATM "ATM011 "Stabil"-1" din 01.11.22 16:48. Card: 4**0971. Suma: 12.000,00 MDL. Suma disp.: 31.059,02 MDL.

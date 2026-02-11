@@ -1,0 +1,7 @@
+^(?!\[).*ard (\d{4}) for ([A-Z]{3}|\W)\s*-([\d\s.,]*\d\.\d{2})\d? at (.*?) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#Mdy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Hello there! Thank you for using your card 1993 for BHD-1.850 at UNITED CATERERS AND CONAW, ALI, BHR on 01-24-2022 02:47 PM (Asia/Bahrain) Available balance BHD182.219. We are one call away 80001500 / Overseas +97317077777.

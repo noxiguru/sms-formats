@@ -1,0 +1,7 @@
+^.*?([\d-]{10}).*perac.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{3,4}).*pisan\S+\s+(.*?)\s+.ashback.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+AHB:2019-02-07 22:30:13 Operaciya na summu 640.00KZT po karte 5**419 Opisanie: TOO "RAMSTOR KAZAKHSTA Cashback:  3,20KZT Ostatok: 5103.18KZT

@@ -1,0 +1,7 @@
+^([\d-]{10}).*?SUMMA ([\d\s.,]*\d)\s*([A-Z]{3}) MESTO (.*) CARD.*?(\d{4}).*BALANCE (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+2014-05-01 18:49:03 SUMMA 257.95 RUR MESTO OLIVIE  CARD **7450 BITYA MULDER BALANCE 11 160.41

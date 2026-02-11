@@ -1,0 +1,7 @@
+^Pokupka.*?(\d{4}) summa ([\d\s.,]*\d)\s*([A-Z]{3}) (.*) ([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Pokupka MC9998 summa 200 KZT EURAZIYA 59 >URALSK KZ 2015-05-12 18:36:59

@@ -1,0 +1,7 @@
+^.*Balans v.*karty.*?(.{4})\) (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+Feb 05 2015 19:16:47, Balans vashej karty (46*00) 3657.89RUR. Na schete Bonus+ 77.53RUR

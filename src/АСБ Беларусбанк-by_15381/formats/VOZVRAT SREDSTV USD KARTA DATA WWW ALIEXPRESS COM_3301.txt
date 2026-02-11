@@ -1,0 +1,7 @@
+^(VOZVRAT.*?)([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) DATA (?!.*DATA)[\d.]{10}\s+[\d:]+\s+(.*)
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee
+
+-----EXAMPLE-----
+VOZVRAT SREDSTV 3.81 USD KARTA #1393 DATA 18.09.2017 00:00:00 WWW.ALIEXPRESS.COM /6TH FLOOR MERIDIEN GB

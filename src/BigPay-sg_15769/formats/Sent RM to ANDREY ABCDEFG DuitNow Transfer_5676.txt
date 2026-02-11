@@ -1,0 +1,7 @@
+^Sent\W? ([A-Z]{2,3})\s*([1-9]\d{0,2}(?:\s\d{3})*[,.]\d{2}|\d+[,.]\d{2}) to (.*?)\.? ║ .*
+
+-----COLUMNS-----
+instrument;outcome;payee
+
+-----EXAMPLE-----
+Sent RM10.00 to ANDREY ABCDEFG. ║ DuitNow Transfer

@@ -1,0 +1,7 @@
+^Mebl.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*agdlas.*\*(\d{4}).*(\d{2}[-./]\d{2}[-./]\d{2,4}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Mebleg: - 200.00 AZN Nagdlasdirma: ATM ***7382 Unvan: ATM PORT BAKU BP REC., AZ 24.05.22 16:41 Balans: 0.00 AZN

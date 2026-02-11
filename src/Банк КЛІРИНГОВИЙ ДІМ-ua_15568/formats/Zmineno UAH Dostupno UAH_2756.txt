@@ -1,0 +1,7 @@
+^\*(\d{4})\s+([\d.]{5}).*mineno:?\s+-([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+*8342 01.12 15:41:57 Zmineno: -10.00UAH Dostupno: +1305.26UAH

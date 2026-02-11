@@ -1,0 +1,7 @@
+^(Отмена .*?по карте)\s+(\d{4})\s+.умм.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+([\d-]{10}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Отмена операции: Покупка по карте 2538 Сумма: 22,50 KZT YANDEX.TAXI 2019-08-01 20:49:08 Доступно: 834 663,90 KZT

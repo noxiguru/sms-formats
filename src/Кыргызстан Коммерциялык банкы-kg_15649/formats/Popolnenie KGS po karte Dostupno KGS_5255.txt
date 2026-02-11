@@ -1,0 +1,7 @@
+^Popoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Popolnenie 58100.00 KGS po karte *0546, 14.01.2023 18:03. Dostupno 62918.26 KGS

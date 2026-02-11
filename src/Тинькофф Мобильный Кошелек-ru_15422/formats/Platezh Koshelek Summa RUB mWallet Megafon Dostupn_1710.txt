@@ -1,0 +1,7 @@
+^Plat.*umma ([\d\s.,]*\d)\s*([A-Z]{3}).? (.*) ([\d.]{10}).*ostupno.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Platezh. Koshelek. Summa 1290.00 RUB. mWallet.Megafon. 02.05.2015 11:35. Dostupno 790.23 RUB. wallet.tinkoff.ru

@@ -1,0 +1,10 @@
+^((?:PEREVOD|CONVERTAZIA).*?)\s+([\d\s.,]*\d).*BAL.*?(\d{4}):\s+(-?[\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+comment;outcome;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+PEREVOD RUB SEBE 22500.00 RUB, BAL #*01406: 0.00 RUB #*01994: 29358.22 RUB 02.07.13 15:38 END
+
+-----EXAMPLE-----
+CONVERTAZIA RUB -> EUR 14942.00 RUB, CURS 48.2000 RUB, BAL # *00798: 18058.00 RUB # *00443: 31122.28 EUR 05.08.14 15:17 END

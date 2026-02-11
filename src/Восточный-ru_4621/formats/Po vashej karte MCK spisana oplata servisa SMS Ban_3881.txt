@@ -1,0 +1,7 @@
+^.*art.*?(\d{4})\s+([\d/]{10}).*pisan\w*\s+(.*?):([\d\s.,]*\d)\s*([a-zA-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yyyy;comment;outcome;instrument
+
+-----EXAMPLE-----
+Po vashej karte 1195 04/09/2018 13:37:49 MCK spisana oplata servisa SMS-Bank za 04/09/2018: 89 rub. PAO KB "Vostochnyj"

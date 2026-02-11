@@ -1,0 +1,7 @@
+^([\d.]{8}).*arta.*?(\d{4}).*okupk.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\.\s*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+21.12.15 08:01 Karta 5016, pokupka 182.00RUB AZBUKA VKUSA, RU. Balans 5333.49RUB

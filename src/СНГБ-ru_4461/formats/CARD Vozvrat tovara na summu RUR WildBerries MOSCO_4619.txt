@@ -1,0 +1,7 @@
+^.*CARD(\d{4}).*(.ozvrat.*?)(?:\s+na\s+sum.*?)([A-Z]{3})\s*<\+([\d\s.,]*\d)>\s+(.*?)\.\s+B\s*$
+
+-----COLUMNS-----
+syncid;comment;instrument;income;payee
+
+-----EXAMPLE-----
+18:04 CARD9614: Vozvrat tovara na summu RUR <+1,156.00> WildBerries/MOSCOW OBL,/RU. B

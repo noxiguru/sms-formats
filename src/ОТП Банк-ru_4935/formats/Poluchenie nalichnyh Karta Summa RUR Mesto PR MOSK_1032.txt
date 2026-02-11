@@ -1,0 +1,7 @@
+^([\d.]{5}).*?Poluchenie n.*?\*(\d{4}).*?umm.*?-?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+31.10 18:16 Poluchenie nalichnyh. Karta *1273. Summa: -40000.00 RUR. Mesto: PR.MOSKOVSKIY,126 ST. PETERSBU. Dostupno: 94236.62 RUR. OTP Bank

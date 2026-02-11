@@ -1,0 +1,7 @@
+^Vydacha n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(\d\d\.[\d.]{5}).*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yy;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Vydacha nalichnykh 10000.00RUB.RGS Bank NSB ATM, BARNAUL, SOVETSKAYA STR. 4,13.08.15 14:15, karta*2291.balans 29243.29RUB, cred. limit: 70000.00 RUB

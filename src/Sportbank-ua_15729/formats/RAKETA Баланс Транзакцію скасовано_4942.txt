@@ -1,0 +1,7 @@
+^(.*?)\s+Баланс (-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{3}|\W) ║ Транз.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W) скасов.*
+
+-----COLUMNS-----
+payee;av_balance;acc_instrument;income;instrument
+
+-----EXAMPLE-----
+RAKETA Баланс 8 626,48₴ ║ Транзакцію 1,00₴ скасовано.

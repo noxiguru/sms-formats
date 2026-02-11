@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+-([\d\s.,]*\d)\s*([A-Z]{3}).*oluchat.*?:\s+(.*)\s+Detali.*ostat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+EE1234567890 -484.05EUR Poluchatel': STICHING DUWO KANAALWEG 4, 2528 EB DELFT, THE NETHERLANDS Detali: VMK -&gt;1234567890 RENT. Dostupnyj ostatok: 120.96EUR

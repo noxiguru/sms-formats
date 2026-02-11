@@ -1,0 +1,10 @@
+^.*?(?:писан|окупк).*?\*([\d]{4})\s+([\d-]{8})(?!.*омисс) .*умм.*?([\d\s.,]*\d)\s*([A-Z]{3}).*есто\s+(.*)\s+Дост.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Списание с карты  MC  *9610 21-04-15 21:33:44 Сумма 749.00 RUR Место MOSCOW 220 VOLT Доступно всего 89 390.40 RUR  https://online.binbank.ru За эту операцию будет начислен CashBack  7.49  RUR
+
+-----EXAMPLE-----
+Покупка по карте VISA *4406 24-08-16 15:18:37 Сумма 975.64 RUR Место KRASNOYARSK GIPERMARKET ALLEYA Доступно всего 20 397.06 RUR https://online.binbank.ru

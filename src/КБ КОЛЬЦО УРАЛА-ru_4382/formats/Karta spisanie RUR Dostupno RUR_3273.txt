@@ -1,0 +1,10 @@
+^.*art.*?(\d{4})\D? ([\d.]{10}).*(?:pisan|as[hx]od).*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+.(?:ostu|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 8793: 13.11.2017 10:51, spisanie 18530.00 RUR. Dostupno 2.86 RUR.
+
+-----EXAMPLE-----
+Karta 2088: 15.03.2018 rasxod 28584.52 RUR. Balans 59992.14 RUR.

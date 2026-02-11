@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+Nal.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}).*alans.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Card*8317 Nalichnye 100,000.00 RUR 10.06.15 15:00 MSK Balans 25,000.00 RUR KOMSOMOLSKIY PR-T, 32 (MOSCOW,RU) iBANK.ru

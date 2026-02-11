@@ -1,0 +1,7 @@
+^.*?алан.*?\*(\d{4}) пополн.*?([\d-]{10}) на ([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+баланс вашей карты *9179 пополнился 2018-05-15 на 21886 RUR. доступный остаток: 22153.1 RUR. raiffeisenbank

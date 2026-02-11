@@ -1,0 +1,10 @@
+^.(?:art|арт).*?(\d{4}) .(?:okupka|плата тов\S+)\s+\(?(.*?)\)?\s+.(?:umm|умм).*?([\d\s.,]*\d)\s*([а-яA-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 6x7142 Pokupka (MERKURIY) Summa 161.83 RUR Dostupno 7 576.65 RUR
+
+-----EXAMPLE-----
+Карта 4***8244 Оплата товаров GIPERMARKET GIGANT, NOVOSIBIRSK Сумма: 444.59 руб Доступно: 3 156.87 руб Лимит овердрафта: 0 руб. Поддержка: (383) 217-23-23, 88001007040

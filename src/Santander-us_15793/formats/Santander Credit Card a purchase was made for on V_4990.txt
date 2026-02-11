@@ -1,0 +1,10 @@
+^.*ard.*?(\d{4}).*(?:urchas|ransaction).*(?:for|of) (\S+?)\s*([\d\s.,]*\d).* on (\d{2}/\d{2}/\d{2})\D.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#Mdy
+
+-----EXAMPLE-----
+Santander Credit Card 2881: a purchase was made for $71.86 on 11/28/20. Visit our website or call 18777682265 for details.
+
+-----EXAMPLE-----
+Santander DEBIT Card ending in 4479 Alert: A transaction of $20.00 was made on 07/17/23. If you did not make this transaction, call 1-877-768-2265.

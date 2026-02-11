@@ -1,0 +1,7 @@
+^([\d.]{8}).*плата([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4})\s+(?!.*Доступно)(.+)
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;syncid;payee
+
+-----EXAMPLE-----
+04.04.16 18:12 Оплата 230.00 RUR карта 2430 MAGAZIN POZITIV, PUSHINРОССИЙСКИЙ КАПИТАЛ

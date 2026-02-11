@@ -1,0 +1,7 @@
+^Oper.*\*(\d{4})\s+SUM\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(otme.*?)\..*
+
+-----COLUMNS-----
+syncid;income;instrument;comment
+
+-----EXAMPLE-----
+Operatsiya po karte 4693****1089 SUM 1222.00 RUB otmenena. Dengi vozvrasheny v vash QIWI Wallet

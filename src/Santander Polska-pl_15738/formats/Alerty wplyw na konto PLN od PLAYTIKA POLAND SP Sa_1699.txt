@@ -1,0 +1,7 @@
+^.*plyw.*?(\d{4}) \* ([\d\s.,]*\d)\s*([A-Z]{3}) od (.*?)\.? (\d{2}[-./]\d{2}[-./]\d{2,4}) \* Sald.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Alerty24: wplyw na konto ...147534704 * 12 783,30 PLN od PLAYTIKA POLAND SP. 08-04-2021 * Saldo po operacji: 13 205,01 PLN

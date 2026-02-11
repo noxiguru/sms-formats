@@ -1,0 +1,7 @@
+^.*?([\d/]{4}).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3});\s*([\d.]{10});\s*(.*?)\. Spra.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;payee
+
+-----EXAMPLE-----
+Karta 0351: spisanie 892.32 RUR; 11.11.2016; YM *AliExpress.com. Spravka: 88002502777

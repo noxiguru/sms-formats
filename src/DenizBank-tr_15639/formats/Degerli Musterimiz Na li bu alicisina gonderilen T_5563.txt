@@ -1,0 +1,7 @@
+^Degerli Musterimiz, (.*?) alicisina gonderilen ([\d\s.,]*\d)\s*([A-Z]{2,3}).*
+
+-----COLUMNS-----
+payee;outcome;instrument
+
+-----EXAMPLE-----
+Degerli Musterimiz, Na**** li**** bu**** alicisina gonderilen 178,00 TL tutarinda FAST odemeniz gerceklesmistir. Bilgi:08502220800 Mersis:1234567890 B002

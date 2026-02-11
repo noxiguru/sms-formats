@@ -1,0 +1,13 @@
+^([\d.]{5}) .*(?:CARD\W.\d*|\*)(\d{4}).*?\+([\d\s.,]*\d).*?=(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dM;syncid;income;av_balance
+
+-----EXAMPLE-----
+05.08 13:11 CARD.8032880877.980 +6034.65 =6034.65
+
+-----EXAMPLE-----
+14.02 11:31 440271*9020.8112508711.980 +84,15 =145,68 UKR Visa Direct CH Payment RBA PORTMONE C2C 1.Suma operaciji UAH 85. KOMISIYA:.85
+
+-----EXAMPLE-----
+07.07 11:25 CARD.8002905140.980 +5152,29 =20624,02

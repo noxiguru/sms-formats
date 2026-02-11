@@ -1,0 +1,7 @@
+^([\d.]{10}).*(?:[Вв]знос|[Vv]znos).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*(?:stat|стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;income;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+15.07.2019 10:13 Взнос 100000.00KZT, карта 3**9672. Остаток 185293.77KZT

@@ -1,0 +1,7 @@
+^.*?LV\S+(\d{4})\s+\+([A-Z]{3})\s*([\d\s.,]*\d)\s+no\s+'(.*?)'.*tlik.*?(-?[\d\s.,]*\d).*?([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;instrument;income;payee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Ieskaitijums LV77UNLA1234567890 +EUR 89,15 no 'GIRTS BERGINS', pieejamais atlikums EUR 1026,00 (01.08.2016. 08:52)

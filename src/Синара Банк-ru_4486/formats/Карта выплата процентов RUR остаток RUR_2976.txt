@@ -1,0 +1,7 @@
+^.*?(\d{4}) (выплата пр.*?)([\d\s.,]*\d)\s*([A-Z]{3}) ([\d/]{10}).*стат.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Карта 4...7336 выплата процентов 1145,04 RUR 01/05/2017 остаток 152859,19 RUR

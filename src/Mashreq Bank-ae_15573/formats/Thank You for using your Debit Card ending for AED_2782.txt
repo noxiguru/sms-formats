@@ -1,0 +1,16 @@
+^.*end.*?(\d{4}) .*?for (?!.*ithdraw).*?([A-Z]{3})\s*([\d\s.,]*\d) at (.*) on (\d{1,2}[\s-]?\S{3}[\s-]?\d{2,4}).*(?:Avl|vail).*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Thank You for using your Debit Card ending 9299 for AED 131.32 at AL BATEEN MALL S,ABUDHA,AE on 18Dec16 07:00 PM. Avl. Bal is AED  44310.27.
+
+-----EXAMPLE-----
+Thank You for using Etisalat Card ending 7252 for AED 100.00 at LIFESTYLE CITY L,DUBAI ,AE on 29Jan17 02:50 PM. Avl. limit is AED  5199.06. Congrats, on this transaction you have earned 500 Etisalat Points.T&C
+
+-----EXAMPLE-----
+our Visa Platinum Debit Card ending with 6842 was used for a purchase of AED 20.00 at VIRGIN MOBILE (EITC) DUBAI AE on 30Apr18 07:23 AM. Available balance is AED 306244.35.
+
+-----EXAMPLE-----
+Thank you for using VISA Solitaire Infinite Card ending 0052 for AED 195.00 at TILAL LIWA HOTEL on 10-APR-2021 01:11 PM. Avl.Limit is AED 31,805.00.

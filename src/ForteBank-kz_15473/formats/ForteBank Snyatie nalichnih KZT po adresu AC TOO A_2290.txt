@@ -1,0 +1,7 @@
+^.*nyat.*?nal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*data\s+(\d{1,2}\s+\w{3}\s+\d{4}).*art.*?\*(\d{4})\s+.*\s+OK.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd MMM yyyy;syncid#cash;av_balance
+
+-----EXAMPLE-----
+ForteBank. Snyatie nalichnih 8 000.00 KZT po adresu AC711077, TOO Aport, data 13 mar 2016, vremya 15:51:28, karta 4042********8438 status OK, ostatok 27 517.70 KZT. Tel: +7(727)2583555

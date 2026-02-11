@@ -1,0 +1,7 @@
+^Otmena.*([\d.]{10}).*art.*?(\d{4}) ([\d\s.,]*\d)\s*([a-zA-Z]{3})\.?\s+(.*?)\s+Ost.*ost\.?.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Otmena pokupki 11:27 02.01.2017 karta 4*8846 30.00 rub. GOOGLE *SERVICES Ost. 969.71 rub. Dost. 969.71 rub.

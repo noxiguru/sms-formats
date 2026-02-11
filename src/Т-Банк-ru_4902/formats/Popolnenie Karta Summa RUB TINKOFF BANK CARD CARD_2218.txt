@@ -1,0 +1,10 @@
+^(?:Popolnenie|Пополнение).*?\*(Koshelek|\d{4})\.\s+(?:.umm\S+|.умм\S+)?(?!.*tpravit|тправит)([\d\s.,]*\d)\s*([A-Z]{3}).*?([\d.]{10}).*?(?:ostup|оступ).*(?:limit|лимит).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Popolnenie. Karta *2255. Summa 16300.00 RUB. TINKOFF BANK CARD2CARD, MOSCOW. 07.02.2016 22:19. Dostupno s uchetom rashodnogo limita 30000.00 RUB. www.tinkoff.ru
+
+-----EXAMPLE-----
+Popolnenie. Karta *0299. 5000.00 RUB. Drugoy bank. 044525142, 1234567890. 23.06.2017 17:57. Dostupno s uchetom rashodnogo limita 1.00 RUB. Tinkoff.ru

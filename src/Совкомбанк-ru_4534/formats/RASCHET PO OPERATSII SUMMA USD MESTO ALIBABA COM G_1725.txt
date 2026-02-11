@@ -1,0 +1,7 @@
+^([\d.]{8}).*RASCHET.*?([\d\s.,]*\d)\s*([A-Z]{3}) MESTO (.*) CARD.*?(\d{4}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;income;instrument;comment;syncid;av_balance
+
+-----EXAMPLE-----
+12.05.15 08:50 RASCHET PO OPERATSII SUMMA 2.52 USD MESTO ALIBABA.COM, GBR CARD *3540 DMITRII TCYGANOV BALANCE 5 583.81

@@ -1,0 +1,10 @@
+^.*?(?:payment|ransfer).*?([A-Z]{3})\s*([\d\s.,]*\d).*(?:from|against).*?(\d{4}) .*?on ([\d-]{10}).*?(?:alan|imit).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+Your payment of AED 9222.12 against Credit Card no. XXX3186 using Account Number XXX132001 was received at 14:51:10 on 29-07-2016 through ADCB Personal Internet Banking. Available Balance in your account is AED 10780.66. Thank you.
+
+-----EXAMPLE-----
+Money Transfer request of EUR1,390.00 from Cr.Card XXX 1871 via ADCB Personal Internet Banking on 19-07-2018 16:39:06 successful. Avail.credit limit AED71683.00.

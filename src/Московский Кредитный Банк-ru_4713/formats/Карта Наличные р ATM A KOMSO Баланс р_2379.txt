@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*аличн.*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта*1700 Наличные 5000.00р ATM 60014585 3 A KOMSO Баланс 3228.80р

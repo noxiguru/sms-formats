@@ -1,0 +1,10 @@
+^Acc(?!.*APPCODE).*?(\d{4})\s+Amou.*?-([\d\s.,]*\d)\s+Bala.*?([\d\s.,]*\d)\s+(.*)
+
+-----COLUMNS-----
+syncid;outcome;av_balance;payee
+
+-----EXAMPLE-----
+Account 4623232323
+Amount: - 14,115,000
+Balance: 19,943,953
+NGUYEN NHAT TAN

@@ -1,0 +1,10 @@
+^(?:Списание|Spisanie).*?\*\d*(\d{4}).*?(\d[\d\s.,]*)\s*([A-Z]{3}). (?:остаток|ostatok) (-?[\d\s.]*\d).*?([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Списание со счёта SAFE номер *1491485: 1000 RUR; остаток 76209.17 RUR; 17.03.2013 16:41;
+
+-----EXAMPLE-----
+Spisanie so scheta SAFE nomer *1651211 na summu 3951.02 RUR; ostatok 350000 RUR; 16.01.2014 17:51

@@ -1,0 +1,7 @@
+^(.{4}).*(?:OPOL|opol.*?) ([\d\s.,]*\d)\s*([A-Z]{3}).*Bal:\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;av_balance
+
+-----EXAMPLE-----
+5*71 18:13 Popolnenie 10000.00RUR (MOH0). Bal:138266.34RUR

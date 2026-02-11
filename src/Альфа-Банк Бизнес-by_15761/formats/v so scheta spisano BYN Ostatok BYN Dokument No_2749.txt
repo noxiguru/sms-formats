@@ -1,0 +1,13 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*so sch.*?(\d{4})(?:0000)?\s+spisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+22.11.2016 v 09:27 so scheta: 1234567890 spisano: 11.10 BYN Ostatok: 218.09 BYN Dokument No: 36499789
+
+-----EXAMPLE-----
+24.12.2020 v 15:15 so scheta: BY42ALFA1234567890 spisano: 22000.00 BYN Ostatok: 253.46 BYN Dokument No: 1234567890
+
+-----EXAMPLE-----
+21.12.2020 v 08:08 so scheta: BY30ALFA1234567890 spisano: 20.00 BYN Ostatok: 487.20 BYN Dokument No: 52381642

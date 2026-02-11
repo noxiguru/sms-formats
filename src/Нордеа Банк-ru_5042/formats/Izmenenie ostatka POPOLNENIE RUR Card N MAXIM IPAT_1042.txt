@@ -1,0 +1,7 @@
+^.*POPOLNENIE ([\d\s.,]*\d) ([A-Z]{3}).*?(\d{4}).*Balance. (-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: POPOLNENIE 13300,00 RUR Card_N**0444 MAXIM IPATOV  Balance: 14409,11  2013-11-06 00:00:00

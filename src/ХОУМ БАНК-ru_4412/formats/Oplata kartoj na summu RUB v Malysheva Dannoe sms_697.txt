@@ -1,0 +1,7 @@
+^(?:Oplata|Оплата).*?\*(\d{4})\s+(?:na\s+summu|на\s+сумму)\s+([\d\s.,]*\d)\s+([A-Z]{3})\s+(?:v|в)\s+([^;]*);\s+([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Oplata kartoj *1888 na summu 10987.00 RUB v Malysheva-84; 01.04.2013 17:37:28. Dannoe sms besplatnoe.

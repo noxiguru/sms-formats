@@ -1,0 +1,7 @@
+^(Transfer\s+to.*?)\.\s+(\S+)\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+║\s+[-−]([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+from\s+.*
+
+-----COLUMNS-----
+comment;syncid;av_balance;acc_instrument;outcome;instrument
+
+-----EXAMPLE-----
+Transfer to the Pay card. Saver balance: 449 442,53 ₽ ║ −1 000 ₽ from saver

@@ -1,0 +1,7 @@
+^.pisanie\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)(?:,\s+Litcev.*?)?;.*(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+spisanie 58 BYN MTS, Litcevoy schet: 001078598>MINSK>BLR; MCC 6012'; '17/09/2024; Dostupno: 1039.95 BYN

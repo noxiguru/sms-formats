@@ -1,0 +1,2 @@
+VBRR
+com.bssys.vbrrretail

@@ -1,0 +1,13 @@
+^(OTMENA P.*?)([\d\s.,]*\d)\s*([A-Z]{3}).*KART.*?(\d{4})\.?\s+(.*?)\.?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*OST.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+OTMENA PLATEZHA 664.90 RUR PO KARTE 9687. AZS 322, KURGAN. 07.05.17 03:25 MSK.OSTATOK 14889.45 RUR
+
+-----EXAMPLE-----
+OTMENA PLATEZHA 1.00 RUR PO KARTE 2220. B2P*Payment UL PR, G SANKT-PETER. 01.03.2023 13:42 MSK.OSTATOK 150050.82 RUR. ║
+
+-----EXAMPLE-----
+OTMENA PLATEZHA 1.00 RUR KARTA *2975 T-Bank Card2Card, MOSCOW 10.02.2025 15:05 MSK. OSTATOK 6791.22 RUR ║

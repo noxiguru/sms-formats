@@ -1,0 +1,7 @@
+^Votre\s+paiem.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+chez\s+(.*?)\s+a\s+été.*succès.*
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+Votre paiement de 3,21 € chez MC DONALD'S PASEO DE G a été traité avec succès. ║

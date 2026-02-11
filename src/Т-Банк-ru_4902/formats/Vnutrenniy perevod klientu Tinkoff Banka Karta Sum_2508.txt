@@ -1,0 +1,10 @@
+^.*?(?:erevod|еревод).*?\*([\d]{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}).*?oluchatel[\s-]+(.+?)\.\s+([\d.]{10}).*(?:ostu|осту)(?!.*limit).*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Vnutrenniy perevod klientu Tinkoff Banka. Karta *3552. Summa 1500.00 RUB. Poluchatel - Berdichevskiy Vladislav. 08.07.2016 20:07. Dostupno 292488.93 RUB. www.tinkoff.ru
+
+-----EXAMPLE-----
+Vnutrenniy perevod klientu Tinkoff Banka. Karta *9535. 500.00 RUB. Poluchatel - Kruzhkova Elizaveta. 23.06.2017 14:25. Dostupno 17156.40 RUB. Tinkoff.ru

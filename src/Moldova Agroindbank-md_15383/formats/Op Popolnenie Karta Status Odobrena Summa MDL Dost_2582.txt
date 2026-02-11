@@ -1,0 +1,10 @@
+^Op:\s+(?:Popoln|Aliment).*?\*(\d{4}).*(?:dobren|eusit).*umm?a:\s+([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:ost|isp):\s+(-?[\d\s.,]*\d).*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Op: Popolnenie Karta: *0593 Status: Odobrena Summa: 5560,92 MDL Dost: 5613,8 Data/vremya: 19.08.16 17:17 Adres: Bankovskaya Sistema Podderzhka: +37322450603
+
+-----EXAMPLE-----
+Op: Alimentare Card: *2259 Statut: Reusit Suma: 10000 MDL Disp: 18442,13 Data/ora: 11.10.24 16:33 Locatie: MAIB Suport: +37322450603

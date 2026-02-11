@@ -1,0 +1,16 @@
+^.*(?:NIKOMU NE|ikomu ne|parol|НИКОМУ НЕ|икому не|пароль|(?:[Кк]од|[Kk]od): \d{6}).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Nikomu ne soobschajte etot parol'! Platezh 5 100.00 rub Poluchatel' RNKB Schet spisaniya 1234567890 Odnorazovyj parol': 489820
+
+-----EXAMPLE-----
+Perevod klientu RNCB, O-a NATALYa P., 21.07.21 1000RUR. Nikomu ne soobshajte kod: 220286 ║
+
+-----EXAMPLE-----
+Bystryj perevod (SBP) 12 ot 08.02.2024 10.00 RUR Stanislav Pavlovich L Kod: 207396 ║
+
+-----EXAMPLE-----
+Otkrytie vklada Maksimal'nyj Summa 170 000.00 RUR Kod: 706354 ║

@@ -1,0 +1,7 @@
+^(?!.*ergi).*-([\d\s.,]*\d)\s*([A-Z]{3}) (.*?)\s*.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;av_balance;acc_instrument;date#dMy;syncid
+
+-----EXAMPLE-----
+Mebleg: -1.89 AZN BRAVO AMAZON Balans: 9668.88 AZN 30-03-2022 13:10 Kart: *9690 Kart qaligina nezaret etmek ucun https://unbk.az/3hh0Rdl yukle!

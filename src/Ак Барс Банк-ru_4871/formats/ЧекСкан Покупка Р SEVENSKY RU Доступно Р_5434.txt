@@ -1,0 +1,7 @@
+^(ЧекСкан).*окуп.*?([\d\s.,]*\d)\s*([а-яa-zА-ЯA-Z]{1,3})\W+(.*?)\W? .осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zА-ЯA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+ЧекСкан: Покупка 100.00 Р.,  SEVENSKY.RU. Доступно 0.00 Р.

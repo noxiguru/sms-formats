@@ -1,0 +1,7 @@
+^.*?\*\d*(\d{4}).*alichn.*?,?([\d\s.,]*\d)\s*([a-zA-Z]{3}).* ([\d.]{8}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+EMB karta *058472, Nalichnye, 500.00 rub, 16.01.17 15:13, NAB.OBVODNOGO KANALA,150/1 A, 1000, Saint-Petersburg, Rossijskaja Federacija, balans - Dostupno = 1035.67 rub

@@ -1,0 +1,7 @@
+^Oplata v ad\w+\s+(.*?)\s+\*(\d{4}) ([\d.]{10}) [\d:]{5,} ([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+payee;syncid;date#dd.MM.yyyy;outcome;instrument
+
+-----EXAMPLE-----
+Oplata v adres SOAO 'VSK' *5878 09.01.2020 06:33 279.27 RUR; Podrobneе: mtsbank.ru/s-kk

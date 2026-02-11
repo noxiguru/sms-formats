@@ -1,0 +1,13 @@
+^.*?(\d{4}).* ([\d.]{8}) .*(?:писан|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3}).?\s+(.*?)\.\s+.(?:стат|stat|ostu|осту).*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+*1387: 27.05.15 16:03 Списание: 1.00 USD, HUMBLEBUNDLE.COM, SAN FRANCISCO. Остаток 47904.30 RUB
+
+-----EXAMPLE-----
+Karta 5369:  28.01.16 11:36, spisano 10286.76 RUR, 3DI TINKOFF BANK CARD2CAR, MOSCOW.   Dostupno 0.00 RUR.
+
+-----EXAMPLE-----
+Карта 9159:  28.12.17 16:32, списано 43138.00 RUR, 3DI Rocketbank.ru Card2Ca, MOSCOW.   Доступно 12767.67 RUR.

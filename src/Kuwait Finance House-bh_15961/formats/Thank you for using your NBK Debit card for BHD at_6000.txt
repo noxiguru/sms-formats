@@ -1,0 +1,7 @@
+^.*card\s+(\d{4})\s+for\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d?\s+at\s+(.*?)\s+on\s+([\d]{2}[-\s+](?:\w+|\d{2})).*vail.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dM;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Thank you for using your NBK Debit card 8200 for BHD 34.000 at NEC B.S.C CLOSED MANAMA on 04 Oct 2023 at 08:28. Available Balance: BHD 4,442.890. For enquiry, please call 17155555

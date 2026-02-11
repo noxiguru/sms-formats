@@ -1,0 +1,10 @@
+^.*?([\d/]{5}).*art.*(\d{4})\s+Sum.*?=\s*(?!-)([\d\s.,]*\d)\s*([A-Z]{3}).*Usp.sh.*alan.*?(-?[\d\s.,]*\d).*M.st\S+:(?!.*ATM)(.*)
+
+-----COLUMNS-----
+date#dd/MM;syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+!uvedomlenie! Data:13/09 17:48 Karta:****-0152 Summa= 100RUB(Uspeshno) Balans= 31260.28UAH  Mesto:ROBOKASSA(1234567890)
+
+-----EXAMPLE-----
+Data:12/02 15:59 Kartka:*3463 Suma= 248.27UAH(Uspishno) Balans= 1278.91UAH  Mistse:MAGAZYN 0629

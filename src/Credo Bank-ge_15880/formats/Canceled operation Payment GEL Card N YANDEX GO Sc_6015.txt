@@ -1,0 +1,7 @@
+^(Cancel.*?)\s+[Pp]aym.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Canceled operation Payment: 9.60 GEL Card N ****7658 YANDEX GO>Schipol NL 11/10/2023 04:04:04

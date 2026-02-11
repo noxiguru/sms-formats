@@ -1,0 +1,13 @@
+^.*(?:ACXOD|плата).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+([\d.]{8}) .*?[BВ]\s+(?!.*ATM)(.+?)\.?\s*(?:OCTAT|.стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+IZMENENIE, PACXOD HA CYMMY 247.28 RUB, KAPTA:4779*6980 15.07.15 19:18 B "TEOREMA GIPERMARKET" RU. OCTATOK 1321.05
+
+-----EXAMPLE-----
+Оплата 288.90 RUR карта:220009*2296 30.11.17 16:18 B PERVYY KEGOVYY RUS. Остаток 8527.46 RUR ЧЕЛИНДБАНК
+
+-----EXAMPLE-----
+Оплата 785.00 RUR карта:220009*2296 23.02.18 11:00 B OOO PLANETA MIR DETSTVA RU остаток 11417.18 RUR

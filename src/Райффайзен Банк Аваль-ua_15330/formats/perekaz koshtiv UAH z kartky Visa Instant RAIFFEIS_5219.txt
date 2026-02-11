@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*erekaz.*?([\d\s.,]*\d)\s*([A-Z]{3}) z .*?(\d{4}).*(?:riento|рієнто|риент|pproxim|vailab|ostup|осту|alan|алан).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+06.01.22 14:17 perekaz koshtiv 200.00 UAH z kartky Visa Instant*2298 RAIFFEISEN ONLINE UAH. Dostupna suma 7532.01 UAH

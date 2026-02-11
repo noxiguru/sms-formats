@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d-]{10}).*PURCHASE([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\s+BALANCE(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+BANK OF CYPRUS *0462 2016-03-28 22:56:02 PURCHASE 100.00 UAH LIQPAY*WPHostMe DNEPR UA BALANCE 2477.36 UAH

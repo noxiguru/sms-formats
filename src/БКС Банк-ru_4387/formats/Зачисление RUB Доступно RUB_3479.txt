@@ -1,0 +1,7 @@
+^\*(\d{4}) .ачисл.*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+*2285 Зачисление 3937.92 RUB. Доступно: 15602.09 RUB 12.04.2021 14:31

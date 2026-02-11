@@ -1,0 +1,7 @@
+^Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ebit.*?([\d-]{10}).*ontu.*?(\d{4}) .*atre\s+(.*?)\.?\s+.old.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd-MM-yyyy;syncid;payee;av_balance
+
+-----EXAMPLE-----
+Suma 181.44 RON a fost debitata in 16-10-2018 din contul 1234567890 - Transfer Home'Bank catre E.ON Energie Romania SA. Sold: 822.96 RON.

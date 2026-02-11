@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})\s+REALIZ.*?(?:Odbi|Rece)\w+:\s*(.*?)\s+(?:Tytuł|Title):\s+(.*?)(?:Na\s+rach|On\s+acc).*?(\d{4})\D.*\s+(\d{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;payee;comment;syncid;date#yMd
+
+-----EXAMPLE-----
+-3800,00 PLN REALIZACJA ZLECENIA STAŁEGO Numer rachunku odbiorcy: 82..7968 Odbiorca: MACIEJ MICKER    Tytuł: RENT OF APARTMENT SOWINSKIEGO, 41A, 16  Na rachunku 87..2330 Data waluty: 2022-09-01 ║ Obciążenie rachunku

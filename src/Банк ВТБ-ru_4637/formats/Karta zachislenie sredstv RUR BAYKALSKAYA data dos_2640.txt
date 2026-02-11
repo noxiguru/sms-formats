@@ -1,0 +1,61 @@
+^.*\*(\d{4}).*(?:opoln|achisl|ostupl|ополнен|ачисл|оступл)(?!.*(?:zarab|зараб)).*?[,.]?\s+((?![.,])[\d\s.,]*\d)\s*([а-яA-Z€$]{1,3}).*\D(\d{2}[./]\d{2}[./]\d{2,4})\D.*(?:stat|ostu|стат|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance
+
+-----EXAMPLE-----
+Karta *5292: zachislenie sredstv 10500.00 RUR; 241, BAYKALSKAYA; data: 30.10.2013 03:40; dostupno 11250.6 RUR (v tom chisle kred. 0.00 RUR). VTB24
+
+-----EXAMPLE-----
+Karta *5336: zachislenie 13038.99 RUR; 35, MIYASNITSKAYA; 05.04.2016 20:33, dostupno 13912.07 RUR (v tom chisle kred. 0.00 RUR). VTB24
+
+-----EXAMPLE-----
+Schet *6987: postuplenie 12000 RUB; 16/09/2016 23:37:48; Dostupno 13971.73 RUB.VTB24
+
+-----EXAMPLE-----
+Schet *0831: postuplenie 273.85 RUB; 26.09.2016 10:04:48; Dostupno 5547.42 RUB.VTB24
+
+-----EXAMPLE-----
+Счет *6638: поступление 10000.00 RUB; 01.04.2017 12:28:16; Доступно 10000.00 RUB.ВТБ24
+
+-----EXAMPLE-----
+Schet *6987: postuplenie 10000.00 RUB; 29.10.2017; dostupno 10794.00 RUB (sobstv. sredstva: 10794.00 RUB). http://p.vtb24.ru/smartb
+
+-----EXAMPLE-----
+Karta *6979 Popolnenie, 20000.00 RUR MB.P2P 05.01.18 16:12 MSK Ostatok 54540.88 RUR
+
+-----EXAMPLE-----
+Karta *4833 drugie zachislenija 4871.17 RUR YM*AE_SALE000007 25.01.18 12:00 MSK Ostatok 7647.39 RUR
+
+-----EXAMPLE-----
+Karta *8895:zachislenie 750.00 RUB;VRB_MC;07.09.2018 15:24,dostupno 121543.52 RUB.
+
+-----EXAMPLE-----
+Karta *0408: zachislenie ot TINKOFF BANK CARD2CARD 250.00 RUB;TINKOFF BANK CARD2CARD;20.12.2018 19:55,dostupno 1.00 RUB
+
+-----EXAMPLE-----
+Schet *7164: postuplenie ot BANK GPB (AO) so scheta 4070281 43568.00 RUB; 14.03.2019 11:30:05;dostupno 44937.19 RUB
+
+-----EXAMPLE-----
+Schet *6987: postuplenie 10000 RUB; 17.07.2019 12:12:44;dostupno 15484.06 RUB
+
+-----EXAMPLE-----
+Karta *8795: zachislenie 2400 RUB;VB24;16.07.2019 08:27,dostupno 4267.1 RUB
+
+-----EXAMPLE-----
+Karta *0408: zachislenie ot TINKOFF BANK CARD2CARD 4718.1 RUB;TINKOFF BANK CARD2CARD;20.07.2019 20:01,dostupno 4803.18 RUB
+
+-----EXAMPLE-----
+Карта *9047: зачисление 81490.00 руб; Банк ВТБ (ПАО); 26.08.2019 15:22, доступно 292655.07 руб (кредитные средства 292655.07);блок 0.00;долг 148834.93;лимит 360000.00
+
+-----EXAMPLE-----
+Карта *4833 Безналичное пополнение 1000.00 RUB 28.09.19 18:28 МСК  Доступно 802.50 RUB долг 0 блок 895.10 ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Счет *0109: поступление 0.09 €; Начисление кэшбек 27.09.2019 12:24:48; доступно 6.61 € ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Карта *8377 Пополнение, 780.00 RUB Банк ВТБ (ПАО) 05.10.19 15:37 МСК Остаток 1163.19 RUB долг 0 блок 69 594.81 ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Schet *1877: postuplenie . 3357.29 RUB; 10.03.2020 05:06:57;dostupno 43000.00 RUB

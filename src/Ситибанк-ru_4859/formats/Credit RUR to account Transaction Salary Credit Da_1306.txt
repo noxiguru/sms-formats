@@ -1,0 +1,7 @@
+^Credit ([A-Z]{3}) ([\d\s.,]*\d).*?\*(\d{4}) Transaction. (.*) Date. ([\d/]{8}) Balance.*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+instrument;income;syncid;comment;date#MM/dd/yy;av_balance
+
+-----EXAMPLE-----
+Credit RUR 59600.00 to account **9488 Transaction: Salary Credit Date: 06/27/14 Balance: RUR 94776.75

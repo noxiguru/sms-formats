@@ -1,0 +1,7 @@
+^Pokupk.*?#\s*(\d{4})\s+([\d.]{10}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\. .*?imit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Pokupka po karte #5897, schet nomer #3240 01.01.2017 15:46 Summa: 999.60 RUB LUKOIL.AZS 511 77C. Platezhny limit: 892 RUB

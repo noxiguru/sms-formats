@@ -1,0 +1,10 @@
+^.*?x(\d{4})\s+([\d.]{10}).*?(?:Vydacha|Выдача).*?(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostup|оступ).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4x4924 19.08.2013 10:24 MSK Vydacha v bankomate Summa 500,00 RUR ATM40424508 Dostupno 69310,72 RUR Kontakt-czentr +74955800080
+
+-----EXAMPLE-----
+Карта 4x0163 26.05.2016 18:58 МСК Выдача в банкомате Сумма 4000,00 RUR 2, DOLGORUKOVSKAYA Доступно 1326,68 RUR ; Контакт-центр +74955800080

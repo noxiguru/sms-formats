@@ -1,0 +1,10 @@
+^(?:Vk?hodyaschiy|Входящий)(?!.*tpravitel|.*тправител).*?([\d\s.,]*\d)\s*([A-Z]{3})\S\s+([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vkhodyaschiy platezh. Summa 5,000.00 RUB. 11.11.2016. Tinkoff.ru
+
+-----EXAMPLE-----
+Входящий платеж: 36,000.00 RUB, 15.06.2018.

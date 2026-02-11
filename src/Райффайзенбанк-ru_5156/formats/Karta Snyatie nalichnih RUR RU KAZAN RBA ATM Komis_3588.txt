@@ -1,0 +1,7 @@
+^.*?([\d]{4}).*nyatie n.*?([\d\s,.]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*([\d-]{10}).*?stat.*?(-?[\d\s,.]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;fee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *2357; Snyatie nalichnih: 1800 RUR; RU/KAZAN/RBA ATM 44521; Komissiya: 21.6 RUR; Data: 2018-03-26; Dostupny Ostatok: 6195.87 RUR; Raiffeisenbank

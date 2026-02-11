@@ -1,0 +1,7 @@
+^PEREVOD.* NA.*(\d{4}) ([\d.]{8}).*SUMMA\s+([\d\s.,]*\d) ([A-Z]{3}) (?:BALANCE|OSTATOK).*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+PEREVOD SREDSTV NA 4232***0968 10.12.14 21:39 KAZAN, 43/2 Chernyshevsky Str OnLine Partner, RUS SUMMA 500.00 RUR OSTATOK:624.04 RUR

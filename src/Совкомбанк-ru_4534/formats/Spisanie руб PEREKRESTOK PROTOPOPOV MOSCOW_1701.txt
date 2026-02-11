@@ -1,0 +1,7 @@
+^.*?(\d{4}):.*([\d.]{10}).*pisa.*?([\d\s.,]*\d)\s*([а-яA-Z]{3}).\s+(.*)\.
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee
+
+-----EXAMPLE-----
+*5266: 23.04.2015 09:39 Spisanie:482.00 руб, PEREKRESTOK PROTOPOPOV, MOSCOW.

@@ -1,0 +1,16 @@
+^.*(?:art|арт).*?(\d{4})\D?\s+([\d.]{10}).*(?:pisan|писан|as[xh]od|асход).*?.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s*(.*?)(?:,.*?|\.+)\s+.(?:ostu|осту|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 2126: 01.09.2017 12:07, spisanie 565.00 RUR, IP GRAMATCHIKOV A.S., KIROVGRAD, UL. KIROVGRADSKAYA, D.11. Dostupno 18038.36 RUR.
+
+-----EXAMPLE-----
+Карта 2126: 17.01.2018 14:51, списание 808.00 RUR, GAZPROMNEFT AZS 076, KIROVGRAD. Доступно 53014.43 RUR.
+
+-----EXAMPLE-----
+Karta 1303: 17.02.2018 rasxod 65.00 RUR, GIPERBOLA.. Balans 183514.61 RUR.
+
+-----EXAMPLE-----
+Karta 2088: 13.10.2018 rashod 1019.20 RUR, UGMK-ZDOROVE(REG). Balans 74102.80 RUR.

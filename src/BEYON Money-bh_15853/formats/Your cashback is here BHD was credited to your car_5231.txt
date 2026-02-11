@@ -1,0 +1,7 @@
+^.*([Cc]ashback).*?([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d? was cr.* to .*?(\d{4}).*
+
+-----COLUMNS-----
+comment;instrument;income;syncid
+
+-----EXAMPLE-----
+Your cashback is here! BHD3.380 was credited to your card 1993.

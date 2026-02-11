@@ -1,0 +1,7 @@
+^[\d*]+(\d{3}).(?:Bal|Dost).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+5**240,Dostupno -2 154.17 KZT;

@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+(Otmena)\s+(.*?)\s+.arta.*?\*(\d{4})\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;comment;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+50,000.00 KZT Otmena RIXOS WATER WORLD AKTAU Karta 4582*5561 Balans 3 076.85 KZT Tel.7711

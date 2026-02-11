@@ -1,0 +1,7 @@
+^(VOZVRAT.*?) ([\d\s.,]*\d)\s*([A-Z]{3}) ([\d-]{8}) [\d:]{5,} (.+) .art.*?(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;income;instrument;date#yy-MM-dd;payee;syncid;av_balance
+
+-----EXAMPLE-----
+VOZVRAT 19293.00 KZT 20-02-25 14:09 BILET.RAILWAYS.KZ Karta *3232. Balans 27270.71 KZT. www.smartbank.kz/app

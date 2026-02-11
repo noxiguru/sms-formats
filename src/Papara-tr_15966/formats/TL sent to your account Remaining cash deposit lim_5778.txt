@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{2,3})\s+sent\s+to\s+your\s+(account).*emain.*?(-?[\d\s.,]*\d)\s*([A-Z]{2,3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+2.900,00 TL sent to your account! Remaining cash deposit limit: 22.100,00 TL ║ You've received money.

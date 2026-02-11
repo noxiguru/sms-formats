@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ .ostup.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+03.11.2022 13:37 Postupleniye sredstv 200000.00 UZS po karte 5477***5263, ostatok 200000.00 UZS

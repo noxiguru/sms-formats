@@ -1,0 +1,7 @@
+^.*type: Purchase.*card:\s+(\d{4})\s+.mount\W?\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+.ite\W?\s+(.*?)>\D?\d{10,}.*alan.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Bank of Georgia: bank card transaction  Legal entity: I/E DZMITRY PATSOUSKI, 305521165  Transaction type: Purchase  Last four digits of the card: 7100  Amount: USD10.00  Site: LOOM SUBSCRIPTION>+16284003532        US  Remaining balance: USD21.89

@@ -1,0 +1,7 @@
+^Credit.*?([\d\s.,]*\d)\s*([A-Z]{3}), \d+\*+(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Credit approved 184250.00 AMD, 457889******3500 21.06.22 17:03 C2C APIGATE authcode 041563 Balance: 217,706.52 AMD

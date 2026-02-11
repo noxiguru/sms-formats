@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]+\s+(.апитализ.*?)\s+.риход\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+.чет\s+\d*(\d{4})\s+.алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;comment;income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+30.11.24 04:39 Капитализация Приход 0.54 RUB Счет 6104531 Баланс 51.34 RUB

@@ -1,0 +1,7 @@
+^Oper.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Operaciya na 9 197.50 RUB v internet-banke. Dostupno 0.00 RUB

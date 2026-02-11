@@ -1,0 +1,10 @@
+^.*(?:chitare|efectu.*P2P).*\*\s*(\d{4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*oldul.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Achitare cu cardul *** 7337 in suma de 432.60 MDL. Soldul disponibil: 1569.73 MDL.
+
+-----EXAMPLE-----
+Ați efectuat un transfer P2P de pe card *** 7337, suma transferului 320.70 MDL. Soldul disponibil: 1860.45 MDL.

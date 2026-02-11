@@ -1,0 +1,7 @@
+Transfer between Your Accounts From\s*\*(\d{4})\s+Amount\s+([0-9][\d\s.,]*)\s+([A-Za-z]{1,3})\s+To\s+(\*\d{4})\s+Date\s+(\d{2}/\d{2}/\d{2})
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy
+
+-----EXAMPLE-----
+Transfer between Your Accounts From *0510 Amount 100 SAR To *2205 Date 05/05/25 23:16

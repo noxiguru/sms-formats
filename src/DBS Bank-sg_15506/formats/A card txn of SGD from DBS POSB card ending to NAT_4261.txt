@@ -1,0 +1,13 @@
+^.*(?:txn|ransfer|ayment) of ([A-Z]{3})\s*([\d\s.,]*\d).*end.*?(\d{4}) to\s+(.*?) on (\d{2}\s+\S{3}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dd MMM
+
+-----EXAMPLE-----
+A card txn of SGD16.90 from DBS/POSB card ending 5328 to NATURE CAFE (BT MERAH) SINGAPORE     SGP on 04 SEP 13:03 (SGT) was completed. If unauthorised, call +65 63396963
+
+-----EXAMPLE-----
+A FAST Funds Transfer of SGD400.00 from A/C ending 2659 to CYCLE AIRE SERVICES (A/C ending 3001) on 02 Sep 16:58 (SGT) was completed. If unauthorised, call +65 63272265
+
+-----EXAMPLE-----
+A Bill Payment of SGD128.00 from A/C ending 2659 to SP SERVICES (Ref ending 8636) on 25 Sep 13:10 (SGT) was completed. If unauthorised, call +65 63272265

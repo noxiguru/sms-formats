@@ -1,0 +1,13 @@
+^.*?(\d{4}):\s*(\d{2}[-./]\d{2}[-./]\d{2,4})\W? .*?(?:opoln|ополн).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *2793: 28.02.2023, popolnenie 0.85 RUR. Dostupno 176.01 RUR.
+
+-----EXAMPLE-----
+Карта 3171:09.09.2024 22:46, пополнение 100.00 RUR, GC SBP, -, -. Доступно 101.00 RUR.
+
+-----EXAMPLE-----
+Карта *3155: 09.09.2024 22:46, пополнение 50.00 RUR. Доступно 69.00 RUR.

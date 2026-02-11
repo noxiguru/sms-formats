@@ -1,0 +1,7 @@
+^.*?(\d{4}),?\s+([\d/]{8})\s+(.*?)\s+het\s+([A-Z]{1,3})\s*([\d\s.,]*\d).*?aankoop.*aldo.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;payee;instrument;outcome;av_balance
+
+-----EXAMPLE-----
+Absa: TJEK6683, 19/10/16 TYPO SOMERSET MALL 0645SOMERSE het R519.95 gereserveer vir 'n aankoop. Jou beskikbare saldo is R8,184.39 Help 0860008600; LAUBSFR006

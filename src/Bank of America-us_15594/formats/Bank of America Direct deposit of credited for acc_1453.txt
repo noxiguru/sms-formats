@@ -1,0 +1,10 @@
+^.*(?:eposit|ayment) of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) .(?:redited|osted on) (\d{2}/\d{2}/\d{2,4}) for.*?(\d{4}).*
+
+-----COLUMNS-----
+instrument;income;date#Mdy;syncid
+
+-----EXAMPLE-----
+Bank of America: Direct deposit of $5,603.85 credited 09/15/2021 for account 8130. Go online for recent activity.
+
+-----EXAMPLE-----
+Bank of America: Payment of $1,286.58 posted on 09/14/2021 for credit card 1950.

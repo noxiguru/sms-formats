@@ -1,0 +1,7 @@
+^.*?([\d.]{10}).*coun.*?(\d{4}) .ebit.*?([\d\s.,]*\d)\s*([A-Z]{3}).*vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VUB 09.05.2019 19:39:17 Account:  SK26..4097380553 Debit: 100,00 EUR Available balance: 8,78 EUR Own funds: 8,78 EUR

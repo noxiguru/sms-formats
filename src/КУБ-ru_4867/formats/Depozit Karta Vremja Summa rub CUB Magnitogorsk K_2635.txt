@@ -1,0 +1,7 @@
+^Depoz.*?\*(\d{4}).*? ([\d.]{8}) .*?umm.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*dobr.*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;income;instrument
+
+-----EXAMPLE-----
+Depozit Karta *0996 Vremja 18:07:30 13.09.16 Summa 9 800.00 rub CUB,Magnitogorsk,K.MARKSA, 153,Russia Odobreno

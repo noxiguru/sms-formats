@@ -1,0 +1,13 @@
+^(?:RACXOD|Снятие).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+([\d.]{8}).*(?:ATM|KASSA).*(?:OCTAT|стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+RACXOD 30000.00 RUB KAPTA:4779*2362 22.10.15 11:46 B ATM4 MOLNIYA RU. OCTATOK 3043.61 RUB
+
+-----EXAMPLE-----
+Снятие 25900.00 RUR карта:477904*2881 01.12.17 13:15 B ATM CHELINDBANK 900 RU. Остаток 105.69 RUR
+
+-----EXAMPLE-----
+Снятие 12900.00 RUR карта:477904*2881 15.12.17 16:19 B CHKALOVSKY BR. KASSA RU. Остаток 87.69 RUR

@@ -1,0 +1,7 @@
+^(Cash[Bb].*?) ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}) от (.*)
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee
+
+-----EXAMPLE-----
+CashBack 2,63 RUP по карте **2760 от Супермаркет Шериф-21

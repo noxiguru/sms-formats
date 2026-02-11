@@ -1,0 +1,7 @@
+^.*ending.*?(\d{4}) .*spent ([A-Z]{3})\s*([\d\s.,]*\d.\d{2})\d? at (.*?) on (\d{2}[-./]\d{2}[-./]\d{2,4}) .*imit.*?(-?[\d\s.,]*\d\.\d{2}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dMy;av_balance
+
+-----EXAMPLE-----
+Your card no. ending with 0788 has spent USD 7.43 at NINTENDO *AMERICAUS on 23/04/2020 Available limit is -169.611.

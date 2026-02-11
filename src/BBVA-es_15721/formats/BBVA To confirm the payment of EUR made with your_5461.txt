@@ -1,0 +1,28 @@
+^.*(?:use\s+the\s+code\s+\d{4}|onfirmar\s+pago|saldo\s+inferior|eclined|enegado|no\s+realizada|insuficiente\s+para|Por seguridad.*Has sido tú).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+BBVA: To confirm the payment of 153 EUR made with your card ****5361 in ROMPODA SL use the code 301216
+
+-----EXAMPLE-----
+Por seguridad, pulsa para poder confirmar el pago de 20,00 EUR realizado con tu tarjeta *5361 en T MOBILITAT APP ║ Confirmar pago
+
+-----EXAMPLE-----
+El saldo de tu cuenta terminada en 5040 es inferior a 100,00 EUR ║ Aviso saldo inferior ⚠ 💰
+
+-----EXAMPLE-----
+Payment of 6,20 EUR in ALCAMPO with your card ending in 3599 declined. ║ Payment declined ⛔💳
+
+-----EXAMPLE-----
+La transferencia de 200,00 EUR programada para el 05/10 no ha podido realizarse. Por favor, revisa el saldo de tu cuenta ║ Transferencia no realizada
+
+-----EXAMPLE-----
+El saldo de la cuenta *9665 es insuficiente para pagar el recibo de 100,10 EUR de Centro Educativo. Ingresa antes de las 16:30 h y evita su devolución. ║ Recibo pendiente cargo
+
+-----EXAMPLE-----
+Denegado el pago de 0,99 EUR en APPLE.COM/BILL con tu tarjeta terminada en 4844. ║ Pago denegado⛔💳
+
+-----EXAMPLE-----
+Por seguridad, informarte de la realización de tu transferencia de 1300,00 EUR. ¿Has sido tú? ║ Transferencia de alto importe

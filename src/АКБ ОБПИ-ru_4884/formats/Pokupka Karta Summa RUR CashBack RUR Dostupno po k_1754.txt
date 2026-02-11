@@ -1,0 +1,7 @@
+^(?:Pokupka|Oplata).*arta:?\s*(\d{4}).*umma:?\s*([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alans|ostupno).*?(-?[\d\s.,]*\d) \S+ (.*) \(.*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Pokupka. Karta 0351. Summa:491.38 RUR. CashBack:4.91 RUR. Dostupno po karte 3530.12 RUR. DIKSI (MSK 17:33:51 09.09.2014)

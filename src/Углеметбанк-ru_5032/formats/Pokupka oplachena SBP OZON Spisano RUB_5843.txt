@@ -1,0 +1,7 @@
+^Pokupka op\w+ (?:\(SBP\W+)?\s*(.*?) .pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+payee;outcome;instrument
+
+-----EXAMPLE-----
+Pokupka oplachena (SBP) OZON Spisano 85,00 RUB

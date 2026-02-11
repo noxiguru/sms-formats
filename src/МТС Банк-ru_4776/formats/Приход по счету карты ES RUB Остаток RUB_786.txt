@@ -1,0 +1,10 @@
+^(?:Приход по сч|Prihod po sc).*?\*(\d{4});([\d\s.,]*\d)\s*([A-Z]{3});\s*(?:Остат|Ostat).*?(-?[\d\s.,]*\d)\s.*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Приход по счету карты ES *4072; 2 000,00 RUB; Остаток: 2 663,00 RUB
+
+-----EXAMPLE-----
+Prihod po schetu karty VP *4151; 10 845,21 RUB; Ostatok: 41 029,29 RUB

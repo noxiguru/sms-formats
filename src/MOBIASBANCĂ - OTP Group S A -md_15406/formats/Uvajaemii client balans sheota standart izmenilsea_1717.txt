@@ -1,0 +1,13 @@
+^.*?balan.*?sc?h[ye]o?t\w+\s+(\S+) .*(?:ostup|zmenil).*?([\d\s.,]*\d) v ([\d.]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Uvajaemii client, balans sheota standart izmenilsea na 155.02 v 08.05.2015 12:47:25. Tekushchiy balans sciota 42.83
+
+-----EXAMPLE-----
+Uvazhaemii client, na balans schyota MDL postupilo 25699.05 v 01.11.2018 16:15:23. Tekushchiy balans schyota 34628.55
+
+-----EXAMPLE-----
+Uvazhaemii client, na balans schyota credit postupilo 12165.00 v 24.12.2018 13:57:37. Tekushchiy balans schyota 17291.88

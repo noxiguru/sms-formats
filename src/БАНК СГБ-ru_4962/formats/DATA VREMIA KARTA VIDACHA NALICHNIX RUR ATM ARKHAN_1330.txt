@@ -1,0 +1,7 @@
+^.*?([\d.]{8}).*KARTA.*?(\d{4})\s+VIDACHA\s+N.*?(\d[\d\s.,]*)\s*([A-Z]{3}).*DOSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+DATA 29.07.14 VREMIA 17:14 KARTA 4164***9981 VIDACHA NALICHNIX 2400.00 RUR ATM "ARKHANGELSK, AEROPORT TALAGI 8 BANK SGB, RU" DOSTUPNO 189.74 RUR

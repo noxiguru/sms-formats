@@ -1,0 +1,10 @@
+^.*?(\d{4}): (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:олучение|ыдача|oluchen|ydacha) (?:нал|nal).*?([\d\s.,]*\d)\s*([а-яA-Z]{3}).*(?:омисс|omiss).*?([\d\s.,]*\d).*(?:стат|осту|stat|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Карта 4104: 09.05.2017 12:13, выдача наличных 2000.00 RUR. комиссия D0.00 RUR. PRIMSOTSATM100186, VLADIVOSTOK, 21, ANNY SHETININOY ST.. Доступно 3347.60 RUR.
+
+-----EXAMPLE-----
+*6591: 22.05.2020 15:02 Vydacha nalichnykh 20000.00 RUR.  komissiya D0.00 RUR. PRIMSOTSATM026542, VLADIVOSTOK, PR-T PARTIZANSKIY, 44. Dostupno 49100.57 RUR.

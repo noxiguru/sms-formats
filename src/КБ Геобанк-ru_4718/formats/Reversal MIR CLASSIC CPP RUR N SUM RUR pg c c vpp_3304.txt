@@ -1,0 +1,10 @@
+^(?:Reversal|Money tran).*\*(\d{4}) SUM.*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*LIM.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Reversal: MIR CLASSIC CPP (RUR) N: *9953 SUM: +1.00 RUR; pg c2c vpp//MOSCOW/ RUS; 20.11.2017 13:04 (UTC+3); LIM: 4,210.00 RUR
+
+-----EXAMPLE-----
+Money transfer: MIR CLASSIC CPP (RUR) N: *9953 SUM: +90.00 RUR; Tinkoff Bank P2P//MOSCOW/ RU; 20.11.2017 13:09 (UTC+3); LIM: 4,300.00 RUR

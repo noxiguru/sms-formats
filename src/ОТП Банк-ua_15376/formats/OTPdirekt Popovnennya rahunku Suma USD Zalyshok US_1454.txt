@@ -1,0 +1,7 @@
+^.*?([\d.]{10}).*?Popov.*?(\d{4}).?\s*.uma.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+Zal.*?(-?[\d\s.,]*\d).*Platnyk.?\s*(.*)
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+OTPdirekt:14.11.2014 15:50: Popovnennya rahunku: 1234567890. Suma: 200,00 USD Zalyshok: 259,30 USD Platnyk: Anton Konovalov

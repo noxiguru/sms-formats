@@ -1,0 +1,7 @@
+^Сіздің\s+карт.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(бонус)\s+есепт.*
+
+-----COLUMNS-----
+income;instrument;comment
+
+-----EXAMPLE-----
+Сіздің карточкаңызға 3708.00 KZT бонус есептелді. ║ Home Credit Kazakhstan

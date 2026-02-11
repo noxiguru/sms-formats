@@ -1,0 +1,15 @@
+^.*([\d/]{5}).*(?:pisano|pysano)([\d\s.,]*\d)\s*([A-Z]{3}).*ahun.*?(\d{4}).*\((.*?)\).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;syncid;comment;av_balance
+
+-----EXAMPLE-----
+Universal Bank: 29/01
+Spisano 9.99 UAH z potochnoho rahunku *1982 (schomisiachna komisiya)
+Balans: 29,657.35 UAH
+
+-----EXAMPLE-----
+Universal Bank:
+12/04 15:09
+Spysano 5,960.00 UAH z oschadnoho rahunku *2874 (perekaz na kredytnu kartku)
+Balans: 19,108.02 UAH

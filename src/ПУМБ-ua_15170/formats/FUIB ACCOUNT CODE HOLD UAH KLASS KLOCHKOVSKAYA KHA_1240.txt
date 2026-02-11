@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*HOLD\s+([\d\s.,]*\d)\s+([A-Z]{3})\s+(.*)\s+.BALANCE\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+FUIB ACCOUNT CODE 1111 *1162 2014-04-26 13:12:04 *HOLD 509.49 UAH KLASS KLOCHKOVSKAYA KHARKOV UA *BALANCE 12016.67 UAH

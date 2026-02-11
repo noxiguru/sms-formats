@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*?X-(\d{4})\s+transfer.*?([\d\s.,]*\d)\s*(\w+)\s+to\s+(.*?)\s+Outstand.*?(-?[\d\s.,]*\d)\s*(\w+).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+04/11/23 17:18 A/C X-2181 transferred 90.00 Baht to PromptPay ID X-5569 Outstanding Balance 3,994.00 Baht.

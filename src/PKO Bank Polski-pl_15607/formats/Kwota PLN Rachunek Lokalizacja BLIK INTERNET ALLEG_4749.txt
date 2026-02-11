@@ -1,0 +1,10 @@
+^(?:Kwota|Amoun).*?([\d\s.,]*\d)\s*([A-Z]{1,3}).*(?:achun|ccount).*?(\d{4})\s+Lo[ck]a[tl]\w+\W?\s+(.*)\s+║\s+.*[Bb]loc?k.*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee
+
+-----EXAMPLE-----
+Kwota: 53,39 PLN. Rachunek:  31..7970 Lokalizacja: BLIK INTERNET: ALLEGRO.PL ║ Założenie blokady
+
+-----EXAMPLE-----
+Amount: 498,82 PLN.  Account no.:  36..7425 Location: BLIK INTERNET: IMOJE.PL ║ Blocked balance

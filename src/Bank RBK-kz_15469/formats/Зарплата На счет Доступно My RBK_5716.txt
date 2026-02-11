@@ -1,0 +1,7 @@
+^(Зарпла.*?): ([\d\s.,]*\d)\s*([A-Z]{3}|\W) На сч.*?\*(\d{4}) .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Зарплата: 28 980.00₸ На счет: *8199 Доступно: 47 344.64 ₸ ║ My RBK

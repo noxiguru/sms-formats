@@ -1,0 +1,7 @@
+^.*? ([\d/]{5}).*(perevod po.*?) ([\d\s.,]*\d)\s*([A-Z]{3}) s.*\*(\d{4}).*omiss.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;comment;outcome;instrument;syncid;fee
+
+-----EXAMPLE-----
+RSHB 02/12 11:16 perevod po telefonu 79107626704 Maksim P. 1000.00 RUR so scheta *6219 ispolnen. Komissiya 0.00 RUR

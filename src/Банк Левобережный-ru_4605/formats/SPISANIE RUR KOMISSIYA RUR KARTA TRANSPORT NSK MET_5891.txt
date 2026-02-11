@@ -1,0 +1,7 @@
+^SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}) KOMIS.*?([\d\s.,]*\d).*?\*(\d{4}) (.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}).*DOSTU.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;fee;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+SPISANIE 30.00 RUR KOMISSIYA 0.00 RUR KARTA *5824 TRANSPORT NSK METR, NOVOSIBIRSK 20.07.2023 12:48 MSK. DOSTUPNO 2732.84 RUR

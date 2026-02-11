@@ -1,0 +1,7 @@
+^.*Note Acc.*?\*(\d{3,4}), ([\d\s.,]*\d)\s*([A-Z]{3}),\s+([\d-]{10}).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Operacia Note Acceptance po karte 5**613, 47 000.00 KZT,  2017-03-11 11:10:23, ATM 2548 TSBO BAITEREK.

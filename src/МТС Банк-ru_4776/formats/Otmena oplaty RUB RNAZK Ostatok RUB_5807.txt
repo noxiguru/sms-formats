@@ -1,0 +1,7 @@
+^((?:Otmen|Отмен).*?) ([\d\s.,]*\d)\s*([A-Z]{3}) (.*?)\s+.(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W? \*(\d{4}).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+Otmena oplaty 30,92 RUB RNAZK 7  Ostatok: 70 657,81 RUB; *8430

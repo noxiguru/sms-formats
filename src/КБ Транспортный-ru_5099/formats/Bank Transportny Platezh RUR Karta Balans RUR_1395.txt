@@ -1,0 +1,7 @@
+^.*?(?:latezh|vazi-nal).*?\s([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{10}).*(\d{4}) Balans (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yyyy;syncid;av_balance
+
+-----EXAMPLE-----
+Bank "Transportny" Platezh 556.53 RUR 02.10.2014 05:19:26 Karta *6392 Balans 0.00 RUR +7(495) 646-52-32

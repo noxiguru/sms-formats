@@ -1,0 +1,13 @@
+^(?:Potro|POTRO|Storn|STORN).*?(\d{4}).*znos.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?([\d.]{10}).*rgovac:?\s*(.*?)\s+.aspol.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Potrosnja po kartici: 544358******9224 Iznos: 300,00 RSD Datum: 22.07.2018. Trgovac: ALFA STAR DOO Raspolozivo 46.070,47 RSD br.odobr: 233831
+
+-----EXAMPLE-----
+Storno po kartici 544358******9224 Iznos 4,00 AED Datum 27.08.2018. Trgovac GOOGLE *SERVICES Raspolozivo 75.635,01 RSD br.odobr: 628656
+
+-----EXAMPLE-----
+POTROSNJA po kartici 1093 Iznos 46,95 EUR Datum 09.11.2018 Trgovac TRIPCOMTRIPCOM London GB Raspolozivo 2.387,34 RSD br.odobr: 007638 ID8308

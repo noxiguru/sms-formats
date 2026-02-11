@@ -1,0 +1,7 @@
+^.*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}).*омисс.*?([\d\s.,]*\d)\s*[A-Z]{3}\.\s+(.*?)\. .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;fee;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *1238: 29.05.22 10:20, списание 284.00 RUR, комиссия D0.00 RUR.  GAZPROMNEFT AZS 089, ORDYNSKY. Доступно 837.53 RUR.

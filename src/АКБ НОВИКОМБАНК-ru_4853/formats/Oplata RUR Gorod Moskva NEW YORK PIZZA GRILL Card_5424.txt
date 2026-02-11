@@ -1,0 +1,13 @@
+^(?:Opl[aа]ta|Auth):\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s*C[aа]rd.*?\*(\d{4})\s+[BВ][AА]L.*?(-?[\d\s.,]*\d)\s+\d{1,2}:\d{2} (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;date#dMy
+
+-----EXAMPLE-----
+Oplata: 350.00 RUR Gorod Moskva NEW-YORK PIZZA & GRILL Card **8541 BAL: 45 876.61  12:42 21.07.2022
+
+-----EXAMPLE-----
+Oplata: 600.00 RUR Card **8541 BAL: 196342 09:15 30.09.2022
+
+-----EXAMPLE-----
+Oplata:  437.66 RUR Gorod Moskva DA S77-0353  Card **7051  BAL: 6267.72  20:08 30.11.2022

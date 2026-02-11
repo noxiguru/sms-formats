@@ -1,0 +1,7 @@
+^.*?\*([\d]{4}) umenshilsya ([\d/]{10}) na(?!.*ost).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yyyy;outcome;instrument
+
+-----EXAMPLE-----
+Balans vashey karty *5010 umenshilsya 13/05/2013 na:1319,05RUR. Raiffeisenbank

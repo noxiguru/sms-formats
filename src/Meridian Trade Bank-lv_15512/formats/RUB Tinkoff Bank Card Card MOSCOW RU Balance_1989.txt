@@ -1,0 +1,10 @@
+^.*\+([\d\s.,]*\d)\/([A-Z]{3})\/\*\d*(\d{4})\/([\d.]{10}).*?\/(.*)\/Bal.*?(-?[\d\s.,]*\d)
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
++35000.00/RUB/*730120030/09.09.2015 00:03:41/Tinkoff Bank Card2Card>MOSCOW RU/Balance:2608.62
+
+-----EXAMPLE-----
++558.06/EUR/*730120010/30.01.2018 08:26:00/Nordpay Financial Limited/Balance:2958.06

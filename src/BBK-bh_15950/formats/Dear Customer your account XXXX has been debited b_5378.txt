@@ -1,0 +1,7 @@
+^.*ccoun.*?(\d{4}) has.*ebited by ([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d? on (\d{2}[-./]\d{2}[-./]\d{2,4}) at [\d:]+ for (.*)
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;comment
+
+-----EXAMPLE-----
+Dear Customer, your account 2000XXXX4274 has been debited by BHD 1414.218 on 24/08/2022 at 15:32 for 917U)4403XXXXXXXX7490 BBK app PMT TO 4403XXXXXXXX7490

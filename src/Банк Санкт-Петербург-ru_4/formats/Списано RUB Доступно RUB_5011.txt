@@ -1,0 +1,7 @@
+^Списан.*?([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]?\d{0,4}) .*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Списано 1280RUB 07.05 20:11 Доступно 4092.96RUB

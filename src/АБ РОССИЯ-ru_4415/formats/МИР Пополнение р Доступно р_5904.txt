@@ -1,0 +1,7 @@
+^[A-ZА-Я]+(\d{4}) .ополн.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+МИР5035 Пополнение 2887р Доступно 9302.78р

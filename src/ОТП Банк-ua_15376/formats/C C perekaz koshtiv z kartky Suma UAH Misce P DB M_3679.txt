@@ -1,0 +1,13 @@
+^(\d{2}[-./]\d{2}[-./]?\d{0,4}) .*(?:ереказ(?!.* на )|erekaz(?!.* na )).*\*(\d{4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|alysh).*?(-?[\d\s.,]*\d)\s*([A-Z]{1,3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+05/11 07:56 C2C perekaz koshtiv z kartky: *5844 Suma: 3200 UAH Misce: P24 DB M UA Zalyshok: 87849.59 UAH
+
+-----EXAMPLE-----
+18/11 20:19 C2C perekaz koshtiv z kartky: *9587 Suma: 1238.21 UAH Misce: IPAY.UA_P2P Dostupnyi zalyshok: 3304.79 UAH
+
+-----EXAMPLE-----
+02/09 18:25 Spysannia C2C perekazu koshtiv z kartky: *3848 Suma: 200 UAH Misce: SendmoneydbMCuah1323BL Dostupno: 2298.96 UAH Kred.Lim: 0

@@ -1,0 +1,13 @@
+^.*(?:e soob.*ikomu|СМС\Wкод|SMS\Wkod).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Vash parol: 822786 Russian Railways  (926.00 RUB); Ne soobshcaite etot parol nikomu, v tom chisle sotrudniku Banka
+
+-----EXAMPLE-----
+СМС-код: 165161. Заявление на досрочное погашение кредита N 50 от 15.10.2020 на сумму 6 300,00 RUR
+
+-----EXAMPLE-----
+SMS-kod: 184958. Perevod SBP na 79125111373 v ПАО Сбербанк 044525225 v summe 700,00 RUR ║ Подтверждение операции

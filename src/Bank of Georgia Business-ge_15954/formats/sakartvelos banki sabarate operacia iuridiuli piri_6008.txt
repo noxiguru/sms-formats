@@ -1,0 +1,13 @@
+^.*(?:anagdeba|ithdraw).*(?:bolo|card).*?(\d{4})\s+.(?:anxa|mount).*?([A-Z]{3})\s*([\d\s.,]*\d).*(?:ngarish|alan).*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*(?:arigi|ate).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+sakartvelos banki: sabarate operacia iuridiuli piri: im evgenii troickii, 302216331 operaciis tipi: ganagdeba baratis bolo 4 cipri: 6493 tanxa: EUR1,000.00 obiekti: BOG ATM TBILISI>TBILISI GE tanxa angarishze: EUR8,366.77 tarigi: 04/09/2023
+
+-----EXAMPLE-----
+Bank of Georgia: bank card transaction Legal entity: Individual Entrepreneur Pavel Sholukha, 345686162 Transaction type: Withdrawal Last four digits of the card: 2824 Amount: GEL100.00 Site: BOG ATM BATUMI>BATUMI GE Remaining balance: GEL10,990.67 Date: 24/10/2023
+
+-----EXAMPLE-----
+Bank of Georgia: bank card transaction Legal entity: Individual Entrepreneur Pavel Sholukha, 345686162 Transaction type: Withdrawal Last four digits of the card: 2824 Amount: GEL400.00 Site: Bank of Georgia, Airport, Batumi Remaining balance: GEL15,641.15 Date: 01/11/2023

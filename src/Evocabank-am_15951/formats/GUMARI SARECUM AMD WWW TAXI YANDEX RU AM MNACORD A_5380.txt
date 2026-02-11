@@ -1,0 +1,13 @@
+^.*(?:PURCH\w+|C2C|GUMARI SAR\w+|GNUM) ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(?:TO:\s+)?(.*?)\s+(?:CABINET ARCA.*?)?(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} (?:BALA|MNAC).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+GUMARI SARECUM 1,100.00 AMD 4150***7159 WWW.TAXI.YANDEX.RU, AM 26.08.2022 21:32 MNACORD: 1,187,199.19 AMD
+
+-----EXAMPLE-----
+GNUM 12,500.00 AMD 4150***7159 IN VINO, AM 26.08.2022 18:46 MNACORD: 1,190,899.19 AMD
+
+-----EXAMPLE-----
+E-POS GNUM 12,840.00 AMD 4150***7159 WILDBERRIES, AM 03.09.2022 13:55 MNACORD: 948,252.71 AMD

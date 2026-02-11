@@ -1,0 +1,7 @@
+^PURCH.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{2,4})\s.* ([\d-]{8}) .*Fee.*?([\d\s.,]*\d).*Avail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd-MM-yy;fee;av_balance
+
+-----EXAMPLE-----
+PURCHASE: -3400.00KGS KICB IBANK>-- I ELCART:*70 I 16-12-01 09:49  Fee:0.00 KGS  Bal: 18672.53KGS Avail:47672.53KGS

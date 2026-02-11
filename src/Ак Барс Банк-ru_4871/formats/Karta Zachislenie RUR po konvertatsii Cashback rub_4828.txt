@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*Zachis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta*8186. Zachislenie 2500.00RUR po konvertatsii Cashback-rubley. 15.09.20 23:23. Ostatok 102219.87RUR Detali akbars.ru/abol/

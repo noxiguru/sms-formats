@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\*+(\d{4})\s+(?:карт|kart).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:толы|tusti).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument
+
+-----EXAMPLE-----
+03.02.23 **3998 карточкасы 598200.00 KZT толықтырылды. ║ Home Credit Kazakhstan
+
+-----EXAMPLE-----
+11.01.24 **8944 kartochkasyna 2000.00 KZT tusti.

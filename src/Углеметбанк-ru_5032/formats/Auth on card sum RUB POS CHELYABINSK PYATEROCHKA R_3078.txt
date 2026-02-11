@@ -1,0 +1,13 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4})\s+(?!vidacha).*sum([\d\s.,]*\d)\s*([A-Z]{3}) (?:POS )?"?(.*?)"?\s+.stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+30.06.17 19:58 Auth on card  5388***2202 sum 233.00 RUB POS "CHELYABINSK,  PYATEROCHKA 2152        >, RU" ostatok  2403.57 RUB
+
+-----EXAMPLE-----
+12.04.18 19:23 Auth on card 5482***6105 internet pokupka sum 94.00 RUB "g.co/helppay#,  GOOGLE *kb2soft, GB" ostatok 55600.68 RUB
+
+-----EXAMPLE-----
+24.09.21 12:58 Auth on card  5482***2321 sum 212.00 RUB POS (Mil kovo,  wildberries, RU( ostatok  6926.91 RUB

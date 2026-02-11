@@ -1,0 +1,7 @@
+^.*(\d{3,4}) .pysan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.,]*\d).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Z Vashogo rahunku 1234567890.500101.980 spysano  1133.14 UAH, zalyshok  59234.11 UAH 03.01.18 22:26

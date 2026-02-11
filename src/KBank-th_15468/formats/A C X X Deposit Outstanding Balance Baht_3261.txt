@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*X[-\d]*(\d{4})X? [Dd]eposit.*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d)\s*(\w+).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;av_balance;acc_instrument
+
+-----EXAMPLE-----
+03/12/18 14:47 A/C X323345X Deposit60000.00 Outstanding Balance207469.84 Baht.
+
+-----EXAMPLE-----
+05/10/23 09:24 A/C X-2181 Deposit 100.00 Outstanding Balance 400.00 Baht.

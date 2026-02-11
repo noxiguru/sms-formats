@@ -1,0 +1,16 @@
+^(?:Oplata|Blokuv).*?:\s*(.*?)\s+([\d.]{10}).*\*(\d{4}).*[Ss]um.*?([\d\s.,]*\d)([A-Z]{3}).*?ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+payee;date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Oplata tovariv: 17000001 PORTMONE MULTIPOINT, UA 23.09.2013 21:06 kartka 4073***0813 na sumu 15.00UAH. Dostupnyi zalyshok 6550.62UAH.
+
+-----EXAMPLE-----
+Blokuvannia koshtiv: 22111336 20.02.2016 11:46 kartka 5351***9811 na sumu 14.00DKK. Dostupnyi zalyshok 6437.73UAH.
+
+-----EXAMPLE-----
+Oplata: S1110VS0 KAPHEGAGRA, UA 12.01.2018 14:19. Kartka 5169***0427. Suma 49.00UAH. Dostupno 338.99UAH
+
+-----EXAMPLE-----
+Blokuvannia koshtiv:   Uber BV, NL 19.01.2018 22:55. Kartka 5169***5925. Suma 104.24UAH. Dostupno 4769.31UAH. ONLINE.UKRSIBBANK.COM

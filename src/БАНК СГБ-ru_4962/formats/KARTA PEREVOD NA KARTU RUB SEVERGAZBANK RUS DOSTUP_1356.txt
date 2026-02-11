@@ -1,0 +1,10 @@
+^.*?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*\*(\d{4})\s+(?:POPOL|PEREVOD\s+NA).*?(\d[\d\s.,]*)\s*([A-Z]{3}).*DOST.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+28.10.21 14:31 KARTA ***7658 PEREVOD NA KARTU 74.00 RUB "SEVERGAZBANK, RUS" DOSTUPNO 2173.79 RUB
+
+-----EXAMPLE-----
+03.11.21 14:11 KARTA ***7658 POPOLNENIE SCHETA 180.50 RUB DOSTUPNO 32200.39

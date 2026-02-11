@@ -1,0 +1,7 @@
+^Nalich.*?([\d\s.,]*\d)\s*([A-Z]{3}).*art.*?(\d{4}) ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Nalichnye 200.00 BYN po Karte #3105 18.05.17 19:09 Acode 435376; Mesto: MINSK, ; Ostatok: 286.29 BYN. BPS-Sberbank

@@ -1,0 +1,7 @@
+^.* (.омиссия за .*?) card.*?(\d{4}) sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+CB Megapolice Ltd. Комиссия за СМС card 5485*8304 sum 40.00 RUR Ostatok 16093.22 RUR

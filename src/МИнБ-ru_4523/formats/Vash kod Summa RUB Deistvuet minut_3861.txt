@@ -1,0 +1,7 @@
+^Vash kod.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Vash kod (#1):1870 Summa:7500.00RUB Deistvuet 10 minut.

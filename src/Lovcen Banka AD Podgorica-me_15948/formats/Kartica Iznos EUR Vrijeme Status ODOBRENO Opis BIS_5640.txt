@@ -1,0 +1,7 @@
+^Kart.*?\s+(\d{4})\s+.znos:\s+([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*ODOBR.*Opis:\s+(.*?)\s+.aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartica: 4973 Iznos: 5.60 EUR Vrijeme: 25.01.2023 22:55:28 Status: ODOBRENO Opis: BISTRO LOUNG BAR BELAV HERCEG NOVI    ME Raspolozivo: 11.16 EUR

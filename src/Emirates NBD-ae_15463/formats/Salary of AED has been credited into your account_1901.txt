@@ -1,0 +1,10 @@
+^(.*)\s+of\s+([A-Z]{3})\s+([\d\s.,]*\d).*credited.*?([-\dX]{13,15}).*alan.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;instrument;income;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Salary of AED 55,000.00 has been credited into your account 101-XXX83XXX-01. The available balance is AED 56210.11.
+
+-----EXAMPLE-----
+Salary of AED 18,000.00 has been credited into your account 101XXX70XXX01. The available balance is AED 28,009.95.

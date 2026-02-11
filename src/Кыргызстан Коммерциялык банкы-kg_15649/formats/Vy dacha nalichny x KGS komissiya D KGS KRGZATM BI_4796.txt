@@ -1,0 +1,10 @@
+^.*?\*(\d{4})\D? (\d{2}[-./]\d{2}[-./]?\d{0,4}).*(?:[Vv]y['i]?dacha n|Выдача н).*?([\d\s.,]*\d)\s*([A-Z]{3}).*omis.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*0237: 23.08 20:13 Vy'dacha nalichny'x 8000 KGS. komissiya D0.00 KGS. KRGZATM152757, BISHKEK, UJ. MAGISTRAL. Dostupno 49.22 KGS.
+
+-----EXAMPLE-----
+*3337: 03.06 12:16 Vyidacha nalichnyih 3000 KGS. komissiya D0.00 KGS. KRGZATM081797, BISHKEK, MEDEROVA 68. Dostupno 44693.34 KGS.

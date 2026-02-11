@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) (.tgrie.*?) no (.*?)\.? ║ Notif.*
+
+-----COLUMNS-----
+income;instrument;comment;payee
+
+-----EXAMPLE-----
+22.01 EUR atgriezts no Rigas 5. pasta nodala Riga LVALV. ║ Notification from Swedbank

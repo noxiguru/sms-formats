@@ -1,0 +1,10 @@
+^.*?(\d{4})\D?\s+([\d.]{10}).*(?:писан|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:осту|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 8958:  17.04.2018 16:39, списано 2000.00 RUR, 3DI Card2Card, MOSKVA G.   Доступно 10918.61 RUR.
+
+-----EXAMPLE-----
+Karta 8958: 21.05.2018 11:04 spisanie 59.00 RUR. Balans 25204.37 RUR

@@ -1,0 +1,7 @@
+^POSTUPLENIE SRED(?!.*arta).*?([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+POSTUPLENIE SREDSTV NA SCHET: 9195.41 RUR. 13.09.18 16:01. Ostatok 95287.20 RUR.

@@ -1,0 +1,7 @@
+^.*Credit.*?([A-Z]{3})\s*([\d\s.,]*\d).*cct.*?(\d{2}) .*esc.*?:\s+(.*?)\s+Bal.*?(-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+instrument;income;syncid;comment;av_balance;date#dd-MM-yyyy
+
+-----EXAMPLE-----
+ALAT Credit NGN2,600.00 Acct No:0234****81 Desc.: NIP:GRECU  RADU-  Bal: 2,600.00 07-08-2019 03:12

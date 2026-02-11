@@ -1,0 +1,7 @@
+^Spisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*oluch\S+:\s+(.*?)\..*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+Spisanie: 12039.00 RUR. Karta *4261. Perevod poluchtelu: Boldyrev Roman Gennadevich. Dostupno: 22964.02 RUR.

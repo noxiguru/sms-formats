@@ -1,0 +1,2 @@
+com.revolut.revolut
+revolut

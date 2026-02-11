@@ -1,0 +1,7 @@
+^.*?(\d{2}[-./]\d{2}[-./]\d{2,4})..*TK:.*?(\d{4}) PS:.*?-([\d\s.,]*\d)\s*([A-Z]{3}) SD:.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* ND:\s*(.*)
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+(TPBank):16/06/21;16:34 TK: xxxx9314401 PS: -65.000VND SD: 2.366.571VND SD KHA DUNG: 2.366.571VND ND: GIAO DICH THE 3152 TAI CUA HANG GREEN MARTHA NOIVN

@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d/]{10}) vneseno\s+([\d\s.,]*\d) ([A-Z]{3}).*?Ostatok ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yyyy;income;instrument;balance
+
+-----EXAMPLE-----
+Karta 4...3720  03/04/2013 vneseno  5000,00 RUB mesto O.O "BRYANSKIY" BRYANSK RUS Ostatok 6684,76 RUR

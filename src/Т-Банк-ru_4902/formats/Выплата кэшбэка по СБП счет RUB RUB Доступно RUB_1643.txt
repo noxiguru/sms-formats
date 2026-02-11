@@ -1,0 +1,7 @@
+^(Выпл.*?кэшб.*)\W\s+.чет\s+([A-Z]{3})\.\s+([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Выплата кэшбэка по СБП, счет RUB. 40 RUB. Доступно 51497,05 RUB

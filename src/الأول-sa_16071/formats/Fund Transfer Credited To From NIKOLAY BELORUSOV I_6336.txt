@@ -1,0 +1,7 @@
+^.*redited.*?\*(\d{4})\s+.rom:\s+(.*?)\s+IBAN.*mount:\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+.ate:\s+([\d]{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+syncid;payee;instrument;income;date#yMd
+
+-----EXAMPLE-----
+Fund Transfer Credited To: *******7001 From: NIKOLAY BELORUSOV IBAN: *****7001 Saudi Awwal Bank Amount: SAR 125.00 Date: 2024-09-07 14:10:06 Ref: 20240907SASABBSABB2BMOB11410079493

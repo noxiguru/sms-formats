@@ -1,0 +1,15 @@
+^(POVERNE.*?)\s+[Kk]art.*?\*(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+(\d{2}/\d{2})\s+.*alysh.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee;date#dM;av_balance;acc_instrument
+
+-----EXAMPLE-----
+POVERNENNYA
+Karta*0832
+19.85 CNY
+PINDUODUO
+16/01 12:07
+Overdraft 8000 UAH
+Vykorystano overdraft 6832.15 UAH
+Vlasni koshty 0 UAH
+Zalyshok 1167.85 UAH

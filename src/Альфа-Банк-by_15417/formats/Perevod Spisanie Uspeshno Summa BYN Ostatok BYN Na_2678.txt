@@ -1,0 +1,16 @@
+^.*?(\d{4}) .*pisan(?!.*\([\d\s.,]*\d\s*[A-Z]{3}\)).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4})(?: .*|$)
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+4.5589 Perevod (Spisanie) Uspeshno Summa:454 BYN Ostatok:2009,07 BYN Na vremya:10:25:52 BLR/MINSK/P2P_MTBANK 15.10.2016 10:25:42
+
+-----EXAMPLE-----
+Karta 5.2315 Spisanie Uspeshno Summa:1.9 BYN Ostatok:1805.27 BYN Na vremya:00:49:59 15.12.2017
+
+-----EXAMPLE-----
+Karta 5.7218 Perevod (Spisanie) Uspeshno Summa:7 BYN Ostatok:43.02 BYN Na vremya:22:54:28 BLR/INTERNET-BANK ALFA/MTS po N telefona: 333614332 01.02.2018 22:54:16
+
+-----EXAMPLE-----
+Karta 5.6750 Perevod (Spisanie) Uspeshno Summa:9.00 BYN Ostatok:326.25 BYN Na vremya:12:48:17 BLR/ONLINE SERVICE/TRANSFERS AK AM 24.01.2020 12:48:16

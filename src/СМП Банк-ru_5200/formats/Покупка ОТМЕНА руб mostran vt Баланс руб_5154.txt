@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*(ОТМЕН.*?) ([\d\s.,]*\d)\s*([а-яA-Z]{1,3})\.?\s+(.*?)\s*\.?\s+.(?:алан|осту).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*5872 Покупка ОТМЕНА 20.00руб. mostran.vt. Баланс: 4394.91руб.

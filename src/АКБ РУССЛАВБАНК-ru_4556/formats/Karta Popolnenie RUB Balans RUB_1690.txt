@@ -1,0 +1,7 @@
+^.*?(\d{4}).*opol.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{8}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Karta ****1111 Popolnenie 1111.11 RUB, 15.04.15 13:28, Balans 11111.11 RUB

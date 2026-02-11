@@ -1,0 +1,7 @@
+^.*alichn.*\*(\d{4}).* ([\d.]{8}) .*?,([\d\s.,]*\d)\s*([a-zA-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+ALEXBANK Nalichnye, karta *7930, 1600, Saint-Petersburg, 28.05.18 17:18, 100000.00 rub. Dostupno = 1 080627.95 rub.

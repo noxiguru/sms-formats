@@ -1,0 +1,7 @@
+^.*?(\d{4}) .*?ydano kosht.*?([\d\s.,]*\d)\s*([A-Z]{3});.*OSTUP.*SUM.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Po kartci *05300 vydano koshty na sumu 4 000.00 UAH; ATM3761 CAGRICOLE; DOSTUPNA SUMA 24 925,39 UAH; 2016-01-15 09:17:52 ProminvestBank

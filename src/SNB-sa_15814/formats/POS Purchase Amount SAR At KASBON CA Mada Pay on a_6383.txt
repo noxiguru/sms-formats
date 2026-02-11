@@ -1,0 +1,7 @@
+^.*urchas.*mount\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+[Aa]t\s+(.*?)\s+Mada-Pay.*?\*(\d{4}).*?\s+[Oo]n\s+(\d{2}/\d{2}/\d{2})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;date#dMy
+
+-----EXAMPLE-----
+POS Purchase Amount 2 SAR At KASBON CA Mada-Pay *4179 on 13/10/24 at 20:34

@@ -1,0 +1,16 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:POS\s+)?((?:ZWROT|Zwrot).*?)\s+(?:Nadaw|Send)\w+:\s+(.*?)\s+(?:Na|On)\s+.*?\.(\d{4})\W?\s+.*?[Dd]at[ae].*?(\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+income;instrument;comment;payee;syncid;date#yMd
+
+-----EXAMPLE-----
++90,71 PLN ZWROT BLIK    Nadawca: www.aliexpress.com/    Na rachunku 31..7970. Data waluty: 2020-10-21 ║ Uznanie rachunku
+
+-----EXAMPLE-----
++6,50 PLN POS ZWROT TOWARU    Nadawca: PP*8321CODE  PL35314369001  Na rachunku 31..7970. Data waluty: 2020-11-13 ║ Uznanie rachunku
+
+-----EXAMPLE-----
++7,79 PLN ZWROT BLIK Sender: www.barbora.pl    On account no. 42..6334 Value date: 2022-09-07 ║ Account credit
+
+-----EXAMPLE-----
++111,49 PLN Zwrot płatności BLIKIEM Sender: olx.pl On account no. 36..7425 Value date: 2024-08-27 ║ Account credit

@@ -1,0 +1,7 @@
+^(\d\*+\d{2}) Zachis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Bal.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+2**13 Zachislenie 12.160,99 RUB. Balans: 12.160,99 RUB. 15/04/2021 13:50

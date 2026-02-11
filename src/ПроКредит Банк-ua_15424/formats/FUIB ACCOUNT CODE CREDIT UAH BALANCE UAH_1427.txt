@@ -1,0 +1,7 @@
+^.*?(\d{4}-[\d-]{5}).*CREDIT ([\d\s.,]*\d) ([A-Z]{3}) .BALANCE (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+FUIB ACCOUNT CODE 1916973396 2014-01-31 17:33:40 *CREDIT 10000.00 UAH *BALANCE 11652.48 UAH

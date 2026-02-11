@@ -1,0 +1,7 @@
+^(?!.*алан)\+([\d\s.,]*\d)\s*(\S+).*•\s+(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;syncid
+
+-----EXAMPLE-----
++350 ₽ Карта •• 2220

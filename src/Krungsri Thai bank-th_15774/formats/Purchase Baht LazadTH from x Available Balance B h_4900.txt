@@ -1,0 +1,10 @@
+^Purch.*?([\d\s.,]*\d)\s*(\S+) (.*?) from .*?(\d{4}).*vail.*?(-?[\d\s.,]*\d).*\D(\d{1,2}[-./]\d{1,2}[-./]\d{2,4})\D.*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;date#dMy
+
+-----EXAMPLE-----
+Purchase 178.00 Baht @LazadTH764083 from x-2731, Available Balance 5,876.81 B. (23/12/20, 05:49hr)
+
+-----EXAMPLE-----
+Purchase 61.05 Baht @GOOGLUS840G.C from x-2731, Available Balance 27,461.81 B. (22/12/20, 07:35hr)

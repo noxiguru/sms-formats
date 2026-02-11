@@ -1,0 +1,3 @@
+AKBARS
+akbars_biz
+ru.akbars.mobile

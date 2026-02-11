@@ -1,0 +1,4 @@
+Rosbank
+ru.rosbank.android
+rosbankdom
+ru.rosbank.android.beta

@@ -1,0 +1,7 @@
+^NACHISLENIE\s+KOMISSII.*?\s([\d\s.,]*\d)\s+([A-Z]{3}).*?\*(\d{4}).*?([\d.]{8}).*?(ZA\s+.*)\s+END.*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yy;comment
+
+-----EXAMPLE-----
+NACHISLENIE KOMISSII AVANGARD 1100.00 RUB, CARD*7196 EVGENY MOSKVIN 02.09.13 12:17 ZA GODOVOE OBSLUZIVANIE END

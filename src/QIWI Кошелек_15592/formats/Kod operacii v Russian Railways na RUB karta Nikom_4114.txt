@@ -1,0 +1,10 @@
+^.*(?:ikomu.*?\s+ne\s+|\d+\s+otpravil\s+vam\s+|[Кк]од\W?\s+\d{4,}).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Kod operacii v Russian Railways na 387.50 RUB (karta 489049******0623): 725715. Nikomu ego ne soobshayte! QIWI: 8-800-707-77-59.
+
+-----EXAMPLE-----
+Оплата. Код: 30357. Сумма: 1.82 USD в AliExpress.

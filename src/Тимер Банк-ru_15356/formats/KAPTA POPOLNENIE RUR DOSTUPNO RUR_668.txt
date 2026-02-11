@@ -1,0 +1,7 @@
+^([\d-]{10}).*?\*(\d{4})\s+POPOLNENIE.*?(\d[\d\s.]*)\s(?:[A-Z]{3})\sDOSTUPNO\s(?:\d[\d\s.]*).*
+
+-----COLUMNS-----
+date;syncid;income
+
+-----EXAMPLE-----
+2013-03-25 00:00:00 KAPTA 6773***4782   POPOLNENIE + 12 600.00 RUR DOSTUPNO 12 706.14 RUR

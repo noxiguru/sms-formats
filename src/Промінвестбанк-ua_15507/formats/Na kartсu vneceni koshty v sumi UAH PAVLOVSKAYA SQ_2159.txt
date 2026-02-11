@@ -1,0 +1,7 @@
+^.*?kart.*?(\d{4}) vnecen.*?([\d\s.,]*\d)\s*([A-Z]{3});.*?DOSTUPNA.*?(-?[\d\s.,]*\d).*?;\s*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Na kartсu *05300 vneceni koshty v sumi 20 000.00 UAH; 10 PAVLOVSKAYA SQR.; DOSTUPNA SUMA 25 823,69 UAH; 2016-01-13 14:44:49 ProminvestBank

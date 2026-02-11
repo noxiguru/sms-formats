@@ -1,0 +1,7 @@
+^.*account.*?(\d{4}).*ebited.*?([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d?\s+from\s+(.*?)\s+on\s+([\d]{4}-\d{2}-\d{2})\s+.*alan.*?([A-Z]{3})\s*(-?[\d\s,]*\d\.\d{2})\d?
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#yMd;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your account 0465 has been debited with KWD 2.495 from THE SULTAN CENTER , FAHAHEEL on 2024-09-13 19:02:00 . Your remaining balance is KWD 7.665

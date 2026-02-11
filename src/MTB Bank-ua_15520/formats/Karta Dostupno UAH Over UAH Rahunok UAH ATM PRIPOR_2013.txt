@@ -1,0 +1,7 @@
+^.*\*\d*(\d{4}):\s*-[\d\s.,]+\s*\(([\d\s.,]*\d).*Dostu.*?(-?[\d\s.,]*\d).*(\d{4}-[\d-]{5}).*?].*ATM.*
+
+-----COLUMNS-----
+syncid#cash;outcome;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Karta *0523: -500.00 (500.00) Dostupno:643.77 UAH Over:0.00 UAH Rahunok:643.77 UAH [2015-10-09 08:31:40] ATM PRIPORT. YUGNIY YUGNY UA Tel:0800500255

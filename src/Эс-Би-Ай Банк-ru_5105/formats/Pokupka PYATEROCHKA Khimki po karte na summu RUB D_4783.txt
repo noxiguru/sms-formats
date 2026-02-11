@@ -1,0 +1,7 @@
+^Pokupka (.*) po kart.*?(\d{4}) na .*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) .ostu.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+payee;syncid;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Pokupka PYATEROCHKA, Khimki po karte *2656 na summu: 209.95 RUB Dostupniy ostatok: 4 698.32 RUB 17.08.20  18:06

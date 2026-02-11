@@ -1,0 +1,7 @@
+^(?:Banko|Kassa).*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}).\s*Data.([\d.]{8}).*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Bankomat, Summa:2900,00 RUR, Karta:4..0304, Data:11.05.14, Inf:SPARTAKA 12, Kod:970464. Dostupno:12479.59 RUR

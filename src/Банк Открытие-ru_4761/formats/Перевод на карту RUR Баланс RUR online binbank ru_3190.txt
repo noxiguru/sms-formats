@@ -1,0 +1,10 @@
+^(?:Перевод на|Perevod na)(?!.*\*) .*?([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{8}) .*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Перевод на карту  35 000.00 RUR 01.09.17 11:34. Баланс: 5 256.03 RUR. online.binbank.ru
+
+-----EXAMPLE-----
+Perevod na kartu: 10000.00 RUR 08.04.18 16:51. Balans: 43.86 RUR. i.binbank.ru

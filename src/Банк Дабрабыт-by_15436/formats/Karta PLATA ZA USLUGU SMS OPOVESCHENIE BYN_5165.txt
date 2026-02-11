@@ -1,0 +1,7 @@
+^.*?[.*](\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}).*(PLATA ZA.*): ([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;comment;outcome;instrument
+
+-----EXAMPLE-----
+"Karta 4214...1645" 30.09.2021 13:17:43 PLATA ZA USLUGU SMS-OPOVESCHENIE: 3 BYN.

@@ -1,0 +1,7 @@
+^.*SA CH Pay.*?\.(\d{4}) .ata.*?(\d{4}-\d{2}-\d{2}) [\d:]+ .uma.*?([\d\s.,]*\d)\s*([A-Z]{3}) .old.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yMd;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+BC VICTORIABANK SA CH Payment Card: 4...7024 Data: 2022-11-24 10:51:32 Suma: 8.00 MDL Sold: 23 MDL Detalii: Web/Mob P2P transfer own 5..71

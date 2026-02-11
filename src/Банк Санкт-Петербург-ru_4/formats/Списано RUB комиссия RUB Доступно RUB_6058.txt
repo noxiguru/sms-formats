@@ -1,0 +1,7 @@
+^\*(\d{4})\s+.писан.*?([\d\s.,]*\d)\s*([A-Z]{3}).*омис.*?([\d\s.,]*\d)\s*[A-Z]{3}\s+(\d{2}[-./]\d{2})\s+[\d:]+\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;fee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*4084 Списано 5000RUB, комиссия 0RUB 12.11 23:21 Доступно 78503.17RUB

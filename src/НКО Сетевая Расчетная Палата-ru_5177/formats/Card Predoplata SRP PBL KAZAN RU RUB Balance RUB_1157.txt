@@ -1,0 +1,7 @@
+^.*?(\d{4}). ([\d.]{10}) [\d:]* (.*?) \+([\d\s.,]*\d) ([A-Z]{3}). Balance. (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;payee;income;instrument;av_balance
+
+-----EXAMPLE-----
+Card *1900: 28.01.2014 11:27  Predoplata / SRP PBL>KAZAN RU +4000.00 RUB. Balance: 4416.24 RUB

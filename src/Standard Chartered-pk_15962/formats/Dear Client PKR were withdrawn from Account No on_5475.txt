@@ -1,0 +1,7 @@
+^.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) were withd.*\*(\d{2}-\d{2}) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Client, PKR 5000.00 were withdrawn from Account No. 01-72***84-01 on 12-10-22 using an ATM. Avail. Bal: PKR 50896.98.

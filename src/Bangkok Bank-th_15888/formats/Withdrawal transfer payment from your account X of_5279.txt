@@ -1,0 +1,7 @@
+^Withdr.*X(\d{4}) of ([a-zA-Z]{2,3})\s*([\d\s.,]*\d) via ATM.*avail.*? ([a-zA-Z]{2,3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Withdrawal/transfer/payment from your account X1850 of Bt 1,000.00 via ATM; the available balance is Bt 332.84.

@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*ebit.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) (?:at [\d:]+ )?(?:for|throu.* to) (.*)\. Bal.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your a/c 0002****8939 has been debited with PKR 7,562 on 22-AUG-21 for K-Electric BILL PAYMENT. Bal. PKR 100,000. For info, call 111825888.
+
+-----EXAMPLE-----
+Your UBL a/c 0002****8939 has been debited with PKR 500 on 14-AUG-21 at 02:20 through Inter Bank Funds Transfer to JOHI KHALID, Habib Bank Limited. Bal PKR 268,192. For info, call 111825888.

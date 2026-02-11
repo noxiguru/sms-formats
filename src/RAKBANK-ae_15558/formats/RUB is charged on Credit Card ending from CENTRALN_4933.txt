@@ -1,0 +1,10 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d) is char.*(?:nding |X|\*)(\d{4}) from (.*?) on (\d{2}/\d{2}/?\d{0,4}).*vail.*?([A-Z]{3}|)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+RUB 80.00 is charged on Credit Card ending 7011 from CENTRALNAYA PPK on 06/04. Combined Avail.Bal is 28575.02. Ref statement for exact amnt.
+
+-----EXAMPLE-----
+AED 30.00 is charged on your credit card 559580XXXXXX6006 from NATIONAL PARKING COMPA on 22/12. Combined Avail.Bal is 58062.00.

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*([\d.]{10}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта *2024:  02.04.2019 11:38, списано 3000.00 RUR, 3DI KYKYRYZA-PAY, -.   Доступно 3476.48 RUR.

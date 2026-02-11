@@ -1,0 +1,7 @@
+^.* na Vas.*?\d*(\d{4}) je upla.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Postovani, na Vas racun 20025028000 je uplaceno 454.826,81 RSD . Vasa UniCredit Banka.

@@ -1,0 +1,7 @@
+^.*([\d/]{5}).*arahovano([\d\s.,]*\d)\s*([A-Z]{3}).*ahunok.*?(\d{4}).*perekaz.*alans.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Universal Bank: 08/02 12:07 Zarahovano 20,000.00 UAH na potochnyi rahunok *0904 (perekaz z Universal Bank) Balans: 20,126.37 UAH

@@ -1,0 +1,7 @@
+^(?:.окуп|.okup).*?(Otmena).*?\*(\d{4}).*(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d).*?;\s+(.*?);\s+([\d.]{10}) .*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Pokupka Otmena *9285; Uspeshno; Summa: 0.51 RUR; Balans: 559.00 RUR; MTS.RU REGISTRATION; 26.05.2018 11:08

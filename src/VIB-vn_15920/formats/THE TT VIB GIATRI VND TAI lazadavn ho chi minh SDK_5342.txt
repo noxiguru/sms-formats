@@ -1,0 +1,7 @@
+^.*(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}) GIAT.*?([\d\s.,]*\d)\s*([A-Z]{3}) TAI:\s*(.*?)\s+SDKD.*?\+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+18:16;27/07/2022 THE TT VIB:****4588 GIATRI:71,000 VND TAI:lazadavn,ho chi minh SDKD:+2,429,000 LH 18008180 de duoc ho tro

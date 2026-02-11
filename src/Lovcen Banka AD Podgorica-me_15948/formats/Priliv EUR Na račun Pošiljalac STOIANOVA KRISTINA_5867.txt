@@ -1,0 +1,10 @@
+^Priliv.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+Na.*?(\d{4})\s+Po[šs]il\w+:\s+(.*?)\s+Sa\s+ra[čc].*?Opis:\s+(.*)\s+Stanje.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+Datu.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+income;instrument;syncid;payee;comment;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Priliv: 180,00 EUR Na račun: 1234567890 Pošiljalac: STOIANOVA KRISTINA Sa računa: 1234567890 Opis: OSTALI TRANSFERI Stanje: 182,47 EUR Datum: 29.06.2023 Vrijeme: 10:35
+
+-----EXAMPLE-----
+Priliv: 1.800,00 EUR Na račun: 1234567890 Pošiljalac: PEOPLE FIRST DOO Sa računa: 1234567890 Opis: ZARADE I NAKNADE ZARADA Stanje: 1.816,59 EUR Datum: 19.07.2023 Vrijeme: 12:53

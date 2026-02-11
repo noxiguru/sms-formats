@@ -1,0 +1,7 @@
+^Snyatie.* s .*?: ([\d\s.,]*\d)([A-Z]{3}). ([\d.]{10}).*Dostupno. (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Snyatie sredstv s deposita Nakopitelnii schet: 10RUB. 17.06.2014 06:25. Dostupno: 327457.81RUB

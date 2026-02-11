@@ -1,0 +1,7 @@
+^Popoln(?!.*stat).*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) ([\d.]{8}) .*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yy
+
+-----EXAMPLE-----
+Popolnenie 40 BYN Karty #3926 17.01.18 18.36 Acode 833171; Mesto: SOU BPS-Sberbank > Minsk, BPS-Sberbank Payments BLR. BPS-Sberbank

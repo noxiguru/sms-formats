@@ -1,0 +1,7 @@
+^На\s+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+в\s+(.*?)\.\s+.осту.*?(Сплит).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+║\s+Покупка\s+в\s+сп.*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+На 723.00 RUB в Маркет. Доступно в супер Сплит: 62457.00 RUB ║ Покупка в сплит

@@ -1,0 +1,7 @@
+^.*?,\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+has\s+been\s+ded.*?ccount\s+(\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid
+
+-----EXAMPLE-----
+Dear Ilya, AED 200.00 has been deducted from your account 3301 for Fund Transfer through Online Banking.

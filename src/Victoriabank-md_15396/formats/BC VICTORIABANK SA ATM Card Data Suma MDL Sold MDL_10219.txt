@@ -1,0 +1,7 @@
+.*?(?:ATM|Bancomat).*?Card.*?(\d{4}).*?Data.*?(\d{4}[-./]\d{2}[-./]\d{2}).*?(?:Suma|Sum).*?([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4}|[^\w\s]).*?(?:Sold|Balance).*?(-?[0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4}|[^\w\s]).*?(?:Detalii|Details)[:\s]+(.+)
+
+-----COLUMNS-----
+syncid#cash;date#yMd;outcome;instrument;balance;acc_instrument;comment
+
+-----EXAMPLE-----
+BC VICTORIABANK SA ATM Card: 5...5237 Data: 2025-11-29 12:47:58 Suma: 4000.00 MDL Sold: 78 MDL Detalii: ATM VICTORIABANK 65

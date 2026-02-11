@@ -1,0 +1,7 @@
+^.* ([\d.]{8}) .*fost achitata dat.*?([\d\s.,]*\d)\s*([A-Z]{3}) pe cont.*?(\d{4})\s+(de pe cont.*?)\..*disp.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;syncid;comment;av_balance
+
+-----EXAMPLE-----
+La 06.03.17 a fost achitata datoria scad./rest. de 1.675,73 MDL pe contul 2259A09386542 de pe contul 1234567890. Suma disp:9.319,44 MDL.

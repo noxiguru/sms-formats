@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*nyat\w+ n.*?-([\d\s.,]*\d)\W?\s*([A-Z]{3}).* \W?(\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d)\W?\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*3443. Naqd yechish/Snyatie nalichnih: -200.00 USD FRB KAPITAL24 SBERKA 25.06.2021 16:16. Mavjud qoldiq/Dostupno: 76.06 USD. AKB Kapitalbank
+
+-----EXAMPLE-----
+Karta *8555. Naqd yechish/Snyatie nalichnih "BHOPAL MAIN>BHOPAL", -10000.00, INR, "12-12-2022 17:41". Mavjud qoldiq/Dostupno: 537.09, USD.

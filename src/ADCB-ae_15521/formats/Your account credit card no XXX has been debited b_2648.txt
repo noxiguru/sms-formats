@@ -1,0 +1,7 @@
+^.*ard.*?(\d{4}) .*ebit.*?([A-Z]{3})\s*([\d\s.,]*\d)\s+for\s+(.+?)\s+on\s+([\d-]{10}).*imit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;comment;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+Your account/credit card no. XXX0409 has been debited by AED 100.00 for du Prepaid Recharge payment on 25-09-2016 08:48:03 through ADCB Mobile App. Available Limit is AED 62937.56

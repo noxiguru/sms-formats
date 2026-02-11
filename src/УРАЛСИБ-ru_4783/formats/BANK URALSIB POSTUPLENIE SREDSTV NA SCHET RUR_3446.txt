@@ -1,0 +1,7 @@
+^.*POSTUPLENIE SRED.*?([\d\s.,]*\d)\s*([A-Z]{3}) ([\d/]{10}).*
+
+-----COLUMNS-----
+income;instrument;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+BANK URALSIB. POSTUPLENIE SREDSTV NA SCHET: 11100 RUR 15/01/2018 08:06:04

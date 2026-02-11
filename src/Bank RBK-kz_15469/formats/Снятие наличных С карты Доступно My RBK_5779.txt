@@ -1,0 +1,7 @@
+^(?:Снятие н|Snyatie n).*?([\d\s.,]*\d)\s*([A-Z]{3}|\W) [СсSs].*?\*(\d{4}) .(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Снятие наличных: 40 000.00₸ С карты: *2140 Доступно: 7 101.70₸ ║ My RBK

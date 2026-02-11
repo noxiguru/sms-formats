@@ -1,0 +1,7 @@
+^([\d/]{10}) na .*?(\d{4}) .ostup.*?([\d\s.,]*\d)\s*([A-Z]{3}).*vsego.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM/yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+28/12/2018 na Vash schet No 000012345 postupilo 100.00 RUR, vsego na schete 1,000.00 RUR, svobodnye sredstva 40.00 RUR

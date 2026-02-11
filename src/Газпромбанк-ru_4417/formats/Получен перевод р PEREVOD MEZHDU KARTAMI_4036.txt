@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+(?:\+|Пополне.*?|Получен.*?)(?!.*осту)([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*?)\s+([\d.]{5})\s+.*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;date#dd.MM
+
+-----EXAMPLE-----
+*6350 Получен перевод 100000р PEREVOD MEZHDU KARTAMI 28.12 13:53

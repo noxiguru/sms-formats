@@ -1,0 +1,7 @@
+^(?!.*(?:стат|stat)).*?([\d.]{10}).*? (?:на|na) .*?(\d{4}) .*?(?:ачисл|achisl).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument
+
+-----EXAMPLE-----
+Uvazhaemyj klient! 10.05.2019 13:47:51 na schet BY73MTBK1234567890 BYN zachisleno 95 BYN. Vash MTBank!

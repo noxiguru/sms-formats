@@ -1,0 +1,7 @@
+^.*ard(\d{4})\D? .плата в сети.*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance
+
+-----EXAMPLE-----
+BNB-Bank; Card5492; Оплата в сети Интернет: 600,00 BYN; 02.07.20 12:18:25; BNB_PAY_1,MINSK,BY; MCC: 6012; Dostupno: 876,42 BYN

@@ -1,0 +1,7 @@
+^R/s (\d{4})\W? .* (\d{2}[-./]\d{2}[-./]\d{2,4}).*achisl.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*)\s+Ost.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+R/s 0819 OOO "KUMERTAUSKIJ XLEBOKOMBINA 22.11.2022 12:24. Zachisleno 3700.00 RUB. OOO "AJSBERG" Ost 3700.00 RUB

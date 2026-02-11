@@ -1,0 +1,7 @@
+^.*DEBIT.*?(\d{4}) sum ([\d\s.,]*\d)([A-Z]{3})Ostatok (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Kub universal bank.DEBIT card 4125*0174 sum 35.00RUROstatok 850.90 RUR

@@ -1,0 +1,7 @@
+^(?:Zachis|Popoln|Postup|Зачис|Пополн|Поступ)(?!.*(?:stat|стат)).*?([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d/]{5}) .*\*(\d{3,4}).*
+
+-----COLUMNS-----
+income;instrument;date#dd/MM;syncid
+
+-----EXAMPLE-----
+Postuplenie Summa 2000RUB Tinkoff Bank P2P 28/10 13:01 karta *3597

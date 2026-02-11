@@ -1,0 +1,13 @@
+^.*(?:POPOLN|ПОПОЛН).*?(\d{4})\s+(?:на|НА|NA|na)([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}) .*(?:OST|ОСТ).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+POPOLNENIE KARTI 8219 на 25412.66 RUR 09.09.16 07:31 MSK.OSTATOK 25424.81 RUR
+
+-----EXAMPLE-----
+ПОПОЛНЕНИЕ  3219 NA 357.42 RUR 10.01.18 11:29 МСК.ОСТАТОК 1821.23 RUR
+
+-----EXAMPLE-----
+BL-ONLINE www.nskbl.ru/app ПОПОЛНЕНИЕ КАРТЫ 4698 НА 1000.00 RUR 10.02.20 15:14 МСК.ОСТАТОК 21211.79 RUR

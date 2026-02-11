@@ -1,0 +1,7 @@
+^.*?([\d]{4}).*(?:nyatie n|нятие н)(?!.*(?:omiss|омис)).*?([\d\s,.]*\d)\s*([A-Z]{3}).*(?:stat|alan|стат|алан).*?(-?[\d\s,.]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Karta *4553. Snyatie nalichnyh 2000.00 RUR. RU/MOSKVA/RBA ATM 50741. Balans 19241.54 RUR. 24.01.2019

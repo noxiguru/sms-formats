@@ -1,0 +1,10 @@
+^.*\*\d*(\d{4}).*(?:ostup|оступ).*?([\d\s.,]*\d) (?:от|ot)\s+(.*?)(?:\s+(?:счет|schet)).*?(?:stat|стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;payee;av_balance
+
+-----EXAMPLE-----
+Na schet *00086 postupilo 1900,00 ot PAO SBERBANK//OSINEVSKAIa ELENA NIKOLAEVNA//1234567890//ROSSIIa 152303 IaROSLAVSKAIa OBL. G TUTAEV UL 50-LE schet *00001. Ostatok 9764,88
+
+-----EXAMPLE-----
+Na schet *12667 postupilo 35000,12 ot Общество с ограниченной ответственностью "ФАЙНФУД" schet *07164. Ostatok 9737148,09

@@ -1,0 +1,7 @@
+(FOP\s+.*?)\s+\*(\d+)\.[A-Za-z]{2,5}\s+(\d{2}\.\d{2}\.\d{4})\s+\d{2}:\d{2}\s+DEBIT\s+([0-9][\d\s.,]*\d)\s+([A-Za-z]{1,5})\s+\*BALANCE\s+(-?[0-9][\d\s.,]*\d)\s+([A-Za-z]{1,5})
+
+-----COLUMNS-----
+payee;syncid;date#dMy;outcome;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+FOP LAKHANSKYI VITALII SERHIIOVYCH *26002292843.UAH 26.04.2025 02:36 DEBIT 687.00 UAH *BALANCE 1328.73 UAH

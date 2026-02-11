@@ -1,0 +1,7 @@
+^.* (R\d{4})x*([\d\s.,]*\d).*?fee([\d\s.,]*\d)\).*
+
+-----COLUMNS-----
+syncid;outcome;fee
+
+-----EXAMPLE-----
+Code:43217 R2100xxxxxxxx 500.00(incl fee 5.50) WMR. Session:689967959

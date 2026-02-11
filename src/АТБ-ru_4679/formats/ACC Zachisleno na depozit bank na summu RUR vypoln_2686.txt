@@ -1,0 +1,10 @@
+^.*?\*(\d{4})(?!.*\d{1,2}\.\d{2}\.).*(?:achislen|ачислен).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+ACC: *1957. Zachisleno na depozit (bank) na summu: 6158.58 RUR vypolneno uspeshno. Dostupno: 6557.11 RUR.
+
+-----EXAMPLE-----
+НС*3844 зачислено 661.65 RUR от АТБ. Доступно 106,707.47 RUR

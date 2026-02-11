@@ -1,0 +1,10 @@
+^((?:Отмен|Возвр).*?)\s+на\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\W?\s+.*(?:карта\s+\*|счет\s+)(\d{4}|[A-Z]{3}).*алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\s+║\s*(.*)
+
+-----COLUMNS-----
+comment;income;instrument;syncid;balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Отмена на 10 ₽, карта *6240 Баланс 3 641.62 ₽ ║ Mos.Transport 41, MIRA
+
+-----EXAMPLE-----
+Возврат на 236 ₽, счет RUB Баланс 1 800.33 ₽ ║ YM*blablacar

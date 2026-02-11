@@ -1,0 +1,7 @@
+^.*efund.*mnt.*?(\S)\s*([\d\s.,]*\d).* ([\d/]{8}) At:\s+(.*?)\..*
+
+-----COLUMNS-----
+instrument;income;date#MM/dd/yy;payee
+
+-----EXAMPLE-----
+Discover Card: Refund posted to your Discover Card. Crdt Amnt: $8.19 Post Date: 08/30/17 At: OFFICE. http://discvr.co/HamSjs Text STOP to quit.

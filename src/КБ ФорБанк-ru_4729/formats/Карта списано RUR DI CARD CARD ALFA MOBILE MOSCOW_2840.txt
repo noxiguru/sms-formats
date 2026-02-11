@@ -1,0 +1,7 @@
+^.*арт.*?(\d{4})(?!.*\.00\.00).*?([\d.]{10}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.+?)\.\s+.оступн.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта 4104: 20.01.2017 10:37, списано 19314.26 RUR, 3DI CARD2CARD ALFA_MOBILE, MOSCOW. Доступно 0.00 RUR.

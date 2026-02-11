@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*(.ozvrat.*?)([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\W?\s+(.*?)\..*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dMy;payee
+
+-----EXAMPLE-----
+Karta *8270: vozvrat 2390.00 RUR; 08.04.2019; BashMag-5. Spravka: 8-800-100-32-00

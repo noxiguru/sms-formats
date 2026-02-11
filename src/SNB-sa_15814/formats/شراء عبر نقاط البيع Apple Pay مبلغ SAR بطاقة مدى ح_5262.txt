@@ -1,0 +1,10 @@
+^(?:شراء.*مبلغ|.*[Pp]urchas).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:حساب|[Aa]ccount).*?(\d{3}\*\d{3}) .*(?:من|[Ff]rom)\s+(.*?)\s+(?:في|[Oo]n)\s+(\d{2}/\d{2}/\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+شراء عبر نقاط البيع (Apple Pay) مبلغ 1550 SAR بطاقة مدى *8907 حساب 002*123 من ALSHARAH GREEN في 12/03/2022 17:42
+
+-----EXAMPLE-----
+Apple pay purchase Amount of 1550 SAR Card ending in 8907 Account number 123*002 From Alsharah Green On 12/03/2022, at 17:42

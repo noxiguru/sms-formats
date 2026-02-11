@@ -1,0 +1,10 @@
+^.*art(?!.*(?:edostat|ATM)).*?(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:etail|nique) -([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) OK\. .ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 4.1526 11.03.2020 20:12:18 Retail -4.23 BYN SHOP "PRODUKTY" MINSK BLR OK. Dostupno 201.36 BYN
+
+-----EXAMPLE-----
+Karta 4.5356 19.02.2022 11:34:16 Unique -210.00 USD exmo.com INTERNET LTU OK. Dostupno 1708.87 BYN

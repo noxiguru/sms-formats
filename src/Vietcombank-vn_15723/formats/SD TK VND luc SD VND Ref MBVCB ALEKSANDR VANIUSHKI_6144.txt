@@ -1,0 +1,7 @@
+^SD\s+TK\s+\d*(\d{4})\s+-([\d\s.,]*\d)\s*([A-Z]{3})\s+luc\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*SD\s+(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+SD TK 1234567890 -303,000VND luc 05-03-2024 20:24:35. SD 301,211,180VND. Ref MBVCB.5439093730.070752.ALEKSANDR VANIUSHKIN transfer.CT tu 1234567890 ALE...

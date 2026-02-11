@@ -1,0 +1,10 @@
+^.*charged\s+([A-Z]{3}|\W)\s*([\d\s.,']*\d).*urcha.*x{4}\s*(\d{4}),\s+(.*?)\s*\.?$
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee
+
+-----EXAMPLE-----
+online@zkb.ch Your card has been charged CHF 22.52 Purchase ZKB Visa Debit card No. xxxx 5387, BILLA DANKT .
+
+-----EXAMPLE-----
+online@zkb.ch Your card has been charged CHF 27.00 Online purchase with ZKB Visa Debit card No. xxxx 5387, SBB CFF FFS.

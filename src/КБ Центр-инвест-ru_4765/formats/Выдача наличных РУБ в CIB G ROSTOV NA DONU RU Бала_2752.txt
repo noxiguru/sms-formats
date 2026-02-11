@@ -1,0 +1,7 @@
+^.*? ([\d.]{8}) .*?\*(\d{4}).*ыдача н.*?([\d\s.,]*\d)\s*([а-яА-ЯA-Z]{3}).*алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+15:17 25.11.16 4303*4742 Выдача наличных 1500.00РУБ в CIB G ROSTOV-NA-DONU RU Баланс 15186.67РУБ

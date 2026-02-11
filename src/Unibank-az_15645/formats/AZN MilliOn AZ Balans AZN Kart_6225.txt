@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+.art.*?\*(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;payee;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
++110 AZN MilliOn>AZ Balans 108.36 AZN Kart: *2739

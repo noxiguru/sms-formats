@@ -1,0 +1,7 @@
+^.*?(\d{4})\s.*auth.*amount\s+([A-Z]{3})\s*([\d\s.,]*\d)@(?!.*ATM)(.*)\s+([\d/]{8}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd/MM/yy
+
+-----EXAMPLE-----
+Your VISA1522 was authorized for an indicative amount EUR353.00@PANCYPRIAN 0 00000000/CY 24/06/15.

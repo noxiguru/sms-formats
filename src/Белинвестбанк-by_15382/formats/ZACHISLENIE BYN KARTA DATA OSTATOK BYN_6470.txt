@@ -1,0 +1,7 @@
+^ZACHIS.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+KART.*?(\d{4}).*DATA\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*OSTAT.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+ZACHISLENIE 10.09 BYN KARTA #7925, #8854 DATA 03.12.2024 09:02:13 OSTATOK 12.46 BYN

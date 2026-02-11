@@ -1,0 +1,7 @@
+^.*[Cc]ash\s*[Ww]ith.*?([A-Z]{1,3})\s*([\d\s.,]*\d) from\s+(\S+).*Avail.*?(-?[\d\s.,]*\d).*?(\d{1,2}-\w{3}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;av_balance;date#dd-MMM
+
+-----EXAMPLE-----
+Capitec: Cash Withdrawal -R190.00 from SAVINGS ACCOUNT; Ref DNR Randfontn Tambotie Randfontein 03ZA; Avail R9.05; 10-Sep. Call 0860102043

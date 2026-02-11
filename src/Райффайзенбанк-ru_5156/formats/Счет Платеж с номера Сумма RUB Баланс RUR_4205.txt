@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*(?:с номера|s nomera) (\d+).*(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;income;instrument;av_balance
+
+-----EXAMPLE-----
+Счет *4631. Платеж с номера 79263711111. Сумма 500.00 RUB. Баланс 98346.58 RUR.
+
+-----EXAMPLE-----
+Schet *1234. Platezh s nomera 79001234567. Summa 123.00 RUB. Balans 1234.56 RUR.

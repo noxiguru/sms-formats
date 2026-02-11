@@ -1,0 +1,13 @@
+^(?:V[iy]dacha n|Выдача н).*?(\d{4}).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Vidacha nalichnih. Karta 1562. Summa 1900.00 RUB. GOSTINICHNYJ PR RU MOSKVA. 09.09.2015,  11:34:42. Dostupno 0.00 RUR.
+
+-----EXAMPLE-----
+Выдача наличных. Карта *7359. Сумма 12000 RUB. Malinovscogo street 23D RU G ROSTOV-NA-. 02.03.2018,  19:02:21. Доступно 38165.21 RUR.
+
+-----EXAMPLE-----
+Vydacha nalichnykh. Karta *9876. Summa 1234 RUB. 24 KRASNYY PUT STR BLD 1 RU OMSK. 15.05.2018, 16:36:38. Dostupno 1234.56 RUR.

@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) Spisano (\d[\d\s.]+) ([A-Z]{3}) ([\d-]{8}) [\d:]+ (.*?) Spravka:.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd-MM-yy;payee
+
+-----EXAMPLE-----
+MTBank. 23/04 21:18.Karta 5***5296 Spisano 18 900.00 BYR 23-04-13 21:17 Retail SHOP "PRODUKTY" Spravka: 80172899292

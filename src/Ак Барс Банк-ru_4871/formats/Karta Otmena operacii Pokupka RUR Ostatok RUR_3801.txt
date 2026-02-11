@@ -1,0 +1,7 @@
+^.*?(\d{4}).*?(Otmena op.*?)\s.*?([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d.]{8}) .*?stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Karta*0703. Otmena operacii Pokupka 1.00RUR 26.07.18 08:38. Ostatok 2082.52RUR

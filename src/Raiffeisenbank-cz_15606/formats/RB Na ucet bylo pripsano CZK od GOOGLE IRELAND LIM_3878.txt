@@ -1,0 +1,7 @@
+^.*Na .*?(\d{4}) .*? ([\d.]{5})\.? .*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*od\s+(.*?)\s*(?:\(|\.).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;income;instrument;payee
+
+-----EXAMPLE-----
+RB: Na ucet 3747170001 bylo 23.11. pripsano +2.351,76 CZK od GOOGLE IRELAND LIMIT (Platba).

@@ -1,0 +1,28 @@
+^(?!.*(?:alance|aldo))(?:Przelew|Outgoing|Auth?or[yi]z|.*(?:uthoriz|ayment|ebet)).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:Konto|Card|Kart).*?([\d]{3,4}|[A-Z]{3})\W?,?\s+.*at[ae]:\s*(\d{2}[./]\d{2}[./]\d{2,4})\D.*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy
+
+-----EXAMPLE-----
+Credit Card Authorization: Amount: -5,30 PLN Card: 4249xxxxxxxx5958 Date: 29/12/17, 12:57
+
+-----EXAMPLE-----
+Autoryzacja transakcji karta kredytowa: Kwota: -160,00 PLN Karta: 5236xxxxxxxx7714 Data: 23/07/19, 21:03
+
+-----EXAMPLE-----
+Płatność kartą debetową: Kwota: -2,38 PLN, Karta:Visa Konto 360 **** **** **** 1244, Data: 01/02/2020 12:44 ║ Bank Millennium
+
+-----EXAMPLE-----
+Przelew wychodzący: Kwota: 5,00 PLN, Z rachunku: Konto 360°, Data: 05/02/2020 09:53 ║ Bank Millennium
+
+-----EXAMPLE-----
+Outgoing transfer: Amount: 5.00 PLN, From account: Konto 360°, Date: 11/04/2020 17:43 ║ Bank Millennium
+
+-----EXAMPLE-----
+Outgoing transfer: Amount: 8,685.34 EUR, From account: Konto walutowe w EUR, Date: 08/06/2020 16:10 ║ Bank Millennium
+
+-----EXAMPLE-----
+Credit Card Authorization: Amount: -56,87 PLN Card: 523625******2104    Date: 13/10/20, 09:38
+
+-----EXAMPLE-----
+Przelew wychodzący: Kwota: 5,00 PLN, Z rachunku: Konto 360°  Student, Data: 11/04/2021 21:01 ║ Bank Millennium

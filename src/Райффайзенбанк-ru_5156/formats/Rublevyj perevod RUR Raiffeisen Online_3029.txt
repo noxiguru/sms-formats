@@ -1,0 +1,10 @@
+^(?:Rub.*?perev|Oplat.*kvit).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument
+
+-----EXAMPLE-----
+Rublevyj perevod 7,000 RUR. 8-800-7000072 Raiffeisen Online
+
+-----EXAMPLE-----
+Oplata po kvitancii 8527.1 RUR. 8-800-7000072 Raiffeisen Online

@@ -1,0 +1,7 @@
+^.*ard\s+payment\s+of\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\s+(?:u|at)\s+(.*?)\s+║\s+.*
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+💳 card payment of 391,94 CZK at OMC*Kamatera Cloud Pla ║ Card transaction

@@ -1,0 +1,7 @@
+^Операц.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W).*\*(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;balance;acc_instrument
+
+-----EXAMPLE-----
+Операция на 1 500 ₽, карта *3942 Баланс 28 969.91 ₽ ║

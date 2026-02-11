@@ -1,0 +1,10 @@
+^(?:Zachis|Зачис).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:Data|Дата) [\d:]{5,} (\d{2}[-./]\d{2}[-./]\d{2,4}) (?:(?:Otprav|Data|Отправ|Дата)\w* )?\??(.*?) (?:Kod|Код) \d{6}.*(?:arta|арта) \d+(\d{4}) (?:Bala|Бала).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;date#dMy;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Zachislenie Summa 25.00 TJS Data 13:17 14.05.23 Otpravitel 1234567890 Kod 1931433520 Karta 1234567890 Balans 30.93 TJS
+
+-----EXAMPLE-----
+Zachislenie Summa 178.20 TJS Data 17:16 19.05.23 Data ? Kod 1959028175 Karta 1234567890 Balans 178.20 TJS

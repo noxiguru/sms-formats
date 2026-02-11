@@ -1,0 +1,7 @@
+^Popovn.*Date.*?([\d.]{5}).*Card.*?-(\d{4})\sSum.*?([\d\s.,]*\d)\(([A-Z]{3}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Popovnennya rahunku. Date,Time:03.11 17:15 Card:4040-5711 Sum=50.25(UAH) Balance=-70(UAH) Credit Limit=0(UAH) Total=0(UAH)

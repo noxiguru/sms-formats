@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s.,]*\d).*spent.*ard.*?(\d{4}) on (\d{2}-\S{2,3}-\d{2}) at (.+?)\..*Lmt:.*?\.?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dd-MM-yy;payee;av_balance
+
+-----EXAMPLE-----
+INR 1948 was spent on your Credit Card XX0644 on 06-Mar-16 at FERNS N PETALS PRI. Avbl Lmt: Rs.46698.09 Track spends with Axis Mobile: http://goo.gl/V1isPP

@@ -1,0 +1,13 @@
+^OPLAT.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4})\s*DATA\s*(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ (.*?)\s+(?:MCC.*?)?OSTAT.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+OPLATA 7.58 USD KARTA #5421 DATA 09.02.2017 00:56:59 WWW.ALIEXPRESS.COM>LONDON>GB OSTATOK 55.49 USD
+
+-----EXAMPLE-----
+OPLATA: 9.78 BYN KARTA #8477DATA28.12.2018 11:13:58 "BELPOCHTA" GROD.REG.BR.PKP>GRODNO>BY OSTATOK 763.89 BYN
+
+-----EXAMPLE-----
+OPLATA 21.55 BYN KARTA #7107 DATA 07.10.2022 20:57:40 SHOP "EVROOPT">SVETLOGORSK>BY MCC:5411 OSTATOK 440.55 BYN

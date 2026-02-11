@@ -1,0 +1,7 @@
+^Poluchenie n.*?,\s*([\d.]{8}) .*?\*(\d{4}).*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Poluchenie nalichnykh: ATM FILIALA V KAZANI 204, KAZAN, DEKABRISTOV, 178A,19.08.16 11:17, karta ***8137. Summa:24000.00 RUB. Dostupny ostatok:673.65 RUB.

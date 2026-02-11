@@ -1,0 +1,7 @@
+^ATM_OK.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*Card.*?(\d{4}).*Available a.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#yyyy-MM-dd;syncid#cash;av_balance
+
+-----EXAMPLE-----
+ATM_OK Authorization 100.00 UAH at Kyiv time 2015-03-24 20:37:37 Card=4**0586 in UKR KYIV (29A, ELEKTRYKIV STR.) Available amount 4 690.24 UAH

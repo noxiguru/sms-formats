@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{4})\s+\d{2}:\d{2}\s+Ispolneno\s+SBP\.\s+Prihod\s+([0-9][\d\s.,]*\d)([A-Za-z]{1,3})\s+Na\s+schet\s+(\d+)\s+Ot\s+(.+)$
+
+-----COLUMNS-----
+date#dMy;income;instrument;syncid;payee
+
+-----EXAMPLE-----
+15.01.2026 19:23 Ispolneno SBP. Prihod 36000.00RUB Na schet 355325 Ot Aleksej Petrovich S PAO Sberbank

@@ -1,0 +1,10 @@
+^.*eceive.*? (\D{1,3})\s*([\d\s.,]*\d) from (.*?)\.?(?: ║.*)?$
+
+-----COLUMNS-----
+instrument;income;payee
+
+-----EXAMPLE-----
+You've received a transfer of € 1,390.18 from Paysend PLC. ║ N26
+
+-----EXAMPLE-----
+You've received a transfer of € 1,850.53 from SBAG IT Services GmbH.

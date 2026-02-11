@@ -1,0 +1,12 @@
+^.*плата.*?([\d\s.,]*\d)\s*([A-Z]{3})\W+(.*?)\W+ HUMOCA.*?\*(\d{4}).*?(\d{2}[-./]\d{2}[-./]\d{2,4})\W+ (-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+💸 Оплата
+➖ 122.000,00 UZS
+📍 UZUMBANK CHIBO OPLAT
+💳 HUMOCARD *6245
+🕓 12:11 03.04.2023
+💰 3.418.220,57 UZS

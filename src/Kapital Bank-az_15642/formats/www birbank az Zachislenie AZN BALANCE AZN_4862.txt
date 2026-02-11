@@ -1,0 +1,10 @@
+^.*\*(\d{4})\s+.(?:achisl|edaxil).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+www.birbank.az 4169**2466 Zachislenie 400.00 AZN BALANCE 431.07 AZN 14:36 18.11.20
+
+-----EXAMPLE-----
+www.birbank.az 4169**3571 Medaxil 1.00 USD BALANCE 11 528.87 AZN 16:31 03.08.22

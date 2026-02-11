@@ -1,0 +1,16 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}) .(?:tryman|триман|олучение нал).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту|alysh).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+11.09.20 17:54 Mastercard Gold Debit*7837 otrymannia gotivky 600.00 UAH ATM1133 KRDF BILLA dostupna suma 4680.91 UAH Perevirka balansu ONLINE: http://bit.ly/2MlgJNI
+
+-----EXAMPLE-----
+27.09.20 18:09 Mastercard Gold Debit*7837 отримання готівки 100.00 UAH BRANCH 10026-045. Доступна сума 4428.56 UAH. ║ Raiffeisen
+
+-----EXAMPLE-----
+05.03.21 10:23 Visa Gold*6594 получение наличных 1000.00 UAH VUL. RIZDVIANA, 29-B. Доступная сумма 3731.94 UAH. ║ Raiffeisen
+
+-----EXAMPLE-----
+29.11.22 18:04 Visa Raifcard +*5251 otrymannia gotivky 25.00 EUR. Orientovnyi zalyshok 20845.01 UAH

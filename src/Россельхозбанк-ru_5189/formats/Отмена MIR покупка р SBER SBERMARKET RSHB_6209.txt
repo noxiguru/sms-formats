@@ -1,0 +1,7 @@
+^(?!.*(?:alan|алан))((?:Отмен|Otmen).*?),?\s+\w+(\d{4})\s+.*(?:okup|окуп).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*?)(?:\s+║.*)?$
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+Отмена, MIR2446 07:40 покупка 1,650.92р SBER*5411*SBERMARKET2 ║ RSHB

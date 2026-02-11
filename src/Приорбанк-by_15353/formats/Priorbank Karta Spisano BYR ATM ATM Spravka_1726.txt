@@ -1,0 +1,10 @@
+^.*?\*(\d{4}) Spisano (\d[\d\s.]+) ([A-Z]{3}) ([\d-]{8}).*ATM.*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd-MM-yy
+
+-----EXAMPLE-----
+Priorbank. 18/03 11:01.Karta 4***6232 Spisano 1 000 000.00 BYR 18-03-13 11:01 ATM ATM 621 Spravka: 80172899292
+
+-----EXAMPLE-----
+Priorbank. 07/05 21:31.Karta 4***0869 Spisano 4 000 000.00 BYR 07-05-15 21:31 ATM ATM 200 "RUBLEVSKY" Spravka: 80172899292

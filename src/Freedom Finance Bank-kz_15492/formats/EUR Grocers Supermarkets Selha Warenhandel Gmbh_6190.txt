@@ -1,0 +1,13 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+([A-Za-z\s,-]+?)\s+║\s+(?!Funds\s+Top)(.*)
+
+-----COLUMNS-----
+outcome;instrument;comment;payee
+
+-----EXAMPLE-----
+8.97 EUR Grocers, Supermarkets ║ Selha Warenhandel Gmbh
+
+-----EXAMPLE-----
+40.00 GEL Toys, Games And Hobby Products ║ P/e Ruslan Kozyrev
+
+-----EXAMPLE-----
+202.00 USD Financial Institutions - Trade And Services ║ Mobile App

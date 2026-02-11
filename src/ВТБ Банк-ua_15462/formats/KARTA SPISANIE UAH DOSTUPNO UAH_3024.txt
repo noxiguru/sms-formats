@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d/]{8}) .*SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+KARTA *2463 23/01/17 16:16, SPISANIE 100.00 UAH, DOSTUPNO 3474.90 UAH

@@ -1,0 +1,7 @@
+^(?:Depo.it|(?:ATM|POS).*Credit).*([\d.]{8}).*(\d{4})\s+.(?:mount|umma).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|stat).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;income;instrument;av_balance
+
+-----EXAMPLE-----
+Deposit 15.01.14 09:06 4301****5203 Amount: 200.00 RUB Av/Balance: 7273.29 RUB Term: UBRD Tel:+73432645564 www.ubrr.ru

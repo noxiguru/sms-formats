@@ -1,0 +1,10 @@
+^(?:Isk?hod.*?erevod|Исходя.*?еревод).*?(\d{4}) .*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*(?:stat|ostu|стат|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Iskhodyashyi perevod MC2835 summa 172800 KZT P2P_DMKM_Debit          >Almaty       KZ 2018-12-05 00:34:02. Ostatok: 18.3 KZT
+
+-----EXAMPLE-----
+Исходящий перевод 5351********9913 сумма 12000 KZT P2P_DMKM_Debit >Almaty KZ 2019-07-29 16:54:21 Доступно 42405.13 KZT

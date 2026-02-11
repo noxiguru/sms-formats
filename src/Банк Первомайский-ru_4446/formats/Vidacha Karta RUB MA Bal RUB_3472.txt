@@ -1,0 +1,7 @@
+^Vidacha.*?\*(\d{4}).*? ([\d.]{8}) ([\d\s.,]*\d)\s*([a-zA-Z]{3}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Vidacha. Karta *6268 13:11 14.02.18 9 900.00 RUB 1MA00024 Bal: 5 134.00 RUB

@@ -1,0 +1,7 @@
+^(VOZVRAT.*?)([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) DATA [\d.]{10}\s+[\d:]+\s+(.*?) DATA (\d{2}[-./]\d{2}[-./]\d{2,4}).*OSTAT.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+VOZVRAT SREDSTV 65.10 USD KARTA #1005 DATA 07.09.2022 00:00:00 ALIEXPRESS>LUXEMBOURG>LU DATA 09.09.2022 11:42:13 OSTATOK 168.53 BYN

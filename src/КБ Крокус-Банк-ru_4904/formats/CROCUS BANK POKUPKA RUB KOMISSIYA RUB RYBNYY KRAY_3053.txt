@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8}) .*POKUP.*?([\d\s.,]*\d)\s*([A-Z]{3}).*KOMIS.*?.([\d\s.,]*\d).*?\)\s+(.*?)\s+DOSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;fee;payee;av_balance
+
+-----EXAMPLE-----
+CROCUS-BANK 4*1203 19.06.17 13:07 POKUPKA 90.00 RUB (KOMISSIYA 0.00 RUB) RYBNYY KRAY (VIDNOE,RU) DOSTUPNO: 6,609.63 RUBa

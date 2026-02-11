@@ -1,0 +1,7 @@
+^Na.*\*(\d{4}) nadij.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(za .*?)\. Deta.*
+
+-----COLUMNS-----
+syncid;income;instrument;comment
+
+-----EXAMPLE-----
+Na vash rahunok 2620******5276 nadijshlo 246.29 UAH vynahorody za poslugoiu Cashback. Detali 0800308880

@@ -1,0 +1,10 @@
+^([\d.]{10}).*?(?:счет|schet).*?(\d{4}).*(?:писан|pisan).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{3}).*(?:стат|stat).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+20.09.2016 по счету 5663 произведено списание на сумму 50.00 руб. Остаток 200.00 руб.
+
+-----EXAMPLE-----
+31.07.2018 po schetu 5663 spisano 50.00 rub.. Ostatok 0.00 rub.

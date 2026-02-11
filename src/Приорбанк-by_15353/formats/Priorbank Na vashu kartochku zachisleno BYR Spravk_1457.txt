@@ -1,0 +1,7 @@
+^.*?([\d/]{5}).*zachisleno ([\d\s.,]*\d) ([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd/MM;income;instrument
+
+-----EXAMPLE-----
+Priorbank 17/11 14:39. Na vashu kartochku zachisleno 911200 BYR. Spravka : 80172899292

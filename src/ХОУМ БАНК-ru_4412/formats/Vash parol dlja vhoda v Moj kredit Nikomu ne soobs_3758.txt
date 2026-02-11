@@ -1,0 +1,22 @@
+^.*(?:ikomu\s+ne\s+|уменьшен\s+раз|одноразовый|ode\W?\s+\d{4,}|obavlena|обавлена|зменен\s+раз).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Vash parol dlja vhoda v "Moj kredit": 0015. Nikomu ne soobschajte parol, dazhe sotrudnikam banka!
+
+-----EXAMPLE-----
+По договору 2256797927 уменьшен размер ежемесячного платежа, теперь он составляет 13576.29р. При частичном досрочном погашении вы экономите на процентах! Полная стоимость кредита 19.902%. Уточненный график платежей hcrd.ru/mc
+
+-----EXAMPLE-----
+Ваш одноразовый пароль: 800170; Банк Хоум Кредит
+
+-----EXAMPLE-----
+Code: 2498 dlya pokupki po karte ***2927 na summu 151.98 RUB. Esli vy ne sovershaete etu pokupku, zvonite +74957858222
+
+-----EXAMPLE-----
+Karta *6890 uspeshno dobavlena v prilozhenie. Priyatnogo pol'zovaniya. ║ Хоум Кредит
+
+-----EXAMPLE-----
+По договору 2314235295 изменен размер ежемесячного платежа ║ Хоум Кредит

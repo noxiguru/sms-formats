@@ -1,0 +1,10 @@
+^.*(?:[Pp]arol|[Kk]od|[Пп]ароль|[Кк]од)\S+\s+\d{3,}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Parol': 16862. Registraciya ustrojstva iBank2.
+
+-----EXAMPLE-----
+Никому не говорите код: 3460, PMR*ADMINVPS, сумма 398.00р

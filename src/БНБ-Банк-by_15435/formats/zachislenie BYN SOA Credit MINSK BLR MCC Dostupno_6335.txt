@@ -1,0 +1,7 @@
+^.achislenie\s+([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+zachislenie 190 BYN SOA Credit>MINSK>BLR; MCC 6012'; '17/09/2024; Dostupno: 542.04 BYN

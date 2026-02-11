@@ -1,0 +1,7 @@
+^Vklad.*\*(\d{4}).*opolnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vklad "Popolnyaemiy Online" 180 dn.*0071: popolnenie 60000.00 RUR; 06.06.2018 17:56. Uchet rashodov: http://vtb.ru/pfmb

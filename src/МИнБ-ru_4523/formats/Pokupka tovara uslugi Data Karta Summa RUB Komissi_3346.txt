@@ -1,0 +1,10 @@
+^(?:Poku|Predav|Поку|Plate[zj])(?!.*ostu|.*осту).*(?:Dat|Дат).*? ([\d/]{5}) .*\*(\d{4}) .*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:omis|омис).*?([\d\s.,]*\d).*(?:Term|Терм).*?:\s*(?:\d+)?,?\s*(.+)
+
+-----COLUMNS-----
+date#dd/MM;syncid;outcome;instrument;fee;payee
+
+-----EXAMPLE-----
+Pokupka tovara/uslugi Data: 25/02 16:42 Karta: ****7937 Summa: 1282.50RUB Komissija: 0.00RUB Terminal: 20831961,YM.SOFT,MONEY.YANDEX.,RU
+
+-----EXAMPLE-----
+Pokupka tovara/uslugi Data: 10/12 14:39 Karta: ****4624 Summa: 8120.00RUB Komissiia: 0.00RUB Terminal: ,SPIM.RU,MOSCOW,RU

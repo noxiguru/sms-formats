@@ -1,0 +1,7 @@
+^.*Auth.*?(\d{4}) ([\d-]{10}).*?sum ([\d\s.,]*\d) ([A-Z]{3}).(?!.*ATM)(.*).Ostatok (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Kub universal bank.Auth on card 4125***8025 2014-08-07 12:03:50 sum 10 126.66 RUR;HANDY in KRASNODAR,RUS;Ostatok 40 541.56 RUR

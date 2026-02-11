@@ -1,0 +1,10 @@
+^.*latnos.*? -([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*? (\d{4}) (.*)
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;syncid;payee
+
+-----EXAMPLE-----
+Alerty24: platnosc karta na kwote -458,13 PLN 28-03-2021 Dopasowana Visa 1111 AUCHAN POLSKA SP. Z 02 WARSZAWA
+
+-----EXAMPLE-----
+Alerty24: platnosc karta na kwote -32,99 PLN 18-02-2023 VISA SELECT 7450 APPLE.COM/BILL CORK

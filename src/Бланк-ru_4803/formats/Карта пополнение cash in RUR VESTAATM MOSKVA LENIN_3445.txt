@@ -1,0 +1,7 @@
+^.*(\d{4}).*([\d.]{10}).*ополн.*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 3430: 22.01.2018 13:58, пополнение cash-in100.00 RUR, VESTAATM176123, MOSKVA, LENINSKIY PROSPEKT 15A. Доступно 100.00 RUR.#Справка:+7(495) 662-14-02

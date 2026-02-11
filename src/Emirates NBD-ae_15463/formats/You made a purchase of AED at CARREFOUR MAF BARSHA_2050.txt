@@ -1,0 +1,7 @@
+^.*purchase.*\s([A-Z]{3})\s*([\d\s.,]*\d)\s+at\s+(.+)\s+with\s+your.*(\d{4}).$
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+You made a purchase of AED 291.27 at CARREFOUR(MAF)-BARSHA, DUBAI with your Credit Card ending XXXX43145.

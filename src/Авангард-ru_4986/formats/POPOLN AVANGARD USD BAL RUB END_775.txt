@@ -1,0 +1,13 @@
+^.*((?:POPOLN|OTMENA|Выплата\s+пр).*?),?\s+(?:[Сс]умма)?([\d\s.,]*\d)\s*([A-Z]{3}).*\*\d*(\d{4}).*?(?:BAL|осту).*?(-?[\d\s.,]*\d).*?\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+POPOLN AVANGARD 28.00 USD #*12985 BAL 258639.18 RUB 08.11.12 11:22 END
+
+-----EXAMPLE-----
+POPOLN BEZNAL MASLYUKOV KIRILL YUR ZAO YUNIKREDIT BANK, 1345.05 RUB #*00304 BAL 1345.05 RUB 09.11.12 19:25 END
+
+-----EXAMPLE-----
+Выплата процентов по вкладу Сумма 0.41 USD. Счет №*00096. Доступный баланс 2.33 USD. 30.11.19 00:09 Конец ║ Avangard

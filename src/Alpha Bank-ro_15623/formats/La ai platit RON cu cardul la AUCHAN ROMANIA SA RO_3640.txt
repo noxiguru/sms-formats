@@ -1,0 +1,7 @@
+^.*([\d/]{10}).*latit.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}),\s*(.*)
+
+-----COLUMNS-----
+date#dd/MM/yyyy;outcome;instrument;syncid;payee
+
+-----EXAMPLE-----
+La 14/04/2018 16:04, ai platit 44.45 RON cu cardul **1007, la AUCHAN ROMANIA SA - ROMANIA

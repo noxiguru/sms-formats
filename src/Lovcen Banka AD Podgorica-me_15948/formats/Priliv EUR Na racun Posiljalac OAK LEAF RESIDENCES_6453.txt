@@ -1,0 +1,7 @@
+^Priliv(?!.*(?:Datum|Opis)).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+Na.*?(\d{4})\s+Po[šs]il\w+:\s+(.*?)\s+Sa\s+ra.*Stanje.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Priliv: 600,00 EUR Na racun: 1234567890 Posiljalac: OAK LEAF RESIDENCES BUDVA Sa racuna: 1234567890 Stanje: 1.208,75 EUR

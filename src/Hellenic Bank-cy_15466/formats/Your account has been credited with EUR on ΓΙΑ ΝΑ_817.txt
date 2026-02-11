@@ -1,0 +1,7 @@
+^.*ccount\s+[\d-]+\*+-(\d{2,4}).*redited.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Your account 502-10-******-01 has been credited with 1.500,00 EUR on 31/03/2022,11:10 ΓΙΑ ΝΑ ΣΤΑΜΑΤΗΣΕΙΣ ΝΑ ΛΑΜΒΑΝΕΙΣ SMS ΓΙΑ ΤΟΥΣ ΛΟΓΑΡΙΑΣΜΟΥΣ ΣΟΥ, ΣΤΕΙΛΕ STOP1 ΣΤΟ 8110.

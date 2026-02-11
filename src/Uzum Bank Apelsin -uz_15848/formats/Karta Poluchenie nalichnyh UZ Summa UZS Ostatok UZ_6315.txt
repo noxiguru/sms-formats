@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*oluch.*?nali.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta ****6160; Poluchenie nalichnyh: 10.08.24 13:41, 90490012411, UZ; Summa: 304500.00 UZS; Ostatok: 424254.07 UZS.

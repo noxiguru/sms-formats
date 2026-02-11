@@ -1,0 +1,7 @@
+^(\d{4})\W? .умм.*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{4}-\d{2}-\d{2}) .*стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+2164, Сумма: 20 BYN, Успешно, Товары и услуги, 2021-05-26 09:27:18, Остаток: 1 078.91 BYN, BLR/MINSK/INTERNET-BANKING BSB ║ BSB Bank

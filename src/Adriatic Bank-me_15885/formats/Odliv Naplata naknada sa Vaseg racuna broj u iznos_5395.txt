@@ -1,0 +1,7 @@
+^Odliv (Nap.*?) sa.*?(\d{4}) u izno.*?([\d\s.,]*\d)\s*([A-Z]{3}).*aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Odliv Naplata naknada sa Vaseg racuna broj 1234567890 u iznosu od 4,20 EUR. Raspolozivo: 9.380,59 EUR.

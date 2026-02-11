@@ -1,0 +1,10 @@
+^.*(?:erevod|plata us).*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*ransfer.* ([\d-]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#yy-MM-dd
+
+-----EXAMPLE-----
+Beznalichnyj perevod Karta:8624 summa:412.00 RUR  balans:2672.58 RUR Transfer 18-08-02 11:20:48
+
+-----EXAMPLE-----
+Oplata uslug Karta: 9522 summa: 115.00 RUR Balans 50.95 RUR Transfer 20-06-02 22:15:18

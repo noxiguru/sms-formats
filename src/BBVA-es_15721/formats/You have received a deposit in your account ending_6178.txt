@@ -1,0 +1,7 @@
+^(?!.*(?:([A-Z]{3}|[₽$€£¥])\s*([\d\s.,]*\d)|([\d\s.,]*\d)\s*([A-Z]{3}|[₽$€£¥]))).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+You have received a deposit in your account ending in 5677 ║ Deposit transfer ✅⬅

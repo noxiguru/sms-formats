@@ -1,0 +1,7 @@
+^.*\s+([\d/]{8})\s+.*eposit.*?([A-Z]{3}|\$)\s*([\d\s.,]*\d).*end.*?(\d{4}).*
+
+-----COLUMNS-----
+date#MM/dd/yy;instrument;income;syncid
+
+-----EXAMPLE-----
+Wells Fargo Alert: As of 05/13/17 03:31 am Central Time a direct deposit of $1,174.95 is available in your account ending 0788. Reply TRA to transfer funds.

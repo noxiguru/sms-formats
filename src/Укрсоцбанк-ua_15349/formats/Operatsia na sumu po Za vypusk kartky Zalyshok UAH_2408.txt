@@ -1,0 +1,7 @@
+^([\d/]{10}).*?Operatsia na sumu -?([\d\s.,]*\d)\s+po.*(\d{4}) (Za .*?)\.\s+Zalyshok (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM/yyyy;outcome;syncid;comment;av_balance
+
+-----EXAMPLE-----
+05/05/2016 16:58 Operatsia na sumu -20,00  po 4874*0048 Za vypusk kartky. Zalyshok 7 706.07UAH 100000uah! Zakokhavsia? promo.unicredit.ua

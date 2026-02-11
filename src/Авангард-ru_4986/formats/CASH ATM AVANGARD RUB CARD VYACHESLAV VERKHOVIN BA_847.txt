@@ -1,0 +1,13 @@
+^(?:CASH|VYDACHA\s+N).*?\s+([1-9]\d{0,2}(?:\s\d{3})*\.\d{2}|\d+\.\d{2})\s*([A-Z]{3})\W.*?(\d{4})\s.*?BAL.*?(-?[\d\s.,]*\d).*?\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+CASH ATM AVANGARD 6000.00 RUB, CARD*8669 VYACHESLAV VERKHOVIN BAL 207.44 RUB 10.06.13 17:13 END
+
+-----EXAMPLE-----
+VYDACHA NALYCHNYCH AVANGARD 32751.00 RUR, #*03584 BAL 0.00 RUR 20.12.16 20:01 END
+
+-----EXAMPLE-----
+CASH ATM SAR_ATM, RU ATM32006 23000.00 RUB, CARD*5513 ALEKSANDR DUDOV BAL 20039.66 RUB 27.04.18 17:07 END

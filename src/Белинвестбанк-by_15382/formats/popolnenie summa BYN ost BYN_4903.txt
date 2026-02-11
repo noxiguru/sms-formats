@@ -1,0 +1,10 @@
+^\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:opolnen|ополнен).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:ost|ост).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*9791 24.12.2020 11:45:08 popolnenie summa=398.5 BYN ost=498.35 BYN
+
+-----EXAMPLE-----
+*6741*1736 06.01.2021 12:19:55 пополнение сумма=600.92 BYN ост=832.89 BYN

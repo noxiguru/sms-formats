@@ -1,0 +1,7 @@
+^(Возвр.*?)\s+от\s+(.*?)\s+на\s+сумм.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W).*
+
+-----COLUMNS-----
+comment;payee;income;instrument
+
+-----EXAMPLE-----
+Возврат от Ozon на сумму 658 ₽ ║ Ozon Банк

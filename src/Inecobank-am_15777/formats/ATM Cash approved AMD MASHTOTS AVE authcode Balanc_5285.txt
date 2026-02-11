@@ -1,0 +1,10 @@
+^ATM Cash.*?([\d\s.,]*\d)\s*([A-Z]{3}), \d+\*+(\d{4}),? (\d{2}[-./]\d{2}[-./]\d{2,4}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+ATM Cash approved 400000.00 AMD, 540661******6651 05.04.22 19:53 18 MASHTOTS AVE. authcode 025342 Balance: 25,110.00 AMD
+
+-----EXAMPLE-----
+ATM Cash approved 10000.00 AMD, 540661******0113, 26.08.22 20:11 1 ADONTS authcode 012345 Balance: 1,234.56 AMD

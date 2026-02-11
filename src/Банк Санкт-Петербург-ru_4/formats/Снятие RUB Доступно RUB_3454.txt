@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*(?:нятие|njatie).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{5}) .*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM;av_balance
+
+-----EXAMPLE-----
+*8876 Снятие 3000RUB 07.02 17:26 Доступно 1111.22RUB
+
+-----EXAMPLE-----
+*2055 Snjatie 50000RUB 17.04 10:33 Dostupno 3324.59RUB

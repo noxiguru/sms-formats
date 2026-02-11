@@ -1,0 +1,10 @@
+^.*?(?:\s|\*)(\d{4}) (?:ile bit|no'lu banko).*?([\d\s.,]*\d)\s*([A-Z]{2,3}) (?:harcam|tutarinda temassiz).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+Degerli musterimiz,  4343 ile biten  kartinizla 943.04 TL harcama yapilmistir. Vakif Katilim Musteri Iletisim Merkezi 444 44 77 / 0850 202 1 202. B002
+
+-----EXAMPLE-----
+Bilgilendirme: Degerli musterimiz, 5355*****7019 no'lu bankomat kartinizdan gun icerisinde toplam 684.30 TL tutarinda temassiz harcama yapilmistir. Islem bilginiz disinda ise lutfen 0850 222 0 724 u arayiniz. MERSIS: 1234567890 B016

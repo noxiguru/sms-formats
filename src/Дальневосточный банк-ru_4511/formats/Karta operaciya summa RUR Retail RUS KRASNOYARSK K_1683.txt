@@ -1,0 +1,13 @@
+^.*?(\d{2,4}).*ciya.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\(Retail.\s*(.*)\).*ost.*?(-?[\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Karta **3920, operaciya, summa 39.98 RUR (Retail, RUS, KRASNOYARSK, KRASNY YAR 43); Dostupno: 16910.70 RUR - 12.04.15 20:46:52
+
+-----EXAMPLE-----
+Karta **59, operaciya, summa 115.00 RUR (Retail, RUS, MOSCOW, OAO SEDMOY KONTINENT); Dostupno: 511.84 RUR - 03.05.17 18:51:39
+
+-----EXAMPLE-----
+Karta**33, operaciya, summa 182.00 RUR (Retail,RUS,NIZHNEVARTOVS,MAGELLAN)I Dostupno: 111663.19 RUR - 12.04.18 13:17

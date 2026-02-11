@@ -1,0 +1,7 @@
+^Vydac.*?nal.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).* ([\d-]{8}) .*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#yy-MM-dd
+
+-----EXAMPLE-----
+Vydacha nalichnyh Karta:0963 summa:46500.00 RUR  balans:11064.11 RUR VB24 3, B-R NADEZHD 18-08-03 18:00:29

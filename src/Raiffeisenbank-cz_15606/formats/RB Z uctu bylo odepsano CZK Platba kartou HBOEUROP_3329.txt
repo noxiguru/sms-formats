@@ -1,0 +1,10 @@
+^.*uct.*?(\d{4}) .*? ([\d.]{5})\.? .*?-([\d\s.,]*\d)\s*([A-Z]{3}).*\(.latba(?!.*ispon).*?,\s*(.*?);?\s*\).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;outcome;instrument;payee
+
+-----EXAMPLE-----
+RB: Z uctu 3747170001 bylo 02.09. odepsano -199,00 CZK (Platba kartou, HBOEUROPESRO; 420261).
+
+-----EXAMPLE-----
+RB: Z uctu 3747170001 bylo 25.11. odepsano -365,99 CZK (platba kartou, PAYPAL *TWINKL LTD; ).

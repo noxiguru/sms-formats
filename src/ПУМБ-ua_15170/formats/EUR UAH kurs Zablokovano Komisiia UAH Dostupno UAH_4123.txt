@@ -1,0 +1,13 @@
+^.*?([\d\s.,]*\d)\s*([A-Z]{3})\s*\(([\d\s.,]*\d).*?\).*(?:ablokov|okupka).*\*(\d{4})\s+([\d-]{10}).*omis.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}\s+(?:.lasni.*?[\d\s.,]*\d\s*[A-Z]{3}\s+)?(.*)
+
+-----COLUMNS-----
+op_outcome;instrument;outcome;syncid;date#yyyy-MM-dd;fee;av_balance;payee
+
+-----EXAMPLE-----
+9.76EUR (303.87UAH, kurs 31.13) Zablokovano *4769 2019-03-21 08:21 Komisiia 0.00UAH Dostupno 1519.95UAH Vlasni koshty 1519.95UAH Kirsch Ost KG Holzwickede DE
+
+-----EXAMPLE-----
+9.76EUR (303.64UAH, kurs 31.11) Pokupka *4769 2019-03-21 08:21 Komisiia 0.00UAH Dostupno 11114.33UAH Vlasni koshty 11114.33UAH KIRSCH OST KG HOLZWICKEDE DEDE
+
+-----EXAMPLE-----
+BONDAR  YANA  5.40BYN (66.78UAH, kurs 12.37) Pokupka *9645 2019-10-19 07:27 Komisiia 0.00UAH Dostupno 1762.02UAH Vlasni koshty 1762.02UAH PTS 700 RESTORAN "MAKD

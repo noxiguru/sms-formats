@@ -1,0 +1,10 @@
+^(?:POLUCH.*?NAL|ПОЛУЧЕН.*?НАЛ).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:KART|КАРТ).*?(\d{4}).* ([\d.]{8}) .*(?:OST|ОСТ).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+POLUCHENIE NALICHNIKH 4600.00 RUR PO KARTE 8219. NSKBLATM067174, NOVOSIBIRSK, PL. TRUDA, 1. 23.08.16 14:27 MSK.OSTATOK 75.00 RUR
+
+-----EXAMPLE-----
+ПОЛУЧЕНИЕ НАЛИЧНЫХ 1000.00 RUR ПО КАРТЕ 4698. NSKBLATM170867, NOVOSIBIRSK, UL.NIKOLAEVA,12/1. 26.11.18 09:03 МСК.ОСТАТОК 7244.83 RUR.

@@ -1,0 +1,7 @@
+^.*(?:[Ss]end to |ebitare)(?!.*[Dd]isp).* din (\d{2}[-./]\d{2}[-./]\d{2,4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*[Cc]atre: (.*?) ║ P2P Deb.*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;payee
+
+-----EXAMPLE-----
+Tranz. reusita: "MIA P2P Debitare" din 02.01.25 22:47. Suma: 5,000 MDL. Catre: EDUARD L. ║ P2P Debitare

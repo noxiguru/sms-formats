@@ -1,0 +1,7 @@
+^Odob.*?njat.*?nal.*?\*(\d{4}).* ([\d.]{10}),([\d\s.,]*\d)\s*([a-zA-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument
+
+-----EXAMPLE-----
+Odobreno Snjatie nalichnyh, Karta **3815, BANK SNEZHINSKIY, TRUDA, 160, CHELYABINSK, 15:46 22.04.2016, 500 rub

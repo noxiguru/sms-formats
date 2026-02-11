@@ -1,0 +1,7 @@
+^.*?(\d{4}):.*plata([\d\s.,]*\d)\s*([A-Z]{3});\s+(.*?);.*?([\d.]{10})(?!.*ostup).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Karta *4112: Oplata 45990.00 RUR; MEGA T.S. SAMSUNG; 16.04.2016 20:09 (v tom chisle kred. 0.00 RUR). VTB24

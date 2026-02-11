@@ -1,0 +1,10 @@
+^Pokupka.*?#\s*(\d{4})\s+([\d/]{8}) .*umma.?\s*([\d\s.,]*\d)\s*([A-Z]{3}).*?limit.*?(-?[\d\s.,]*\d)\s*\S{1,3}\s+(.*?)(?:\. .odrob.*)?$
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Pokupka po karte #3733 21/08/15 22:17 Summa: 713.00RUR Balli: 7.13 Itogo balli MEGA: 546.44BB Dost. limit: 92680.84 RUR Lenta 73        NOVOSIBIRSK
+
+-----EXAMPLE-----
+Pokupka po karte AUCHAN # 8969 27/12/19 18:59 Summa: 270.00 RUB Ballov nachisleno: 2.70 Itogo bally: 540.26 BB Dostupnyj limit: 59258.42 RUB ANTUR Krasnodar. Podrobnee na oney.ru.

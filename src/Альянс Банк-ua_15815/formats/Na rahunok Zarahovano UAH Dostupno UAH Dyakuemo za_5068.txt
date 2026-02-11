@@ -1,0 +1,7 @@
+^Na.*?\*(\d{4}) .arah.*?([\d\s.,]*\d)\s*([A-Z]{3}) .ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Na rahunok 2625***6001 Zarahovano: 3833.33 UAH Dostupno: 6542.51 UAH 09.07.21 15:03 Dyakuemo za doviru.

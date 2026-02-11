@@ -1,0 +1,7 @@
+^Покуп.*\*(\d{4})\. ([\d\s.,]*\d)\s*([A-Z]{3})\. (.*?)\. Оста.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Покупка. Карта *1354. 963.89 RUB. PEREKRESTOK KULAKHMETO. Остаток овердрафта: 5004.65 RUB ║ Вы ушли в овердрафт

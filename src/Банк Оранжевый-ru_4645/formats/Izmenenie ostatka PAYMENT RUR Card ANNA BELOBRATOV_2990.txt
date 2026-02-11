@@ -1,0 +1,7 @@
+^.*PAYMENT([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: PAYMENT 23 120.66RUR Card **7768 ANNA BELOBRATOVA BAL:38 962.50 (Kredit: 0.00) 2017-05-05 11:11:51

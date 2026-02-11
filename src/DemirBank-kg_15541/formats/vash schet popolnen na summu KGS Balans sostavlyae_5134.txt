@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*chet \d+(\d{4}) .opoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+03.09.21 vash schet 1234567890 popolnen na summu 30 085,00 KGS. Balans sostavlyaet 30 161,52 KGS 1234567890, 2222

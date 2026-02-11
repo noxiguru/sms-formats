@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{10})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(komis.*?)(?:\s+tel .*|$)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;comment
+
+-----EXAMPLE-----
+4*7942 01.11.2017 50.00 RUB komissiya za yslygy sms-info tel - 8-800-200-35-65

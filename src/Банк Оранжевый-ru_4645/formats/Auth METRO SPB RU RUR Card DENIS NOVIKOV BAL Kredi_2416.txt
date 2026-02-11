@@ -1,0 +1,10 @@
+^(?:Auth|Spisan\w+):\s+(.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}) .*?\*(\d{4}) .*BAL.*?(-?[\d\s.,]*\d).* ([\d-]{10}) .*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth: METRO.SPB.RU 630.00RUR Card **3033 DENIS NOVIKOV BAL:47.14 (Kredit: 0.00) 2016-05-10 18:12:25
+
+-----EXAMPLE-----
+Spisanie:  METRO.SPB.RU  45.00 RUR Card_N**5155 ANNA BELOBRATOVA BAL: 16 594.31 (Kredit: 0.00) 2019-01-12 00:00:00

@@ -1,0 +1,13 @@
+^\*(\d{4}) (?:OPLATA|SPISAN\w+) ([\d\s.,]*\d)\s*([A-Z]{3}).*DATA (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} (?:(?:SERVIC|VIRTUA).*|)OSTAT.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*9547 OPLATA 200.00 BYN KARTA #9547 DATA 06.03.2023 12:09:22 SERVICE OPLATI>MINSK>BY OSTATOK 29.80 BYN
+
+-----EXAMPLE-----
+*1736 OPLATA 5.00 BYN KARTA #1736 DATA 27.02.2023 10:19:47 VIRTUAL FOR INTERNET BANKIN>MINSK>BY OSTATOK 1109.30 BYN
+
+-----EXAMPLE-----
+*1736 SPISANIE 0.05 BYN KARTA #1736 DATA 28.02.2023 15:50:52 OSTATOK 1270.11 BYN

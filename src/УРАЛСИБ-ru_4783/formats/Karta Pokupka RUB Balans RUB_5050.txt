@@ -1,0 +1,13 @@
+^.*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*okup\w+ ([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\s*.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *5801. 16.06.21 20:50. Pokupka 1483.80 RUB. Balans 214963.54 RUB
+
+-----EXAMPLE-----
+Karta *0207. 25.06.21 22:12. Pokupka 1224.04 RUB. PEREKRESTOK USHAKOV BI. Balans 18620.44 RUB
+
+-----EXAMPLE-----
+Karta *0207. 24.06.21 09:44. Pokupka 1072.17 RUB. VKUSVILL 1683_4. Balans 3005.68 RUB

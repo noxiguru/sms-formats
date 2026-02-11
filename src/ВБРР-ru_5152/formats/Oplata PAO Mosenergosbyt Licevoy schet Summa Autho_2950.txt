@@ -1,0 +1,7 @@
+^.*?\*(\d{4}); Oplata\s+(.*?);.*?umm.*?([\d\s.,]*\d);.*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;payee;outcome;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+440503**2916; Oplata PAO Mosenergosbyt; Licevoy schet 2018205314;Summa 1399.71; Authorization Code Z55E2W;22.04.2017 20:31.

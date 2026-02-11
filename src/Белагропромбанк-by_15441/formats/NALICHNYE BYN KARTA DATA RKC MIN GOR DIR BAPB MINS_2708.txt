@@ -1,0 +1,7 @@
+^NALICH.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4})\s+DAT.*?([\d.]{10}).*OSTAT.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+NALICHNYE 40.00 BYN KARTA #3807 DATA 28.10.2016 13:12:33 RKC-11 MIN.GOR.DIR BAPB>MINSK>BY OSTATOK 6300.60 BYN

@@ -1,0 +1,7 @@
+^NALIC.*?([\d\s.,]*\d)\s*([A-Z]{3}).*PLATA.*?([\d\s.,]*\d).*(\d{4})\s*DATA\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*OST.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;fee;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+NALICHNYE 50.00 BYN (PLATA: 3.00 BYN) KARTA #0566 DATA 02.03.2022 08:31:53 "GRUSHEVKA" VB1 BPSB ATM>MINSK>BY MCC:6011 OSTATOK 166.34 BYN

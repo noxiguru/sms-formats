@@ -1,0 +1,13 @@
+^.*?(?:чет|chet|арты).*?(\d{4})\s+\S+(?:оступ|ачисл|ostup|achisl).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Уважаемый клиент! На Ваш счет 1234567890 поступило 10112267 BYR. С уважением, ЗАО "МТБанк".
+
+-----EXAMPLE-----
+Uvazhaemyj klient! Na Vash schet BY93MTBK1234567890 postupilo 120,00 BYN. Vash MTBank!
+
+-----EXAMPLE-----
+Uvazhaemyi klient! Na Vash schet BY74MTBK1234567890 zachisleno 600 BYN. Vash MTBank! Spr.:5099999

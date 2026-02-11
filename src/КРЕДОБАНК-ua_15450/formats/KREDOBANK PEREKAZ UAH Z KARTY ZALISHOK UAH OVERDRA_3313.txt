@@ -1,0 +1,7 @@
+^([\d.]{10}).*PEREKAZ([\d\s.,]*\d)\s*([A-Z]{3}) Z .*?(\d{4})\s.*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+30.11.2017 11:02 KREDOBANK PEREKAZ 7275.12UAH Z KARTY **7120 ZALISHOK 15446.94 UAH OVERDRAFT 0.00 UAH DOSTUPNO 15446.94UAH

@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).\s+.pis.*?([\d\s.,]*\d)\s+\(([A-Z]{3})\).*stat.*?(-?[\d\s.,]*\d).*?; (.*). ([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#dd.MM.yy
+
+-----EXAMPLE-----
+Karta *5411: Spisano -285.00 (RUB); Ostatok: 3073.42 (RUB); RU/KURSKW/KAFE GASCOFFEE; 28.05.15 09:25

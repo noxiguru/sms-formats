@@ -1,0 +1,7 @@
+^.*imate\s+uplatu.*\*(\d{4}).*znos.*?([\d\s.,]*\d)\s*([A-Z]{3}).*aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Postovani, imate uplatu po racunu 2650**0065 Iznos: 5.181,64 RSD Raspolozivo: 6.390,57 RSD

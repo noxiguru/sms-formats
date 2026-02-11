@@ -1,0 +1,7 @@
+^Ispolnen pl.*?([\d\s.,]*\d)\s*([A-Z]{3})\.?\s*(.*?)\.\s+([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Ispolnen platezh ot 31.10.2016. Summa 280.00 RUB. UFK po Krasnodarskomu krayu (GU - Krasnodarskoe regionalnoe otdelenie Fonda sotsialnogo strakhovaniya Rossiyskoy Federatsii). 31.10.2016 00:34. Tinkoff.ru

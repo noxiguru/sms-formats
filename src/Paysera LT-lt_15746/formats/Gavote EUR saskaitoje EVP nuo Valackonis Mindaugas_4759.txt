@@ -1,0 +1,10 @@
+^(?:Gavote|Vy polu.*?) ([\d\s.,]*\d)\s*([A-Z]{1,3}) (?:saska|na .*?).*?(\d{4}) (?:nuo|ot) (.*)
+
+-----COLUMNS-----
+income;instrument;syncid;payee
+
+-----EXAMPLE-----
+Gavote 179.00 EUR saskaitoje EVP1234567890 nuo Valackonis Mindaugas
+
+-----EXAMPLE-----
+Vy poluchili 1000.00 EUR na schetu EVP1234567890 ot Anna Ostapuk

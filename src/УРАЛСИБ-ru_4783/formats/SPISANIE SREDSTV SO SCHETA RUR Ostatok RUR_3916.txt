@@ -1,0 +1,7 @@
+^SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+SPISANIE SREDSTV SO SCHETA: 59.00 RUR. 23.09.18 03:29. Ostatok 10851.69 RUR.

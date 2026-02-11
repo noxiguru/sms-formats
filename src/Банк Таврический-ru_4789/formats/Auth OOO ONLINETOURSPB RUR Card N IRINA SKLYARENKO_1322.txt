@@ -1,0 +1,7 @@
+^Auth.(.*?) ([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}).*BAL.\s*(-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth:OOO ONLINETOURSPB 1 868.00RUR Card_N**2313 IRINA SKLYARENKO BAL:39 039.95 2014-07-24 20:13:12

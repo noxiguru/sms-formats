@@ -1,0 +1,16 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})\.?\s+(.*(?:omissi|омисси).*?),\s*(?:kart|карт).*?\*(\d{4})\D?\s*([\d-]{10}|).*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+-15,00RUR. Комиссия за запрос баланса, карта *2154: 2014-05-29.
+
+-----EXAMPLE-----
+-1,500.00RUR. Komissiya za godovoe obsluzhivanie, karta *2973: 2014-07-18.
+
+-----EXAMPLE-----
+-69,00 RUR. Ezhemesyachnaya komissiya za uslugi SMS-informirovaniya, karta *2304: 2016-01-04.
+
+-----EXAMPLE-----
+-39,00 RUR. Ezhemesyachnaya komissiya za uslugi SMS-informirovaniya, karta *4689.

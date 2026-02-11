@@ -1,0 +1,7 @@
+^Pokup.*art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s+\S{3}\s+(.*?)(?:\s*\.\d*)?\s+([\d-]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#yy-MM-dd
+
+-----EXAMPLE-----
+Pokupka, Karta:0963 summa:10416.00 RUR  balans:57564.11 RUR CHISTYE PRUDY RECEPT.1 18-08-01 17:28:41

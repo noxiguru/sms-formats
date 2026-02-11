@@ -1,0 +1,7 @@
+Karta\s+4\.(\d{4})\s+(\d{2}\.\d{2}\.\d{4})\s+\d{2}:\d{2}:\d{2}\s+SOA\s+Credit\s+([0-9][\d\s]*[.,]\d{2})\s+([A-Za-z]{1,3})\s+(.*?)\s+Dostupno\s+(-?[0-9][\d\s]*[.,]\d{2})\s+([A-Za-z]{1,3})
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 4.1771 09.04.2025 16:04:30 SOA Credit 5.00 BYN Equation - Izmenenie ostatka OK. Dostupno 58.38 BYN

@@ -1,0 +1,7 @@
+^([\d.]{8}).*(?:арт|art).*?(\d{4}),? .(?:ополн|opolnen).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:omiss|омисс).*?([\d\s.,]*\d).*?(?:аланс|alans)(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;fee;av_balance
+
+-----EXAMPLE-----
+11.01.19 14:15 Karta 2513, popolnenie 35000.00RUB, komissiia 0.00RUB BANK SOYUZ, RU. Balans 35370.50RUB

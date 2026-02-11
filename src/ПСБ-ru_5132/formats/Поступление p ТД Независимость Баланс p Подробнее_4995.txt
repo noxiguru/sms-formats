@@ -1,0 +1,7 @@
+^\*(\d{4}) Посту\w+ ([\d\s.',]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*?) Бала.*?(-?[\d\s.,']*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*6996 Поступление 121'000p   ТД Независимость Баланс 320'887.39p Подробнее в мобильном банке: p.psbank.ru/mb

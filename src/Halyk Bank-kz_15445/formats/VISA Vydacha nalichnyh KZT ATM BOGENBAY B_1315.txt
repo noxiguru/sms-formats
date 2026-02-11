@@ -1,0 +1,7 @@
+^.*?(\d{4}) Vydacha nal.*?\s([\d\s.,]*\d) ([A-Z]{3}).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+VISA8020 Vydacha nalichnyh. 20000.00 KZT; ATM06045 BOGENBAY B 115 30.06.2014 14:11

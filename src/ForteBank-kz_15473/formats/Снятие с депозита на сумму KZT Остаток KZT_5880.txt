@@ -1,0 +1,7 @@
+^Снятие\s+с\s+(депозит).*?([\d\s.,]*\d)\s*([A-Z]{3}).*стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Снятие с депозита на сумму 111 KZT. Остаток 153282.29 KZT. ║

@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*?(?:SPISANIE|SPYSANNIA|ZABLOKIROVANO|ZABLOKOVANO)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*BAL.*?(-?[\d\s.,]*\d).*KOSHTY\s+[\d\s.,]+\s*[A-Z]{3}\s+Detali.*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+*2413 2015-09-02 13:40 SPYSANNIA 50.75UAH BALANCE 2199.91UAH VLASNI KOSHTY 2199.91UAH Detali pumb.ua/ib

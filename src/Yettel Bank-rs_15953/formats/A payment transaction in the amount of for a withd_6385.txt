@@ -1,0 +1,9 @@
+^.*ayment\s+tran.*withdraw.*mount.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+with\s+.*?\*(\d{4}).*day\s+([\d]{4}-\d{2}-\d{2}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+A payment transaction in the amount of for a withdrawal amounting to 200.00 EUR with the card was made with the card 5574****4977,, on the day 2024-10-26, at YETTEL.BANK AD BEOGRAD .
+
+The current available balance is: 24.10 EUR.

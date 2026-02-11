@@ -1,0 +1,7 @@
+^([\d.]{10}).*okupka\.\s*(.+?)\..*art.*?(\d{4})\.([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;payee;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+25.03.2016 07:36:00. Pokupka.APTEKA. Karta *6060. 362.8 RUR. Balans 311.74 RUR

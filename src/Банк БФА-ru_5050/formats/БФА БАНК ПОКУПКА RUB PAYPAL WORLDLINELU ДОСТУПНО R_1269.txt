@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d.]{8}).*ПОКУПКА ([\d\s.,]*\d) ([A-Z]{3}). (.*). ДОСТУПНО ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+БФА БАНК 4578***1151 19.05.14 16:12 ПОКУПКА 2130.44 RUB, 00000001, PAYPAL *WORLDLINELU, 4029357733, , ДОСТУПНО 49374.31 RUB

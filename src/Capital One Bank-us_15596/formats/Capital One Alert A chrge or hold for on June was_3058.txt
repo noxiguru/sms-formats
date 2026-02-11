@@ -1,0 +1,7 @@
+^.*hold.*?(\$)([\d\s.,]*\d) on (\S+ \d{1,2}, \d{4}) .*on.*?\((\d{4})\) at (.*?)\..*
+
+-----COLUMNS-----
+instrument;outcome;date#MMM dd, yyyy;syncid;payee
+
+-----EXAMPLE-----
+Capital One Alert: A chrge or hold for $85.82 on June 23, 2017 was placed on your MASTERCARD PLATINUM (2697) at HEB #. Std carrier chrges apply

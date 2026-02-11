@@ -1,0 +1,10 @@
+^(?:Vyda|Выда).*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}/\d{2}) .*\*(\d{4}).*(?:stat|стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd/MM;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Vydacha Summa 200RUB A0020039 28/05 08:09 karta *9034 Ostatok 70.04RUB
+
+-----EXAMPLE-----
+Выдача Сумма 400RUB 28100933 13/08 01:11 карта *7045 Остаток 1264.33RUB

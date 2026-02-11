@@ -1,0 +1,7 @@
+^.*?operatsija.*?([\d.]{10}).*?(\d{4}) (\d[\d\s.,]*) ([A-Z]{3}) (?!ATM)(.*?) dostupna s(?!.*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Vasha operatsija: 04.12.2014 12:07:49 VISA Gold/232505 8.00 UAH KHARCHEVNYA NA MECHNIKOVA dostupna suma

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*POKUPKA.*?USPES.*?([\d\s.,]*\d)\s*([A-Z]{3});\s*(.*?);\s*([\d.]{8}) .*OSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+VISA Classic EMV ****4694;POKUPKA;USPESHNO;219.00 RUR;PEREKRESTOK POLYANKA, MOSCOW, ;01.02.17 18:49;DOSTUPNO:53491.38 RUR

@@ -1,0 +1,7 @@
+^.*([\d.]{10}).*?(Oplata za.*?)\..*?uspesh.*?\*(\d{4})\s+Sum(?!.*ostup).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;comment;syncid;outcome;instrument
+
+-----EXAMPLE-----
+10.08.2016 00:00:00 Oplata za obsluzhivanie paketa uslug. vypolnena uspeshno. VC: *1234 Summa: 10.00 RUR.

@@ -1,0 +1,10 @@
+^([\d-]{10}).*\*\d*(\d{4}).*arahovan.*?([\d\s.,]*\d)\s*([A-Z]{3})\s*(.*)
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+2018-08-14, 2600****054100 UAH Zarahovano 148675 UAH  TOV "Hrin Netvorks"
+
+-----EXAMPLE-----
+2019-11-13, UA42****848574 UAH Zarahovano 6957.6 UAH

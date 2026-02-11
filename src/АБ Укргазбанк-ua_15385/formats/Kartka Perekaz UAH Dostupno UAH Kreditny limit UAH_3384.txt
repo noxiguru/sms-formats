@@ -1,0 +1,10 @@
+^.*#\d*(\d{4}).*(?:erekaz|ерек[аa]з).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{10}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Kartka #3733 Perekaz: 13135.00 UAH 28.12.2017 15:05:20 Dostupno: 24423.75 UAH Kreditny limit: 0.00 UAH
+
+-----EXAMPLE-----
+Кaрткa #5598 Перекaз: 4214.00 UAH 12.02.2019 10:59:07 Доступно: 0.71 UAH Кредитний лiмiт: 0.00 UAH Поповнюй мобільний в додатку Екобанк https://auth.ukrgasbank.com

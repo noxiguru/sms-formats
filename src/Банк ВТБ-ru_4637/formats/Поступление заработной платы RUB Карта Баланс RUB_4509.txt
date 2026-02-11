@@ -1,0 +1,34 @@
+^(?:Зачис|Увелич|Пополнен|Безн\w+\s+пополнен|Поступ|Z[Aa][Cc][Hh][Ii]|U[Vv][Ee][Ll][Ii]|P[Oo][Pp][Oo][Ll]|B[Ee][Zz][Nn]\w+\s+[Pp][Oo][Pp][Oo][Ll]|P[Oo][Ss][Tt][Uu]).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*\*(\d{4}).*.(?:алан|[Aa][Ll][Aa][Nn]).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Поступление заработной платы 222222.00 RUB Карта *3651 Баланс 2222223.00 RUB 17:00 ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Zachislenie 10000.00 RUB Karta *9880 VB24 Balans 23959.91 RUB 12:02 vtb.ru/app
+
+-----EXAMPLE-----
+Postuplenie zarabotnoy plati 71703.69 RUB schet *8301 Balans 109105.21 RUB 11:20 vtb.ru/app
+
+-----EXAMPLE-----
+Увеличен баланс счета 35676.71 RUB Карта *6903 Баланс 98116.94 RUB ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Popolnenie 48000.00 RUR Postuplenie zarabotnoj pl 13:21 karta *1518 Balans 70657.16 RUR vtb.ru/app
+
+-----EXAMPLE-----
+Popolnenie 26000.00 RUR VB24 10:56 karta *6140  Balans 137998.47 RUR vtb.ru/app
+
+-----EXAMPLE-----
+Beznalichnoe popolnenie 10000.00 RUR Transfer 06:50 karta *0175  Balans 10531.00 RUR vtb.ru/app
+
+-----EXAMPLE-----
+Postuplenie 10000.00 RUB Schet *0688 Balans 115725.46 RUB 02:15 vtb.ru/app
+
+-----EXAMPLE-----
+Зачисление 55289.00р Карта *1585 35 MYASNITSKAYA  Баланс 120000.15р 10:49
+
+-----EXAMPLE-----
+BEZNALICHNOE POPOLNENIE 27.00 RUR TRANSFER 14:03 KARTA *8281 BALANS 292480.98 RUR vtb.ru/app

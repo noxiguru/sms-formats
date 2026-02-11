@@ -1,0 +1,10 @@
+^([\d.]{8}) .*\*(\d{4}) (?:spisan|perevod).*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;balance
+
+-----EXAMPLE-----
+12.03.18 18:45 Auth on card 5482***6105 spisanie so scheta 55.00 RUB ostatok -29.57 RUB
+
+-----EXAMPLE-----
+05.01.19 13:52 Auth on card 5482***6105 perevod s karti 2600.78 RUB G MOSKVA, LR*www.homecredit.ru, RU" ostatok 9906.20 RUB

@@ -1,0 +1,7 @@
+^.*CREDIT.*acc.*?\*([\d]{3,4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}) ([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+*CREDIT* RCB account: ***311*01 Amount: 86.69 EUR 18/08/2017 19:36 T. +35725355722

@@ -1,0 +1,22 @@
+^\d{4}-(\d{4}).*?(?:plata|плата|pisan|писан).*?([\d\s.,]*\d)\s*([A-Z]{3})\s*\(?(.*?)\)?\s+.(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{2}[-./]\d{2}[-./]?\d{0,4})\s.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+5168-9866 - Oplata
+55.52 UAH(CAFESILPO)
+Dostupno 1310.05 UAH
+01/11 11:51
+
+-----EXAMPLE-----
+5168-1166 – Оплата 182 UAH(magazin 2000042) Доступно 205523.92 UAH 23/03 12:34
+
+-----EXAMPLE-----
+5168-1166 – Списання 6007 UAH(PNFP10488P2P) Доступно 175303.59 UAH 24/03 14:14
+
+-----EXAMPLE-----
+5168-1166 - Spisannya 20000 UAH(VOSTOK SPISANIE) Dostupno 108150.38 UAH 02/06 14:36
+
+-----EXAMPLE-----
+5168-1166 - Oplata 188.27 UAH(SILPO QRButlerova, 1) Dostupno 101243.97 UAH 05.12 13:22

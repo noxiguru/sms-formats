@@ -1,0 +1,7 @@
+^Change lim.*\*(\d{4}).*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*imit.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Change limit: MIR CLASSIC CPP (RUR) N: *9953, +11.00 RUR; new limit: 4,311.00 RUR; 20.11.2017 15:07 (UTC+3)

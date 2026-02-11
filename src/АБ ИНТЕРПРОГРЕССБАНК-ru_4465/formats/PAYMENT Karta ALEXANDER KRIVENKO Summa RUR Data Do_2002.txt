@@ -1,0 +1,13 @@
+^(?!.*Mesto)(.*?) .art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*imit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+PAYMENT Karta: **5768 ALEXANDER KRIVENKO Summa: 36 916.79 RUR Data: 2015-09-22 00:00:00 Dostupniy limit: 42 302.67 Spasibo!
+
+-----EXAMPLE-----
+IPB-Online Karta: **5515 VITALI KUNTSEVICH Summa: 15 000.00 RUR Data: 2018-10-08 18:07:36 Dostupniy limit: 15 000.00 Spasibo!
+
+-----EXAMPLE-----
+Cash Back Karta: **5515 VITALI KUNTSEVICH Summa: 746.59 RUR Data: 2018-11-02 00:00:00 Dostupniy limit: 8 695.23 Spasibo!

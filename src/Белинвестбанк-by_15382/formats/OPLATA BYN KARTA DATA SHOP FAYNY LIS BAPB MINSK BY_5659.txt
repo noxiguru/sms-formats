@@ -1,0 +1,10 @@
+^\*(\d{4}) OPLATA ([\d\s.,]*\d)\s*([A-Z]{3}).*DATA (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} (?!VIRTUAL FOR|SERVICE)(.*?) OSTAT.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*6231 OPLATA 11.00 BYN KARTA #6231 DATA 26.02.2023 17:03:37 SHOP 'FAYNY LIS' BAPB>MINSK>BY OSTATOK 42.28 BYN
+
+-----EXAMPLE-----
+*1736 OPLATA 16.00 BYN KARTA #1736 DATA 02.03.2023 15:27:13 CAFES LA BRASILENA>G. BREST>BY OSTATOK 1160.25 BYN

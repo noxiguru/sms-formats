@@ -1,0 +1,7 @@
+^(?:Perevod na|Перевод на)(?!.*\.\d{2}\.\d{2}).*?(\d{4})\D.*(?:oluchat|олучат)\S+\s+(.*?)\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;income;instrument;av_balance
+
+-----EXAMPLE-----
+Perevod na kartu *2436: Poluchatel': Babanov Aleksandr 3999.17 r. . Balans: 4677.78 r.. i.binbank.ru

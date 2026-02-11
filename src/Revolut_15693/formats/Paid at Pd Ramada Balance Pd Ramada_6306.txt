@@ -1,0 +1,10 @@
+^.*(?:Paid|Оплата)\W?\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(?:at\s+|\((?!(?:[A-Z]{3}|\W)\s*[\d\s.,]*\d)).*(?:alan|алан|vail|осту).*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d)\s+║\s+(.*)
+
+-----COLUMNS-----
+instrument;outcome;acc_instrument;av_balance;payee
+
+-----EXAMPLE-----
+🛒 Paid €1.37 at Pd Ramada Balance: €185.03 ║ Pd Ramada
+
+-----EXAMPLE-----
+🛒 Paid €6.03 at Sklavenitis Credit available: €2,604.52 ║ Sklavenitis

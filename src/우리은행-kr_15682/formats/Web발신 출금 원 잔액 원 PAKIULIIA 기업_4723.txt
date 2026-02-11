@@ -1,0 +1,7 @@
+^.* (\d{4}/\d{2}/\d{2}) .*(?:출금|PAY)\s+([\d\s.,]*\d)\s*([A-Z]{3}|\S)\s+(?:잔액|BAL).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\S)\s+(.*)\s+\d+\*+\d*(\d{4}) .*
+
+-----COLUMNS-----
+date#yMd;outcome;instrument;av_balance;acc_instrument;payee;syncid
+
+-----EXAMPLE-----
+[Web발신] 2021/08/06 20:57 출금 1,000,000원 잔액 3,962,045원 PAKIULIIA 665***08301015 기업

@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*ebit(?!.*=).*?,?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument
+
+-----EXAMPLE-----
+4...8492 2019-01-10 21:21:18 CH Debit,1514.38 MDL Web/Mob P2P transfer JELEV VEA,CHISINAU,MOLDOVA

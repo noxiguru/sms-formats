@@ -1,0 +1,7 @@
+^\[(\d{2}[-./]\d{2}[-./]\d{2,4}).*ard (\d{4}) was cred.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d?.*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;income;acc_instrument;av_balance
+
+-----EXAMPLE-----
+[15/01/2022 23:54] BEYON Money: Hello there! Your card 3470 was credited with BHD15.000. Available balance BHD15.000

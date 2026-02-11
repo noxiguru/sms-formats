@@ -1,0 +1,10 @@
+^(?:Oplat.*)?([Oo]tmena|[Vv]ozvrat).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?#(\d{4}); (.*?); MCC.*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Oplata v OTS otmena; 3.00 BYN Mastercard#7473; MP JET BSB>MINSK>BLR; MCC 7999; 13.09.2022 12:58:17; Dostupno: 42.48
+
+-----EXAMPLE-----
+Vozvrat; 39.99 BYN; Mastercard#6754; Sinsay>Shchomyslica>BLR; MCC 5651; 26/12/2024 18:38:37; Dostupno: 348.88 BYN

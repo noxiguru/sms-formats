@@ -1,0 +1,7 @@
+(?:Payment|Оплата|Платеж)\s*[:\-]?\s*([A-Za-z]{1,4})\s*([0-9][\d\s.,]*\d).*?\*+(\d{2,4})(?:[A-Za-z]{1,4})?\s+(.*?)\s+(?:Balance|Баланс)\s*:\s*([A-Za-z]{1,4})\s*(-?[0-9][\d\s,]*[.,]\d{2})(?=\s|$).*?(\d{2}[-./]\d{2}[-./]\d{2,4})
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;acc_instrument;balance;date#dMy
+
+-----EXAMPLE-----
+Payment: GEL45.20 GE91***4782GEL CITYCOM Balance: GEL3,437.08 You will get: 22.60 PLUS Total: 36,196.46 PLUS 30.06.2025

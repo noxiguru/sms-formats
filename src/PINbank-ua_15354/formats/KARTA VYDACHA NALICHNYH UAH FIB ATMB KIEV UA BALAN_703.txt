@@ -1,0 +1,7 @@
+^([\d-]{10}).*?\*([\d]{4}) VYDACHA NALICHNYH ([\d\s.,]*\d) ([A-Z]{3}).*?BALANS ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;outcome;instrument;balance
+
+-----EXAMPLE-----
+2013-03-18 08:57:45 KARTA **1498 VYDACHA NALICHNYH 20.00 UAH FIB ATMB1123 KIEV UA. BALANS 1835.97 UAH. (TEL.PINBANK +1234567890 )

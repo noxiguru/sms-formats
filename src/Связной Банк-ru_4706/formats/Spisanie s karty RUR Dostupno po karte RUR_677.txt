@@ -1,0 +1,10 @@
+^.*\*([\d]{4}). (?:Spisanie|Perevod).* s .*?\s([\d\s.,]*\d)\s*([A-Z]{3}). Dostupno.*?\s(-?[\d\s.,]*\d).*?([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+5203***5108; Spisanie s karty: 1000.00RUR; Dostupno po karte: 1630.08RUR; 21.03.2013 17:47
+
+-----EXAMPLE-----
+5203***5659; Perevod denezhnyh sredstv s karty: 15 329.06 RUB; Dostupno po karte: 56 355.75 RUB; 30.12.2013 17:40

@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+POPOLN.*?USPES.*?\s+([\d\s.,]*\d)\s*([A-Z]{3});\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*DOSTU.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta ****4681 POPOLNENIE SCHETA;USPESHNO 66500.00 RUB;15.02.24 20:15 DOSTUPNO 66500.00 RUB

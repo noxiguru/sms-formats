@@ -1,0 +1,10 @@
+^.* card ([A-Z\d]+) has.*urchas.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*? at (.*?) and the av.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your QNB debit card MDEBIT1 has been used for a purchase for QAR 491 at ARDA-VIRGIN and the available balance is QAR 1241.  In case the transaction is suspicious Please Call 44407711
+
+-----EXAMPLE-----
+Your QNB credit card VISA1 has been used for a purchase for  QAR 55.94 approx. at UBER * PENDING and the available balance is QAR 745.88. Keep using your QNB credit card to enjoy unique benefits.  In case the transaction is suspicious Please Call 44407711

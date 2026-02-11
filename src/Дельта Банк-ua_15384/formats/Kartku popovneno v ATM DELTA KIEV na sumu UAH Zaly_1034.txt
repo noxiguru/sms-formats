@@ -1,0 +1,7 @@
+^.*?(\d{2}) popovneno.*?(\d[\d\s.,]*) ([A-Z]{3}) [\d:]+ Zalyshok (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Kartku 51**-3863 popovneno v ATM8800 DELTA KIEV 00 na sumu 500.00 UAH 15:02 Zalyshok 1409.83 UAH 0444289595

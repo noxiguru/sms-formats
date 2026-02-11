@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*net-op.*?([\d\s.,]*\d) ([A-Z]{3}). ([\d.]{8}).*Dostupno.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+*3120; Internet-oplata: 70 RUB; 31.01.15 21:05; Ostatok: 2.56 RUB; Dostupno: 2.56 RUB.

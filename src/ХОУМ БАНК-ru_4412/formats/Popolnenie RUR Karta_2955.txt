@@ -1,0 +1,13 @@
+^(?:Popol|Попол)\S+([\d\s.,]*\d)\s*([A-Z]{3}).*?\*\d*(\d{4})(?!.*\d{2}[.:]\d{2}).*
+
+-----COLUMNS-----
+income;instrument;syncid
+
+-----EXAMPLE-----
+Popolnenie: 390 RUR. Karta *4880
+
+-----EXAMPLE-----
+Popolnenie: 6000.00RUB. Schet 423*85271. Podrobnosti v lichnom kabinete: www.homecredit.ru/cabinet
+
+-----EXAMPLE-----
+Popolnenie: 40000.00 RUB. Karta *8045. Zachislenie na kartu v techenii 24 chasov

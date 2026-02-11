@@ -1,0 +1,7 @@
+^.*spent ([A-Z]{3}|\W)\s*([\d\s.,]*\d) on .*?\*\s*\d*(\d{4}) at (.*) on ([\d]{1,2}[- ](?:\w+|\d{2}),?[- ]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Alert: You've spent INR 561.28 on your AMEX card ** 81001 at UBER INDIA S on 1 June, 2022 at 09:37 PM IST. Call 18004190691 if this was not made by you.

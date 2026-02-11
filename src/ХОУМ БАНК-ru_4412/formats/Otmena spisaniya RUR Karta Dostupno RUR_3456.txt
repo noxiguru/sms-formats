@@ -1,0 +1,7 @@
+^(Otmena.*?):([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\D?\s+([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Otmena spisaniya: 2.00 RUR. Karta *1275. 10.02.2018 16:20:46. Dostupno: 161327.57 RUR

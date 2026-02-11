@@ -1,0 +1,7 @@
+^.*?redit.*?acc.*?(\d{4}) date:([\d-]{10}) credit.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yyyy;income;instrument
+
+-----EXAMPLE-----
+Credit on account: 8753 date:27-04-2016 credited amount:8,164.31PLN Citi Handlowy

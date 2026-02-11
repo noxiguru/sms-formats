@@ -1,0 +1,13 @@
+^(?:Spisan|Pogash|Списан).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*\d*(\d{4})\.?\s*(?:DOST|Бала).*?(-?[\d\s.,]*\d).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#dMy
+
+-----EXAMPLE-----
+Pogashenie zadolzhennosti po dogovoru 29124-KD/2-2014 na summu 23825.34 RUB so scheta *5251. DOSTUPNO: 0 RUB 26.10.2015 10:04 nomer dokumenta:4915
+
+-----EXAMPLE-----
+Spisano 3497.14 RUB s nakopitelnogo scheta *5251. DOSTUPNO: 9.89 RUB 11.11.2015 07:23 nomer dokumenta:815
+
+-----EXAMPLE-----
+Списание 50000.00 RUB Карта ***6497. Баланс 700005.75 RUB, 01.02.2021 11:06 МСК

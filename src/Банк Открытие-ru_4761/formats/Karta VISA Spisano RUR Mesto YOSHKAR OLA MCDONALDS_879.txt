@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) Spisano ([\d-]{10}) [\d:]*\s+([\d\s.,]*\d) ([A-Z]{3})\s+Mesto (.*?)\s+Dostupno vsego (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta  VISA  *9299 Spisano 2013-07-02 20:06:02   250.00 RUR Mesto YOSHKAR-OLA MCDONALDS 25901    Dostupno vsego 31 479.77 RUR BINBANK tel 8 800 200 50 75

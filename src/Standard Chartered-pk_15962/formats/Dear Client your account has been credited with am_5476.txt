@@ -1,0 +1,10 @@
+^.*ccoun.*\*(\d{2}-\d{2}) has been cred.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) from .*?\*\d*-\d+ (.*?) from \d+ on (\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;income;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Client, your account 01-72***84-01 has been credited with amount PKR 104111.30 from account 40-31*****-6042050 IFRAH GILANI from 62710000000 on 14/10/22. Avail. Bal:PKR 315008.28
+
+-----EXAMPLE-----
+Dear Client, your account 01-72***84-01 has been credited with amount PKR 180000.00 from account 92-34****3-221 IBFT SENDER from 63939000000 on 13/10/22. Avail. Bal:PKR 230896.98

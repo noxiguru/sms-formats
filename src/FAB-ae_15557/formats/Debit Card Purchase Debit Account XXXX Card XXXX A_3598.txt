@@ -1,0 +1,7 @@
+^.*urchas.*?(\d{4})\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+(.*?)\s+([\d/]{8})\s+.*vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd/MM/yy;av_balance
+
+-----EXAMPLE-----
+Debit Card Purchase  Debit  Account XXXX4016  Card XXXX9704 AED 245.00 JUMEIRAH HOTEL AT ETIHABU DHABI      AE  17/12/18 18:39  Available Balance AED 39686.35

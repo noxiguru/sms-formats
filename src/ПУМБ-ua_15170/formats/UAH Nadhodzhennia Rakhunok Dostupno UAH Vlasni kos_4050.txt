@@ -1,0 +1,10 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}).*(?:adhod|ADHOD).*?\s+(\d{4}-\d{2}-\d{2}).*\*(\d{4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#yyyy-MM-dd;syncid;av_balance
+
+-----EXAMPLE-----
+4485.00 UAH Nadhodzhennia  2019-01-16 09:47 Rakhunok: *3445  Dostupno: 4487.32 UAH  Vlasni koshty: 4487.32 UAH
+
+-----EXAMPLE-----
+54.90 UAH NADHODZHENNIA MONOBANKDEPOSIT KYIV UA 2019-01-16 00:31 Kartka: *1313  Dostupno: 34.90 UAH Vlasni koshty: 34.90 UAH

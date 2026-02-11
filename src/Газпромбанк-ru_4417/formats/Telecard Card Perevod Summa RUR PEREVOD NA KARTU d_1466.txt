@@ -1,0 +1,10 @@
+^.*?(\d{4}|[^\d\s;]+);?\s+(?:Perevod|Перевод)(?!.*(?:omiss|омисс)).*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3})\W*\s+([\d.]{8})\s+.*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Telecard; Card0210; Perevod; Summa 10000 RUR; 19.11.14 10:52:37; PEREVOD NA KARTU; dostupno: 54169.04 RUR
+
+-----EXAMPLE-----
+Telecard; VISA Classic; Perevod; Summa 1000 RUR; 04.07.15 15:15:52; PEREVOD MEZHDU KARTAMI; dostupno: 140394.55 RUR

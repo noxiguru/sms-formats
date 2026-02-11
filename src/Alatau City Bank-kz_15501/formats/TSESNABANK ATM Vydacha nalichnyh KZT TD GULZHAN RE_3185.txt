@@ -1,0 +1,7 @@
+^.*([\d-]{10}).*ydacha\s+n.*?([A-Z]{3})\s*([\d\s.,]*\d).*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;instrument;outcome;syncid#cash;av_balance
+
+-----EXAMPLE-----
+TSESNABANK: 2017-09-06 16:26:30 ATM00120021 Vydacha nalichnyh KZT 120,000.00,TD GULZHAN REF 1234567890 kartochka ***1694,Balans 165 851.12. tel.7711

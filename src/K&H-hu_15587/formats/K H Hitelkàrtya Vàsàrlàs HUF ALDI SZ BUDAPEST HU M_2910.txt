@@ -1,0 +1,7 @@
+^.*(Hitelkàrtya).*?àsàrl.*? ([\d/]{8}) [\d:]+ ([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+\S+\s+\S+\s+\S*gyenl.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yy/MM/dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+K&H Hitelkàrtya Vàsàrlàs 17/01/23 20:56 5.107 HUF ALDI 46.SZ. BUDAPEST HU MOHÅCSI PÉTER Egyenleg: 194.893 HUF www.kh.hu

@@ -1,0 +1,7 @@
+^.*ccoun.*?(\d{4}) has.*redited by ([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d? on (\d{2}[-./]\d{2}[-./]\d{2,4}) at [\d:]+ for (.*)
+
+-----COLUMNS-----
+syncid;instrument;income;date#dMy;comment
+
+-----EXAMPLE-----
+Dear Customer, your account 2000XXXX4274 has been credited by BHD 1350.300 on 24/08/2022 at 14:04 for NET SALRY FOR EMP NO. 0000 BRANCH 301

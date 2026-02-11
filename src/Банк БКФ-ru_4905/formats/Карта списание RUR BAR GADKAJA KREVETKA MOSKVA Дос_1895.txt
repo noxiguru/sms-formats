@@ -1,0 +1,7 @@
+^.*(\d{4}):\s+([\d.]{10}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}).\s+(.*).\s+Досту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта 4252: 22.07.2015 10:50, списание 22 RUR, BAR GADKAJA KREVETKA, MOSKVA. Доступно 111 RUR.

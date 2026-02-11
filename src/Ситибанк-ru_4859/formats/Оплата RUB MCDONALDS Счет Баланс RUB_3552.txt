@@ -1,0 +1,10 @@
+^Оплат.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?);\s*([\d/]{5})\s+.*?\*(\d{4}).*?алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dM;syncid;av_balance
+
+-----EXAMPLE-----
+Оплата 99.00RUB MCDONALDS 2; 09/03 Счет*6755 Баланс 9174.31RUB
+
+-----EXAMPLE-----
+Оплата 532.00RUB CHIP I DIP; 13/07 Счет*3885 Баланс 917764.07RUB. Проверяйте актуальный баланс по счетам в приложении: www.citibank.ru/safesms7

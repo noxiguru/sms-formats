@@ -1,0 +1,7 @@
+^.*\*(\d{4}):.*opolnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2,4}[-./]\d{2}[-./]\d{2}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yMd;av_balance
+
+-----EXAMPLE-----
+HUMOCARD *1234: popolnenie 10300.00 UZS; P2P; 20-05-22 16:00; Dostupno: 300000.00 UZS

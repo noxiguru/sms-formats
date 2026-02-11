@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8}) .*NALICH.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\(KOMIS.*?([\d\s.,]*\d).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+URFIN *4637 31.12.18 19:38 NALICHNYE 3,000.00 RUB (KOMISSIYA 0.00 RUB) D. 25, KORP. 2, UL. AKADEMIKA (EKATERINBURG G,RU) DOSTUPNO: 145,566.88 RUB

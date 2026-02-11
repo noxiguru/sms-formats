@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+.opoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+BALA.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Depozit 4169**2466 Popolnenie 30.00 AZN 17:04 08.12.20 BALANCE 263.24 AZN

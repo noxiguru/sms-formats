@@ -1,0 +1,7 @@
+^Perevod SBP ot (.*) iz (.*?)\. .umm.*?([\d\s.,]*\d)\s*([A-Z]{3}) na .*?\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+payee;comment;income;instrument;syncid;date#dMy
+
+-----EXAMPLE-----
+Perevod SBP ot DMITRIY VIKTOROVICH S iz Credit Bank of Moscow. Summa 10000,00RUR na schet *1585. Ispolnen 31.10.2020 14:57

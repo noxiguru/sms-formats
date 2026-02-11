@@ -1,0 +1,19 @@
+^.*?([\d/]{5}).*?(?:(?:АТМ|ATM)(?!.*взнос| pay)|получ.*?нал).*?\.?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ост|alan|ost).*?\s(-?[\d\s.,]*\d).*\*(\d{4}).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;av_balance;syncid#cash
+
+-----EXAMPLE-----
+РСХБ,05/05 15:34:20 АТМ 3,000.00RUR одобр. дост. 5,968.86 карта *5459 Alfa Iss ROSTOV-NA-DON RU
+
+-----EXAMPLE-----
+РСХБ 06/07 13:36:40 получ. нал. 4,000.00 RUR одобр. дост. 20,766.52 карта *6000 PVN MOSKOVSKI RF DO 21 MOZHAISK RU
+
+-----EXAMPLE-----
+РСХБ 11/04 14:16:26 АТМ выдача наличных 74,100.00 RUR одобр. дост. 0.00 карта *8074 ATM 6464 MOSCOW RU
+
+-----EXAMPLE-----
+RSHB 13/12 13:23:23 ATM cash withdrawal 10,400.00 RUR approved Balance 46,189.33 card *2267 ATM 4998 MOSCOW RU
+
+-----EXAMPLE-----
+RSHB 30/01 16:59:54 ATM vydacha nalichnykh 4,000.00 RUR odobr. Dostupno 41,000.00 Dolg 0.00 karta *4955 ATM 9097 NOVOSIBIRSK RU

@@ -1,0 +1,7 @@
+^.*(\d{4}) .achislen.*([\d.]{10})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+Korr:\s*(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;comment
+
+-----EXAMPLE-----
+PAO BINBANK Cch.N:1234567890 Zachislenie Data:08.08.2018 1 500.00 RUR Korr:OOO "Poliformplast" Oplata po dogovoru dogovor N UT-00006 ot 26.05.12g. za iyul'  2018g. Summa 1500-00 Bez naloga (NDS)

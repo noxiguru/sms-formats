@@ -1,0 +1,7 @@
+^KARTA\s+\d\*(\d{4})\s+(2025-06-13)\s+13:06:02\s+SPISANIE\s+PEREVOD\s+([0-9][\d\s.,]*)\s+([A-Za-z]{1,3})\s+(.*?)\s+OST\.DB\s+[0-9][\d\s.,]*\s+[A-Za-z]{1,3}\s+OST\.CR\s+[0-9][\d\s.,]*\s+[A-Za-z]{1,3}\s+Spr\.:\d+$
+
+-----COLUMNS-----
+syncid;date#yMd;outcome;instrument;payee
+
+-----EXAMPLE-----
+KARTA 5*6398 2025-06-13 13:06:02 SPISANIE PEREVOD 291.39 BYN P2PMTBANK / MINSK / BY OST.DB 0.00 BYN OST.CR 673.73 BYN Spr.:5099999

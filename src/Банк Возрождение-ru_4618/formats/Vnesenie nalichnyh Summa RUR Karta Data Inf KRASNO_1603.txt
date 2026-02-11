@@ -1,0 +1,7 @@
+^Vnesenie n.*Summa.([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}). Data.([\d.]{8}).*Dostupno.(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Vnesenie nalichnyh, Summa:1000,00 RUR, Karta:4..3848, Data:25.02.15, Inf:KRASNOARMEJSKAIA 3, Kod:518542. Dostupno:1000.25 RUR

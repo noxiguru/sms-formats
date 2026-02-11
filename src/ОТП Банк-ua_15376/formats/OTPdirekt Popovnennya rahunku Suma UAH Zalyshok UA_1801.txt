@@ -1,0 +1,7 @@
+^.*?([\d.]{10}).*?Popov.*?(\d{4}).?\s*.uma.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+Zal[^\d]+Platnyk.?\s*(.*)
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+OTPdirekt:05.06.2015 16:28: Popovnennya rahunku: 1234567890. Suma: 48816,00 UAH Zalyshok: --- UAH Platnyk: FOP Stasiuk V. D.

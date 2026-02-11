@@ -1,0 +1,10 @@
+^.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*?\((?:selgitus=)?(.*?)\).*vaba jääk.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Konto BANK jääk muutus -80.00 EUR vòrra (selgitus=ARVE NR 1-21.09.2018 òigusnòus), uus vaba jääk 909.00 (saldo=909.00, broneeringud=0.00)
+
+-----EXAMPLE-----
+Konto BANK jääk muutus -89.98 EUR vòrra (kokku 2 tehingut), uus vaba jääk 224774.56 (saldo=224774.56, broneeringud=89.98)

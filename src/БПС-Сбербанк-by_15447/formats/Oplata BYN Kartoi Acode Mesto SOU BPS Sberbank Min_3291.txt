@@ -1,0 +1,7 @@
+^.plata ([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}) ([\d.]{8}) .*esto:(?!.*stat)\s*(.*?)[,.].*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yy;payee
+
+-----EXAMPLE-----
+Oplata 87.04 BYN Kartoi #2689 13.11.17 12.15 Acode 985553; Mesto: SOU BPS-Sberbank > Minsk, BPS-Sberbank Payments BLR. BPS-Sberbank

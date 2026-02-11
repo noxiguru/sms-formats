@@ -1,0 +1,7 @@
+^.rixod.*(\d{2}[-./]\d{2}[-./]\d{2,4}) .*umm.*?([\d\s.,]*\d) na \d+(\d{4}) ot .*?:\s+\d*\s*(.*?)\s*\d*\s+.stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;income;syncid;payee;av_balance
+
+-----EXAMPLE-----
+prixod 22.01.2021 11:42:17 summa 5,275,000.00 na 1234567890 ot bank: 00918 urologic complex 303384920 ostatok 117,903,236.51

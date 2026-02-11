@@ -1,0 +1,10 @@
+^.*?(\d{1,2}\w{3}\d{2,4}) ATM.*?ithdraw.*?from (\S+)\s+([A-Z]{3})\s*([\d\s.,]*\d)\-.*?alan.*?([A-Z]{3}|)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+From HSBC: 08SEP2016 ATM Cash Withdrawal from AEDsav AED 300.00- Your available balance is AED 18,000.00
+
+-----EXAMPLE-----
+From HSBC: 05NOV22 ATM Cash Withdrawal from 031-245***-001 AED 300.00- by Card Ending with 8685. Your available balance is 4,698.86

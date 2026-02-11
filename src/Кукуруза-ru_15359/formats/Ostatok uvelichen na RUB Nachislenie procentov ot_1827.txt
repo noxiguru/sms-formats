@@ -1,0 +1,7 @@
+^Ost.*uvel.*?([\d\s.,]*\d)\s*[A-Z]{3}. (.*)
+
+-----COLUMNS-----
+income;comment
+
+-----EXAMPLE-----
+Ostatok uvelichen na 15.22 RUB. Nachislenie procentov ot banka po servisu "Procenty na ostatok"

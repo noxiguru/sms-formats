@@ -1,0 +1,10 @@
+^.*? ([\d/]{5}) .*?(?:ATM|ydacha n).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:комис|komis)\.?\s*([\d\s.,]*\d).*?(?:карт|kart).*?\*(\d{4}).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;fee;syncid#cash
+
+-----EXAMPLE-----
+RSHB 08/06 12:04:34 ATM 5,800.00 RUR komis. 350.00 RUR odobr. karta *3168 ATM 5766 UFA RU
+
+-----EXAMPLE-----
+RSHB 30/08 18:09:12 ATM vydacha nalichnykh 1,000.00 RUR komis. 150.00 RUR odobr. karta *6692 Alfa Iss 62 ZELENIY AV MOSCOW RU

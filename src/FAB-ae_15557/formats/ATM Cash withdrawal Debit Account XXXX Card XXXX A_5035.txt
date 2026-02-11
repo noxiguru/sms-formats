@@ -1,0 +1,7 @@
+^.*ithdraw.*ard\s+X+(\d{4})\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+ATM Cash withdrawal  Debit  Account XXXX1234  Card XXXX1234  AED 1234.56  25/01/21 12:35  Available Balance AED 1234.56

@@ -1,0 +1,7 @@
+^.*\*(\d{4}) spisan.*?-([\d\s.,]*\d)\s*([A-Z]{3})\. ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy
+
+-----EXAMPLE-----
+Schet po karte *4604 spisan na summu -50.00 USD. 07-OCT-2022 22:38

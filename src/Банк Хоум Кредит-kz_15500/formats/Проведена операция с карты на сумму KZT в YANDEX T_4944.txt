@@ -1,0 +1,10 @@
+^Провед.*\*(\d{4})\s+на\s+.*?-([\d\s.,]*\d)\s*([A-Z]{3})\s+в\s+(.*?)\.\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Проведена операция с карты 404932******2171 на сумму -650.00 KZT в YANDEX.TAXI, ALMATY, KZ. Доступный баланс 101256.39 KZT. 02.02.21 17:47:36
+
+-----EXAMPLE-----
+Проведена операция с карточки 404932******2171 на -1050.00 KZT в QSR LLP. KONGRESS KHOL, Astana, KZ. Доступный баланс 108385.00 KZT. 12.05.21 21:50:40 ║ Home Credit Kazakhstan

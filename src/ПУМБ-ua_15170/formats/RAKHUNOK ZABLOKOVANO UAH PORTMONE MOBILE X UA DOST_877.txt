@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*(?:ZABLOKIROVANO|ZABLOKOVANO)\s+([\d\s.,]*\d)\s+([A-Z]{3})\s+([^(]*?)\s+\(DOSTUPNO\s+([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+RAKHUNOK 1111 *2018 2013-06-28 19:06:24 ZABLOKOVANO 31.00 UAH PORTMONE.MOBILE X UA (DOSTUPNO 0.14 UAH)

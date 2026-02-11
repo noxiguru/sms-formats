@@ -1,0 +1,7 @@
+^Avtop.*?([\d.]{8}) [\d:]+. (.*). Chek.*Opla.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;payee;outcome;instrument
+
+-----EXAMPLE-----
+Avtopopolnenie. 22.04.15 00:50:48. MTS. Nomer telefona 295739032. Chek 100674680. Oplacheno 80 300 BYR. Kod avtorizatsii: 516639

@@ -1,0 +1,7 @@
+^.*?art.*?(\d{4}) Zniat.*?got.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Kartka #0848 Zniattia gotivky na sumu: 450.00 UAH ATM S1ANI073 UKRGASBANK>KIEV, UA 07.07.2017 13:03:03 Dostupno: 21453.71 UAH Kreditny limit: 0.00 UAH

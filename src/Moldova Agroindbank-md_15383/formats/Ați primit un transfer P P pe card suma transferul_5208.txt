@@ -1,0 +1,7 @@
+^.*primi.*?P2P.*\*\s*(\d{4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*oldul.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Ați primit un transfer P2P pe card *** 7337, suma transferului 2000.00 MDL. Soldul disponibil: 2002.33 MDL.

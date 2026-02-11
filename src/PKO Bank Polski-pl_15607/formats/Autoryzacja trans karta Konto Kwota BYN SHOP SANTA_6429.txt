@@ -1,0 +1,7 @@
+^Autoryz(?!.*(?:[Dd]oste|[Ss]tan)).*?arta.*?(\d{4}).*wota\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+(\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yMd
+
+-----EXAMPLE-----
+Autoryzacja trans. karta 2398 Konto 30..1181 Kwota 7,66 BYN SHOP "SANTA-229" BAPB MINSK 2024-12-25 18:47:50

@@ -1,0 +1,16 @@
+^.*(?:polnen p|полнен п)\w+ (\d{2}[-./]\d{2}[-./]?\d{0,4}) .*?\*(\d{4}).*?\.?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? (.*?) [vв] (.*?)\..*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;comment
+
+-----EXAMPLE-----
+SBP. Ispolnen perevod 29.05 16:09 (msk). Schet *1505. 25000 r. Evgenij Alekseevich O v PAO SBERBANK.
+
+-----EXAMPLE-----
+SBP. Ispolnen perevod 29.05 16:09 (msk). Schet *1505. 25000 r. Evgenij Alekseevich O v PAO SBERBANK.
+
+-----EXAMPLE-----
+SBP. Ispolnen perevod 24.06 15:57 (msk). Schet *1505. Spisano 3000 r. Ol`ga Borisovna M v PAO SBERBANK.
+
+-----EXAMPLE-----
+СБП. Исполнен перевод 16.03 00:00 (мск). Счет *1234. Списано 2000 р. Иван Иванович в ПАО Сбербанк.

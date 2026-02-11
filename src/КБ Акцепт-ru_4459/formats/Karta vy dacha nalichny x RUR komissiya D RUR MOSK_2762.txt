@@ -1,0 +1,7 @@
+^.*?art.*?(\d{4}):?\s+([\d.]{8}) .*?dacha n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Karta 4716: 06.12.16 13:35, vy'dacha nalichny'x 5500.00 RUR. komissiya D0.00 RUR. 1234567890, MOSKVA, 155 DMITROVSKOE SH BLD 1. Dostupno 275.51 RUR

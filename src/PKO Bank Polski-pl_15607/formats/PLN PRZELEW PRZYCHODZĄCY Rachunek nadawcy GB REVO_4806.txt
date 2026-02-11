@@ -1,0 +1,25 @@
+^\+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(?:PRZEL|Przelew\s+na\s+kon).*(?:adaw|ende)\w+:\s+(.*?)\s+.(?:ytu|itl)\w+:\s+(.*?)\s+(?:Na|On)\s+.*?(\d{4})\D.*?\s+(\d{4}[-./]\d{2}[-./]\d{2})\s+.*
+
+-----COLUMNS-----
+income;instrument;payee;comment;syncid;date#yMd
+
+-----EXAMPLE-----
++505,46 PLN PRZELEW PRZYCHODZĄCY    Rachunek nadawcy: GB25REVO1234567890 Nadawca: 1/ANDREI BELASHOU 2/KATOWICKA 49, 17 3/PL/POZNAN 61-131  Tytuł: SENT FROM REVOLUT   Na rachunku 31..7970. Data waluty: 2020-09-08 ║ Uznanie rachunku
+
+-----EXAMPLE-----
++50,00 PLN PRZELEW PRZYCHODZĄCY    Sender Account: 74..4432 Sender: ALEKSEY KOROLEV  UL. BIAŁEJ FLOTY 8/5 02-654 WARSZAWA Title: Transfer request INV-08A   On account no. 68..4809  Value date: 2021-04-12 ║ Account credit
+
+-----EXAMPLE-----
++40,00 PLN Przelew na konto Rachunek nadawcy: 42..5634 Nadawca: DZMITRY SHUBKIN UL. JESIONOWA 49 M.79 50-504 WROCŁAW Tytuł: PRZELEW DO DZIECKA Na rachunku 67..1658 Data waluty: 2024-08-22 ║ Uznanie rachunku
+
+-----EXAMPLE-----
++100,00 PLN Przelew na konto Sender Account: 57..4900 Sender: PayU S.A. ul. Grunwaldzka 186 Poznań Title: OLX_f386cd4d-0c4c-8134-bc76-106bdff 6f127 On account no. 90..1210 Value date: 2024-09-02 ║ Account credit
+
+-----EXAMPLE-----
++800,00 PLN Przelew na konto Sender: ZUS Centrum Obsługi Świadczeń dla R odzin ul. Młynowa 29 15-404 Białystok Title: Świadczenie ZUS 010000C240818TSW/1015454875 Św. wychowawcze PAULAVETS PAVEL On account no. 36..7425 Currency Date: 2024-08-14 ║ Regular credit
+
+-----EXAMPLE-----
++243,42 PLN Przelew na konto Nadawca: FLOW APPS SPÓŁKA Z OGRANICZONĄ ODPO WIEDZIALNOŚCIĄ UL. PROLETARIACKA 36 M.11 93-569 ŁÓDŹ Tytuł: WYPŁATA Z UMOWY NR  UMW/F/2024/05/0015  Na rachunku 61..8006 Data waluty: 2024-08-07 ║ Systematyczne uznanie
+
+-----EXAMPLE-----
++505,46 PLN PRZELEW PRZYCHODZĄCY Rachunek nadawcy: GB25REVO1234567890 Nadawca: 1/ANDREI BELASHOU 2/KATOWICKA 49, 17 3/PL/POZNAN 61-131 Tytuł: SENT FROM REVOLUT Na rachunku 31..7970. Data waluty: 2020-09-08 ║ Uznanie rachunku

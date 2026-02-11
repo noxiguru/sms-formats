@@ -1,0 +1,7 @@
+^.*mount.*?([A-Z]{3})\s*([\d\s.,]*\d).*ebited.*?X(\d{4})\s+against (.*?)\..*
+
+-----COLUMNS-----
+instrument;outcome;syncid;comment
+
+-----EXAMPLE-----
+An amount of AED 2601.57 has been debited to your Mashreq account no. XXXXXXXX2801 against Loan Recovery. Please call 04-4244763 in case of any query.

@@ -1,0 +1,7 @@
+^(?:Transfer\s+to|Перевод)\s+(.*?)\s+(?:account|счет)\s+(.*?)\..*(?:alan|алан).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\s+║\s+-([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\s+(?:Сейв|Save).*?\s"?([^\s"]+).*?"?$
+
+-----COLUMNS-----
+payee;comment;av_balance;acc_instrument;outcome;instrument;syncid
+
+-----EXAMPLE-----
+Transfer to Алина Владимировна Р. account in Т-Банк. Saver balance: 82999,86 ₽ ║ -1000 ₽ Saver "Reserves"

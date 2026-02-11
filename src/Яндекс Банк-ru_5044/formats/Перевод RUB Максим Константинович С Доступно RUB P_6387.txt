@@ -1,0 +1,7 @@
+^Перевод\s+([\d\s.,]*\d)\s*([A-Z]{3})\W\s+(.*?)\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+(\S+)\s+card$
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dMy;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+Перевод 501.41 RUB. Максим Константинович С. 21.10.2024 05:38. Доступно 0.00 RUB ║ Pay card

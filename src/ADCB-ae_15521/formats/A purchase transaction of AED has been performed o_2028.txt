@@ -1,0 +1,7 @@
+^.*purch.*?([A-Z]{3})([\d\s.,]*\d).*Card.*?X(\d{4}).*([\d/]{10}).*at\s+(.+)\.\s*Avail.*?(-?[\d\s.,]*\d)
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dd/MM/yyyy;payee;av_balance
+
+-----EXAMPLE-----
+A purchase transaction of AED54.00 has been performed on your Credit Card XXX2371 on 20/10/2015 11:21:55 at CAREEM NETWORKS FZ L,DUBAI-AE . Available credit limit is now AED 91627.31

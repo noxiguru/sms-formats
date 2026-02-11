@@ -1,0 +1,25 @@
+^.*\*(\d{4}).*iznos[u:] ([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{2}[-./]\d{2}[-./]\d{2,4}),\s+(.*?),?\.\s+.(?:aspol|renutn).*?:\s+(?!0,00)(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karticom 5574****9126, iznos: 215.00 RSD, 19.05.2022, LEBOVSKI Beograd,. Raspolozivo: 1.600.605,12 RSD 0,00 EUR 0,00 USD
+
+-----EXAMPLE-----
+Karticom 5574****0675, iznos: 13.00 PER, 21.05.2023, IZI*TU MARKA MIRAFLOR. Raspolozivo: 172,11 EUR 2.950.183,36 RSD
+
+-----EXAMPLE-----
+Karticom 5574****0675, iznos: 1.80 EUR, 17.05.2023, NYX*ABServiciosSelectaMadrid . Raspolozivo: 69,90 EUR 3.056.108,31 RSD
+
+-----EXAMPLE-----
+Karticom 5574****0675, iznos: 42.00 SEK, 12.03.2023, Reitan 4108900 Sthlm-Ar. Raspolozivo: 10,04 EUR 3.356.508,14 RSD
+
+-----EXAMPLE-----
+Karticom 5574****0675, iznos: 110.00 RSD, 15.03.2023, MINI MARKET MIKA BEOGRAD . Raspolozivo: 3.271.015,13 RSD 0,00 EUR
+
+-----EXAMPLE-----
+Karticom 5574****1234, iznos: 10,042.00 RSD, 25.05.2024, LIDL BEOGRAD - TROGIDERD . Trenutno raspolozivo: 3.508,14 RSD 10,04 EUR
+
+-----EXAMPLE-----
+Karticom 5574****4977, je izvršena transakcija u iznosu 301.81 EUR na dan 18.10.2024, Booking.com Amsterda. Trenutno raspoloživo stanje je: 22,72 EUR 5.605,24 RSD .

@@ -1,0 +1,7 @@
+^([\d-]{8}).*peraciya po dep.*?(\w{4}) na summu \+([\d\s.,]*\d)\s*([A-Z]{3}).*Ostatok.*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+date#yy-MM-dd;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+14-07-22 18:00  Operaciya po depozitu KSTN KRB-25031405X6ZR na summu +20000.00KZT. N/A. Ostatok : 1310890.29

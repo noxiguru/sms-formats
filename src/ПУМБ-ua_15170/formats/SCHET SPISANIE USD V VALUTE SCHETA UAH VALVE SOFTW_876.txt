@@ -1,0 +1,13 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*?(?:SPISANIE|SPYSANNIA|ZABLOKIROVANO|ZABLOKOVANO)\s+([\d\s.,]*\d)\s+([A-Z]{3})\s+\([VU]\s+VAL.*?([\d\s.,]*\d)[^)]*\)\s+(.*?)\s+\(DOSTUPNO\s+([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;op_outcome;instrument;outcome;payee;av_balance
+
+-----EXAMPLE-----
+SCHET 1111 *0338 2012-11-22 00:00:00 SPISANIE 5.99 USD (V VALUTE SCHETA 48.79 UAH) VALVE SOFTWARE 425-8899642 WAUS (DOSTUPNO 830.52 UAH)
+
+-----EXAMPLE-----
+SCHET 1111 *0338 2012-11-26 17:48:31 ZABLOKIROVANO 6.29 PLN (V VALUTE SCHETA 16.31 UAH) GOOGLE *Android Market GOOGLE.COM/CHGB (DOSTUPNO 763.47 UAH)
+
+-----EXAMPLE-----
+*** *0839 2014-08-21 15:20:11 SPYSANNIA 12.99 USD (U VALIUTI RAKHUNKU 170.82 UAH)   rapidgator.net +35722030607 GE (DOSTUPNO 3287.54 UAH)

@@ -1,0 +1,13 @@
+^.*ending.*?(\d{4}) (?:has )?spent ([A-Z]{3})\s*([\d\s.,]*\d) at (.*?)\s+on (\d{2}[-./]\d{2}[-./]\d{2,4}).*imit.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your supplementary Citi Card ending with 4567 spent AED 4.00 at GOOGLE *SERVICES       g. on 26/03/2016. The available limit is AED 2168.57.
+
+-----EXAMPLE-----
+Your card no. ending with 8759 has spent AED 6.00 at HIGHLAND GARDEN REST DU on 04/05/2023 Available limit is AED 1000
+
+-----EXAMPLE-----
+Your card no. ending in 5008 has spent AED 20.00 at DU QUICK RECHARGE DU on 23/02/2024. Available limit is AED 11676.16.

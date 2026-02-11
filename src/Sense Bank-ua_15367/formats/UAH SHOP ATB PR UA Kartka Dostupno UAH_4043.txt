@@ -1,0 +1,10 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}),\s+(?!Perek)(.*?),\s*.art.*?\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:ostu|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+-296.60UAH, SHOP ATB PR714, UA, Kartka 5355***1550, 09.01.19 22:24. Dostupno: 6111.79UAH
+
+-----EXAMPLE-----
+-352.04UAH, SHOP EPITSENTR KILTSEVA, UA, Kartka 4102***1049, 02.07.22 19:32. Balans: 1619.38UAH Bagato korysnogo tut: https://sense.top/info ║

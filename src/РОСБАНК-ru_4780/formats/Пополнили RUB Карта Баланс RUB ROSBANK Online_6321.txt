@@ -1,0 +1,7 @@
+^Попол.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Пополнили 245000RUB. Карта *7279. Баланс 253878.29RUB ║ ROSBANK Online

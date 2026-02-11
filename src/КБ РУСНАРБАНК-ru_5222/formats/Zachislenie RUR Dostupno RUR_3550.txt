@@ -1,0 +1,7 @@
+^Zachisl.*\*(\d{4})\D?\s+([\d\s.,]*\d)\s*([A-Z]{3})\W\s*([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Zachislenie *9207, 93 800.00 RUR;2018-03-05.Dostupno 93 800.00 RUR.

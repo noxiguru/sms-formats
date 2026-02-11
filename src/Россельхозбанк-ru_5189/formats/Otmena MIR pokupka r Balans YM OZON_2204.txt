@@ -1,0 +1,7 @@
+^((?:Отмен|Otmen).*?),? \w+(\d{4}) .*(?:okup|окуп).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:alan|алан).*?(-?[\d\s.,]*\d) (.*)
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Otmena, MIR4302 13:02 pokupka 2,117r Balans 51,001.33 YM*OZON

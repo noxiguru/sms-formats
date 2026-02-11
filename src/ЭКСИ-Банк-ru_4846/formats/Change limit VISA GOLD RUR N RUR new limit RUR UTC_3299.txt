@@ -1,0 +1,7 @@
+^Change.*\*(\d{4}).*\+([\d\s.,]*\d)\s*([A-Z]{3}).*imit.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Change limit: VISA GOLD (RUR) N: *0052, +15,000.00 RUR; new limit: 15,096.34 RUR; 21.11.2017 16:30 (UTC+3)

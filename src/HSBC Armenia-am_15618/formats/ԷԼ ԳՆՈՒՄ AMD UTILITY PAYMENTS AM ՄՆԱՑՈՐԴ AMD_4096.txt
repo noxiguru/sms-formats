@@ -1,0 +1,10 @@
+^.*(?:ԳՆՈՒՄ|ՀԱՇՎԻՆ).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(.*?)\s+([\d.]{10}).*ՄՆԱՑ.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ԷԼ. ԳՆՈՒՄ 56,197.00 AMD 5571***4086 UTILITY PAYMENTS, AM 14.01.2019 17:08 ՄՆԱՑՈՐԴ՝ 2,446.00 AMD
+
+-----EXAMPLE-----
+ՄՈՒՏՔ ՀԱՇՎԻՆ 50,000.00 AMD 5571***4086 BANK SYSTEM HSBC PAYMENT, AM 14.01.2019 17:05 ՄՆԱՑՈՐԴ՝ 58,643.00 AMD

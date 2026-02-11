@@ -1,0 +1,7 @@
+^Rash.*cheta\s+na.*?([\d\s.,]*\d)
+
+-----COLUMNS-----
+outcome
+
+-----EXAMPLE-----
+Rashod so scheta  na summu 50

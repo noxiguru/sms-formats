@@ -1,0 +1,7 @@
+^.*?(\d{4});\s+(Смена .*?);.*омис.*?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+Card5226; Смена PIN; Комиссия 1 BYN; 06.09.18 18:54:04;

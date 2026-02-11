@@ -1,0 +1,7 @@
+^.*?арт.*?(\d{4})\s+([\d.]{10}).*?(.азблок.*?)([\d\s.,]*\d)\s*([A-Z]{3}).*?оступ.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;comment;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Карта 0881 11.07.2016 09:00 Разблокированы средства 59.40 RUB. Баланс: -1234567.08 RUR. Доступно: 987654321.92 RUR GOOGLE *SELLER G.CO/PAYHELP# GB

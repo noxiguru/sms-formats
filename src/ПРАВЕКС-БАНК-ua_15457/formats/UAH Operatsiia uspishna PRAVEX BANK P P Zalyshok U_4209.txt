@@ -1,0 +1,7 @@
+^([\d]{2}[\s/]?\d{2}) .*-(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+.(?:per.*usp|пер.*?усп).*(?:[Oo]st|[Зз]ал|[Оо]ст|[Zz]alysh).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dM;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+30/03 19:00 5577-1938 10000UAH Operatsiia uspishna PRAVEX BANK P2P Zalyshok: 11741.78UAH Zavantazhuite,  bud laska , nash mobilnyi dodatok PRAVEX ONLINE!

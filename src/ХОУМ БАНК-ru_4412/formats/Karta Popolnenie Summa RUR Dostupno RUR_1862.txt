@@ -1,0 +1,7 @@
+^.*\*(\d{4}).\s*Popol.*umma.*?([\d\s.,]*\d)\s*([A-Z]{3})\s*;\s*Dost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta: *2150; Popolnenie; Summa: 35000.00 RUR ; Dostupno: 80858.64 RUR

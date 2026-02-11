@@ -1,0 +1,7 @@
+^.*?(?:i-nalichnye|erevod).*?(\d{4})\s+Sum.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*alans. (-?[\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Forshtadt: Kvazi-nalichnye Karta: *1362 Summa: 20 000.00 rub Balans: 901.40 rub Vremja: 08:53 19.06.14 Adres: TCS BANK

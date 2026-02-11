@@ -1,0 +1,13 @@
+^.*(?:platno|ayment|wychodzac|utgoing).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4})\s+.at.*? (\d{2}[-./]\d{2}[-./]\d{2,4}).*?(?:aldo|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance
+
+-----EXAMPLE-----
+Autoryzacja platnosci karta debetowa: Kwota: -00,00 PLN Karta: 1111xxxxxxxx1111 Data: 29/06/15, 11:18 Dostepne saldo: 00,00 PLN
+
+-----EXAMPLE-----
+Debit Card Payment Authorization: Amount: -15,90 PLN Card: 4874xxxxxxxx1692 Date: 08/07/16, 18:32 Available balance: 4.359,69 PLN
+
+-----EXAMPLE-----
+Outgoing Transfer Execution: Amount: 110,00 PLN From account: 354336481 Date: 30/07/18, 19:02 Available balance: 100.00PLN

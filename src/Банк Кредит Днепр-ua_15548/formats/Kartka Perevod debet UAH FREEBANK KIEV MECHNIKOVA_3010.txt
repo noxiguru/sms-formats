@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*debet([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+Kartka ***8425 Perevod debet 480.00 UAH 14.04.17 09:36 FREEBANK, KIEV, 3 MECHNIKOVA STR

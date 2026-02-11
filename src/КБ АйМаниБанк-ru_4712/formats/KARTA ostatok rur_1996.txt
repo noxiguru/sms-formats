@@ -1,0 +1,7 @@
+^K.*?\*(\d{4})\s+ost.*?(-?[\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+KARTA *1234 ostatok 1223,23 rur 17.09.15 08:29

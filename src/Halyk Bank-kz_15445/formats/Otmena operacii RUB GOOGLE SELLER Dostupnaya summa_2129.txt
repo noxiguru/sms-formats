@@ -1,0 +1,7 @@
+^([\d-]{10}).*Otmena op.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\s+\d\*+(\d{3,4}).*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;income;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+2015-12-13 16:03:36 Otmena operacii 406.90 RUB GOOGLE *SELLER 4**602 Dostupnaya summa:395647.32KZT

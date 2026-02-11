@@ -1,0 +1,7 @@
+^.*?([\d]{4});\s+Provedena t.*?([\d\s,.]*\d)\s*([A-Z]{3}).*?([\d-]{10}).\s*(?!.*ATM)(.+?)\s+(?:Malina:.*)?.ostu.*?(-?[\d\s,.]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;payee;av_balance
+
+-----EXAMPLE-----
+Karta *8313; Provedena tranzakcija: 112.4 RUB; Data: 2017-06-20; PRISMA Dostupny Ostatok: 46371.29 RUB. Raiffeisenbank

@@ -1,0 +1,7 @@
+^([\d.]{8}) [\d:]{4,5}\s+(.*?)\s+BOLK.*?(\d{4}) MEBL.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;payee;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+25.01.18 12:50 BURGER KING, AZ BOLKART: ****6591 MEBLEG:9.95 AZN Balans:599.83 ID:963342 . TESEKKUR EDIRIK.BANK OF BAKU.INFO:145

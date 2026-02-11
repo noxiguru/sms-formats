@@ -1,0 +1,7 @@
+^POPOLN.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8})\s+.*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+POPOLNENIE: 25000.00 KZT 24.07.17 18:45:58 NOMER DOGOVORA 3710832675 DOSTUPNAYA SUMMA NA KARTE 86672.94 KZT.

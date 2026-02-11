@@ -1,0 +1,10 @@
+^.*?([\w-]{9}).*?(\d{4}) POPOLNENIE.*?([\d\s.,]*\d)\s*([A-Z]{3})(?!.*ATM).*balance.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd-MMM-yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+MKB: 03-APR-13 4432...3788 POPOLNENIE: 61374 RUB. balance: 62522.56 RUB
+
+-----EXAMPLE-----
+MKB: 30-NOV-14 5420...1795 POPOLNENIE: 70.72 RUB. balance: 1836.6 RUB

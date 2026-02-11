@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*peratsiya v bank.*?Uspeshno.*vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+RosDorBank CARD:***7040 150000,00RUR Operatsiya v bankomate 99968004; Uspeshno vypolneno. Avail:35015.45RUR

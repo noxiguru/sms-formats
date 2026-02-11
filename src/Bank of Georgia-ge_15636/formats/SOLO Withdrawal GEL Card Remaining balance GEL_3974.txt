@@ -1,0 +1,7 @@
+^.*ithdraw.*?([A-Z]{3})\s*([\d\s.,]*\d).*?\*\s*(\d{4}).*alan.*?(-?[\d\s.,]*\d)\s+([\d.]{10}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+SOLO: Withdrawal: GEL 100.00 Card: **** 0181 Remaining balance: GEL 44.35 14.10.2018

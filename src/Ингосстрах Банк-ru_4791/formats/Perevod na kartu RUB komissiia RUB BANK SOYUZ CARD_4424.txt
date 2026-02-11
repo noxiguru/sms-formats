@@ -1,0 +1,7 @@
+^([\d.]{8}).*(?:ревод на|revod na).*?(\d{4})\D ([\d\s.,]*\d)\s*([A-Z]{3}).*(?:omiss|омисс).*?([\d\s.,]*\d).*?(?:аланс|alans)(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;fee;av_balance
+
+-----EXAMPLE-----
+28.12.19 21:23 Perevod na kartu 6665, 1840.00RUB, komissiia 0.00RUB BANK SOYUZ CARD2CARD, RUS. Balans 15127.56RUB. Srok zachisleniia sredstv na schet 3 rabochih dnia

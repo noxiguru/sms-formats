@@ -1,0 +1,7 @@
+^(Zachis.*?ash\s*.ack)(?!.*(?:ostu|stat)).*\*(\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Zachislenie CashBack po kontraktu*0299 za tekushchij mesyac 141.70RUR 2018-08-01 01:23:23

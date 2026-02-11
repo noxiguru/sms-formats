@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]?\d{0,4}) [\d:]+ (?:Oplat|Sp[iy]san)(?!.*Mesto).*\*(\d{4}).*[Ss]um.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+28.08 13:46 Spisanie sredstv. Schet: *9999. Summa: 999.99 RUR.  Dostupno: 999.99 RUR. OTP Bank
+
+-----EXAMPLE-----
+02/09 11:13 Spysannia C2C perekazu koshtiv z kartky: *5571 Suma: 508.99 UAH Misce: Portmone_p2p Dostupno: 213587.4 UAH Kred.Lim: 100000

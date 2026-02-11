@@ -1,0 +1,16 @@
+^([\d.]{8}) .*(?:ard|cnt)(?!.*(?:um:-|odatok)).*?-(\d{2,4})\D.*(?:[Ss]um|ozmir).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+26.05.14 03:21  Acnt:090-262565-42Na zalyshok koshtiv narahovano vidsotky u rozmiri 82,00UAH  Balance=25 623.79 UAH Info 0800210800
+
+-----EXAMPLE-----
+21.04.16 10:52  Card:5490-6362  Sum: 5 000.00 UAH  M=TRNSFR_CURRENT_CARD Balance=5 311.11 UAH Info 0800210800
+
+-----EXAMPLE-----
+20.03.19 12:13  Card:4-742*  Sum:1 000.00 UAH  BRANCH 10022-0129  Balance=1 058.96 UAH   Detali www.oschadbank.ua/ib
+
+-----EXAMPLE-----
+07.02.20 11:33 Card:5-206* Sum:400.00 UAH MONODirect Dostupna suma=10 320.34 UAH Z nyh vlasni koshty = 0.00 UAH oschadbank.ua/chat

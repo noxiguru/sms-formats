@@ -1,0 +1,7 @@
+^.*spent ([A-Z]{2,3}|\W)\s*([\d\s.,]*\d) at (.*?) with.*nding (\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+You've just spent RM 47.10 at HOKKAIDO SUSHI with your Maybankard 2 Amex Plat Expat ending 1234. View your receipt now. ║ Maybank2u: Card Transaction

@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*MMA.*?\+([\d\s.,]*\d)\s*([A-Z]{3})\s+OCT.*?(-?[\d\s.,]*\d)
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+Card 2526 2016-02-01 17:17:13 CYMMA +27,830.00 KZT OCTATOK 28371.86

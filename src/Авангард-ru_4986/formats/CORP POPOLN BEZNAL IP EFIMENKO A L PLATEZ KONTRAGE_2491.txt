@@ -1,0 +1,10 @@
+^(?!.*BAL).*?(POPOLN.*)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*?\*\d*(\d{4})\s+([\d.]{8}|)\D.*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;date#dd.MM.yy
+
+-----EXAMPLE-----
+CORP: POPOLN BEZNAL IP EFIMENKO A. L. 2 PLATEZ 1 KONTRAGENT 75000.00 RUR *17240 27.06.16 16:51 END
+
+-----EXAMPLE-----
+POPOLN BEZNAL BDO YUNIKON BIZNES SOLYUSH AO KB "SITIBANK", RU 310.91 RUB #*78852 END

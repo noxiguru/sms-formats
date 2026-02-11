@@ -1,0 +1,7 @@
+^.*?Razblokirovka.*?\*(\d{4}) ([\d-]{10}).*?summa ([\d\s.]{4,}) ([A-Z]{3}).(.*?)Ostatok ([\d\s.]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+BANK URALSIB.Razblokirovka operacii po karte 5312***1091 2012-12-04 21:32:26 summa 10.00 RUR;OneTwoTrip Ostatok 109 508.66 RUR

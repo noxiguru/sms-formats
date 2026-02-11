@@ -1,0 +1,7 @@
+^-\s*([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3})\s+Przelew do ZUS\s+Numer rachunku odbiorcy:\s+(.*?)\s+Tytuł:\s+(.*?)\s+Na rachunku\s+\d+\.\.(\d{4})\s+Data waluty:\s+(\d{4}-\d{2}-\d{2})(?:\s+║\s+Obciążenie rachunku)?$
+
+-----COLUMNS-----
+outcome;instrument;payee;comment;syncid;date#yMd
+
+-----EXAMPLE-----
+-3031,44 PLN Przelew do ZUS Numer rachunku odbiorcy: 94..2191 Odbiorca: ZUS SKŁADKI    Tytuł: SKŁADKA ZUS ZA 25M06   Na rachunku 10..1925 Data waluty: 2025-07-11 ║ Obciążenie rachunku

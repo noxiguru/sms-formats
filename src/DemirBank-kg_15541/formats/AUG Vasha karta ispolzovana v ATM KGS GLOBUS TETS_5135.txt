@@ -1,0 +1,7 @@
+^([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) .*\*(\d{4}).*ATM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+28-AUG-21 Vasha karta 421589******4788 ispolzovana v ATM: 2,800.00 KGS, GLOBUS-TETS BISHKEK KGKG. Vash balans sostavlyaet 2,027.09 KGS 1234567890, 2222

@@ -1,0 +1,7 @@
+^.*арт.*?(\d{4})(?!.*\.00\.00).*?([\d.]{10}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.+?)\.\s+.оступн.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта 1234: 01.01.2016 16:00, списание 1000.00 RUR, SUPERMARKET, MOSCOW. Доступно 1200.00 RUR.

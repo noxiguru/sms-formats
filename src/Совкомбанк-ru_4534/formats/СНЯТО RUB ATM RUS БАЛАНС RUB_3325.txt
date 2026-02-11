@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+(?:ВЫДАЧА|СНЯТО).*?([\d\s.,]*\d)\s*([A-Z]{3}).*БАЛ.*?(-?[\d\s.,]*\d).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+*3858 СНЯТО 1 000.00 RUB ATM 22, RUS БАЛАНС: 71 234.55 RUB 29.08.18 09:49

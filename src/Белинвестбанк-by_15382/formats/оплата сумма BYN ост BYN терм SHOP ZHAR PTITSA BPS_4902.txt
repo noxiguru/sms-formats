@@ -1,0 +1,13 @@
+^\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:плата|окупк|plata|okupk).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:ост|ost).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (?:терм|term)=(.*)
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+*2856  25.12.2020 11:44:01 оплата сумма=8.47 BYN ост=219.03 BYN терм=SHOP 'ZHAR PTITSA' BPSB>GRODNO        BY
+
+-----EXAMPLE-----
+*8371  23.12.2020 23:56:24 oplata summa=5.7 BYN ost=2 861.75 BYN term=UBER>Amsterdam                        NL
+
+-----EXAMPLE-----
+*0232 28.12.2020 16:52:05 покупка сумма=2 541.5 BYN ост=883.15 USD терм=PT ONLAJN-GIPERMARKET 21 VE>MINSK     BY

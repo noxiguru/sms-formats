@@ -1,0 +1,7 @@
+^.*?opolnenie.*?([\d.]{5}).*Karta.*(\d{4})\s+Summa.?\s*([\d\s.,]*\d)\s*([A-Z]{3}).*Balans.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+!popolnenie! Data:14.10 19:32 Karta:****-0152 Summa= 12,712.21UAH Balans= 16139.96UAH

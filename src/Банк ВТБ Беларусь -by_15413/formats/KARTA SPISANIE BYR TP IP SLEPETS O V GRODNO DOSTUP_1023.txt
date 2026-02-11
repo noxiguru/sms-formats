@@ -1,0 +1,7 @@
+^.*(\d{4}) ([\d/]{8}).*SPISANIE ([\d\s.,]*\d) ([A-Z]{3}). (.*). DOSTUPNO ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+KARTA 4*3260 24/10/13 13:29, SPISANIE 39900.00 BYR, TP / IP SLEPETS O.V. GRODNO, DOSTUPNO 1905144.00 BYR

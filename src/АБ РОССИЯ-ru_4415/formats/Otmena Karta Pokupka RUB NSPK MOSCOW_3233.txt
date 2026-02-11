@@ -1,0 +1,7 @@
+^Otmena.*([\d.]{8}).*(?:арта|arta).*(\d{4})\s+.(?:окупк|okupk)(?!.*оступ|.*ostup).*?([\d\s.,]*\d)\s*([А-ЯA-Z]{3})\s+(.+)
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+Otmena 09:37 04.10.17 Karta **1226 Pokupka 1.00 RUB NSPK MOSCOW

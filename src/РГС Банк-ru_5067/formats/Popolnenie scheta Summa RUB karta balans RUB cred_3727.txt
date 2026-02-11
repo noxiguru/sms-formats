@@ -1,0 +1,7 @@
+^Popoln.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3})\S([\d.]{8}) .*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yy;syncid;av_balance
+
+-----EXAMPLE-----
+Popolnenie scheta. Summa:7633.69RUB,31.05.18 10:18.karta****9344.balans 110010.35 RUB, cred. limit: 0.00

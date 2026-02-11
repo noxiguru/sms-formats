@@ -1,0 +1,7 @@
+^Плат.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? в (.*?)\. .арт.*?(\d{4}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+Платёж 862.9 р. в MAGNIT MK SIKVEL. Карта *5160. Доступно 9 478.45 р.

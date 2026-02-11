@@ -1,0 +1,7 @@
+^.*onvertacia\s+iur.*?anxa.*?([A-Z]{3})\s*([\d\s.,]*\d).*?ngarish.*?(\d{4})[A-Z]{3}\s+.akidi.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+.*(kurs.*?)\s+.arigi.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+acc_instrument;outcome;syncid;instrument;op_outcome;comment;date#dMy
+
+-----EXAMPLE-----
+sakartvelos banki: konvertacia iuridiuli piri: im evgenii troickii, 302216331 gakiduli tanxa: EUR3.60 angarishidan: GE11BG1234567890EUR nakidi tanxa: GEL10.01 angarishze: GE11BG1234567890GEL kursi: 2.7800 tarigi: 05/10/2023

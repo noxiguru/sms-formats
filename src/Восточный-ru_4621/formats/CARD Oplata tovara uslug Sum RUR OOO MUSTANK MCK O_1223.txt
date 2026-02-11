@@ -1,0 +1,10 @@
+^.*?(\d{4}).\s+(?:Oplata tov|Pokupka|Uniq).*Sum.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+([\d-]{10}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+CARD: 3939. Oplata tovara/uslug.  Sum: 692.00 RUR OOO MUSTANK  2014-04-12 11:03:06 (MCK). Ostatok na karte:2 316.91 RUR.
+
+-----EXAMPLE-----
+CARD: 9555. Unique. Sum: 218.00 RUR YANDEX.MONEY 2017-01-16 18:41:09 (MCK) Ostatok:327.70 RUR.

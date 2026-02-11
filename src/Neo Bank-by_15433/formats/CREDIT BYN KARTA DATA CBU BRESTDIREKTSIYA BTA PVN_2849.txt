@@ -1,0 +1,7 @@
+^CREDIT([\d\s.,]*\d)\s*([A-Z]{3}) KART.*?(\d{4}) .* ([\d.]{10}) .*OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+CREDIT 180.00 BYN KARTA #2652 DATA 17.01.2017 13:07:50 CBU BRESTDIREKTSIYA BTA PVN>BREST>BY OSTATOK 5200.80 BYN

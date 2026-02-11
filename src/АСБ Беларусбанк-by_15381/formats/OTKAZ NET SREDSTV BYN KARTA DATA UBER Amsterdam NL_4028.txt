@@ -1,0 +1,7 @@
+^.*OTKAZ.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+OTKAZ (NET SREDSTV) 4.20 BYN KARTA #3583 DATA 20.03.2019 02:35:01 UBER>Amsterdam>NL

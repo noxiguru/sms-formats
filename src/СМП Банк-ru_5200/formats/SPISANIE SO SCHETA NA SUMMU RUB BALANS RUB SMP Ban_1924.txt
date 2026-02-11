@@ -1,0 +1,7 @@
+^.*?([\d.]{8})\s+SPISA.*?([\d\s.,]*\d)\s*([A-Z]{3}).*BALANS.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+12:47 07.08.15 SPISANIE SO SCHETA NA SUMMU 28000.00 RUB BALANS: 400.00 RUB. SMP Bank, tel. 8-800-555-2-555

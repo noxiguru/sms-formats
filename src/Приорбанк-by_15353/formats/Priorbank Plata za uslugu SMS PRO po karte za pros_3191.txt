@@ -1,0 +1,7 @@
+^.*(Plata za.*?) po .*?\*(\d{4}).*=([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument
+
+-----EXAMPLE-----
+Priorbank. Plata za uslugu SMS.PRO po karte 5***0202 za proshlyi mesyac = 1,5 BYN. Spravka 80172899292

@@ -1,0 +1,10 @@
+^([\d.]{8}) .*(?:ebit|eposit).*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+26.12.19 04:06 Debit from iBank BANK SOYUZ, RUS card ***2614. Amount:13753.00RUB. Balance:0.40RUB.
+
+-----EXAMPLE-----
+25.05.20 15:47 Electronic Cash Deposit ***1090. Amount:1000.00RUB. Balance: 20694.89RUB.

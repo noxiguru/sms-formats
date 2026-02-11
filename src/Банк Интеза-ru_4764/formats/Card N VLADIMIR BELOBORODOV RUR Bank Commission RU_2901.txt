@@ -1,0 +1,10 @@
+^.*?(\d{4}).*?([\d-]{10})\s+[\d:]+\s+-\s+([\d\s.,]*\d)\s*([A-Z]{3}).*ommiss.*?([\d\s.,]*\d).*ransact.*? OK\s+(.*)\s+.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;fee;payee;av_balance
+
+-----EXAMPLE-----
+Card N**0297 VLADIMIR BELOBORODOV 2014-02-19 08:44:32  -  55 275.00 RUR Bank Commission 0.00 RUR Card Transaction Status: OK DEBIT Balance: 1 336.77
+
+-----EXAMPLE-----
+Card N **2314  NIKITA LEONENKO 2017-03-08 02:27:22  -  20.18  RUR  Bank Commission 0.00 RUR  Card Transaction Status: OK PAYPAL *GOOGLE  Balance: 169.43

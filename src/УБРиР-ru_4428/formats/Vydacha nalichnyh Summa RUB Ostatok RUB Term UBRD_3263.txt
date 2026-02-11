@@ -1,0 +1,7 @@
+^(Vydacha\s+nal.*?)\s+[\d*]*?(\d{4})\s+.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Vydacha nalichnyh  4301****8049  Summa: 15000.00 RUB  Ostatok: 3794.66 RUB  Term: UBRD  02.11.17 20:37

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*?(?:pisan|писан).*?([\d\s.,]*\d)\s*([а-яА-ЯA-Z]{3}).*(?:omiss|омисс).*?([\d\s.,]*\d).*(?:alan|алан).*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;fee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Карта *9521. Списано 150.00 RUR. C2C R-ONLINE VISA. Komissiya 50.00 RUR. Balans 20065.03 RUR. 28.01.2019

@@ -1,0 +1,10 @@
+^.*?окупк.*\*(\d{4})\.([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*)\..*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Покупка. Карта *3715. 28.00 USD. ATLASSIAN. Доступно 50948.41 RUB.
+
+-----EXAMPLE-----
+Покупка. Карта *9396. 297 RUB. YANDEX.TAXI. Доступно 329775.38 RUB.

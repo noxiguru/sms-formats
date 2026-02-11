@@ -1,0 +1,7 @@
+^.*?(\d{4})\.?\s*Uniq.*?([\d\s.,]*\d)([A-Z]{3}).*arezerv.*([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *7479. Unique 371.22RUR. MOSCOW, TINKOFF BANK CARD2CARD. Zarezervirovano 371.22RUR. 2016-09-09 19:18:38. Dostupno 78195.73RUR.

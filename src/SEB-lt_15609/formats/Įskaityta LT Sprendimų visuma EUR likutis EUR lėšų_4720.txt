@@ -1,0 +1,7 @@
+^.*skaity.*?(\d{4}).*\+([\d\s.,]*\d)\s*([A-Z]{3}).*ikut.*?(-?[\d\s.,]*\d).*\((\d{2}[-./]\d{2}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dM
+
+-----EXAMPLE-----
+Įskaityta LT1234567890, Sprendimų visuma, +10.00 EUR, likutis: 12.10 EUR (18/06 16:16:34), lėšų pervedimas steigėjui.

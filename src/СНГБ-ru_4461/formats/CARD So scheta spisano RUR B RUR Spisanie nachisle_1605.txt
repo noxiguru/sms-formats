@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*?(\d{4}).\s.*(?:spisano|списан).*<([A-Z]{3})\s*([\d\s.,]*\d)>\s+B<([A-Z]{3})\s*(-?[\d\s.,]*\d)>\s+(.*?)\.?(?:\s+║\s+.*)?$
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;outcome;acc_instrument;av_balance;comment
+
+-----EXAMPLE-----
+27.02.2015 20:15 CARD7810: So scheta spisano <RUR 19.42> B<RUR 0.00> Spisanie nachislennoj komissii za uslugu SMS-Bank soglasno Tarifu ZAO SNGB i Dogovoru VE
+
+-----EXAMPLE-----
+06.09.2022 11:43 CARD3217: Со счета списано <RUR 300.00> B<RUR 64,781.62> Оплата за сотовую связь Теле-2, номер 9044655938. НДС - 0. ║ Cписано 300.00 ₽

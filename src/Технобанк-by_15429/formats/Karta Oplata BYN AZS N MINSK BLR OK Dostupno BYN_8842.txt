@@ -1,0 +1,7 @@
+Karta\s+\d+\.(\d{4})\s+(\d{2}\.\d{2}\.\d{4})\s+\d{2}:\d{2}:\d{2}\s+Oplata\s+-([0-9][\d\s.,]*\d)\s+([A-Za-z]{1,3})\s+(.*?)\.?\s+Dostupno\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s+([A-Za-z]{1,3})
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 4.8773 08.05.2025 09:04:22 Oplata -5.50  BYN AZS N15 MINSK BLR OK. Dostupno 8399.91 BYN

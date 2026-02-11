@@ -1,0 +1,7 @@
+^Оплат.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Оплатили 200RUB. ROSBANK. Карта *7279. Баланс 65455.1RUB ║ ROSBANK Online

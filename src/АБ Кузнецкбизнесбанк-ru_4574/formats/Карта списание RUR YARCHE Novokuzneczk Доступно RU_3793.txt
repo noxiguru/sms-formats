@@ -1,0 +1,7 @@
+^.*\*(\d{4}).* ([\d.]{10}) .*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}),?\s+(.*?)\..*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта *8094: 19.07.2018 13:46, списание 752.50 RUR, YARCHE, Novokuzneczk. Доступно 1129.84 RUR.

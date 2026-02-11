@@ -1,0 +1,7 @@
+^−([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W) с ком.*?([\d\s.,]*\d)\s*(?:[а-яa-zA-Z]{1,3}|\W) в .*еперь.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W) ║ Снял.*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;fee;av_balance;acc_instrument;syncid#cash
+
+-----EXAMPLE-----
+− 9 000.00 ₽ с комиссией  100.00 ₽ в MOB2 ATM UL. MARKSISTS. Теперь на карте 15 458.61 ₽ ║ Сняли наличные с карты *5966

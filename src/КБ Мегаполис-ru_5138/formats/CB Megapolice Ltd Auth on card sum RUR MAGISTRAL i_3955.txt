@@ -1,0 +1,7 @@
+^.*Auth(?!.*ATM).*\*(\d{4})\s+([\d./-]{10}).*sum.*?([\d\s.,]*\d)\s*([A-Z]{3});\s*(.*?);.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+CB Megapolice Ltd. Auth on card 5485***8304 2018-10-09 11:27:37 sum 74.00 RUR; MAGISTRAL in MOSCOW, RUS; Ostatok 10.22 RUR

@@ -1,0 +1,7 @@
+^(Salary).*?X(\d{4})\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;instrument;income;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Salary Credit Account XXXX1234 AED 12345.67 25/01/21 Available Balance AED 12345.67

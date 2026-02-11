@@ -1,0 +1,10 @@
+^([\d/]{5}).*\*(\d{4})\s+(?:Term|Терм).*?:\s+(.+)\s+(?:Sum|Сум).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:Usp|Усп).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+20/10 18:57 Karta: *7300 Terminal: 1234567890 IPAYUA-KIDS Summa: 196.38 UAH Uspeshno Dostupno: 9324.23 UAH
+
+-----EXAMPLE-----
+09/03 19:24 Карта: *7032 Терм: PR494 Сумма:  346.5 UAH Успешно Доступно: 57.88 UAH

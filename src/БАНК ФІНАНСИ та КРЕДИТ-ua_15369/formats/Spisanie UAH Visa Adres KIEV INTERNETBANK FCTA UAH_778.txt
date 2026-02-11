@@ -1,0 +1,7 @@
+^Spisanie -([\d.]+) ([A-Z]{3}).*?\*(\d{4})#Adres=(.*?)#Data=([\d-]{10}).*?Ostatok=([\d.]+)
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Spisanie -725.00 UAH#Visa *5963#Adres=KIEV INTERNETBANK FCTA UAH#Data=2013-04-20 02:02:52#Ostatok=1.37

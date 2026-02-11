@@ -1,0 +1,7 @@
+^.*?KARTA\((\d{4})\)\*([\d.]{8})[^*]+\*([\d\s.,]*\d) ([A-Z]{3})\*([^*]+)\*DOSTUPNO:([\d\s.,]+)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+SBB*KARTA(4018)*27.06.13 11:05*128 RUR*STOLOVAYA ZDANIYA 16/BURNAKOVSKII PR-D 1*DOSTUPNO:31927.93

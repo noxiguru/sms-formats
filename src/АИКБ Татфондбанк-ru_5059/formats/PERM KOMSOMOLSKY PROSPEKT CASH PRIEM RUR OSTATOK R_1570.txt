@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{8}).*CASH (?:PRIEM|VNESENIE).*?(\d[\d\s.,]*) ([A-Z]{3}) (?:OSTATOK|BALANCE).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+4172***8913 09.02.15 06:51 PERM, KOMSOMOLSKY PROSPEKT  CASH PRIEM: 7000.00 RUR OSTATOK:7783.17 RUR

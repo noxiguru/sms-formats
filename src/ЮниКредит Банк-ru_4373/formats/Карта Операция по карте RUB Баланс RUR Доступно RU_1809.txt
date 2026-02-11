@@ -1,0 +1,16 @@
+^.*(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:п[еe][рp][аa]ц|еревод|perac|erevod).*?([\d\s.,]*\d)\s*([A-ZА-Я]{3}).*(?:[оo][сc]т[уy]|[аa]л[аa]н|ostu|alan).*?(-?[\d\s.,]*\d)\s*([A-ZА-Я]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта 9835 09.06.2015 03:45 Операция по карте 100.00 RUB. Баланс: 4489.79 RUR. Доступно: 4489.79 RUR. UniCredit Bank RU
+
+-----EXAMPLE-----
+Карта 3567 28.04.2016 17:42 Перевод средств 5000.00 RUB. Доступно: 12168.57 RUR TINKOFF BANK CARD2CARD Visa Direct
+
+-----EXAMPLE-----
+Karta 7445 15.05.2020 11:57 Operaciya v Banke 40000.00 RUB. Dostupno: 33442.66 RUB
+
+-----EXAMPLE-----
+Kарта 2622 01.02.2021 13:23 Опeрация в Бaнкe 1350.00 RUВ. Дoстyпнo: 4454.08 RUВ

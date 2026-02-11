@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*(?:pisan|писан).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*?)\.?\s+.(?:ostu|alan|осту|алан).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *1234. Spisano 209.00 RUB Samara KARUSEL. Balans: 11 256.00 RUB

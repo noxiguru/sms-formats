@@ -1,0 +1,10 @@
+^(?:Ganag|Cash\s+o).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*(?:ashti|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Ganagdeba: 500.00 USD       Baratis N ****9018 ATM Credo 8401 (batumi 5)>Batumi      GE Nashti: 4641.46 GEL       15/09/2022 15:14:10
+
+-----EXAMPLE-----
+Cash out: 10200.00 INR       Card N ****9018 Anjuna Centre Goa>a          GA       IN Balance: 1877.55 GEL       24/12/2022 12:12:16

@@ -1,0 +1,7 @@
+^.*credit\s+(refun.*?)\s+of\s+amoun.*?([A-Z]{2,3})\s*([\d\s.,]*\d)\s+is\s+not.*?erchant\s+(.*?)\s+and\s+will.*
+
+-----COLUMNS-----
+comment;instrument;income;payee
+
+-----EXAMPLE-----
+Dear Cardholder, a credit refund of amount of AED 151.50 is notified by merchant THE PET SHOP LLC, Dubai and will be processed upon validation & receiving confirmation.

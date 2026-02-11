@@ -1,0 +1,7 @@
+^\*(\d{4}).*okupka.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stato.*?(-?[\d\s.,]*\d).*?;\s+(.+?);\s*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+*8758; Pokupka: 100.00RUR; Ostatok: 1304.98RUR; YM *YOTA, Moscow; 02.09.2015 12:22; Tel 88002001070

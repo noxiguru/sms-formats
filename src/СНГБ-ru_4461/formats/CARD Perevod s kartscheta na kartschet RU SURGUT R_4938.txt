@@ -1,0 +1,19 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]+\s+\w+(\d{4})\D?\s+((?:За\s+кред|Za\s+kred|Перевод\s+с|Perevod\s+s).*?)\s+<?([A-Z]{3})\s*([\d\s.,]*\d).*(?:B<|(?:[Бб]алан|[Bb]alan).*?)([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;comment;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+27.11.2014 15:10 CARD7711: Perevod s kartscheta na kartschet RU SURGUT <RUR 123.00> B<RUR 3,599.11>.
+
+-----EXAMPLE-----
+18.07.2016 21:20 CARD9712: Za kredit vneseno <RUR 27,260.83> B<RUR 115,796.50> RU SURGUT.
+
+-----EXAMPLE-----
+20.01.2021 21:37 CARD8821: За кредит внесено <RUR 2,900.00> B<RUR 95,610.46> SURGUT ║ Кредит 2,900.00 ₽
+
+-----EXAMPLE-----
+20.12.2024 11:35 CARD8510: Za kredit vneseno RUR 10,832.55 SURGUT Balans: RUR 171,733.73
+
+-----EXAMPLE-----
+17.01.2025 11:41 CARD9618: За кредит внесено RUR 8,238.13 SURGUT Баланс: RUR 8,819.18 ║ Кредит 8,238.13 ₽

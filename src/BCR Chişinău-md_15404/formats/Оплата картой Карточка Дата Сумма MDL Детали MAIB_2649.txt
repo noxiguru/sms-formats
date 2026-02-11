@@ -1,0 +1,10 @@
+^.*?(?:плата кар|chitare car).*?(\d{4}) .*([\d.]{10}).*(?:умм|uma).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:етали|etalii):\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;comment
+
+-----EXAMPLE-----
+Оплата картой Карточка: 4600...3819 Дата:     19.09.2016 18:01 Сумма:  326.79 MDL Детали: MAIB FARMACIA FAMILIEI
+
+-----EXAMPLE-----
+BCR Chisinau S.A. Achitare card Card: 5398...5235 Data:    28.09.2017 19:21 Suma:  114.57 MDL Sold: 6212.59 MDL Detalii: Cvin (Culinarie 3)

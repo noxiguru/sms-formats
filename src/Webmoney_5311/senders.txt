@@ -1,0 +1,2 @@
+webmoney
+com.webmoney.my

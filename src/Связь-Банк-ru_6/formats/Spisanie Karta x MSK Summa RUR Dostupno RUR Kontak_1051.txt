@@ -1,0 +1,10 @@
+^(?:Spisanie|Списание).*?x(\d{4}).*?([\d.]{10}).*?(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:ostup|оступ).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Spisanie Karta 5x0053 12.11.2013 12:44 MSK Summa 140000,00 RUR Dostupno 1581,61 RUR Kontakt-czentr +74955800080
+
+-----EXAMPLE-----
+Списание Карты 4x0163, 3x4203 31.05.2016 10:08 МСК Сумма 20714,57 RUR Доступно 99,30 RUR ; Контакт-центр +74955800080

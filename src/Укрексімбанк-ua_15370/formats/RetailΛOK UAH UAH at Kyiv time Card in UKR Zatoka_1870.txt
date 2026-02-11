@@ -1,0 +1,7 @@
+^Retail.*OK.*?([\d\s.,]*\d)\s*([A-Z]{3})\s*=\s*([\d\s.,]*\d).*at.*([\d-]{10}).*\*(\d{4})\s+in\s+(.*)
+
+-----COLUMNS-----
+outcome;instrument;av_balance;date#yyyy-MM-dd;syncid;payee
+
+-----EXAMPLE-----
+RetailΛOK 64.98 UAH = 1 598.07  UAH  at Kyiv time 2015-07-08 20:47:04 Card=4**4609 in UKR Zatoka (MagazinProdukti)

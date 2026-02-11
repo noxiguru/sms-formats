@@ -1,0 +1,10 @@
+^\*(\d{4}).*(?:pisan|писан).*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*((?:oplat.*?uslug|оплат.*?услуг).*?".*?").*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment
+
+-----EXAMPLE-----
+*5827; Spisanie 70 RUR, oplata uslugi "% na ostatok". Podrobnо na http://mykykyryza.ru/tarif
+
+-----EXAMPLE-----
+*4617; Списание 70р, оплата услуги "% на остаток": mykykyryza.ru/tarif

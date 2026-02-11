@@ -1,0 +1,7 @@
+^.pisanie\s+per.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+spisanie perevoda 30 BYN Spisanie s perechisleniem na drugoy schet>SOA BNB>BLR; MCC 6012'; '17/09/2024; Dostupno: 32.26 BYN

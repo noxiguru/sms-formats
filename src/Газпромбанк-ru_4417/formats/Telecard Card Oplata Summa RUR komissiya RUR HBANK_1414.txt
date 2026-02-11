@@ -1,0 +1,7 @@
+^.*?(\d{4});\s+(?:Oplata|Predauth|Platezh)[^;]*;\s+Summa\s+([\d\s.,]*\d)\s+([A-Z]{3}).*komis.*?([\d\s.,]*\d).*([\d.]{8})[^;]*;\s+(.*);\s+dostupno.\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;fee;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+Telecard; Card0210; Oplata; Summa 6500 RUR; komissiya: 19.5 RUR; 30.10.14 19:18:20; HBANK PEREVOD SCHET; dostupno: 112114.67 RUR

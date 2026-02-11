@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:erevod s|dvance).*?(\d{4})\D? (?:.moun.*?)?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+09.01.17 20:44 Perevod s karty 7719, 2000.00RUB, Rocketbank.ru Card2Card, RU. Balans 26299.49RUB
+
+-----EXAMPLE-----
+25.05.20 15:56 Electronic Cash Advance ***2614. Amount:19040.81RUB. Balance:28753.00RUB.

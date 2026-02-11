@@ -1,0 +1,7 @@
+^.*?(\d{4}). ([\d.]{8}).*писано ([\d\s.,]*\d) \(([A-Z]{3})\) (.*). Баланс.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта *5411: 31.10.2014 15:09. Списано 119.00 (RUB) RU/KURSKW/CHAYNAYA LOZHKA. Баланс: 11295.21 (RUB).

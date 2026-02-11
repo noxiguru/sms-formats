@@ -1,0 +1,7 @@
+^Платеж\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(по\s+кредит.*?)\s+\*(\d{4})\s+отправ.*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;date#dMy
+
+-----EXAMPLE-----
+Платеж 78 427 KZT по кредиту *7195 отправлен. 14/10/2024 12:39:18 ║ Home Credit Kazakhstan

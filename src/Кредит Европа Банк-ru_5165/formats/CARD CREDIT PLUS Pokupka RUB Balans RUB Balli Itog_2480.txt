@@ -1,0 +1,7 @@
+^.*#\s*(\d{4}).*okupk.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*MCC\s*\d{4}\s+(.*?)\s+([\d/]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#dd/MM/yy
+
+-----EXAMPLE-----
+CARD CREDIT PLUS #4186 Pokupka: 27.00RUB Balans: 75172.10RUB Balli: 1.35 Itogo balli: 169.75BB MCC5462 FRANCUZSKIJ BAGET   VOLZHSKIY 14/12/18 13:34

@@ -1,0 +1,10 @@
+^((?:Vozvr|Otmen).*?)\W? ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) (.+) .ard.*?(\d{4}) BAL.*?(-?[\d\s.,]*\d) (\d{4}[-]\d{2}[-]\d{2}) .*
+
+-----COLUMNS-----
+comment;income;instrument;payee;syncid;av_balance;date#yMd
+
+-----EXAMPLE-----
+Vozvrat Pokupki 1 597.60 RUR WWW.RZD.RU Card **9574 BAL: 47 726.38 2020-03-20 13:35:34
+
+-----EXAMPLE-----
+Otmena operatsii: 105.00 RUR taximaxim.ru UL UNIVER Card **0820 BAL: 9 283.96 2022-02-24 10:55:20

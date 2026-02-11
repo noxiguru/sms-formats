@@ -1,0 +1,7 @@
+^Рег.*окупка.*(\d{4}).*умма\s*([\d\s.,]*\d)\s*([A-Z]{3}).\s+(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Регулярная покупка. Карта *9604. Сумма 200.00 RUB. MTS-RECURRING PH

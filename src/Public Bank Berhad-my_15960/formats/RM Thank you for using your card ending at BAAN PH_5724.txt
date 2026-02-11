@@ -1,0 +1,7 @@
+^([A-Z]{2,3}|\W)\s*([\d\s.,]*\d).*ending (\d{4}) at (.*?)\s+([A-Z]{2,3}|\W)\s*([\d\s.,]*\d) (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+acc_instrument;fee;syncid;payee;instrument;outcome;date#dMy
+
+-----EXAMPLE-----
+RM0 Thank you for using your card ending 6902 at BAAN PHADTHAI KUALA LUMPUR RM40.60 11/04/23 18:26:12. Pls contact Public Bank if you didn't use it.

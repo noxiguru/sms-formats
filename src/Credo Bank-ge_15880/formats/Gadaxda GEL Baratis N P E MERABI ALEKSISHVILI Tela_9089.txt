@@ -1,0 +1,7 @@
+^Gadaxda\s*:\s*([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3})\s+Baratis\s+N\s+\*{4}(\d{4})(\s+P\/E.*?GE)\s{2,}(\d{2}\/\d{2}\/\d{4})\s+\d{2}:\d{2}:\d{2}\s+Nashti ixilet MyCredo-shi:.*$
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Gadaxda : 15.00 GEL       Baratis N ****5988 P/E MERABI ALEKSISHVILI>Telavi        GE  15/06/2025 13:10:20 Nashti ixilet MyCredo-shi: https://mycredo.page.link/Pdkp

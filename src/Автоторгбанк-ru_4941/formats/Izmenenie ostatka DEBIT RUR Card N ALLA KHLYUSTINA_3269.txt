@@ -1,0 +1,7 @@
+^.*(?:DEBIT).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: DEBIT 39.40 RUR Card_N **0355 ALLA KHLYUSTINA BAL: 32 122.08 2017-10-16 14:46:09

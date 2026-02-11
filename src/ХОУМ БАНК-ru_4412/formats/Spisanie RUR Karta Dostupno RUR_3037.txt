@@ -1,0 +1,7 @@
+^Spisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})[.\s+]+.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Spisanie: 10800.00 RUR. Karta *3527.Dostupno: 34670.23 RUR.

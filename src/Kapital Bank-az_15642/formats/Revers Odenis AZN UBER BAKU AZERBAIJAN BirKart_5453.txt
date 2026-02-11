@@ -1,0 +1,10 @@
+^"?(Revers).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+\d{4}\*+(\d{4})\s+[\d:]{5,}\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;syncid;date#dMy
+
+-----EXAMPLE-----
+"Revers" Odenis 1.50 AZN UBER BAKU AZERBAIJAN 4169**9957  11:18 15.03.20 BirKart
+
+-----EXAMPLE-----
+"Revers" Pre-purchase 2.44 AZN 1234567890 Tallinn ESTONIA 4169**3571 14:03 07.10.22

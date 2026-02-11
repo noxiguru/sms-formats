@@ -1,0 +1,7 @@
+^.*?tmenena op.*okupka.*?\s([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{10}).*Karta .?(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yyyy;syncid
+
+-----EXAMPLE-----
+Bank "Transportny" Otmenena operacija Pokupka 0.37 RUR 20.12.2014 21:37:38 TCS BANK CARD2CARD Karta *6128 +7(495) 646-52-32

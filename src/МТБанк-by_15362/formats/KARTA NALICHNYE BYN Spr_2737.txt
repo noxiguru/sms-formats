@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).([\d/]{8}).*?NALICHNYE ([\d\s.,]*\d) ([A-Z]{3})(?!.*OST).*
+
+-----COLUMNS-----
+syncid#cash;date#dd/MM/yy;outcome;instrument
+
+-----EXAMPLE-----
+KARTA:4177*4936 22/11/16 08:51 NALICHNYE 30.00 BYN 411739 Spr.:5099999

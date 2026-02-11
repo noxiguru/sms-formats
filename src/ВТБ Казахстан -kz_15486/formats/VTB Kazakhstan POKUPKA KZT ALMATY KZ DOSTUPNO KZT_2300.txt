@@ -1,0 +1,16 @@
+^.*\*(\d{4})\s+([\d.]{8}) .*(?:POKUPKA|SPISAN|BRONIR).*?([\d\s.,]*\d)\s*([A-Z]{3}).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VTB Kazakhstan 4**5409 26.03.16 17:53 POKUPKA 2,025.00 KZT  (ALMATY,KZ) DOSTUPNO: 2,578.03 KZT
+
+-----EXAMPLE-----
+VTB Kazakhstan 4**5409 30.03.16 14:48 SPISANIE 100,000.00 KZT 28V, TIMIRYAZEVA (G.ALMATY,KZ) DOSTUPNO: 72,264.44 KZT
+
+-----EXAMPLE-----
+VTB Kazakhstan 4**0536 06.08.18 17:17 SPISANIE 65,788.09 KZT DOSTUPNO: 0.00 KZT
+
+-----EXAMPLE-----
+VTB Kazakhstan 4**0352 11.09.18 19:42 BRONIROVANIE 747.60 RUB ROBOKASSA INTERNET (ROBOKASSA.RU,RU) DOSTUPNO: 17,460.34 KZT

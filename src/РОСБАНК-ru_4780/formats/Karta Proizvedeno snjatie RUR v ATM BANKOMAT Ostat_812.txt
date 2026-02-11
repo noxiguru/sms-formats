@@ -1,0 +1,16 @@
+^.*?(\d{4})(?!.*(?:pisan|писан))\..*(?:sn.?atie|снятие|vydacha\s+n|выдача\s+н).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:stat|стат).*?([-\d\s.,]*\d).*\D([\d/.-]{8})(?:\D.*|$)
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd/MM/yy
+
+-----EXAMPLE-----
+Karta **0817.Proizvedeno snjatie 2000.00 RUR v ATM. BANKOMAT 345353 9070. Ostatok: 28306.97 RUR. 15/05/13,07:45:50.
+
+-----EXAMPLE-----
+Karta **5797.Provedena vydacha nalichnyh na summu 5000.00 RUR.OPERKASSA 1 NORILSK.Ostatok: 35403.62 RUR.27/01/16.
+
+-----EXAMPLE-----
+Карта **6222.Произведено снятие 200.00 EUR в АТМ. RAIBA OBERDRAUTAL-WEIS. Остаток: 95720.64 RUR. 02/06/18.
+
+-----EXAMPLE-----
+Karta **3841.Proizvedeno snjatie 3000.00 RUB v ATM. SHOLOM-ALEYHEMA 72. Ostatok: 52887.55 RUR v tom chisle kreditny limit 40000.00 24.05.19

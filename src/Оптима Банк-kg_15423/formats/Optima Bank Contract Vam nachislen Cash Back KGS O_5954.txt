@@ -1,0 +1,7 @@
+^.*\*\d*(\d{4}),\s+([\d]{4}-\d{2}-\d{2}).*achisl.*(Cash-Back),\s+([\d\s.,]*\d),?\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yMd;comment;income;instrument
+
+-----EXAMPLE-----
+Optima Bank: Contract 1090*******58254, 2023-09-01 03:24:18, Vam nachislen Cash-Back, 121.66, KGS ║ OptimaBank

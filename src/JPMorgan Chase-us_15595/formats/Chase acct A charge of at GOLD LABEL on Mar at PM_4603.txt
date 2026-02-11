@@ -1,0 +1,7 @@
+^.*[Aa]cc.*?(\d{4})\D.*harge.*?(\S+?)\s*([\d\s.,]*\d).* on (\w{3} \d{1,2},? \d{2,4}) at .*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#Mdy
+
+-----EXAMPLE-----
+Chase acct 9093: A charge of $82.95 at GOLD LABEL on Mar 29, 2020 at 12:00 PM ET is greater than your $3.00 limit in your Alerts settings.

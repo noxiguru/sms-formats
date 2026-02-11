@@ -1,0 +1,7 @@
+^\w+(\d{4}) .*(?:okup|окуп).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) (?!Bal|Бал)(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+MC3378 20:36 pokupka 300r Megafon

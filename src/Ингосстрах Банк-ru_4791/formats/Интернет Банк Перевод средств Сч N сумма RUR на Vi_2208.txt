@@ -1,0 +1,19 @@
+^.*(?:еревод|erevod|vtoplat).*?\.(\d{3,4}).*((?:на|na)\s+.*?\d{3,4}), (?:сумм|summ).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Интернет Банк. Перевод средств Сч.N 42307...175, сумма 10,000.00 RUR, на Visa Classic 4337...5016, сумма 10,000.00 RUR. Баланс: 30,045.73.
+
+-----EXAMPLE-----
+IBANK Perevod Visa Classic 4337...5016 na Visa Classic 4337...1013, summa 154.60RUR, po kursu 77.30. Balans 2,248.58RUR
+
+-----EXAMPLE-----
+IBANK Перевод Visa Classic 4343...7719 на EC/MC Mass 5181...5295, сумма 1,000.00RUR. Баланс 1,207.76RUR
+
+-----EXAMPLE-----
+IBANK Perevod Sch.N 42301...094 na EC/MC Platinum 5310...6665, summa 10,765.00RUR. Balans 20,000.00RUR
+
+-----EXAMPLE-----
+IBANK Avtoplatezh EC/MC Platinum 5310...6665 na Sch.N 40817...371, summa 5,000.00 RUR. Balans 1 RUR

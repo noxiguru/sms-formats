@@ -1,0 +1,10 @@
+^([\d-]{10})\s+[\d:]{8}\s+(.*?SMS.*?|.*?Fee.*?)\s+-([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{3,4}).*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;comment;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+2016-06-03 07:05:17 Client SMS Charge -300.00 KZT 4**386 Dostupnaya summa:591797.55 KZT
+
+-----EXAMPLE-----
+2016-07-25 06:48:17 Card Fee Yearly -25000.00 KZT 3**426 Dostupnaya summa:580624.62 KZT

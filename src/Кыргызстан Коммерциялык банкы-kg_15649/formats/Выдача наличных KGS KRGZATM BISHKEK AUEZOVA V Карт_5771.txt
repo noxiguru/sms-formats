@@ -1,0 +1,7 @@
+^Выдача н.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}) .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Выдача наличных: 5 000 KGS  KRGZATM229157, BISHKEK, AUEZOVA 3V Карта: *3337 Доступно: 38 653,73 KGS ║

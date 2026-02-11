@@ -1,0 +1,7 @@
+^.*using.*\*(\d{4})\s+for\s+([A-Z]{3}|\W)\s*([\d\s,]*\d\.\d{2})\d?\s+at\s+(.*?)\s+on\s+[\d:]{5,}\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Thank you for using your NBK Credit card 4285***4915 for BHD15.000 at MAN SPA-BAHRAIN on 12:11 15.08.23. Available Balance:BHD3,985.000. For enquiry, please call 17155555

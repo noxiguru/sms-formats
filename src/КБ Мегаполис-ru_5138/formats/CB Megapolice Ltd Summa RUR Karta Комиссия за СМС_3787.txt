@@ -1,0 +1,7 @@
+^.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\D?\s+(.омисс.*?), ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;comment;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+CB Megapolice Ltd. Summa 40.00 RUR. Karta  *8304, Комиссия за СМС, 31.01.20 00:00.  Ostatok 36.32 RUR

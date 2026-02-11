@@ -1,0 +1,13 @@
+^-([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*?)\s*.стат.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+-50.00 RUR  Остаток 123.00 RUR. Карта *1234
+
+-----EXAMPLE-----
+-50.00 RUR MAGAZIN Остаток 123.00 RUR. Карта *1234 ║ Ozon.Card
+
+-----EXAMPLE-----
+-66.95 р OZON.RU, ONLINE, OZON. Остаток 117.02 р. Карта *4443 ║ Ozon.Card

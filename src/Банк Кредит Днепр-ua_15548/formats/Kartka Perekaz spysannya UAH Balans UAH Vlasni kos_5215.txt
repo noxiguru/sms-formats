@@ -1,0 +1,7 @@
+^.*?(\d{4}) .*?erekaz sp.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*$
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Kartka ***6404 Perekaz spysannya 1800.00 UAH Balans 24552.23 UAH Vlasni koshty 24552.23 UAH 31.12.21 11:53 KDBEPAYBUS00001, KIEV, 32 ZHYLYZNSKA STR

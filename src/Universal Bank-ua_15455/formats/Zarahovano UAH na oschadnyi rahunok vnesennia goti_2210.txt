@@ -1,0 +1,9 @@
+^.*([\d/]{5}).*arahovano([\d\s.,]*\d)\s*([A-Z]{3}).*ahunok.*?(\d{4}).*vnesennia.*alans.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;income;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+02/02 14:12
+Zarahovano 100,000.00 UAH na oschadnyi rahunok *2874 (vnesennia gotivky)
+Balans: 200,358.11 UAH

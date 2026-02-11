@@ -1,0 +1,7 @@
+^.*purchase.*\s([A-Z]{3})\s+([\d\s.,]*\d).*?at\s+(.*?).\s+The\s+avail.*bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;payee;av_balance
+
+-----EXAMPLE-----
+You have made a purchase for AED 17.00 with your debit card at STARBUCKS - CC38-821022, DUBAI. The available balance of your account is AED 15,306.97.

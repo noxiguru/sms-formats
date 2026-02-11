@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8}) .*NALICH.*?([\d\s.,]*\d)\s*([A-Z]{3}).*KOMIS.*?.([\d\s.,]*\d).*OSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+CROCUS-BANK 4*7432 15.06.17 18:02 NALICHNYE 7,000.00 RUB (KOMISSIYA 0.00 RUB) 24 km. MKAD. 1 (MOSCOW,RU) DOSTUPNO: 38.15 RUB

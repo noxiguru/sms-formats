@@ -1,0 +1,7 @@
+^Покупка.*?(\d{4}) на.*?([\d\s.,]*\d)\s*(\S+) в (.*) в.*([\d.]{8}).*ста.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Покупка по карте 405234****3521 на сумму 110.00РУБ в SAN-KAFE KAZAN.RESTAURANT в 22:45 04.04.15, остаток 2 931.78 РУБ

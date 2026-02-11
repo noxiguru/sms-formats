@@ -1,0 +1,7 @@
+^(Возврат.*?)\s+по\s+карт.*?(\d{4})\s+из\s+(.*?)\s+на\s+сум.*?([\d\s.,]*\d)\s*([A-Z]{3}).*стат.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;payee;income;instrument;av_balance
+
+-----EXAMPLE-----
+Возврат покупки по карте *6543 из MAXIDOM N. NOVGOROD на сумму 499 RUB. Остаток: 46901.14 RUB.

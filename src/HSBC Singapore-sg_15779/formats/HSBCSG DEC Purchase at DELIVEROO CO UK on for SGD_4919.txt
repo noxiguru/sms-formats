@@ -1,0 +1,7 @@
+^.* (\d{2}\w{3}\d{2,4}) .*urchase at (.*?) on .*?(\d{4}) for ([A-Z]{3}|\W)\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;payee;syncid;instrument;outcome
+
+-----EXAMPLE-----
+HSBCSG: 18DEC2020 21:58 Purchase at DELIVEROO.CO.UK on *** 8911 for SGD 14.90. For assistance, please call us at +65-64722669

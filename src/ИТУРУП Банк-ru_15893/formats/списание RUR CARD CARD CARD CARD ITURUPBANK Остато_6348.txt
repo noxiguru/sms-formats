@@ -1,0 +1,7 @@
+^\*(\d{4})\s+списан.*?([\d\s.,]*\d)\s*([A-Z]{3}).*стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*0034 списание 7134.00 RUR CARD2CARD, CARD2CARD, ITURUPBANK. Остаток 1.00 RUR

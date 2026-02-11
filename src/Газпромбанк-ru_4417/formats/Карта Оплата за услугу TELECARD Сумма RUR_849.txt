@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).\s+([\d.]{10}).\s+(Оплата\s+за\s+услугу\s+[^;]*).*?(\d[\d\s.,]*)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;comment;outcome;instrument
+
+-----EXAMPLE-----
+Карта *7895; 31.05.2013; Оплата за услугу TELECARD; Сумма 50.00RUR.

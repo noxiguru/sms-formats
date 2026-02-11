@@ -1,0 +1,10 @@
+^.*\*\d*(\d{4})\D.*(?:pisan|писан).*?([\d\s.,]*\d)\s*([A-Z]{0,3}).*(?:олучат|oluchat)\w+\s+(.*?)\s+(?:счет|schet).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+So scheta *01129 spisano 490,00. Dok N90 ot 26.04.18 poluchatel AO "Alfa-Bank" schet *04298. Ostatok 1148,27
+
+-----EXAMPLE-----
+So scheta *01491 spisano 365,27. Dok №12290 ot 27.08.19 poluchatel АО "Альфа-Банк" schet *00017. Ostatok 16286,93

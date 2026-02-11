@@ -1,0 +1,7 @@
+^.*?(?:неш.*?еревод|nesh.*?erevod)([\d\s.,]*\d)\s*([А-ЯA-Z]{3})\s+(?!.*Na )(?:Со|So).*?\*\d*(\d{4})(?!.*(?:ostu|осту)).*
+
+-----COLUMNS-----
+outcome;instrument;syncid
+
+-----EXAMPLE-----
+i.abr.ru Ispolnena operatsiya Vneshniy perevod 900.00 RUB So scheta 40817***17246

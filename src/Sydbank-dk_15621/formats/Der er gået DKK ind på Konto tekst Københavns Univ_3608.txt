@@ -1,0 +1,7 @@
+^.*gået([\d\s.,]*\d)\s*([A-Z]{3}).*Konto.*?:\s+(.*?), ny saldo:\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Der er gået 34.298,00 DKK ind på 18-29 Konto, tekst: Københavns Universit, ny saldo: 34.248,00 DKK. Venlig hilsen Sydbank         Id:001P2103525

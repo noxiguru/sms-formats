@@ -1,0 +1,7 @@
+^.*?(\d{4})\D?\s+([\d.]{10}).*ydacha n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 8958: 01.04.2018 15:12 vydacha nalichnyh 1500.00 RUR, VB24, MOSKVA G, VB24 D. 102A, UL. LUBL. Balans 1544.61 RUR

@@ -1,0 +1,7 @@
+^Mebl.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+Odenis.*\*(\d{4}).*nvan:\s*(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Mebleg: - 12.72 AZN  Balans: 181.08 AZN Odenis: POS ***0193 Unvan: BRAVO 28 MALL, AZ 03.09.21 12:37

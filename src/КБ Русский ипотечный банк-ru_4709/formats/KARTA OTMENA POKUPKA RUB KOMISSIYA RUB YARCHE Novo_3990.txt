@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{8}).*(OTMENA).*?([\d\s.,]*\d)\s*([A-Z]{3}).*OMISS.*?([\d\s.,]*\d)\s*[A-Z]{3}\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;comment;income;instrument;fee;payee
+
+-----EXAMPLE-----
+KARTA *4417 26.10.18 14:27 OTMENA POKUPKA 38.90 RUB KOMISSIYA 0.00 RUB YARCHE (Novosibirsk,RU)

@@ -1,0 +1,7 @@
+^(?:Place|Uplata).*?_(\d{4})\s+/\s+(.*?)\s+/\s+.*?\s+/\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+/\s+Rasp.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Placeno kart.br. 487077_0926 / IONOS Inc. / 877-4612631 US / USD 5,00 / Raspolozivo: EUR 1.853,85

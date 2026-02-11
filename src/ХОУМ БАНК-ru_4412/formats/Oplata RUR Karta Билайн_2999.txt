@@ -1,0 +1,10 @@
+^(?:Oplata|Spisanie)(?!.*\d{2}:\d{2})(?!.*ostup).?\s+([\d\s.,]*\d)\s*([A-Z]{3})\..*?\*(\d{4})\.\s+(?:Perev.*?oluch.*?:\s+)?(.*?)(?:\.\s*$|$)
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee
+
+-----EXAMPLE-----
+Oplata: 100.00 RUR. Karta *0241. Билайн.
+
+-----EXAMPLE-----
+Spisanie: 5000.00 RUR. Karta *1705. Perevod poluchtelu: Sivceva Nina Semenovna.

@@ -1,0 +1,13 @@
+^.*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:писан|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3}),\s*(.*?),?\s*(\+\d.*?|)\. .(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *9566: 07.12.2020 16:12, списание 8138.00RUR, DETSKIY MIR, Pskov, +81.38ББ. Доступно 109035.79RUR, 1734.59ББ. Лимит кредита 116000.00 RUR. Остаток кредитного лимита 109035.79 RUR. Сумма задолженности 6964.21. RUR.  Справка: 7(495)7847373
+
+-----EXAMPLE-----
+Karta *9008: 23.03.2021 11:08, spisanie 384.83RUR, DIXY-50028, Balashikha, +3.85BB. Dostupno 109640.01RUR, 3109.56BB. Limit kredita 160000.00 RUR. Ostatok kreditnogo limita 109640.01 RUR. Summa zadoljennosti 50359.99. RUR. Spravka: 7(495)7847373
+
+-----EXAMPLE-----
+Karta *9566: 07.08.2021 07:48, spisanie 2066.64 RUR, WWW.ALIEXPRESS.COM, INTERNET. Dostupno 126202.96 RUR. Limit kredita 116000.00 RUR. Ostatok kreditnogo limita 116000.00 RUR. Summa zadoljennosti 0.00 RUR. Spravka: 7(495)7847373

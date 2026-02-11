@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}).*vida.*?nal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+15.01.18 03:25 Auth on card 5482***6105 vidacha nalichnix sum 35000.00 RUB atm 22000006 "NERYUNGRI, STR. RAZREZOVSKAIA 13 NERYUNGRI ATM, RUS" ostatok 4770.33 RUB

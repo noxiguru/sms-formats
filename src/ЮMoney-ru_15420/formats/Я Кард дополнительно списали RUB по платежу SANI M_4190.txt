@@ -1,0 +1,7 @@
+^(Я\.Кард|ЮCard).*?списа.*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}) по плат\w+\s+(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Я.Кард: дополнительно списали 6,66 RUB по платежу SANI MARKET

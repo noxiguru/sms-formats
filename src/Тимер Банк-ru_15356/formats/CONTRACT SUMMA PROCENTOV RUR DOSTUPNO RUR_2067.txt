@@ -1,0 +1,7 @@
+^([\d-]{10}).*?\*(\d{4})\s+SUMMA PROC.*?([\d\s.,]*\d)\s*([A-Z]{3})\sDOSTU.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+2015-10-30 15:08:24 CONTRACT 4226***6344 SUMMA PROCENTOV 7,54 RUR DOSTUPNO 9 396,57 RUR

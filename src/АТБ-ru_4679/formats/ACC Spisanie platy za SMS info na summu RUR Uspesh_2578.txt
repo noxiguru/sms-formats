@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{10}).*pisan.*?za\s+(.+?)\s+na sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*peshn.*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;comment;outcome;instrument
+
+-----EXAMPLE-----
+ACC: *1957 18.08.2016 01:32:50. Spisanie platy za SMS-info na summu 59.00 RUR. Uspeshno.

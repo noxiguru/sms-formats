@@ -1,0 +1,7 @@
+^OTMENA OP.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}) DATA ([\d.]{10})\s+[\d:]+\s+(?:ACODE \d+\s+)?(.*)\s+OSTA.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;comment;av_balance
+
+-----EXAMPLE-----
+OTMENA OPLATA 1.49 USD KARTA #9043 DATA 12.04.2017 23:59:08 ACODE 127873 GOOGLE *Zenmoney>g.co/payhelp>US OSTATOK 154.31 USD

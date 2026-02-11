@@ -1,0 +1,19 @@
+^.*(?:Оплата|Paid|Ai plăt\w+|Has\s+paga\w+|Du\s+hast)(?!.*║.*·\s+)\W?\s+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(?:\(|(?:at|в|la|en|bei)\s+)(?![\d\s.,]*\d\s*[A-Z]{3}).*(?:Balan|Балан|S[oa]ld|Guthab).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+║\s+(.*)
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+🛍 Оплата: 95,98 € в Sports Direct Баланс кошелька «EUR»: 128,83 € ║ Sports Direct
+
+-----EXAMPLE-----
+⚒️ Ai plătit 4 RON la Serviciul Public Sib ⚠️ Sold „RON”: 128,15 RON ║ Serviciul Public Sib
+
+-----EXAMPLE-----
+🛒 Ai plătit 23,80 RON la dm drogerie ⚠️ Sold „RON”: 102,35 RON ║ dm drogerie
+
+-----EXAMPLE-----
+Has pagado 14,55 € en Uber Eats 🍽️ ⚠️ Saldo del Pocket EUR: 5,52 € ║ Uber Eats
+
+-----EXAMPLE-----
+⚒️ Du hast 23,80 $ bei OpenAI bezahlt. Guthaben USD: 2.775,04 $ ║ OpenAI

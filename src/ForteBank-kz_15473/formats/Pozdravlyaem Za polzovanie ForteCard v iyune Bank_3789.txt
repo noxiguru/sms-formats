@@ -1,0 +1,7 @@
+^(?!.*?CashBack).*((?:За\s+польз|Za\s+polz).*?%\s+(?:на\s+ост|na\s+ost).*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument
+
+-----EXAMPLE-----
+Pozdravlyaem! Za polzovanie ForteCard v iyune Bank vyplatil Vam % na ostatok 500.77 KZT. Zarabatyvaite bolshe s ForteBank

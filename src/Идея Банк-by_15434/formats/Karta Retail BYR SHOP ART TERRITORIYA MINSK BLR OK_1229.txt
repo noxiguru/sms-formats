@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d.]{10}).*Retail -([\d\s.,]*\d) ([A-Z]{3}) (.*?) OK. Dostupno (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 5.9408 15.04.2014 17:00:13 Retail -26250 BYR SHOP "ART-TERRITORIYA" MINSK BLR OK. Dostupno 751850 BYR

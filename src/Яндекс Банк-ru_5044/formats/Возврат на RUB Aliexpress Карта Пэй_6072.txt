@@ -1,0 +1,10 @@
+^((?:Отмена|Возврат)(?!.*(?:оступ|аланс)).*?)\s+на\s+([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\.?\s+║\s+(?:Карта\s+)?(Пэй|Pay)(?:\s.*|$)
+
+-----COLUMNS-----
+comment;income;instrument;payee;syncid
+
+-----EXAMPLE-----
+Возврат на 825.00 RUB. Aliexpress. ║ Карта Пэй
+
+-----EXAMPLE-----
+Возврат на 480.00 RUB. YANDEX.MARKET. ║ Pay card

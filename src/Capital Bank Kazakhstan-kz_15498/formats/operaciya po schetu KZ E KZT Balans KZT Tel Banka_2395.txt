@@ -1,0 +1,7 @@
+^([\d-]{10}).*operac.*?schet.*?\*([^* ]{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+2016-04-26 16:46:39 operaciya po schetu KZ18***0E30 1 600.00 KZT. Balans 860.00 KZT. Tel. Banka 6161, www.capitalbank.kz

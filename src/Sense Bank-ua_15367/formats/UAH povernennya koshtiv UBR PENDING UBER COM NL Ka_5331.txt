@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3}) (pover.*?), (.*?), (?:[A-Z]{2}, )?(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;comment;payee;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
++154.73UAH povernennya koshtiv, UBR* PENDING.UBER.COM, NL, 24.06.22 09:01, Kartka 4028***7097, Dostupno: 2823.87UAH

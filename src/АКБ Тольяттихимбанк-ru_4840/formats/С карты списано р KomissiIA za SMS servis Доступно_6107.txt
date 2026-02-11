@@ -1,0 +1,7 @@
+^.*арт.*?\*(\d{4})\s+.писан.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W?\s+(.omiss.*?)\.\s+.осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+С карты *2762 списано 59 р. KomissiIA za SMS - servis. Доступно 26 244.19 р.

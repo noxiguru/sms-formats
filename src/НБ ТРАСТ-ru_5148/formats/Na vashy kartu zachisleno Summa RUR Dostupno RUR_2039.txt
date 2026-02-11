@@ -1,0 +1,7 @@
+^([\d-]{10}).*Na.*?(\d{4})\s+zachis.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd-MM-yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+23-10-2015 00:00:00 Na vashy kartu  9946 zachisleno  Summa:1272.27RUR Dostupno: 4 758.76 RUR

@@ -1,0 +1,13 @@
+^.*oney .ransf.*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:Account:\s*)?([A-Z]+)\s+(?:[A-Z]+\s+)*(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy
+
+-----EXAMPLE-----
+Money Transfer: 73.00 GEL Account: MC STANDARD 25/12/2021
+
+-----EXAMPLE-----
+Money Transfer: 423.00 GEL MC STANDARD 19/07/2022
+
+-----EXAMPLE-----
+Money Transfer: 200.00 GEL MC WORLD ELITE 04/01/2024

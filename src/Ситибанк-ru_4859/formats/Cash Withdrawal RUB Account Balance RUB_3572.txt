@@ -1,0 +1,10 @@
+^Cash\s*.ithdraw.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s*(\d{2}/\d{2}) .*\*(\d{4}).*?alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#MM/dd;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Cash Withdrawal 100.00RUB; 03/07 Account*4737 Balance 94489.85RUB
+
+-----EXAMPLE-----
+Cash Withdrawal 100.00RUB; 03/07 Account*4737 Balance 94489.85RUB

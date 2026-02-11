@@ -1,0 +1,10 @@
+^\S+(\d{4}) ([\d-]{8}).*?(?:uslug|so scheta)([\d\s.,]*\d)\s*([A-Z]{3})\s+osta.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VISA-7003 17-08-15 10:18 oplata uslug 770.00 RUB ostatok 36766.16 RUB; URAL FD, MONASTYRSKAJA, 15
+
+-----EXAMPLE-----
+VISA-9878 13-07-16 12:39 spisanie so scheta 10000.00 RUB ostatok 2942.55 RUB; E-PAY, LENINA

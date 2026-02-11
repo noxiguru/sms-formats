@@ -1,0 +1,28 @@
+^([\d/]{10}).*?(?:peratsia|arakhovan).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:po|na).*\*(\d{4}) (.*?) Zalysh.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM/yyyy;income;instrument;syncid;comment;av_balance
+
+-----EXAMPLE-----
+13/04/2014 13:17 Operatsia na sumu 10.00 UAH po 4874*6068 GOOGLE *ANDROID APPS Zalyshok 5 931.07 UAH
+
+-----EXAMPLE-----
+20/04/2016 17:42 Operatsia na sumu 3 282.00UAH po 2625*3691 Zarobitna plata ta avansi Zalyshok 11 632.07UAH e.unicredit.ua
+
+-----EXAMPLE-----
+13/06/2016 18:20 Zarakhovano 3 031.54 EUR na 2625*9040 ADAVANCE SALARY JUN 2016 , C Zalyshok 3 071.83EUR e.unicredit.ua
+
+-----EXAMPLE-----
+27/06/2016 20:04 Zarakhovano 2 400.00 UAH na 4874*3054 BILORUSKA STR., 11 Zalyshok 32 594.08 UAH Deposyty na deposit.unicredit.ua
+
+-----EXAMPLE-----
+06/07/2016 18:43 Operatsia popolnenie na sumu 2 736.62UAH po 2625*3691 Zarobitna plata ta avansi Zalyshok 10 442.75UAH  e.unicredit.ua
+
+-----EXAMPLE-----
+15/07/2016 17:37 Operatsia popolnenie na sumu 845.36 EUR po 2625*9040 Zarakhuvannia Zalyshok 3 315.02 EUR e.unicredit.ua
+
+-----EXAMPLE-----
+09/08/2016 15:22 Operatsia popolnenie na sumu 918.16 UAH po 2625*2305 vinagoroda za 07 2016 ta -50,00 UAH na Oshchadnyi+ Zalyshok 868.16 UAH
+
+-----EXAMPLE-----
+20/10/2016 15:40 Operatsia popolnenie na sumu 16 449.00 UAH po 2625*6111 Dlia popovnennia SKR # Gridz' Mak Zalyshok 52 529.68 UAH e.unicredit.ua

@@ -1,0 +1,7 @@
+^VOZVRAT.*?\*(\d{4}) \S+ (.*?) (\d[\d\s.,]*\.\d{2}) ([A-Z]{3}) ([\d-]{10}).*?BALANCE ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;income;instrument;date#yyyy-MM-dd;balance
+
+-----EXAMPLE-----
+VOZVRAT SREDSTV 4*6350 Retail GOOGLE *SELLER 30.00 RUR 2013-05-14 17:08:23 BALANCE 9 495.49 RUR CRED LIMIT 0.00 RUR TEL 7(495)9330349

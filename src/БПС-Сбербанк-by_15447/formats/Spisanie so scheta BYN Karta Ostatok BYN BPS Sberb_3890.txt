@@ -1,0 +1,7 @@
+^Spisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Spisanie so scheta 2.90 BYN Karta #6060; Ostatok: 4371.52 BYN. BPS-Sberbank

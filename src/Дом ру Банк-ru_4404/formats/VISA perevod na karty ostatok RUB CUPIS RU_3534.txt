@@ -1,0 +1,7 @@
+^\S+(\d{4})\s+([\d-]{8}).*(perevod na.*?)([\d\s.,]*\d)\s+osta.*?(-?[\d\s.,]*\d)\s*\S{3}.?\s+(.*?)(?:,|$)
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;comment;income;av_balance;payee
+
+-----EXAMPLE-----
+VISA-4781 01-03-18 12:38 perevod na karty 992.00 ostatok 1477.47 RUB; 1CUPIS.RU,

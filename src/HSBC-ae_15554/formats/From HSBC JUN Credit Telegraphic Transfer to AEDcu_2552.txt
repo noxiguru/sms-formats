@@ -1,0 +1,19 @@
+^.* (\d{1,2}\w{3}\d{2,4}) (?:(?:Credit|Internet|Transf|TT Pay).*?).*? to (\S+)\s+([A-Z]{3})\s*([\d\s.,]*\d)\+.*?vail.*?([A-Z]{3}|)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;income;acc_instrument;av_balance
+
+-----EXAMPLE-----
+From HSBC: 30JUN2016 Credit Telegraphic Transfer to AEDcurr AED 35,750.00+ Your available balance is AED 108,788.31
+
+-----EXAMPLE-----
+From HSBC: 03SEP2016 Internet Banking Transfer to AEDsav AED 50,000.00+ Your available balance is AED 50,000.00
+
+-----EXAMPLE-----
+From HSBC: 07JUN22 Transfer to 012-384***-001 AED 159.12+ Your available balance is AED 62,718.60
+
+-----EXAMPLE-----
+From HSBC: 23SEP22 TT Payment to 031-245***-001 AED 2,783.33+ Your available balance is AED 3,959.26
+
+-----EXAMPLE-----
+From HSBC: 21OCT22 TT Payment to 031-245***-001 AED 2,783.33+ Your available balance is 6,559.89

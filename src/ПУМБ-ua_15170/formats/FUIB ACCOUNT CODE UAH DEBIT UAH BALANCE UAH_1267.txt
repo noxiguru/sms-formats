@@ -1,0 +1,7 @@
+^.*?(\d{4})-[A-Z]{3}\s+(\d{4}-[\d-]{5}).*DEBIT\s+([\d\s.,]*\d)\s+([A-Z]{3})\s+.BALANCE\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+FUIB ACCOUNT CODE 1113 *334851-26002249-UAH 2014-05-19 17:24 *DEBIT 50.00 UAH *BALANCE 101.85 UAH

@@ -1,0 +1,19 @@
+^([\d/]{5}) .*?perac.*?usp.*?-(\d{4}) (?:na )?[Ss]um[au] -?([\d\s.,]*\d)\s*([A-Z]{3}|\d{3})\s+(.*)\s+Zalysh.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd/MM;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+22/11 08:57 Operacija uspishna Kartka 45-3570 Suma 910 RUB YANDEX.MONEY Zalyshok 23071.66 UAH
+
+-----EXAMPLE-----
+28/01 20:30 Operacija uspishna Kartka 47-5035 Suma 370.76 UAH MEGAMARKET Zalyshok  3621.1 UAH
+
+-----EXAMPLE-----
+30/04 06:28 Operacija uspishna Kartka 47-7353 Suma -13.6 UAH AZS 47 OKKO Zalyshok  51503.06 UAH
+
+-----EXAMPLE-----
+09/06 12:40 Operacija uspishna za kartkoiu -47-3377 na sumu -150.69 UAH DOMOVICHOK Zalyshok 324.71 UAH
+
+-----EXAMPLE-----
+30/11 09:13 Operacija uspishna za kartkoiu -47-0711 na sumu -595.34 UAH LEVENT GIDA ISKELE Zalyshok 16147.78 UAH

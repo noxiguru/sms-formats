@@ -1,0 +1,7 @@
+^Зачис.*?([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]?\d{0,4}) [\d:]+ .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Зачислено 10989.57RUB 14.05 12:26 Доступно 36280.82RUB

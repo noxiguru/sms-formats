@@ -1,0 +1,7 @@
+^(Oplata uslugi.*?). Summa ([\d\s.,;]*\d).*
+
+-----COLUMNS-----
+comment;outcome
+
+-----EXAMPLE-----
+Oplata uslugi: Uslugi svyazi (Rostelekom). Summa 960.00 : 2766850219 (ID 123333652)

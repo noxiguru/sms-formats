@@ -1,0 +1,7 @@
+^.*ithdraw.*?([A-Z]{3}|\$)\s*([\d\s.,]*\d) from .*?(\d{4}) made (\S{3}\d{1,2}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;date#MMMDD
+
+-----EXAMPLE-----
+RBC: Withdrawal of $1,253.00 from RBC acct 0009 made OCT31. Stop-txt STOP/Help-txt HELP OCT31. Stop-txt STOP/Help-txt HELP

@@ -1,0 +1,7 @@
+^Покуп.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+\*(\d{4})\s+(.*?)\.\s+.алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка 1818.74RUB, *3545 TK LENTA-669, RU. Баланс 14936.36RUB

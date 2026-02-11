@@ -1,0 +1,7 @@
+^(\d{4})\s+([\d/]{8}).*VYDACHA GOTIVKY([\d\s.,]*\d)\s*([A-Z]{3}).*ZALYSHOK([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd/MM/yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+5463 24/01/16, 16:29:20 VYDACHA GOTIVKY 200.00 UAH DN00 Pobedy av., 37 ko ZALYSHOK 3 656.47

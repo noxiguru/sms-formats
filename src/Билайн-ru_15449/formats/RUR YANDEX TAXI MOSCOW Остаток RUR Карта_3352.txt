@@ -1,0 +1,13 @@
+^-([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s*(.*?)\.?\s+.стат.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+-53.00 RUR YANDEX.TAXI, MOSCOW. Остаток 2 430.82 RUR. Карта *1148
+
+-----EXAMPLE-----
+-100.00 RUR Остаток 100.00 RUR. Карта *1234 ║ Карта Билайн
+
+-----EXAMPLE-----
+-340.00 р https://taxi.yande, Moskva. Остаток 999.13 р. Карта *5944 ║ Карта «Билайн»

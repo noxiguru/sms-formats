@@ -1,0 +1,7 @@
+^.*ayment\s+of\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d).*eceived\s+on.*ard.*?(\d{4})\s+on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy
+
+-----EXAMPLE-----
+Dear Customer, a payment of AED 6000 has been received on your RAKBANK Card number 523926xxxxx4769 on 20/03/2024

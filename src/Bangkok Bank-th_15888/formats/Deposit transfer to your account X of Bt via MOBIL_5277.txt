@@ -1,0 +1,13 @@
+^(?:Depos|Transfer to|PromptPay.*to).*X(\d{4}) of ([a-zA-Z]{2,3})\s*([\d\s.,]*\d) via (.*?); the avail.*? ([a-zA-Z]{2,3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;income;comment;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Deposit/transfer to your account X1850 of Bt 10,368.00 via MOBILE; the available balance is Bt 11,279.77.
+
+-----EXAMPLE-----
+Transfer to your account X6086 of Bt 100.00 via AUTO system; the available balance is Bt 23,100.80@11:00.
+
+-----EXAMPLE-----
+PromptPay transfer to your account X0278 of Bt 700.00 via MOBILE; the available balance is Bt 45,583.00

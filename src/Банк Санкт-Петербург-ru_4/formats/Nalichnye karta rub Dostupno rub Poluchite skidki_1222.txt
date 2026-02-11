@@ -1,0 +1,7 @@
+^Nal.*?(\d{4}). ([\d.]{8}).*?\s([\d\s.,]*\d) ([a-zA-Z]{3}). Dostupno = (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Nalichnye, karta *078032, 11.04.14 11:32, 3900.00 rub. Dostupno = 91408.26 rub. Poluchite skidki po karte: www.bspb.ru

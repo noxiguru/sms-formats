@@ -1,0 +1,24 @@
+^.*(?:tipi: gadaxda|ype: [Pp]urch).*(?:4 cipri|the card):\s+(\d{4}).*(?:anxa|mount):\s+([A-Z]{3})\s*([\d\s.,]*\d).*(?:biekti|ite):\s+(.*?)(?:>\d{10,})?\s+.(?:ngarish|emaining).*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*(?:arigi|ate):\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Bank of Georgia: bank card transaction
+Legal entity: INDIVIDUAL ENTREPRENEUR IVAN IVANOV, 345653890
+Transaction type: Purchase
+Last four digits of the card: 9765
+Amount: GEL5.95
+Site: madagoni
+Remaining balance: GEL14,094.23
+Date: 10/04/2023
+
+-----EXAMPLE-----
+sakartvelos banki: sabarate operacia
+iuridiuli piri: i/m aliaksandr dziashkevich, 345647071
+operaciis tipi: gadaxda
+baratis bolo 4 cipri: 4562
+tanxa: UYU7,549.00
+obiekti: SUCIVE PATENTE MONTEVIDEO>59829089080 UY
+tanxa angarishze: USD73.20
+tarigi: 14/09/2022

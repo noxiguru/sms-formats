@@ -1,0 +1,7 @@
+^Popovn.*?([\d.]{10}).*?(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+v\s+(.+)\s+dostupna s.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Popovnennja sumy: 17.11.2015 14:42:21 VISA Classic/850373 5.00 UAH v Abbasov Eld dostupna suma 5.00 UAH

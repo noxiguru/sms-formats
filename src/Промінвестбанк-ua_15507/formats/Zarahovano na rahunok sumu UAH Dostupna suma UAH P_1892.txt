@@ -1,0 +1,7 @@
+^Zarahov.*(\d{4})\s+sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Zarahovano na rahunok *86709 sumu 38,07 UAH. Dostupna suma 14 658,66 UAH 2015-07-17 14:38:17 ProminvestBank

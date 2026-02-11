@@ -1,0 +1,22 @@
+^(?!.*(?:tmena|тмена)).*?(?:okupk|окупк).*?([\d\s.,]*\d)\s*([A-Z]{3})\s*,\s*(MCC\s+\d+)\s*,\s*(.*?)\s*[,(]\s*(?:(?:[Cc]ash|[Кк]эш).*?\s*)?(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;payee;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Pokupka 732.06 KZT, MCC 4111, anytime.kz, 20.08.2020 11:57, karta ***6472 , ostatok 384 073.43 KZT https://market.forte.kz/
+
+-----EXAMPLE-----
+Покупка 1 496.00 KZT, MCC 5812, BAZILIK 3, CashBack 6.73 KZT 09.09.2020 09:48, карта ***6472 , остаток 36 594.53 KZT
+
+-----EXAMPLE-----
+Покупка 1 100.00 KZT, MCC 4121, PB*YANDEX.TAXI 4, кэшбэк 4.95 KZT 03.03.2021 09:14, карта ***6472 , остаток 229 296.91 KZT
+
+-----EXAMPLE-----
+Покупка 102.61 USD , MCC 5411, ACME 0769, 12.01.2024 05:32, карта ***0239 , остаток 97 634.62 KZT ║
+
+-----EXAMPLE-----
+Покупка 1 200.00 KZT , MCC 4121, YANDEX.TAXI, 11.01.2024 22:36, карта ***5598 , остаток 2 839 113.06 KZT в том числе КЛ 2 839 113.06 KZT ║
+
+-----EXAMPLE-----
+Покупка 630.00 KZT, MCC 4121, YANDEX.GO (05.02.2025 13:30), карта *5275. Остаток: 8 914.41 KZT ║ ForteApp

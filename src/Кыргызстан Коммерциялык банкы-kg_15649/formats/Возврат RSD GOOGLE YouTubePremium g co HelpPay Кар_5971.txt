@@ -1,0 +1,7 @@
+^(Возврат):\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)(?:,\s+.+)?\s+Карт.*?(\d{4})\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Возврат: 100 RSD GOOGLE *YouTubePremium, g.co/HelpPay# Карта: *6143 Доступно: 467,97 EUR ║

@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*(?:esabin\w+|opoln\w+ na) ([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d]{2}[- ]\w{3}[- ]\d{2,4})\D.*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Sizin *7247 nomreli kart hesabiniza 500.00 AZN medaxil olunmushdur. 18-MAR-20. Elaqe: +994 12 496 50 00 / *9123
+
+-----EXAMPLE-----
+Balans karti *4993 bil popolnen na 3108.87 AZN 28-JUL-22. Kontakti: +994 12 496 50 00 / *9123

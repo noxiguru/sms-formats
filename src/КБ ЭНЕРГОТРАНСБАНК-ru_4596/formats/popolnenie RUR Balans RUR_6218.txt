@@ -1,0 +1,7 @@
+^\*(\d{4})\s+popoln.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*8042 popolnenie 2100.00 RUR Balans 2226.10 RUR

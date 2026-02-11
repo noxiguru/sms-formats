@@ -1,0 +1,13 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}).*(.(?:overn|оверн).*?) ([\d\s.,]*\d)\s*([A-Z]{3}) (.*?)\.? .(?:ostu|rient|рієнт|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;comment;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+31.03.21 10:37 Mastercard Platinum*3150, povernennia sumy 1.04 UAH UBER    PENDING. Dostupna suma 11639.50 UAH
+
+-----EXAMPLE-----
+07.04.21 15:35 Mastercard Platinum*3150, povernennia sumy 579.00 AED Amwaj Suites Hotel Apa. Orientovnyi zalyshok 58507.25 UAH
+
+-----EXAMPLE-----
+26.11.21 10:16 Visa Gold ATB*6866 повернення суми 1.00 USD ALIEXPRESS.COM. Орієнтовний залишок 269.42 UAH ║ Raiffeisen

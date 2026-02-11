@@ -1,0 +1,7 @@
+^.(\d{4}).*?([\d.]{10}).*?Списание: ([\d\s.,]*\d) ([^,]+). (.*?). Остаток ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+*8108: 06.06.2013 17:48 Списание: 444.60 руб., MATRITSA 26, UFA. Остаток 97.05 руб.

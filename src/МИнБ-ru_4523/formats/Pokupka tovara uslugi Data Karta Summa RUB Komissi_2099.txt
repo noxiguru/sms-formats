@@ -1,0 +1,13 @@
+^(?:Poku|Predav|Поку|Plate[zj]).*(?:Dat|Дат).*? ([\d/]{5}) .*\*(\d{4}) .*(?:umma|умма).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:omiss|омисс).*?([\d\s.,]*\d).*(?:Dostu|Досту).*?(-?[\d\s.,]*\d).*(?:Term|Терм).*?:\s*(?:\d+)?,?\s*(.+)
+
+-----COLUMNS-----
+date#dd/MM;syncid;outcome;instrument;fee;av_balance;payee
+
+-----EXAMPLE-----
+Pokupka tovara/uslugi Data: 13/11 15:04 Karta: ****0954 Summa: 4735.50RUB Komissija: 0.00RUB Dostupno: 6072.30RUB Terminal: 26200844,HYPERGLOBUS,OSINOVAYA GOR,OSINOVAYA GOR,RU
+
+-----EXAMPLE-----
+Покупка товара/услуги Дата: 05/07 19:43 Карта: ****8033 Сумма: 314.10RUB Комиссия: 0.00RUB Доступно: 7380.74RUB Терминал: ,GOOGLE *Play,GOOGLE.COM/CH,GB
+
+-----EXAMPLE-----
+Platezh cherez Telebank v Strelka (obschestvennyj transport MO) Data: 04/03 10:22 Id.klienta: ****8092 Summa: 300.00RUB Komissija: 0.00RUB Dostupno54.77RUB Terminal: Mbank_01

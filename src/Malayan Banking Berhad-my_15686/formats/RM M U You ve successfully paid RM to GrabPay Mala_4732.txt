@@ -1,0 +1,13 @@
+^.*(?: paid |ayment|ayment of)\s*-?\s*(\S+?)\s*([\d\s.,]*\d) to (.*?) on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) .*
+
+-----COLUMNS-----
+instrument;outcome;payee;date#dMy
+
+-----EXAMPLE-----
+RM0.00 M2U: You've successfully paid RM100.00 to GrabPay Malaysia on 06 Jun 2020 10:03 AM. Did not perform this? Call 03-58914744.
+
+-----EXAMPLE-----
+RM0.00 M2U: FPX Payment- RM10.00 to BIGPAY MALAYSIA on 28 Nov 2020 14:48:38 If you did not perform this transaction, please cal... ║ FPX Trans BIGPAY MAL
+
+-----EXAMPLE-----
+Successful payment of RM1101.42 to HUTCHISON on 02 Nov 2022 00:54:19. Did not perform this transaction? Please call 03-58914744. FPX ID: 1234567890 ║ Maybank2u: FPX Payments

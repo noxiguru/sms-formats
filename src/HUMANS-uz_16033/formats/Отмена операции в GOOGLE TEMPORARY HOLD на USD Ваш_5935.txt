@@ -1,0 +1,7 @@
+^(Отмена.*?)\s+в\s+(.*?)\s+на\s+([\d\s.,]*\d)\s*([A-Z]{3}).*алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;payee;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Отмена операции в GOOGLE*TEMPORARY HOLD на 1,00 USD. Ваш баланс: 23 650,29 UZS.

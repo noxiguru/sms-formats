@@ -1,0 +1,10 @@
+^.*\*(\d{4})\s.*?([\d.]{8})\s.(?:окупк|okupk).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:\d+\s+)?(.*?)\s+(?:Cashback|\d{9,})(?!.*осту|.*ostu).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee
+
+-----EXAMPLE-----
+Beeline Card  4092***4602 13:21:08 22.09.17 Покупка 2,347.00 KZT 43016401 BARKHAN CAFE Cashback к начислению (1,5%): 35.21 KZT
+
+-----EXAMPLE-----
+Beeline Card  4092***4602 10:40:28 16.02.18 Pokupka 3,168.00 KZT STEAMGAMES.COM 4259522985

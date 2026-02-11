@@ -1,0 +1,7 @@
+^(Zachisl\w+ cashb.*?) ([\d\s.,]*\d)\s*([A-Z]{3}) .ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Zachislenie cashback MIR 150.00RUR Dostupno 666.18 RUR

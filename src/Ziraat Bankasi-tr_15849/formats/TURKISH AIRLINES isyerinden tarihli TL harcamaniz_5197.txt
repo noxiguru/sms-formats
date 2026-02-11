@@ -1,0 +1,7 @@
+^.*harcamaniz\s+icin\s+sifre.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+TURKISH AIRLINES isyerinden 10.12.2021 18:36 tarihli 743,98TL harcamaniz icin sifre:835386 Referans:YGLIBMCW.Lutfen sifreyi kimseyle paylasmayin B002

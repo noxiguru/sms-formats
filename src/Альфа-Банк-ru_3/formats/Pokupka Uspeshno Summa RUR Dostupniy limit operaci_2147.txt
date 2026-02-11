@@ -1,0 +1,7 @@
+^.\*(\d{4});\s+(?:Pokupka|Oplata\s+uslug);\s+U.*?([\d\s.,]*\d)\s*([A-Z]{3});.+(?:limit).+?;\s*(.*?);\s*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+4*9539; Pokupka; Uspeshno; Summa: 20000,00 RUR; Dostupniy limit operacij: 215354,00 RUR; RU/MOSCOW/YANDEX-PAY; 07.01.2016 10:01:46

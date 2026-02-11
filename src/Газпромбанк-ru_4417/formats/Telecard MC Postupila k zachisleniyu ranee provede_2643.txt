@@ -1,0 +1,7 @@
+^.*?(\d{4});.*(Vozvrat\s+ot\s+[\d./\\]*.*?)\s+na\s+sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument
+
+-----EXAMPLE-----
+Telecard; MC3921; Postupila k zachisleniyu ranee provedennaya operaciya: Vozvrat ot 07.08.2016 WWW.ALIEXPRESS.COM na summu 180.98 RUR

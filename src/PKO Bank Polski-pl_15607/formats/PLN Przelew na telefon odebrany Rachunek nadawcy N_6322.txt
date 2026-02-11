@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3})\s+Przelew\s+na\s+t.*?adawca:\s+(.*?)\s+(?:(?:Title|Tytuł).*)?(?:On\s+acc|Na\s+rach).*?(\d{4})\D.*\s+(\d{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+income;instrument;payee;syncid;date#yMd
+
+-----EXAMPLE-----
++20,00 PLN Przelew na telefon - odebrany Rachunek nadawcy: 47..6020 Nadawca: SIEROSKA ANNA Tytuł: PRZELEW BLIK NA TELEFON Na rachunku 61..8006 Data waluty: 2024-08-11 ║ Uznanie rachunku

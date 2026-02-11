@@ -1,0 +1,7 @@
+^.*\*([\d]{4}) (?:снят|snyat).*?([\d\s.,]*\d)\s*(\S+) ([\d.]{10}) .*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+*7384 снятие наличных 10 000.00 РУБ 27.02.2020 14:23 METCOMBANK

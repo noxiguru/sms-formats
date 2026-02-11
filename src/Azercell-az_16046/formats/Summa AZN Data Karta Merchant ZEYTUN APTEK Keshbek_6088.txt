@@ -1,0 +1,13 @@
+^.*umma.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*ata.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*art.*?(\d{4}).*erchant\W?\s+(.*?)\s+[Kk]eshb.*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Summa: 45.00 AZN
+Data: 09.01.2024 15:52:06
+Karta: 0199
+Merchant: ZEYTUN APTEK 245
+Keshbek: 2.25 AZN
+Balans: 6.70 AZN
+Poluchay do 10 GB kajdiy mesyac pri oplatax s "akart"! https://bit.ly/3Msf7jV

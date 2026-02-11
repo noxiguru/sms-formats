@@ -1,0 +1,7 @@
+^\[(\d{2}[-./]\d{2}[-./]\d{2,4}).*using.*ard (\d{4}) for ([A-Z]{3}|\W)\s*-([\d\s.,]*\d\.\d{2})\d? at (.*?) on.*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;outcome;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+[16/01/2022 00:12] BEYON Money: Hello there! Thank you for using your card 1993 for BHD-8.000 at BATELCO - E.SERVICES (, Manama, BHR on 01-16-2022 12:12 AM (Asia/Bahrain) Available balance BHD92.000. We are one call away 80001500 / Overseas +97317077777.

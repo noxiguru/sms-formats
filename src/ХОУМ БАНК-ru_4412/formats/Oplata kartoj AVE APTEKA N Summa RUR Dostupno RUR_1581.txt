@@ -1,0 +1,7 @@
+^(?:Oplata\s+kartoj|Оплата)\s+\*(\d{4})\s+(.*?).\s+(?:Summa|Сумма).?\s*([\d\s.,]*\d)\s+([A-Z]{3}).\s+([\d.]{10}).*Dostupno.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Oplata kartoj *1234 AVE-APTEKA N112. Summa: 389.00 RUR. 03.02.2015 10:11:49. Dostupno: 1440.38 RUR. Home Credit Bank +74957858222

@@ -1,0 +1,7 @@
+Karta\*(\d{4})\s+\d{2}:\d{2}\s+spisanie\s+([0-9][\d\s.,]*\d(?:[.,]\d{2})?)\s+([A-Za-z]{1,3})\s+(\[СБП\].*?)\s+(\d{2}\.\d{2}\.\d{4})
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;date#dMy
+
+-----EXAMPLE-----
+Karta*0678 05:52 spisanie 948.10 R [СБП] Оплата по QR 11.06.2025 05:52:05, БАНК ВТБ (ПАО), 1234567890

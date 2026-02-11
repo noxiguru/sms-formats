@@ -1,0 +1,20 @@
+^.*ard\s+\d+\*+(\d{4}).*trans.*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{4}-\d{2}-\d{2}),\s+(.*?)\s*\.\s+(?:Availa|The curr).*?:\s+(?!0,00)(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yMd;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Card 5574****8332, transaction amount: 498.40 EUR, 2022-11-19, Auto Europe Munich . Available: 1,60 EUR 0,00 RSD
+
+-----EXAMPLE-----
+Card 5574****4956, transaction amount: 151.00 PER, 2023-09-21, IZI*BAZAR MIRAFLOR. Available: 100,93 EUR 4.866.629,27 RSD
+
+-----EXAMPLE-----
+With Card 5574****4977, a transaction in the amount 1,760.00 RSD was made on 2024-08-01, LE PETIT BISTRO Belgrade.
+
+The current available balance is: 1.703,10 RSD 202,81 EUR .
+
+-----EXAMPLE-----
+With Card 5574****4977, a transaction in the amount 14.63 EUR was made on 2024-12-17, WWW.VICKY.ONE +3120776.  The current available balance is: 683,69 EUR 4.259,20 RSD .With Card 5574****4977, a transaction in the amount 1,760.00 RSD was made on 2024-08-01, LE PETIT BISTRO Belgrade.
+
+The current available balance is: 1.703,10 RSD 202,81 EUR .

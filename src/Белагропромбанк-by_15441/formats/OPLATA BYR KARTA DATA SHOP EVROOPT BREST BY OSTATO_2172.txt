@@ -1,0 +1,7 @@
+^OPLATA ([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}) DATA ([\d.]{10}) [\d:]+ (.*) OSTATOK (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+OPLATA 55100 BYR KARTA #7804 DATA 03.01.2016 19:23:19 SHOP "EVROOPT">BREST>BY OSTATOK 58 BYR

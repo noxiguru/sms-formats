@@ -1,0 +1,7 @@
+^OPLATA([\d\s.,]*\d)\s*([A-Z]{3}) KART.*?(\d{4}) .* ([\d.]{10}) [\d:]{8} (.*?)\s+-\s+(.*)\s+OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;comment;payee;av_balance
+
+-----EXAMPLE-----
+OPLATA 30.00 BYN KARTA #8887 DATA 24.02.2017 10:43:32 OPLATA USLUG - BTA>MINSK>BY OSTATOK 471.99 BYN

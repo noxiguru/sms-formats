@@ -1,0 +1,10 @@
+^.*?(\d{4}) (Vozvr.*?) (?:Uspesh.*?)?(\d{4}-\d{2}-\d{2}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)(?: Vash .*?)?$
+
+-----COLUMNS-----
+syncid;comment;date#yMd;income;instrument;payee
+
+-----EXAMPLE-----
+4..5646 Vozvrat sredstv Uspeshno 2016-09-26 00:00:00 Summa: 2.79 USD CN/HANGZHOU/ALI*ALIEXPRESS.COM
+
+-----EXAMPLE-----
+5623 Vozvrat sredstv 2023-05-04 21:48:55 Summa: 11.76 BYN I.-SHOP "WILDBERRIES.BY" Vash BSB Bank

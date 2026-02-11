@@ -1,0 +1,7 @@
+^.*ayment.*?([a-zA-Z]{1,3})\s*([\d\s.,]*\d).*credited.*?card.*?(\d{4}).*?(\d{1,2}/\w{1,3}/\d{4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dd/MMM/yyyy
+
+-----EXAMPLE-----
+Dear HDFCBank cardmember, Payment of Rs 21369.18 was credited to your card ending 3665 on 05/JAN/2016.

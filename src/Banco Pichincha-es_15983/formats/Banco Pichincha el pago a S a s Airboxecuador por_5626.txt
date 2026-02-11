@@ -1,0 +1,7 @@
+^.*el pago a (.*?) por ([A-Z]{3}|\W)\s*([\d\s.,]*\d) se.* ([\d]{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+payee;instrument;outcome;date#yMd
+
+-----EXAMPLE-----
+Banco Pichincha: el pago a S.a.s. Airboxecuador por $24.77 se realizo con exito. 2023-01-09

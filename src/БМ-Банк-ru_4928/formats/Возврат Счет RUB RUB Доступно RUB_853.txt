@@ -1,0 +1,7 @@
+^((?:Возвр|Отмен).*)\W .чет.*?(\d{4}|[A-Z]{3})\. ([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Возврат. Счет RUB. 323.95 RUB. Доступно 7022.91 RUB

@@ -1,0 +1,13 @@
+^.*([\d.]{10}).*\*(\d{4}) (?:POKUPKA|OPLATA|ПОКУПКА|ОПЛАТА).*?([\d\s.,]*\d)\s*([A-Z]{3}),?\s+(.*?)\.? .(?:alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+MKB: 16.03.2013 14:15 5*4601 POKUPKA: 1500 RUB, SHOKO KRYUKOVSKAYA. balance: 28694.41 RUB. Blokirovka kart - SMS "All" na 79037672667
+
+-----EXAMPLE-----
+MKB: 22.09.2017 18:33 5*8023 POKUPKA: 1 450.00 RUB IP LESHCHINSKAYA N.V.. Balance: 00 000.03 RUB. Blokirovka kart - SMS "All" na +79037672667
+
+-----EXAMPLE-----
+MKB: 04.06.2018 12:36 5*0260 POKUPKA: 600.00 RUB YOTA. баланс: 20 697.39 RUB. Blokirovka kart - SMS "All" na +79037672667

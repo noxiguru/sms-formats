@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*(?:несен|nesen).*?([\d\s.,]*\d)\s*\(?([A-Z]{3}).*(?:ачисл|achisl).*?([\d\s.,]*\d).*(?:стат|stat).*?(-?[\d\s.,]*\d).*\s+([\d.]{8})(?:\b.*|$)
+
+-----COLUMNS-----
+syncid#cash;op_income;instrument;income;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Karta **4271: ATM Dolgorukovskaya,40 vnesena summa 5.00 (RUR). Na chet zachisleno 5.00 (RUR). Ostatok: 5.72; 11.10.18

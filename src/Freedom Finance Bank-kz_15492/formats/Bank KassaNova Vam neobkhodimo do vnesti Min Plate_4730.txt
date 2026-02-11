@@ -1,0 +1,16 @@
+^.*(?:am\s+neob|revyshen\s+lim|edostato|arol\W?\s+\d{5}).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Bank KassaNova. Vam neobkhodimo do 31.08 vnesti Min Platezh v razmere 19450.09 KZT. Pokupki v rassrochku oplachivat ravnymi platezhami. Podrobnee na 595
+
+-----EXAMPLE-----
+Kassa Nova 30.08.19 19:16 Prevyshen limit po karte 5504***8156 pri popytke provedeniya trx v AIRCOMPANY SCAT JSC, KZ na summu 165355.00 KZT. Izmenyaite limity v MyKassa
+
+-----EXAMPLE-----
+Kassa Nova 19.12.19 20:12 Nedostatochno sredstv na karte 5504***8156 operacia v terminale YM**NET, RU.
+
+-----EXAMPLE-----
+Oplata na summu: 6000.00 KZT. Parol: 19255. Nikomy ne soobshaite dannyii parol.

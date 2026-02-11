@@ -1,0 +1,7 @@
+^.*opolnen.*\*(\d{4})\s+(.*?)\s+.um.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;payee;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Popolnenie Schet *5684 ALEKSEEV ANDREY Sum 20000.00 RUB Mobile Bank "Neyva" Dostupno 21202.42 RUB 19.03.2019, 15:40

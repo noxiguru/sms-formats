@@ -1,0 +1,7 @@
+^.*arola:\s*\d{6}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Maib nu va cere sub nicio forma acest cod.Nu oferi nimanui parola. Parola:351212 Comerciant WFP.FLO*WFP Suma 1002.45 UAH Card xxx7836

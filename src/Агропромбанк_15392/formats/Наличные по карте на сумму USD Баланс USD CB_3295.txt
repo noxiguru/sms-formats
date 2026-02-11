@@ -1,0 +1,10 @@
+^(?:Налич|Nalic).*?\*(\d{4}) (?:на сум|na sum).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Наличные по карте ****0140 на сумму 100,00 USD. Баланс: 500,00 USD [CB]1661
+
+-----EXAMPLE-----
+Nalichny'e po karte **5177 na summu 300,00 RUP Balans 2 120,64 RUP

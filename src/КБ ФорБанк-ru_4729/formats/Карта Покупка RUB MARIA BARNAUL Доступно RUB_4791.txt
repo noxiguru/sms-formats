@@ -1,0 +1,7 @@
+^.*\*(\d{4}) .окуп.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) (.*) .осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *1234 Покупка 161.50 RUB MARIA, BARNAUL Доступно 1 123,00 RUB

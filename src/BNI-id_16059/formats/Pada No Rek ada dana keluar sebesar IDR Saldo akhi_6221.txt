@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*Rek\s+\d+(\d{4})\s+ada\s+da.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*aldo.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+06/05/2024 21:18 Pada No. Rek 1848235726 ada dana keluar sebesar IDR415.948,00. Saldo akhir: IDR 2.373.851,00.Berita: Q 1234567890 299a04008047 00000

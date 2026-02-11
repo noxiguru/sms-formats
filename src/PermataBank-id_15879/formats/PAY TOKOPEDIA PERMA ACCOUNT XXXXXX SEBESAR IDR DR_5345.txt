@@ -1,0 +1,10 @@
+^(\d{2}/\d{2}) .* PAY (.*?) ACCOU.*?X(\d{2}) SEBE.*?([A-Z]{3})\s*([\d\s.,]*\d) \(DR\).*
+
+-----COLUMNS-----
+date#dM;payee;syncid;instrument;outcome
+
+-----EXAMPLE-----
+27/07 15:01 PAY TOKOPEDIA 1234567890 PERMA ACCOUNT# 41XXXXXX92 SEBESAR IDR 1.320.300,00 (DR) GRATIS TARIKTUNAI DI INDOMARET https://bit.ly/pb-wa-mcashpmx
+
+-----EXAMPLE-----
+19/10 16:20 PAY GO-PAY CUSTOMER 8980XXXXXX7650 ACCOUNT# 41XXXXXX44 SEBESAR IDR 1.000.000,00 (DR) GRATIS TARIKTUNAI DI INDOMARET https://bit.ly/pb-wa-mcashpmx

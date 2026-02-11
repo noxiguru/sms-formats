@@ -1,0 +1,10 @@
+^(?:CREDIT|OTMENA OP.*?) ([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}) DATA ([\d.]{10}) [\d:]+ (.*) OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+CREDIT 100 USD KARTA #4336 DATA 18.09.2015 23:48:43 PERSON TO PERSON BNB>MINSK>BY OSTATOK 100 USD
+
+-----EXAMPLE-----
+OTMENA OPLATA 1.00 EUR KARTA #1204 DATA 25.10.2017 23:24:24 GOOGLE *SERVICES>g.co/helppay>GB OSTATOK 1689.20 BYN

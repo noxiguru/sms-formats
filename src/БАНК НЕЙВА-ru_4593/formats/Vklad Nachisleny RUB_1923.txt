@@ -1,0 +1,7 @@
+^.*(\d{4}) (Nach.*%) ([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vklad: 4230681*1280 Nachisleny %% 106.31 RUB 31.07.2015, 20:24:58

@@ -1,0 +1,7 @@
+^Popoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) (\d{4}[-./]\d{2}[-./]\d{2}) .*CASH IN.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;date#yMd;av_balance
+
+-----EXAMPLE-----
+Popolnenie 880.00 BYN Kartoi #2366 2020-04-29 09:43:41 Acode 539946; Mesto: DO333RD300 CASH IN ATM136 > SVETLOGORS BLR; Ostatok: 4 095.70 BYN. BPS-Sberbank

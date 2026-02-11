@@ -1,0 +1,10 @@
+^.*x(\d{4})\s+([\d.]{10}).*(?:ополн|opolnen)(?!.*(?:осту|ostu)).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument
+
+-----EXAMPLE-----
+Карта 4x6898 24.02.2018 23:44 МСК Пополнение Сумма 14500,00 RUR 41 MARSHALA BLYUKHERAКонтакт-центр 88005000080
+
+-----EXAMPLE-----
+Karta 2x6168 17.12.2019 11:32 MSK Popolnenie Summa 1500,00 RUR Sviaz-Bank IB Card2Card

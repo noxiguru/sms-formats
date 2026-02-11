@@ -1,0 +1,7 @@
+^Retail_OK.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*Card.*?(\d{4}) in (.*?) Available a.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#yyyy-MM-dd;syncid;payee;av_balance
+
+-----EXAMPLE-----
+Retail_OK Authorization 0.99 USD at Kyiv time 2015-01-10 10:28:03 Card=4**0586 in LUX ITUNES.COM (ITUNES.COM/BILL) Available amount 355.81 UAH

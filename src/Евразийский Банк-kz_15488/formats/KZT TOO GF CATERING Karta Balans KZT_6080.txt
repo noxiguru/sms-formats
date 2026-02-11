@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})(?!.*[\d\.-]{8,}\s+[\d:]{4,}\s+)\s+(?:\+.*?onus[\d\s.,]*\s+)?(.*?)\s+.art.*?\*(\d{4}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+-2750.00 KZT  TOO GF-CATERING Karta*3894. Balans 5750.77 KZT.

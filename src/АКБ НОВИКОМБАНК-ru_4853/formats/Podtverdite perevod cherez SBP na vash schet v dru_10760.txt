@@ -1,0 +1,7 @@
+(?i)(Podtverdite\s+perevod|Dlya\s+podtverjdeniya)
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Podtverdite perevod cherez SBP na vash schet v drugom banke na summu 1000.00 (RUB). Dlya podtverjdeniya nazhmite na uvedomlenie. ║ Уведомление о событии

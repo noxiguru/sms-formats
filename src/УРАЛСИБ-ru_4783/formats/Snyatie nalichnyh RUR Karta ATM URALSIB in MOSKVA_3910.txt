@@ -1,0 +1,7 @@
+^Snyatie n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*? ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Snyatie nalichnyh 4700.00 RUR. Karta *7110, ATM-01019198 URALSIB in MOSKVA, 13.09.18 19:56. Ostatok 97067.76 RUR

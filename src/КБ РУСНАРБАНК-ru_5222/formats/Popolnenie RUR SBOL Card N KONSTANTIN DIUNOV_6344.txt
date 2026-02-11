@@ -1,0 +1,7 @@
+^Popoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4}).*?([\d]{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+income;instrument;syncid;date#yMd
+
+-----EXAMPLE-----
+Popolnenie: 7 000.00 RUR SBOL Card_N **9197 KONSTANTIN DIUNOV 2024-09-22 17:02:56

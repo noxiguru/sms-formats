@@ -1,0 +1,7 @@
+^NIKOMU\s+NE.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+NIKOMU NE PEREDAVAYTE KOD! Ego prosyat tolko moshenniki. Dlya perevoda 148,000 UZS s VASHEY karti vvedite kod podtverjdeniya: 221897 bFalXBJUWdQ

@@ -1,0 +1,7 @@
+^Vyda(?!.*stat).*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}/\d{2}) .*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd/MM;syncid#cash
+
+-----EXAMPLE-----
+Vydacha Summa 3600RUB A1410028 05/06 16:15 karta *1893

@@ -1,0 +1,13 @@
+^.*?\*(\d{4}).*ostuplen.*?\+?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta MasterCard *3007. Postuplenie na schet: +3000.00 RUB RS_COMBI256>S-Peterb 18.03.2013 20:09. Dostupno: 3262.37 RUB. Bank Russkiy Standart
+
+-----EXAMPLE-----
+Karta MasterCard *9650 Postuplenie na schet: +28 634.27 RUR Перевод с карты *7492. НДС не облагается.                        09.01.2017. Dostupno: 65 089.24 RUB. Bank Russkiy Standart
+
+-----EXAMPLE-----
+Karta MasterCard *3828 Postuplenie na schet: +91 142.90 RUR 286536 Выплата ЗП за сентябрь 2017г.                             22.09.2017. Dostupno: 196 765.99 RUB. Bank Russkiy Standart

@@ -1,0 +1,7 @@
+^.*redit of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) was rece.*?ard (\d{4}) on (\d{2}/\d{2}/\d{2,4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#Mdy
+
+-----EXAMPLE-----
+Bank of America: Credit of $1,000.00 was received on card 1950 on 09/19/2021. Go online for details.

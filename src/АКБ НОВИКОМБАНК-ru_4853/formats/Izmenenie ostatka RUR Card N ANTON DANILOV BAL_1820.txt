@@ -1,0 +1,16 @@
+^(?:Izm[eе]n.*?\+|Popoln|Postup).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}).*[BВ][AА]L.*?(-?[\d\s.,]*\d).* (\d{4}-\d{2}-\d{2}) .*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yMd
+
+-----EXAMPLE-----
+Izmenenie ostatka: +15 000.00 RUR Card_N**0377 ANTON DANILOV  BAL: 17 513.06  2015-06-11 00:00:00
+
+-----EXAMPLE-----
+Popolnenie: 337.44 RUR MONETA Card **2598 BAL: 1 896.21 2019-02-04 08:41:21
+
+-----EXAMPLE-----
+Postuplenie sredstv: 4 000.00 RUR PR.T BUDENNOGO, 16 K.169 Card **6942 BAL: 4 000.60 2020-08-03 11:08:17
+
+-----EXAMPLE-----
+Izmеnenie оstatka: + 31 469.70 RUR Card **1674 ВАL: 32 224.91 2021-02-12 00:00:00

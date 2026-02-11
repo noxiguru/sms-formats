@@ -1,0 +1,10 @@
+^.*?(?:[A-Z]+|арта \*)(\d{4}) .*(?:ыдача|ydacha)(?!.*(?:алан|alan)).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+MIR4822 11:01 ATM vydacha nalichnykh 900r ATM 9201
+
+-----EXAMPLE-----
+карта *0646 выдача наличных сумма 80,000р 55064121 ║ RSHB

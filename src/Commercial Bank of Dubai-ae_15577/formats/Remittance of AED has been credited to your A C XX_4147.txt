@@ -1,0 +1,7 @@
+^Remit.*?([A-Z]{3})\s*([\d\s.,]*\d).*redit.*?(\d{4}) on ([\d-]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+Remittance of AED 20000.00 has been credited to your A/C XXXX6655 on 28-03-2019 10:05. Your balance is AED 20661.95

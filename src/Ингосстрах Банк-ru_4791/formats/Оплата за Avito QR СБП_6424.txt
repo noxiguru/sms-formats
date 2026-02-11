@@ -1,0 +1,7 @@
+^.*плата\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\s+за\s+(.*?)(?:\s*\W\s*QR\s*СБП.*)?$
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+Оплата 2,329₽ за Avito, QR СБП

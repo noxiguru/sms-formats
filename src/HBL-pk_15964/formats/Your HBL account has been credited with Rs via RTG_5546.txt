@@ -1,0 +1,7 @@
+^Your.*?\*\d*(\d{4}).*redited.*?([a-zA-Z]{2,3}|\W)\.?\s*([\d\s.,]*\d).* on (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;instrument;income;date#dMy
+
+-----EXAMPLE-----
+Your HBL account 5032*****68561 has been credited with Rs. 29,000.00 via RTGS Transfer on 05/11/2022.

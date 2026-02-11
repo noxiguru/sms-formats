@@ -1,0 +1,10 @@
+^^.*?balan.*?sc?h[ye]o?t\w+\s+(\S+) .*men.?shil.*?([\d\s.,]*\d)\s+([\d.]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Uvazhaemii client, balans shyota MDL umen'shilsea na 86.75  01.11.2018 13:11:52. Tekushchiy balans schyota 8929.50
+
+-----EXAMPLE-----
+Uvazhaemii client, balans shyota credit umen'shilsea na 47.60  23.12.2018 13:07:03. Tekushchiy balans schyota 5126.88

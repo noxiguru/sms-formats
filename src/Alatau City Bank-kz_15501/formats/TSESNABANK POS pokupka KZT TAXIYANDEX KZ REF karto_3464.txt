@@ -1,0 +1,7 @@
+^.*?([\d-]{10}).*okupk.*?([A-Z]{3})\s*([\d\s.,]*\d),?\s*(.+)\s+REF.*?kart.*\*(\d{4}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;instrument;outcome;payee;syncid;av_balance
+
+-----EXAMPLE-----
+TSESNABANK: 2018-01-23 08:29:54 POS825187 pokupka KZT 660.00,TAXIYANDEX KZ REF 1234567890 kartochka ***8697,Balans 4 778.26. tel.7711

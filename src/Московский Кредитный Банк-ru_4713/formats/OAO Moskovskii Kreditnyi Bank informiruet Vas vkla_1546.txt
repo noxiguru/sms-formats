@@ -1,0 +1,7 @@
+^.*?(\d\d\.[\d.]{7}) vklad.*?(\d{4}) popolnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument
+
+-----EXAMPLE-----
+OAO "Moskovskii Kreditnyi Bank" informiruet Vas: 07.01.2015 vklad Р20255543 popolnen na summu 3000,00 RUR.

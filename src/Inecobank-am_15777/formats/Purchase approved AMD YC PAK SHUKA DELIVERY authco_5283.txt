@@ -1,0 +1,16 @@
+^(?:Purch|Telep|E-comm|Mail Ord).*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+\d+\*+(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} (.*?) auth.*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Purchase approved 14080.00 AMD, 457889******3500 23.05.22 23:08 YC PAK SHUKA DELIVERY authcode 013008 Balance: 243,588.73 AMD
+
+-----EXAMPLE-----
+Telephone approved 3780.00 AMD, 457889******3500 23.05.22 18:27 MY MARKET authcode 097196 Balance: 270,926.91 AMD
+
+-----EXAMPLE-----
+E-commerce approved 13000.00 AMD, 457889******8350 21.05.22 18:32 YEREWINEDAYS.AM authcode 029315 Balance: 990.00 AMD
+
+-----EXAMPLE-----
+Mail Order approved 21.72 USD, 457889******3500 01.06.22 12:35 DIGITALOCEAN.COM authcode 018762 Balance: 71,810.71 AMD

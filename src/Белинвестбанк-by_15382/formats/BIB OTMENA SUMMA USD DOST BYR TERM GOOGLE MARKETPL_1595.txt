@@ -1,0 +1,7 @@
+^.*?(\d{4})\s.*OTMENA.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?OST.(-?[\d\s.,]*\d).*TERM.(.*)
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+BIB *9745  20:14:49 OTMENA SUMMA= 1.00 USD DOST=22 791 067 BYR TERM=GOOGLE *MARKETPLACE>GOOGLE.COM/C      US

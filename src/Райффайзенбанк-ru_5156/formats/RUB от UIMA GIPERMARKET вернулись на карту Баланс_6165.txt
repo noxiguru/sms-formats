@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+от\s+(.*?)\s+вернулись.*\*(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+income;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+34,100 RUB от UIMA GIPERMARKET2 вернулись на карту *9810 . Баланс 44313.34 RUB

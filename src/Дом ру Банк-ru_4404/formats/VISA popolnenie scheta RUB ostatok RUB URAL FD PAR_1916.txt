@@ -1,0 +1,7 @@
+^\S+(\d{4})\s+([\d-]{8}).*popoln.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+osta.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd-MM-yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+VISA-9878 28-07-15 13:57 popolnenie scheta 8000.00 RUB ostatok 15604.84 RUB; URAL FD, PARKOVY 17

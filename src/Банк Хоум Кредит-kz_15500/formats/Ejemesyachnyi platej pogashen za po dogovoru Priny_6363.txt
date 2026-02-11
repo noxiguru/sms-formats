@@ -1,0 +1,7 @@
+^(Ejemesyac.*?)\s+po\s+dogo\w+\s+\d+(\d{4}).*rinyato\s+([\d\s.,]*\d)\s*([A-Za-z]{2,3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument
+
+-----EXAMPLE-----
+Ejemesyachnyi platej pogashen za 15.10.24 po dogovoru 4403357195. Prinyato 78427.00 tg.

@@ -1,0 +1,7 @@
+^.*opо?ln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{3,4}).*ATM.*([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Poplnenie 78 000.00 KZT na kartu 5**168 v bankomate ATM 377 SBERUPRAVLENIE #,2017-08-02 14:54:57.  Dostupno 125 111.38 KZT.

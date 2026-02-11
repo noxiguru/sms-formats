@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+.spish.*?\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]+\s+Dokhid.*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartka 4102***0401 uspishno 100.00UAH 24.10.23 10:39 Dokhidnyi seif znyattya, UKR Balans:9800.00UAH Korysno: https://sense.top/INFO ║ Sense SuperApp

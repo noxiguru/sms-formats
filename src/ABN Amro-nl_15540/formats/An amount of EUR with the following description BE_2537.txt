@@ -1,0 +1,10 @@
+^.*? of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) .*?'(.*?)'.*ebit.*ending.*?(\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;comment;syncid
+
+-----EXAMPLE-----
+An amount of EUR 20,00 with the following description
+'BEA NR:5WTB04 24.07.16/18.03 NS-Schiphol 204 LUCHTHAV,PAS341 '
+to with account ending *0000
+has been debited from your account ending *6455.

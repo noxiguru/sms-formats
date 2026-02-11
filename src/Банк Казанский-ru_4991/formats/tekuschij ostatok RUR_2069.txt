@@ -1,0 +1,7 @@
+^([\d-]{10}).*(\d{4})\s+tek.*ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;av_balance
+
+-----EXAMPLE-----
+2015-11-02 07:48 1234567890 tekuschij ostatok 2132,41RUR

@@ -1,0 +1,7 @@
+^.*Cash Disp.*ard.*?(\d{4}) .ata.*?(\d{4}-\d{2}-\d{2}) [\d:]+ .uma.*?([\d\s.,]*\d)\s*([A-Z]{3}) .old.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#yMd;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+BC VICTORIABANK SA Cash Dispense (Cardless) Card: 5...7122 Data: 2022-11-28 13:09:02 Suma: 150.00 MDL Sold: 86.68 MDL Detalii: MOB BANKING VICTORIABANK

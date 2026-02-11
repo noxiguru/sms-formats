@@ -1,0 +1,7 @@
+^.*account.*?(\d{4}).*redited.*?([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d?\s+on\s+([\d]{4}-\d{2}-\d{2})\s+.*alan.*?([A-Z]{3})\s*(-?[\d\s,]*\d\.\d{2})\d?
+
+-----COLUMNS-----
+syncid;instrument;income;date#yMd;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your account 0589 has been credited with USD 100.00 on 2024-09-17 10:29:08 . Your remaining balance is USD 100.00

@@ -1,0 +1,10 @@
+^.*\*(\d{4}) ([\d-]{10}).*OPLAT.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;balance
+
+-----EXAMPLE-----
+KARTA 1234****1234 2019-05-09 12:00:00 OPLATA 1.50 EUR Skulas Kaunas LT OSTATOK 120.00 BYN Spr.: 5099999
+
+-----EXAMPLE-----
+KARTA 535104******7514 2019-05-09 21:38:17 OPLATA 33.58 BYN SHOP "EVROOPT" MVV MINSK BY OST.DB .11 BYN OST.CR 432.35 BYN Spr.:5099999

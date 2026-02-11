@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d.]{10}).*?(?:Cash|ATM) -([\d\s.,]*\d)\s*([A-Z]{3}).*OK.\s*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4.3063 30.05.2015 08:19:55 ATM -500000 BYR METRO BPSB ATM-15 MINSK BLR OK. Dostupno 713,74 USD

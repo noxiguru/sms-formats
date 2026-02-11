@@ -1,0 +1,7 @@
+^.*([\d-]{10}).*pisanie\s+(.*?)\s+-([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;comment;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Optima Bank: 2018-06-01 01:48:58 Spisanie SMS Notification Fee -30.00 KGS po karte 41**0922. Dostupnaya summa 172,242.39, KGS.

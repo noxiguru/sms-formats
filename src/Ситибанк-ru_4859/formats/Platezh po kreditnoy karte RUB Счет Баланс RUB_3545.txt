@@ -1,0 +1,13 @@
+^(Plate.*?redit.*?|Плат.*?редит.*?|Погашение.*?|Loan .epay.*?)([\d\s.,]*\d)\s*([A-Z]{3})\W?\s*(\d{2}/\d{2}) .*\*(\d{4}).*?(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;outcome;instrument;date#dd/MM;syncid;av_balance
+
+-----EXAMPLE-----
+Platezh po kreditnoy karte 11000.00RUB; 07/03 Счет*8674 Баланс 161.00RUB
+
+-----EXAMPLE-----
+Погашение кредита 23010.00RUB; 19/03 Счет*8168 Баланс 1062.94RUB
+
+-----EXAMPLE-----
+Loan Repayment 13806.00RUB; 11/19 Account*4737 Balance 6774.54RUB

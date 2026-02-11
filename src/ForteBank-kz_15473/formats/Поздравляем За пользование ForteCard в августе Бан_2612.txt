@@ -1,0 +1,10 @@
+^.*((?:За\s+польз|Za\s+polz).*?CashBack\s+([\d\s.,]*\d).*?%\s+(?:на\s+ост|na\s+ost).*?([\d\s.,]*\d)\s*([A-Z]{3}))\..*
+
+-----COLUMNS-----
+comment;income;income;instrument
+
+-----EXAMPLE-----
+Поздравляем! За пользование ForteCard в августе Банк выплатил Вам CashBack 763.17 KZT и % на остаток 197.95 KZT. Продолжайте зарабатывать с нами, ForteBank.
+
+-----EXAMPLE-----
+Pozdravlyaem! Za polzovanie ForteCard v iyune Bank vyplatil Vam CashBack 658.98 KZT , % na ostatok 267.53 KZT. Zarabatyvaite bolshe s ForteBank

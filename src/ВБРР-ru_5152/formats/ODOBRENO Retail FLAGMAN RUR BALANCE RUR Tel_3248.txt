@@ -1,0 +1,7 @@
+^ODOB.*?\*(\d{4})\s(?:Retail|Unique)\s+(.+?)\s+([1-9]\d{0,2}(?:\s*\d{3})*[.,]\d{2})\s*([A-Z]{3}) ([\d.]{10}).*?BAL.*?([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ODOBRENO 4*9091 Retail FLAGMAN 108.50 RUR 20.10.2017 13:55:22 BALANCE 10162.99 RUR Tel +74959330349, 88007000349

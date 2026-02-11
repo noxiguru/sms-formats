@@ -1,0 +1,7 @@
+^.*ithdrawn ([A-Z]{2,3}|\W)\s*([\d\s.,]*\d).*ending (\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash
+
+-----EXAMPLE-----
+You have successfully withdrawn RM 250.00 from your account ending 4007. REF: 760913213M ║ ATM Cash-out

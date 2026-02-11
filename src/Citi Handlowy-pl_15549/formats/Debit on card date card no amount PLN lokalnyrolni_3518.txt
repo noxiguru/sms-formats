@@ -1,0 +1,7 @@
+^.*([\d/]{10}).*ard.*?(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM/yyyy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Debit on card date:18/02/2018 card no.:8845 amount:15.88PLN lokalnyrolnik.pl       Wa avail:1803.35PLN Citi Handlowy

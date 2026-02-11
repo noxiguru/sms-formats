@@ -1,0 +1,7 @@
+^Mebleg:([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+Hesaba.*\*(\d{4}).*nvan:\s*(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+income;instrument;av_balance;acc_instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Mebleg: 3.00 AZN  Balans: 3.00 AZN Hesaba medaxil: ***0193 Unvan: ATB BANK  31.08.21 14:23

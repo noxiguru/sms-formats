@@ -1,0 +1,7 @@
+^.*urchas.*endi.*?(\d{4})\s+(\w{3}[- ][\d]{2}) .*moun.*? (\S+?)\s*([\d\s.,]*\d).*erch:\s*(.*?)\s+View.*
+
+-----COLUMNS-----
+syncid;date##MMM dd;instrument;outcome;payee
+
+-----EXAMPLE-----
+Large purchase on American Express acct ending 82009 Jan 23 Amount: $11.72 Merch: PP  MERCHANT CHARGE View recent activity at www.amexmobile.com

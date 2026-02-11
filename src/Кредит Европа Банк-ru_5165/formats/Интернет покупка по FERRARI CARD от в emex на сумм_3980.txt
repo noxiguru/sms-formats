@@ -1,0 +1,22 @@
+^.*(?:vazhaem\w+ .lient|НИКОМУ|NIKOMU|[Pp]arol|[Пп]ароль).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Интернет-покупка по FERRARI CARD #0985 от 22/10/18 22:13 в emex2 на сумму RUB 703.00.Одноразовый пароль - 248148.Срок действия пароля 300 сек.
+
+-----EXAMPLE-----
+13.09.2019 11:29 Parol dlya podtverzhdeniya: 04550. Proverte rekvizity perevoda: poluchatel SHALYAPINSKAYA USADBA OOO ANDREY VLADIMIROVICH, BIC 044525225, schet 1234567890, summa 510.88 RUB.
+
+-----EXAMPLE-----
+Uvazhaemyj Klient! Limit po Vashemu schetu umenshen na summu komissii 990.00RUB za ezhemesyachnoe obsluzhivanie karty #TRAVELPASS #9237. Platezhnyj limit: 91731.46RUB.
+
+-----EXAMPLE-----
+Uvazhaemy Klient! Trebovanie po oplate transakcii po karte #9237 ot 16/10/19  na summu 2128.00 RUB v bank ne postupilo. Platezhny limit 89184.40 RUB
+
+-----EXAMPLE-----
+Пароль 166111. Операция по  карте # 7738 PMR*REG Сумма RUB 1798.00 16/02/20 18:11 Срок действия пароля 300 сек. НИКОМУ не сообщайте этот пароль
+
+-----EXAMPLE-----
+Karta # 2582 Operacia RUB 216.44 GAZPROM MEZHREGIONGAZ. Kod: 557652. NIKOMU ne govorite kod!

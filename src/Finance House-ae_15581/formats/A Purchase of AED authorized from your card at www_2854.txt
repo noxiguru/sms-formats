@@ -1,0 +1,7 @@
+.*urchas.*?([A-Z]{3})\s*([\d\s.,]*\d).*\*(\d{4}) at\s+(.*?)\s+on\s+([\d/]{10}).*imi.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+A Purchase of AED 99 authorized from your  card ****0019 at www.groupon.ae, http://www.gr on 18/01/2017 at 10:12 PM, Avl.limit AED 4620.7.

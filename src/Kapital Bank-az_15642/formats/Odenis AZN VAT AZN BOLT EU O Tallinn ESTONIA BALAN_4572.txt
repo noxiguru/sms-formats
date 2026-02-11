@@ -1,0 +1,7 @@
+^(?:Odenis|Pokupka).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+VAT.*?([\d\s.,]*\d)\s*[A-Z]{3}\s+(.*?)\s+\d+\*+(\d{4})\s+.*\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;fee;payee;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Odenis 1.32 AZN VAT: 0.24 AZN BOLT EU O 2204140923 Tallinn ESTONIA 4169**3521 13:23 14.04.22 BALANCE 4 294.87 AZN

@@ -1,0 +1,7 @@
+^([\d]{4}-\d{2}-\d{2})\s+.*([Vv]ozvrat.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+\d\*+(\d{3,4})\s+.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#yMd;comment;income;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+2024-03-07 00:00:00 Vozvrat Retail 4.96 KZT OZON 4**169 Dostupnaya summa:4423.63 KZT ║

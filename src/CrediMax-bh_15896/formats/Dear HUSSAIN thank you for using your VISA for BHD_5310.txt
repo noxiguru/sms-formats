@@ -1,0 +1,10 @@
+^.*using.*?(\d{4}) for ([A-Z]{2,3})\s*([\d\s,]*\d\.\d{2})\d? at (.*?) on (\d{2}[-./]\d{2}) .*[Aa]vail.*?([A-Z]{2,3})\s*(-?[\d\s,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dM;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear HUSSAIN, thank you for using your VISA 7490 for BHD 67.180 at BAHRAIN TELECOMMUNICAT Al hamalah BH on 25/05 @ 17:38. Avail Bal BD 2,847.058. Tel 17117117
+
+-----EXAMPLE-----
+Dear AMEERA, thank you for using your VISA 0279 for AED 1288.00 at MetLife Sharjah AE on 18/05 @ 10:33. Avail Bal BD 3,459.721. Tel 17117117

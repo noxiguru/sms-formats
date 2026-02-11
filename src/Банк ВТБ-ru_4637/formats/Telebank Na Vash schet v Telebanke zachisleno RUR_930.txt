@@ -1,0 +1,10 @@
+^.*Na.*?schet.*?zachis.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+\((.*)\).*
+
+-----COLUMNS-----
+income;instrument;comment
+
+-----EXAMPLE-----
+Telebank:Na Vash schet v "Telebanke" zachisleno 127.53RUR (Perevod summi protsentov po vkladu 54570590  ).VTB24
+
+-----EXAMPLE-----
+VTB24-Online: Na Vash schet v "VTB24-Online" zachisleno 1204.30 RUR (Perevod summi protsentov po vkladu 101405383 ).VTB24

@@ -1,0 +1,7 @@
+^.*?(\d{1,2}[-./]\d{1,2}[-./]\d{2,4}).*\*[\d-]*?(\d{3,4}) hesabin.*?([\d\s.,]*\d)\s*([A-Z]{2,3}) .*doviz satis islemi.*TL karsiligi ([\d\s.,]*\d)\s*([A-Z]{2,3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;acc_instrument;op_outcome;instrument
+
+-----EXAMPLE-----
+Sayin ANTON DRUZHININ, 01.09.2022 tarihinde, 3330-20****71-353 hesabinizdan 555,00EUR tutarinda doviz satis islemi gerceklesmistir. Islemin TL karsiligi 10.075,30 TL'dir. Bilgi: 08502220800 MERSIS:1234567890 B002

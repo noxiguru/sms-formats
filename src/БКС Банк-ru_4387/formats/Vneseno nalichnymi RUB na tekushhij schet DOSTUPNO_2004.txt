@@ -1,0 +1,10 @@
+^Vnesen.*?nal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*DOSTU.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vneseno nalichnymi 100000 RUB na tekushhij schet *6341. DOSTUPNO: 106444.96 RUB 23.09.2015 19:32 nomer dokumenta:16
+
+-----EXAMPLE-----
+Vnesenie nalichnyh SUMMA: 13000.00 RUB KARTA****9804 BCS MOSCOW, BCS MIRA 69 DOSTUPNO: 51447.60 RUB 12.01.2016 19:31 Msk

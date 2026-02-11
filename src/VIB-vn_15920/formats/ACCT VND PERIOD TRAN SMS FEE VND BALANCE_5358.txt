@@ -1,0 +1,7 @@
+^[\d:]{5,};(\d{2}[-./]\d{2}[-./]\d{2,4}) ACC.*?(\d{4})([A-Z]{3}) PERIOD.*?: (.*?):\s*-([\d\s.,]*\d)\s*([A-Z]{3}) BALAN.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;acc_instrument;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+13:10;31/07/2022 ACCT:023901788VND PERIOD TRAN: SMS FEE:-11,000 VND BALANCE:2,285,185

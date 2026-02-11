@@ -1,0 +1,7 @@
+^.*X(\d{4}).*purchase.*?([a-zA-Z]{2,3})\.?\s*([\d\s.,]*\d)\s+on\s+([\d]{2}[- ]\S{3}[- ]\d{2})\s+at\s+(.*?)(?:\.|$)
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dd-MMM-yy;payee
+
+-----EXAMPLE-----
+Your debit card 5181XXXXXXXX1700 has been used to make a purchase of Rs 1218 on 15-JAN-18 at M AND M HOSPITALITY    PU.

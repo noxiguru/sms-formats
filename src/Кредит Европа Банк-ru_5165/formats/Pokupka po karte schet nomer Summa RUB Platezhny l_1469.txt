@@ -1,0 +1,7 @@
+^Pokupk.*?#\s*(\d{4})\s+([\d.]{5}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?imit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Pokupka po karte #9762, schet nomer #7113 20.11 19:57 Summa: 2136.00 RUB Platezhny limit: 88591.56 RUB

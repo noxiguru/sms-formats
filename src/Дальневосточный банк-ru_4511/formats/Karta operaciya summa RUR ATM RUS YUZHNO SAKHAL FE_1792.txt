@@ -1,0 +1,10 @@
+^.*?\*(\d{2,4}).*peraci.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\(ATM.*ost.*?(-?[\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Karta **5597, operaciya, summa 1300.00 RUR (ATM, RUS, YUZHNO-SAKHAL, FEB AMURSKAYA 53); Dostupno: 12347.93 RUR - 01.06.15 15:12:24
+
+-----EXAMPLE-----
+Karta **32, operaciya, summa 77000.00 RUR (ATM, RUS, YUZHNO-SAKHAL, FEB AMURSKAYA 53); Dostupno: 664.58 RUR - 30.04.17 08:55:18

@@ -1,0 +1,7 @@
+^(Vyplata pro.*?) \*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Vyplata protsentov po vkladu *0371. Summa 176.84 RUB. 09.02.22

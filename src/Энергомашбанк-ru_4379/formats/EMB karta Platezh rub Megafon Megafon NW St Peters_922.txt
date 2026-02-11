@@ -1,0 +1,7 @@
+^.*?(\d{4}). Platezh. ([\d\s.,]*\d) ([a-zA-Z]{3}). ([\d.]{8})[^,]*. (.*). balans.*Dostupno = ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+EMB karta *070073, Platezh, 100.00 rub, 01.08.13 19:51, Megafon ,Megafon?NW, St Petersburg, Rossijskaja Federacija, balans - Dostupno = 267.73 rub

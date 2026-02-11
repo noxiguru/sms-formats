@@ -1,0 +1,7 @@
+^.*?(\d{4}).*([\d.]{8}).*(?:ополнение|opolnenie).*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+(?:Остат|Dostu).*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 5369: 26.01.16 12:16, popolnenie 1773.24 RUR.  Dostupno 1773.24 RUR.

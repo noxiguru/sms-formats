@@ -1,0 +1,7 @@
+^.*ополнен.*по\s+QR.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument
+
+-----EXAMPLE-----
+Пополнение по QR На cумму: 25000.00 KGS. ║ OptimaBank

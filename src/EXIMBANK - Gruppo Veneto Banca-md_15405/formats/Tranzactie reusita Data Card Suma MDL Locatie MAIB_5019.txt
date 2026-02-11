@@ -1,0 +1,7 @@
+^Tranza.*ata (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ard.*?(\d{4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ocat\w+ (.*?), .ispo.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Tranzactie reusita, Data 14.04.2021 19:33:54, Card 4..6763, Suma 366.77 MDL, Locatie MAIB FIDESCO SRL, CHISINAU, MDA, Disponibil 30008.47 MDL

@@ -1,0 +1,10 @@
+^.*?(\d{4}) ((?:Komis|Pogash).*?)\s+Uspesh.*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+5.9714 Komissiya za Alfa-Check (opovescheniya po karte) Uspeshno Summa:0,99 USD Ostatok:23,09 USD Na vremya:00:56:54 03.10.2016
+
+-----EXAMPLE-----
+Karta 4.5151 Pogashenie dolga po kredity Uspeshno Summa:233.97 BYN Ostatok:2041.50 BYN Na vremya:22:30:26 11.12.2019

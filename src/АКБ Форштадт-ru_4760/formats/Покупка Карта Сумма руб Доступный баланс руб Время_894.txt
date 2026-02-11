@@ -1,0 +1,13 @@
+^.*?(?:окупк|okupk).*?\*(\d{4}).*(?:умм|umm).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d).* ([\d.]{8})[^\d\.].*(?:дрес|dres).\s+(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yy;payee
+
+-----EXAMPLE-----
+Покупка Карта: 4124***1362 Сумма: 3.23 руб Доступный баланс: 447.86 руб Время: 23:28 08.07.13 Адрес: W.QIWI.RU
+
+-----EXAMPLE-----
+Forshtadt: Pokupka Karta: *1362 Summa: 1.97 rub Balans: 1 352.97 rub Vremja: 11:37 09.12.13 Adres: PCODE2183
+
+-----EXAMPLE-----
+PokupkaKarta: *5048Summa: 1.27 rubBalans: 48 998.73 rubVremja: 11:39 12.05.16Adres: TINKOFF BANK CARD2CARD

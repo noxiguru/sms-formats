@@ -1,0 +1,7 @@
+^([\d.]{8}).*?VYDACHA N.*?([\d\s.,]*\d)\s*([A-Z]{3}).*CARD.*?(\d{4}).*BALANCE (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+10.02.15 10:55 VYDACHA NALICHNYH SUMMA 2 900.00 RUB MESTO MIKROR. GORKIY, 8       >, NOVOSIBIRSK, RUS CARD *3823 BORIS SHKLYAR BALANCE 20 550.00

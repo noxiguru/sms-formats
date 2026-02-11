@@ -1,0 +1,10 @@
+^.opolnen.*?\*(\d{4})\.\s+(.+?)\.\s+Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?([\d.]{10}).*?ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Popolnenie scheta kontrakta *1923. ZACHISLENIE SOGLASNO VEDOMOSTI. Summa 19000,00RUR. Summa po schetu 19000.00RUR. Date 07.03.2014 00:00. Dostupno 19056,55RUR
+
+-----EXAMPLE-----
+Popolnenie scheta kontrakta *6824. ZACHISLENIE SOGLASNO VEDOMOSTI. Summa popolneniya 3180,29RUR. Date 12.07.2016 00:00. Dostupno 240673,81RUR

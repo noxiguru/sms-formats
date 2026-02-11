@@ -1,0 +1,7 @@
+^.*art.*?\*(\d{4}).*vozvr(?!.*ostup).*?([\d\s.,]*\d)\s*([A-Z]{3}) .* v (.+?)\..*
+
+-----COLUMNS-----
+syncid;income;instrument;payee
+
+-----EXAMPLE-----
+Priorbank. Na kartu 4***2131 proizveden vozvrat v summe 1.00 USD po operacii v USA GOOGLE *SERVICES.  Spravka: 80172899292

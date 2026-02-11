@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ (.омисс.*?) .асход ([\d\s.,]*\d)\s*([A-Z]{3}) .чет \d*(\d{4}) .алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;comment;outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+01.12.24 06:32 Комиссия - гашение Расход 51.34 RUB Счет 6104531 Баланс 0.00 RUB

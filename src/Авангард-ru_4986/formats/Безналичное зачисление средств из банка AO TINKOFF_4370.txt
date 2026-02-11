@@ -1,0 +1,7 @@
+^.*ачислен.*умм.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*\d*(\d{4}).*осту.*?(-?[\d\s.,]*\d).*\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Безналичное зачисление средств из банка AO "TINKOFF BANK", RU от KOTENKO ALEKSANDR SERGEEVI. Сумма 4000.00 RUB. Счет №*01841. Доступный баланс 163771.37 RUB. 02.10.19 19:06 Конец ║ Avangard

@@ -1,0 +1,7 @@
+^(Перевод\s+в\s+Ку.*?)([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W).*(?:\*|счет\s+)(\d{4}|[A-Z]{3}).*алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\s+║\s+.*
+
+-----COLUMNS-----
+comment;outcome;instrument;syncid;balance;acc_instrument
+
+-----EXAMPLE-----
+Перевод в Кубышку 15 102.81 RUB, счет RUB Баланс: 14 897.19 RUB ║ Тинькофф

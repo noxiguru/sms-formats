@@ -1,0 +1,7 @@
+^Снятие\s+([\d\s.,]*\d)\s*(\S+)\s+с.*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash
+
+-----EXAMPLE-----
+Снятие 1000000 тенге с карты 404932******8705 ║ Home Credit Kazakhstan

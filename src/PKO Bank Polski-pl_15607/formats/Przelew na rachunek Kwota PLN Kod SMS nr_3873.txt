@@ -1,0 +1,16 @@
+^.*(?:Kod\s+SMS|Login\s+into|operation\s+to\s+conf|ktywny\s+parking).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+19-10-2018 17:56; Przelew na rachunek 90..1135; Kwota: 33.00 PLN; Kod SMS nr 1: 878123
+
+-----EXAMPLE-----
+Login into the IKO app in order to authorize BLIK payment in trusted shop. ║ Authorize BLIK code payment in the IKO app
+
+-----EXAMPLE-----
+You have new operation to confirm in the IKO app ║ Mobile authorization
+
+-----EXAMPLE-----
+Trwa parking rozpoczęty o: 2023-10-20 08:39:36 Pamiętaj, aby go wyłączyć przy opuszczaniu strefy płatnego parkowania. ║ Aktywny parking

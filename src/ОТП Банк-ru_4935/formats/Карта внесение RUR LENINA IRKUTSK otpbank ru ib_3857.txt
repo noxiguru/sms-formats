@@ -1,0 +1,7 @@
+^([\d.]{5}).*\*(\d{4}).*несен(?!.*осту).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM;syncid#cash;income;instrument
+
+-----EXAMPLE-----
+16.08 14:31 Карта*7849 внесение 13000.00 RUR. LENINA, 19 IRKUTSK. otpbank.ru/ib2

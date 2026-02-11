@@ -1,0 +1,10 @@
+^.*?(\d{4})\s+(\d{4}-\d{2}-\d{2}).*Retail\W?\s*([\d\s.,]*\d)\s*([A-Z]{3})\s+(?![\d\s.,]*\d\s*[A-Z]{3})(.+?)(?: ║ .*)?$
+
+-----COLUMNS-----
+syncid;date#yMd;outcome;instrument;payee
+
+-----EXAMPLE-----
+4...9666 2015-10-13 22:36:31 Retail,179.58 MDL Mobil INFOCOM, 127132648,CHISINAU,MOLDOVA
+
+-----EXAMPLE-----
+5...1234 2023-06-12 14:00:00 Retail;100.00 MDL Shop 47 ║ 100.00 MDL 2023-06-12 14:00:00

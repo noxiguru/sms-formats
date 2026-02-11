@@ -1,0 +1,10 @@
+^(?:Pokupka|Kazino).*Summa.([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}). Data.([\d.]{8}).*Inf:(.*). Kod.*Dostupno.(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+Pokupka, Summa:1204,80 RUR, Karta:4..0304, Data:06.05.14, Inf:DETI, Kod:209835. Dostupno:16283.21 RUR
+
+-----EXAMPLE-----
+Kazino, Summa:5,05 RUR, Karta:4..2763, Data:22.08.16, Inf:W.QIWI.RU, Kod:571822. Dostupno:108.21 RUR

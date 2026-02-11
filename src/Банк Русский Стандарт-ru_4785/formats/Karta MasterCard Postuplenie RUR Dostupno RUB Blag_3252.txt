@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+Postu.*?:\s*\+([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta MasterCard *3828 Postuplenie: +82 857.10 RUR 09.10.2017. Dostupno: 269 333.09 RUB.  Blagodarim za vashu rabotu. RSB.RU

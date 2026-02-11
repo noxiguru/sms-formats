@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*(?:VOZVR|OTMEN|POVERN).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+\([UV].*?([\d\s.,]*\d).*?\)\s+(.*)\s+\(DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;op_income;instrument;income;comment;av_balance
+
+-----EXAMPLE-----
+SCHET 1111 *0338 2012-06-27 00:00:00 VOZVRAT 1.95 USD (V VALUTE SCHETA 15.75 UAH) PP*6201CODE 4029357733 LU (DOSTUPNO 1571.68 UAH)

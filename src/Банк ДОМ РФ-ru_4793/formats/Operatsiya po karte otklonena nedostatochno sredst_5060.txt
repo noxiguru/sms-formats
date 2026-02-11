@@ -1,0 +1,7 @@
+^.*tklonen.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Operatsiya po karte 3300 otklonena, nedostatochno sredstv. Dostupno 176.77 RUB

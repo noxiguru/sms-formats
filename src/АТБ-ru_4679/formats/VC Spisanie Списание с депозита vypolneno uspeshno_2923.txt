@@ -1,0 +1,13 @@
+^.*\*(\d{4})\s+([\d.]{10}).*pisanie.*(?:umm|CARD2CARD).*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VC: *1234 18.10.2016 02:00:00. Spisanie. Списание с депозита vypolneno uspeshno. Summa 1000.00 RUR. Dostupno: 1000.00 RUR.
+
+-----EXAMPLE-----
+VISA: *1234 22.08.2017 00:00:00 Spisanie Perevod drugomu klientu banka Summa: 1000.00 RUR Dostupno: 3000.00 RUR
+
+-----EXAMPLE-----
+VISA: *9802 20.10.2017 22:18:11 Spisanie Card2Card TINKOFF BANK CARD2CARD 5000.00 RUR vypolneno uspeshno Dostupno: 18216.15 RUR

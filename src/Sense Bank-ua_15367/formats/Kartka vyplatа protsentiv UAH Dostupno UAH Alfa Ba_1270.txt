@@ -1,0 +1,13 @@
+^.*?[-*](\d{4})\W?\s+(.(?:[yi]pl[aа]t[aа]|arak?huv).*?) ([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]?\d{0,4}) .*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartka 5168-0440 vyplatа protsentiv 16.58UAH 01.04 13:16 Dostupno:29479.4UAH. Alfa-Bank u Vas v telefoni:
+
+-----EXAMPLE-----
+Kartka 5355***1121 viplata cashbacku 22.54UAH 02.10.18 19:40 Dostupno:24927.96UAH Alfa-Bank u Vas v telefoni: https://alfabank.ua/mb
+
+-----EXAMPLE-----
+Kartka 5355***2687, Zarakhuvannya ZP 11429.47UAH 04.11.20 11:26 Dostupno: 45260.28UAH.

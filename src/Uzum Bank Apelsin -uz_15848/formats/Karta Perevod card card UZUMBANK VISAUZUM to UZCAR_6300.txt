@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*erevod.*?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]{5,},\s+(.*?)[\s,]*;.*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;comment;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta ****6160; Perevod card2card: 08.07.24 22:02, UZUMBANK VISAUZUM to UZCARD, UZ; Summa: 40000.00 UZS; Ostatok: 167150.00 UZS.

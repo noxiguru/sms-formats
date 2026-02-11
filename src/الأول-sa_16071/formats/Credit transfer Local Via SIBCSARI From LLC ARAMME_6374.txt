@@ -1,0 +1,7 @@
+^Credit\s+tran.*From:\s+(.*?)\s+Amount:\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+To:.*?(\d{3,4})\s+Date.*?([\d]{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+payee;instrument;income;syncid;date#yMd
+
+-----EXAMPLE-----
+Credit transfer: Local Via: SIBCSARI From: LLC ARAMMEEM FOR TRADING SERVICES LLC Amount: SAR 3,834.57 To: ***001 Date: 2024-10-01 15:28:18

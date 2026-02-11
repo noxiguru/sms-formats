@@ -1,0 +1,7 @@
+^.*ard\s+(\d{4})\s.*debit.*?([\d\s,]*\d\.\d{2})\d?\s*([A-Z]{3})\s+from\s+(.*?)\s+on\s+([\d/]{5}).*limit.*?(-?[\d\s,]*\d\.\d{2})\d?\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd/MM;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Your credit card 9324 has been debited with 1,999.00 RUB from SLON on 25/01, 05:29. The available limit of your credit card is 1,487.205 KWD

@@ -1,0 +1,10 @@
+^Payment\W? ([A-Z]{2,3})\s*([1-9]\d{0,2}(?:\s\d{3})*[,.]\d{2}|\d+[,.]\d{2}) (.*) ║ .*
+
+-----COLUMNS-----
+instrument;outcome;payee
+
+-----EXAMPLE-----
+Payment: RM 1000.00 Tinkoff Bank ║ BigPay
+
+-----EXAMPLE-----
+Payment: RM 52.54 4340 Boots (GRAND 5 ║ BigPay

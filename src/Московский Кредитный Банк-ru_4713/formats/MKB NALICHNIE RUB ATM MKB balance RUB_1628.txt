@@ -1,0 +1,16 @@
+^.*?([\d.]{10}).*(\d{4}) NAL.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+MKB: 30.11.2012 14:35 5420...4601 NALICHNIE: 1900 RUB, ATM 174 MKB 810. balance: 28694.41 RUB
+
+-----EXAMPLE-----
+MKB: 23.03.2015 12:52 5*4601 NALICHNIE: 1900 RUB, Alfa Iss 6A PANFILOVSK. balance: 17333.94 RUB. Blokirovka kart - SMS "All" na +79037672667
+
+-----EXAMPLE-----
+MKB: 22.09.2017 15:15 5*8023 NALICHNIE: 5 400.00 RUB ATM 665 MKB 810 g. Mos. Balance: 00 000.03 RUB. Blokirovka kart - SMS "All" na +79037672667
+
+-----EXAMPLE-----
+MKB: 14.07.2018 15:19 5*6965 NALICHNIE: 2 200.00 RUB ATM 908. баланс: 1 366.17 RUB. Blokirovka kart - SMS "All" na +79037672667

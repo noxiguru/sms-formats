@@ -1,0 +1,7 @@
+^(Отмена.*?)\s+по.*?(\d{4}) на .*?([\d\s.,]*\d)\s*([A-Z]{3})\.?\s+(.*?)\.?\s+([\d.]{8}) .*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Отмена операции по карте *3536 на 136.40 RUB. DBO MERCHANT FORA, Moscow, Zubovskiy 25. 06.08.18 15:27. Доступно: 156.12 RUB

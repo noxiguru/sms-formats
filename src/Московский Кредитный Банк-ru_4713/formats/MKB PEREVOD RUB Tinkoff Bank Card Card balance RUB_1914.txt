@@ -1,0 +1,13 @@
+^.*?([\d.]{10}).*(\d{4})\s+(?:PEREVOD|SPISAN).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+MKB: 30.07.2015 11:25 4*9762 PEREVOD: 900 RUB, Tinkoff Bank Card2Card. balance: 4194.82 RUB. Blokirovka kart - SMS "All" na +79037672667
+
+-----EXAMPLE-----
+MKB: 15.12.2017 15:21 5*5155 SPISANIE: 10 000.00 RUB CARD2CARD MKB-MOBILE. Balance: 21 025.55 RUB. Blokirovka kart - SMS "All" na +79037672667
+
+-----EXAMPLE-----
+MKB: 13.08.2018 12:30 5*6965 SPISANIE: 250.00 RUB Card2Card MKB-Mobile. баланс: 227.34 RUB. Blokirovka kart - SMS "All" na +79037672667

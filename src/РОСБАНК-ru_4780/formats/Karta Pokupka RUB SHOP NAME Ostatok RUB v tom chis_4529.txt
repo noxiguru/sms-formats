@@ -1,0 +1,22 @@
+^.*?\*(\d{4}).*?(?:okup|окуп)(?!.*\d{2}[\./]\d{2}[\./]\d{2}).*?([\d\s.,]*\d)\s*([A-Z]{3})\.?\s*(.*?)\.?\s*(?:So?\s+.*?\.\s*|Со?\s+.*?\.\s*)?.(?:stat|alan|стат|алан).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta**1234 Pokupka 370.00 RUB. SHOP NAME. Ostatok 1337.00 RUB v tom chisle kreditny limit 69420.00
+
+-----EXAMPLE-----
+карта**9441 покупка 319.00 RUB. VKUSNAYA SHAVERMA. остаток 2362.77 RUB
+
+-----EXAMPLE-----
+Karta*8154.Pokupka 350.00 RUB. ROSBANK Ostatok: 5162.07 RUB
+
+-----EXAMPLE-----
+Карта *9396 Покупка 78 RUB FABRIKA-KUHNYA. Остаток: 38 647.31 RUB ║ ROSBANK Online
+
+-----EXAMPLE-----
+Карта *3854 Покупка 1 120 RUB dodopizza.ru. Баланс: 2 206.60 RUB ║ ROSBANK Online
+
+-----EXAMPLE-----
+Karta*2561 Pokupka 299 RUB. YM*YANDEX.PLUS. Balance: 799.31 RUB

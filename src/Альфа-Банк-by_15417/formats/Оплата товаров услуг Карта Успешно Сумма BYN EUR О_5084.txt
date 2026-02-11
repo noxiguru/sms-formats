@@ -1,0 +1,7 @@
+^(?:Перевод \(С|Оплата).*арт.*?(\d{4}).*-([\d\s.,]*\d)\s*([A-Z]{3}) \(([\d\s.,]*\d)\s*[A-Z]{3}\) .стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;op_outcome;instrument;outcome;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Оплата товаров/услуг Карта 5.3123 Успешно Сумма: -99.92 BYN (33.75 EUR) Остаток: 7.26 EUR ║ InSync.by

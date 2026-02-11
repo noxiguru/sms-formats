@@ -1,0 +1,7 @@
+^Popolnenie.*?: ([\d\s.,]*\d)([A-Z]{3}). ([\d.]{10}).*Dostupno. (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Popolnenie deposita Nakopitelnii schet: 168000RUB. 14.05.2014 19:35. Dostupno: 328000RUB

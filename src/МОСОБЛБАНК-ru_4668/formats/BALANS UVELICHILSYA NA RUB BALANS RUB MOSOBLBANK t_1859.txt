@@ -1,0 +1,7 @@
+^.*([\d.]{8}).*\*(\d{4})\s*BAL.*UVEL.*?([\d\s.,]*\d)\s*([A-Z]{3})\sBAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+17:10 01.07.15 4660***8327 BALANS UVELICHILSYA NA 43766.04 RUB BALANS: 43777.36 RUB. MOSOBLBANK, tel. 8-800-200-14-15

@@ -1,0 +1,7 @@
+^.*?Avtorizatsiya.*?(\d[\d\s.,]*) (\w{3}).*?\*(\d{4});ADRES:([^;]+);(?:ostatok|dostupno): ([\d\s.,]*\d).*?([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Avtorizatsiya na summu 1000 rur ;KARTA:*2899;ADRES:NMOS?/NMOS/AR770075?/MOSCOW?/RUS;ostatok: 12853,41 rur; 12.06.2013 18:16

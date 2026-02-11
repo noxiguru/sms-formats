@@ -1,0 +1,10 @@
+^.*(?:redit| PAYMENT SENT DB)\s*: (\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4})\W? .mount\W?\s*([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+If You have received funds, please use it on the next business day.Credit: 16.01.23 15:23,card ***2258. Amount:55300.00 AMD, Balance:55300.00 AMD
+
+-----EXAMPLE-----
+PERSON TO PERSON PAYMENT SENT DB : 21.02.23 14:14,card ***3744. Amount:15000.00 AMD, Balance:34917.78 AMD

@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{8}) .*писан.*?([\d\s.,]*\d)\s*([а-яA-Z]{3}) в (.*?)\.?\s*.алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+По карте*8691 13.04.16 12:27 списание 35000.00RUR в 3DI TINKOFF BANK CARD2, MOSCOW.Баланс 3133.83RUR

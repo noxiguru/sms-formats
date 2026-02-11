@@ -1,0 +1,7 @@
+^.*?Popolnenie.*?\*(\d{4}) ([\d\s.]{4,}) ([A-Z]{3}).*?Ostatok ([\d\s.]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+BANK URALSIB.Popolnenie raskhodnogo limita card 5312*1091 83 000.00 RUROstatok 148 243.81 RUR

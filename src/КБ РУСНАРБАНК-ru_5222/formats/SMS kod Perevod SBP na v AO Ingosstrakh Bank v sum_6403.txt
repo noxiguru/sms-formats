@@ -1,0 +1,7 @@
+^.*SMS-kod\W?\s+\d{4}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+26.10.2024. SMS-kod: 1463. Perevod SBP na 79651091162 v AO Ingosstrakh Bank v summe 57,114.00 RUR

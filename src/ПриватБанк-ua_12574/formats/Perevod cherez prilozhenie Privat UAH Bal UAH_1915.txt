@@ -1,0 +1,7 @@
+^Perevod.*?\s([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d*]{4}).*Bal.\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Perevod cherez prilozhenie Privat24 1450.00UAH 5*75 18:15 Bal. 3350.59UAH

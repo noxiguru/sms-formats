@@ -1,0 +1,7 @@
+^.*arol\S+\s+\d{4,}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Platezh Kapital`ny'j remont, Fond modernizacii ZHKX - Novosibirsk 10000108990 304.00 r.  Parol` 301150 nikomu ne soobshhajte

@@ -1,0 +1,7 @@
+^.*transak.*?-([\d\s.,]*\d)\s*([A-Z]{3}),.*art.*?(\d{4}),.*ustat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+CS-OU: 15022016 09.27: Provedena karetni transakce vyber z uctu 2210452143, -200.00 CZK, karta 2256, okamzity zustatek 20433.64 CZK

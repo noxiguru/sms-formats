@@ -1,0 +1,7 @@
+^.*ayment-(\S+?)\s*([\d\s,]*\d\.\d{2})\d.*credit.*?(\d{4}) on (\w+ \d{1,2} \d{4}) .*
+
+-----COLUMNS-----
+instrument;income;syncid;date#MMM dd yyyy
+
+-----EXAMPLE-----
+Dear Customer, Fawri+ payment-BHD3.505, ref: BIB103B0198004TQ was credited to BH38BBKU00200XXXXX5290 on Jul 16 2020  2:12PM Tel:17515151

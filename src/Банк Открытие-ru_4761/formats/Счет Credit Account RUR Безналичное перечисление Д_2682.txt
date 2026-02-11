@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*redit.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(Безнал.*?),\s+([\d-]{10}).*оступ.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Счет 4081***0519. Credit Account 26 222.27 RUR Безналичное перечисление, 2016-10-13 21:53:19. Доступно 159 606.76 RUR.

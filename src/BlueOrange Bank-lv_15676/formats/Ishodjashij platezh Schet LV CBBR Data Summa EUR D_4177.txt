@@ -1,0 +1,7 @@
+^Ishod.*chet.*?(\d{4}) .ata.*? ([\d.]{8}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*etal\w*:\s*(.*?)\s+.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Ishodjashij platezh Schet: LV65CBBR1234567890 Data: 05.05.19 11:14 Summa: -1.26 EUR Detali: Nichupienko Ilya Balans: 0.00 EUR

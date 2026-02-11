@@ -1,0 +1,7 @@
+^.*charge.*?([A-Z]{3})\s*([\d\s.,]*\d).*ending (\d{4}) by\s+(.*?)\s+on ([\d/]{8}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dd/MM/yy
+
+-----EXAMPLE-----
+There was a charge of SGD12.50 on your Citi Prestige Card ending 5504 by CEDELE-HLV             SINGAPORE     SGP on 03/04/16

@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}), .alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}), .*?\*(\d{4}),\s+(.*?), (\d{2}[-./]\d{2}[-./]?\d{0,4}) .*
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+-100.00 UAH, Balans: 1 200.00 UAH, Card *1234, APTEKA, 22.10 17:23. Vygravai iPhone ta 70 pryziv: sbrf/in.ua/portal Tel.5595

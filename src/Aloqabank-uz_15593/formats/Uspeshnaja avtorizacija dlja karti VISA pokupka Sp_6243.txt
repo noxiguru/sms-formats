@@ -1,0 +1,7 @@
+^Uspes.*\*(\d{2,4}):\s+(\d{2}-\d{2}-\d{2}).*okupka\..*omiss.*?([\d\s.,]*\d)\s*[A-Z]{3}\s+(.*?)\s+-([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yMd;fee;payee;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Uspeshnaja avtorizacija dlja karti VISA *51: 24-06-02 20:15 pokupka. Spisanie komissii za operaciju: 0.00 UZS SP OOO FASHION RETAI -822300.00 UZS. Dostupno: 6201339.66 UZS. Kreditnij limit: 0.00 UZS. Sobstvennie sredstva: 6201339.66 UZS

@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).([\d/]{8}).*?OTMENA ([\d\s.,]*\d) ([A-Z]{3}).(.*?).OSTATOK ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+KARTA:4177*9628,22/10/13 20:36,OTMENA 1.00 USD,GOOGLE *SELLER, , GOOGLE.COM/CH,OSTATOK 5865715 BYR. Spravka: 5099999

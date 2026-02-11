@@ -1,0 +1,7 @@
+^.*?#(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+Deposit ATM.*([\d/]{10}).*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+PAN#5250 1200 UAH Deposit ATM S1CNI395 SUMGAITS''KA STR. 3 CHERKASY UA 27/10/2015 12:38:55 Dostupno: 17085.93 UAH Vsogo: -1277.97 UAH

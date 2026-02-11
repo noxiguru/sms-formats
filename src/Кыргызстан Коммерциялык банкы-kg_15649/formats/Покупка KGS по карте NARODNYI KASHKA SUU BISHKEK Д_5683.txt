@@ -1,0 +1,7 @@
+^Покуп.*?([\d\s.,]*\d)\s*([A-Z]{3}) по карте \*(\d{4}) (.*?) .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка: 149.54 KGS по карте *3337 NARODNYI (KASHKA-SUU), BISHKEK Доступно: 70565.19 KGS

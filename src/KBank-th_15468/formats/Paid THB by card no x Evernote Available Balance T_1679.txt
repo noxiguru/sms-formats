@@ -1,0 +1,7 @@
+^Paid.*?([A-Z]{3})([\d\s.,]*\d).*?(\d{4}) @ (.*) ([\d/]{5}).*alan.*?(-?[\d\s.,]*\d)
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dd/MM;av_balance
+
+-----EXAMPLE-----
+Paid THB0.00 by card no. x-8582 @ Evernote 09/04/58 16:13 Available Balance THB33,716.32

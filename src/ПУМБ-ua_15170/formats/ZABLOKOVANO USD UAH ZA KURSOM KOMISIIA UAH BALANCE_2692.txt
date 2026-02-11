@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*ZABLOK.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+\((([\d\s.,]*\d).*?)\).*KOMIS.*?([\d\s.,]*\d).*BAL.*?(-?[\d\s.,]*\d).*?KOSHTY\s+[\d\s.,]+[A-Z]{3}\s+(.*)
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;op_outcome;instrument;comment;outcome;fee;av_balance;payee
+
+-----EXAMPLE-----
+*8378 2016-10-09 18:50 ZABLOKOVANO 5.90USD (153.99UAH ZA KURSOM 26.10) KOMISIIA 0.00UAH BALANCE 12885.34UAH VLASNI KOSHTY 12885.34UAH WWW.ALIEXPRESS.COM LONDON

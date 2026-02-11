@@ -1,0 +1,7 @@
+^.*?(\d{4}).*Spisanie U.*([\d-]{10}).*Summa.*?([\d\s.,]*\d) ([A-Z]{3}).*Ostatok.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+4..6523 Spisanie Uspeshno 2015-02-05 00:00:00 Summa: 15 700 BYR Ostatok: 132 095 BYR Na vremya: 11:56:32 //Izmenenie balansa, BSB Bank

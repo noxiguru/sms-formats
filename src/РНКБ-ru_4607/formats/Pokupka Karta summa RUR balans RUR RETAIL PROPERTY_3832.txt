@@ -1,0 +1,22 @@
+^.*(?:okup|nikal).*art.*?(\d{4})\s.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\s+(?:\(vre.*?)?(\d{2,4}-\d{2}-\d{2}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;payee;date#yMd
+
+-----EXAMPLE-----
+Pokupka, Karta:8624 summa:774.41 RUR  balans:18354.04 RUR RETAIL PROPERTY 6 1491 (vremya operatsii MSK 2017-06-12 13:37:48)
+
+-----EXAMPLE-----
+Pokupka, Karta:8792 summa:79.00 RUR  balans:14663.70 RUR BLINNAIA GOTOVO 18-08-02 11:25:58
+
+-----EXAMPLE-----
+RPokupka Karta:1710 summa:1.00 RUR balans:6488.02 RUR MMR* YOULA Leningradsk 18-11-18 11:40:29
+
+-----EXAMPLE-----
+Unikalnaya operatsiya Karta:2041 summa:14900.00 RUR balans:58783.75 RUR INTERKASSA COM 19-01-14 21:33:46
+
+-----EXAMPLE-----
+Pokupka, karta: 9739 summa: 190.00 RUR balans: 150438.28 RUR. KAFE CHAO 21-02-03 09:43:47
+
+-----EXAMPLE-----
+Pokupka, karta: 3716 summa: 295.00 RUR balans: 1038.82 RUR. Stolovaia "Bistro" 20-12-22 14:44:55

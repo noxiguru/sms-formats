@@ -1,0 +1,7 @@
+^Summa.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4})\s+на\s+ваш.*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Summa: 1524,00 KZT Karta: ***0526 на ваш счет Dostupno: 0,00 KZT ║ Bereke Bank

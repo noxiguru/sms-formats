@@ -1,0 +1,7 @@
+^Na rahun.*?#\d*(\d{4}).*arahova.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Na rahunok 2625#48002 zarahovano 2663.81 UAH 22/12/2016 Zavantazhujte programu MBanking na Vash telefon https://goo.gl/xkG927

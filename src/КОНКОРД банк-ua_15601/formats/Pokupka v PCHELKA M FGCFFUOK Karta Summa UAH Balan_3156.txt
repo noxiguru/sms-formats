@@ -1,0 +1,7 @@
+^.* ([\d.]{8}) Pokupka v\s+(.*?)\s+.art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;payee;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+18:03:52 17.08.17 Pokupka v PCHELKA1225M14FGCFFUOK Karta 5*4434 Summa 40.28 UAH Balans 2321.98 UAH (050)(068)(056)7345005

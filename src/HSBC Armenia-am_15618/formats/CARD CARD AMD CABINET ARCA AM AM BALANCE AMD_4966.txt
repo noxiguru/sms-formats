@@ -1,0 +1,7 @@
+^CARD2CARD ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*BALA.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+CARD2CARD 25,000.00 AMD 5571***8126 CABINET ARCA.AM, AM 22.01.2021 19:39 BALANCE: 895,252.63 AMD

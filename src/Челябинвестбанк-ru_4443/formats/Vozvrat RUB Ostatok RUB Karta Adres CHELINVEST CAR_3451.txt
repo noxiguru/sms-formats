@@ -1,0 +1,7 @@
+^([\d.]{8}) .*(Vozvrat)([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*\*(\d{4}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;comment;income;instrument;av_balance;syncid
+
+-----EXAMPLE-----
+09.02.18 10:06 Vozvrat 200.00 RUB. Ostatok: 8338.78 RUB. Karta: *0705. Adres: CHELINVEST CARD TO CARD, RUS, Chelyabinsk, pl.Revolutsii, 8

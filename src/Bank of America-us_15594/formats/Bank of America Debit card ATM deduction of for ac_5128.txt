@@ -1,0 +1,7 @@
+^.*ebit.*?ATM.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) for .*? (\d{4}) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;date#Mdy
+
+-----EXAMPLE-----
+Bank of America: Debit card/ATM deduction of $600.00 for account 8130 on 08/28/2021. Go online to view details.

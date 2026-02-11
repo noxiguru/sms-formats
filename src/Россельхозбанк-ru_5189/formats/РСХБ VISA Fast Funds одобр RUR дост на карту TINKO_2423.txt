@@ -1,0 +1,10 @@
+^.*? ([\d/]{5}) .*Fast Funds.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+[Дд]ост.*?([\d\s.,]*\d).*?на карт.*?(\d{4}).*
+
+-----COLUMNS-----
+date#dd/MM;income;instrument;av_balance;syncid
+
+-----EXAMPLE-----
+РСХБ 14/05 21:17:06 VISA Fast Funds одобр. 1,010.00 RUR дост. 10,000.00 на карту *3104 TINKOFF BANK CARD2CARD Visa Direct RU
+
+-----EXAMPLE-----
+РСХБ 19/05 21:24:10 Перевод Fast Funds одобр. 350.00 RUR Доступно 360.00 на карту *3104 TINKOFF BANK CARD2CARD Visa Direct RU

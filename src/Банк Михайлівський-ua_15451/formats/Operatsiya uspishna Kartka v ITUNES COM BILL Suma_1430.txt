@@ -1,0 +1,7 @@
+^.*uspish.*([\d/]{5}).*(\d{4})(?:\s+v)?\s+(?!.*ATM)(.+)\s+Suma.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Operatsiya uspishna 06/11 20:22 Kartka 4487-8029 v ITUNES.COM/BILL. Suma 3.99 USD Balans 20025.65 UAH www.mbank.kiev.ua. Tel.0800304040

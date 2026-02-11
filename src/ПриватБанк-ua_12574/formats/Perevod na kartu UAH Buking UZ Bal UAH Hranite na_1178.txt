@@ -1,0 +1,7 @@
+^(.{4}).*Perevod\s+na\s+kartu\s+([\d\s.,]*\d)([A-Z]{3})\s+\((.*?)\).\s+?Bal:(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+5*98 18:16 Perevod na kartu 380.98UAH (Buking UZ). Bal:38837.26UAH  Hranite na karte Gold lichnye sredstva i poluchaite na nih do 10%! pb.ua/gol

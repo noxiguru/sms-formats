@@ -1,0 +1,8 @@
+^Zachis.*?([\d\s.,]*\d)\s*([a-zA-Z]{3})\s+[\d:]{8}\s+([\d.]{8})\s+DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Zachislenie sredstv 8 008.81 rub 14:35:42 14.07.16
+DOSTUPNO: 8 008.81 rub

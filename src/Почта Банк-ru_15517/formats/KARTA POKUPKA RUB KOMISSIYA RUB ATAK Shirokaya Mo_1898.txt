@@ -1,0 +1,13 @@
+^.*\*(\d{4})\s+([\d.]{8}).*(?:POKUP|SPISAN|KAZINO).*?([\d\s.,]*\d)\s*([A-Z]{3}).*OMISS.*?([\d\s.,]*\d).*?\)\s+(.*)\s+DOSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;fee;payee;av_balance
+
+-----EXAMPLE-----
+KARTA 4*7697 22.07.15 21:13 POKUPKA 436.00 RUB (KOMISSIYA 0.00 RUB) ATAK 607_Shirokaya Moscow Russia DOSTUPNO 1885.12 RUB
+
+-----EXAMPLE-----
+KARTA 4*8474  10.08.16 13:15  SPISANIE 1030.00 RUB  (KOMISSIYA 300.00 RUB)  TINKOFF BANK CARD2CARD Visa Direct Russia  DOSTUPNO 11008.41 RUB
+
+-----EXAMPLE-----
+KARTA 4*1948  21.12.16 14:29  KAZINO 1.01 RUB  (KOMISSIYA 300.00 RUB)  YANDEX.MONEY MOSCOW Russia  DOSTUPNO 52.83 RUB

@@ -1,0 +1,7 @@
+^Pokup.*art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s+\S{3}\s+(.*?)\s+\(.*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Pokupka, Karta:7406 summa:2.290,00 RUR  balans:9.170,46 RUR M.VIDEO 150 (vremya operatsii MSK 2018-01-13 14:31:15)

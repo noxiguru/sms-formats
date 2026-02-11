@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*?CARD(\d{4}):\s+(?:(?:Vydan|Выдан).*?)([A-Z]{2,3})\s*([\d\s.,]*\d).*?алан.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+13.12.2024 15:03 CARD2113: Выдано RUR 4,900.00 SURGUT UL.GAGARINA,24 ATM85-SM-FIRST Баланс: RUR 25,762.21 ║ Выдано 4,900.00 ₽ UL. GAGARINA,24

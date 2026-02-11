@@ -1,0 +1,7 @@
+^Перевод кли.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W) По сч.*?\*(\d{4}) .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Перевод клиенту RBK: 5 000.00₸ По счету: *8199 Доступно:  54 646.99 ₸ ║ My RBK

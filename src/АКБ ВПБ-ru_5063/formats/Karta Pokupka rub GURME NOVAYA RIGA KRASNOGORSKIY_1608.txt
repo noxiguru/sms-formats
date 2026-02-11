@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*(?:окупка|okupka).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{3}).?\s+(.+)\s+[\d:]{5}\s+([\d.]{8})(?!.*Досту|.*Dostu).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yy
+
+-----EXAMPLE-----
+Karta 5483*6813.  Pokupka 275.00 rub.   GURME-NOVAYA RIGA >KRASNOGORSKIY 21:39 17.11.15.

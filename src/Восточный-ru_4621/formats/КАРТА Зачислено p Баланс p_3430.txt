@@ -1,0 +1,7 @@
+^\w+(\d{4}) .*?ачисл.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\D?\s+([\d.]{8}|)[\d\s:A-ZА-Я]*.алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+КАРТА2889 Зачислено 2000p Баланс: 69907.67p

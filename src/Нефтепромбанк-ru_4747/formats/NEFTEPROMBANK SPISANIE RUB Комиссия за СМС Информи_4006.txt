@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8}) .*SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(.омисс.*? за .*?|.omiss.*? za .*?)\s+BALA.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+NEFTEPROMBANK *3065 18.10.18 17:22 SPISANIE 60.00 RUB Комиссия за СМС-Информирование BALANS: 20,409.93 RUB

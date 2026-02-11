@@ -1,0 +1,7 @@
+^.*\*([\d]{4}). Pokupka. ([\d\s.,]*\d)\s*([A-Z]{3}). Mesto:\s*([^;]+); ([\d.]{10}).*?Dostupno.*? (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+5163***8836; Pokupka: 1 120.36 RUB; Mesto:PAYPAL *DEALEXTREME, 4029357733; 18.01.2014 00:00; Dostupno 7 686.46 RUB; .   Budet nachisleno plusov Svyaznoy-Club: 11.2.

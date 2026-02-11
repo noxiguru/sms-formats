@@ -1,0 +1,10 @@
+^\W*([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(.*?)\s+\*(\d{3,4}) [\d:]+ (Кешб.*?|)\s*Бал.*?\.?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+🛒 147.57UAH Uber *736 17:16 Бал. 9651.35UAH ║
+
+-----EXAMPLE-----
+🍸 254.00UAH Ресторан Dominospizza, LVOV *736 19:02 Кешбек 7.62 грн Бал. 9332.41UAH ║

@@ -1,0 +1,7 @@
+^([a-zA-Z]{2,3})\.?\s*([\d\s.,]*\d).*ithdraw.*?(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Rs 5000 was withdrawn at an ATM from a/c XX6709. The balance is now Rs 125322.37. Please tell us about your experience at this ATM http://citi.asia/2aKpsW6

@@ -1,0 +1,7 @@
+^(?!.*(?:tmena|тмена|stat|стат)).*?(?:okupk|окупк).*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(MCC\s+\d+),\s+(.*?),\s+(?:(?:[Cc]ash[Bb]ack|[Кк]эшбэк).*?\s+)?(\d{2}[-./]\d{2}[-./]\d{2,4}|).*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;payee;date#dMy;syncid
+
+-----EXAMPLE-----
+Покупка 14.81 USD, MCC 5541, WAWA 8136, 02.12.2023 06:25, карта ***0239. Подробнее в приложении Forte ║

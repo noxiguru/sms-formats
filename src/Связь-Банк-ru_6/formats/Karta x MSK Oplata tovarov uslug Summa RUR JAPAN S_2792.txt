@@ -1,0 +1,13 @@
+^.*?x(\d{4}) ([\d.]{10}).*?(?:плата|plata|pisan|писан|okupk)(?!.*(?:осту|ostu)).*?(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s*(?:(?:Kontakt|Контакт).*|)$
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee
+
+-----EXAMPLE-----
+Karta 5x0763 20.02.2014 19:55 MSK Oplata tovarov/uslug Summa 3420,00 RUR JAPAN SPORT DINAMOKontakt-czentr +74955800080
+
+-----EXAMPLE-----
+Karta 4x6380 27.12.2016 17:57 MSK Pokupka Summa 196,00 RUR MAGNIT MM ARAKHISOVYJKontakt-centr +74955800080
+
+-----EXAMPLE-----
+Karta 2x6168 17.12.2019 11:35 MSK Pokupka Summa 1500,00 RUR SHTRAFY GIBDD

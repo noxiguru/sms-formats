@@ -1,0 +1,10 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+(.arplat\w+.*?|.*ashback.*)\s+(?:na\s+sch.*?)?\*+(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;comment;syncid;av_balance
+
+-----EXAMPLE-----
+143,752.80 KZT Zarplata na schet *5784 Balans 144 361.56 KZT Tel.7711
+
+-----EXAMPLE-----
+857.91 KZT Zachisleniye cashback ***7483 Balans 491 256.02 KZT Tel.7711

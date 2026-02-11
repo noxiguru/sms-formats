@@ -1,0 +1,19 @@
+^.*\*(\d{4}).*(?:umenshen|uvelichen|увеличен|уменьшен)\s+(?:bal|бал).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+Karta *3281: uvelichen balans scheta na 4623.55 RUR; dostupno 90715.14 RUR (v tom chisle kreditnie sredstva 90715.14 RUR).VTB24
+
+-----EXAMPLE-----
+Karta *1328: umenshen balans scheta na 59.00 RUR; dostupno 507.39 RUR (v tom chisle kreditnie sredstva 0.00 RUR).VTB24
+
+-----EXAMPLE-----
+Schet *2006: uvelichen balans scheta na 19600.00 RUB; 11.07.2017 12:08; dostupno 19600.50 RUB (sobstv. sredstva: 19600.50 RUB)VTB24
+
+-----EXAMPLE-----
+Karta *7568: uvelichen balans scheta na 377.00 RUR; dostupno 58355.89 RUR (v tom chisle kreditnie sredstva 0.00 RUR).VTB24
+
+-----EXAMPLE-----
+Карта *1806: увеличен баланс счета на 17734.82 RUR; доступно 127125.71 RUR (в том числе кредитные средства 127125.71 RUR). ВТБ24

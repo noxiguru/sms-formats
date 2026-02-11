@@ -1,0 +1,22 @@
+^.*?\*(\d{4})\s+([\d.]{8}) [\d:]+\s+(?:POKUP\S+|.окупк\S+|.ронир\S+|.плата(?: брони)?)?(?!.*(?:KOMIS|омисс))([\d\s.,]*\d)\s*([а-яA-Z]{1,3})\s+(.*?)\s+(?:DOST|.осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+KARTA 4*1569  09.07.17 12:15  POKUPKA 156.00 RUB   MAGNIT MM LYUTNYA LUGA Russia  DOSTUPNO 3225.22 RUB
+
+-----EXAMPLE-----
+Карта 4*5073  17.01.18 19:49  Покупка 196.60 RUB   MAGNOLIYA MOSCOW Russia  Доступно 16277.59 RUB
+
+-----EXAMPLE-----
+Карта 4*0633  23.04.18 20:43   1518.74 RUB   HCFB G MOSKVA Russia  Доступно 81.26 RUB
+
+-----EXAMPLE-----
+Карта 4*1599  06.09.18 01:37  Бронирование 269.00 RUB   YANDEX.TAXI MOSCOW Russia  Доступно 88312.21 RUB
+
+-----EXAMPLE-----
+Карта 2*5782 11.04.19 17:41 Покупка 627.97р  PYATEROCHKA 14843 Kaluga Russia Доступно 76.36р
+
+-----EXAMPLE-----
+Карта 2*5123 23.05.19 11:23 Оплата брони 65.00р  taximaxim.ru UL.UNIVER CHELYABINSK Russia Доступно 1142.28р

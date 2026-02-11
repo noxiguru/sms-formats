@@ -1,0 +1,7 @@
+^Kode (?:\w+ )?\d{6}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Kode Otentikasi 980087, JANGAN INFO SIAPAPUN & WASPADA PENIPUAN. Kode tsb utk pembayaran transaksi di Tokopedia sebesar IDR 174.400,00

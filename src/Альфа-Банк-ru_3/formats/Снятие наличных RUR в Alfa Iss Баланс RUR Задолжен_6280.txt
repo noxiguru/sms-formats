@@ -1,0 +1,7 @@
+^Снят.*нал.*\*(\d{4}):\s+([\d\s.,]*\d)\s*([A-Z]{3}).*алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Снятие наличных *1825: 28 000 RUR в Alfa Iss Баланс: 1 402,82 RUR Задолженность: 1 098 597,18 RUR

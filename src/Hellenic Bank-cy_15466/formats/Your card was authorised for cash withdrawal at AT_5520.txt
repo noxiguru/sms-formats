@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*cash\s+with.*?for\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(?:\(.*\s+)?\W?\d{1,2}:\d{2}.*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome
+
+-----EXAMPLE-----
+Your card *1314 was authorised for cash withdrawal at ATM 214- Enaerios for EUR 280,00 @18:18.

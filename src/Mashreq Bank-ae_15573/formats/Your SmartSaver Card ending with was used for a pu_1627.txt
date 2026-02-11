@@ -1,0 +1,7 @@
+^.*end.*?(\d{4}) .*?for (?!.*ithdraw).*?([A-Z]{3})\s*([\d\s.,]*\d) at\s+(.*)\s+on\s+(\d{1,2}\s*\S{3}\s*\d{2})(?!.*Avl|.*vail).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#ddMMMyy
+
+-----EXAMPLE-----
+Your SmartSaver Card ending with 5493 was used for a purchase of AED 18.00 at ONE LIFE KITCHEN AND C DUBAI          AE on 15May18 08:44

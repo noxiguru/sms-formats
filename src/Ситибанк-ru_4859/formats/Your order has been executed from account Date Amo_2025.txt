@@ -1,0 +1,7 @@
+^.*order.*exec.*\*(\d{4}).*([\d/]{8}).*mount.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#MM/dd/yy;outcome;instrument
+
+-----EXAMPLE-----
+Your order has been executed from account **8243 Date: 10/16/15 Amount: 646.00 RUB

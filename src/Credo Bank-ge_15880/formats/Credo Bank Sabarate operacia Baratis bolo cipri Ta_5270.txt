@@ -1,0 +1,7 @@
+^.*abarate\s+op(?!.*ATM).*ipri:\s*(\d{4})\s+.anxa:\s*([\d\s.,]*\d)\s*([A-Z]{3})\s+.biekti:\s*(.*?)\s+.arighi:\s*(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*ashti.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Credo Bank: Sabarate operacia Baratis bolo 4 cipri: 5706 Tanxa: 70.40 GEL Obiekti:Ltd Lileo, Tbilisi Tarighi: 21/03/2022 23:25:50 Nashti angarishze: 173.40 GEL

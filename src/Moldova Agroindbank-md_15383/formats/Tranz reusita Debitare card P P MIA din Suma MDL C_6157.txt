@@ -1,0 +1,10 @@
+^.*ebitare.*din\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]+\W?\s+[Ss]uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ard|ont):\s*(?:[\dA-Z]*|\*)(\d{4}).*[Dd]isp.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Tranz. reusita: Debitare card P2P MIA din 17.03.24 16:14. Suma: 100,00 MDL. Card: *8361. Suma disp.: 2.900,80 MDL.
+
+-----EXAMPLE-----
+Tranz. reusita: Debitare card P2P MIA din 31.10.24 21:02. Suma: 1.000,00 MDL. Cont: 1234567890. Disponibil: 3.035,50 MDL.

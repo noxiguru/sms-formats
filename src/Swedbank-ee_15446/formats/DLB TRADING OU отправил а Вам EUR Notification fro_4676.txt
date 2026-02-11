@@ -1,0 +1,7 @@
+^(.*?) отправил.*Вам ([\d\s.,]*\d)\s*([A-Z]{3})\W? ║ .*
+
+-----COLUMNS-----
+payee;income;instrument
+
+-----EXAMPLE-----
+DLB TRADING OU отправил(а) Вам 1.00 EUR. ║ Notification from Swedbank

@@ -1,0 +1,10 @@
+^M\.+(\d{4})\s+([\d]{4}-\d{2}-\d{2})\s+.*ransfer.*from.*?([\d\s.,]*\d)\s*([A-Z]{3})\s*(.*?)\s*(?:║\s.*)?$
+
+-----COLUMNS-----
+syncid;date#yMd;outcome;instrument;comment
+
+-----EXAMPLE-----
+M...0499 2024-12-28 10:02:18 Transfer IPS from account;724.00 MDL reincarcare cont Orange ║ 724.00 MDL 2024-12-28 10:02:18
+
+-----EXAMPLE-----
+M...7349 2025-01-15 20:58:38 Transfer IPS from account;2554.52 MDL ║ 2554.52 MDL 2025-01-15 20:58:38

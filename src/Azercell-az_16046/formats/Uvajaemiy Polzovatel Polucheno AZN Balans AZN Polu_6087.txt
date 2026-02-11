@@ -1,0 +1,10 @@
+^.*oluchen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Uvajaemiy Polzovatel,
+Polucheno: 40.00 AZN. Balans: 51.70 AZN.
+Poluchi mqnovennoqo keshbeka, popolniv mobilniy balans s "akart"!
+https://bit.ly/akrtpyr

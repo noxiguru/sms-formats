@@ -1,0 +1,7 @@
+.*?(?:Schet|Sch[eё]t|Счет)\s+po\s+karte.*?\*(\d{3,4}).*?(?:izmenen|изменен)\s+na\s+(?:summu|сумм\w*)\s+([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3}).*?(\d{1,2}[-./][A-Za-z]{3}[-./]\d{2,4})(?=\s|$)
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy
+
+-----EXAMPLE-----
+Schet po karte VISA *1726 izmenen na summu  12355200.00 UZS. 25-JUL-2025 17:38

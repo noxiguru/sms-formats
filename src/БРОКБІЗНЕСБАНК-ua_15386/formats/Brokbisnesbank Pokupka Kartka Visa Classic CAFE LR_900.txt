@@ -1,0 +1,7 @@
+^.*?Pokupka.*?([\d.]{8}).*Kartka[^\d]+(\d{4}) (.*) Suma=([\d\s.,]*\d)([A-Z]{3}) Zalishok=([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Brokbisnesbank Pokupka 11.07.13 12:34 Kartka-Visa Classic 1764 CAFE LRB U Suma=23.59UAH Zalishok=5787.57UAH Approved

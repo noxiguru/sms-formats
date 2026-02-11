@@ -1,0 +1,7 @@
+^Vozv.*arta.*?(\d{4}).*umma.*?([\d\s.,]*\d)\s*([A-Z]{3})\.?\s+(.+)\.\s*([\d.]{5}\.\d{4}).*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Vozvrat. Karta 3907. Summa 6.13 RUB. GCODE8143 RU MOSCOW. 20.12.2015,  20:54:21. Dostupno 116234.21 RUR.

@@ -1,0 +1,13 @@
+^.*[Cc]ash\s+[Ww]ithd.*?\s([A-Z]{3})\s*([\d\s.,]*\d).*(?:ending|A/C).*?([-\dX]{15}|\d{4})\s.*(?:Bal|alan|imit).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;av_balance
+
+-----EXAMPLE-----
+You made a cash withdrawal of AED 1,000.00 with your Credit Card ending XXXX68742 at DIB BUSINESS BAY BRANC D, Dubai. Available Limit is AED 5,429.07.
+
+-----EXAMPLE-----
+Cash Withdrawal of AED 10,000.00 with Debit Card ending 6663 at AL BARSHA BRANCH I, DUBAI. Avl Bal is AED 430,561.24.
+
+-----EXAMPLE-----
+Cash withdrawal of  AED  477.01  made with your Debit Card linked to A/C 101-XXX83XXX-01 at  , Buraimi. Available Balance  AED  417,197.82. Refer statement for exact amount.

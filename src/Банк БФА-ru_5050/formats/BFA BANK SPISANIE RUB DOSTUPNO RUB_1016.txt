@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d.]{8}).*SPISANIE ([\d\s.,]*\d) ([A-Z]{3}).*DOSTUPNO ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+BFA BANK 4578***1151 17.10.13 14:27 SPISANIE 4000.00 RUB , DOSTUPNO 123852.86 RUB

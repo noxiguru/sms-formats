@@ -1,0 +1,7 @@
+^.*?ostup.*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Postuplenie sredstv: PAYMENT + 6 056.00RUR Karta **7498 LEONID MAKAROV BAL:69 113.54 RUR 2016-09-30 00:00:00

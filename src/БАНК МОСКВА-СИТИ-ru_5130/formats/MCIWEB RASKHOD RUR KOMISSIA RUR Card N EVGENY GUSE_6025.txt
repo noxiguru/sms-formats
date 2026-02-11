@@ -1,0 +1,7 @@
+^.*RASK?HOD\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+KOMIS.*?([\d\s.,]*\d).*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+([\d]{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+outcome;instrument;fee;syncid;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+MCIWEB01 RASKHOD 27 885.23 RUR KOMISSIA: 0.00 RUR Card_N**6023 EVGENY GUSEV BAL:26 495.30 RUR 2023-09-30 10:48:37

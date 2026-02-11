@@ -1,0 +1,13 @@
+^((?:Utrymano|Narak?hov).*?)\s+(?:na sumu)?([\d\s.,]*\d)\s*([A-Z]{3}).*akhu.*?\d*(\d{4}).*
+
+-----COLUMNS-----
+comment;outcome;instrument;syncid
+
+-----EXAMPLE-----
+Utrymano komisiiu za StarSMS/StarSMS+ 10.90UAH za gruden, rakhunok 1234567890
+
+-----EXAMPLE-----
+Utrymano strakhovi platezhi v paketi ALL INCLUSIVE DE LUXE na sumu 60.00UAH, rakhunok 1234567890.
+
+-----EXAMPLE-----
+Narakhovano komisiiu za StarSMS/StarSMS+ 15.00UAH, rakhunok 1234567890. Prokhannia splatyty!

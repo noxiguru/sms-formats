@@ -1,0 +1,7 @@
+^Odliv.*?-([\d\s.,]*\d)\s*([A-Z]{3}) s.*?\d*(\d{4}) (.*?) .atum.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*tanje.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;comment;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Odliv: -0.88 EUR sa racuna: 1234567890 Clanarina za karticu br. 535131******6192 Datum: 01.11.22 Novo stanje: 139.67 EUR

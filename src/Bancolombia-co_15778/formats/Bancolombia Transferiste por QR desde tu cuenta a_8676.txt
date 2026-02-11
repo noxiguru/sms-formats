@@ -1,0 +1,7 @@
+.*?Transferiste\s+([^\d\s.,]{1,3})\s*([0-9][\d\s.,]*\d(?:[.,]\d{2})?).*?cuenta\s+(\d{3,4})\s+a\s+la\s+cuenta\s+(\d{3,4}).*?(\d{4}[-/]\d{2}[-/]\d{2})
+
+-----COLUMNS-----
+instrument;outcome;syncid;syncid;date#yMd
+
+-----EXAMPLE-----
+Bancolombia: Transferiste $38,000.00 por QR desde tu cuenta 3484 a la cuenta 3911, el 2025/04/04 14:26. ¿Dudas? Llamanos al 1234567890. Estamos cerca.

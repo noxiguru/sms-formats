@@ -1,0 +1,7 @@
+^.*?(\d{4}). Nalichnye. ([\d\s.,]*\d) ([a-zA-Z]{3}). ([\d.]{8}).*Dostupno = ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+EMB karta *070073, Nalichnye, 39500.00 rub, 01.08.13 19:15, PR.CHERNYSHEVSKOGO,20,9900, St Petersburg, Rossijskaja Federacija, balans - Dostupno = 367.73 rub

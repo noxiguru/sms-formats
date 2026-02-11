@@ -1,0 +1,19 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) ([\d\s.,]*\d)\s*[A-Z]{3} \d+\*+(\d{4}) (.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} (?:BALA|MNAC).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) ║ .*(?:GNUM|GUMA|PURCH).*
+
+-----COLUMNS-----
+op_outcome;instrument;outcome;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+30.40 AED 3,356.41 AMD 4318***7476 Careem, AE 26.02.2023 12:59 BALANCE: 961,406.19 AMD ║ IDBank: E-POS PURCHASE
+
+-----EXAMPLE-----
+47.92 EUR 20,792.59 AMD 5501***0922 LanguageTooler, DE 08.02.2023 15:26 MNACORD: 323,501.93 AMD ║ IDBank: GUMARI SARECUM
+
+-----EXAMPLE-----
+149.00 USD 60,165.84 AMD 4318***3087 Amazon.com, US 30.01.2023 14:56 MNACORD: 14,409.04 AMD ║ IDBank: E-POS GNUM
+
+-----EXAMPLE-----
+18.50 AED 2,037.51 AMD 4318***7476 T CHOITHRAMS AND SONS L, AE 16.03.2023 16:18 BALANCE: 953,474.35 AMD ║ IDBank: PURCHASE
+
+-----EXAMPLE-----
+24.28 GEL 3,880.63 AMD 5501***0922 FOODMART JSC, GE 28.04.2023 23:54 MNACORD: 1,763,544.37 AMD ║ IDBank: GNUM

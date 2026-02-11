@@ -1,0 +1,10 @@
+^.*?\*(\d{4}) ([\d-]{10}).*(?:HOLD|ZABLOK.*?)([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+.?BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+FUIB ACCOUNT CODE 1916973396 *0819 2014-01-16 19:34:18 *HOLD 434.07 UAH MEGAMARKET SURIKOVA KIYEV UA *BALANCE 2058.81 UAH
+
+-----EXAMPLE-----
+PROCREDIT GSM CODE 1959775101 *9474 2016-11-26 10:53:12 *ZABLOKOVANO 100.00 UAH LPN_V1 DNIPROPETROV UA *BALANCE 41271.19 UAH

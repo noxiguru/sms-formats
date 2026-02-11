@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*nesen\w+ nal.*?\+([\d\s.,]*\d),?\s*([A-Z]{3}).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d),?\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *5663. Kirim/Vnesenie nalichnih "Kapitalbank ATM 0113", +500.00, USD, "04-10-2022 15:09". Mavjud qoldiq/Dostupno: 503.64, USD.

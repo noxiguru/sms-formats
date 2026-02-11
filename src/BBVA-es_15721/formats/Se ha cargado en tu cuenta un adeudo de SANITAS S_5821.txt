@@ -1,0 +1,7 @@
+^.*carga.*uenta\s+(\d{4})\s+.*\s+de\s+(.*?)\s+de\s+([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+Se ha cargado en tu cuenta 5043 un adeudo de SANITAS S A DE SEGU... de 130,77 EUR ║ Cargo de adeudo 📄 💰

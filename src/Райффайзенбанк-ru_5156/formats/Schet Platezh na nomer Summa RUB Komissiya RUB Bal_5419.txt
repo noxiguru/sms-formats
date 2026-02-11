@@ -1,0 +1,7 @@
+^.*\*(\d{4})\. (.latezh.*?)\. .umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Schet *6676. Platezh na nomer +79231234567. Summa  1500.00 RUB.  Komissiya 50.00 RUB. Balans 77459.13 RUB

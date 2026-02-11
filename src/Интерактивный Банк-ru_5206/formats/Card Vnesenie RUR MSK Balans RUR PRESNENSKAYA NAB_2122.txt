@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+Vnese.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}).*alans.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Card*3579 Vnesenie 50,000.00 RUR 18.12.15 15:34 MSK Balans 50,103.25 RUR PRESNENSKAYA NAB.8/1 (MOSCOW,RU) iBank.ru

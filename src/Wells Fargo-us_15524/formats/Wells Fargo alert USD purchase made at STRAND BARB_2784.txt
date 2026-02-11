@@ -1,0 +1,7 @@
+^.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+.urchas.*?at\s+(.*?)\s+in.*end.*?(\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+Wells Fargo alert: 37.00 USD purchase made at STRAND BARBER & BEAUTY in SAN FRANCISCO USA using card ending in 63. Questions? Call number on back of card.

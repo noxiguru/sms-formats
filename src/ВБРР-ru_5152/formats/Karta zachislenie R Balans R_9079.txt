@@ -1,0 +1,7 @@
+.*?(?:Karta|Карта).*?\*(\d{4}).*?(?:zachislen\w*|Зачислен\w*|зачислен\w*).*?([0-9][\d\s.,]*\d)\s*([A-Za-zА-Яа-я]{1,3}).*?(?:Balans|Баланс)\s*:?\s*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-zА-Яа-я]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+Karta*6380 14:53 zachislenie 69305.32 R Balans: 69428.99 R

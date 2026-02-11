@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*charge.*?([A-Z]{3})\s*([\d\s.,]*\d) at (.*?) on ([\d/]{8}) .*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd/MM/yy
+
+-----EXAMPLE-----
+Your Debit Card#**4400 was charged for EGP 486.35 at SAMIR & ALI STATIONARY  CAIRO N. -07AEGY on 10/03/19 at 17:33. For details call 19666

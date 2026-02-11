@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d.]{8})\s.*?SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?KOMIS.*?([\d\s.,]*\d).*?\).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+NEFTEPROMBANK 4**7170 18.08.17 11:36 SPISANIE 12,779.99 RUB (KOMISSIYA 0.00 RUB) CARD2CARD CLK (MOSKVA,RU) BALANS: 1,174.35 RUB

@@ -1,0 +1,7 @@
+^(Your refund) of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) from (.*?) has.*uccess.*
+
+-----COLUMNS-----
+comment;instrument;income;payee
+
+-----EXAMPLE-----
+Your refund of €11.12 from CIRCLE K NOMME has been successfully processed.

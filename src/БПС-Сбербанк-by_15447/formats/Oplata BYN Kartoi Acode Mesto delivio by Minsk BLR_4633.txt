@@ -1,0 +1,7 @@
+^Oplata([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).* (\d{4}[-./]\d{2}[-./]\d{2}) .*esto.\s+(.*?);.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#yMd;payee;av_balance
+
+-----EXAMPLE-----
+Oplata 144.00 BYN Kartoi #0107 2020-04-28 12:29:55 Acode 794591; Mesto: delivio.by > Minsk BLR; Ostatok: 662.87 BYN. BPS-Sberbank

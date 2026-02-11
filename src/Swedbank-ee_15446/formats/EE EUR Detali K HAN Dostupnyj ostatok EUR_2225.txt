@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+\+([\d\s.,]*\d)\s*([A-Z]{3}).*\s([\d.]{8})\s.*ostat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+EE1234567890 +40.00EUR Detali: K1234567890 HAN00672 11.02.16 20:04 (261074) Dostupnyj ostatok: 42.35EUR

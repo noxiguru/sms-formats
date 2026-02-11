@@ -1,0 +1,7 @@
+^CH Debit_OK\s+([0-9][\d\s.,]*[.,]\d{2})\s*([A-Za-z]{1,3})\s*=\s*(-?[0-9][\d\s.,]*[.,]\d{2})\s*([A-Za-z]{1,3})\s+(\d{4}-\d{2}-\d{2})\s+\d{2}:\d{2}:\d{2}\s+Card=\d+\*\*(\d{4})\s+in\s+UKR\s+KYIV\s+\((.*?)\)\s*(?:║.*)?$
+
+-----COLUMNS-----
+outcome;instrument;balance;acc_instrument;date#yMd;syncid;payee
+
+-----EXAMPLE-----
+CH Debit_OK 10030.00 UAH = 300014.61 UAH 2025-06-21 11:46:08 Card=4**5475 in UKR KYIV (UKREXIMBANK P2P) ║ EXIM

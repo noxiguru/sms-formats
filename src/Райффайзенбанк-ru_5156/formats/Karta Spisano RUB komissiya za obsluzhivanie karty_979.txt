@@ -1,0 +1,10 @@
+^.*?(\d{4}). (?:Spis|Спис).*?([\d\s.,]*\d)\s*([A-Z]{3}).?\s+(.omissiya za.*?|.омиссия за.*?)\.\s*(?:Data|Дата).*([\d/]{10}).*(?:ostu|осту).*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Karta *7762; Spisano:750,00RUB; komissiya za obsluzhivanie karty. Data:05/09/2013; Dostupny Ostatok: 119164,50RUR. Raiffeisenbank
+
+-----EXAMPLE-----
+Карта *3829; Списано: 500 RUB; комиссия за обслуживание карты. Дата: 01/05/2018; Доступный Остаток: 187,000 RUB. Raiffeisenbank

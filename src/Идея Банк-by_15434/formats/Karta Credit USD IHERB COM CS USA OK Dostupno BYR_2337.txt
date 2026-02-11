@@ -1,0 +1,10 @@
+^.*?(\d{4}) ([\d.]{10}).*(?:redit|eversal)\s+\+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+OK. Dostupno(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 5.9408 15.04.2014 03:56:53 Credit +1,03 USD IHERB.COM/CS 9516163600 USA OK. Dostupno 608415 BYR
+
+-----EXAMPLE-----
+Karta 4.0887 15.07.2015 19:44:27 Reversal +1 USD GOOGLE *SELLER GOOGLE.COM/CH USA OK. Dostupno 36345118 BYR

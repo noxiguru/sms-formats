@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*art(?!.*otmen).*?(\d{4}).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+21.06.17 18:43 Karta 7719, spisanie 50.00RUB BANK SOYUZ, RUS. Balans 17016.40RUB

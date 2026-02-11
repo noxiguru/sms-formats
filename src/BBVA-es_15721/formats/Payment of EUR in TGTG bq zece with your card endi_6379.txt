@@ -1,0 +1,7 @@
+^Payment\s+of\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+in\s+(.*?)\s+(?:[a-z\d]{10,}\s+)?with.*ending.*?(\d{4}).*(Payment\s+cancel\w+).*
+
+-----COLUMNS-----
+income;instrument;payee;syncid;comment
+
+-----EXAMPLE-----
+Payment of 3,09 EUR in TGTG bq05zece40470 with your card ending in 2940 cancelled. ║ Payment cancelled ❌💳

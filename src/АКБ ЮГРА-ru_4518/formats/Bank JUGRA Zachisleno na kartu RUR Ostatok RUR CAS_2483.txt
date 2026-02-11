@@ -1,0 +1,10 @@
+^.*?achislen.*?(\d{4}),? ([\d\s.,]*\d)\s*([A-Z]{3}).*?stat.*?(-?[\d\s.,]*\d).*? ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Bank JUGRA: Zachisleno na kartu *7053 15000.00 RUR, Ostatok 15070.50 RUR, 24.06.16 19:53:16, CASH-IN MOSCOW PROFCOYUZNAI 56, +74959590000
+
+-----EXAMPLE-----
+Bank JUGRA: Zachisleno na schet XXX0097, 5117.35 RUR, Ostatok 6409.65 RUR, 27.01.17 19:58:28, +74959590000

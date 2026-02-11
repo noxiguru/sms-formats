@@ -1,0 +1,7 @@
+^.*(?:asavlis\s+op|ransfer/w).*?(\d{1,2}[-./]\d{1,2}[-./]\d{2,4}).*\d\s[PA]M.*(?:anxa|moun).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ashti|vail).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#Mdy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Amount transfer/withdrawal transaction 1/17/2025 12:46:42 PM; Amount: 1480.00 GEL; Available balance: 2867.00 GEL

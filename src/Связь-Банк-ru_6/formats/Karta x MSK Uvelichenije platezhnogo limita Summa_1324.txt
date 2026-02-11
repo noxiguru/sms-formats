@@ -1,0 +1,10 @@
+^.*?x(\d{4})\s+([\d.]{10}).*(?:velichenije pla|рием нал).*?(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:CASH|ATM).*(?:ostup|оступ).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4x3074 25.07.2014 16:40 MSK Uvelichenije platezhnogo limita Summa 30000,00 RUR SVB POS CASH 29624200 Dostupno 44749,01 RUR Kontakt-czentr +74955800080
+
+-----EXAMPLE-----
+Карта 4x5936 20.08.2016 12:45 МСК Прием наличных Сумма 20000,00 RUR ATM N00424158 Доступно 34007,00 RUR Контакт-центр +74955800080

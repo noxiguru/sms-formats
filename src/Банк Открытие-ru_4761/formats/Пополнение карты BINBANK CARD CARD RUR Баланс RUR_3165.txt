@@ -1,0 +1,22 @@
+^.*(?:ополнен|еревод на|erevod na|ачислен|achislen|opolnen)(?!.*правител|.*pravitel|.*олучател|.*oluchatel).*\*(\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}) .*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Пополнение карты *9385: BINBANK CARD2CARD 36 000.00 RUR 23.08.17 14:25. Баланс: 42 645.80 RUR. online.binbank.ru
+
+-----EXAMPLE-----
+Перевод на карту *4642 2 575.00 RUR 25.08.17 12:00. Баланс: 40 070.80 RUR. online.binbank.ru
+
+-----EXAMPLE-----
+Зачисление на карту *4342: 65 000.00 RUR 08.09.17 13:52, NOVOSIBIRSK IPT BINBANK. Баланс:65 082.56 RUR. online.binbank.ru
+
+-----EXAMPLE-----
+Zachislenie na kartu *2129: 15000.00 RUR 27.12.17 16:49, PERM PVN. Balans:15076.64 RUR. i.binbank.ru
+
+-----EXAMPLE-----
+Popolnenie karty *6504: BINBANK CARD2CARD 7000.00 RUR 27.12.17 09:26. Balans: 168795.20 RUR. i.binbank.ru
+
+-----EXAMPLE-----
+Perevod na kartu *0243: 1000.00 RUR 09.02.18 11:47. Balans: 20918.26 RUR. i.binbank.ru

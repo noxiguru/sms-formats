@@ -1,0 +1,2 @@
+bankdolinsk
+ru.ftc.faktura.dolinsk

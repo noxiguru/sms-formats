@@ -1,0 +1,7 @@
+^.*?a/perevod ([\d\s.,]*\d)([A-Z]{3}); ([\d.]{8}).*Ostatok ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Koshelek  rom***@list.ru. Provedena tranzakcija: oplata/perevod 139.00RUB; 16.01.14 15:52. Ostatok 151.00RUB. Dengi.MailRu

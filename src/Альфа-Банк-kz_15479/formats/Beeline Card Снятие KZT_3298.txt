@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s.*?\s([\d.]{8}) .*нятие(?!.*(?:алан|alan))([\d\s.,]*\d)\s*?([A-Z$]{1,3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument
+
+-----EXAMPLE-----
+Beeline Card  4092***5632 10:07:03 25.11.17 Снятие 500.00 KZT 00050005 050

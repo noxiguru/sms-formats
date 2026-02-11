@@ -1,0 +1,10 @@
+^Card.*?(\d{4})\s+used\s+for\s+([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d?\s+at\s+(.*?)\s+on\s+([\d]{2}[-/ ]\w+[-/ ]\d{2,4}).*Bal ([A-Z]{3})\s*(-?[\d\s,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Card of a/c 0307XXXXXXXX0014 used for OMR 10.000 at TAVOLA TRADING CO LLC  on 03 AUG 2023 11:05. Avl Bal OMR 2.499.
+
+-----EXAMPLE-----
+Card of a/c 0307XXXXXXXX0014 used for OMR 1.500 at BOOBALOO - MUSCAT MALL on 18/09/2023 20:45:51. Avl Bal OMR 429.964.

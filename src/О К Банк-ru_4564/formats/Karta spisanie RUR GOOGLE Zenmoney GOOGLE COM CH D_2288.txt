@@ -1,0 +1,7 @@
+^.*art.*?(\d{4}): ([\d.]{10}).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?),.*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 8188: 25.12.2015 11:03, spisanie 1490.00 RUR, GOOGLE *Zenmoney, GOOGLE.COM/CH. Dostupno 116195.59 RUR.

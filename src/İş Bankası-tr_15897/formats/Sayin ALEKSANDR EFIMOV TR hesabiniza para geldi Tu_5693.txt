@@ -1,0 +1,7 @@
+^.*\*(\d{3,4})\s+hesabin.*utar.*?([\d\s.,]*\d)\s*([A-Z]{2,3}).*arihi.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Sayin ALEKSANDR EFIMOV, TR1234567890*****504  hesabiniza para  geldi. Tutar: 500,00 TL Islem Tarihi-Saati: 25/01/2023 19:31 Gonderen/Aciklama: ERAL OZOKTAY tarafindan aktarilan*ERAL OZOKTAY*H1234567890

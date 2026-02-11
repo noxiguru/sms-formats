@@ -1,0 +1,13 @@
+^.*?\*(\d{4}).? ([\d.]{8}) .*(?:pisan|писан).*?([\d\s.,]*\d)\s*([A-Z]{3})\W? (.*?)\.\s+.(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta *2138: 15.02.19 00:27, spisanie 10000.00 RUR, TKBBANK, MOSCOW, VORONCOVSKAYA 27/35. Dostupno 5504.86 RUR. Spravka: 8-800-100-32-00
+
+-----EXAMPLE-----
+Карта *5152: 22.02.19 08:19, списание 230.00 RUR, CKASSA, YAROSLAVL. Доступно 4296.24 RUR. Справка: 8-800-100-32-00
+
+-----EXAMPLE-----
+Karta *8270: 16.10.19 10:45, spisanie 336.00 RUR, KFC RITEYL PARK, MOSCOW. Dostupno 70915.42 RUR.

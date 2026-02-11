@@ -1,0 +1,7 @@
+^.*(\d{4}) ([\d.]{10}).*?Izmenenie o.*?-([\d\s.,]*\d)\s*([A-Z]{3}) OK.\s*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 9.5797 30.10.2015 16:27:44 Izmenenie ostatka -1505 BYR OK. Dostupno 2333602 BYR

@@ -1,0 +1,7 @@
+^.*not\s+present\s+tran.*?of\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d).*card\s+(\d{4})\s+was\s+made\s+on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#Mdy
+
+-----EXAMPLE-----
+Santander: A card not present transaction of $30.54 for DEBIT card 4479 was made on 08/16/2023. Log in to Online/Mobile Banking for activity details.

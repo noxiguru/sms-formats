@@ -1,0 +1,7 @@
+^.*opovn(?!.* got).*?\*(\d{4}).*sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;balance
+
+-----EXAMPLE-----
+UniversalBank Popovnennia *0327 na sumu: 400.00 UAH 29.03.2018 21:11:42 Balans: -3102.98 UAH Dostupno: 11297.02 UAH

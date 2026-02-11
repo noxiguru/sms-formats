@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+zachisleno\s+([\d\s.,]*\d) ([A-Z]{3})\s+(\d{2}/[\d/]{7}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Karta 4...3720 zachisleno 6000,00 RUR 14/06/2013

@@ -1,0 +1,7 @@
+^Oplata(?!.*ostu).*?:\s*(.*?)\s+([\d.]{10}).*\*(\d{4}).*[Ss]um.*?([\d\s.,]*\d)([A-Z]{3}).*
+
+-----COLUMNS-----
+payee;date#dd.MM.yyyy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+Oplata: S1CS0F9K VELMART, UA 12.01.2018 12:15. Kartka 5169***0595. Suma 322.96UAH

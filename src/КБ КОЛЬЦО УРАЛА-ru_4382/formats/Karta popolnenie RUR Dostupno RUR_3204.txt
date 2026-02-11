@@ -1,0 +1,13 @@
+^.*(?:art|арт).*?(\d{4})\D?\s+([\d.]{10}).*(?:opoln|ополн).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту|alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 2126: 15.09.2017, popolnenie 34812.36 RUR. Dostupno 35027.35 RUR.
+
+-----EXAMPLE-----
+Карта 2126: 15.01.2018, пополнение 35769.87 RUR. Доступно 54322.43 RUR.
+
+-----EXAMPLE-----
+Karta 2088: 14.03.2018 popolnenie 88531.00 RUR. Balans 88576.66 RUR.

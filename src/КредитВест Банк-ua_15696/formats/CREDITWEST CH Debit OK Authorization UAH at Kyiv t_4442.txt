@@ -1,0 +1,7 @@
+^.*Debit_OK.*?([\d\s.,]*\d)\s*([A-Z]{3}) at .*?([\d-]{10}).*ard.*?(\d{4}) in\s+(.*?)\s+.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#yyyy-MM-dd;syncid;comment;av_balance
+
+-----EXAMPLE-----
+CREDITWEST CH Debit_OK Authorization: 3200.00 UAH at Kyiv time 2019-12-13 09:03:51 Card=6**4957 in UKR KYIV (MONODirect) Dostupniy zalyshok 401.93 UAH

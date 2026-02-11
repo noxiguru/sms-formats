@@ -1,0 +1,7 @@
+^(.*?): ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\D? ([\d-]{10}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+MYASNOVOTDOKHNI: 592,78 RUR; Карта *4086; 2019-12-25 20:53:08; Доступно 41 972,09 RUR.

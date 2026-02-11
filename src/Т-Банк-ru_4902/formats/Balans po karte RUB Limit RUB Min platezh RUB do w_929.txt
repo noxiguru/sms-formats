@@ -1,0 +1,7 @@
+^Balans.*?\*(\d{4})\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+Balans po karte *8827 1384.76 RUB. Limit 32000 RUB. Min platezh 0 RUB do 27.06.2013. www.tcsbank.ru

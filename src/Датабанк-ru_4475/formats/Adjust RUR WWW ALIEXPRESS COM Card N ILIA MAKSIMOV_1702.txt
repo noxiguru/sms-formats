@@ -1,0 +1,7 @@
+^Adjust.*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) Card.*?(\d{4}).*(?:BAL|OST).*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;comment;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Adjust: 50.00RUR WWW.ALIEXPRESS.COM Card_N**6950 ILIA MAKSIMOV OSTATOK:4 060.83 D: 2015-03-13 00:00:00

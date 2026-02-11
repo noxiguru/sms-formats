@@ -1,0 +1,7 @@
+^.*ending.*?(\d{4})\s+for\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+at\s+(.*?)\s+on\s+(\d{1,2}-[A-Z]{3}-\d{2}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd-MMM-yy;av_balance
+
+-----EXAMPLE-----
+Thank You for using your HDFC Bank Visa Multicurrency SGD Card ending with XXXX6456 for SGD 85.71 at NUS-PRINCE GEORGE'S PARK on 26-JUL-16 08:07 AM. Post txn Card Bal is SGD 424.29.

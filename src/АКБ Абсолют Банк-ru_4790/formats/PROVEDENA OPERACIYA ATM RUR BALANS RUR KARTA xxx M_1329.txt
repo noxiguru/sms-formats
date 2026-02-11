@@ -1,0 +1,7 @@
+^.*?PROVEDENA OP.*ATM \d+ ([\d\s.,]*\d) ([A-Z]{3}). BALANS:\s*(-?[\d\s.,]*\d).*(\d{4});.*?([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;syncid#cash;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+PROVEDENA OPERACIYA ATM 00029 10 000.00 RUR; BALANS: 65 368.20 RUR; KARTA 4433xxx68167; 09-44 28.07.2014 Msc

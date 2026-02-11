@@ -1,0 +1,7 @@
+^.*\*(\d{4}): (\d{2}[-./]\d{2}[-./]\d{2,4}) .*писан.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}),\s+(.*?)\..*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта *7549: 04.08.20 09:16, списание 80.00 RUR, PERVAYA POLOSA  11, SANKT-PETERBU. Доступно 1790.92 RUR.

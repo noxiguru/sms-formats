@@ -1,0 +1,7 @@
+^(Otmena).*ard(\d{4}).*?(?:plata|плата|erevod.*?pisan|еревод.*?писан|redavtoriz|редавториз|AUTOOPLATA|lokirovka).*?:([\d\s.,]*\d)\s*([A-Z]{3}).*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*?;\s+(.*?);.*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;date#dMy;payee;av_balance
+
+-----EXAMPLE-----
+Otmena; Card1234; Оплата в сети Интернет: 5,00 BYN; 09.05.20 18:27:12; I-SHOP,MINSK,BLR; Dostupno: 7 127,20 BYN ║ BGPB mobile

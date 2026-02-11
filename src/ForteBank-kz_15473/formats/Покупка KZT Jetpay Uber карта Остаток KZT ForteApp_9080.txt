@@ -1,0 +1,7 @@
+(?:[Пп]окупка)\s+(-?[0-9][\d\s]*[.,]\d{2})\s*([A-Za-z]{1,3}),\s{2,}(?!MCC\b)(.*?)\s*\((\d{2}[-./]\d{2}[-./]\d{4})\s+\d{2}:\d{2}\),\s*карта\s*\*(\d{4})\.Остаток:\s*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,3})
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dMy;syncid;balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка 2 920.00 KZT,  Jetpay*Uber (20.06.2025 23:08), карта *3891.Остаток: 4 437.97 KZT ║ ForteApp

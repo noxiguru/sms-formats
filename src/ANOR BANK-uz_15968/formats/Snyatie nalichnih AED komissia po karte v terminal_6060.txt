@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]+\s+Snyat.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+komis.*?([\d\s.,]*\d).*\*(\d{4}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;fee;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+16.11.2023 20:53 Snyatie nalichnih 1800.00 AED komissia 4.90 po karte 5477***5263 v terminale EMIRATES BANK I, AE, ostatok 235.92 USD

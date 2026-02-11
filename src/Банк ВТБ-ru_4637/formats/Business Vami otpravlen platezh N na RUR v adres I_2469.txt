@@ -1,0 +1,7 @@
+^(Business).*?([\d.]{10}).*?otpravlen\s+(plate.*?)\s+na([\d\s.,]*\d)\s*([A-Z]{3})\s+v\s+adres\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;comment;outcome;instrument;payee
+
+-----EXAMPLE-----
+Business: Vami 14.06.2016 12:41:06 otpravlen platezh N 75 na 389571.00 RUR v adres IP Poluektov Ro....

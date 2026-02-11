@@ -1,0 +1,10 @@
+^.*ate.?([\d.]{5})(?!.*nesen) .*ard.*?(\d{4}) .opoln.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Date:14.03 11:31 Card:5353-9496 Popolnenie=22,280.00 UAH Perevod na kartochnyj schet Balance=22352.5 UAH
+
+-----EXAMPLE-----
+Date:31.07 11:31 Card:5353-1112 Popolnenie=22,004.93 UAH Zarakhuvannja zarobitnoj plati ta inshikh vi Balance=22083.04 UAH

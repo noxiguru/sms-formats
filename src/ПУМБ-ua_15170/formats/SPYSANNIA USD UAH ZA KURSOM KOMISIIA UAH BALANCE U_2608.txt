@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*SPYSAN.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+\(([\d\s.,]*\d).*KOMIS.*?([\d\s.,]*\d).*BAL.*?(-?[\d\s.,]*\d).*?KOSHTY\s+[\d\s.,]+[A-Z]{3}\s+(.*)
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;op_outcome;instrument;outcome;fee;av_balance;payee
+
+-----EXAMPLE-----
+*8378 2016-08-30 13:13 SPYSANNIA 3.94USD (102.83UAH ZA KURSOM 26.10) KOMISIIA 0.00UAH BALANCE 8592.72UAH VLASNI KOSHTY 8592.72UAH WWW.ALIEXPRESS.COM LONDON GB D

@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) Spisano ([\d-]{10}) [\d:]*\s+([\d\s.,]*\d) ([A-Z]{3}) Perevod.*?Dostupno vsego (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta  VISA  *9299 Spisano 2014-03-03 17:03:39   36738.58 RUR Perevod na kartu VISA *6195 Mesto MOSCOW Turboperevod    Dostupno vsego 33507.72 RUR BINBANK tel 8 800 200 50 75

@@ -1,0 +1,7 @@
+^Zachislenie.*(\d{4}).\s+([\d\s.,]*\d)\s+([A-Z]{3})\s+([\d/]{8}).*Dostupno.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Zachislenie na kartu VISA *5630: 12600.00 RUR 25/12/2013 15:18:04 MSK. Dostupno: 12614.58 RUR. Tel: 88007752424

@@ -1,0 +1,7 @@
+^Vydac.*?nal.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Vydacha nalichnyh Karta:7406 summa:1.000,00 RUR  balans:12.579,35 RUR ATM-1400 (vremya operatsii MSK 2018-01-09 13:15:08)

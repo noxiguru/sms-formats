@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*znos.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}),\s+(.*?)\W?\s*.aspol.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Bojan Crevar, 5574****6787, Iznos: 1,235.00 RSD,  24.07.2018, ALFA STAR DOO         NOVI BEO,Raspolozivo: 765.00 RSD
+
+-----EXAMPLE-----
+5574****6787, iznos: 700.00 RSD, 14.11.2018, ALFA STAR DOO         NOVI BEO. Raspolozivo: 315,162.28 RSD.

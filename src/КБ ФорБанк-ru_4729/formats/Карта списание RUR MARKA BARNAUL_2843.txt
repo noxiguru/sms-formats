@@ -1,0 +1,7 @@
+^.*арт.*?(\d{4}).*?([\d.]{10}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(?!.*осту)(.+?)\..*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee
+
+-----EXAMPLE-----
+Карта 7084: 05.01.2017 13:56, списание 161.50 RUR, MARKA, BARNAUL.

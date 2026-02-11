@@ -1,0 +1,7 @@
+^Выдача н.*арт.*?(\d{4}) Усп.*-([\d\s.,]*\d)\s*([A-Z]{3}) .стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Выдача наличных Карта 4.7899 Успешно Сумма: -20.00 BYN Остаток: 0.01 BYN ║ InSync.by

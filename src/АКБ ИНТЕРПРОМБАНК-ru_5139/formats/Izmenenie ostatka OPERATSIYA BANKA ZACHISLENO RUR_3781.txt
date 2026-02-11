@@ -1,0 +1,7 @@
+^.*ZACHISL.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: OPERATSIYA BANKA. ZACHISLENO 38 576.00RUR Card **4006 DMITRY FINOGENOV  BAL: 39 922.38  2018-07-03 14:30:43

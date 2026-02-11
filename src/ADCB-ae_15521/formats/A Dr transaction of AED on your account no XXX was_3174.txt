@@ -1,0 +1,7 @@
+^.*Dr\..* of ([A-Z]{3})\s*([\d\s.,]*\d).*X\d*(\d{4}) .*vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;av_balance
+
+-----EXAMPLE-----
+A Dr. transaction of AED 1000.00 on your account no. XXX132001 was successful.Available balance is AED23057.55.

@@ -1,0 +1,7 @@
+^([\d.]{8}) .*\*(\d{4})\s+OPLATA.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?) DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+14.10.17 18:19:33 KAPTA 5440*2850 OPLATA   50 RUR VISA QIWI WALLET Moscow RUS / DOSTUPNO 18072,45 RUR

@@ -1,0 +1,16 @@
+^Uznan.*\.(\d{4}).*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*ata.*?([\d-]{10}).*(?:oste|onta).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Uznanie
+Rach. 66..7004
+Kwota +24,00 PLN
+w tym
++24,00 PLN PRZELEW PRZYCHODZACY
+Data waluty 2018-08-24
+Dostepne +373,06 PLN
+
+-----EXAMPLE-----
+Uznanie Konto 11..1111 Kwota +22,00 PLN w tym +22,00 PLN PRZELEW NA TELEFON PRZYCHODZ. ZEW., KONSTANTIN GUZELEVICH UL. BIALA 12/32..., PRZELEW NA TELEFON     Data waluty 2021-04-05 Stan konta +33,00 PLN

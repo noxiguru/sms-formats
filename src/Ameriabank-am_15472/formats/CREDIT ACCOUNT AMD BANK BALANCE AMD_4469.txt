@@ -1,0 +1,7 @@
+^(?:MUTQ HASH|CREDIT ACC)\w+ ([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}) .*? (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} (?:BALA|MNACO).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+CREDIT ACCOUNT 1,010,167.00 AMD 4083***1123 BANK 15.01.20 15:06 BALANCE: 1,011,542.20 AMD

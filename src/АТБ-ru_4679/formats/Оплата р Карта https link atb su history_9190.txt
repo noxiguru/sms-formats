@@ -1,0 +1,7 @@
+.*?[Оо]плат\w*\s+([0-9][\d\s.,]*\d)\s*([^\d\s]{1,3})\.?\s+.*?(?:Карта|Card).*?\*(\d{4})
+
+-----COLUMNS-----
+outcome;instrument;syncid
+
+-----EXAMPLE-----
+Оплата 256.23 р. Карта *1897 https://link.atb.su/history

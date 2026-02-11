@@ -1,0 +1,7 @@
+^.*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*\*(\d{4}).*artin\w+\s+(.*?)\s+firmas.*?([\d\s.,]*\d)\s*([A-Z]{2,3})\s+tuta.*
+
+-----COLUMNS-----
+date#dMy;syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+Bilgilendirme: Degerli musterimiz, 19.10.2023 13:51:48 tarihinde ****7357 No'lu kartinizla YEMEKSEPETI ISTANBUL TR firmasindan 267,98 TL tutarinda harcama yaptiniz. Detayli bilgi icin 08502220724'u arayabilirsiniz. MERSIS: 1234567890 B001

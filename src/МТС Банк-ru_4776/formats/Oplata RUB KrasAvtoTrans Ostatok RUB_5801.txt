@@ -1,0 +1,10 @@
+^(?:Oplat|Оплат).*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?)\s+.(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W? \*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+Oplata 27,00 RUB KrasAvtoTrans1  Ostatok: 81 073,88 RUB; *8430
+
+-----EXAMPLE-----
+Оплата 510,60 RUB OOO U DOMA  Остаток: 9 668,48 RUB; *0924 ║ МТС Банк

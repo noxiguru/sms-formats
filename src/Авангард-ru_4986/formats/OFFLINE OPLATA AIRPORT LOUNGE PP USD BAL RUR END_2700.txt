@@ -1,0 +1,7 @@
+^(OFFLINE\s+OPLATA\s+(.*?),.*?,([\d\s.,]*\d)\s*([A-Z]{3})).*\*\d*(\d{4})\s+BAL(-?[\d\s.,]*\d).*\s+([\d.]{8}).*
+
+-----COLUMNS-----
+comment;payee;outcome;instrument;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+OFFLINE OPLATA AIRPORT LOUNGE PP*8404, 07.09.16, 27.00 USD #*01676 BAL 72390.03 RUR 14.10.16 08:15 END

@@ -1,0 +1,7 @@
+^(?:Postuplenie|Поступление).*(\d{4}). (?:Summa|Сумма).\s+([\d\s.,]*\d) ([A-Z]{3}).*?([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+Postuplenie sredstv na schet po dogovoru kreditnoj karty 1140002223. Summa:  300 RUR. Data: 02.04.13 09:38:20. Spasibo!

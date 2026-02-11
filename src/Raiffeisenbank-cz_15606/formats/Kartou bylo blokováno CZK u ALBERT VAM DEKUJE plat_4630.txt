@@ -1,0 +1,13 @@
+^.*(?:(?:lokov\w+|ebited|locked) -)([\d\s.,]*\d)\s*([A-Z]{3}).* (?:u|at) (.*?)\s*(?:\((?:pla|card)|;.*)?║ .*
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+Kartou bylo blokováno -237,40 CZK u ALBERT VAM DEKUJE (platba kartou). ║ Karetní transakce
+
+-----EXAMPLE-----
+Debited -36,90 CZK (card payment at ALBERT VAM DEKUJE; PRAHA 4; CZE). ║ Account movement
+
+-----EXAMPLE-----
+Blocked -69,00 CZK with card at MCDONALDS (card payment). ║ Card transaction

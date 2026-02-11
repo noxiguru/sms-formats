@@ -1,0 +1,7 @@
+^.*?([\d]{4}).*?(?:nyatie n|нятие н).*?([\d\s,.]*\d)\s*([A-Z]{3}).*?(?:omiss|омис).*?([\d\s.,]*\d).*?(?:stat|alan|стат|алан).*?(-?[\d\s,.]*\d).* ([\d-]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;fee;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Карта *5192. Снятие наличных 1000 RUR. RU/RYAZAN/51A VOKZALNAYA STR. Komissiya 100 RUR. Balans 27124.62 RUR. 2018-10-09

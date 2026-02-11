@@ -1,0 +1,7 @@
+^.*chet.*?(\d{4}) .*opolnen.*?([\d\s.,]*\d)\s*([A-Z]{3}) v ([\d.]{10}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Po Vashemu schetu 1234567890 proshla operacija popolnenija na summu 57684,00 RUB v 25.12.2018 09:51. Novyj ostatok: 57799,83 RUB

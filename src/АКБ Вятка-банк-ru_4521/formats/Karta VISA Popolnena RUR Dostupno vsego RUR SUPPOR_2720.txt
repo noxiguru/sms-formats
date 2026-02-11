@@ -1,0 +1,10 @@
+^.*?\*(\d{4}).*?(?:opoln|ополн).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d-]{10}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta VISA *2810  Popolnena 7 132.45 RUR 2016-11-03 00:00:00  Dostupno vsego 7 494.16 RUR SUPPORT tel 8 800 1001 777.
+
+-----EXAMPLE-----
+Карта MC *1180 Пополнена 8,000.00 RUR 2018-01-31 00:00:00  Доступно всего 14,877.33 RUR тел 8 800 1001 777.

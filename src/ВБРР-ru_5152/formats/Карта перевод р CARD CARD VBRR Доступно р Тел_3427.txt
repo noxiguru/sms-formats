@@ -1,0 +1,13 @@
+^.*\*(\d{4}) ([\d.]{8}|).*(?:erevod|еревод).*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*(?:BAL|.ostu|.осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 4*9115 26.01.18 15:36 перевод 1050.00р CARD2CARD VBRR Доступно: 14522.98р Тел. 8(800)7000349
+
+-----EXAMPLE-----
+Karta 5*4595 09.06.18 12:23 perevod 20000.00 RUR HCFB Dostupno: 47748.86 RUR Tel. 8(800)7000349
+
+-----EXAMPLE-----
+Karta 5*0804 18:26 perevod 15000.00 RUR CARD2CARD YANDEXVIRTBL Dostupno: 3441.70 RUR

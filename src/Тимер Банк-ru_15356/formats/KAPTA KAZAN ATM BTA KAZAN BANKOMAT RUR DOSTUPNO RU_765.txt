@@ -1,0 +1,7 @@
+^([\d-]{10}).*?\*(\d{4})\s+.*?BANKOMAT -([\d\s.,]*\d) ([A-Z]{3}) DOSTUPNO ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+2013-04-14 15:29:47 KAPTA 6773***4782 KAZAN ATM00390015 BTA-KAZAN BANKOMAT -11 000.00 RUR DOSTUPNO 26.13 RUR

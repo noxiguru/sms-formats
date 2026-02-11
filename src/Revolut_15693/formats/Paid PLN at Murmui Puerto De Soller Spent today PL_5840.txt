@@ -1,0 +1,7 @@
+^.*(?:Paid|Оплата)\W?\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+\(([A-Z]{3}|\W)\s*([\d\s.,]*\d)\).*(?:Spent\s+tod|Расходы\s+за).*\s+║\s+(.*)
+
+-----COLUMNS-----
+instrument;op_outcome;acc_instrument;outcome;payee
+
+-----EXAMPLE-----
+🛒 Paid €4.20 (PLN18.78) at Murmui Puerto De Soller 💸 Spent today: PLN18.78 ║ Murmui Puerto De Soller

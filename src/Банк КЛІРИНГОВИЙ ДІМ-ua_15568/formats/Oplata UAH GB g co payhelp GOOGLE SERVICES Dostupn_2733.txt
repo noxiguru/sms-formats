@@ -1,0 +1,10 @@
+^[\*#](\d{4})\s+(\d{2}[-./]\d{2}[-./]?\d{0,4}) .*plata:?\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)(?:\s+(?:Sobst|Limi).*)?\s+.ostu(?!.*(?:,\s*-?[\d\s.,]+\s*[A-Z]{3})+).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*8342 15.11 18:53:25 Oplata: 6.00UAH GB g.co/payhelp# GOOGLE *SERVICES Dostupno: +2689.49UAH
+
+-----EXAMPLE-----
+#5310 07.05.2020 16:51:01 Oplata: 57.13 UAH UA, APTEKA 7 MAJAK Sobstvennye sredstva: 2535.11 UAH  Limit kredita: 0.00 UAH  Dostupno: 2535.11 UAH

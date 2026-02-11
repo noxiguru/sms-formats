@@ -1,0 +1,7 @@
+^.*окупк.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+в\s+(.*?)\..*\*(\d{4}).*стат.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+Покупка на 1 500 RUB в GAZPROMNEF. Карта *9720. Остаток 0.11 RUB

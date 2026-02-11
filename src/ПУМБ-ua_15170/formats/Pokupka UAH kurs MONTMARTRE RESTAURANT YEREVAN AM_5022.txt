@@ -1,0 +1,7 @@
+^.*okup.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+\((.*)\)\s+(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*\*(\d{4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;payee;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+1430.00 Pokupka 77.14UAH (kurs 0.05)  MONTMARTRE RESTAURANT YEREVAN AM  21-04-2021 16:07  Kartka: *0507  Dostupno: 3127.85UAH

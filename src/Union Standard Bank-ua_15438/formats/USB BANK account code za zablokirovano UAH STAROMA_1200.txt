@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d-]{10}).*?zablokirovano ([\d\s.,]*\d) ([A-Z]{3}) (.*) .balance (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+USB BANK account code 57za *0406 2014-03-17 14:05:30 *zablokirovano 76.00 UAH STAROMAK_RESTOR KIYEV UA *balance 24.00 UAH overdraft 0.00 UAH

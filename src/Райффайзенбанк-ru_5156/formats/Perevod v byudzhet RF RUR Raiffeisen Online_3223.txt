@@ -1,0 +1,10 @@
+^(Perevod v .*?|Частичное .*?)([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;outcome;instrument
+
+-----EXAMPLE-----
+Perevod v byudzhet RF 3000 RUR. 8-800-7000072 Raiffeisen Online
+
+-----EXAMPLE-----
+Частичное досрочное погашение кредита 100000 RUR. 8-800-7005250 Raiffeisen Online

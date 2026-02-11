@@ -1,0 +1,7 @@
+^([\d.]{8}).*?OPLATA SUMMA ([\d\s.,]*\d)\s*([A-Z]{3}) MESTO (.*) CARD.*?(\d{4}).*BALANCE (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+04.02.15 11:21 OPLATA SUMMA 38.02 RUB MESTO RosEvroBank IBANK, RUS CARD *3823 BORIS SHKLYAR BALANCE 23 450.00

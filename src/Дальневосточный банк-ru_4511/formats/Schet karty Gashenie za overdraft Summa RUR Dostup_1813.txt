@@ -1,0 +1,10 @@
+^.*?(\d{2,4})\. .(?:ashen|pisan|ашен|писан).*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Schet karty **5597. Gashenie % za overdraft. Summa 203.44 RUR; Dostupno: 12.33 RUR
+
+-----EXAMPLE-----
+Schet karty **0330. Spisanie sredstv s kartscheta. Summa 399.00 RUR; Dostupno: 536.02 RUR

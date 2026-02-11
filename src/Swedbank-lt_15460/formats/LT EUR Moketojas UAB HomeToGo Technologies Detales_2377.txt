@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+\+([\d\s.,]*\d)\s*([A-Z]{3}) .*?oketoj.*?:\s+(.*?)\s+Detal.*?:\s+(.+?)\.\s+Galut.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;comment;av_balance
+
+-----EXAMPLE-----
+LT1234567890 +1600.00EUR Moketojas: UAB HomeToGo Technologies Detales: Darbo uzmokestis. Galutinis likutis: 3285.82EUR

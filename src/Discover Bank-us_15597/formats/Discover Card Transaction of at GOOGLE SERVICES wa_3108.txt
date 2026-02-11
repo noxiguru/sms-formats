@@ -1,0 +1,7 @@
+.*ransact.*?(\$)([\d\s.,]*\d) at (.*?) was.*?on (\w+ \d{1,2}, \d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;payee;date#MMM dd, yyyy
+
+-----EXAMPLE-----
+Discover Card: Transaction of $1.00 at GOOGLE *SERVICES was made on July 14, 2017. Visit http://discvr.co/1GUSs8C Text HELP for info, STOP to quit.

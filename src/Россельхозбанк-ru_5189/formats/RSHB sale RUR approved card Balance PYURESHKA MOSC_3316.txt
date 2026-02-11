@@ -1,0 +1,7 @@
+^.*? ([\d/]{5}) .*sale.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d)\s+(.*)
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;syncid;av_balance;payee
+
+-----EXAMPLE-----
+RSHB 28/11 13:28:39 sale 262.60 RUR approved card *2237 Balance 656.28 PYURESHKA MOSCOW RU

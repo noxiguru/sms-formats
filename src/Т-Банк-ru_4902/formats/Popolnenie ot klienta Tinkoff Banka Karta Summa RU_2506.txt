@@ -1,0 +1,7 @@
+^(?:Popolnenie|Пополнение).*?\*(\d{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:tpravitel|тправитель)[\s-]+(.+?)\..*?([\d.]{10}).*?(?:ostu|осту).*limit.*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Popolnenie ot klienta Tinkoff Banka. Karta *3552. Summa 250.00 RUB. Otpravitel - Chernyy Roman. 08.07.2016 09:43. Dostupno s uchetom rashodnogo limita 2.93 RUB. www.tinkoff.ru

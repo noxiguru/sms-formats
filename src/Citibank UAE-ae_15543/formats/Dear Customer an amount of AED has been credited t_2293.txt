@@ -1,0 +1,7 @@
+^.*amount.*?([A-Z]{3})\s*([\d\s.,]*\d).*credit.*?acc.*?(\d{4}) Descrip.*?:\s+(.*)\s+Balan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;comment;av_balance
+
+-----EXAMPLE-----
+Dear Customer, an amount of  AED 3662.82  has been credited to your account **2345 Description: CBOL TRANSFER CREDIT   Balance:  AED 3,662.82

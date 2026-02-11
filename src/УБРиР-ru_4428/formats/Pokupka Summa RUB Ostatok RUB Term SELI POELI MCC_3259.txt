@@ -1,0 +1,16 @@
+^.*(?:Pokupk|Predavtor|Purch|Order).*\*(\d{4}).*(?:umm|moun).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:stat|alan).*?(-?[\d\s.,]*\d).*Term:\s*(.*?)(?:\s+MCC.*?)?\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#dd.MM.yy
+
+-----EXAMPLE-----
+Pokupka  4301****8049  Summa: 321.00 RUB  Ostatok: 4042.66 RUB  Term: SELI-POELI  MCC: 5814  01.11.17 21:02
+
+-----EXAMPLE-----
+Predavtorizacija  4301****8482  Summa: 203.00 RUB  Ostatok: 51697.57 RUB  Term: YANDEX.TAXI  01.01.18 09:09
+
+-----EXAMPLE-----
+Purchase  4301****8686  Amount: 139.90 RUB  Av/Balance: 20777.23 RUB  Term: PIV&KO  MCC: 5921  16.09.18 13:01
+
+-----EXAMPLE-----
+Mail/phone Order  4301****8686  Amount: 100.00 RUB  Av/Balance: 21103.38 RUB  Term: PAY.MTS.RU TOPUP 0637  01.10.18 11:05

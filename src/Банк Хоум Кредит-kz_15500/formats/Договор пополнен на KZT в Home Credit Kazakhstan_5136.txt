@@ -1,0 +1,10 @@
+^(?:Дого|Карт).*?(\d{4})\s+.ополн.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Договор 4003984157 пополнен на 298766.42 KZT. 03.09.21 в 10:30:04 ║ Home Credit Kazakhstan
+
+-----EXAMPLE-----
+Карточка **6778 пополнена на 100.00 KZT. 26.05.22. ║ Home Credit Kazakhstan

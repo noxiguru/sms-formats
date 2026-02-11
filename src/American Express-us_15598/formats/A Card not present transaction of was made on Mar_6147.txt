@@ -1,0 +1,7 @@
+^.*transaction\s+of\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+was\s+made\s+on\s+([A-Z][a-z]+\s+\d{1,2})\s+at\s+(.*?)\s+on\s+.*ending\s+\d*(\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;date#Md;payee;syncid
+
+-----EXAMPLE-----
+A Card not present transaction of $135.20 was made on Mar 7 at WASHINGTON COUNTY GENERAL DISTRICT on your Card ending 21004. ║ Amex

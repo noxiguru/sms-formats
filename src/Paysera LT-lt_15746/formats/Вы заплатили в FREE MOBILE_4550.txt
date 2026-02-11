@@ -1,0 +1,7 @@
+^.*заплатил.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W) в \W?(.*?)\s*\W? ║.*
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+💳 Вы заплатили 19.99€ в «FREE MOBILE » ║

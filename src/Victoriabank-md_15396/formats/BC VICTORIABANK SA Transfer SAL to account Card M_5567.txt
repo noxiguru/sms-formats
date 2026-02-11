@@ -1,0 +1,7 @@
+^.*Transfer SAL.*?\.(\d{4}) .ata.*?(\d{4}-\d{2}-\d{2}) [\d:]+ .uma.*?([\d\s.,]*\d)\s*([A-Z]{3}) .old.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) Detalii: (.*)
+
+-----COLUMNS-----
+syncid;date#yMd;income;instrument;av_balance;acc_instrument;comment
+
+-----EXAMPLE-----
+BC VICTORIABANK SA Transfer SAL to account Card: M...7014 Data: 2022-11-28 02:10:45 Suma: 8727.27 MDL Sold: 8750.27 MDL Detalii: Transferare salariu, proi

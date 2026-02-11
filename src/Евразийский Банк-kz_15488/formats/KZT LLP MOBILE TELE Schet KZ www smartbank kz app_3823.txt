@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})(?!.*alan)\s+(?:.*?onus\s+[\d.\s]*)?(.*?)\s+([\d-]{8}) .*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#yy-MM-dd;syncid
+
+-----EXAMPLE-----
+-3000.00 KZT LLP MOBILE TELE2 18-07-30 20:05 Schet KZ*3662. www.smartbank.kz/app

@@ -1,0 +1,7 @@
+^.*nyatie n.*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).* ([\d.]{8})$
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Snyatie nalichnyh ATM06534, Moscow po karte *6680 na summu: 900.00 RUB Dostupniy ostatok: 16 914.13 RUB 14:14 23.09.19

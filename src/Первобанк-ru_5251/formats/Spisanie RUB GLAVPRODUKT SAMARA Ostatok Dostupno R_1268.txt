@@ -1,0 +1,7 @@
+^\*(\d{4}). Spis.*?([\d\s.,]*\d)\s*([A-Z]{3}),([\d.]{8}) [^,]+,(.*).Ostatok.*Dostupno.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+*2789: Spisanie 967.46RUB,20.05.14 20:03,GLAVPRODUKT, SAMARA.Ostatok: 1075.31,Dostupno:1075.31RUB

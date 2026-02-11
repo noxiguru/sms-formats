@@ -1,0 +1,7 @@
+^Card.*?(\d{4}) .um.*?-([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) Rest.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Card:4..3762 Sum:-75.10MDL INTERNET CY Joom.com Rest:6245.56

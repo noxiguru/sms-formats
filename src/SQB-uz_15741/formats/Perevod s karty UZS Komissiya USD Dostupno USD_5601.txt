@@ -1,0 +1,7 @@
+^Perevod s.*\*(\d{4})\W? ([\d\s.,]*\d)\s*([A-Z]{3}) (\d{4}-\d{2}-\d{2}).*omiss.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yMd;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Perevod s karty *2065, 198 954.10 UZS 2022-11-26 16:02:39, . Komissiya: 0.00 USD. Dostupno: 0.23 USD

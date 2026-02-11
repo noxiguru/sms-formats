@@ -1,0 +1,7 @@
+^(Otmena.*?)([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) ([\d.]{8}) .*esto:\s*(.*?)\..*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;date#dd.MM.yy;payee
+
+-----EXAMPLE-----
+Otmena oplaty 131.25 BYN Kartoi #8349 04.03.18 21.20 Acode 242919; Mesto: SUOMIKIDS STORE > MINSK BLR. BPS-Sberbank

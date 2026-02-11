@@ -1,0 +1,13 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:ZARAK?H|zarak?h|зарах)\w+\s+(\d{2}[./]\d{2}[./]\d{2,4})\D.*(?:ZALY|zaly|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dMy;av_balance
+
+-----EXAMPLE-----
+74 644.00 UAH ZARAKHUVANNYA 31/07/18, 08:02:17 ZALYSHOK 75 376.81
+
+-----EXAMPLE-----
+2 321.86 UAH зарахування 23.03.2020 18:00:18 доступно 9 330.83 UAH
+
+-----EXAMPLE-----
+1 000.00 UAH zarakhuvannia 31.07.2020 13:49:04 zalyshok 5 218.60 UAH vlasni koshty 1 018.60 UAH

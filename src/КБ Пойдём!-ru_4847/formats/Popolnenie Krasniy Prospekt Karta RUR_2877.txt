@@ -1,0 +1,7 @@
+^([\d.]{10}).*?opoln.*art.*?(\d{4}).*\+([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument
+
+-----EXAMPLE-----
+19.02.2017. Popolnenie. Krasniy Prospekt 70. Karta *2133. +4000 RUR.

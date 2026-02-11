@@ -1,0 +1,10 @@
+^.*Declined.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Declined, Credit card charge $25.10 Credit card 6062 E-Z PASNY REBILL ║ BofA
+
+-----EXAMPLE-----
+BofA: (Declined) Credit card charge: $16.99, Credit card 7624, APPLE.COM BILL, 10/26/21.

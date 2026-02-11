@@ -1,0 +1,7 @@
+^.*eposit.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+To\s+.*?[A-Z0-9]{6}\d+(\d{4}).*alan.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Bank of Georgia: deposit money GEL 250.00 To account: GE53BG1234567890GEL Remaining balance: GEL 253.76 27.12.2021

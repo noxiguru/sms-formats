@@ -1,0 +1,7 @@
+^.*not share.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Your one-time code for purchase is: 21113 Do not share it with anyone Card#: 4*3560 BEELINE 2000.00 AMD

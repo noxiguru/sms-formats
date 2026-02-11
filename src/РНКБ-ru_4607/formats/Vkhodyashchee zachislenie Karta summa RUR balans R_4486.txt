@@ -1,0 +1,13 @@
+^((?:Vk?hod|Vyplata posob|Sot?[sc]ialnoe za).*?) .art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).* ([\d-]{8}) .*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;date#yy-MM-dd
+
+-----EXAMPLE-----
+Vkhodyashchee zachislenie Karta:1501 summa:8000.00 RUR balans:8025.08 RUR Vkhodyashchee zachislenie 20-02-03 11:50:14
+
+-----EXAMPLE-----
+Sotsialnoe zachislenie Karta:2092 summa:764.85 RUR balans:1721.50 RUR Kompensatsiya 19-09-18 17:23:40
+
+-----EXAMPLE-----
+Vyplata posobiya Karta:6675 summa:6116.84 RUR balans:8972.63 RUR ROSKAZNA from NSPK 19-12-18 12:27:53

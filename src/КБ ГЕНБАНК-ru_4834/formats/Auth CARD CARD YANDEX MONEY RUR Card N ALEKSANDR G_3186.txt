@@ -1,0 +1,10 @@
+^Auth:.*CARD2CARD.*?([\d\s.,]*\d)\s*([A-Z]{3}) .*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth: CARD2CARD YANDEX.MONEY 3 197.25RUR Card_N**0764 ALEKSANDR GLYZOV BAL: 10 845.03 2017-09-05 11:32:13
+
+-----EXAMPLE-----
+Auth: CARD2CARD YANDEX.MONEY 3 197.25RUR Card_N**0764 ALEKSANDR GLYZOV BAL: 10 845.03 2017-09-05 11:32:13

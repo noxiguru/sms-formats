@@ -1,0 +1,7 @@
+Покупка\s+([^,]+(?:,\s*[^,]+)?)\s*,\s*([0-9][\d\s.,]*\d)\s*([А-Яа-яA-Za-z]{1,3})\s*,\s*\*(\d{4})\s*,\s*Баланс\s+(-?[0-9][\d\s.,]*[.,]\d{2})\s*([А-Яа-яA-Za-z]{1,3})$
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка SM-VITA, RU, 5500.00р, *9945, Баланс 8061.61р

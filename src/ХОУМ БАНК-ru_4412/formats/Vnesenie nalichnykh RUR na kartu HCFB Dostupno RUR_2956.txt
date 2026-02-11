@@ -1,0 +1,7 @@
+^Vnese.*?nal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*\s+([\d.]{10})\s+.*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Vnesenie nalichnykh:15000.00 RUR na kartu *6166. HCFB. 25.04.2017 12:04:01. .Dostupno: 46860.22 RUR.

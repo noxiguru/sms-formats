@@ -1,0 +1,10 @@
+^(?:Vash|Ваш).*?(\d{4}|Wallet|Кошелек).*(?:opoln|ополн).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Vash QIWI Wallet popolnen na 69.06 rub.
+
+-----EXAMPLE-----
+Ваш Кошелек пополнен на 30.00 руб. через Джусисофт ║ Пополнение баланса

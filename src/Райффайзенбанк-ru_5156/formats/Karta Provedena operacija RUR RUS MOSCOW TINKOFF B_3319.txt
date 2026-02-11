@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*rovedena op.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *5692; Provedena operacija: 1387 RUR; RUS/MOSCOW/TINKOFF BANK CARD2CARD; Data: 2017-12-04; Dostupny Ostatok: 0.98 RUR. Raiffeisenbank

@@ -1,0 +1,7 @@
+^.*?(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*?pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}) \((.*)\).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+MASTERCARD-4367 28-07-21 12:21 spisanie so scheta 59.00 RUB (Spisanie komissii za SMS-Bank) ostatok 7037.44 RUB

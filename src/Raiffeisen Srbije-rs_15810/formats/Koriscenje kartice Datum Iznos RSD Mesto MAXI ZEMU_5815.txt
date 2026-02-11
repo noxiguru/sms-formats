@@ -1,0 +1,10 @@
+^(?:Koris|Ponist)(?!.*aspoloz).*\*(\d{4}).*atum:\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*znos:\s+([\d\s.,]*\d)\s*([A-Z]{3}).*esto:\s+(.*?)(?:\s+║\s+.*)?$
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;acc_instrument;payee
+
+-----EXAMPLE-----
+Koriscenje kartice 9891**6997 Datum: 25.05.2023 Iznos: 199,99 RSD Mesto: 213 - MAXI 122 ZEMUN RS
+
+-----EXAMPLE-----
+Ponistena transakcija kartice 4054**7410 Datum: 31.12.2023 Iznos: 28,00 GEL Mesto: BOLT Tbilisi GE

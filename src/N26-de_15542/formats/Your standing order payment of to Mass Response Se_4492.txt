@@ -1,0 +1,7 @@
+^.*will be proc.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Your standing order payment of 7,90 € to Mass Response Service GmbH has been successfully processed.This transfer will be processed next on 07.03.2020. ║ N26

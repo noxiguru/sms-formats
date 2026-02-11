@@ -1,0 +1,7 @@
+^.*platezh.*summu([\d\s.,]*\d)\s*([A-Z]{3})\s+s\skart.*?\*(\d{4}).*uspeshno\s+proveden.*
+
+-----COLUMNS-----
+outcome;instrument;syncid
+
+-----EXAMPLE-----
+Uvazhaemyi klient! Vash platezh FotoKassy na summu 3052.87 UAH s karty *7173 uspeshno proveden! Spasibo! PrivatBank

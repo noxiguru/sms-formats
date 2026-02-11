@@ -1,0 +1,7 @@
+^.*?(\d{1,2}\.\d{1,2}\.\d{2,4}).*arihin.*?(\d{4}) ile.*artini\w+ (.*?) firmas.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+Degerli Musterimiz,03.12.2022 18:14 tarihinde 4167 ile biten banka kartinizla MIGROS UNCALI ANTALYA TR firmasindan 393,03 TRY tutarinda islem yapilmistir. Bilgi:08502220800 MERSIS:1234567890 B016

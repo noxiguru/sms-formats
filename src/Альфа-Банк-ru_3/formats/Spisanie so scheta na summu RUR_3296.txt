@@ -1,0 +1,10 @@
+^(?:Spisan|Списан).*\*\d*(\d{4})\s+(?:na\s+sum|на\s+сум).*?([\d\s.,]*\d)\s*([A-Z]{3});\s+([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Spisanie so scheta 408*32929 na summu 200.00 RUR; 20.11.2017 12:49:16.
+
+-----EXAMPLE-----
+Списание со счета 408*58306 на сумму 300.00 RUR; 09.09.2019 11:14:13.

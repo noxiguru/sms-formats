@@ -1,0 +1,7 @@
+^(?:Opl|Pere).*\*(\d{4})\s+(.*)\s+-([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{8}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Oplata Karta: *8964 SGMT AEROBUS  -11.80 EUR 24.05.15 12:47:17. Balans: 834.19 EUR. RosinterBank

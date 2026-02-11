@@ -1,0 +1,13 @@
+^(?:ZACHISLENIE|PLATEZH|VOZVRAT) \+([\d\s.,]*\d) ([A-Z]{3}).*?\*(\d{4}) Data=([\d-]{10}).*?Ostatok=([-\d\s.,]*\d)
+
+-----COLUMNS-----
+income;instrument;syncid;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+PLATEZH +1900.00 UAH na Vash schet#Visa *6183 Data=2013-07-18 10:55:13 Ostatok=1993.59
+
+-----EXAMPLE-----
+ZACHISLENIE +0.07 USD na Vash schet#Visa *6183 Data=2013-07-25 20:10:15 Ostatok=101.10
+
+-----EXAMPLE-----
+VOZVRAT +475.08 UAH na Vash schet#Visa *6183 Data=2013-09-06 13:33:01 Ostatok=526.39

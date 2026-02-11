@@ -1,0 +1,7 @@
+^Success trn.*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2}) [\d:]+\s*(.*?)\s*-([\d\s.,]*\d)\s*([A-Z]{3}).*vail.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;date#yMd;payee;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Success trn. Card MAST. GLD, *4798: 21-01-26 18:46WWW.GLOBBING.COM>YER -5000.00 AMD. Available balance: 62783.63 AMD. Credit limit 0.00 AMD

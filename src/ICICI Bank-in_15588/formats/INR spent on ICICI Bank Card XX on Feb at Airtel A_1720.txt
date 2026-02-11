@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d) spent .*ard X*(\d{4}) on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) at (.*?)\. Avl.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+INR 500.00 spent on ICICI Bank Card XX8003 on 27-Feb-22 at Airtel. Avl Lmt: INR 61,254.29. To dispute,call 18002662/SMS BLOCK 8003 to 9215676766

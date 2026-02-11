@@ -1,0 +1,13 @@
+^.*?(\d{4}) ([\d.]{10}).*(?:Retail|Unique) -([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) (?:OK|Limi).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 4.4073 06.02.2014 20:55:47 Retail -3,50 USD GOOGLE *Zenmoney GOOGLE.COM/CH USA OK. Dostupno 2034484 BYR
+
+-----EXAMPLE-----
+Karta 4.3774 20.07.2017 14:58:28 Unique -360 RUB YANDEX.MONEY MOSCOW RUS OK. Dostupno 42,94 USD
+
+-----EXAMPLE-----
+Karta 6.5178 15.07.2018 07:56:18 Retail -99.00 RUB YM*YANDEX.MUSIC MOSCOW RUS Limit operacij. Dostupno 1058.82 BYN

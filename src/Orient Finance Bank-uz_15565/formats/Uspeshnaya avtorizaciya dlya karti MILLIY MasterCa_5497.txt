@@ -1,0 +1,7 @@
+^(?!Otklo).*\*(\d{2,4}):\s+(\d{2}[-./]\d{2}[-./]\d{2})\s+.*okup\w+\s+(.*?)\s+-([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yMd;payee;outcome;instrument;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Uspeshnaya avtorizaciya dlya karti MILLIY MasterCard *28: 22-10-29 20:44 pokupka ANGLESEY FOOD DP>TAS -59904.60 UZS. Komissiya za operaciyu: 0.00 UZS. Dostupno: 40095.40 UZS

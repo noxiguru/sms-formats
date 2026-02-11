@@ -1,0 +1,7 @@
+^.*eposit\s+of\s+(\S)\s*([\d\s.,]*\d)\s+to\s+.*?(\d{4})\s+.*
+
+-----COLUMNS-----
+instrument;income;syncid
+
+-----EXAMPLE-----
+Wells Fargo alert: A direct deposit of $500.00 to account ending 0788 is available. Reply TRA to transfer funds.

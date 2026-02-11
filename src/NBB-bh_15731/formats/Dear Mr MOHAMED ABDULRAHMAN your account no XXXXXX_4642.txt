@@ -1,0 +1,7 @@
+^.*ccoun.*?(\d{4}) .ebit.*?([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d? on (\d{2}[-./]\d{2}) .*alan.*?(-?[\d\s,]*\d\.\d{2}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dM;av_balance
+
+-----EXAMPLE-----
+Dear Mr.MOHAMED ABDULRAHMAN, your account no XXXXXX1622 debited for BHD 0.017 on 27/05 15:45, towards service charges. Your account balance is BHD 3.512. For enquiry please call 17214433

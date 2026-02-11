@@ -1,0 +1,7 @@
+^([\d.]{8}) .*?\*(\d{4}).*?redit([\d\s.,]*\d)\s*([A-Z]{3}).*алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+09.08.17 11:26 Счет 1270931 Карта **8327 P2P Credit 10000.00 RUR BYSTROBANK Баланс 12460.02 RUR ПАО "БыстроБанк"

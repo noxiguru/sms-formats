@@ -1,0 +1,7 @@
+^.*(tekuci).*dliv.*?([\d\s.,]*\d)\s*([A-Z]{3}).*pis:\s+(.*?)\s+.tanj.*?(-?[\d\s.,]*\d).*atu.*?([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Racun: tekuci racun Odliv: 45 EUR Opis: British interantional school Arcadia Aca Stanje: 1000,78 EUR Datum: 13.12.2017

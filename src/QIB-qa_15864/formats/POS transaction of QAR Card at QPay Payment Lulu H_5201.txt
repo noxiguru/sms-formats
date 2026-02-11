@@ -1,0 +1,7 @@
+^POS.*? of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) Card.*?(\d{4}) at (.*?) from.*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+POS transaction of QAR 299.00 Card ***1234 at QPay Payment Lulu Hypermkt from Current Account 01***061234 Your new available balance is QAR 16,616.37 If you suspect this transaction call 44192022 04/01/22 18:22

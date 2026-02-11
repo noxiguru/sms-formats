@@ -1,0 +1,7 @@
+^.*?(\d{1,2}/\d{1,2}/\d{2}).*okupk.*?([\d\s.,]*\d)\s*([A-Z]{3}),?\s+(.+)\s+REF.*?kart.*\*(\d{4}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#MM/dd/yy;outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+TSESNABANK: 1/5/16 9:36 AM POS pokupka 4 500.00 KZT, KASPI.KZ SECURE REF 1234567890 kartochka ***2656,Balance 000.39.tel.7711

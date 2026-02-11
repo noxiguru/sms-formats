@@ -1,0 +1,7 @@
+^\S+(\d{4}) ([\d-]{8}).*?vydacha nalichnyh ([\d\s.,]*\d) ostatok (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd-MM-yy;outcome;av_balance
+
+-----EXAMPLE-----
+VISA-8261 23-04-13 21:04 vydacha nalichnyh 1000.00 ostatok 22750.15 RUR; URAL FD, BUKIREVA, 15

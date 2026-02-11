@@ -1,0 +1,10 @@
+^(Vyplat.*?|Vozvrat.*?)\..*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?([\d.]{10}).*
+
+-----COLUMNS-----
+comment;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vozvrat na schet. Summa 2,547.30 RUB. 08.06.2017. Tinkoff.ru
+
+-----EXAMPLE-----
+Vyplata vozmescheniya po usluge Torgovyi ekvayring. Summa 2,480.00 RUB. 25.08.2017. Tinkoff.ru

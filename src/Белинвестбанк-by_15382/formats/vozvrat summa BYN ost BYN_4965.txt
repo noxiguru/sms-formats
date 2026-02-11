@@ -1,0 +1,7 @@
+^\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ (.(?:ozvrat|озврат).*?) .(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*ost.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;comment;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*1736 23.01.2021 12:15:33 vozvrat summa=16.47 BYN ost=1 436.2 BYN

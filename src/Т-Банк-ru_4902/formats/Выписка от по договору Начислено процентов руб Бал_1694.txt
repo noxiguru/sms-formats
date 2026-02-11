@@ -1,0 +1,13 @@
+^(?:Выписка\s+от|Vypiska\s+ot)\s+([\d.]{5}).*?([\d]{4}|[A-Z]{3})\.\s(.*(?:процентов|protsentov):?\s+([\d\s.,]*\d)\s*(\S{1,3}))(?!.*ashback).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;comment;income;instrument
+
+-----EXAMPLE-----
+Выписка от 21.04 по договору 8100212409. Начислено процентов: 36.94 руб. Баланс на 21.04: 4286.94 руб. www.tinkoff.ru
+
+-----EXAMPLE-----
+Vypiska ot 21.04 po dogovoru 1234567890. Nachisleno protsentov: 1 000.43 rub. Balans na 21.04: 000.00 rub. www.tinkoff.ru
+
+-----EXAMPLE-----
+Vypiska ot 21.04 po dogovoru 1234567890. Nachisleno protsentov: 1 000.43 rub. Balans na 21.04: 000.00 rub. www.tinkoff.ru

@@ -1,0 +1,7 @@
+^([\d-]{10}).*?\*(\d{4})\s+(.*?)\sOPLATA.*?(\d[\d\s.]*)\s(?:[A-Z]{3})\sDOSTUPNO\s(?:\d[\d\s.]*).*
+
+-----COLUMNS-----
+date;syncid;payee;outcome
+
+-----EXAMPLE-----
+2013-04-10 18:41:31 KAPTA 6773***4782 KAZAN AVTOMOIKA MOIDODIR OPLATA -500.00 RUR DOSTUPNO 14 526.13 RUR

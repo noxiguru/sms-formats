@@ -1,0 +1,13 @@
+^.*\*(\d{4})\s+([\d/]{10}).*(?:POPOLN|PEREVOD.*?ZACH|ПОПОЛН|ПЕРЕВОД.*?ЗАЧИ).*?([\d\s.,]*\d)\s*([A-Z]{3}).*OK.*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 512722****6012 02/03/2018 18:15:08 POPOLNENIE 752.14 USD                 BANK MOSKVA-MINSK>MINSK>BLR              OK Dostupno 752.14 USD
+
+-----EXAMPLE-----
+Karta 512722****1743 20/04/2018 12:41:20 PEREVOD (ZACHISLENIE) 152.00 BYN 822003          MMB P2P SAME CLIENT>MINSK>BY             OK Dostupno 2108.00 BYN
+
+-----EXAMPLE-----
+Карта 512722****2124 04/03/2020 15:33:12 ПОПОЛНЕНИЕ 1801.90 BYN BANK DABRABYT>MINSK>BLR OK Доступно 1949.47 BYN

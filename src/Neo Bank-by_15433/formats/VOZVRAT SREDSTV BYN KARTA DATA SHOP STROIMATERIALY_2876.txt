@@ -1,0 +1,7 @@
+^VOZVRAT.*?([\d\s.,]*\d)\s*([A-Z]{3}) KART.*?(\d{4}) .* ([\d.]{10}) .*SHOP "(.*?)".*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;payee
+
+-----EXAMPLE-----
+VOZVRAT SREDSTV 2.16 BYN KARTA #2652 DATA 19.02.2017 11:01:28 SHOP "STROIMATERIALY" BAPB>BREST>BY

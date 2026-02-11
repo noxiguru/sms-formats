@@ -1,0 +1,7 @@
+^\s*Покуп(?!.*(?:осту|алан|\.\d{2}\.\d{2})).*\*(\d{4})\D?\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W\s+(.*?)\.?$
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Покупка. Карта *9636. 161 RUB. VKUSVILL MT 2755_.

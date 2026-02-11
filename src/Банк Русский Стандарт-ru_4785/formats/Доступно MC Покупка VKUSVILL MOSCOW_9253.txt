@@ -1,0 +1,7 @@
+.*?([0-9][\d\s.,]*)\s*([A-Za-z]{1,3}|[^\w\s]).*?(?:[Дд]оступн\w*)\D+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,3}|[^\w\s]).*?\*?(\d{4}).*?║\s*(?:[Пп]окупк\w*)\s+(.*)
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;syncid;payee
+
+-----EXAMPLE-----
+1 373 ₽ — Доступно: 18 132,15 ₽ MC *2406 ║ Покупка VKUSVILL>MOSCOW

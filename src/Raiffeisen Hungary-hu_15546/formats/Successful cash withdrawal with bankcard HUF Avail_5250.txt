@@ -1,0 +1,7 @@
+^.*ash w.*\*(\d{4}).*?,?([\d\s.,]*\d)\s*([A-Z]{3}).*vail.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (\d{4}[-./]\d{2}[-./]\d{2}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+Successful cash withdrawal with 524836******7653 bankcard, 100.000,00 HUF. Available balance: 10.740.480,35 HUF 2022.02.04 16:28:25 ATM1168 SHOP 1035 BUDAPEST H

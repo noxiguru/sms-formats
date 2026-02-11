@@ -1,0 +1,7 @@
+^Perevod.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+vypoln.*?([\d/]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Perevod na summu 182100,00 RUR vypolnen 02/08/2016 11:53 MSK. Raiffeisenbank

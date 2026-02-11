@@ -1,0 +1,7 @@
+^Popolnenie(?!.*\*\d{4}).*umm.*?([\d\s.,]*\d).*([\d.]{10}).*ostu.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Popolnenie. Koshelek. Summa 1000.00 RUB. Card2Card. 24.12.2013 15:42. Dostupno 1000.00 RUB. wallet.tinkoff.ru

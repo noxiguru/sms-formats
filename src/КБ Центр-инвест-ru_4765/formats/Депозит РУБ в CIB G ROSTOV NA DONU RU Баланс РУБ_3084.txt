@@ -1,0 +1,7 @@
+^.*? ([\d.]{8}) .*?\*(\d{4}).*епозит([\d\s.,]*\d)\s*([А-ЯA-Z]{3}).*алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;income;instrument;av_balance
+
+-----EXAMPLE-----
+17:49 15.06.17 4303*4742 Депозит 80000.00РУБ в CIB G ROSTOV-NA-DONU RU Баланс 112871.96РУБ

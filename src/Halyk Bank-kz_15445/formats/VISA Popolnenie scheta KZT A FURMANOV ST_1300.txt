@@ -1,0 +1,10 @@
+^.*?(\d{4}).*?(?:Popolnenie|zachislenie).*?\s([\d\s.,]*\d) ([A-Z]{3}).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+VISA8020 Popolnenie scheta. 30000.00 KZT; A-13119 226,FURMANOV ST 24.06.2014 21:32
+
+-----EXAMPLE-----
+8785 HalykBank-zachislenie. 300.00 USD;  MARIUPOL'SKII LEV MIHAILOVI4 21.07.2014 00:00

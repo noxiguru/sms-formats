@@ -1,0 +1,7 @@
+^Приш\w+\s+(зарпла.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+на\s+.*?(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Пришла зарплата 32291.10 RUB на счет *8868. Баланс 32415.65 RUB

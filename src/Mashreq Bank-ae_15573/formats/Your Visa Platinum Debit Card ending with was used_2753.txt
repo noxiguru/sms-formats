@@ -1,0 +1,7 @@
+^.*end.*?(\d{4}).*ash withd.*?([A-Z]{3})\s*([\d\s.,]*\d) .* on\s+(\d{1,2}\s*\S{3}\s*\d{2}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;date#ddMMMyy;av_balance
+
+-----EXAMPLE-----
+Your Visa Platinum Debit Card ending with 9807 was used for a cash withdrawal of AED 900.00 at ADIB AL NAJDA BR CCDM    ABU DHABI    AE on 24Nov16 08:07 AM. Available balance is AED  16134.25.

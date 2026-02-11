@@ -1,0 +1,7 @@
+^.*DO NOT.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+RM0 PBe DO NOT share this code. FPX Payment RM143.90 to DUITN***.  S/N: FF5475316  PAC No: 112767  12Apr23 16:08  For enquiry, pls call 03-21708000

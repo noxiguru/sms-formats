@@ -1,0 +1,7 @@
+^.*?([\d.]{8}) Vydacha ([\d\s.,]*\d) (\S+).*?\*(\d{4}).*?Balans (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+15:36 03.05.13 Vydacha 2000.00 rub 4272*2383 ATM 57, Pionerskiy 4a KEMEROVO KOUR Balans 5765.43 rub Bank 88001002254

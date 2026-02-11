@@ -1,0 +1,10 @@
+^Pokupka\W?\s+(.*?)\s*(?:,\s*)*(\d{2}[-./]\d{2}[-./]\d{2,4}|)(?: [\d:]+)?,\s*.art.*?\*(\d{4})\W?\s+.umma.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+payee;date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Pokupka: GRABLI, MOSCOW, ,13.04.15 12:34,karta 4724***4058. summa:307.00 RUB, balance:2075.08 RUB
+
+-----EXAMPLE-----
+Pokupka: Magazin Avtopasker, Pavlovskij Po, karta *5763. Summa: 190.00 RUB Balans: 285.52 RUB Podrobnee: bankauto.ru/app/

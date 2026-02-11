@@ -1,0 +1,7 @@
+^Popoln.*?([\d\s.,]*\d)\s*([A-Z]{3}) Kart.*\*(\d{4}).*(\d{4}-[\d-]{5}).*Dostu.*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Popolnenie na summu 4 000.00 RUR Karta: *6141 Akod: 572002 KUDRIAVTCEVA/T RUS 2015-11-13 17:16:04. Dostupno po karte 8 352.27 RUR. SDM-BANK +7(495)7059090.

@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s.,]*\d).*?withdr.*?(\d{4})\s+on\s+(\S{3}\s+\d{1,2}\s+\d{4}) .*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;date#MMM dd yyyy;av_balance
+
+-----EXAMPLE-----
+AED 300.00 withdrawn from acc. XXX132001 on Jul 11 2016 10:14AM at ATM-ADNOC-NAHYANCMP.Avl.Bal.AED987.49.Exercise caution with large amount of cash.

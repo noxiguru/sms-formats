@@ -1,0 +1,7 @@
+^\*(\d{4})\s+([\d./-]{5}) .* vy'?da.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+*7481 06.10 15:40 vy'dacha 11900p TPSBATM141575, Balans 13739.30p

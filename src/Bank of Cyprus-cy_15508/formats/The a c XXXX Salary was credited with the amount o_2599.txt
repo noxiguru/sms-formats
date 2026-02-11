@@ -1,0 +1,7 @@
+^.*?a/c.*?(\d{4}).*?credit.*?of\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+on\s+([\d/]{10}).*etails:\s+(.*)
+
+-----COLUMNS-----
+syncid;instrument;income;date#dd/MM/yyyy;comment
+
+-----EXAMPLE-----
+The a/c XXXX369631 (Salary) was credited with the amount of EUR 3.000,00 on 26/08/2016 13:31. Details:  Payment Order - Outward Transfer FT1608261670O8AB from  EXNESS SERVICES LIMI>PAYROLL AUGUST 2016

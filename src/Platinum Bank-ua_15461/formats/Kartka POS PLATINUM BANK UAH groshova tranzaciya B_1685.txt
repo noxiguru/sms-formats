@@ -1,0 +1,7 @@
+^.*(\d{4}) ([\d.]{10}).*?-([\d\s.,]*\d)\s([A-Z]{3}) grosh.*?(-?[\d\s.,]*\d).*Usp.*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Kartka 4438*3485 10.04.2015 11:49:16 POS  PLATINUM BANK: -15000.00 UAH groshova tranzaciya. Balans 18736.94 UAH. Uspishno.

@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d.]{10}).*plata.*?v (.*?) na summu ([\d\s.,]*\d)\s*([A-Z]{3})(?!.*ostu).*speshno.*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;payee;outcome;instrument
+
+-----EXAMPLE-----
+MC: *4172 02.11.2014 12:11:30. Oplata tovarov/uslug v ORION PLAT na summu 526.32 RUR vypolnena uspeshno.

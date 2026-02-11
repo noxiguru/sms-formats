@@ -1,0 +1,10 @@
+^.*(?:NEDOVOLJNO\s+SR|nesite\s+kod\s+\d{4}).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Kartica: 4973 Iznos: 25.23 EUR Vrijeme: 26.01.2023 13:54:21 Status: NEDOVOLJNO SREDSTAVA Opis: MARKET MAJA            HERCEG NOVI    ME Raspolozivo: 11.16 EUR
+
+-----EXAMPLE-----
+<#> Molimo unesite kod 299811 da bi se prijavili na My Lovćen aplikaciju

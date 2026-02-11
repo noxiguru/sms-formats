@@ -1,0 +1,13 @@
+^.*?([\d/]{5}).*art.*(\d{4})\s+Sum.*?=\s*-([\d\s.,]*\d)\s*([A-Z]{3}).*Usp.sh.*alan.*?(-?[\d\s.,]*\d).*M.st\S+:(?!.*ATM)(.*)
+
+-----COLUMNS-----
+date#dd/MM;syncid;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+!uvedomlenie! Data:20/10 15:36 Karta:****-0152 Summa= -1UAH(Uspeshno) Balans= 5583.14UAH  Mesto:Kod 216387(1234567890)
+
+-----EXAMPLE-----
+Data:21/02 22:03 Kartka:*6756 Suma= -200UAH(Uspishno) Balans= 100 UAH  Mistse:WWW.UZ.GOV.UA
+
+-----EXAMPLE-----
+Data:19/07 15:02 Kartka:*5356 Suma= -190UAH(Uspishno) Balans= 100.00 UAH  Mistse:MONODirect

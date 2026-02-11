@@ -1,0 +1,7 @@
+^(Pogashenie.*?dogovor.*?) .*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?schet.*?(\d{4})(?!.*OSTUP).*?([\d.]{10}).*
+
+-----COLUMNS-----
+comment;outcome;instrument;syncid;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Pogashenie zadolzhennosti po dogovoru 29124-KL/3-2015 na summu 4000 RUB so scheta * 5250. 10.06.2016 14:56 nomer dokumenta:10540

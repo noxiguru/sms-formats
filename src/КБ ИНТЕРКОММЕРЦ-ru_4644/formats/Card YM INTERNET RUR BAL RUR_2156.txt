@@ -1,0 +1,7 @@
+^\w+(\d{4})\s+(.*?)\s+-\s*([\d\s.,]*\d)\s*([A-Z]{3})\s+BAL:\s*(-?[\d\s.,]*\d).+([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Card_3436 YM* INTERNET  - 1 200.00RUR BAL:5 514.78 RUR 2016-01-11 12:43:04

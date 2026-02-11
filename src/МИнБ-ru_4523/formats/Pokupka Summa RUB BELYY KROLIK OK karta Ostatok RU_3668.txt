@@ -1,0 +1,19 @@
+^(?:Pokupk|Покупк|Plate|Платеж|Predav|Предав).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:(?:Bonus|Бонус).*?[\d\s.,]*\d\s*[A-Z]{3}\s+)?(.*?)\s+([\d/]{5}) .*\*(\d{4}).*(?:stat|стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dd/MM;syncid;av_balance
+
+-----EXAMPLE-----
+Pokupka Summa 389RUB BELYY KROLIK OK 04/05 17:40 karta *9034 Ostatok 10288.38RUB
+
+-----EXAMPLE-----
+Pokupka Summa 194.89RUB Bonus 9.74RUB KARUSEL 03/05 16:48 karta *1206 Ostatok 50232.85RUB
+
+-----EXAMPLE-----
+Платеж Сумма 140RUB Beeline 09/05 22:32 карта *3349 Остаток 1.35RUB
+
+-----EXAMPLE-----
+Predavtorizaciia Summa 25969RUB Bonus 259.69RUB M.VIDEO 95 06/05 17:52 karta *4650 Ostatok 5966.85RUB
+
+-----EXAMPLE-----
+Покупка Сумма 123.08RUB INVOICEBOX 12/05 22:08 карта *4497 Остаток 1RUB

@@ -1,0 +1,10 @@
+^.*\*(\d{4})\s+([\d.]{8})\s.*(?:POLUCHENIE N|олучение н)(?!.*KOMIS|.*омис).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:DOST|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+KARTA 4*1569  10.07.17 08:57  POLUCHENIE NALICHNYH 2500.00 RUB   Kirova pr-t, 58/8 LUGA Russia  DOSTUPNO 725.22 RUB
+
+-----EXAMPLE-----
+Карта 4*1569  18.02.18 11:46  Получение наличных 4000.00 RUB   Kirova pr-t, 58/8 LUGA Russia  Доступно 49978.74 RUB

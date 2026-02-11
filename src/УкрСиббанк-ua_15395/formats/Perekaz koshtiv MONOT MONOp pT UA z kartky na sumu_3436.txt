@@ -1,0 +1,7 @@
+^Perekaz.*([\d.]{10}).*z ka.*?(\d{4}) .*umu.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Perekaz koshtiv: MONOT011 MONOp2pT, UA 22.11.2017 14:39 z kartky 5351***7624 na sumu 100.00UAH. Dostupnyi zalyshok 6383.01UAH.

@@ -1,0 +1,7 @@
+^.*арт.*?(\d{4}):?\s+([\d.]{10}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*)\..*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+ООО "банк Раунд". Карта 2790: 09.01.2017 17:09, списание 522.14 RUR, 3DI WWW.PAY.MTS.RU-MTS, MOSCOW. Доступно 609.32 RUR.

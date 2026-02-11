@@ -1,0 +1,7 @@
+^Auth.\s*(.*?)\s*-\s*([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth: "KULINARNAYA LAVKA"  - 173.40RUR Card_N**0744 ROMAN LUKYANENKO BAL:221 824.77 2015-08-17 12:24:37

@@ -1,0 +1,7 @@
+^.*MBB:TQ.*nding.*?(\d{4}) for ([A-Z]{3})\s*([\d\s.,]*\d) AT (.*?)(?:\s*,)?\s*;\s*([\d/]{8})\D.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd/MM/yy
+
+-----EXAMPLE-----
+RM0.00 MBB:TQ for using your Maybankard ending 1111 for MYR150.00 AT GRABPAY ECOM SSL-EC\UNIT , ;25/08/19;23:42.For enq call num at back of your card

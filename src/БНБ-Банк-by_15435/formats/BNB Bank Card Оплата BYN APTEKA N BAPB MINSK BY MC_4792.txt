@@ -1,0 +1,13 @@
+^.*ard(?!.*MCC:\s*60).*?(\d{4})\W? .(?:плата|plata|редавто|redavto).*?([\d\s.,]*\d)\s*([A-Z]{3})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+; (.*?)\s*; (MCC:\s*\d+|);?\s*.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;payee;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+BNB-Bank; Card0637; Оплата: 8,42 BYN; 18.08.20 18:32:37; APTEKA N25 BAPB,MINSK,BY; MCC: 5912; Dostupno: 1 944,73 BYN
+
+-----EXAMPLE-----
+Card#4899; Oplata v OTS: 0.59 BYN; 15.12.2021 16:03:38; SHOP ZOLOTOY KOLOS>PINSK>BLR ; Dostupno 215.17 BYN
+
+-----EXAMPLE-----
+Card#4899; Predavtorizaciya v internete: 98.00 BYN; 18.12.2021 10:20:28; WARGAMING>PARTIZANSKIY>BLR; Dostupno 139.33 BYN

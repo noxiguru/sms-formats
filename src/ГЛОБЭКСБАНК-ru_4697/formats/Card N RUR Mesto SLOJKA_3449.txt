@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*-([\d\s.,]*\d)\s*([A-Z]{3}).*esto:\s*(?!.*BAL)(.*?)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Card_N**1442  - 230.00RUR Mesto: SLOJKA  2018-02-01 18:56:28

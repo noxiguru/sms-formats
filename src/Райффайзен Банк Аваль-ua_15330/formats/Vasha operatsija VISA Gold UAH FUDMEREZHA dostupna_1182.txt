@@ -1,0 +1,7 @@
+^.*?operatsija.*?([\d.]{10}).*?(\d{4}) (\d[\d\s.,]*) ([A-Z]{3}) (?!ATM)(.*?) dostupna suma (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Vasha operatsija: 13.02.2014 15:31:14 VISA Gold/769482 14.08 UAH FUDMEREZHA dostupna suma 10.54 UAH

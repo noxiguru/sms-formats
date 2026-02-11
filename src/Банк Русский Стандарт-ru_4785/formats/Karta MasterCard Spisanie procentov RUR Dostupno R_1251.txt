@@ -1,0 +1,10 @@
+^.*\*(\d{4})\s+(.pisanie.*?)\s*.?\s+-([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta MasterCard *9650 Spisanie procentov : -1 243.41 RUR 03.03.2018. Dostupno: 89 824.28 RUB. Bank Russkiy Standart
+
+-----EXAMPLE-----
+Karta MasterCard *8634 Spisanie komissii za strahovanie: -16.89 RUR 06.08.2018. Dostupno: 73 085.91 RUB. Bank Russkiy Standart

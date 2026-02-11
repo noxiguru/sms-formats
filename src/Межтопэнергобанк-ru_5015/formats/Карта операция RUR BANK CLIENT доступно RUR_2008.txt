@@ -1,0 +1,10 @@
+^([\d.]{10}).*\*\d*(\d{4}).*(?:перац|perac)(?!.*bonus).*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+02.10.2015 00:29 Карта *6951, операция +11.09 RUR, BANK CLIENT, доступно: 11.09 RUR
+
+-----EXAMPLE-----
+21.11.2016 14:14 Karta *1249, operacziya +1 500.00 RUR, BANK CLIENT, dostupno: 2 017.71 RUR

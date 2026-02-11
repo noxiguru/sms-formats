@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d/]{8}).*?NALICHNYE ([\d\s.,]*\d)\s*([A-Z]{3}).*DOSTUPNO (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd/MM/yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+KARTA 4*8210 30/10/14 20:53, NALICHNYE 55000.00 RUB(KOMISSIYA 0.00 RUB), VB24 1, ZANEVSKAYA, SANKT-PETERBURG G, Russia, DOSTUPNO 46356.76 RUB

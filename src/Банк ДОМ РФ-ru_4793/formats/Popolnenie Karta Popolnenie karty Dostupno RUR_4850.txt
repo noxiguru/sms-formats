@@ -1,0 +1,13 @@
+^(?:Popoln|Пополн).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|).*.(?:art|chet|арт|чет).*?(\d{4})\D.*(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Popolnenie 12585.48 Karta 1598 Popolnenie karty Dostupno 13585.48 RUR
+
+-----EXAMPLE-----
+Popolnenie  38463.53 RUR, postuplenie zarplaty na kartu *9584. Dostupno 62414.08 RUR
+
+-----EXAMPLE-----
+Popolnenie  77272.73 RUR Schet **31343 Popolnenie karty Dostupno 374099.87 RUR

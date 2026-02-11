@@ -1,0 +1,7 @@
+^.*?(\d{4})\D?\s+([\d.]{10}).*opolnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 8958: 13.04.2018 15:25 popolnenie 11824.00 RUR. Balans 12918.61 RUR

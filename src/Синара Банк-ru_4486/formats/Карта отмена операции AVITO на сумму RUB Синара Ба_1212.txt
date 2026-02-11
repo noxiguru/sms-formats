@@ -1,0 +1,10 @@
+^(?:Карта|Karta) (\d{4}) ((?:отмена оп|otmena op)\w+) (.*?) (?:на сум|na sum).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;payee;income;instrument
+
+-----EXAMPLE-----
+Карта 4214 отмена операции AVITO на сумму 4829,00 RUB ║ Синара Банк
+
+-----EXAMPLE-----
+Karta 9184 otmena operatsii Mos.Transport 41, MIRA na summu 10,00 RUB

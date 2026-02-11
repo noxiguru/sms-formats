@@ -1,0 +1,7 @@
+^Spisanie.*(\d{4}).\s+\-([\d\s.,]*\d)\s+([A-Z]{3})\s+([\d/]{8}).*Dostupno.\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Spisanie s karty VISA *5630: -39.00 RUR 21/04/2014 15:22:50 MSK. Dostupno: 1543.63 RUR. Tel: 88007752424

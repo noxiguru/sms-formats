@@ -1,0 +1,37 @@
+^(?:Оплата|Квази|Перевод с|Oplata|Quasi|Perevod s)(?!.*(?:Курс|Kurs)).*?\*(\d{4});?\s*(\d{2}[-./]\d{2}[-./]?\d{0,4})[;\s\d:]+\s+(.+?);?\s+([1-9]\d{0,2}(?:\s\d{3})*[,.]\d{2}|\d+[,.]\d{2})\s*([а-яa-zA-Z]{3});?\s*(?:Остат|Ostat|Лимит|Limit).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;payee;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Оплата ES *7443; 28.04 13:13; PEREKRESTOK KOMSOMOLS>PODOLSK RU; 891,00 RUB; Лимит: 99 031,17 RUB
+
+-----EXAMPLE-----
+Оплата ES *4072; 26.04 11:24; OOO PROSPEKT>KOMSOMOLSK-NA RU; 951,71 RUB; Остаток: 1 375,75 RUB
+
+-----EXAMPLE-----
+Квази-наличные VC *7891; 20.07 11:25; W.QIWI.RU>W.QIWI.RU RU; 100,75 RUB; Остаток: 450,52 RUB
+
+-----EXAMPLE-----
+Oplata VP *1902; 28.03 14:49; "GOODNEWS">MOSCOW RU; 115,00 RUB; Ostatok: 9 256,94 RUB
+
+-----EXAMPLE-----
+Perevod s karty ES *2638; 30.03 16:10; TRANSF OWN>MOSCOW RU; 722,20 RUB; Ostatok: 0,00 RUB
+
+-----EXAMPLE-----
+Oplata ES *6225; 27.03 18:35; PLAYSTATIONNETWORK>INTERNET GB; 1 278,00 RUB; Limit: 1 211,33 RUB
+
+-----EXAMPLE-----
+Quasi-cash VP *6005; 26.04 09:04; YANDEX.MONEY>MOSKVA G RU; 269,00 RUB; Ostatok: 45 337,89 RUB
+
+-----EXAMPLE-----
+Perevod s karty ES *6225; 14.09 18:15; LR*rencredit.ru>MOSKVA RU; 1 359,87 RUB; Limit: 5 819,96 RUB
+
+-----EXAMPLE-----
+Quasi-cash *0125; 27.04 11:54; STOLOTO>MOSKVA RU; 700,00 RUB; Limit: 26 911,04 RUB
+
+-----EXAMPLE-----
+Oplata *4625 03.11 12:48 VREMYA EST 190,00 RUB Ostatok: 1 102,48 RUB
+
+-----EXAMPLE-----
+Оплата EW *2632 03.11 12:36 MIRATORG N133 357,60 RUB Лимит: 164 534,40 RUB

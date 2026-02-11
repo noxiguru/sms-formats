@@ -1,0 +1,10 @@
+^(?:Поку|Poku).*\*(\d{4}).*(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка по карте **2604 на сумму 5,04 RUP Баланс 283,50 RUP
+
+-----EXAMPLE-----
+Pokupka po karte **5177 na summu 7,20 RUP Balans 669,64 RUP

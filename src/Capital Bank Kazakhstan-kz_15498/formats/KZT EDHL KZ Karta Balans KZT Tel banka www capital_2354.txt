@@ -1,0 +1,7 @@
+^([\d-]{10}) [\d:]{5,8} ([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+Kart.*?\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+2016-04-13 10:15:00 3 000.00 KZT EDHL.KZ Karta 4399***1972. Balans 22 182.00 KZT. Tel. banka 6161, www.capitalbank.kz

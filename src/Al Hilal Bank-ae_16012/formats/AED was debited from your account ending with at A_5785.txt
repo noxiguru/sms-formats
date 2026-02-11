@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) was deb.*with (\d{4}) at (.*?)\. Your bal.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+153.00 AED was debited from your account ending with 7001 at Abu Dhabi Police AUH AE. Your balance is now 1192.20 AED.

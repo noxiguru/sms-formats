@@ -1,0 +1,7 @@
+^.*?(\d{4}).*?([\d-]{10}) [\d:]+ ([\d\s.,]*\d) ([A-Z]{3}) Izmenenie ost.*?Balance: (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+Card N**0297 VLADIMIR BELOBORODOV 2014-02-19 06:59:57 56 550.00 RUR Izmenenie ostatka/Change of balance Balance: 56 611.77

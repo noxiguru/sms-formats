@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4})\s+(.*?)\s+bila proved.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;payee;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+19.04.23 08:50 s kartoy ***2643 KKB APP, KG bila provedena operaciya na summu 80.00 KGS. Balans 2521.70 KGS.
+
+-----EXAMPLE-----
+22.09.23 09:16 s kartoy ***2046 WildberriesKG, KG bila provedena operaciya na summu 599.00 KGS. Balans 3253.87 KGS.

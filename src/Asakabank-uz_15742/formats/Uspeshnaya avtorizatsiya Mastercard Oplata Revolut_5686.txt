@@ -1,0 +1,7 @@
+^.*spesh.*?\*(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*plata (.*?) .umma\W? -([\d\s.,]*\d)\s*([A-Z]{3}) .alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;payee;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Uspeshnaya avtorizatsiya Mastercard *3563 23-03-18 16:36 Oplata Revolut**6847*>Dubli Summa: -20.50 USD Balans: 51.98 USD

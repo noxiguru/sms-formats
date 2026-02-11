@@ -1,0 +1,7 @@
+^.*?(\d{4}) .*?opovnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Rakhunok 1234567890 Popovnennya 2749.01 UAH Balans 2790.83 UAH Vlasni koshty 2790.83 UAH 07.04.16 13:34

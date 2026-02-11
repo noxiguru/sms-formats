@@ -1,0 +1,7 @@
+^(?:\S+\s+\*)?(Koshelek|Кошелек|\d{4})\.\s+(?:Spisan|Списан).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;balance
+
+-----EXAMPLE-----
+Карта *1294. Списано 47 USD. Баланс 100.45 USD

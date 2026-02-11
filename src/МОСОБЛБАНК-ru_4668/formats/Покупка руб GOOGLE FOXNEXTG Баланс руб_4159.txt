@@ -1,0 +1,7 @@
+^\*(\d{4}).*окуп.*?([\d\s.,]*\d)\s*([а-яA-Z]{3})\W*\s+(.*?)\.?\s+.алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+*0990 Покупка 75.00руб. GOOGLE*FOXNEXTG. Баланс: 17429.32руб.

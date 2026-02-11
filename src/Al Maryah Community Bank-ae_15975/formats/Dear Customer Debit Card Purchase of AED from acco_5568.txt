@@ -1,0 +1,7 @@
+^.*urchase of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) from .* with (\d{3,4}) from (.*?) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*alan.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Customer, Debit Card Purchase of AED 39.75 from account ending with 001 was done by Card ending with 990 from SPINNEYS DUBAI LLC on 27/11/2022, your available balance is AED 0000.00

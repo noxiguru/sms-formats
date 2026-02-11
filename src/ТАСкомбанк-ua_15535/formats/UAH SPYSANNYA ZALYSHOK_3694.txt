@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) SPYSAN\S+\s+([\d/]{8}).*ZALY.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd/MM/yy;av_balance
+
+-----EXAMPLE-----
+100.00 UAH SPYSANNYA 14/05/18, 09:28:8 ZALYSHOK -3 220.58

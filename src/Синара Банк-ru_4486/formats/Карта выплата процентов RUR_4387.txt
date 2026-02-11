@@ -1,0 +1,10 @@
+^.*?(\d{4}) ((?:выплата пр|vyplata pr).*?)(?!.*(?:стат|stat))([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Карта 5*5983 выплата процентов 178,60 RUR 01/11/2019
+
+-----EXAMPLE-----
+Karta 5*5983 vyplata protsentov 105,93 RUR 01/12/2020

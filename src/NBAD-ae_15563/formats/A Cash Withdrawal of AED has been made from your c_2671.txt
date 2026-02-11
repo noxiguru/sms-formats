@@ -1,0 +1,7 @@
+^.*ash.*?ithdraw.*?([A-Z]{3})\s*([\d\s.,]*\d).*ard\s+(\d{4})\s+on\s+([\d-]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+A Cash Withdrawal of AED 100.00 has been made from your card 6815 on 05-10-2016 at 08:09 AM.Your Available Balance is AED34,918.41.

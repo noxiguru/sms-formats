@@ -1,0 +1,19 @@
+^(?:Нажмите,\s+чтобы|Tippe,\s+um|⏰|🚨|Ваш баланс мен).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Нажмите, чтобы подтвердить онлайн-платеж с вашей карты: €10 - Xfera Moviles S.A.U. ║ Подтвердите платеж 💵
+
+-----EXAMPLE-----
+Tippe, um eine Online-Zahlung mit deiner Karte zu verifizieren: £0 an PAYPAL. ║ Eine Zahlung verifizieren 💵
+
+-----EXAMPLE-----
+⏰ You have a direct debit to PayPal Europe S.a.r.l. et Cie S.C.A scheduled for tomorrow. Increase your EUR balance by €30.08 to make sure it is processed. ║ Revolut
+
+-----EXAMPLE-----
+🚨 DOT has hit your target price of €3.86 ║ Revolut
+
+-----EXAMPLE-----
+Ваш баланс меньше €10 (остаток: €1.81). Пополните счет сейчас, чтобы ваш следующий платеж не был отклонен. ║ Revolut

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*?(?:писан|pisan)(?!.*(?:omiss|омисс)).*?([\d\s.,]*\d)\s*([а-яА-ЯA-Z]{3}).*?(?:алан|alan).*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Карта *9725. Списано 7000 RUR. C2C R-ONLINE. Balans 23129.03 RUR. 2018-10-18

@@ -1,0 +1,7 @@
+^Debit.*moun.*?([A-Z]{3}|\W)\s*-([\d\s.,]*\d).*Num:\s*(\d{4}x+\d{2}),\s+.ate:\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*ocation:\s+(.*?)(?: g\.co.*?)?, .urrent.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Debit Alert, Amount: GHS-35.0, Acct Num: 2030xxxxxxx19, Date: 26-06-2023 11:57:58, Transaction Location: GOOGLE *KINAKH O V PE g.co/helppay# 840, Current bal:GHS67.17.

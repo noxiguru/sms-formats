@@ -1,0 +1,10 @@
+^.plata\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?);\s+MCC\s+(\d{4})\D.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;mcc;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+oplata 12.2 BYN YANDEX GO>INTERNET>BLR; MCC 4121; 18/09/2024; Dostupno: 254.89 BYN
+
+-----EXAMPLE-----
+oplata 5.42 BYN SHOP 'EVROOPT'>MINSK>BLR; MCC 5411'; '18/09/2024; Dostupno: 758.41 BYN

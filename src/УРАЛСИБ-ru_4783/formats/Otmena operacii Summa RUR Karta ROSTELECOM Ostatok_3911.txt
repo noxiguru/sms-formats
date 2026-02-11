@@ -1,0 +1,10 @@
+^((?:Otmena|Vozvrat).*?).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\D?\s*(.*?)\s+([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Otmena operacii. Summa 4.52 RUR; Karta *3019, ROSTELECOM 19.09.18 08:28. Ostatok 28474.24 RUR
+
+-----EXAMPLE-----
+Vozvrat sredstv 190.00 RUR. Karta *8030 IMPERIYA GREZ KIOSK in N.NOVGOROD, 03.01.19 00:00. Ostatok 28260.47 RUR

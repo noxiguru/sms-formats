@@ -1,0 +1,7 @@
+^.*?Popovnennya rahunku ([\d.]{8}).*Kartka[^\d]+(\d{4}) Suma=([\d\s.,]*\d)([A-Z]{3}) Zalishok=([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Brokbisnesbank Popovnennya rahunku 19.07.13 13:10 Kartka-Visa Classic 1764 Suma=2900,00UAH Zalishok=7311,50UAH

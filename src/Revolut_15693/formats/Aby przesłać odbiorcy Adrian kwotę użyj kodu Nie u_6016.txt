@@ -1,0 +1,13 @@
+^.*(?:(?:[Kk]odu|[Кк]од):?\s+\d{3}-\d{3}|tuknij tutaj).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Aby przesłać odbiorcy Adrian kwotę €0.01, użyj kodu 753-227. Nie udostępniaj go nikomu. Pracownicy Revolut nigdy nie poproszą Cię o jego podanie. Du0Z94STqHw
+
+-----EXAMPLE-----
+Stuknij tutaj, aby zweryfikować następującą płatność kartą: 97.69 PLN — Google. ║ Zweryfikuj płatność online 💵
+
+-----EXAMPLE-----
+Перевод €10 (Ekaterina) в Revolut. Код: 805-594. Du0Z94STqHw

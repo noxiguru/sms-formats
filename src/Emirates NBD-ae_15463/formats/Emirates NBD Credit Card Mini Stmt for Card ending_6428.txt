@@ -1,0 +1,7 @@
+^.*ard\s+ending.*Total\s+Amt\s+Due.*Due\s+Date.*Min\s+Amt\s+Due.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Emirates NBD Credit Card Mini Stmt for Card ending 9952: Statement date 09/12/24. Total Amt Due AED 911.75, Due Date 03/01/25. Min Amt Due AED 100.00

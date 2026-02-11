@@ -1,0 +1,7 @@
+.*a/c.*?(\d{4}) .*credit.*?of ([A-Z]{3})\s*([\d\s.,]*\d) on ([\d/]{8}) .*From:\s*(.*?)\s+Details:\s*(.*)
+
+-----COLUMNS-----
+syncid;instrument;income;date#dd/MM/yy;payee;comment
+
+-----EXAMPLE-----
+The a/c XXXX369631 (CURRENT A/CS LOCAL-DCA) was credited with the amount of EUR 20,00 on 02/03/17 15:37 From: FIRSOV ALEKSEI Details: QuickPay - 8m

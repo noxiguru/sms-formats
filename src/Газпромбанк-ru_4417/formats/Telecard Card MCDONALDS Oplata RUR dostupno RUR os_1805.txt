@@ -1,0 +1,22 @@
+^Telecard;\s+[^;]*?(\d{4}|[^\d\s;]+);\s+([\d.]{8})\s+.*?;\s+(.+);\s+(?:Oplata|Predauth|Platezh).*?;\s+([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Telecard; Card7895; 06.04.13 14:43:54; MCDONALDS 24443; Oplata; 277 RUR; dostupno: 212069.96 RUR; ostatok na schete: 212069.96 RUR
+
+-----EXAMPLE-----
+Telecard; Card2400; 21.05.13 20:07:56; GPN AZS17; Predauth ok; 1100 RUR; dostupno: 27255.82 RUR; ostatok na schete: 27255.82 RUR
+
+-----EXAMPLE-----
+Telecard; Card2400; 25.05.13 12:15:57; GOOGLE *Nuance Android; Oplata v I-net; 31.32 RUR; dostupno: 25866.97 RUR; ostatok na schete: 25866.97 RUR
+
+-----EXAMPLE-----
+Telecard; Card7895; 09.09.13 20:26:17; POGASH. ZADOLJENNOSTI; Predauth; 12493.15 RUR; dostupno: 71969.78 RUR; ostatok na schete: 71969.78 RUR
+
+-----EXAMPLE-----
+Telecard; Card9257; 26.03.14 06:40:37; AZK NO53 K2; Oplata; 876 RUR; dostupno: 8842.12 RUR; ostatok na schete: 7842.12 RUR
+
+-----EXAMPLE-----
+Telecard; MC Standart; 26.03.14 06:40:37; AZK NO53 K2; Oplata; 876 RUR; dostupno: 8842.12 RUR; ostatok na schete: 7842.12 RUR

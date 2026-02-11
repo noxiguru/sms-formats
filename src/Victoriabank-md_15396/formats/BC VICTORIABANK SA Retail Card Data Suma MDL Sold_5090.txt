@@ -1,0 +1,7 @@
+^.*Retail.*?\.(\d{4})\s+Data.*?(\d{4}[-./]\d{2}[-./]\d{2}).*[Ss]uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*[Ss]old.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*etal\w+\W\s*(.*)
+
+-----COLUMNS-----
+syncid;date#yMd;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+BC VICTORIABANK SA Retail Card: 4...7716 Data: 2021-07-23 09:18:07 Suma: 455.15 MDL Sold: 22635.08 MDL Detalii: MAIB GREEN HILLS MARKET

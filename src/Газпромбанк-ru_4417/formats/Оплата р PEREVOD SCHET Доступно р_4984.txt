@@ -1,0 +1,10 @@
+^\*(\d{4})\s+.плат.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*?)\s+.осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*2811 Оплата 5949.08р PEREVOD SCHET Доступно 430.42р
+
+-----EXAMPLE-----
+*8775 Оплата ok 1521р GAZPROMNEFT AZS 047 Доступно 7026.88р ║ Газпромбанк

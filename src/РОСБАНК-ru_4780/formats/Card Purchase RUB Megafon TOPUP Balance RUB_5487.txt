@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*urchas.*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+(.*?)\.\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\.\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Card *5341. Purchase 150.00 RUB. Megafon TOPUP 5926. Balance: 49780.67 RUB. 27/02/23.

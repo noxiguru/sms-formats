@@ -1,0 +1,13 @@
+^(?:NAL|Sn[iy]at|Poluch.*?nal).*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:STAT|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance
+
+-----EXAMPLE-----
+NALICHNYE 5000000 BYR KARTA #0136 DATA 29.04.2016 13:18:00 CBU-6 BNB ATM>MINSK>BY OSTATOK 4756823 BYR
+
+-----EXAMPLE-----
+Sniatie nalichnyh 50.00 BYN Visa#2677; >MINSK>BY; MCC 6011; 20.09.2022 18:45:35; Dostupno: 3.60
+
+-----EXAMPLE-----
+Poluchenie nalichnyh 673.50 BYN s Mastercard#3613; CBU N17 CASHIER N1>G. MINSK>BY; MCC 6010; 04.02.2023 10:22:33; Dostupno: 780.71

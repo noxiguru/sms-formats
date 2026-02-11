@@ -1,0 +1,7 @@
+^.(\d{4});\s+(?:Vozvr|Возвр).*?([\d\s.,]*\d)\s*([A-Z]{3});\s*([\d.]{8}[1-9]{2});\s*(.+)
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;payee
+
+-----EXAMPLE-----
+*5827; Vozvrat:1652.90RUR; 09.09.2015; WWW.RZD.RU

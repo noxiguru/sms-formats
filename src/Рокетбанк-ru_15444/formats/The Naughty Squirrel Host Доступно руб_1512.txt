@@ -1,0 +1,7 @@
+^(?!Отмена)[-−]([^\d\s]+)(\d[\d\s.,]*)\s+(.*?)\s+.осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;payee;av_balance
+
+-----EXAMPLE-----
+-€41.69 The Naughty Squirrel Host Доступно: 2011 руб.

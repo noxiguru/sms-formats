@@ -1,0 +1,7 @@
+^Operaciya po karte \*{3}(\d{4}):\s+([0-9][\d\s.,]*\d)([A-Za-z]{1,3})\s+(.*?)\s+Data:\s+(2025-09-19)\s+19:26:11\s+Dostupno:\s+(-?[0-9][\d\s]*[.,]\d{2})([A-Za-z]{1,3})\s+║\s+Bereke Bank$
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Operaciya po karte ***6947: 28846,22KZT Bonus Transfer Data: 2025-09-19 19:26:11 Dostupno: 37089,85KZT ║ Bereke Bank

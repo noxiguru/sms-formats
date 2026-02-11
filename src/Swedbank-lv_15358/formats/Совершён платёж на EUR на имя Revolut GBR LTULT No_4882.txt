@@ -1,0 +1,7 @@
+^Соверш.*латёж.*?([\d\s.,]*\d)\s*([A-Z]{3}) на имя\s+(.*?)\.? ║ Notif.*
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+Совершён платёж на 10 EUR на имя Revolut**1834* GBR LTULT. ║ Notification from Swedbank

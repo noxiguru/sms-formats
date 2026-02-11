@@ -1,0 +1,7 @@
+^.*(\d{4}) ([\d.]{8}) [\d:]+ (.*?)\s+(?:POKUPKA|INTERNET OPLATA).\s*([\d\s.,]*\d) ([A-Z]{3})\s+OSTATOK.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+MR ILDAR KHABIBULLIN  4232***1762 06.03.14 12:13 N.NOVGOROD,   STOLOVAJA 25, RU POKUPKA:241.50 RUR  OSTATOK: 4577.68 RUR

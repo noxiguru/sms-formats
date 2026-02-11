@@ -1,0 +1,7 @@
+^Your HBL (Debit).*harged.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*alan.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your HBL Debit Card has been charged for a Transaction of PKR 3,998.00 on 12/10/2022 . Remaining balance is PKR 39,288.48.

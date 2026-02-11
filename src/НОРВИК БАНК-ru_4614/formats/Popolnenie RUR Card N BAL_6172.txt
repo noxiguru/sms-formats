@@ -1,0 +1,7 @@
+^Popoln.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+.ard.*?\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Popolnenie: 20 000.00 RUR Card_N **0464 BAL: 25 136.74

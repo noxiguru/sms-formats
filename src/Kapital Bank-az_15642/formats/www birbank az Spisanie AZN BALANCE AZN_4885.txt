@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+.pisan.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+BALA.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+www.birbank.az 4169**2466 Spisanie 150.00 AZN BALANCE 21.03 AZN 16:45 12.12.20

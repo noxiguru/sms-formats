@@ -1,0 +1,13 @@
+^.*urchase.*?By:\s*\**(\d{4})\D.*mount:\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+At:\s+(.*?)\s+(?:Country.*)?[Dd]ate:\s+([\d]{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#yMd
+
+-----EXAMPLE-----
+PoS Purchase By: ***5581;mada(Atheer) From: ***001 Amount: SAR 362.25 At: TAYF AL ASEMA COMPA Date: 2024-09-07 18:07:27
+
+-----EXAMPLE-----
+Online Purchase By: ***5581;mada From: ***001 Amount: SAR 496.00 At: HUNGERSTATION LLC×× Date: 2024-09-06 13:22:20
+
+-----EXAMPLE-----
+PoS International Purchase By: 5581;mada(mada Pay); Amount: EUR 46.50 At: Osteriaitaliana Country: PORTUGAL Date: 2024-11-24 19:01:12

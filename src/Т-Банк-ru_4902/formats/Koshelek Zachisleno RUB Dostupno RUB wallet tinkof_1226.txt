@@ -1,0 +1,10 @@
+^(Koshelek|Кошелек).*(?:achislen|ачислен).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Koshelek. Zachisleno 2.00 RUB. Dostupno 500.00 RUB. wallet.tinkoff.ru
+
+-----EXAMPLE-----
+Кошелек. Зачислено 1 RUB. Доступно 849 RUB

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*?(?:achis|ачис).*?([\d\s.,]*\d)\s*([а-яА-ЯA-Z]{3}).*?(?:alan|алан).*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Karta *4068. Zachisleno 500 RUR. Balans 536 RUR. 2018-10-11

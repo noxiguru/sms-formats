@@ -1,0 +1,10 @@
+^.*?(\d{4})\s+.(?:pisano|писано|плата)([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:mesto|место)(?!.*\d{2}/\d{2}/)\s+(.*?)\s+(?:Ostat|Остат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance
+
+-----EXAMPLE-----
+Karta 4...3720 spisano 50 RUR mesto OAO KIBERPLAT (MEGAFON) Ostatok 2204.98 RUR
+
+-----EXAMPLE-----
+Карта 4...1234 списано 100,00 RUR место интернет-банк Остаток 10000,00 RUR

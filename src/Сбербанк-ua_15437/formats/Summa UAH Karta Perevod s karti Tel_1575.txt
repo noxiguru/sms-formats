@@ -1,0 +1,7 @@
+^([\d/]{5}).*Summa.([\d\s.,]*\d) ([A-Z]{3}) Karta.*?(\d{4}) Perevod s.*
+
+-----COLUMNS-----
+date#dd/MM;income;instrument;syncid
+
+-----EXAMPLE-----
+05/02 11:31 Summa=4000 UAH Karta 4244-8814 Perevod s karti 4524-2529.  Tel.: 5595

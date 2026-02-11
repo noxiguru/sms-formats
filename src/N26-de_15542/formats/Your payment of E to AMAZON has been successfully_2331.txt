@@ -1,0 +1,7 @@
+^.*ayment.*? (\D{1,3})\s*([\d\s.,]*\d) to (.*) has been.*
+
+-----COLUMNS-----
+instrument;outcome;payee
+
+-----EXAMPLE-----
+Your payment of E25.00 to AMAZON has been successfully processed. ║ N26

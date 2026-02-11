@@ -1,0 +1,7 @@
+^Your pay.*?([A-Z]{3}|\W)\s*([\d\s,]*\d\.\d{2})\d.*ebited.*nding (\d{4}) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s,]*\d\.\d{2})\d.*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your payment of BHD 161.875 through FAWRI/SWIFT service was debited from account ending 1901 on 06/09/22 at 06:31. Your available balance is BHD 1228.931.

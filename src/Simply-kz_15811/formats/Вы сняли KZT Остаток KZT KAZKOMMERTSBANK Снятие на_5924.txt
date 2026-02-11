@@ -1,0 +1,7 @@
+^Вы\s+сня.*?([\d\s.,]*\d)\s*([A-Z]{3}).*стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*\s+║\s+(.*)
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;date#dMy;comment
+
+-----EXAMPLE-----
+Вы сняли  20000.00 KZT.  Остаток:  7843.00 KZT. KAZKOMMERTSBANK, 08.08.2023 22:05:11 ║ Снятие наличных

@@ -1,0 +1,7 @@
+^POKHANCMAN STACUM MUTQ ([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*MNAC.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+POKHANCMAN STACUM MUTQ 34800.00 AMD 4722***5682 CONVERSE MOBILE C2C, AM 17.07.2023 11:19 MNACORD: 169431.18 AMD

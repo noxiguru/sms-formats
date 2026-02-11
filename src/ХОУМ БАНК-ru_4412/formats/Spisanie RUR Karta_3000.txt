@@ -1,0 +1,13 @@
+^(?:Spisan|Списан)\w+(?!.*\s+(?:za|за)\s+):?([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4})(?:\.\s*)?(?:\s+║\s+.*)?$
+
+-----COLUMNS-----
+outcome;instrument;syncid
+
+-----EXAMPLE-----
+Spisanie: 15000.00 RUR. Karta *5328.
+
+-----EXAMPLE-----
+Spisanie: 98.00 RUR. Karta *2994 ║ Хоум Кредит
+
+-----EXAMPLE-----
+Списание: 100000.00 RUR. Карта *6778 ║ Хоум Кредит

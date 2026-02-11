@@ -1,0 +1,7 @@
+^.*STACUM ([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}) (.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ MNAC.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+C2C STACUM 71,000.00 AMD 4318***0983 YUNIS YUNIBANK-IC UNIBANK ARCA ONLINE, AM 20.05.2022 13:19 MNACORD: 407,041.88 AMD

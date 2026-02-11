@@ -1,0 +1,9 @@
+^.*ransak.*\*(\d{4}).*([\d-]{10}).*wot.*?([\d\s.,]*\d)\s*([A-Z]{3}).*oste.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+PKO Bank Polski informuje o dokonaniu transakcji przy uzyciu karty 
+"Przejrzystej" 543247***3465 w dn. 2018-08-27 na kwote 59.89PLN. Dostepne 
+srodki: 11640.68PLN.

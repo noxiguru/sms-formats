@@ -1,0 +1,7 @@
+^.*?([\d.]{10}).*(\d{4})\s+av/balance.\s+(-?[\d\s.,]*\d).*?\(\+([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;av_balance;income
+
+-----EXAMPLE-----
+! Av/Balance 20.01.2014 18:03 account: 42301810****2506 av/balance: 8091.29 RUB (+8000.00 RUB) Tel:+73432645564 www.ubrr.ru

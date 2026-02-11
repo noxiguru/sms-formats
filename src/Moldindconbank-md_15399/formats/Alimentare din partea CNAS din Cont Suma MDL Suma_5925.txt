@@ -1,0 +1,7 @@
+^Alim.*partea\s(.+)\sdin.*(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*uma:\s*([\d\s.,]*\d)\s*([A-Z]{3}).*disp.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+payee;date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Alimentare din partea CNAS din 08.08.23 16:27. Cont: **4621. Suma: 6.888,39 MDL. Suma disp.: 47.389,39 MDL. ║ Alimentare cont

@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d.]{10}).*?achisleno.*ummu.*?([\d\s.,]*\d)\s*([A-Z]{3}).*usp.*ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+CONT: *6575 05.05.2015 05:57:07. Zachisleno na depozit (bank) na summu: 45888.89 RUR vypolneno uspeshno. Dostupno: 77822.86 RUR.

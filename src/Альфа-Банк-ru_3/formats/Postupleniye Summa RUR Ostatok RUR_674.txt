@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*?ostup.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*st[aа]t.*?(-?[\d\s.,]*\d).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+4*3358; Postupleniye; Summa: 1000,00 RUR; Ostatok: 1591,93 RUR; 23.03.2013
+
+-----EXAMPLE-----
+**9580 Postupleniye Summa: 146 601,99 RUR Ostatok: 146 699,28 RUR 11.09.2018 Podrobnosti v mobilnom banke alfabank.ru/app
+
+-----EXAMPLE-----
+**5712 Рostupleniye Summа: 450 RUR Оstаtok: 450 RUR 14.05.2020 Podrobnоsti v mobilnom banke alfabank.ru/app

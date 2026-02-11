@@ -1,0 +1,7 @@
+^.*WITHDRAW.*.*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d/]{8}) .*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM/yy
+
+-----EXAMPLE-----
+*WITHDRAWAL* RCB Card: *0082 Amount: 90.00 EUR   At: 28th October Ave, Limassol, CY 21/08/17 12:59 T. +35725355722

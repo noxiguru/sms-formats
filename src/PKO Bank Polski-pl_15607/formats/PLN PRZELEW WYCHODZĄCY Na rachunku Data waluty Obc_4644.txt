@@ -1,0 +1,13 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}).*(?:YCHOD|płata|rzelew\s+pod)(?!.*(?:eceiver|dbiorca)).*\d\.+(\d{4}).*[Dd]at[ae].*?\s+(\d{4}\s*-\s*\d{2}\s*-\s*\d{2})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#yMd
+
+-----EXAMPLE-----
+-1500,00 PLN PRZELEW WYCHODZĄCY Na rachunku 32.7759. Data waluty: 2020- 05-05 || Obciążenie rachunku
+
+-----EXAMPLE-----
+-17,90 PLN Opłata On account no. 36..7425 Value date: 2024-08-31 ║ Account debit
+
+-----EXAMPLE-----
+-67,00 PLN Przelew podatkowy On account no. 90..1210 Value date: 2024-12-18 ║ Account debit

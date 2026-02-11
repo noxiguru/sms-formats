@@ -1,0 +1,13 @@
+^((?:Зачисл|К[эе]шб[эе]к|Zachis|Cash[Bb]ack).*?)(?:\.? Счёт|po kontr).*?\*\s*(\d{4})\D?.*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Зачисление процентов. Счёт *** 1040. Сумма: 562,91 RUR. 01.09.2019 11:47
+
+-----EXAMPLE-----
+Кэшбэк. Счёт *** 6008. Сумма: 54,02 RUR. 31.12.2019 23:02 ║ Ак Барс Онлайн 3.0
+
+-----EXAMPLE-----
+Zachislenie CashBack po kontraktu*4047 za tekushchij mesyac 4.00RUR 30.04.20 23:15 Zarabotay bol'she s programmoy "SLIVKI" akbars.ru/slivki

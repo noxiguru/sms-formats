@@ -1,0 +1,13 @@
+^.*?;\s+.*?(\d{4}|[^;\d]+);.*Poluchen\s+p.*umma([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{8})[^;]+.\s+([^;]*).*ostupno.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;comment;av_balance
+
+-----EXAMPLE-----
+Telecard; Card5458; Poluchen perevod; Summa 10000 RUR; 20.03.15 12:47:22; ERDMAN/IRINA.MS; dostupno: 26341.1 RUR 12:47
+
+-----EXAMPLE-----
+Telecard; Card3503; Poluchen perevod; Summa 6000 RUR; 28.12.15 11:42:13; ; dostupno: 14390.1 RUR
+
+-----EXAMPLE-----
+Telecard; MC Standard; Poluchen perevod; Summa 2000 RUR; 27.02.16 07:07:46; PEREVOD NA KARTU; dostupno: 19129.1 RUR

@@ -1,0 +1,10 @@
+^(?:Перевод с|Perevod s).*\*(\d{4}) (на .*?|na .*?) ([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{8}) .*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Перевод с карты *5565 на счет 2 884.50 RUR 08.09.17 17:20. Баланс: 51 415.40 RUR. online.binbank.ru
+
+-----EXAMPLE-----
+Perevod s karty *2204 na schet 15.42 RUR 07.02.18 11:29. Balans: 2083.16 RUR. i.binbank.ru

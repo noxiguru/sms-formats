@@ -1,0 +1,10 @@
+^.*[-*](\d{4})\s+popovnen.*?([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]?\d{0,4}) .*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartka 4102-4123 popovnennya 738.60UAH 23.05 18:11 Dostupno:755.8UAH
+
+-----EXAMPLE-----
+Kartka 4102***0636 popovnennya 534.13UAH 07.09.18 15:56 Dostupno:590.70UAH Alfa-Bank u Vas v telefoni: https://alfabank.ua/mb

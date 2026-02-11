@@ -1,0 +1,10 @@
+^(?:Снят.*?нал|.*etragere n).*?(?:арт|ard).*?(\d{4}) .*([\d.]{10}).*(?:умм|uma).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument
+
+-----EXAMPLE-----
+Снятие наличных Карточка: 4600...3819 Дата:     18.02.2017 08:30 Сумма:  100.00 EUR Детали: ATM222 MICB "Linella-37"
+
+-----EXAMPLE-----
+BCR Chisinau S.A. Retragere numerar Card: 5398...5235 Data:    09.10.2017 21:25 Suma:  2700.00 MDL Sold: 110.92 MDL Detalii: BCR ATM 011

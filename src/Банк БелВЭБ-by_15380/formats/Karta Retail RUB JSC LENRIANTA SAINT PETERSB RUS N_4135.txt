@@ -1,0 +1,7 @@
+^.*PIN-kod.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Karta 5.5050 07.04.2019 18:56:31 Retail -5400.00 RUB JSC LENRIANTA SAINT PETERSB RUS Nevernyj PIN-kod. Dostupno 214.19 BYN

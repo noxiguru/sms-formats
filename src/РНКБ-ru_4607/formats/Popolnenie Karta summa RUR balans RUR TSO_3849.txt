@@ -1,0 +1,19 @@
+^(?:Popol|Zachis|Opera.*?po vk).*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}\s*(.*?)\s+([\d-]{8}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;comment;date#yy-MM-dd
+
+-----EXAMPLE-----
+Popolnenie, Karta:3524 summa:2000.00 RUR  balans:2292.32 RUR TSO-37492 18-08-13 13:23:52
+
+-----EXAMPLE-----
+Operacii po vkladam: Karta:8624 summa:10000.00 RUR  balans:2672.58 RUR Zachislenie summy vklada 18-08-02 16:32:07
+
+-----EXAMPLE-----
+Zachislenie Karta:8624 summa:105.00 RUR  balans:673.26 RUR Kompensacija DetSad 18-08-28 18:22:39
+
+-----EXAMPLE-----
+Operatsii po vkladam: Karta:8624 summa:5000.00 RUR balans:6021.42 RUR Zachislenie summy vklada 18-10-04 13:57:30
+
+-----EXAMPLE-----
+Zachislenie zarplaty karta:7911 summa:13050.00 RUR balans:13113.00 RUR 19-01-24 15:18:54

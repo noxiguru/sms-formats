@@ -1,0 +1,7 @@
+^.*([\d-]{10}).*peracija.*?([A-Z]{3})\s*([\d\s.,]*\d).*\s+HB\s+.*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;instrument;outcome;syncid;av_balance
+
+-----EXAMPLE-----
+TSESNABANK: 2018-03-20 23:53:18 operacija na summu KZT 10,000.00,P2P MOBILE HB REF 1234567890 kartochka ***8697,Balans 14,694.05. tel.7711

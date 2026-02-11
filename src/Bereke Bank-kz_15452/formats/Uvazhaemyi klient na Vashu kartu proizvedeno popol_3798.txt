@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+(?!.*ostup).*opoln.*?(\d[\d\s.,]*)\s*([A-Z]{3}).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Uvazhaemyi klient, na Vashu kartu ***1753 proizvedeno popolnenie 37671,00 KZT, TATYANA KOROBKOVA 2018-07-03 15:52:14.  Otkryvaite depozity za paru minut v Sberbank Online!

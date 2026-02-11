@@ -1,0 +1,3 @@
+banksoyuz
+ingobank
+com.banksoyuz.artsofte

@@ -1,0 +1,7 @@
+^.*?(\d{4}) .*okupk.*?\.?([\d\s.,]*\d)\s*([A-Z]{3});\s+(.*?); ([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ECMC7000 Satyp alu/Pokupka. 71500.00 KZT; KASPI.KZ SECURE; 27.03.2017 11:57. Kolzhetimdi soma/Dostupnaya summa: 855525.59 KZT

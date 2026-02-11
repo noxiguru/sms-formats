@@ -1,0 +1,7 @@
+^.*Your\s+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+transfer\s+to\s+(.*?)\s+has been sent.*
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+⚡️ Your 40 EUR transfer to Igor Shpirka has been sent. Прийде за лічені секунди. ║ Revolut

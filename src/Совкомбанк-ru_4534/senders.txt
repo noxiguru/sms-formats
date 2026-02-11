@@ -1,0 +1,4 @@
+SOVCOMBANK
+ru.sovcomcard.halva.v1
+ru.diftechsvc
+ru.sovcombank.online.chatbanklight

@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*(?:opolnen|ополнен).*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s*.(?:erevod ot|еревод от )(.*?)\.?(?:AK BARS.*?)?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *7842 popolnenie na  9929.84RUR. Perevod ot 220053******8782.AK BARS online . 10.05.18 20:13. Ostatok 10021.45RUR.
+
+-----EXAMPLE-----
+Karta*7643 popolnenie na  5254.44RUR. Perevod ot АМИРХАНОВ ИЛЬГИЗ КУТТУСОВИЧ 31.05.18 12:05. Ostatok 5195.44RUR.
+
+-----EXAMPLE-----
+Карта*1090 пополнение на 3000.00RUR. Перевод от 220053******9422.AK BARS online. 21.08.24 15:36. Остаток 5724.71RUR

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*(?:SBP .ebit|CH Pay.*?) ([\d\s.,]*\d)\s*([A-Z]{3}).*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta*8186. SBP Debit 32000.00RUR. Kazan, . 08.08.20 17:47. Ostatok 56854.11RUR. Detali akbars.ru/abol/

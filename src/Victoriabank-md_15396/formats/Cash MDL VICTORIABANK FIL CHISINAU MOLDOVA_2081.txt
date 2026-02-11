@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*?(?:Cash|ATM).*?,?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#yyyy-MM-dd;outcome;instrument
+
+-----EXAMPLE-----
+4...9666 2015-11-04 16:24:00 Cash,186000.00 MDL VICTORIABANK FIL.8,CHISINAU,MOLDOVA

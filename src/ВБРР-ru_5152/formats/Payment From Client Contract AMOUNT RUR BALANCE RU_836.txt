@@ -1,0 +1,10 @@
+^(?:Payment From|ODOB).*?\*(\d{4})\s+(?!ATM|Retail|Unique).*?-?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d-]{10}).*?BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Payment From Client Contract 4*6350 AMOUNT -1,61 RUR 2013-05-16 17:00:51 BALANCE 8 590.68 RUR CRED LIMIT 0.00 RUR TEL 7(495)9330349
+
+-----EXAMPLE-----
+ODOBRENO 5*7795 CH Debit TINKOFF BANK CARD2CARD 30 000,00 RUR 2017-10-17 20:56:20 BALANCE 61 215,90 RUR Tel +74959330349, 88007000349

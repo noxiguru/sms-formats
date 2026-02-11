@@ -1,0 +1,7 @@
+^.*?(\d{4}) ПОПОЛН.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ATM.*БАЛ.*?(-?[\d\s.,]*\d).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+4*6557 ПОПОЛНЕНИЕ 20.00 USD ATM00014, 45 БАЛАНС: 24 766.97 RUB 29.12.17 17:00

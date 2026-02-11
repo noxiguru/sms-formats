@@ -1,0 +1,7 @@
+^.*?(\d{4}):\s+([\d/]{10}).*ostuplen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostupn.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Schet *0268: 29/12/2015 19:20:01 postuplenie zarabotnoy plati 51487.37 RUB. Dostupno 81487.37 RUB. VTB24

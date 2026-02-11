@@ -1,0 +1,10 @@
+^.*?\*([\d/]{4})(?!.* 00\.00) ([\d.]{5}) .*(?:pisan|писан).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+.(?:ostu|осту|alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+*6105 07.07 14:44 spisanie 10p Balans 191.07p Spravka: 88002502777
+
+-----EXAMPLE-----
+*2079 02.07 15:05 spisanie 220p Balans 17218.08p Spravka: 88002502777

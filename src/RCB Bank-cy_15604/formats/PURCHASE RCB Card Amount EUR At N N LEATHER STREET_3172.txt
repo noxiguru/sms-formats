@@ -1,0 +1,7 @@
+^.*PURCHASE.*.*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*At:\s+(.*?) ([\d/]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd/MM/yy
+
+-----EXAMPLE-----
+*PURCHASE* RCB Card: *0082 Amount: 12.00 EUR   At: N.N.LEATHER STREET, LIMASSOL, CY 25/08/17 20:48 T. +35725355722

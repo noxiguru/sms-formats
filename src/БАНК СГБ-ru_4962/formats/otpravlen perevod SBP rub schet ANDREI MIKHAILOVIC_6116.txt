@@ -1,0 +1,10 @@
+^.*tprav.*SBP\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*?\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid
+
+-----EXAMPLE-----
+otpravlen perevod SBP 60000.00 rub, schet ****9086, ANDREI MIKHAILOVICH N., ALFA BANK
+
+-----EXAMPLE-----
+Otpravlen perevod SBP 122000.00 rub, schet ****9086, ANDREI MIKHAILOVICH N

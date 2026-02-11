@@ -1,0 +1,16 @@
+^.*?\*(\d{3,4})(?:\s+[\d:]+)? ([\d.]{8}|).*(?:няти|nyati).*?([\d\s.,]*\d)\s*?([а-яA-Z$]{1,3}).*?(?:алан|осту|alan|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+4269***9287 18:19 09.11.17 KAZAKHSTAN Almaty Aimanova str., 140 ATM 700062 ALKZ Снятие 40 000.00 KZT Dostupnyiy balans: 529,403.51 KZT
+
+-----EXAMPLE-----
+4579***7396 17:28 24.03.18 KAZAKHSTAN Astana ATM 901 TRTS KERUEN 00000901 KAZKOMMERTSBANK Snyatiye 8,000.00 KZT Dostupnyiy balans: 103,932.59 KZT
+
+-----EXAMPLE-----
+4579***7396 12:49 01.04.18 KAZAKHSTAN ASTANA HYNDAY CENTR ASTANA 00035068 035 Snyatiye 5,000.00 KZT Dostupnyiy balans: 79,131.31 KZT
+
+-----EXAMPLE-----
+*010 Снятие в банкомате: 28 000т ATM 466 MAGAZ APPL KAZAK> Доступно: 955 063.36т

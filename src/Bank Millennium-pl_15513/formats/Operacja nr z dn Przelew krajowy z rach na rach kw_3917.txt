@@ -1,0 +1,10 @@
+^.*[Hh]aslo[Ss][Mm][Ss].?\s*\d{4,}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Operacja nr 1 z dn. 10-03-2018 Przelew krajowy  z rach.: 0273398534 na rach.: 38 10...00388983 kwota: 1,300.00 PLN     HasloSMS: 775475
+
+-----EXAMPLE-----
+Operacja nr: 2 z dn. 2018-09-20 15:43 Platnosc karta nr karty: ...0326 kwota: 22.00 PLN HasloSMS: 717748

@@ -1,0 +1,7 @@
+^.*?([\d.]{10}).*Cash with.*(\d{4})\s.*?([\d\s.,]*\d) ([A-Z]{3}).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+PCHRB: 09.10.2014 15:20:03 Cash withdrawal 4096***4632 GALINA BAZHUKOVA 1500.00 RUB OCTATOK: 16239.81 RUB PERV CH-RU BANK MOSCOW 24/3, PRAVDY

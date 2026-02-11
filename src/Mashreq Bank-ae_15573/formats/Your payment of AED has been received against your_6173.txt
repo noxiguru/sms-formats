@@ -1,0 +1,7 @@
+^.*ayment.*?([A-Z]{3})\s*([\d\s.,]*\d).*eceived.*?nding\s+(\d{4})\s+on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy
+
+-----EXAMPLE-----
+Your payment of AED 4000 has been received against your Mashreq Cashback card ending 8428 on 03/04/2024. Mashreq.com/mmb

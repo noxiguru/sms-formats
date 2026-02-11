@@ -1,0 +1,7 @@
+.*?(?:Your|customer|клиент).{0,50}?\s([A-Za-z]{1,3})\s?([0-9][\d\s.,]*)\s+(.*?)\s+has\s+been\s+credited.*?(?:A\s*\/\s*C|A\s*C|account).*?ending\s?(\d+).*?(?:available\s+balance|доступно).*?\s([A-Za-z]{1,3})\s?(-?[0-9][\d\s]*[.,]\d{2,3})(?=\s|\.|$)
+
+-----COLUMNS-----
+instrument;income;comment;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Customer, Your BHD463.300 salary has been credited to A/C ending5404. Your available balance is BHD12344.197. Tel: 17515151.

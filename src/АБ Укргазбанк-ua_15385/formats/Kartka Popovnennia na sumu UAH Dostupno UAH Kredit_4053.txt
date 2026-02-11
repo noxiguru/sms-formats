@@ -1,0 +1,7 @@
+^.*?#(\d{4})\s+.*opovnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Kartka #9742 Popovnennia na sumu: 10.00 UAH 10.01.2019 16:02:14 Dostupno: 10.06 UAH Kreditny limit: 10.00 UAH Vstanovy dodatok Ekobank: https://auth.ukrgasbank.com

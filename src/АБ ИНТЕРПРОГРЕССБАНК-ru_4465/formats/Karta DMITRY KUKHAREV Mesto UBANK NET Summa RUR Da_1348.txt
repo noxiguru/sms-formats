@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*esto.?\s+(.*?)\s+.umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*imit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta: **9156 DMITRY KUKHAREV Mesto: UBANK.NET Summa: 50.00 RUR Data: 2014-08-10 20:00:21 Dostupniy limit: 4 374.55 Spasibo!

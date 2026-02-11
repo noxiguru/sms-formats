@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).\s+-([\d\s.,]*\d)([A-Z]{3}).\s+OST.\s+(-?[\d\s.,]*\d).\s+(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;balance;comment
+
+-----EXAMPLE-----
+26004*1115: -2000.00UAH, OST. 5559.20; EDINYE REKVIZITY - PEREVOD SOBSTVENNYKH SREDSTV, 4149*02, MOZHEVITIN EVGENIJ ALEKSANDROVICH, 3143005692

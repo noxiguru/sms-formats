@@ -1,0 +1,7 @@
+^.*(\d{4}) .pisan.*([\d.]{10})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+Korr:\s*(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;comment
+
+-----EXAMPLE-----
+PAO BINBANK Cch.N:1234567890 Spisanie Data:10.08.2018 15 311.60 RUR Korr:OOO "Menedzhment-Centr" Oplata po dogovoru za za arendu pomescheniya za iyul' 2018 g. Summa 15319-80 Bez naloga (NDS)

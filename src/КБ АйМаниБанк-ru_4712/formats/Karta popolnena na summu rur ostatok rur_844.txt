@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) popolnena.*?\s([\d\s.,]*\d) (\w{3}).*?(?:ostatok|dostupno): ([\d\s.,]*\d).*?([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Karta:*2899 popolnena na summu 10000 rur ;ostatok: 22865,37 rur; 17.06.2013 17:43

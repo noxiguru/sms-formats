@@ -1,0 +1,7 @@
+^.*FAST.*?([A-Z]{3})\s*([\d\s.,]*\d) from .*?(\d{4}) (to .*?\d{4}) has.*
+
+-----COLUMNS-----
+instrument;outcome;syncid;comment
+
+-----EXAMPLE-----
+Your FAST transaction of SGD 500.00 from Account 7006 to Account 3003 has been successful. Please call +65 6747 7000 for enquiries.

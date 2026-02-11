@@ -1,0 +1,7 @@
+^Балан.*?(-?[\d\s.,]*\d).* на .*(\d{2}[-./]\d{2}[-./]\d{2,4}) .* ║ \d\.+(\d{4}) .нятие.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+av_balance;date#dMy;syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+Баланс: 384,58 BYN на 16:09:17 ATMBVB HO02 LUVAL MINSK Беларусь 05.04.2020 16:09:12 ║ 5.8697 Снятие наличных: -40 BYN

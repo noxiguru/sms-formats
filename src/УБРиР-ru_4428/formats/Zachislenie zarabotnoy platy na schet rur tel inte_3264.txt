@@ -1,0 +1,13 @@
+^(Zachislen\w*\s+(?:zar|cashb).*?|Зачислен\w*\s+(?:зар|к[эе]шб).*?)\s+(?:na\s+sch|на\s+сч|po\s+kar|по\s+кар)\w+\s+(?:\d+\*+)?(\d{4}|[a-zA-Z_]+)\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument
+
+-----EXAMPLE-----
+Zachislenie zarabotnoy platy na schet 40817****9384 870 rur. tel:88001000200 internet-bank: i.ubrr.ru
+
+-----EXAMPLE-----
+Зачисление заработной платы на счет 40817****0673 2598.8 р.
+
+-----EXAMPLE-----
+Зачислен кешбэк по карте My_Life 826.63 p ║

@@ -1,0 +1,7 @@
+^.*?(\d{4}).*erevod.*?\.?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ECMC5379 Karazhattyn kolma-kol emes turde audaru/Beznalichny perevod sredstv. 204302.00 KZT; INTERNET BANKING; 05.02.2018 16:52. Kartadaghy kolzhetimdi soma/Dostupnaya summa po karte: 126346.78 KZT

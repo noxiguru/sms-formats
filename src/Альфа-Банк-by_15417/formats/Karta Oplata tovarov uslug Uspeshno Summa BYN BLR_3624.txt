@@ -1,0 +1,7 @@
+^.*?(\d{4}) .plata(?!.*stat).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Karta 5.3235 Oplata tovarov/uslug Uspeshno Summa:6.53 BYN BLR/MINSK/UNIVERSAM "SOSEDI" 10.04.2018 12:56:49

@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*evers(?!.*=).*?,?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;payee
+
+-----EXAMPLE-----
+4...9666 2016-05-23 00:01:27 Revers,1.00 USD GOOGLE *SELLER,G.CO/PAYHELP#,UNITED STATES

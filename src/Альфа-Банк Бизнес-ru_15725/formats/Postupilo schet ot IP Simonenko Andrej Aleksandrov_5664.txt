@@ -1,0 +1,10 @@
+^(?:Postup|Поступ).*?([\d\s.,]*\d) (?:schet|счет) \*(\d{4}) (?:ot|от) (.*?) ((?:schet|счет).*)\. .(?:stat|стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;syncid;payee;comment;av_balance
+
+-----EXAMPLE-----
+Postupilo 95790.00 schet *1016 ot IP Simonenko Andrej Aleksandrovich schet *9934. Ostatok 95934.47
+
+-----EXAMPLE-----
+Поступило 3000.00 счет *2178 от АО "Альфа-Банк" счет *0307. Остаток 6470.99 ║

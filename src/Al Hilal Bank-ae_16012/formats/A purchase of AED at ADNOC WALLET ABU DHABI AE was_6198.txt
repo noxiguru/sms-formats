@@ -1,0 +1,7 @@
+^A\s+purchase\s+of\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+at\s+(.*?)\s+was\s+app.*?on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*ending.*?(\d{4}).*vail.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+A purchase of 3000 AED at ADNOC WALLET ABU DHABI AE was approved on 22-04-2024, 09:38:21 from your card ending with 7903. Your available limit is now 0.00 AED.

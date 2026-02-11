@@ -1,0 +1,7 @@
+^.*[Pp]lata ret\w+ "*(.*?)"* din (\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4})\W? .uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*disp.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+payee;date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Efectuata tranz. Plata retail ""LEONIDAS"" din 04.08.22 08:56. Card: 4**3218. Suma: 36,00 MDL.  Suma disp.: 116.579,18 MDL.

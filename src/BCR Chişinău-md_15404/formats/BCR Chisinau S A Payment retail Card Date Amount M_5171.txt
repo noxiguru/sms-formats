@@ -1,0 +1,10 @@
+^.*ayment.*ard.*?(\d{4}) .* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:uma|moun).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:old|alan).*?(-?[\d\s.,]*\d).*etai?l\w+:\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+BCR Chisinau S.A. Payment retail Card:4600...4887 Date: 18.07.2020 12:00 Amount: 1105.00 MDL Balance: 15452.54 MDL Details: MAIB MEAT AND CO
+
+-----EXAMPLE-----
+BCR Chisinau S.A. Payment retail Card:4600...2099 Date: 09.11.2021 20:20 Amount: 501.86 MDL Balance: 38103.28 MDL Details: KAUFLAND 1240 C (6)

@@ -1,0 +1,7 @@
+^Izmen.*DEBIT.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|) (\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+Izmenenie ostatka: DEBIT 55.00RUR Card_N**6023 EVGENY GUSEV BAL:15 895.33 2023-10-13 15:52:27

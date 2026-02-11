@@ -1,0 +1,7 @@
+^([\d.]{10}).*N\s*[\*\d]*(\d{4}) .opoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+06.12.2019 13:20 MSK Vklad "Nakopitelnyy schet" N 40817***00035 popolnen na summu 66666.67 RUR. Ostatok 191666.67 RUR.

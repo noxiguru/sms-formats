@@ -1,0 +1,19 @@
+^.*(?:Koris|Ispla|Ponis).*\*(\d{4}).*atum.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*?z?nos.*?([\d\s.,]*\d)\s*([A-Z]{3}).*aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*esto:\s+(.*?)(?:\s+║\s+.*)?$
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Koriscenje kartice 5356**8443 Datum: 02.05.2022 Iznos: 119,99 USD Raspolozivo: 5.365,97 RSD Mesto: CANVA* I03408-9482919 +17372853388 US
+
+-----EXAMPLE-----
+Koriscenje kartice 4054**3612 Datum: 31.05.2022 Iznos: 1.608,89 RSD Raspolozivo: 3.021,68 RSD Mesto: JUZNI BULEVAR 95 BEOGRAD RS
+
+-----EXAMPLE-----
+Isplata sa racuna: 2650**3610 Datum: 02.06.2022 Iznos: 700,00 EUR Raspolozivo: 1.260,00 EUR Mesto: Maksima Gorkog 75
+
+-----EXAMPLE-----
+Ponistena transakcija kartice 4054**0444 Datum: 05.07.2022 Iznos: 1,00 USD Raspolozivo: 30,01 EUR Mesto: JTI*TWITCHTV SUB SRVCS 425-4779093 US ║ Raiffeisen banka
+
+-----EXAMPLE-----
+Raiffeisen banka Koriscenje kartice 4054**5729 Datum: 01.08.2022 Inos: 480,00 RSD Raspolozivo: 180.219,91 RSD Mesto: SUMADIJA MARKET DOO Belgrade RS

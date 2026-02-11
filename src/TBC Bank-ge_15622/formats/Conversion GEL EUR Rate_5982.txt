@@ -1,0 +1,7 @@
+^Conversion:\s+[\d\s.,]*\d\s*[A-Z]{3}\s+[\d\s.,]*\d\s*[A-Z]{3}\s+Rate.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Conversion: 7.19 GEL 2.55 EUR Rate: 2.819 16/09/2023

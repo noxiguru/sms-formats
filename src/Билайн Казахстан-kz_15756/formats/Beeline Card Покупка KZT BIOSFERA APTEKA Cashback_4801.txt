@@ -1,0 +1,7 @@
+^.*\*(\d{4}) [\d:]+ (\d{2}[-./]\d{2}[-./]\d{2,4}) .окупка.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) \d+ (.*?) (?:Cashback.*?).осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Beeline Card 5194***9758 13:25:11 04.09.20 Покупка: 3,480.00 KZT 22497105 BIOSFERA APTEKA Cashback к начислению 1.5%: 52.20 KZT Доступно: 22,596.20 KZT

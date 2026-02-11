@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+(?:Spis|Pokup).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}).*alans.*?(-?[\d\s.,]*\d)\s*[A-Z]+\s+(.*)\s+iB(?:ANK|ank).ru
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;av_balance;payee
+
+-----EXAMPLE-----
+Card*8317 Spisanie 21,800.00 RUR 15.05.15 18:21 MSK Balans 0.00 RUR VPB P2P (MOSKVA,RU) iBANK.ru

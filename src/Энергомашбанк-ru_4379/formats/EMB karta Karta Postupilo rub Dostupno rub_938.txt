@@ -1,0 +1,7 @@
+^.*?([\d.]{8}).*?(\d{4}) Postupilo. ([\d\s.,]*\d) ([a-zA-Z]{3}) Dostupno = ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+EMB karta 15.08.13 15:30 Karta *070073 Postupilo: 6960.00 rub Dostupno = 7227.73 rub

@@ -1,0 +1,7 @@
+^.*?s karty.*?(\d{4}) perechisleno ([\d\s.,]*\d).*ostatok.*vlyaet ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;av_balance
+
+-----EXAMPLE-----
+Na vash nakopitelnyj s4et "Den za dnem" s karty *9186 perechisleno 268.15 RUR za 29.12.2014. Dostupnyj ostatok po karte na 30.12 05:23 sostavlyaet 2177.84 RUR

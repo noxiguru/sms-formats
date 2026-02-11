@@ -1,0 +1,7 @@
+^.*ransfer.*of\s+([A-Z]{3})\s*([\d\s.,]*\d) (to .*?) has been.*from .*?(\d{4}) on (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+instrument;outcome;comment;syncid;date#dMy
+
+-----EXAMPLE-----
+Dear Customer, your funds transfer request of  AED 661.50 to IBAN/Account/Card XXXX7099  has been processed successfully from your account/card XXXX4016 on 26/04/2020 13:58

@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d/]{10}).*SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 512722****4828 19/03/2018 15:08:56 PEREVOD (SPISANIE) 8.00 BYN 822004          MMB P2P OTHER CLIENT>MINSK>BY            OK Dostupno 14.09 BYN

@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]?\d{0,4}) .*used.*?(\d{4}) at (.*?) Amt ([\d\s.,]*\d)\s*([a-zA-Z]{2,3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+13/06 17:26 You used Be1st No. x'0022 at FAMILY MART_4918 BAN Amt 99.00 bt
+
+-----EXAMPLE-----
+01/04/23 16:05 You used Be1st No. X-0855 at BK-1036 SAMUI LIVING Amt 346.00 THB ║ BualuangM

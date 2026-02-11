@@ -1,0 +1,7 @@
+^Incom.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s*(\d{2}/\d{2}) .*\*(\d{4}) .*?(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#MM/dd;syncid;av_balance
+
+-----EXAMPLE-----
+Incoming transfer 396.07EUR;07/13 Account*9401 Balance 410.33EUR

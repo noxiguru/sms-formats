@@ -1,0 +1,7 @@
+^(Ваш.*закрыт)\..*еревели.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\s+на\s(?:Kaspi\s+)?([A-Z][a-z]+).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid
+
+-----EXAMPLE-----
+Ваш Kaspi Депозит закрыт. Мы перевели остаток средств 22 250,07 ₸ на Kaspi Gold ║

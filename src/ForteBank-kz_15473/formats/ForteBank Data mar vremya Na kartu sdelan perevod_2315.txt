@@ -1,0 +1,10 @@
+^.*ata.*?(\d{2}\s+\w{3}\s+\d{4}).*art.*?\*(\d{4})\s+.*perevod([\d\s.,]*\d)\s*([A-Z]{3})\s+(s\s+kart.*?\*\d{4}|so\s+schet.*?\d+).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd MMM yyyy;syncid;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+ForteBank. Data 30 mar 2016, vremya 14:48:40. Na kartu 404242******1655 sdelan perevod 100 000.00 KZT s karti 489335******5409. Ostatok 100 113.27 KZT. Tel. +7(727)2583555
+
+-----EXAMPLE-----
+ForteBank. Data 29 aug 2016, vremya 17:22:28. Na kartu 5132********4827 sdelan internet perevod 20 000.00 KZT so scheta 77784. Ostatok 20 000.00 KZT. tel. 7-727-2583-555

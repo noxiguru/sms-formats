@@ -1,0 +1,7 @@
+(SMS Inf.*?)\s+\S\*+(\d{3,4})\s+([\d-]{10}).*-([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+SMS Informirovanie po karte K**028 2016-10-12 07:45:57  Fee for SMS Options -200.00 KZT.Dostupno 33 468.08, KZT.

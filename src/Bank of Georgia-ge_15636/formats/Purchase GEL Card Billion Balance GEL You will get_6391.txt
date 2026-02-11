@@ -1,0 +1,7 @@
+^.*(?:ayment|urchase).*?([A-Z]{3})\s*([\d\s.,]*\d).*(?:ccount|ard):\s+(?:\*+\s*)?(\d{4}|\w+)\s+(?:plastic\s+)?(?:.erchant)?:?\s*"?(.*?)"?\s+.(?:emain|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s.*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Purchase: GEL 11.57 Card: **** 9798 Billion Balance: 136.81 GEL You will get: 5.79 PLUS Available PLUS points: 1,310.06 400 PLUS = 1 GEL 16.11.2024

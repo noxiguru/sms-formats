@@ -1,0 +1,10 @@
+^.*(?:neuspe|екретный код).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Oplata v internete neuspeshno; 21.09 BYN Mastercard#2140; YANDEX FOOD>INTERNET>BY; MCC 5812; 21.09.2022 09:41:40; Dostupno: 7.09
+
+-----EXAMPLE-----
+38305 - секретный код для оплаты в интернете

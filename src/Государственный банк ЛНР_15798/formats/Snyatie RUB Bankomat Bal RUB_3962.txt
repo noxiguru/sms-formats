@@ -1,0 +1,7 @@
+^(\d\*+\d{2}) Snyat.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Bal.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+2**13 Snyatie 12.000,00 RUB. Bankomat 01100015 Bal: 1.408,09 RUB. 01/05/2021 02:45

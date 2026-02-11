@@ -1,0 +1,16 @@
+^.*(?:арт|\*).*?(\d{4})(?!.*\.00\.00).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:писан|латеж|pisan|latez).*?([\d\s.,]*\d)\s*([A-Z]{3}),\s*(.+?)\.\s+.(?:осту|стат|ostu|stat).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+PSKB.COM. Карта 4190: 14.09.2015 06:38, списание 150.00 RUR, IP PARENCHUK D.V., VLADIVOSTOK,. Доступно 33560.12 RUR.
+
+-----EXAMPLE-----
+Карта 4104: 20.01.2017 10:37, списано 19314.26 RUR, 3DI CARD2CARD ALFA_MOBILE, MOSCOW. Доступно 0.00 RUR.
+
+-----EXAMPLE-----
+*9069: 09.09.2019 23:20 Spisanie 600.00 RUR, OKEANCKII PROSPECT, VLADIVOSTOK. Dostupno 288373.48 RUR.
+
+-----EXAMPLE-----
+*1869 23.01.2023 19:56 Platezh 3355.61 RSD, BEOGRAD;;UNIVEREXPORT-MP047. Ostatok: 9491.01 RUB. "UnionPay"

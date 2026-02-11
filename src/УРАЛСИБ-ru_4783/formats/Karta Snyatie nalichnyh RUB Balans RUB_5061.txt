@@ -1,0 +1,7 @@
+^.*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*nyatie.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *0207. 21.06.21 10:29. Snyatie nalichnyh 4800.00 RUB. Balans 11427.99 RUB

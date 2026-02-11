@@ -1,0 +1,7 @@
+^.*X(\d{4}).*debit.*?([a-zA-Z]{2,3})\.?\s*([\d\s.,]*\d)\s+on\s+([\d-]{8}) and (.*?credited).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dd-MM-yy;comment
+
+-----EXAMPLE-----
+Your a/c no.XXXXXX6709 is debited for Rs.137200.00 on 06-04-18 and a/c XXXXXXXXXXXX010 credited (IMPS Ref no 1234567890).

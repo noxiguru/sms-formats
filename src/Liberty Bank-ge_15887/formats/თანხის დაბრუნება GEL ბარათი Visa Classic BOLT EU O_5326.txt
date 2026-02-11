@@ -1,0 +1,7 @@
+^.*(დაბრუნება).*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) ბარათი.*?/\s*\.+(\d{4}) (.*?)(?:/\d+)?$
+
+-----COLUMNS-----
+comment;instrument;income;syncid;payee
+
+-----EXAMPLE-----
+თანხის დაბრუნება: GEL 11.80 ბარათი: Visa Classic / ....5180 BOLT.EU/O/2207151522

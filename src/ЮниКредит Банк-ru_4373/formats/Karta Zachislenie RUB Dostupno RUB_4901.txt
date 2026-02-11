@@ -1,0 +1,10 @@
+^(?:Kart|Карт).*?(\d{4}) .(?:achislen|ачислен).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) .(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 4650 Zachislenie 156429.42 RUB Dostupno 243253.11 RUB
+
+-----EXAMPLE-----
+Карта 7341 Зачисление 33000 р Доступно 146399.86 р

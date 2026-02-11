@@ -1,0 +1,7 @@
+^.*\*(\d{4}): (\d{2}[-./]\d{2}[-./]\d{2,4}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}), (.*?)\. .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *6312: 16.07.2022 08:03, списание 1.00 RUR, Mos.Transport, MOSKVA. Доступно 12291.68 RUR. Справка: 74957307755

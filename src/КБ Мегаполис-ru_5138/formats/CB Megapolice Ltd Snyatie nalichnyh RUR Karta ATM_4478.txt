@@ -1,0 +1,7 @@
+^.*nyatie n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+CB Megapolice Ltd. Snyatie nalichnyh 22900.00 RUR. Karta *8304, ATM-09709041 MEGAPOLICE in MOSCOW, 15.01.20 19:41. Ostatok 44.44 RUR

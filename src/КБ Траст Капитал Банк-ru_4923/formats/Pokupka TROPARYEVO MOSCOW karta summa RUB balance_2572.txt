@@ -1,0 +1,7 @@
+^Pokupka:\s+(.*?)[,\s]+([\d.]{8})\s.*?art.*?(\d{4}).*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+payee;date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Pokupka: TROPARYEVO, MOSCOW, ,10.08.16 11:55,karta ***7731. summa:2000.00 RUB, balance:5536.02 RUB.

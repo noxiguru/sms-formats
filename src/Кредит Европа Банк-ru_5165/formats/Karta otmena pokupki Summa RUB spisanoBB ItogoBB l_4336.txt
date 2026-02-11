@@ -1,0 +1,7 @@
+^.*?#\s*(\d{4})\s+(.tmen.*?)\s+.umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*imit.*?(-?[\d\s.,]*\d).* [\d/]{8} [\d:]{5}\s+(.*)
+
+-----COLUMNS-----
+syncid;comment;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Karta#5328 otmena pokupki Summa: 271.82RUB spisanoBB: 19.03 ItogoBB: 235.70 limit: 51178.00RUB 18/09/19 18:54 YANDEX.DRIVE MOSCOW

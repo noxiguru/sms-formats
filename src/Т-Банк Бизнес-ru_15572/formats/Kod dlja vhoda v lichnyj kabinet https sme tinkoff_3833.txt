@@ -1,0 +1,19 @@
+^.*(?:vhod.*abinet|вход.*абинет|ne govori|не говори|od dlya|од для|твет по ).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Kod dlja vhoda v lichnyj kabinet: 6539 https://sme.tinkoff.ru
+
+-----EXAMPLE-----
+Nikomu ne govorite etot SMS-kod: 8430. Vy podtverzhdaete perevod na R/s , INN  na summu 10000 rub. sme.tinkoff.ru
+
+-----EXAMPLE-----
+Никому не говорите код Вы переводите 30000 руб.
+
+-----EXAMPLE-----
+Kod dlya podtverzhdeniya podklyucheniya uvedomleniy: 5857 www.tinkoff.ru
+
+-----EXAMPLE-----
+Мы рассмотрим ваше обращение до 08.04.2024 включительно. Простите за задержку. ║ Ответ по вашей претензии

@@ -1,0 +1,10 @@
+^.*?ransfer\s+(.*?)\s+din\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*[Ss]uma:\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*uma\s+disp.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;date#dMy;income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Procesare tranz: Transfer salariu din 03.10.23 14:47. Suma: 18.428,11 MDL. Cont: **3736. Suma disp.: 27.463,54 MDL.
+
+-----EXAMPLE-----
+Transfer dobanda depozit din 01.05.24 08:52. Suma: 7,21 MDL. Cont: **2704. Suma disp.: 88.476,14 MDL. ║ Procesare tranzactie

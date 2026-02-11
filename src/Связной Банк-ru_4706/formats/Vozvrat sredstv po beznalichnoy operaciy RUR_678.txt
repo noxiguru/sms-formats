@@ -1,0 +1,7 @@
+^.*\*([\d]{4}). Vozvrat.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(\d\d\.\d\d\.\d{4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+5203***5108; Vozvrat sredstv po beznalichnoy operaciy 1600 RUR; 21.03.2013 10:27

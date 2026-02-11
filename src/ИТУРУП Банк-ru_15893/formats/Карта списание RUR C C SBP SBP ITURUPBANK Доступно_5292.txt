@@ -1,0 +1,13 @@
+^.*\*(\d{4}): (\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:писан|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s*(?:C2C.*)?(.*)\. .(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *0253: 31.05.2022 10:41, списание 1000.00 RUR, C2C SBP, SBP, ITURUPBANK. Доступно 1000.00 RUR. Справка: 84959247500
+
+-----EXAMPLE-----
+Карта *0253: 30.06.2022, списание 59.00 RUR. Доступно 49839.65 RUR. Справка: 84959247500
+
+-----EXAMPLE-----
+Karta *0253: 12.01.2023 06:48, spisanie 26.00 RUR, TRANSPORT_SAKHALIN, Yuzhno-Sakhal. Dostupno 255.47 RUR. Spravka: 84959247500

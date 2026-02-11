@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*(?:achis|ачисл).*?((?:[Cc]ash[Bb]ack|[Кк][эе]шб[эе]к).*?)([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*\D(\d{2}[-./]\d{2}[-./]\d{2,4})\D.*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Po karte **7108 nachislen cashback 59.00 RUR. Dostupno: 2374.34 RUR; 02.04.19. Podrobnee http://rosbank.ru/app
+
+-----EXAMPLE-----
+По карте **4587 начислен кэшбек 332.00 RUB. Доступно: 26052.72 RUB; 03.01.20. Подробнее http://rosbank.ru/app
+
+-----EXAMPLE-----
+По карте *8236 начислен кэшбэк 121.00 RUB; Доступно: 776.33 RUB;02.04.24. Подробнее https://rblink.ru/e/6X0DyV

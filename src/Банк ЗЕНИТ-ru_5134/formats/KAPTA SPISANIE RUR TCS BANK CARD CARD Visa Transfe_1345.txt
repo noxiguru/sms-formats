@@ -1,0 +1,7 @@
+^([\d.]{8}).*(\d{4}) (?:SPISANIE|OPLATA).*?(\d[\d\s.,]*) ([A-Z]{3})\s?(.*) / DOSTUPNO (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+08.08.14 18:34:00 KAPTA 4146*6109 SPISANIE - 1680 RUR TCS BANK CARD2CARD Visa Transfer RUS / DOSTUPNO 31932,94 RUR

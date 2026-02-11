@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) .okup.*?redytni ko\w+ (.*?),?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}) .alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+1166.89 UAH Pokupka 1166.89 UAH z nykh kredytni koshty AZS, NIKOPOL,  16.11.22 09:59 Kartka ***8972 Balans 8648.86 UAH Vlasni koshty 0.00 UAH Kredytnyy limit 19500.00 UAH

@@ -1,0 +1,13 @@
+^.*?\*(\d{4}):\s+((?:Zachis|Зачис).*?Cash.*?)\s([\d\s.,]*\d)\s*?([A-Z]{3});\s*([\d-]{10}).*?(?:ostup|оступ).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Контракт *2691: Зачисление Cash Back за 06.2014 "Супермаркеты и рестораны" 681.62 RUR;2014-07-02.Доступно 172 196.45 RUR.
+
+-----EXAMPLE-----
+Kontrakt *9175: Zachisleniye Cash Back za 08.2014 "Supermarkety i restorany" 1 457.38 RUR;2014-09-02.Dostupno 93 707.11 RUR.
+
+-----EXAMPLE-----
+Контракт *6714: Зачисление Cash Back za 06.2016 "Supermarkety i restorany" 220.34 RUR;2016-07-04.Доступно 1 189.11 RUR.

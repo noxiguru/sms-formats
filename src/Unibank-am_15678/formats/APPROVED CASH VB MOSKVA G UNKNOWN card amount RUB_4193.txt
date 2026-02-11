@@ -1,0 +1,7 @@
+^APP.*?CASH.*,\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+APPROVED CASH: VB24    , MOSKVA G,UNKNOWN,04.06.19 12:00,card ****1234. amount:1000.00 RUB, OTB:100000.00 AMD

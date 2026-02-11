@@ -1,0 +1,7 @@
+^Purch.*?of ([A-Z]{3}|\W)\s*([\d\s.,]*\d).*ending (\d{4}) at (.*?)\. Avl .*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Purchase of AED 3.00 with Credit Card ending 3156 at LIFE 74 PHY-1333, DUBAI. Avl Cr. Limit is AED 17,545.87

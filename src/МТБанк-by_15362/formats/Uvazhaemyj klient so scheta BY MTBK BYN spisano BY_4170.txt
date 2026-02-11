@@ -1,0 +1,7 @@
+^(?!.*(?:на счет|na schet)).*?([\d.]{10}).*? (?:со?|so?) .*?(\d{4})\s.*?(?:писан|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+Uvazhaemyj klient! 11.05.2019 14:43:10 so scheta BY73MTBK1234567890 BYN spisano 120 BYN. Vash MTBank!

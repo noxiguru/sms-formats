@@ -1,0 +1,7 @@
+^Poluchenie n.*?\D([\d.]{8}) .*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*omis.*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Poluchenie nalichnykh: 1234567890   , KASIMOV, 94 SOVETSKAYA STR,14.06.18 09:29,karta ***5152. summa:3000.00 RUB, komissia:0.00, balance:1237.38 RUB.

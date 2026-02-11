@@ -1,0 +1,7 @@
+^.* el (\d{2}[-./]\d{2}[-./]\d{2,4}).*ompra ([A-Z]{3}|\W)\s*([\d\s.,]*\d) en (.*?), tarje.*?(\d{4}).*
+
+-----COLUMNS-----
+date#dMy;instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+COOP JEP informa que el 15/04/2023 13:08 efectuo una compra $15.71 en BEBEMUNDO QUICENTRO, tarjeta XX6822, si no realizo llamar al 074135000

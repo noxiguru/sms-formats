@@ -1,0 +1,7 @@
+^.*?Otmena op.*\(([\d\s.,]*\d)\) ([A-Z]{3}).*(\d{4}) NEW_BAL: (-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Otmena operatsii: (1.00) USD MARATHON PETRO011239 CARD **2133 NEW_BAL: 208 934.14 2014-04-25 17:50:15

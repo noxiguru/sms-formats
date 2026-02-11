@@ -1,0 +1,7 @@
+^.*?(\d{4}):\s+([\d.]{10}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?),.*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee
+
+-----EXAMPLE-----
+Карта 4966: 22.09.2016 09:05, списание 133.72 RUR, WWW.ALIEXPRESS.COM, INTERNET.

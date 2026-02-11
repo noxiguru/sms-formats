@@ -1,0 +1,7 @@
+^\*+(\d{4}) nolu\s+kartla (.*?) firma.*de yapi.*?([\d\s.,]*\d)\s*([A-Z]{2,3}).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+**8852 nolu  kartla ILELI TRANDING LTD. firmasinda saat 18:44 de yapilan 138.18 TL islem bilginiz disinda ise KAPAT 8852 yazip 4402ye SMS ile iletiniz.

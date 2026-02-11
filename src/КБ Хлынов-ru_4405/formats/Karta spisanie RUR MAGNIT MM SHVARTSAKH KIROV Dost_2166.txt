@@ -1,0 +1,13 @@
+^.*?([\d/]{4})(?!.*00\.00\.).*?([\d.]{10}).*(?:pisan|писан).*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?)\..*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 6414: 13.01.2016 18:10, spisanie 299.00 RUR, MAGNIT MM SHVARTSAKH, KIROV. Dostupno 169.68 RUR. Spravka: 88002502777
+
+-----EXAMPLE-----
+Карта 1048: 26.12.2017 18:57, списание 332.00 RUR, CHITAY-GOROD, KIROV. Доступно 68.65 RUR. Справка: 88002502777
+
+-----EXAMPLE-----
+Karta *4878:  13.05.2018 14:39, spisano 5500.00 RUR, 3DI Pochtabank Card 2, MOSKVA.   Dostupno 66325.05 RUR. Spravka: 88002502777

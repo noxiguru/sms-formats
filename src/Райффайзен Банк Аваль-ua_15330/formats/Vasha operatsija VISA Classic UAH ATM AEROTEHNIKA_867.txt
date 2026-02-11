@@ -1,0 +1,7 @@
+^.*?operatsija.*?([\d.]{10}).*?(\d{4}) (\d[\d\s.,]*) ([A-Z]{3}) ATM.*?suma (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Vasha operatsija: 18.06.2013 09:12:52 VISA Classic/990268 50.00 UAH ATM 1027 AEROTEHNIKA dostupna suma 1954.57 UAH

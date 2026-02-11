@@ -1,0 +1,7 @@
+^.*?njatie nal.*?\*(\d{4}).*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*?umm.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument
+
+-----EXAMPLE-----
+Snjatie nalichnyh Karta *0996 Vremja 19:03:09 28.07.16 Summa 2 900.00 rub CUB,MAGNITOGORSK,KARLA MARKSA,D. 164, MAGAZIN PYATEROCHKA,Russia Odobreno

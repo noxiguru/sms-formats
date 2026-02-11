@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).\s+\+([\d\s.,]*\d)([A-Z]{3}).\s+OST.\s+(-?[\d\s.,]*\d).\s+(.*)
+
+-----COLUMNS-----
+syncid;income;instrument;balance;comment
+
+-----EXAMPLE-----
+26055*7520: +200.00UAH, OST. 243.88; TEKUSCHIE SCHETA ( DOGOVOR) PRIVAT24 - DOLZHOK PL-SCHIK: KOL'JAK ANDREJ JUR'EVICH

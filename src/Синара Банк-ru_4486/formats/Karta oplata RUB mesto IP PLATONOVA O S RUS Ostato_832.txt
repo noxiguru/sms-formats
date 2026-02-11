@@ -1,0 +1,16 @@
+^.*?(\d{4})\s+.(?:pisano|писано|плата|plata)([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:mesto|место)?\s*(.*?)\s+([\d/]{10})\s+(?:Osta|Оста|Dostu|Досту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Karta 4...3720 oplata 413,82 RUB  mesto IP PLATONOVA O.S. RUS 14/06/2013 Ostatok 8298,98 RUR
+
+-----EXAMPLE-----
+Карта 4...0535 оплата 3000,00 RUB место FRENDI 2 MOSCOW RUS 02/02/2018 Остаток 22651,73 RUR
+
+-----EXAMPLE-----
+Карта 4...4060 оплата 413,82 RUB BRISTOL 14/04/2018 Остаток 8298,98 RUR
+
+-----EXAMPLE-----
+Карта 4...1721 оплата 80,00 RUB BARDINA 27 04/09/2018 Доступно 14008,09 RUR

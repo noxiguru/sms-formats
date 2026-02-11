@@ -1,0 +1,10 @@
+^.*?(?:ostup|оступ).*\*(\d{4}).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|алан).*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Postuplenie *9284; Uspeshno; Summa: 12155.68 RUR; Balans: 200517.98 RUR; 25.12.2017 12:16; Podrobnosti v mobil'nom banke mdm.ru/app
+
+-----EXAMPLE-----
+Поступление *0932; Успешно; Сумма: 30000.00 RUR; Баланс: 30364.92 RUR; 12.01.2019 14:22; Подробности в мобильном банке binbank.ru/app

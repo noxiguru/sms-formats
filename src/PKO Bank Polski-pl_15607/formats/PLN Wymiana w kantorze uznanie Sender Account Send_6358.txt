@@ -1,0 +1,10 @@
+^\+[\d\s.,]*\d\s*[A-Z]{3} Wymiana w kant.*(?:Title|Tytuł): [A-Z]{2,}\d{6,} ([A-Z]{3}/[A-Z]{3} \d\.\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}) -([\d\s.,]*\d)\s*([A-Z]{3}) (?:On acc|Na rach).*?(\d{4}) .*[Dd]at[ae].*? ([\d]{4}-\d{2}-\d{2}) .*
+
+-----COLUMNS-----
+comment;income;acc_instrument;op_income;instrument;syncid;date#yMd
+
+-----EXAMPLE-----
++1915,00 PLN Wymiana w kantorze - uznanie Sender Account: 83..7548 Sender: PAVEL PAULAVETS UL. ZASLAVSKAYA 35 M.36 MIŃSK Title: FX62548268 USD/PLN 3.8300 1 915,00 PLN -500,00 USD On account no. 36..7425 Value date: 2024-09-23 ║ Account credit
+
+-----EXAMPLE-----
++849,82 PLN Wymiana w kantorze - uznanie Rachunek nadawcy: 43..1970 Nadawca: ALEKSEI LOGUNOVSKII UL. VODOLARSKOGO 8A M.149 220056 MIŃSK Tytuł: FX62315656 EUR/PLN 4.2491 849,82 PLN -200,00 EUR Na rachunku 54..0554 Data waluty: 2024-09-18 ║ Uznanie rachunku

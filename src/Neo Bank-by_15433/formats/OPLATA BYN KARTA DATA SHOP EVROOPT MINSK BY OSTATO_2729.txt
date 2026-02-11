@@ -1,0 +1,10 @@
+^OPLATA([\d\s.,]*\d)\s*([A-Z]{3}) KART.*?(\d{4}) .* ([\d.]{10}) [\d:]{8} (?:SHOP\s+)?[\s"]*(?!.* - )(.*)(?:"?\S+)?\s+OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+OPLATA 70.53 BYN KARTA #8887 DATA 26.10.2016 12:59:40 SHOP "EVROOPT">MINSK>BY OSTATOK 2145.28 BYN
+
+-----EXAMPLE-----
+OPLATA 8.16 BYN KARTA #8852 DATA 23.02.2017 20:40:22 UBER BY FEB23 WUT3Z HELP.>help.uber.coNL OSTATOK 40.31 EUR

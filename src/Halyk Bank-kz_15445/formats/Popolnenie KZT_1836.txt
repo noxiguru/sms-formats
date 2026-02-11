@@ -1,0 +1,7 @@
+^([\d-]{10}).*opol.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{3,4})$
+
+-----COLUMNS-----
+date#yyyy-MM-dd;income;instrument;syncid
+
+-----EXAMPLE-----
+2015-06-22 15:54:26 Popolnenie 47293.58 KZT 4**187

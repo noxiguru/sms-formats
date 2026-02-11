@@ -1,0 +1,7 @@
+^([\d-]{10}) .*perac.*?\*(\d{3,4})\s.*?umm.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?\d[\d\s.,]*).\s+.pisanie.\s*(?!.*ATM)(.*)
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+2017-05-01 00:00:00 Operaciya po kartochke 5**1234 na summu -2000.00RUR. Ostatok : 1000.00. Opisanie: ROBOKASSA

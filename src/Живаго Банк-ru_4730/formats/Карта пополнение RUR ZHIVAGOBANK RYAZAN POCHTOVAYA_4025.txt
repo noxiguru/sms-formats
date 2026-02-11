@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*([\d.]{10}).*ополнен.*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Карта *2024: 05.03.2019 12:22, пополнение 250000.00 RUR, ZHIVAGOBANK, RYAZAN, POCHTOVAYA 64. Доступно 325980.30 RUR.

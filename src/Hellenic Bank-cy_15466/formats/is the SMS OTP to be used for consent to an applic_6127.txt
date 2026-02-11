@@ -1,0 +1,7 @@
+^\d{6}\s+is.*?OTP.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+358996 is the SMS OTP to be used for consent to an application, on 16/01/2024 14:09:40 through Hellenic Bank Open Banking. Not you? Contact us at +357 22500500

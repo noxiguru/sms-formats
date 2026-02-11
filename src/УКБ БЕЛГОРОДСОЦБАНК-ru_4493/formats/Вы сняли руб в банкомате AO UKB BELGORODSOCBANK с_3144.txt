@@ -1,0 +1,7 @@
+^.*?[Сс]ня[лт].*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*\*(\d{4}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Вы сняли 15 000.00 руб в банкомате AO UKB "BELGORODSOCBANK" с карты *9067. Доступно 17 990.01 руб.

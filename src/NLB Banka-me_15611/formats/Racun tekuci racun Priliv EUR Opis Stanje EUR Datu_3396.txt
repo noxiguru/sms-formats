@@ -1,0 +1,7 @@
+^.*(tekuci).*riliv.*?([\d\s.,]*\d)\s*([A-Z]{3}).*pis:\s+(.*?)\s+.tanj.*?(-?[\d\s.,]*\d).*atu.*?([\d.]{8,10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Racun: tekuci racun Priliv: 1000 EUR Opis:  Stanje: 1047,12 EUR Datum: 7.12.2017

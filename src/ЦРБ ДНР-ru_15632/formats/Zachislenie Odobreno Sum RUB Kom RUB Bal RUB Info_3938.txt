@@ -1,0 +1,7 @@
+^Zachisl.*?([\d./-]{10}).*\.(\d{4}).*Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Kom.*?([\d\s.,]*\d).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Zachislenie 05.10.2018 14:10; Odobreno; 2625..6669; Sum:2047,00RUB;Kom:0,00RUB; Bal:2134,33RUB Info: 071-099-50-39

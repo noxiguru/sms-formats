@@ -1,0 +1,7 @@
+^.*\*(\d{4}) .аличн.*?([\d\s.,]*\d)\s*([A-Z]{3}).*стат.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+*6435 Наличные 33000RUR DO SEMYONOVSKIJ Остаток 128,74RUR

@@ -1,0 +1,25 @@
+^.*(?:ayment|urchase).*?([A-Z]{3})\s*([\d\s.,]*\d).*(?:ccount|ard):\s+(?:\*+\s*)?(\d{4}|\w+)\s+(?:plastic\s+)?(?:.erchant)?:?\s*"?(.*?)"?\s+.(?:emain|alan).*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Payment: GEL 35.62 From account: GE11BG1234567890GEL Merchant: TbilisiEnergy Remaining balance: GEL 3,305.50 You will get: 35.62 PLUS Available PLUS points: 4,834.75 Collect PLUS points on payments made via Bank of Georgia terminals. 26.04.2022
+
+-----EXAMPLE-----
+Bank of Georgia: Purchase: RSD 285.97 Card: **** 2697 Merchant: 213 - MAXI 114>BEOGRAD RS Remaining balance: GEL 9,311.76 Join PLUS and accumulate PLUSes everywhere! 05.05.2022
+
+-----EXAMPLE-----
+Purchase: BYN 2.50 Card: **** 1249 Merchant: YANDEX.TAXI>Schipol                   NL Balance: USD 6.82 Available PLUS points: 1,045.21 Collect PLUS points on payments made via Bank of Georgia terminals. 30.04.2022
+
+-----EXAMPLE-----
+Bank of Georgia: Purchase: GEL 41.25 Card: **** 8813 : TEGETA MOTORS Balance: GEL 102.36 You will get: 41.25 PLUS Available PLUS points: 1,030.27 Collect PLUS points on payments made via Bank of Georgia terminals. 04.10.2022
+
+-----EXAMPLE-----
+Purchase: GEL 18.90 Card: **** 0586 MAGIC CANDY Balance: GEL 8,303.14 You will get: 28.35 PLUS Available PLUS points: 3,325.10 400 PLUS = 1 GEL 13.11.2022
+
+-----EXAMPLE-----
+Payment: GEL 10.00 From account: Visa plastic Magticom Remaining balance: GEL 4.64 You will get: 10.00 PLUS Available PLUS points: 8.33 11.04.2023
+
+-----EXAMPLE-----
+Payment: GEL 52.53 From account: Visa plastic "EP Georgia Supply" Remaining balance: GEL 170.79 You will get: 52.53 PLUS Available PLUS points: 586.45 02.05.2023

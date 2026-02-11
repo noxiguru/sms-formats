@@ -1,0 +1,7 @@
+^Perevod ([\d\s.,]*\d)\s*([A-Z]{3}) so? .*?(\d{4}) po SBP v ad(?!.*ostu)\w+ (.*)
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee
+
+-----EXAMPLE-----
+Perevod 900 RUB so scheta 9992 po SBP v adres ALEKSEJ KONSTANTINOVICh Zh.

@@ -1,0 +1,7 @@
+^([\d/]{5}) .*erevod.*-([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+26/07 16:21 Perevod, srok zachisleniya do 3 dney=-1300 UAH Karta *3065 P24 CR MD UA Ostatok=8802.66 UAH.

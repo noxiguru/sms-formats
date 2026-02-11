@@ -1,0 +1,16 @@
+^(?:Покуп|Pokup|Ecom).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(?:в\s+терм|v\s+term)\w+\s+(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Pokupka 6 380.00 KZT, po karte 5269********2833 v terminale "OI-QARAGAI LESNAYA SK,Almaty KZ 25.12.22 11:18:15, ostatok po karte 3 192 617.00 KZT
+
+-----EXAMPLE-----
+Покупка 7 161.00 KZT, по карте 5269********2833 в терминале VAO,AlmatyKZ 06.01.23 22:36:23 остаток по карте 69 322.59 KZT
+
+-----EXAMPLE-----
+Ecom авторизация 13 085.00 KZT, по карте 5269********2833 в терминале Del Papa,ALMATY KZ 20.01.23 12:52:22 остаток по карте 2 065 178.51 KZT
+
+-----EXAMPLE-----
+Покупка 1.50 EUR, по карте 5269********5932 в терминале PEETRI PIZZA,HARJUMAA, TA EE 01.02.23 21:43:34 остаток по карте 129 048 664.95 KZT

@@ -1,0 +1,10 @@
+^Zachislenie \+([\d.]*\d) ([A-Z]{3}).*?\*(\d{4})#Adres=(.*?)#Data=([\d-]{10}).*?Ostatok=([\d.]+)
+
+-----COLUMNS-----
+income;instrument;syncid;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Zachislenie +14.00 SEK#Visa *6183#Adres=GOOGLE.COM/CH GOOGLE *SELLER#Data=2013-07-18 22:43:00#Ostatok=118.59
+
+-----EXAMPLE-----
+Zachislenie +14.00 SEK#Visa *6183#Adres=GOOGLE.COM/CH GOOGLE *SELLER#Data=2013-07-18 22:43:00#Ostatok=118.59

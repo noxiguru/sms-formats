@@ -1,0 +1,13 @@
+^((?:Zach|Vipl).*(?:ashback|rocent.*?)) \+?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*art.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid
+
+-----EXAMPLE-----
+Zachislen cashback 242.99RUR. Karta 7715.
+
+-----EXAMPLE-----
+Viplata cashback +2497.30 RUB na karty 1024. Podrobnee v mobilnom prilozhenii: https://domrfbank.ru/lp/mobile/
+
+-----EXAMPLE-----
+Viplata procentov +1022.46 RUB po karte 8061. Dostupno 297064.26 RUB. Podrobnee v mobilnom prilozhenii: https://domrfbank.ru/lp/mobile/

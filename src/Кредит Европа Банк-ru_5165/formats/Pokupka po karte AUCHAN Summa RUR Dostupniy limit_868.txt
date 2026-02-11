@@ -1,0 +1,7 @@
+^Pokupka.*?#\s*(\d{4}) ([\d/]{10}).*?Summa.?\s*([\d\s.,]*\d)([A-Z]{3}).*?limit.?\s*(-?[\d\s.,]*\d)\s*\S{3} (.*)
+
+-----COLUMNS-----
+syncid;date#dd/MM/yyyy;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Pokupka po karte AUCHAN #5453 26/06/2013 13:46:04 Summa: 900.00RUR Dostupniy limit: 2693.05RUR YANDEX.MONEY       MOSCOW. Soobschenie sostavleno i otpravleno CREDIT EUROPE BANK.

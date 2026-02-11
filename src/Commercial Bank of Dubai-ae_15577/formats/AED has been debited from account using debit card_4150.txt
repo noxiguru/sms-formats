@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s.,]*\d).*?ebit.*?(\d{4}).* at (.*?) on ([\d-]{10}).*.*bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+AED 150.00 has been debited from account 6655 using debit card at ZOMATO ORDER on 05-04-2019 16:36. Your bal is AED 13049.27

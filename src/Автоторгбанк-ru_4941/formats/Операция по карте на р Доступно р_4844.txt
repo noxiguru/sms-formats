@@ -1,0 +1,7 @@
+^Операция.*\*(\d{4}) на ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Операция по карте *4273 на 470 р. Доступно 18 646.53 р.

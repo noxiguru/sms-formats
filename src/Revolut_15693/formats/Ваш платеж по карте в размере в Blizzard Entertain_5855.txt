@@ -1,0 +1,7 @@
+^Ваш.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+в\s+(.*?)\s+отмен.*\s+║\s+(.*?)\s*\W*$
+
+-----COLUMNS-----
+income;instrument;payee;comment
+
+-----EXAMPLE-----
+Ваш платеж по карте в размере 12,99 € в Blizzard Entertainment отменен ║ Платеж отменен 🚫

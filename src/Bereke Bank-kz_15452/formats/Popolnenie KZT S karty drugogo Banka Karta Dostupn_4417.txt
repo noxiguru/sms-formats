@@ -1,0 +1,13 @@
+^Popoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(?:Перевод\s+по\s+ном.*)?.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Popolnenie: 30000,00 KZT S karty drugogo Banka Karta: ***8022 Dostupno: 33270,11 KZT
+
+-----EXAMPLE-----
+Popolnenie 22000,00 KZT Schet karty: KZ***7903  Dostupno:  22005,61KZT
+
+-----EXAMPLE-----
+Popolnenie: 49991,00 KZT Karta: ***5923 Перевод по номеру телефона Bank Freedom Finance JSC Ющенко Никита Dostupno: 86024,04 KZT ║ Bereke Bank

@@ -1,0 +1,10 @@
+^Acc.*?(\d{4})\s+Amou.*?\+([\d\s.,]*\d)\s+Bala.*?([\d\s.,]*\d)\s+(.*)
+
+-----COLUMNS-----
+syncid;income;av_balance;payee
+
+-----EXAMPLE-----
+Account 4623232323
+Amount: + 1,247,272
+Balance: 21,191,225
+G1234567890 NHAT TAN NGUYEN

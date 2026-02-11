@@ -1,0 +1,10 @@
+^Nachisleny proc.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Nachisleny procenty po vkladu WEB/СР/810/59257/05  - 8290.96 RUR. Ostatok vklada - 1156754.54 RUR, stavka - 8.50, srok - do 27/10/2017.
+
+-----EXAMPLE-----
+Nachisleny procenty po vkladu WEB/СР/810/59353/06  - 6429.03 RUR. Ostatok vklada - 904276.26 RUR, stavka - 8.65, srok - do 27/07/2018, nesnizhaemyi ostatok - 30000.00 RUR.

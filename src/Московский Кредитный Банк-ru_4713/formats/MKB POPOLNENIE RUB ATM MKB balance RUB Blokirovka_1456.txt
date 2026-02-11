@@ -1,0 +1,10 @@
+^.*?([\d.]{10}).*(\d{4}).*POPOLNEN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ATM.*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid#cash;income;instrument;av_balance
+
+-----EXAMPLE-----
+MKB: 17.11.2014 14:32 5*1795 POPOLNENIE: 9000 RUB, ATM 926 MKB 810. balance: 23322.21 RUB. Blokirovka kart - SMS "All" na +79037672667
+
+-----EXAMPLE-----
+MKB: 25.12.2017 19:50 5*7653 POPOLNENIE: 19 500.00 RUB ATM 918 MKB 810 g. Mos. Balance: 19 560.00 RUB. Blokirovka kart - SMS "All" na +79037672667

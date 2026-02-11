@@ -1,0 +1,7 @@
+^([\d.]{10}).*chet.*?(\d{4}) postup.*?([\d\s.,]*\d)\s+(.*?)<.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;payee;av_balance
+
+-----EXAMPLE-----
+11.05.2016 16:56 na schet 1234567890 postupilo 32,780.00 OOO "YuG-ATTRAKTsION"<.> Ostatok:32,807.64

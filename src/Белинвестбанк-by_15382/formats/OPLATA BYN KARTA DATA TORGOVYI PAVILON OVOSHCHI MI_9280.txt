@@ -1,0 +1,7 @@
+^OPLATA\s+([0-9][\d\s.,]*)\s+([A-Za-z]{1,3})\s+KARTA\s+#(\d{4})\s+DATA\s+(\d{2}[-./]\d{2}[-./]\d{4})\s+\d{2}:\d{2}:\d{2}\s+(.+?)\s+OSTATOK\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s+([A-Za-z]{1,3})$
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+OPLATA 20.16 BYN KARTA #1156 DATA 24.07.2025 19:55:07 TORGOVYI PAVILON OVOSHCHI,>MINSK>BY OSTATOK 342.83 BYN

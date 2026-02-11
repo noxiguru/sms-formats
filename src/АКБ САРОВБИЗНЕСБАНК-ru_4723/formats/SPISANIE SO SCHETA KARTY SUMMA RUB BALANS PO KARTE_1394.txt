@@ -1,0 +1,10 @@
+^([\d.]{8}).*(?:PEREVOD S|SPISAN|PLATEZ).*(\d{4})\s+SUM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+01.10.14 16:54 SPISANIE SO SCHETA KARTY ****4010 SUMMA:20.00 RUB; BALANS PO KARTE: 22201.40 RUB
+
+-----EXAMPLE-----
+21.11.17 14:48 PLATEZH CHEREZ ATM (00079660) ILI SMS card: ****2626 SUMMA: 30.25 RUB; SBB 00079660, RUS BALANS PO KARTE: 0.00 RUB

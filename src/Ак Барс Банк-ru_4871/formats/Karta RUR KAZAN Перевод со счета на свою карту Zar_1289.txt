@@ -1,0 +1,13 @@
+^.*?(\d{4})\.([\d\s.,]*\d)\s*([A-Z]{3})\.\s+(.+?)\..*([\d-]{10}).*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *9647.  1492.63RUR. KAZAN, Перевод со счета на свою карту. Zarezervirovano -1492.63RUR. 2014-06-02 18:40:11. Dostupno 1548.03RUR
+
+-----EXAMPLE-----
+Karta *9146.  5744.00RUR. KAZAN, Перевод в погашение кредита. Zarezervirovano RUR. 2015-09-07 10:33:10. Dostupno 18525.83RUR
+
+-----EXAMPLE-----
+Karta *8889.  355.00RUR. KAZAN, услуги охраны. Zarezervirovano RUR. 2016-03-28 08:10:54. Dostupno 5212.09RUR

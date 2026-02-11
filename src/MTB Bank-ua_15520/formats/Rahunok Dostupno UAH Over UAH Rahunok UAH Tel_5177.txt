@@ -1,0 +1,10 @@
+^.*\*\d*(\d{4}):\s*\+([\d\s.,]*\d)\s+(?:\([\d\s.,]*\d\)\s+)?.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}-[\d-]{5}).*
+
+-----COLUMNS-----
+syncid;income;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+Rahunok *5555: +1816.52 Dostupno:1933.94 UAH Over:0.00 UAH Rahunok:1933.94 UAH [2015-11-12 10:13:52] Tel:0800500255
+
+-----EXAMPLE-----
+Rahunok *6241:+103.31 (103.31) Dostupno: 2103.31 UAH KrLim:2000.00 UAH Zaborhovanist:0.00 UAH [2021-11-01 11:17:13] Tel:0800500255

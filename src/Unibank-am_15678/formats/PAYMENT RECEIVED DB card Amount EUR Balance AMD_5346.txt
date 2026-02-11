@@ -1,0 +1,7 @@
+^PAYMENT.* DB: (\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}).*mount.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument
+
+-----EXAMPLE-----
+PAYMENT RECEIVED DB: 24.10.22 17:21,card ***9612. Amount:4.00 EUR, Balance:98171.84 AMD

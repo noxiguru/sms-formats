@@ -1,0 +1,7 @@
+^Внесен.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W) .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W) ║ Kaspi (Red).*
+
+-----COLUMNS-----
+income;instrument;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+Внесено: 6 589 ₸ Доступно: 150 000 ₸ ║ Kaspi Red

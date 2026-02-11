@@ -1,0 +1,10 @@
+^.*(Oplat.*?sms-inf.*?)([\d\s.,-]*\d)\s*([A-Z]{3}).*art.*?(\d{4}).*
+
+-----COLUMNS-----
+comment;outcome;instrument;syncid
+
+-----EXAMPLE-----
+MKB: Oplata sms-informirovaniya 60-00 RUR po karte * 7653
+
+-----EXAMPLE-----
+Oplata sms-informirovaniya 60 RUR po karte *6746.

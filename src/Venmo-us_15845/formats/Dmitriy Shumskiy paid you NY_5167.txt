@@ -1,0 +1,7 @@
+^(.*?) paid you ([A-Z]{3}|\W)\s*([\d\s.,]*\d) (.*)
+
+-----COLUMNS-----
+payee;income;instrument;comment
+
+-----EXAMPLE-----
+Dmitriy Shumskiy paid you $265.34 NY 21/22

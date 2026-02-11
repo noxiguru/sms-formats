@@ -1,0 +1,7 @@
+^Spis.*?(\d{4})\.\s*(.+)\.\s+Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Spisanie so scheta kontrakta *4318. P/P OT 21,10,15 KOMISSIYA. Summa 95.00RUR. Date 21.10.2015 00:00. Dostupno -95.00RUR

@@ -1,0 +1,10 @@
+^.*art.*?(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:nesenie s|achislenie s|несение с|ачисление с).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;income;instrument;av_balance
+
+-----EXAMPLE-----
+CT DALE840 #karty 4903 19.07.2013 07:18 Vnesenie sredstv 132000.00 RUB. Balance: 887.57. Dostupno: 335887.57. ATM0970 FILIAL RU NOVOSIBIRSK.
+
+-----EXAMPLE-----
+Karta 4650 21.01.2021 21:35 Zachislenie sredstv 75000.00 RUB. Dostupno: 163932.23 RUB ATM1012 KRASNYI KIT KRASN MOSCOW

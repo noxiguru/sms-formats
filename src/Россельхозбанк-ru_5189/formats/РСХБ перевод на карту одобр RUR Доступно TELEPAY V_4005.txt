@@ -1,0 +1,7 @@
+^.*? ([\d/]{5}) .*?(перевод на.*?|perevod na.*?)\s+(?:одоб|odob).*?\.?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+РСХБ 28/10 00:28:51 перевод на карту *3104 одобр. 125.00 RUR Доступно 325.00 TELEPAY Visa Direct RU

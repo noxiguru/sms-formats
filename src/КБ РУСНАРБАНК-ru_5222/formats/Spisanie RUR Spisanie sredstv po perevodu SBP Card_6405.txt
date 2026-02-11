@@ -1,0 +1,7 @@
+^Spisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(.*?)\s+([\d]{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#yMd
+
+-----EXAMPLE-----
+Spisanie: 16 143.00 RUR Spisanie sredstv po perevodu SBP Card_N **9197 KONSTANTIN DIUNOV 2024-12-14 06:35:59

@@ -1,0 +1,11 @@
+^.*znanie(?!.*Data).*\.(\d{4}).*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*WPLYW\s+Saldo.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Systematyczne uznanie
+Rach. 66..7004
+Kwota +9540,38 PLN
+PRZELEW PRZYCH. SYSTEMAT. WPLYW
+Saldo +9773,26

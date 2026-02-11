@@ -1,0 +1,16 @@
+^.*?(\d{4}):\s*(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:opoln|ополн).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *5152:21.01.2019 19:02, пополнение 5000.00 RUR, LR*TALKBANK.IO P2P, Visa Direct. Доступно 5307.24 RUR. Справка: 8-800-100-32-00
+
+-----EXAMPLE-----
+Карта *5152:18.02.19 10:37, пополнение 5000.00 RUR, LR*TALKBANK.IO P2P, Visa Direct. Доступно 5032.24 RUR. Справка: 8-800-100-32-00
+
+-----EXAMPLE-----
+Karta *2138: 15.02.19 15:42, popolnenie 66000.00 RUR. Dostupno 66504.86 RUR. Spravka: 8-800-100-32-00
+
+-----EXAMPLE-----
+Karta 4832:02.09.2022 18:10, popolnenie 100.00 RUR, GC SBP, -, -. Dostupno 114.74 RUR.)

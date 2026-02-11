@@ -1,0 +1,7 @@
+^(.{4}).*(?:PLATA|plata|EKVIVALENT\s+NAL|Pred.*oper).*?([\d\s.,]*\d)([A-Z]{3})\s+\((.*?)\).*omis.*?([\d\s.,]*\d).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;fee;av_balance
+
+-----EXAMPLE-----
+4*42 18:09 Splata 123.01UAH (Payments UAH) Komissia 2.50UAH. Bal:10409.06UAH Privat24 - ves bank v Vashem kompyutere i smartfone! privat24.ua

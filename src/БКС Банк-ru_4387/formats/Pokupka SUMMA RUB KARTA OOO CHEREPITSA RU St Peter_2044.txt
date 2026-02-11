@@ -1,0 +1,16 @@
+^(?:Poku|Vypol.*?erevod|Поку|Выпол.*?еревод).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\W?\s+(?:(?:Pol[yu]|Полу)\w+\W?\s+)?(.+?)[.,]?\s+(?:DOSTU|.алан).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Pokupka SUMMA: 1270.00 RUB KARTA****9804 OOO "CHEREPITSA", RU St Petersburg, DOSTUPNO: 71208.84 RUB 24.10.2015 12:57 Msk
+
+-----EXAMPLE-----
+Vypolnen perevod cherez SBP 2000,00 RUB so scheta *3050. Polychatel: Сергей Николаевич П v . DOSTUPNO: 23453,32 RUB 13.10.2020 15:25 nomer documenta: 83174
+
+-----EXAMPLE-----
+Покупка 500.00 RUB Карта ****1778 METRO.SPB.RU, RU St Petersburg,  Баланс 33149.77 RUB, 29.01.2021 14:58 MCK
+
+-----EXAMPLE-----
+Покупка 99.00 RUB Карта ****3069 YANDEX EDA, RU Gorod Moskva, баланс 410.74 RUB, 31.10.2021 18:20 MCK

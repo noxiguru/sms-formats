@@ -1,0 +1,7 @@
+^.*(?:code 3D-Secure).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+^.*(?:code 3D-Secure).*

@@ -1,0 +1,7 @@
+^.*ransfer\w+ ([A-Z]{2,3}|\W)\s*([\d\s.,]*\d) to (.*?)\..*
+
+-----COLUMNS-----
+instrument;outcome;comment
+
+-----EXAMPLE-----
+You've transfered RM 360.00 to Amir's MAYBANK account ending ****1234. REF: 123456789M ║ Maybank2u: Transfer

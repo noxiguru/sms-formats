@@ -1,0 +1,7 @@
+^(.*?)\s+сауда\s+.*\*(\d{4}).*?-([\d\s.,]*\d)\s*([A-Z]{3}).*олжет.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+payee;syncid;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+MILKY LAND RAKHAT, AKTOBE, KZ сауда нүктесінде **4312 карточкасынан -595.00 KZT операция жасалды. Қолжетімді сома 35257.00 KZT. 22.07.23 19:17:58 ║ Home Credit Kazakhstan

@@ -1,0 +1,7 @@
+^([\d.]{10})\s+[\d:]+\s+(.*?)\s+[\d*]*(\d{4}).*perac.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;payee;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+30.12.2014 10:08 MAGNIT MM PROVIANT 675789*6758Suma operacii 1223.75 RUB, Orientovnyi zalyshok 961.37 UAH

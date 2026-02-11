@@ -1,0 +1,7 @@
+^.*?#(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*otiv.*?ATM.*([\d/]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+PAN#7432 2000 UAH Gotivka ATM S1ANI233 LENINA AVE. 200 ZAPOROZHYE UA 19/01/2017 18:09:24 Dostupno: .26 UAH Vsogo: 10.26 UAH

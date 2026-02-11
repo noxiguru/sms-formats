@@ -1,0 +1,5 @@
+ASB
+asb.by
+com.mobicon.mbank2.belarusbank
+mbank
+belarusbank

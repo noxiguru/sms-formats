@@ -1,0 +1,7 @@
+^Cash-In.*\*(\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\s+([\d.]{8})\s+BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Cash-In 4169**5740 Medaxil 550.00 AZN GENCLIK MALL 10:34 03.11.18 BALANCE 5 702.17 AZN

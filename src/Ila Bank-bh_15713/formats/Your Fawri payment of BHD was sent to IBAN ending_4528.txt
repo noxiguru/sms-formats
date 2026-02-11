@@ -1,0 +1,7 @@
+^.*payment.*of (\S+?)\s*([\d\s.,]*\d\.\d{2})\d? .* to (.*) ending (\d{4}) on (\d{2}/\d{2}/\d{2,4}) .*alan.*?(-?[\d\s.,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid;date#dMy;av_balance
+
+-----EXAMPLE-----
+Your Fawri+ payment of BHD 25.000 was sent to IBAN ending 3063 on 25/02/2020 at 19:37 ref: ABCOXXXX0225B085. Your new balance is BHD 21.732. Have a great day!

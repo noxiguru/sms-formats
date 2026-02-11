@@ -1,0 +1,7 @@
+^.*paym.*for.*?(\S{2,3})\s*([\d\s.,]*\d)\s+to.*on\s+([\d\/]{10}).*
+
+-----COLUMNS-----
+instrument;outcome;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Your FAST payment via iBanking for S$ 2200.00 to A/C No: XXXXXX4523 on 01/07/2015 was successful. 01:23:27

@@ -1,0 +1,7 @@
+^ATM.*?-([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d.]{8}) .*ard.*?(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yy;syncid#cash
+
+-----EXAMPLE-----
+ATM: -512.50 EUR OK! UA, VINNITSA; BRANCH10001-0184; 11.10.18 13:00; Card#: ...0988; Helpdesk: +3726688088

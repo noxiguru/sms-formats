@@ -1,0 +1,7 @@
+^([\d/]{8}) [\d:]+ \S+ X\d*(\d{4})\D\s+Out\w+\s+.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM/yy;syncid;av_balance
+
+-----EXAMPLE-----
+02/12/18 07:03 A/C X323345X Outstanding Balance 142191.84 Baht.

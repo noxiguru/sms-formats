@@ -1,0 +1,7 @@
+^.*transfer of ([A-Z]{2,3}|\W)\s*([\d\s.,]*\d) to .*nding \*+(\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid
+
+-----EXAMPLE-----
+Your transfer of RM 100.00 to My CIMB's CIMB BANK BERHAD account ending ****4427 has been accepted. REF: 477937092M ║ Maybank2u: Transfer

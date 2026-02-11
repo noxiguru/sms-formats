@@ -1,0 +1,16 @@
+^([\d-]{10}).*(?:Deposit HB|Direct|CH Debit|nquire\s+-).*?([1-9]\d{0,2}(?:\s\d{3})*\.\d{2}|\d+\.\d{2})\s*([A-Z]{3}).*\*(\d{3,4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+2018-07-04 12:21:11 Operaciya po karte CH Debit 16363.02 KZT P2P Transfer 4**222 Dostupnaya summa:92648.80 KZT
+
+-----EXAMPLE-----
+2018-09-25 09:43:04 Provedena operaciya Платеж с Deposit HB 18817.53 KZT платеж c депозита HB K**211 Dostupnaya summa:230.56 KZT
+
+-----EXAMPLE-----
+2018-10-15 09:07:27 Direct P2P -86700.00 KZT K**696 Dostupnaya summa:22385.99 KZT
+
+-----EXAMPLE-----
+2018-10-09 22:28:17 Balance Enquire -40.00 KZT 4**029 Dostupnaya summa:61.05 KZT

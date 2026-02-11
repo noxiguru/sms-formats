@@ -1,0 +1,7 @@
+^Debit card (\d{4}) charge made online, by phone or mail on ([A-Za-z]+ \d{2}, \d{4}) for ([A-Za-z]{1,3}|\W)\s*([0-9][\d\s.,]*\d)(?=\.)\.\s*(?:[|║]\s*BofA)?$
+
+-----COLUMNS-----
+syncid;date#Mdy;instrument;outcome
+
+-----EXAMPLE-----
+Debit card 5511 charge made online, by phone or mail on November 03, 2025 for $1,846.89. ║ BofA

@@ -1,0 +1,10 @@
+^(?:.*ostu.*platez|Postupilo).*?([\d\s.,]*\d)\s([a-zA-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument
+
+-----EXAMPLE-----
+Cetelem: postupil platezh 3100.00 rub.
+
+-----EXAMPLE-----
+Postupilo 26069.00 rub. Summa dostatochna dlya oplaty ezhemesyachnogo platezha v razmere 26069.00 rub. Oplachivajte online na https://online.cetelem.ru

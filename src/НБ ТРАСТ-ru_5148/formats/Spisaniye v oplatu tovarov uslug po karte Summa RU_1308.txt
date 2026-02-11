@@ -1,0 +1,7 @@
+^([\d-]{10}).*oplatu tov.*(\d{4}) Summa. ([\d\s.,]*\d) ([A-Z]{3}) Mesto. (.*) Dostupno. (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd-MM-yyyy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+06-07-2014 13:38:30 Spisaniye v oplatu tovarov/uslug po karte 6720 Summa: 309.20 RUR Mesto: LYUBIMYIY MAGAZIN Dostupno: 81.38RUR

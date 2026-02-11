@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*(?:okup|pisa).*?([\d\s.,]*\d)\s*([A-Z]{3}).\s*(.*).\s*Zarezerv.*([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *9647. Pokupka 156.20RUR. KAZAN, MAGNIT U DOMA IPNARI. Zarezervirovano 156.20RUR. 2014-06-04 20:59:33. Dostupno 891.83RUR
+
+-----EXAMPLE-----
+Karta *2725. Pokupka 52.00RUR.NOVOE SHIGALE, ALKYN. Zarezervirovano 52.00RUR. 2017-12-11 20:38:59. Dostupno 2562.89RUR.

@@ -1,0 +1,7 @@
+^Perevod.*Summa ([\d\s.,]*\d).*([\d.]{10}).*Dostupno ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Perevod na kartu. Koshelek. Summa 1000.00 RUB.  TCS BANK CARD2CARD 10. 24.12.2013 15:46. Dostupno 0.00 RUB. wallet.tinkoff.ru

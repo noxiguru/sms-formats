@@ -1,0 +1,5 @@
+YandexMoney
+ru.yandex.money
+1960
+yoomoney
+ru.yoo.money

@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+-888.0 UAH 2600*1109 Na SEMIChAYeVSKA KATERINA PETRIVNA Balans: 0.87

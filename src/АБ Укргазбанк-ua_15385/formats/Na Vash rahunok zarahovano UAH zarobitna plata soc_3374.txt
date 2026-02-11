@@ -1,0 +1,10 @@
+^Na.*?(\d{3,4}) zarahov.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(zarob.*?|).(?:alan|alysh).*?(-?[\d\s.,]*\d).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Na Vash rahunok 1234567890.100101.980 zarahovano 3242.31 UAH zarobitna plata / social viplata Balans: 4878.77 UAH  26.12.17 18:58
+
+-----EXAMPLE-----
+Na Vash rahunok 1234567890.500101.980 zarahovano  111111.15 UAH, zalyshok  111111.78 UAH 05.04.19 19:46

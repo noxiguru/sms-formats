@@ -1,0 +1,7 @@
+^((?:Vyplata pr|Выплата пр).*?) (?:v sum.*?)?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid
+
+-----EXAMPLE-----
+Выплата процентов 16.44 RUB, счет *6847 ║ БКС Банк

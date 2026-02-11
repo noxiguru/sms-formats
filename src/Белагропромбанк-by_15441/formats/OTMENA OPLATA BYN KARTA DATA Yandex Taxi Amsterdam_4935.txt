@@ -1,0 +1,7 @@
+^(OTMEN.*?) ([\d\s.,]*\d)\s*([A-Z]{3}) .*#(\d{4}) DAT.*? (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} (.*?) OST.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+OTMENA OPLATA 0.05 BYN KARTA #8370 DATA 22.01.2021 16:01:55 Yandex.Taxi>Amsterdam>NL OSTATOK 9.35 BYN

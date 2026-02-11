@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) VYDAC.*\*(\d{4}) ([\d/]{8}).*ZALYS.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd/MM/yy;av_balance
+
+-----EXAMPLE-----
+100.00 UAH VYDACHA GOTIVKY DN00 *6627 08/08/18, 11:38:31 ZALYSHOK 3 555.06

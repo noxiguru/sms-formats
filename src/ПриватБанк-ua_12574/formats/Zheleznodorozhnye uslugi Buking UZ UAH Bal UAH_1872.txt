@@ -1,0 +1,7 @@
+^(.{4})\s+[\d:]+\s+(?!Perevod)(.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+Bal.\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+5*38 15:21 Zheleznodorozhnye uslugi Buking UZ 255.39UAH Bal. 1744.61UAH

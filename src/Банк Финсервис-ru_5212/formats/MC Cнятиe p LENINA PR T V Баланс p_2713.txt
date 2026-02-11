@@ -1,0 +1,10 @@
+^.*?(\d{4})\s+([\d.]{8}) .*(?:няти[eе]|nyatie)([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+MC6093 29.10.16 10:24 Cнятиe 10000p LENINA PR-T, 1 V Баланс 17500p
+
+-----EXAMPLE-----
+VISA6937 04.09.19 12:53 Snyatie 17000p ATM5005015 Balans 57959.15p

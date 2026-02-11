@@ -1,0 +1,7 @@
+^Cred.*(\d{4})\/([\d\s.,]*\d)\/([A-Z]{3})\/([\d.]{10}).*?\/(.*)\/Bal.*?(-?[\d\s.,]*\d)
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Credit/*730120010/414.90/EUR/29.06.2015 13:26:00/NORDPAY S.A./Balance: 7348.36

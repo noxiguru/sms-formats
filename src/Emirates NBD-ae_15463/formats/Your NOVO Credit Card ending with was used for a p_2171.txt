@@ -1,0 +1,7 @@
+^.*[Cc]ard.*?(\d{4}).*purchase.*?([A-Z]{3})\s*([\d\s.,]*\d)\s+at\s+(.*?)\s+on\s+(\d{2}\w{3}\d{2}).*limit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#ddMMMyy;av_balance
+
+-----EXAMPLE-----
+Your NOVO Credit Card ending with 1743 was used for a purchase of AED 35.00 at LIFESTYLE AL KHA-112046DUBAI AE on 06Jan16 09:52 PM. Available limit is AED 4484.17.

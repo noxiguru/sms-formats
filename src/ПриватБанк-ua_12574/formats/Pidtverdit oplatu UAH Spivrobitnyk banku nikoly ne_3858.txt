@@ -1,0 +1,7 @@
+^.*ikomu\s+ne.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Pidtverdit oplatu 730.00 UAH. Spivrobitnyk banku nikoly ne zapytue paroli. Nikomu ne peredavaite cei parol: 59383763

@@ -1,0 +1,7 @@
+^\d+\s+(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d.]{8,10}\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+\d+\++(\d{4})\s+.*
+
+-----COLUMNS-----
+payee;date#dMy;outcome;instrument;syncid
+
+-----EXAMPLE-----
+11393722 RU MAGNIT MM BELAYA STRUGA 09.08.20 09.08.20 820.91 RUR 479004++++++6677 (Apple Pay-4656)

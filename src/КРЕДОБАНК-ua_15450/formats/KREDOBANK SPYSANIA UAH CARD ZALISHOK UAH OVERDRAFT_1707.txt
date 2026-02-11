@@ -1,0 +1,7 @@
+^([\d.]{10}).*SPYSAN.*?([\d\s.,]*\d)\s*([A-Z]{3}) .*CARD.*?(\d{4}).*OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+03.06.2016 16:56 KREDOBANK SPYSANIA 13250.00UAH CARD**3124 ZALISHOK 12121.24 UAH OVERDRAFT 0.00 UAH DOSTUPNO 12121.24UAH

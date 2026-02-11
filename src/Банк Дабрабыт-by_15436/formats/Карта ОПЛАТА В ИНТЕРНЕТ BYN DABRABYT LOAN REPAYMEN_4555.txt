@@ -1,0 +1,7 @@
+^.*\*(\d{4}) (\d{2}[./]\d{2}[./]\d{2,4}) .*ОПЛАТА В .*?([\d\s.,]*\d)\s*([A-Z]{3}) \d+ (.*)
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;comment
+
+-----EXAMPLE-----
+Карта 421487****9627 20/03/2020 09:00:16 ОПЛАТА В ИНТЕРНЕТ 356.75 BYN 822002 DABRABYT LOAN REPAYMENTS>MINSK>BY

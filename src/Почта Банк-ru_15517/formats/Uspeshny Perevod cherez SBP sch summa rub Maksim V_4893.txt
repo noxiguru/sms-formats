@@ -1,0 +1,10 @@
+^.*(?:erevod|еревод).*(?:SBP|СБП).*\*(\d{4}).*(?:umm|умм).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W?\s+(.*?) (?:v|в) (.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;comment;date#dMy
+
+-----EXAMPLE-----
+Uspeshny Perevod cherez SBP. sch.*3800, summa 114.00 rub, Maksim Valerevich L. v Sberbank 15.12.2020 12:49 ║ Почта Банк
+
+-----EXAMPLE-----
+Успешный перевод через СБП счет *4676, сумма 2000.00 руб, Oksana Aleksandrovna K. в Sberbank 07.08.2022 11:13 ║ Почта Банк

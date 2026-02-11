@@ -1,0 +1,7 @@
+^([\d.]{8}) .*\*(\d{4}).*okup.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*?\.\s*(.*?)(?:\.|$)
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+05.03.17 04:41. 4*1075. Pokupka 11.50 RUR. Ostatok 568.51 RUR. MOSCOW  YM*YANDEXTAXI.

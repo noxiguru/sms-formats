@@ -1,0 +1,13 @@
+^.*\*([\d]{4}).*(?:nyat\w+\s+s|pisan\w+\s+na|писан\w+\s+на).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3})(?!.*Bal).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+Vklad: *9559; Spisanie na vash schet 423*07771; Summa: 100000.00 RUR. 8(800)700-80-06
+
+-----EXAMPLE-----
+Karta: *2175; Snyatie so scheta; Summa: 2739.02 RUR;
+
+-----EXAMPLE-----
+Вклад: *6755; Списание на ваш счет 408*65603; Сумма: 500.00 RUR. ║ Хоум Кредит

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*POPOLN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Card_N**8297 POPOLNENIE  534.00RUR 2018-11-30 13:24:13

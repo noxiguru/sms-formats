@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*окупк.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+\(([\d\s.,]*\d).* в\s+(.*?)\s+([\d.]{10}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;op_outcome;instrument;outcome;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Карта *4605 покупка 299.00 RUR (313.19 RUR) в GOOGLE*TASMANIC 11.10.2018 07:03. Доступно 10744.58 RUR

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).* ([\d.]{8}) .*(.ozvrat.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\..*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;comment;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta *8270: 18.03.19 19:02, vozvrat 465.29 RUR, INTERKASSA COM, MSK. Dostupno 763.57 RUR. Spravka: 8-800-100-32-00

@@ -1,0 +1,7 @@
+^([\d.]{10}) .*(.achisl.*) N\s*[\*\d]*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;comment;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+24.12.2019 10:19 MSK Nachisleny procenty na vklad "Nakopitelnyy schet" N 40817***00035 na summu 373.92 RUR. Ostatok 373.92 RUR.

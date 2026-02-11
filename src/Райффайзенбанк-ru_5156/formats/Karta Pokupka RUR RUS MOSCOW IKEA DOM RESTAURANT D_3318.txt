@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*okupk.*?([\d\s.,]*\d)\s*([A-Z]{3});\s+(.*?);.*([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *2039; Pokupka:634 RUR; RUS/MOSCOW/IKEA DOM 2RESTAURANT; Data: 2017-12-04; Dostupny Ostatok: 165605.9 RUR. Raiffeisenbank

@@ -1,0 +1,7 @@
+^.*?([\d.]{8}).*?\*(\d{4}) POPOLNEN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument
+
+-----EXAMPLE-----
+16:47 28.10.16 5565***9731 POPOLNENIE 6900.00 RUB SMP M.Sedina/Lenina,47/67. SMP Bank, tel. 8-800-555-2-555

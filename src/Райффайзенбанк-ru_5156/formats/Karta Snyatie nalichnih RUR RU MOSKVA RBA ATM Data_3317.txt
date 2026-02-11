@@ -1,0 +1,10 @@
+^.*?([\d]{4}).*(?:nyatie n|нятие н)(?!.*omiss|.*омисс).*?([\d\s,.]*\d)\s*([A-Z]{3}).*([\d-]{10}).*?(?:stat|стат).*?(-?[\d\s,.]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *0185; Snyatie nalichnih: 500 RUR; RU/MOSKVA/RBA ATM 17251; Data: 2017-12-04; Dostupny Ostatok: 734.99 RUR. Raiffeisenbank
+
+-----EXAMPLE-----
+карта *8155; снятие наличных: 500 RUR; RUS/MOSKVA/ATM 615504 20 TIKHVINS; дата: 2018-05-22; доступный остаток: 255054.01 RUR. raiffeisenbank

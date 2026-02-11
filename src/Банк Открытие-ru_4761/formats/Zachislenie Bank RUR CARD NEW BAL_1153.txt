@@ -1,0 +1,7 @@
+^.*?Zachislenie.*\+\s*([\d\s.,]*\d) ([A-Z]{3}).*\*(\d{4}) NEW_BAL: (-?[\d\s.,]*\d) ([\d-]{8}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#dd-MM-yy
+
+-----EXAMPLE-----
+Zachislenie(Bank): + 21 985.29 RUR CARD **2133 NEW_BAL: 213 345.41 24-01-14

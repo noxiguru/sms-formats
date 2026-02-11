@@ -1,0 +1,7 @@
+^.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}) .znos ([\d\s.,]*\d)\s*([A-Z]{3}) .esto (.*?) .aspol.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+API Bank 23/01/2023 PLACANJE VISA **7024 Iznos 146,12 RSD Mesto APOTEKA ZDRAVLJE LEK P, BEOGRAD  SA, RS Raspolozivo 1705,77

@@ -1,0 +1,7 @@
+^([\d.]{10}) .клад\s+(.+?)\s+уменьш.*?([\d\s.,]*\d)\s*([A-Z]{3}).*стат.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+04.04.2016 Вклад Кошелёк уменьшен на 100 RUR. Остаток 100,51 RUR.

@@ -1,0 +1,7 @@
+^.*ebit at (.*?) for ([A-Z]{3}|\W)\s*([\d\s.,]*\d) from.*(\d{4}).*
+
+-----COLUMNS-----
+payee;instrument;outcome;syncid
+
+-----EXAMPLE-----
+Truist Alerts: You have a pending debit at AMZN MKTP US for $16.10 from acct ending 4125. Transaction history: text LAST, More info: INFO. Reply HELP for help or STOP to stop alerts.

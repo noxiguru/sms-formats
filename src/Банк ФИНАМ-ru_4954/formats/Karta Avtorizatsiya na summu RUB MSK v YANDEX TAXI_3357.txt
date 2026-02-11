@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*(?:vtoriza|вториза).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{10}) [\d:]{5} \(\w+\)\W? (?:v:\s+|в:\s+)?(.*)\.\s+.(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Karta *5294: Avtorizatsiya na summu 420,00 RUB 09.12.2017 15:37 (MSK) v: YANDEX.TAXI//MOSKVA/119021    RUS. Dostupnyy ostatok 21 928,74 RUR
+
+-----EXAMPLE-----
+Карта *0397: Авторизация на сумму 84,77 EUR 26.01.2018 18:36 (МСК) в: MERCADONA AVDA.JUAN CARLO\CALPE\\    ESP. Доступный остаток 764,31 EUR
+
+-----EXAMPLE-----
+Карта *0577: Авторизация на сумму 194,00 RUR 20.09.2019 18:47 (МСК). STEAMGAMES.COM. Доступно 4 646,85 RUR

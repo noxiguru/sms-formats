@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*(?:SPISANIE|SPYSANNIA|ZABLOKIROVANO|ZABLOKOVANO)\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+KOMIS.*?([\d\s.,]*\d)\s+DOST.*?([\d\s.,]*\d)\s*[A-Z]+\s+(.+)\s+Detali.*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;fee;av_balance;payee
+
+-----EXAMPLE-----
+*0338 2012-11-26 17:48:31 ZABLOKIROVANO 6.29 PLN KOMISSIA 0.00 DOSTUPNO 763.47 UAH PIROG Detali pumb.ua

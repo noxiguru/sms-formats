@@ -1,0 +1,10 @@
+^([\d.]{10}).*?(?:счет|schet).*?(\d{4}).*(?:ачисл|ostup).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{3}).*(?:стат|stat).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+20.09.2016 по счету 5663 произведено зачисление на сумму 250.00 руб. Остаток 250.00 руб.
+
+-----EXAMPLE-----
+22.01.2018 po schetu 5663 postupilo 100.00 rub.. Ostatok 100.00 rub.

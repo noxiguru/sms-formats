@@ -1,0 +1,7 @@
+^.*?([\d/]{4}).*?([\d.]{10}).*opolnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostupn.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 6414: 12.01.2016, popolnenie 400.00 RUR. Dostupno 489.68 RUR. Spravka: 88002502777

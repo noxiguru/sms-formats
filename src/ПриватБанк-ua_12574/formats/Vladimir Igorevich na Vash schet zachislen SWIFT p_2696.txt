@@ -1,0 +1,7 @@
+^.*\s+([\d-]{10})\s+na\s+.*?\*(\d{4})\s+zachis.*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd-MM-yyyy;syncid;income;instrument
+
+-----EXAMPLE-----
+Vladimir Igorevich, 30-09-2016 na Vash schet 5168**0998 zachislen SWIFT-perevod na summu 5918.67 USD. PrivatBank

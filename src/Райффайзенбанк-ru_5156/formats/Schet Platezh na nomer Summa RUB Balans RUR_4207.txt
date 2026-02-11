@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*(?:на номер|na nomer) (\d+).*(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Schet *7067. Platezh na nomer 79777568772. Summa 15000.00 RUB. Balans 45861.48 RUR.

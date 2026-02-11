@@ -1,0 +1,3 @@
+bankkg
+3333
+com.maanavan.mb_kyrgyzstan

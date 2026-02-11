@@ -1,0 +1,7 @@
+^.*?Izmenenie.*-([\d\s.,]*\d) ([A-Z]{3}).*\*(\d{4}) NEW_BAL: (-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: -960.00 RUR CARD **2133 NEW_BAL: 195 757.62 2014-01-21 22:42:04

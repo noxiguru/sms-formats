@@ -1,0 +1,7 @@
+^([a-zA-Z]{1,3})\.?([\d\s.,]*\d).*withdr.*ending.*?(\d{4})\s+on\s+([\d-]{10}).*Bal.*?(\d[\d\s.,]*\d)
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Rs.50,000.00 was withdrawn using your HDFC Bank Card ending 9101 on 2015-11-03:21:22:33 at ITT COL. Avl Bal: RS.50,000.00

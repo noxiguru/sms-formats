@@ -1,0 +1,7 @@
+^.*?POSTUPLENIE SREDSTV.*?: ([\d\s.,]*\d) ([A-Z]{3}) ([\d-]{10}).*Ostatok ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+BANK URALSIB.POSTUPLENIE SREDSTV NA SCHET: 27 350.00 RUR 2012-11-30 00:00:00;Ostatok 33 485.40 RUR

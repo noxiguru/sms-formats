@@ -1,0 +1,4 @@
+AlfaBank
+ru.alfabank.mobile.ua.android
+ua.alfabank.mobile.android
+sense bank

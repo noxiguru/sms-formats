@@ -1,0 +1,10 @@
+^(?!Otmena|Отмена|Vozvrat).*?(?:latezh|okupka|peratsiya|латеж|окупка).*?\*([\d]{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}). (.*). (\d{2}\.[\d.]{7})(?!.*limit).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Pokupka. Karta *4311. Summa 750.00 RUB. CLOUD*TILDA.CC, MOSCOW. 03.09.2016 22:30. Dostupno 442.65 RUB. Tinkoff.ru
+
+-----EXAMPLE-----
+Pokupka. Karta *8380. 29.00 USD. DANCEPLUG, LOS ANGELES. 29.06.2017 14:34. Dostupno 3913.13 RUB. Tinkoff.ru

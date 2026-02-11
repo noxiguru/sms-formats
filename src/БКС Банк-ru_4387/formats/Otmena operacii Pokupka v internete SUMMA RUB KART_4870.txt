@@ -1,0 +1,7 @@
+^(Otmena.*?)\W? SUM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*DOST.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Otmena operacii "Pokupka v internete": SUMMA: 1.00 RUB KARTA****5426 NETFLIX WEB, RU DOSTUPNO: 142087.38 RUB 13:56 Msk

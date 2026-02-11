@@ -1,0 +1,7 @@
+^(Chari.*?):\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(.*?)\s+.asht.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Charicxva: 24.45 GEL Baratis N ****2434 TKT.GE>Tbilisi GE Nashti: 635.60 GEL 29/04/2023 14:41:21

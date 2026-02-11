@@ -1,0 +1,7 @@
+.*?-([0-9][\d\s.,]*\d)\s+([A-Za-z]{1,3})\s+(Naliczenie\s+odsetek)\s+Na\s+rachunku\s+\d{2}\.\.(\d{4})\s+Data\s+waluty:\s+(\d{4}-\d{2}-\d{2})\s*║\s*Obciążenie rachunku
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;date#yMd
+
+-----EXAMPLE-----
+-7,07 PLN Naliczenie odsetek Na rachunku 42..5634 Data waluty: 2025-08-01 ║ Obciążenie rachunku

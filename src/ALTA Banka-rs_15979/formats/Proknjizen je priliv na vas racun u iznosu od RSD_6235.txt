@@ -1,0 +1,7 @@
+^Proknj.*?acun\s+\d*(\d{4})\s+u\s+izno.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Proknjizen je priliv na vas racun 1234567890 u iznosu od 41,348.93 RSD, 10.05.2024

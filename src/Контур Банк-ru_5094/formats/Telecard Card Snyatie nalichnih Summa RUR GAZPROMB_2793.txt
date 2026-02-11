@@ -1,0 +1,7 @@
+^.*?(\d{4});.*?nyatie n.*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d.]{8}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Telecard; Card2056; Snyatie nalichnih; Summa 7700 RUR; 28.12.16 09:29:46; GAZPROMBANK; dostupno: 59437.88 RUR

@@ -1,0 +1,7 @@
+^Auth.(.*) ([\d\s.,]*\d)\s*([A-Z]{3})(?!.*Komissia).*\*(\d{4})\s.*BAL.*?(-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth:VYMPELKOM-SHPD 450.00RUR Card_N **8287 MIHAIL LYACHENKOV BAL:76 703.87 2015-05-13 17:57:13

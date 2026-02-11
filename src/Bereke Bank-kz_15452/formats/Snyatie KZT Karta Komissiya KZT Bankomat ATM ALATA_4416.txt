@@ -1,0 +1,7 @@
+^(?:Snyat|Снят).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*(?:omiss|омисс).*?([\d\s.,]*\d).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;fee;av_balance
+
+-----EXAMPLE-----
+Snyatie: 2000,00 KZT Karta: ***2588 Komissiya: 0,00 KZT Bankomat: ATM 138 ALATAU GRAND Dostupno: 98733,38 KZT

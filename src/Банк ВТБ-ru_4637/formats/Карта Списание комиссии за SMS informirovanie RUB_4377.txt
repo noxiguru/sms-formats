@@ -1,0 +1,10 @@
+^.*\*(\d{4})\s+(Списан.*?омисс.*?|Spisan.*?omiss.*?)\s+-([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8})\s+.*(?:осту|stat).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Карта *4833 Списание комиссии за SMS informirovanie -59.00 RUB 18.10.19 11:26 МСК Доступно 743.20 RUB долг 0 блок 0.00 ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Karta *0175 Spisanie komissii za SMS informirovanie -59.00 RUR 05.11.19 13:06 MSK Ostatok 90391.01 RUR dolg 52 124.09 blok 7 484.90

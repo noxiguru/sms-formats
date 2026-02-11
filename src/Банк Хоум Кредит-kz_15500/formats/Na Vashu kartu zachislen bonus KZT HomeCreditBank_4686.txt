@@ -1,0 +1,7 @@
+^Na\s+.*\*(\d{4})\s+zachis.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Na Vashu kartu 404932******2171 zachislen bonus 919.00 KZT. HomeCreditBank ║ Home Credit Kazakhstan

@@ -1,0 +1,13 @@
+^.*?(\d{4})\.\s+(?:Postup|Vozvrat).*?([\d\s.,]*\d)\s*([A-Z]{3}) .*?([\d-]{10}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+CARD: 1105. Postuplenie na karty. Sum: 32.32 RUR 2015-04-13 15:34:57 (MCK).  Ostatok:32.88 RUR.
+
+-----EXAMPLE-----
+CARD: 8443. Postuplenie na kartu. Sum: 1 000.00 RUR TINKOFF BANK CARD2CARD 2016-01-19 05:21:59 (MCK) Ostatok:1 163.00 RUR.
+
+-----EXAMPLE-----
+CARD: 8443. Vozvrat s karty na schet. Sum: 700.00 RUR 2016-04-18 04:35:08 (MCK).  Ostatok:1 647.18 RUR.

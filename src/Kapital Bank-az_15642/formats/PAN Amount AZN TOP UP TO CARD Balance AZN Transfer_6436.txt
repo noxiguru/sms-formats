@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+.(?:moun|əblə).*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+Transfer.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+PAN: 416973******3571 Amount: 100.0 AZN TOP_UP_TO_CARD Balance: 11384.27 AZN ║ Transfer

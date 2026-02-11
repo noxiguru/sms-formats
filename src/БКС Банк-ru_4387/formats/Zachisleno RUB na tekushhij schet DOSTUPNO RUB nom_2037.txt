@@ -1,0 +1,10 @@
+^.*?(?:achis|opoln).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*\d*(\d{4}).*DOSTU.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Zachisleno 99180 RUB na tekushhij schet *5250. DOSTUPNO: 99371.13 RUB 23.10.2015 09:19 nomer dokumenta:4116
+
+-----EXAMPLE-----
+Popolnenie scheta karty SUMMA: 300.00 RUB KARTA****6329  DOSTUPNO: 300.00 RUB 12.03.2016 Tel: 8(800)500-40-40

@@ -1,0 +1,16 @@
+^((?:(?:Otmena|Отмена)|(?:Postu|Посту).*(?:arpla|арпла)).*?) \+([\d\s.,]*\d)\s*([A-Z]{3}) (?:(?:po|по) )?(?:ka|ка)\w+ \**(\d{4})\s*(.*?)\. .(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Otmena/vozvrat pokupki +2100.00 RUB po karte 8061 OAO CENTRALNAYA PPK. Dostupno 2100.07 RUB
+
+-----EXAMPLE-----
+Postuplenie zarplaty +58 724.00 RUB karta 9584. Dostupno 61 822.99 RUB
+
+-----EXAMPLE-----
+Postuplenie zarplati +136 191.00 RUB karta **2670. Dostupno 138 145.14 RUB.
+
+-----EXAMPLE-----
+Поступление зарплаты +142 105.58 RUB карта **2670. Доступно 284 233.71 RUB

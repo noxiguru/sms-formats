@@ -1,0 +1,7 @@
+^.*(\d{4})\s*proiz.*oper(?!.*ATM).*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\s+(?:Дата\W?\s*)?(\d{4}-[\d-]{5}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Uvazhaemyj klient, po vashei karte 426344**2867  proizvedena operaciya na summu 955.50 RUB, LUKOIL AZS 56079 URNP 2014-11-11 21:42:53. Dostupno 471 181.53.

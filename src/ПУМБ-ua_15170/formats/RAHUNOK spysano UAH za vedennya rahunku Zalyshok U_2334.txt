@@ -1,0 +1,7 @@
+^RAHUN.*?(\d{4}).\s+([\d.]{10}).\s+spysan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+RAHUNOK 1234567890, 28.03.2016, spysano 25.00 UAH za vedennya rahunku. Zalyshok 586.38 UAH.

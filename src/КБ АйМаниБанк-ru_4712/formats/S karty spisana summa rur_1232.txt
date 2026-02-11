@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) spisana summa (\d[\d\s.,]*) (\w{3})(?!.*(?:ostatok|dostupno)).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+S karty: *2899 spisana summa 857,1 rur ; 18.04.2014 13:00;

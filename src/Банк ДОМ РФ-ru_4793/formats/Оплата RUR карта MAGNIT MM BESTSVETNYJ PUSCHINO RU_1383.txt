@@ -1,0 +1,7 @@
+^([\d.]{8}).*Оплата ([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}) (.+) Доступно.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+17.09.14 15:59 Оплата 373.55 RUR карта 2430 MAGNIT MM BESTSVETNYJ, PUSCHINO, RUS Доступно 2 874.59 RUR

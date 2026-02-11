@@ -1,0 +1,16 @@
+^.*(?:ashback.*njoy|ve\s+deposited|деньги\s+с\s+оплат).*?([\d\s.,]*\d)\s*([A-Z]{2,3}).*\s+║\s+(.*(?:ashback|eposit|ешбэк).*)
+
+-----COLUMNS-----
+income;instrument;comment
+
+-----EXAMPLE-----
+You earned 15% cashback on your purchase through Cashback offer. Enjoy your 44,05 TL cashback reward 😃️ ║ Papara Cashback 💰️
+
+-----EXAMPLE-----
+You've deposited 3.000 TL with FAST money transfer in your account. ║ Deposit transaction
+
+-----EXAMPLE-----
+You earned instant cashback on your App Store purchase. Enjoy your 0,19 TL cashback reward 😃️ ║ Papara Cashback 💰️
+
+-----EXAMPLE-----
+Ты мгновенно зарабатываешь деньги с оплат App Store. 0,84 TL заработка уже на твоем счету 😃️ ║ Кешбэк Papara 💰️

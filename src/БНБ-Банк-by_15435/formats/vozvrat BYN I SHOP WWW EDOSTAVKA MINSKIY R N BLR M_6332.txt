@@ -1,0 +1,7 @@
+^(.ozvrat.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?);\s+MCC\s+(\d{4});\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;mcc;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+vozvrat 3.95 BYN I.-SHOP WWW.EDOSTAVKA.>MINSKIY R-N>BLR; MCC 5411; 19/09/2024; Dostupno: 438.3 BYN

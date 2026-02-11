@@ -1,0 +1,7 @@
+^Perevod s.*([\d.]{8}).*\*(\d{4})\.? sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+Perevod s karti: 10.02.16 11:28,karta 4169***1477. summa:10000.00 RUB perevedena.

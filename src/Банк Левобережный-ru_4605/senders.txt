@@ -1,0 +1,3 @@
+nskbl.ru
+ru.ftc.faktura.nskbl
+ru.ftc.faktura.multibank

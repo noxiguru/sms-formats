@@ -1,0 +1,25 @@
+^(?!.*(?:tkaz|тказ)).*?\.(\d{4}) .(?:okupka|plata|окупк|плата|NIQUE|о сч.*?плата тов|еревод \(.писан)(?!.*(?:ozvra|озвра)).*(?:umma|умма).*?([\d\s.,]*\d)\s*([A-Z]{3}) .(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (?:(?:Na vr|На вр)\w+\W?\s*[\d:]+)?\s*(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;payee;date#dMy
+
+-----EXAMPLE-----
+4.7392 Oplata tovarov/uslug Uspeshno Summa:45600 BYR Ostatok:946900 BYR Na vremya:22:10:13 BLR/MINSK/SHOP ZHIVOGO PIVA "TOCHKA 05.03.2014 22:10:06
+
+-----EXAMPLE-----
+Karta 5.4345 UNIQUE Uspeshno Summa:950.00 RUB Ostatok:18.02 BYN Na vremya:16:42:54 RUS/MOSCOW/YANDEX.MONEY 22.05.2018 16:42:54
+
+-----EXAMPLE-----
+Karta 5.4181 Oplata tovarov/uslug Uspeshno Summa:10.06 BYN Ostatok:488.96 BYN Na vremya:17:02:46 BLR/GOMEL/GARSIYA-2 SHOP (GOMEL) 20.09.2019 17:02:46
+
+-----EXAMPLE-----
+Карта 5.1223 Со счёта: BY85ALFA1234567890 Оплата товаров/услуг Успешно Сумма:8.00 BYN Остаток:26.41 BYN На время:14:08:51 BLR/MINSK/FOK BPSB 23.10.2019 14:08:50
+
+-----EXAMPLE-----
+Karta 5.8417 Oplata Uspeshno Summa:72.70 BYN Ostatok:228.16 BYN STOMATOLOGICHESKOE OTD 15.06.2022 16:02:02
+
+-----EXAMPLE-----
+Карта 4.7198 Перевод (Списание) Успешно Сумма:-3.42 BYN Остаток:12.33 BYN На время:10:50:01 LIFE:) PO N TELEFONA: 256329991 19.05.2023 10:50:01 ║
+
+-----EXAMPLE-----
+Карта 5.7918 Оплата товаров/услуг Успешно Сумма:-27.80 BYN Остаток:12.16 BYN На время:13:27:19 TAXI.YANDEX.BY 20.05.2023 13:27:18 ║

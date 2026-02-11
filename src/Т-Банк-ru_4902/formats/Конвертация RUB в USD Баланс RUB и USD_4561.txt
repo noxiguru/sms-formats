@@ -1,0 +1,7 @@
+^(Конвертация\s+([\d\s.,]*\d)\s*([A-Z]{1,3})\s+в\s+([\d\s.,]*\d)\s*([A-Z]{1,3})).*алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;outcome;syncid;op_outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Конвертация 302,958.07 RUB в 4055.66 USD. Баланс 0 RUB и 4055.66 USD

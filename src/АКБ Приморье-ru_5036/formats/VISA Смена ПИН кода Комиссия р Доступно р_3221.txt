@@ -1,0 +1,10 @@
+^.*\*(\d+)\D?\s+([\d.]{8}) [\d:]+ (Смена.*?|Perevod s.*?)(?:.омиссия|.umma)\s*([\d\s.,]*\d)([а-яa-zA-Z]{1,3}).*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VISA**15: 22.09.17 09:55 Смена ПИН-кода Комиссия30р Доступно32.98р
+
+-----EXAMPLE-----
+MC**60: 17.06.18 15:17 Perevod s karty MC**38 Summa 2000rub Dostupno 2000rub

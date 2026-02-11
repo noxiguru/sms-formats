@@ -1,0 +1,19 @@
+^Kar.*?\*(\d{4}) usp\w+ (?:\+|oper.*? \+?)([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+\s+(.*)\s+.*(?:ostu|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartka 4102***4083 uspishna operaciya +2080.00UAH 03.07.22 18:49 SEREDA OLENA, UA Balans:34713.12UAH Korysne tut: https://sense.top/info ║
+
+-----EXAMPLE-----
+Kartka 4102***0295 uspishna operaciya +170.56UAH 31.10.18 15:52 ALFA BANK AUTHOR QUER UAH, UKR Dostupno:8976.79UAH
+
+-----EXAMPLE-----
+Kartka 4102***5803 uspishna operaciya 585.76UAH 01.11.18 19:20 ALFA BANK AUTHOR QUER UAH, UKR Dostupno:8000.00UAH
+
+-----EXAMPLE-----
+Kartka 4909***1469 uspishna operaciya 20000.00UAH 21.10.20 09:51 ALFA BANK AUTHOR QUER UAH, UKR Dostupno:27532.22UAH
+
+-----EXAMPLE-----
+Kartka 4102***3864 uspishno +704.00UAH 11.01.24 16:14 P24 *Povar Volodymyr, UA Balans:4459.87UAH Limit:11000.00 Korysno: https://sense.top/INFO ║

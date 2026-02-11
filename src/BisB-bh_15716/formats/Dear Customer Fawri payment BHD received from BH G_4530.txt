@@ -1,0 +1,7 @@
+^.*ayment (\S+?)\s*([\d\s,]*\d\.\d{2})\d* receiv\w+ (from .*?) credit.*?(\d{4}) .* on (\w+ \d{1,2} \d{4}) .*
+
+-----COLUMNS-----
+instrument;income;comment;syncid;date#MMM dd yyyy
+
+-----EXAMPLE-----
+Dear Customer, Fawri+ payment BHD3.555 received from BH10GULF00039XXXXX6017 credited to BH28BIBB00100XXXXX3063 ref. 399FWRP200530058  on Feb 22 2020  1:26PM Tel:17515151

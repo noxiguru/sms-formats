@@ -1,0 +1,7 @@
+.*?(?:Karta|Карта).*?(\d{4}).*?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\d{2}:\d{2}(?::\d{2})?.*?(?:[Oo]plata|[Оо]плата)\s+\+([0-9][\d\s.,]*)\s*([A-Za-z]{1,4})\s+(.*?)\s+(?:Dostupno|[Дд]оступно)\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,4})
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 4.5294 28.12.2025 15:01:26 Oplata +1.00 BYN  YANDEX GO INTERNET BLR OK.  Dostupno 17663.75 BYN .

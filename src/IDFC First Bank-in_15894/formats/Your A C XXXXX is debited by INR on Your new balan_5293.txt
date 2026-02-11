@@ -1,0 +1,7 @@
+^.*A/C.*?(\d{4}) is deb.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*alan.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your A/C XXXXX543758 is debited by INR 220.00 on 11/05/22 17:59. Your new balance is INR 3,65,485.97. To raise a dispute, call us at 18004194332. We are now on WhatsApp! Experience everyday banking on WhatsApp now: idfcfir.st/WAEng Team IDFC FIRST Bank

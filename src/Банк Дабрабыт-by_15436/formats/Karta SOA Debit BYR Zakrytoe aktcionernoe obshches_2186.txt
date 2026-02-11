@@ -1,0 +1,22 @@
+^(?!.*tmena).*[.*](\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:OPLAT|ОПЛАТ|PREDAV|ПРЕДАВ|Debit).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+"?(?:[A-Z\d]{6,}\s+)?(.*?)"?\s+OK.*(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 4.2336 30.11.2015 12:10:22 SOA Debit -150000 BYR Zakrytoe aktcionernoe obshchestvo "MTBank" Ibank BLR OK. Dostupno 5009964 BYR
+
+-----EXAMPLE-----
+Karta 512722****7091 02/03/2018 18:19:04 OPLATA V I-NET 2.00 BYN 822000          MMB ERIP PAYMENTS>MINSK>BY               OK Dostupno 113.02 BYN
+
+-----EXAMPLE-----
+Karta 512722****4828 17/03/2018 13:37:03 PREDAVTORIZACIA E-COM 5.81 BYN 1234567890 UBER OIHOW HELP.UBER.C>Amsterdam>NLD     OK Dostupno 124.51 BYN
+
+-----EXAMPLE-----
+Карта 512722****6537 24/11/2018 14:56:16 ОПЛАТА 7.65 BYN 0024383        KAFE "KOMELEN-STIL">MINSK>BLR            OK Доступно 1219.93 BYN
+
+-----EXAMPLE-----
+Karta 512722****7091 11/01/2020 15:46:17 OPLATA 58.00 BYN 3W074700        VILTERA LLC>Minsk>BLR                    OK Dostupno 667.75 BYN
+
+-----EXAMPLE-----
+Karta 421487****8942 09/09/2021 11:13:45 OPLATA V I-NET 5.00 BYN "822000 DABRABYT ERIP PAYMENTS>MINSK>BY" OK Dostupno 869.52 BYN

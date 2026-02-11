@@ -1,0 +1,10 @@
+.*\*(\d+).* ([\d.]{8}) .*(?:писан|pisan|redavto).*(?:умм|umm).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VISA**85: 03.09.15 11:23 Списание Сумма:50.00р. Доступно:4 658.41р
+
+-----EXAMPLE-----
+VISA**11: 17.03.19 22:33 Predavtorizacija Summa 1249rub Dostupno 11180.31rub

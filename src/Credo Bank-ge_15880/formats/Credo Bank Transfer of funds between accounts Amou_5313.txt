@@ -1,0 +1,7 @@
+^(?:Credo.*?:)?\s*([Tt]ransfer.*?)\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*(?:anxa|moun).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ashti|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Credo Bank: Transfer of funds between accounts 02/05/2022 17:11; Amount: 510.38 USD; Available balance: 1330.2 USD

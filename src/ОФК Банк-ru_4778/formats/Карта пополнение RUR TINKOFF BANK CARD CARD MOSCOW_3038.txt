@@ -1,0 +1,7 @@
+^.*?(\d{4}):\s*([\d.]{8}) .*ополн.*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 0328:07.06.17 00:29, пополнение 1240.37 RUR, TINKOFF BANK CARD2CARD, MOSCOW. Доступно 200000.00 RUR.

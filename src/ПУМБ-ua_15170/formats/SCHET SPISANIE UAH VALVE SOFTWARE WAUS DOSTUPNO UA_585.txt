@@ -1,0 +1,10 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*?(?:SPISANIE|SPYSANNIA)\s+([\d\s.,]*\d)\s+([A-Z]{3})\s+([^(]*?)\s+\(DOSTUPNO\s+([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+SCHET 1111 *0338 2012-11-22 00:00:00 SPISANIE 48.79 UAH VALVE SOFTWARE 425-8899642 WAUS (DOSTUPNO 830.52 UAH)
+
+-----EXAMPLE-----
+RAKHUNOK pumb8199 *9922 2013-07-15 12:13:55 SPYSANNIA 250.00 UAH ARTEMA 145A DONETSK UA (DOSTUPNO 281.45 UAH)

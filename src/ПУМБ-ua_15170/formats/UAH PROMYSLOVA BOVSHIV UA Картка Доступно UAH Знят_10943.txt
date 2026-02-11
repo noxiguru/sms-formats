@@ -1,0 +1,7 @@
+.*?([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3}).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*?(?:Картк\w*|Kart\w*).*?\*(\d{3,4}).*?(?:Доступ\w*)\s*:\s*(-?[0-9][\d\s]*[.,]\d{2})(?=[^\d]|$)\s*([A-Za-z]{1,3}).*?Знят\w+.*?готівк\w*
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+6000.00UAH PROMYSLOVA 9 BOVSHIV UA 09-02-2026 09:17 Картка: *8908 Доступно: 167.03UAH  ║ Зняття готівки

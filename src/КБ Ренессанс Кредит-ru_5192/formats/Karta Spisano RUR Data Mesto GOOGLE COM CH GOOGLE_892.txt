@@ -1,0 +1,10 @@
+^.*?\*(\d{4}).*(?:pisan|писан).*?([\d\s.,]*\d)\s*([А-ЯA-Z]{3}).*([\d-]{10})\s+[\d:]+;?\s*(?:.esto:\s*)?(.*?);?\s+(?:.ostu|.осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;payee;av_balance
+
+-----EXAMPLE-----
+Karta: *7443; Spisano: 79.50 RUR; Data: 2013-07-08 09:38:50; Mesto: GOOGLE.COM/CH GOOGLE *Smart Tools; Dostupny Ostatok: 50 320.61 RUR. Raschetny Cash Back: .8 RUR. Podrobnee na www.rencredit.ru. Renaissance Credit.
+
+-----EXAMPLE-----
+Карта*0188 Списано 1 298.00 РУБ 2017-12-11 14:40:41 TULA OOO RIGLA Доступно 1 266.48 РУБ Расчетный Кэш Бэк 2.98 РУБ КБ"Ренессанс Кредит"(ООО)

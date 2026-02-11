@@ -1,0 +1,2 @@
+minb
+ru.minbank.android

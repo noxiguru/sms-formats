@@ -1,0 +1,7 @@
+^Pokup.*?\*(\d{4}).*? ([\d.]{8}) .*?umm.*?([\d\s.,]*\d)\s*([a-zA-Z]{3})\s+(.+?)\s+Odob.*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee
+
+-----EXAMPLE-----
+Pokupka Karta *0996 Vremja 16:28:37 09.07.16 Summa 364.00 rub GALAMART 2,MAGNITOGORSK,,Russia Odobreno

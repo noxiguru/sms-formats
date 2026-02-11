@@ -1,0 +1,13 @@
+^Vydacha n.*?\s+([1-9]\d{0,2}(?:\s*\d{3})*[.,]\d{2})\s*([A-Z]{3}) .*?(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Vydacha nalichnyh: ENTUZIASTOV 35 000.00 RUR Card **7393 ANTON DANILOV BAL: 20 438.68 2015-06-28 16:00:40
+
+-----EXAMPLE-----
+Vydacha nalichnyh: 42 VOLGOGRADSKIY PR-T BLD 1 400.00 RUR Card **2359 ANTON LARCHENKOV BAL: 26.00 2017-08-14 18:15:03
+
+-----EXAMPLE-----
+Vydacha nalichnyh: AKADEMIKA SILINA,3 31 700.00 RUR Card **6618 ALEKSANDR POLYANSKIY BAL: 133.98 2018-09-13 17:13:34

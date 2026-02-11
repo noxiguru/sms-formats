@@ -1,0 +1,7 @@
+^.*harge of\s+([A-Z]{3})\s*([\d\s.,]*\d).*ard.*?(\d{4})\s+at\s+(.*?)\s+on\s+([\d/]{10}).*
+
+-----COLUMNS-----
+instrument;income;syncid;payee;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+A charge of INR 228.00 has been initiated on your American Express Card No. ***11005 at BD EZECLICK TTSL PG on 06/10/2016 at 10:03AM IST.

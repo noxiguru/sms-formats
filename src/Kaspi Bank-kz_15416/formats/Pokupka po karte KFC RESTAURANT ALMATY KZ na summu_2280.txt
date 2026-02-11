@@ -1,0 +1,7 @@
+^Pokupk.*?\*(\d{4}):.*([\d-]{10})[\s\d:]+(.*)\s+na sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Pokupka po karte *9789: 2016-03-11 15:58  KFC RESTAURANT>ALMATY KZ na summu 1350.00 KZT. Dostupno 75607.57 KZT.

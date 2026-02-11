@@ -1,0 +1,7 @@
+^.*(\d{4})\s+proiz.*oper.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ATM.*(\d{4}-[\d-]{5}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Po vashei karte ***3323 proizvedena operaciya na summu 10000,00 KZT, ATM 504 TSHO #3 2018-10-04 09:11:43. Dostupno 12345,55. Otkryvaite depozity za paru minut v Sberbank Online!

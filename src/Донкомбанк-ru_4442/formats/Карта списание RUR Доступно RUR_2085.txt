@@ -1,0 +1,7 @@
+^.*(\d{4}):\s+([\d.]{10}).*писание.*?([\d\s.,]*\d)\s*([A-Z]{3}).\s*Досту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 0407: 30.10.2015, списание 40.00 RUR. Доступно 30.72 RUR.

@@ -1,0 +1,7 @@
+^(?!.*[Aa]vail)([A-Z]{3}|\W)\s*([\d\s.,]*\d) is char.*(?:nding |X)(\d{4}) from (.*?) on (\d{2}/\d{2}/?\d{0,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+AED 52.10 is charged on your ELITE Debit card 522968XXXXXX9007 from ICP Smart Services on 04/10.

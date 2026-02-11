@@ -1,0 +1,13 @@
+^.*?\.(\d{4})\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:SOA Credit|zmenenie ost.*?|cceptance) \+([\d\s.,]*\d)\s*([A-Z]{3}).*OK.\s*Dost.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 5.7068 14.08.2015 11:27:47 SOA Credit +6639702 BYR OK. Dostupno 6666842 BYR
+
+-----EXAMPLE-----
+Karta 4.0887 01.09.2015 08:21:48 Izmenenie ostatka Payment to Contract +2493 BYR OK. Dostupno 32451 BYR
+
+-----EXAMPLE-----
+Karta 4.6338 20.11.2023 08:35:18 Note Acceptance +50.00 BYN CRMBVB HO112 RKC MOMO MINSK BLR OK. Dostupno 52.73 BYN

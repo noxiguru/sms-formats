@@ -1,0 +1,10 @@
+^\d{4}-(\d{4}).*?(?:opovn|оповн).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{2}[-./]\d{2}[-./]?\d{0,4})\s.*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+5168-3188 - Popovnennia  1000 UAH(VOSTOK POPOLNENIE) Dostupno 1331.49 UAH 18/11 19:12
+
+-----EXAMPLE-----
+5235-7411 –  Поповнення 2000.00 UAH Доступно 2743.06 UAH 02.12 23:25

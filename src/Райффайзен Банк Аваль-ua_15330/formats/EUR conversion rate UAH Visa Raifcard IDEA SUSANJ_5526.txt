@@ -1,0 +1,13 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) \(?((?:conver|kurs).*?)\)? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4})(?: splat.*?)?\. (.*?)\..*(?:alan|alysh).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;date#dMy;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+21.16 EUR conversion rate 39.1966UAH 19.11.22 21:01 Visa Raifcard +*5251. IDEA SUSANJ KASA 2. Approximate balance:10226.29UAH.
+
+-----EXAMPLE-----
+20.00 USD kurs 38.8345UAH 10.03.24 15:37 Mastercard Platinum*8032. CHATGPT SUBSCRIPTION. Orientovnyi zalyshok:58023.60UAH.
+
+-----EXAMPLE-----
+9.99 EUR (kurs 44.7688) UAH 30.11.24 05:18Visa Signature *8549 splata za tovar/poslugu. NETFLIX INTERNATIONAL B.V. Orientovnyi zalyshok:22709.76UAH.

@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*(POVERN.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*KOMIS.*?([\d\s.,]*\d).*DOST.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}\s+(.*?)\s+.etali.*?
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;comment;income;instrument;fee;av_balance;payee
+
+-----EXAMPLE-----
+*3927 2018-12-25 00:22 POVERNENNIA 6.00UAH KOMISIIA 0.00 DOSTUPNO 3288.27UAH GERC UTILITIES ODESSA UA Detali pumb.ua/ib

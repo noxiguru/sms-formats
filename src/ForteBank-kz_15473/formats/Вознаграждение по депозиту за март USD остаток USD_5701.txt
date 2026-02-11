@@ -1,0 +1,7 @@
+^(Вознаграж.*?\*(\d{4})\s+за.*?):\s+([\d\s.,]*\d)\s*([A-Z]{3}),\s+.стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Вознаграждение по депозиту *1234 за март: 1.35 USD, остаток 10.38 USD ║

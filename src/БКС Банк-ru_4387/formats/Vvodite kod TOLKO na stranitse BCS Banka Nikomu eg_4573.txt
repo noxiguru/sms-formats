@@ -1,0 +1,7 @@
+^.*Kod podtver.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Vvodite kod TOLKO na stranitse BCS Banka! Nikomu ego ne soobshayte! Kod podtverzhdeniya: 1234. Operatsiya na summu 75000.00 RUB v HCFB.

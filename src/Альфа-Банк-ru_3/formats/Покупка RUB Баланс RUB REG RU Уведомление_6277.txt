@@ -1,0 +1,7 @@
+^\*+(\d{4})\s+.окупка\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+.алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+║\s+.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+**3223 Покупка 21 407 RUB Баланс 176 610,55 RUB REG.RU ║ Уведомление

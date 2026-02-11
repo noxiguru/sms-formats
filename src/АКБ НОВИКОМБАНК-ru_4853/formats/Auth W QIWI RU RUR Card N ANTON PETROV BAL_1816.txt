@@ -1,0 +1,10 @@
+^(?:Oplata|Auth):\s*(\S+?)\s+(?:-\s+)?([\d\s.,]*\d)\s*([A-Z]{3}) Card.*?\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth:W.QIWI.RU - 1 007.50 RUR Card¿N**4024 ANTON PETROV BAL: 9 682.50 2014-05-12 14:41:03
+
+-----EXAMPLE-----
+Oplata: ROBOKASSA 449.00 RUR Card **0377 ANTON DANILOV BAL: 2 513.06 2015-06-10 09:29:48

@@ -1,0 +1,7 @@
+^Perev.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Perevod: 53150,00 KZT Karta: ***2588 Dostupno: 49903,84 KZT

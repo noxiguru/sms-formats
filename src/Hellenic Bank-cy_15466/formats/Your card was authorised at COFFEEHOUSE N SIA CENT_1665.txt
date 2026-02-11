@@ -1,0 +1,22 @@
+^.*?(\d{4})\s.*authorised\s+at\s+(.*?)\s+(?:@\d{1,2}:\d{2}\s+)?for\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s*(?:\(.*)?\@?(?:\d{2}:\d{2})?$
+
+-----COLUMNS-----
+syncid;payee;instrument;outcome
+
+-----EXAMPLE-----
+Your card*6270 was authorised at COFFEEHOUSE N/SIA CENTRA for €8,20 @09:01
+
+-----EXAMPLE-----
+Your card *1314 was authorised at GRAND CANDY 4            for EUR 1,39 (approx. due to FX-rate)   10:26
+
+-----EXAMPLE-----
+Your card *1314 was authorised at Google Payment IE LTD for €2,09 07:36
+
+-----EXAMPLE-----
+Your card *2896 was authorised at TIGER STORES CYPRUS for €30,50
+
+-----EXAMPLE-----
+Card *3016 was authorised at Kindle Svcs @20:58 for EUR 5,49 (approx. due to FX-rate), which includes 3.13% mark-up over ECB euro FX reference rates.
+
+-----EXAMPLE-----
+Your card *1314 was authorised at MMS 10 for €11,25 07:31

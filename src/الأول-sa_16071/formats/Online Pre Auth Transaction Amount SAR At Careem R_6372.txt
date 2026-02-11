@@ -1,0 +1,7 @@
+^Online\s+Pre-Auth\s+Tran.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Online Pre-Auth Transaction Amount: SAR 39.75 At: Careem××Riyadh× By: mada ***5581 Account: 001 Date: 2024-10-02 11:06:13

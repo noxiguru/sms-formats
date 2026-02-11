@@ -1,0 +1,7 @@
+^Снят.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*\*(\d{2,4}).*алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Снятие 80000р Карта **82 D. 2, B-R AD Баланс 45596.97р 18:05

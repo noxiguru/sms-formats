@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) z rakh.*?\d*(\d{4})\s*\(([A-Z]{3})\) .erekaz.*?([\d\s.,]*\d)\s*([A-Z]{3}) (na .*?)\..*
+
+-----COLUMNS-----
+date#dMy;syncid;acc_instrument;outcome;instrument;comment
+
+-----EXAMPLE-----
+26.10.21 z rakhunku 0845553200(UAH) perekazano 1879.63 UAH na pogashennya platezhu za kredytnoyu kartkoyu. Perevirka balansu ONLINE: http://bit.ly/2MlgJNI

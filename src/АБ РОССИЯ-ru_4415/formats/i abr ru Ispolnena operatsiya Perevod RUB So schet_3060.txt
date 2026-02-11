@@ -1,0 +1,11 @@
+^.*(?:polnen.*?oper|полнен.*?опер).*?(?:еревод|erevod)([\d\s.,]*\d)\s*([А-ЯA-Z]{3})\s+(?:Со|So).*?\*\d*(\d{4})\s+(Na .*?\d+).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;comment
+
+-----EXAMPLE-----
+i.abr.ru
+Ispolnena operatsiya
+Perevod 40000.00 RUB
+So scheta 40817***07018
+Na schet 40817***27921

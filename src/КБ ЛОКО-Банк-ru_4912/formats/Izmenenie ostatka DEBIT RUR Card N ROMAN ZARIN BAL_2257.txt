@@ -1,0 +1,7 @@
+^.*DEBIT([\d\s.,]*\d)\s*([A-Z]{3}).*ard.*?(\d{4}).*BAL.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: DEBIT 50.00RUR Card_N**9091 ROMAN ZARIN BAL:8 170.86RUR 2015-03-02 00:00:00

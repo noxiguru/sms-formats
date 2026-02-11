@@ -1,0 +1,7 @@
+^.*payment for\s+(.*?)\s+bill.*?acc.*?(\d{4}) for ([a-zA-Z]{2,3})\s*([\d\s.,]*\d).*uccess.*
+
+-----COLUMNS-----
+payee;syncid;instrument;outcome
+
+-----EXAMPLE-----
+Your payment for Airtel Mobile Karnataka bill - account  9620142224 for Rs 586.89 has been processed successfully.

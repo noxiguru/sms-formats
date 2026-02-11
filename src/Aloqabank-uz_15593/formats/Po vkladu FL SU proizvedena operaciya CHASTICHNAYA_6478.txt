@@ -1,0 +1,7 @@
+^Po\s+vkla.*?(\d{4})\s+proizved.*?perac\w+\s+(.*?)\s+na\s+sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*ata.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Po vkladu FL.SU.24-26894 proizvedena operaciya CHASTICHNAYA VYPLATA VKLADA na summu 1000000 UZS. Ostatok vklada 108468000 UZS. Data 21.01.2025

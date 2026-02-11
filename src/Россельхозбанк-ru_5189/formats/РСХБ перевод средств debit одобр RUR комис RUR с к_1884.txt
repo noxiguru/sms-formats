@@ -1,0 +1,10 @@
+^.*?([\d/]{5}).*?(?:перевод.*?одоб|perevod.*?odob).*?\.?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:комис|komis).\s*([\d\s.,]*\d).*(?:с карт|s kart).*?\*(\d{4}).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;fee;syncid
+
+-----EXAMPLE-----
+РСХБ,09/07 08:44:11 перевод средств (debit) одобр.: 1,500.00RUR комис. 50.00RUR с карты *2797 на карту *4603 RSHB INTERNET OFFICE MOSCOW RU
+
+-----EXAMPLE-----
+RSHB 29/03 13:03:12 perevod sredstv (debit) odobr. 5,000.00 RUR komis. 75.00 RUR s karty *2215 na kartu *2098 TRANSFER, APT 1202 GROZNIY RU

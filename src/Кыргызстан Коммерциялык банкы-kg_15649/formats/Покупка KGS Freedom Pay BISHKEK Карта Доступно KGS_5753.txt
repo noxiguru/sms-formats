@@ -1,0 +1,7 @@
+^Покуп.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?) .арт.*?\*(\d{4}) .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка: 216 KGS  Freedom Pay, BISHKEK Карта: *5483 Доступно: 71,56 KGS ║

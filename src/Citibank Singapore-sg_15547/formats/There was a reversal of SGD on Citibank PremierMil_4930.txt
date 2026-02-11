@@ -1,0 +1,7 @@
+^.*(a reversal) of ([A-Z]{3}|\W)\s*([\d\s.,]*\d).*nding (\d{4}) by (.*) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;instrument;income;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+There was a reversal of SGD20.00 on Citibank PremierMiles Card ending 6981 by Cabcharge Asia Pte Ltd   SINGAPORE    SG on 15/01/21. View balance at www.citibank.com.sg/MOB

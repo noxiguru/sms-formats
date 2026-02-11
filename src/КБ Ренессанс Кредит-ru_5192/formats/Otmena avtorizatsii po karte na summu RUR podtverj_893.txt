@@ -1,0 +1,7 @@
+^Otmena avt.*?\*(\d{4}) na summu ([\d\s.,]*\d) ([A-Z]{3}) podtverjdena.*
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Otmena avtorizatsii po karte: 5209***7443 na summu 79.50 RUR podtverjdena. Renaissance Credit.

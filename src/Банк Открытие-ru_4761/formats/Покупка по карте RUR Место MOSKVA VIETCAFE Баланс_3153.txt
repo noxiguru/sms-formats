@@ -1,0 +1,13 @@
+^.(?:окупк|писан|okup|pisan).*\*(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*(?:есто|esto)\s+(.*?),?\s+([\d.]{8}) .*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Покупка по карте: *5708 700.00 RUR Место MOSKVA VIETCAFE 18.08.17 14:32 Баланс: 109 450.37 RUR online.binbank.ru
+
+-----EXAMPLE-----
+Списание с карты *9009 7 000.00 RUR Место Moscow Bolshoy Savvinskiy per., 22.08.17 22:41 Баланс: 49 743.58 RUR online.binbank.ru
+
+-----EXAMPLE-----
+Pokupka po karte: *4406 50.00 RUR Mesto KRASNOYARSK ROZA 28.12.17 04:43 Balans: 19491.43 RUR i.binbank.ru

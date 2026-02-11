@@ -1,0 +1,7 @@
+^Succes\w+ .ayment of (?!.* on \d{1,2} )([A-Z]{2,3}|\W)\s*([\d\s.,]*\d) to (.*?)\..*(Scan) & Pay.*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+Successful payment of RM 94.00 to JAIPUR CURRY HOUSE. REF: 767276173Q. ║ Maybank2u: Scan & Pay

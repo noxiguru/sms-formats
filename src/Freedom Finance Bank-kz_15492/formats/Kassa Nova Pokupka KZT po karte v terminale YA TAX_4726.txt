@@ -1,0 +1,13 @@
+^.*\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]+\s+.(?:okupk|latez|vtoriz).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+po\s+.*?\*(\d{4})\s+v\s+term\w+\s+(.*?),?\s+.stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kassa Nova 24.05.20 15:06 Pokupka 1060.00 KZT po karte 5504***8156 v terminale YA.TAXI, KZ, ostatok 520964.30 KZT.
+
+-----EXAMPLE-----
+Kassa Nova 11.06.20 15:30 Platezh 3650.00 KZT po karte 5504***8156 v terminale MyKassa, KZ, ostatok 546684.96 KZT.
+
+-----EXAMPLE-----
+BANKFFIN 03.03.22 08:02 Avtorizatsiya 2100.00 KZT po karte 5269***8483 v terminale STARBUCKS COFFEE HOUSE, KZ, ostatok po karte 96706.90 KZT.

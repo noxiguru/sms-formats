@@ -1,0 +1,7 @@
+^ZACHIS.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;syncid
+
+-----EXAMPLE-----
+ZACHISLENIE 350.00 BYN KARTA #3323

@@ -1,0 +1,7 @@
+^(Reversal.*?):\s+-([\d\s.,]*\d)\s*([A-Z]{3})\s+for\s+acc.*?\d*(\d{4}).*from:\s+(.*?)\s+POS\s+Date.*vail.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Reversal: -11,00 EUR for account: 540-1234567890-65 from: autor. kartice POS Date: 13.05.2024 Available: 277,53 EUR Details: T3020075 GOURMETICA

@@ -1,0 +1,16 @@
+^(?!Выписка).*(?:ikomu|икому|budet\s+vyp|будет\s+вып|Otkaz|Отказ|платить\s+до|Вам\s+будет).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Nikomu ne govorite etot kod! SMS-kod: 2644 Operatsiya: platezh perevod na summu 150.00 RUB. mobil'niy bank
+
+-----EXAMPLE-----
+Zavtra budet vypolnena regulyarnaya operatsiya: Perevod sebe, 100 RUB www.tinkoff.ru
+
+-----EXAMPLE-----
+Карта *5279. Платеж 700 руб. Оплатить до 12.09
+
+-----EXAMPLE-----
+Вам будет начислено 123 рубля за бронирование отелей на travel.tinkoff.ru в декабре 2019 года. ║ Тинькофф

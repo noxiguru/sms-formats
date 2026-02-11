@@ -1,0 +1,10 @@
+^(Отмена)\W? (\d{2}[-./]\d{2}|)\D.*\*(\d{4}).*окуп.*?-?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? (.*?)\..*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;date#dM;syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Отмена: 19.04 14:39. Карта *6893 покупка -3006.01 р. LEROYMERLIN_004. Доступно 602980.61 р. otpbank.ru/tr
+
+-----EXAMPLE-----
+Отмена: Карта *4717 покупка 731.94р. PYATEROCHKA 14473. Доступно 14283.93р. otpbank.ru/tr

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*nyatie n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+SMS: 4192***1587 Snyatie nalichnix 20.00 AZN CSH BANK SW 1 BAKU AZE 2017-07-31 13:51:09 Balans: 259.17 AZN

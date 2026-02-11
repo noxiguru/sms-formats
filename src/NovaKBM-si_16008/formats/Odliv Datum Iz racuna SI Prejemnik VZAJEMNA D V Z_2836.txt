@@ -1,0 +1,7 @@
+^Odliv.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*jemnik:\s*(.*)\s+Namen: (?:.*?;\s*)?(.*) Znesek.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;payee;comment;outcome;instrument
+
+-----EXAMPLE-----
+Odliv Datum: 30.01.2023 Iz racuna: SI56***********5870 Prejemnik: VZAJEMNA D.V.Z. Namen: VZAJEMNA D.V.Z.;PLAČILO OBVEZNOSTI ŠT. 4062567823 Znesek:35,94 EUR Nova KBM d.d.

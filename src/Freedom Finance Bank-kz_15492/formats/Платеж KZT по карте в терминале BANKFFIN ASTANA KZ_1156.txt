@@ -1,0 +1,7 @@
+^(?:Plate|Платеж).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Платеж 100.00 KZT, по карте 5269********8264 в терминале BANKFFIN,ASTANA KZ 29.04.23 17:24:28 остаток по карте 32 140.85 KZT ║ BANKFFIN

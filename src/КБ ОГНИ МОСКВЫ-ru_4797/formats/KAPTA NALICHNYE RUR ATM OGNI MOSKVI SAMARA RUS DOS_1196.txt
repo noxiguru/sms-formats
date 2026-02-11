@@ -1,0 +1,7 @@
+^([\d.]{8}).*?(\d{4}) NALICHNYE\s+([\d\s.,]*\d) ([A-Z]{3}).*DOSTUPNO (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+10.03.14 09:12:54 KAPTA 6776*1925 NALICHNYE   300 RUR ATM 1031 OGNI MOSKVI SAMARA RUS / DOSTUPNO 1288,02 RUR

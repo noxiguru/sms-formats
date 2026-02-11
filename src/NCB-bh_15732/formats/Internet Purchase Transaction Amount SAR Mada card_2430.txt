@@ -1,0 +1,10 @@
+^.*(?:urchase|URCHASE).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* on (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy
+
+-----EXAMPLE-----
+Internet Purchase Transaction Amount 241.93 SAR Mada card *3275 Account 111*303 From Nahdi on 02/05/2021 at 05:41
+
+-----EXAMPLE-----
+POS PURCHASE (MADA PAY) Amount 42 SAR Mada card *3275 Account 111*303 From LETO CAFE on 19/04/2021 at 17:54

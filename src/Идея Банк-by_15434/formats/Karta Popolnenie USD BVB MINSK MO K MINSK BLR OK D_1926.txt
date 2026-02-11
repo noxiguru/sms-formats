@@ -1,0 +1,7 @@
+^.*(\d{4})\s+([\d.]{10}).*(?:opoln|ayment).*?\+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\s+OK.\s*Dost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Karta 4.6658 06.08.2015 15:49:32 Popolnenie +3500 USD BVB MINSK MO2 K2 MINSK BLR OK. Dostupno 3500 USD

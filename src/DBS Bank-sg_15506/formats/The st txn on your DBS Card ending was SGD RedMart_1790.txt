@@ -1,0 +1,7 @@
+^.*1st txn.*(\d{4}) was ([A-Z]{3})\s*([\d\s.,]*\d).\s*(.*)\s+on\s+(\d{2}\s+\S{3}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd MMM
+
+-----EXAMPLE-----
+The 1st txn on your DBS Card ending 8758 was SGD87.55, RedMart                62612284      SGP on 31 MAY 02:35 SG time. If you did not use the card, pls call +65 63396963.

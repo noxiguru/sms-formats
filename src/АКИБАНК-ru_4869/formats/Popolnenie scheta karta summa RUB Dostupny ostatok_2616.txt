@@ -1,0 +1,10 @@
+^(?:Popoln|Perevod na).*? ([\d.]{8}) .*?\*(\d{4}).*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Popolnenie scheta: 05.09.16 17:34, karta ***8137. summa:12006.00 RUB. Dostupny ostatok:12679.65 RUB.
+
+-----EXAMPLE-----
+Perevod na kartu: 03.02.18 10:35, karta ***4435. Summa:32.54 RUB. Dostupny ostatok:50.00 RUB.

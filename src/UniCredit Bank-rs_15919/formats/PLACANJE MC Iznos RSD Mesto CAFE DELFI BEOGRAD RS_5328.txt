@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*znos ([\d\s.,]*\d)\s*([A-Z]{3}) .esto (.*?) .aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+16/07/2022 21:13:16 PLACANJE MC **4882 Iznos 380,00 RSD Mesto CAFE DELFI, BEOGRAD, RS Raspolozivo 8910,00RSD Kontakt centar 0113777888

@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ na .*?(\d{4}) .achis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+14.12.20 14:20 na schet BY40BLNB1234567890 zachisleno 4 000 BYN. Ostatok 1 861.29 BYN. Dokument N11298.

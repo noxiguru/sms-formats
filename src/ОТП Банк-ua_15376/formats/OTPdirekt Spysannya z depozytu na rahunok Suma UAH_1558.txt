@@ -1,0 +1,7 @@
+^.*?([\d.]{10}).*?Spysannya z.*na.*?(\d{4}). Suma: ([\d\s.,]*\d) ([A-Z]{3}) Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+OTPdirekt:27.01.2015 14:00: Spysannya z depozytu na rahunok: 1234567890. Suma: 1000,00 UAH Balans rahunku: 1000,00 UAH

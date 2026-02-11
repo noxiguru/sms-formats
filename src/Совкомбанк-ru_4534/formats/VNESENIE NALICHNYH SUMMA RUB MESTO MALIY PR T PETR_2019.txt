@@ -1,0 +1,7 @@
+^([\d.]{8}).*?VNESENIE N.*?([\d\s.,]*\d)\s*([A-Z]{3}).*CARD.*?\*(\d{4})(?!.*BALANCE).*
+
+-----COLUMNS-----
+date#dd.MM.yy;income;instrument;syncid#cash
+
+-----EXAMPLE-----
+13.10.15 20:20 VNESENIE NALICHNYH SUMMA 6 000.00 RUB MESTO MALIY PR-T PETR-KOY STOR>, ST. PETERSBUR, RUS CARD *3540 DMITRII TCYGANOV

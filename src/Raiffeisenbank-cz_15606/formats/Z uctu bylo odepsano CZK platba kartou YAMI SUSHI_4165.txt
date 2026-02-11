@@ -1,0 +1,7 @@
+^.*Z .*?(\d{4}) bylo ([\d.]{5}).*-([\d\s.,]*\d)\s*([A-Z]{3}) \(.latba .*?,\s+(.*?)[;)].*ispon.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;outcome;instrument;payee;balance
+
+-----EXAMPLE-----
+Z uctu 3747170001 bylo 01.05. odepsano -1.628,00 CZK (platba kartou, YAMI SUSHI HOUSE; PR). Disponibilni zustatek +183.012,72 CZK

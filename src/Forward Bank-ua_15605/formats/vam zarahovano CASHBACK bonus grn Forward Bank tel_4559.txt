@@ -1,0 +1,7 @@
+^(\d{2}[./]\d{2}[./]\d{2,4}).*arahov\w+\s*(.*?) ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+date#dMy;comment;income;instrument
+
+-----EXAMPLE-----
+10.03.2020, vam zarahovano CASHBACK - bonus 30.41grn. Forward Bank, tel. 0800300880

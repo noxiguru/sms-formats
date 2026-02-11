@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d.]{8}) .*(OTMEN.*?)([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;comment;income;instrument;payee
+
+-----EXAMPLE-----
+KARTA 4*7683 13.01.19 18:19 OTMENA SPISANIE 0.05 BYN YANDEX.TAXI (AMSTERDAM,NL)

@@ -1,0 +1,7 @@
+^([\d.]{8}) .*\*(\d{4}) PEREVOD.*?([\d\s.,]*\d)\s*([A-Z]{3})\s*/\s*DOSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+26.12.16 10:06:37 KAPTA 5570*8509 PEREVOD NA SCHET 6000 RUR/ DOSTUPNO 6071,22 RUR

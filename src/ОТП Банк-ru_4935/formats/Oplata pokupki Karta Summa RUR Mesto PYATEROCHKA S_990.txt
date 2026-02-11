@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]?\d{0,4}) [\d:]+ (?:Oplat|Sp[iy]san).*\*(\d{4}).*[Ss]um.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Mesto:\s*(.*?)\.?\s+.ostu.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+29.09 12:53 Oplata pokupki. Karta *1273. Summa: -286.00 RUR. Mesto: PYATEROCHKA SANKT-PETERBU. Dostupno: 49063.09 RUR. OTP Bank
+
+-----EXAMPLE-----
+02.10 20:25 Spisanie sredstv. Karta *1273. Summa: -29.90 RUR. Mesto: POLUSHKA SANKT-PETERBU. Dostupno: 48322.26 RUR. OTP Bank

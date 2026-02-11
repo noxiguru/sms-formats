@@ -1,0 +1,10 @@
+^.*urašyt.*?(\d{4}) .*?/([\d\s.,]*\d)\s*([A-Z]{3})\s*/\s*([\d.]{10})\s*/\s*.*?ikut.*?(-?[\d\s.,]*\d)\s*/\s*(.*?)\s*(?:.nformac|\([\d\s]+\)).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy.MM.dd;av_balance;payee
+
+-----EXAMPLE-----
+Nurašyta BS6628 (ML8100)/7.00 EUR/2017.11.09/Likutis 582.90/REPUBLIC NO2 VILNIAUS    KAUNAS       LT Informacija 1528 - visą parą.
+
+-----EXAMPLE-----
+Nurašyta BS6628 (ML8100)/99.00 EUR/2018.07.04/Likutis 130.56/BICIULIU AVILYS VILNIA   KAUNAS       LT (8 5) 268 2800 - visą parą.

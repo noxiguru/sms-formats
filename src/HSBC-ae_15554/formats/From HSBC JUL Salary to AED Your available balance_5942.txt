@@ -1,0 +1,7 @@
+^.*\s+(\d{1,2}\w{3}\d{2,4})\s+(Salar.*?)\s+to\s+(\S+)\s+([A-Z]{3})\s*([\d\s.,]*\d)\+.*?vail.*?([A-Z]{3}|)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;comment;syncid;instrument;income;acc_instrument;av_balance
+
+-----EXAMPLE-----
+From HSBC: 28JUL23 Salary to 041-457***-001 AED 8,326.20+ Your available balance is AED 10,511.04

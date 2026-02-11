@@ -1,0 +1,10 @@
+^(?:Perevod|Перевод).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:art|chet|арт|ч[её]т).*?(\d{4})\s+(?:(?:po\s+SBP\s+v\s+adre|по\s+СБП\s+в\s+адр)\w+\s+)(.*?)\s+(?:(?:uspes|успеш).*?)?.(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Перевод 1 500.00 RUB со счета **3503 по СБП в адрес РОМАН ГЕННАДИЕВИЧ Б. успешно. Доступно 16 051.67 RUB.
+
+-----EXAMPLE-----
+Perevod 10 000.00 RUB so scheta **1598 po SBP v adres BORIS LEONIDOVICh S. uspeshno. Dostupno 51 646.62 RUB

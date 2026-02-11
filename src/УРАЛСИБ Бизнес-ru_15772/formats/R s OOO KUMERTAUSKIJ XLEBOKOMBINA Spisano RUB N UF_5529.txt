@@ -1,0 +1,7 @@
+^R/s (\d{4})\W? .* (\d{2}[-./]\d{2}[-./]\d{2,4}).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}) (N \d.*?)\.\s+(.*)\s+Ost.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;comment;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+R/s 0819 OOO "KUMERTAUSKIJ XLEBOKOMBINA 22.11.2022 14:59. Spisano 1032.00 RUB N 397. UFK po Respublike Bashkortostan (Mezhrajonnaya IFNS Ross Ost -8284.50 RUB

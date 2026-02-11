@@ -1,0 +1,7 @@
+^.*?(\d{4}).\s*(Spis.*?)\s+\-([\d\s.,]*\d)\s*([A-Z]{3}).\s*([\d-]{10}).*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *5304. Spisanie ezhemesyachnoj komissii za SMS Informirovanie -49,00 RUR.2015-09-08 21:35:43. Dostupno 25167,38RUR

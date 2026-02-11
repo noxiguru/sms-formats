@@ -1,0 +1,7 @@
+^ZACHISL.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*([\d.]{10}) .* OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ZACHISLENIE 1490.00 BYN KARTA #5591 DATA 09.01.2020 18:10:56 OSTATOK 1511.45 BYN

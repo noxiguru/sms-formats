@@ -1,0 +1,10 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3}).*?\.\.(\d{4}) - (.*?)\s+([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;comment;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
++46 377.34 RUR - Schet 40817810..2033 - Z/P ZA MAJ PO P/P 599 GES   2017-06-09 00:00:00. Dostupno 46 383.91
+
+-----EXAMPLE-----
++897.97 RUR - Karta 4..6610 - VISA MONEY TRANSFER Visa Direct RUS 2018-05-16 15:19:56. Dostupno 5 996.71

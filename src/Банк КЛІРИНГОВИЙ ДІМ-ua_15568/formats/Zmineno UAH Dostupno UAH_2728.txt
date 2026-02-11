@@ -1,0 +1,10 @@
+^\*(\d{4})\s+([\d.]{5}).*(?:mineno|zmeneno):?\s+\+([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;income;instrument;av_balance
+
+-----EXAMPLE-----
+*8342 10.11 11:39:14 Zmineno: +2615.40UAH Dostupno: +2695.49UAH
+
+-----EXAMPLE-----
+*8536 19.07 11:50:41 Izmeneno: +14360.50UAH Dostupno: +14377.33UAH

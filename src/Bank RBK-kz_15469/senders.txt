@@ -1,0 +1,3 @@
+bankrbk
+com.alseda.rbkbank
+kz.rbk.individual

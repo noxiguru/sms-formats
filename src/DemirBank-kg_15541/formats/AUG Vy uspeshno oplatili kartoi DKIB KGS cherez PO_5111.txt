@@ -1,0 +1,10 @@
+^([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) .*art\w+ ([A-Z]+) ([\d\s.,]*\d)\s*([A-Z]{3}).* v (.*?)\W? Vash.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+24-AUG-21 Vy uspeshno oplatili kartoi DKIB 1,683.66 KGS cherez POS terminal v GLOBUS 25 BALYKCHY BALYKCHY KG. Vash balans sostavlyaet 9,382.80 KGS 1234567890, 2222
+
+-----EXAMPLE-----
+30-AUG-21 Vy uspeshno oplatili kartoi DKIB 112.00 KGS v Yandex.Taxi Amsterdam NL Vash balans sostavlyaet 1,244.47 KGS 1234567890, 2222

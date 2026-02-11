@@ -1,0 +1,7 @@
+^.*?redit\s+([\d.]{8}).*?\*(\d{4})\s.*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Telebank P2P Credit 27.05.15 23:02 4301****1945 Na kartu: 4301****1945 Summa: 1300.00 RUB Ostatok: 1300.42 RUB

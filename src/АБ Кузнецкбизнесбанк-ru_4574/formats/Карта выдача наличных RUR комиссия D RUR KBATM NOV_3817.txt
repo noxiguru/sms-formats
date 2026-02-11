@@ -1,0 +1,7 @@
+^.*\*(\d{4}).* ([\d.]{10}) .*ыдача н.*?([\d\s.,]*\d)\s*([A-Z]{3}).*омис.*?([\d\s.,]*\d).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Карта *8094: 27.07.2018 13:46, выдача наличных 5000.00 RUR. комиссия D0.00 RUR. KBATM012345, NOVOKUZNETSK, 23, OKTYBRSKIY PR-KT. Доступно 109.84 RUR.

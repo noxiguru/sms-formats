@@ -1,0 +1,7 @@
+^([\d.]{10}).*yplata k.*?([\d\s.,]*\d)\s*([A-Z]{3}) iz.*?(\d{4})\s*$
+
+-----COLUMNS-----
+date#dd.MM.yyyy;outcome;instrument;syncid
+
+-----EXAMPLE-----
+16.04.2018 12:23:15 vyplata koshtiv  10000.00 UAH iz vkladu 1234567890

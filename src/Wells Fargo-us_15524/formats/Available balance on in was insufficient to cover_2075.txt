@@ -1,0 +1,7 @@
+^.*insufficient\s+to\s+cover.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Available balance on 08/19/2021 in 6121 was insufficient to cover transactions. ║ Wells Fargo

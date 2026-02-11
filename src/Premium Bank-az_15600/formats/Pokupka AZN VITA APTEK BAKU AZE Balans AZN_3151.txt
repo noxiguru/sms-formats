@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*(?:okupk|lish|etail).*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\s+([\d-]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+4192***1587 Pokupka 16.02 AZN VITA APTEK 5 BAKU AZE 2017-08-01 19:53:06 Balans: 179.50 AZN
+
+-----EXAMPLE-----
+5579***1793 Alish 10.72 AZN R1051977BRAVO SUPERMARKET BAKI   AZ AZE 2018-11-25 13:12:32 Balans: 453.42 AZN
+
+-----EXAMPLE-----
+5167***3149 Retail 9.54 AZN, BRAVO AZINKO BAKU AZE 2019-09-24 21:10:10 Balance: 2057.57 AZN

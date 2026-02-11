@@ -1,0 +1,7 @@
+^.* to ([\d\s.,]*\d)\s*([A-Z]{2,3}) was depo.*\*\d+-(\d{3,4}) on (\d{1,2}[-./]\d{1,2}[-./]\d{2,4}) from ATM.*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;date#dMy
+
+-----EXAMPLE-----
+Dear Customer, cash amounting to 2.400,00 TL was deposited into account 5010-20****46-351 on 30.09.2022 from ATM. Info: 08502220800 MERSIS:1234567890 B002

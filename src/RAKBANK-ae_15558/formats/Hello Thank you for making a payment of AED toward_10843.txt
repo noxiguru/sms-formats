@@ -1,0 +1,7 @@
+^Hello\.\s+Thank you for making a payment of\s+([A-Za-z]{1,3}|\W)\s*([0-9][\d\s.,]*\d)\s+towards your RAKBANK Card number\s+\d{6}x{5}(\d{4})\s+on\s+(\d{2}\/\d{2}\/\d{4})\.$
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy
+
+-----EXAMPLE-----
+Hello. Thank you for making a payment of AED 18015.42 towards your RAKBANK Card number 559580xxxxx2033 on 29/01/2026.

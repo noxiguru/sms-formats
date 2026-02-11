@@ -1,0 +1,13 @@
+^.*?\.(\d{4}) (?:Oplat|Оплат).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}) \(([\d\s.,]*\d)\s*[A-Z]{3}\) (?:Osta|Оста).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:(?:Na vre|На вре)\w+\W?\s*[\d:]+\s+)?(.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;op_outcome;instrument;outcome;av_balance;acc_instrument;payee;date#dMy
+
+-----EXAMPLE-----
+Karta 5.1234 Oplata tovarov/uslug Uspeshno Summa:8.25 GEL (6.77 BYN) Ostatok:45.99 BYN Na vremya:20:02:06 GEO/BATUMI/LTD T&K RESTAURANTS 16.03.2019 21:01:59
+
+-----EXAMPLE-----
+Karta 4.9966 Oplata Uspeshno Summa:172797.00 IDR (12.31 USD) Ostatok:132.21 USD PEPITO MARKET ULUWATU 15.06.2022 06:55:49
+
+-----EXAMPLE-----
+Карта 5.8066 Оплата товаров/услуг Успешно Сумма:-1.99 USD (5.89 BYN) Остаток:1.09 BYN На время:13:29:40 GOOGLE ZENMONEY 03.06.2023 12:29:40 ║

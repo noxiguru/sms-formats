@@ -1,0 +1,7 @@
+^.*?opoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}) (.*?) BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+income;instrument;syncid;payee;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+Popolnenie: Пополнение счета 5 000.00 RUR Karta **7205 ALEKSANDR PEROV BAL: 7 217.86 RUR 2023-03-04 16:15:04

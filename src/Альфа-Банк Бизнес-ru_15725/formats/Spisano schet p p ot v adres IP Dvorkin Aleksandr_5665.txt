@@ -1,0 +1,7 @@
+^Spisa.*?([\d\s.,]*\d) schet \*(\d{4}) (.*?) v adres.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;syncid;comment;av_balance
+
+-----EXAMPLE-----
+Spisano 5000.00 schet *1016 p/p №21 ot 28.02.23 v adres IP Dvorkin Aleksandr Sergeevich schet *1413. Ostatok 85187.07

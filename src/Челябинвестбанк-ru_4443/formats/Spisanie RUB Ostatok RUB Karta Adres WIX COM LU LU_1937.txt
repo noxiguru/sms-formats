@@ -1,0 +1,7 @@
+^([\d.]{8}).*pisa.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stato.*?(-?[\d\s.,]*\d).*arta.*?(\d{4}).*dres.\s+(.+)
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;av_balance;syncid;payee
+
+-----EXAMPLE-----
+13.08.15 15:12 Spisanie 330.00 RUB. Ostatok: 1113.23 RUB. Karta: *1138. Adres: WIX.COM, LU, LUXEMBOURG

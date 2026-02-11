@@ -1,0 +1,7 @@
+^\*(\d{4}).*окупк(?!.*статок).*?([\d\s.,]*\d)\s*([A-Z]{3});?\s+(.*?);.*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+*0938; Покупка: 63.00RUR; YANDEX.TAXI; 01.12.2017 11:53

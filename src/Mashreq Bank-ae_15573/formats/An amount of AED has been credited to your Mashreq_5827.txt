@@ -1,0 +1,7 @@
+^.*mount.*?([A-Z]{3})\s*([\d\s.,]*\d).*redit.*?X(\d{4}).*
+
+-----COLUMNS-----
+instrument;income;syncid
+
+-----EXAMPLE-----
+An amount of AED 1.00 has been credited to your Mashreq account no. XXXXXXXX2815 for Inward Transfer. Login to Online Banking for details.

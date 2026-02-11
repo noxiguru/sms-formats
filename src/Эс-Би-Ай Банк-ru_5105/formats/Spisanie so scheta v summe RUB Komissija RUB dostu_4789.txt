@@ -1,0 +1,7 @@
+^Spisan.*?\*\d*(\d{4}) .*umm.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*omis.*?([\d\s.,]*\d).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;fee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Spisanie so scheta 40817**11025491 v summe: 500.00 RUB (Komissija 35.00 RUB); 14.08.20 13:12 dostupnyi ostatok: 2 337.25 RUB

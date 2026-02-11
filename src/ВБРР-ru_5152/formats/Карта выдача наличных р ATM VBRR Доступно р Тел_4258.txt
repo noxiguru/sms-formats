@@ -1,0 +1,16 @@
+^.*\*(\d{4}).*(?:ydacha n|ыдача н).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 4*8718 07.12.17 11:29 выдача наличных 900.00р ATM00572773 VBRR Доступно: 601.48р Тел. 8(800)7000349
+
+-----EXAMPLE-----
+Карта 4*8718 20.12.17 19:21 выдача наличных 1000.00р 3 ANTONOVA-OVSEENKO STR Доступно: 8.27р Тел. 8(800)7000349
+
+-----EXAMPLE-----
+Karta 5*7795 27.03.18 16:48 vydacha nalichnih 40000.00 RUR ATM00573479 VBRR Dostupno: 39375.98 RUR Tel. 8(800)7000349
+
+-----EXAMPLE-----
+Karta 5*7795 19:47 vydacha nalichnih 10000.00 RUR ATM00394036 VBRR Dostupno: 40210.36 RUR

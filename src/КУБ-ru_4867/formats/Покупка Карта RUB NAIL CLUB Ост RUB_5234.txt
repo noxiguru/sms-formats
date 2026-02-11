@@ -1,0 +1,7 @@
+^Покуп.*\*(\d{4})\. ([\d\s.,]*\d)\s*([A-Z]{3})\. (.*?)\. Ост.*?\.?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка. Карта *1609. 1490 RUB. NAIL CLUB. Ост. 5184.29 RUB

@@ -1,0 +1,7 @@
+Payment:\s*([0-9][\d\s.,]*[.,]\d{2})\s+([A-Za-z]{1,3})\s+Card\s+N\s+\*{4}(\d{4})\s+([^>\r\n]+?)>\+\d{6,}.*?(\d{2}/\d{2}/\d{4})
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Payment: 3.75 USD       Card N ****7916 SUPERHIVE>+16305242253                US  24/05/2025 01:18:00 Check your balance in MyCredo https://mycredo.page.link/Pdkp

@@ -1,0 +1,7 @@
+^.*(\d{4}) ([\d.]{10}).*arahovano.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument
+
+-----EXAMPLE-----
+Kartka 4714*3823 01.04.2015 17:41:57. Vam zarahovano: 230,85 UAH

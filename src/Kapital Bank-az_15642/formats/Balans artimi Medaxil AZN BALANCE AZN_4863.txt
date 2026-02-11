@@ -1,0 +1,7 @@
+^Balans\s+arti.*\*(\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+.*\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Balans artimi 4169**4695 Medaxil 373.97 AZN 14:44 18.11.20 BALANCE 3 872.01 AZN

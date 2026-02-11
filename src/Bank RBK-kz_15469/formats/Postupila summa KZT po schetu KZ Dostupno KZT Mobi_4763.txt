@@ -1,0 +1,10 @@
+^(?:Postu|Попол).*?([\d\s.,]*\d)\s*([A-Z]{3}|\W) (?:po|по|[Нн]а) .*?[#*](\d{4})\W? .(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Postupila summa 100 000.00 KZT po schetu KZ#4276. Dostupno 101 163.94 KZT. Mobilnyi bank rbk24.kz
+
+-----EXAMPLE-----
+Пополнение: 8 000.00₸ На карту: *8734 Доступно: 11 515.91 ₸ ║ My RBK

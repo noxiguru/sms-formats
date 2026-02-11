@@ -1,0 +1,13 @@
+^.*?([\d.]{10}).*?(\d{4}) POPOLNEN(?!.*ATM).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+MKB: 27.11.2014 10:34 4*8431 POPOLNENIE: 16000 RUB, Visa Money Transfer. balance: 31838.33 RUB. Blokirovka kart - SMS "All" na +79037672667
+
+-----EXAMPLE-----
+MKB: 30.09.2017 20:14 5*8023 POPOLNENIE: 000.10 RUB MCBA. Balance: 00 000.43 RUB. Blokirovka kart - SMS "All" na +79037672667
+
+-----EXAMPLE-----
+MKB: 04.04.2018 18:47 5*6746 POPOLNENIE: 145.38 RUB. баланс: 68 434.74. Blokirovka kart - SMS "All" na +79037672667

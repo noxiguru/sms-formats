@@ -1,0 +1,7 @@
+^.*?(\d{2}[-./]\d{2}[-./]\d{2,4}) tarih.*?-(\d{3,4}) .*ATM.*?([\d\s.,]*\d)\s*([A-Z]{2,3}).*yatiril.*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;income;instrument
+
+-----EXAMPLE-----
+Degerli Musterimiz,  06.11.2022 tarihinde 5220-20****39-352 numarali hesabiniza ATM'den 9.110,00 USD tutarinda para yatirilmistir. Bilgi:08502220800 MERSIS:1234567890 B002

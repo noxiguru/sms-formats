@@ -1,0 +1,13 @@
+^(?:Postu|Popol|Посту|Попол)(?!.*(?:art|ostu|арт|осту|\*\d{4})).*?([\d\s.,]*\d)\s*([A-Z]{3})\s*(?:(?:через\s+СБП|cherez\s+SBP).*)?(?:\s+║.*)?$
+
+-----COLUMNS-----
+income;instrument
+
+-----EXAMPLE-----
+Пополнение: 3000.00 RUR ║ Хоум Кредит
+
+-----EXAMPLE-----
+Postuplenie na summu 2000.00 RUR cherez SBP. Otpravitel - KIRILL IGOREVICH I.
+
+-----EXAMPLE-----
+Поступление на сумму 3000.00 RUR через СБП ║ Хоум Кредит

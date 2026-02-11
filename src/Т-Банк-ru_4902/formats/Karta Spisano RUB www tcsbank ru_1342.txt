@@ -1,0 +1,7 @@
+^.*(\d{4}).\s+Spisano\s+([\d\s.,]*\d)\s+([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+Karta *5313. Spisano 150.00 RUB. www.tcsbank.ru

@@ -1,0 +1,7 @@
+^Spisan.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.ard.*?\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d]{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;av_balance;date#yMd
+
+-----EXAMPLE-----
+Spisanie: 40 200.00 RUR Перевод по СБП Card_N **9415 MIKHAIL KARAVAEV BAL: 132 416.50 2024-02-10 23:17:51

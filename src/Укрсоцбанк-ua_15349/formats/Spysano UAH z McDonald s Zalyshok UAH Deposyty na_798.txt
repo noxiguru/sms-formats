@@ -1,0 +1,7 @@
+^([\d/]{10}).*?Spysan.*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:po|z) .*?(\d{4}) (?!.*arobitna)(.*?) Zalysh.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM/yyyy;outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+08/06/2016 20:09 Spysano 67.00 UAH z 4874*3054 McDonald's 071 Zalyshok 39 392.34 UAH Deposyty na deposit.unicredit.ua

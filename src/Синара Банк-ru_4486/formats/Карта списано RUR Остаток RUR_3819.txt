@@ -1,0 +1,7 @@
+^.*\.(\d{4}) .писан.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d/]{10}).*стат.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Карта 4...0390 списано 13646,82 RUR 27/07/2018. Остаток 3,18 RUR

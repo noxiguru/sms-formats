@@ -1,0 +1,7 @@
+^(ZACHISL.*?)\s+[\d*]*(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+ZACHISLENIE ZA 09.08.2018 4*4791 61.41 USD WWW.ALIEXPRESS.COM (LONDON)

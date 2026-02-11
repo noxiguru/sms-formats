@@ -1,0 +1,7 @@
+^.*-(\d{4}).*arahuvan.*?kosh.*?([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d/]{5}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM;av_balance
+
+-----EXAMPLE-----
+Kartka 5168-3487. Zarahuvannya koshtiv na rahunok: - -500 UAH 28/02 00:11. Dostupno: 504.45 UAH. Tel.583

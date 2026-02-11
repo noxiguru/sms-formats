@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}).*niattia.*\*(\d{2,4}).*omis.*?([\d\s.,]*\d).*Bal.*?\.?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;fee;av_balance
+
+-----EXAMPLE-----
+1000.00UAH Zniattia hotivky v bankomati Kyiv, vul. Akademika Tupolieva, bud. 135*87 21:10Komisiia 48.51UAHBal. 102.83UAHhttps://pb.ua/s/p24/2

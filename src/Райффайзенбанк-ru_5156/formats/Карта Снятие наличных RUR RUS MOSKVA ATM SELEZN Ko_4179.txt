@@ -1,0 +1,7 @@
+^.*?([\d]{4}).*?(?:nyatie n|нятие н).*?([\d\s,.]*\d)\s*([A-Z]{3}).*?(?:omiss|омис).*?([\d\s.,]*\d).*?(?:stat|alan|стат|алан).*?(-?[\d\s,.]*\d).* ([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;fee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Карта *7222. Снятие наличных 4500.00 RUR. RUS/MOSKVA/ATM 10869626 30 SELEZN. Komissiya 100.00 RUR. Balans 255904.94 RUR. 18.05.2019

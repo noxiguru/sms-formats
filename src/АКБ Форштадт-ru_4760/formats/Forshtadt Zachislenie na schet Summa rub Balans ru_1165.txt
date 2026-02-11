@@ -1,0 +1,7 @@
+^.*?Zachislenie.*?Summa. ([\d\s.,]*\d) ([а-яa-zA-Z]{3}).*alans. ([\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Forshtadt: Zachislenie na schet Summa: 40 000.00 rub Balans: 83 752.41 rub Vremja: 17:45 03.02.14

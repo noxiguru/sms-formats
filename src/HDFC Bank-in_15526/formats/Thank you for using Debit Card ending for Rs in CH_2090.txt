@@ -1,0 +1,7 @@
+^.*ending\s+(\d{4})\s+for\s+([a-zA-Z]{1,3})\.?([\d\s.,]*\d)\s+in\s+(.+)\s+on\s+([\d-]{10}).*[Bb]al.*?(-?\d[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Thank you for using Debit Card ending 6677 for Rs.500.00 in CHENNAI at VETRIVEL AGENCIES - BP on 2015-11-06:20:50:28 Avl bal: Rs.59342.72

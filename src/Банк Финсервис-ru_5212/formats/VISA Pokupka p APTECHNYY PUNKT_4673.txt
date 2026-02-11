@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{8}) .*(?:[оo]к[уy]пк[аa]|okupka)(?!.*(?:алан|alan))([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee
+
+-----EXAMPLE-----
+VISA2561 26.05.20 11:02 Pokupka 337.50p APTECHNYY PUNKT

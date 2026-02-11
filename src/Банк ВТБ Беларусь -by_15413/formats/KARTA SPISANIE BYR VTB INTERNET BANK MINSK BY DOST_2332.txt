@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d.]{8}) .*SPISANIE ([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) DOSTUPNO (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+KARTA 4*0640 01.04.16 10:52 SPISANIE 622403.00 BYR VTB INTERNET-BANK (MINSK,BY) DOSTUPNO 10103510.00 BYR

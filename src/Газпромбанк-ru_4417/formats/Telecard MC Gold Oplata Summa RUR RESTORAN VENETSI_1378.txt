@@ -1,0 +1,10 @@
+^Telecard;\s+[^;]*?(\d{4}|[^\d\s;]+);\s+.(?:plata|redauth|latezh).*umm(?!.*omiss).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\s+([\d.]{8})\s+[^;]*;\s+(.*);\s+.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+Telecard; MC Gold; Oplata; Summa 170 RUR; 14.09.14 12:37:00; RESTORAN VENETSIYA; dostupno: 126153.23 RUR
+
+-----EXAMPLE-----
+Telecard; MC Standart; Oplata; Summa 500.05 RUR; 14.11.16 15:39:39; RNAZK 52 TOMSKNK; dostupno: 6222.42 RUR

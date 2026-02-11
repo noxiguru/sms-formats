@@ -1,0 +1,7 @@
+^.*ashod.*?([\d\s.,]*\d)\s*([A-Z]{3}).*art.*?(\d{4}),\s+([\d.]{8}),.*?,\s+(.*)
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yy;payee
+
+-----EXAMPLE-----
+GLOBEXBANK: Rashod 605.50 RUB, karta ...0990, 18.01.16, 13:51, APTEKA BIOMED 41 TOLYATTI RU

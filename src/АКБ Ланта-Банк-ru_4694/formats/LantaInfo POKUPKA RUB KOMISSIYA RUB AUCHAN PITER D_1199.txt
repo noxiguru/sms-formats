@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d.]{8}) [\d:]+ POKUPKA\s+([\d\s.,]*\d) ([A-Z]{3}) \([^)]+\) (.*) DOSTUPNO. (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+LantaInfo 4**5240 13.03.14 20:20 POKUPKA 4,197.85 RUB (KOMISSIYA 0.00 RUB) AUCHAN PITER DYBENKO (SAINT-PETERSB,RU) DOSTUPNO: 20,139.87 RUB

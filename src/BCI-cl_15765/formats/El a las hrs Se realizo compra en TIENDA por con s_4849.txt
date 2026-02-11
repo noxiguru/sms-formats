@@ -1,0 +1,7 @@
+^El (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(compra .*?) en (.*?) por (\S+?)\s*([\d\s.,]*\d) con.* en (\d{4}).*
+
+-----COLUMNS-----
+date#dMy;comment;payee;instrument;outcome;syncid
+
+-----EXAMPLE-----
+El 20/06/2020 a las 20:00 hrs. Se realizo compra 0 en TIENDA por $20.000 con su Tarjeta de Credito terminada en 0050

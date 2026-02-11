@@ -1,0 +1,7 @@
+^Purchase:\s+([A-Za-z]{1,3})\s+([0-9][\d\s.,]*)\s+Card:\s+\*{4}\s+(\d{4})\s+(.+?)\s+Get\s+ready\s+for\s+PLUS\s+Birthday\s+You\s+will\s+get:\s+[0-9][\d\s.,]*\s+PLUS\s+Available\s+PLUS\s+points:\s+[0-9][\d\s.,]*\s+400\s+PLUS\s=\s1\s+[A-Za-z]{1,3}\s+(\d{2}[-./]\d{2}[-./]\d{2,4})$
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Purchase: GEL 72.63 Card: **** 5506 bulbaland Get ready for PLUS Birthday You will get: 127.10 PLUS Available PLUS points: 20,636.08 400 PLUS = 1 GEL 16.06.2025

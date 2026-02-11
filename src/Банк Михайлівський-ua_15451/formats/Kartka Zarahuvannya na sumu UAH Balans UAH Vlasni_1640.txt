@@ -1,0 +1,7 @@
+^([\d.]{5}).*(\d{4})\s+Zarahuv.*umu\s*([\d\s.,]*\d)\s*([A-Z]{3}).*Balans\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+31.03 20:17  Kartka 4487-1421  Zarahuvannya na sumu 29.36 UAH.  Balans 5377.1 UAH  Vlasni koshti 377.1 UAH  Kredytnyj limit 5000 UAH Tel.0800304040

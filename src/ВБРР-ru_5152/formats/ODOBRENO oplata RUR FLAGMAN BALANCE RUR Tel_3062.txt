@@ -1,0 +1,28 @@
+^.*?(?:[\d*]+|[A-Z]+)(\d{4}) ([\d.]{8}|).*?(?:plat|niqu|плат|pisan|писан)\w+?([\d\s.,]*\d)\s*([а-яA-Z]{1,3})\s+(.*?)\s*(?:BAL|.осту|.ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+ODOBRENO 4*9091 26.06.17 15:45 oplata 49.20 RUR FLAGMAN BALANCE 6 740.01 RUR Tel +74959330349, 88007000349
+
+-----EXAMPLE-----
+Карта 4*9091 01.12.17 10:26 оплата 71.90р FLAGMAN Доступно: 3333.32р Тел. 8(800)7000349
+
+-----EXAMPLE-----
+Карта 4*9091 31.12.17 10:56 списание 569.00р Оплата услуги Яндекс Деньги INTERNET-BANK VBRR / MOSCOW / RUS Доступно: 7000.18р Тел. 8(800)7000349
+
+-----EXAMPLE-----
+Карта 4*9091 20.01.18 09:31 Unique 200.00р "STOLOTO" Доступно: 4911.40р Тел. 8(800)7000349
+
+-----EXAMPLE-----
+Karta 4*9091 22.03.18 18:03 oplata 489.70 RUR FLAGMAN Dostupno: 1267.70 RUR Tel. 8(800)7000349
+
+-----EXAMPLE-----
+MC2453 18:17 оплата136.70р FLAGMANДоступно: 10011.86р
+
+-----EXAMPLE-----
+VISA1829 16:11 списание2477.39р INTERNET-BANK VBRR/MOSCOW/RUSДоступно: 12318.61р
+
+-----EXAMPLE-----
+VISA1829 11:37 оплата170.00р IP EdaryanДоступно: 1950.74р

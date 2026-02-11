@@ -1,0 +1,7 @@
+^(?:Perevod|Перевод) (?![sс][oо]? |.*(?:omis|омис)).*?\*(\d{4})\s+.(?:um|ум).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).* (\d{2}[-./]\d{2}[-./]\d{2,4})\D.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Perevod Schet *2751 Sum 7000.00 RUB Mobile Bank "Neyva" Dostupno 16278.97 RUB 18.08.2020, 12:33

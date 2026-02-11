@@ -1,0 +1,7 @@
+^([\d-]{10}).*nyatie n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{3,4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+2018-09-02 12:55:45 Operaciya po karte Snyatie nalichnyh 100000.00 KZT ATM 857 SM 777 433017**8673 Dostupnaya summa: 207530.14 KZT

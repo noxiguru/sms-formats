@@ -1,0 +1,13 @@
+^.*utoryz.*? (\d{2}[-./]\d{2}[-./]\d{2,4}) -([\d\s.,]*\d)\s*([A-Z]{3}) .*? (\d{4}) (.*)
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;syncid;payee
+
+-----EXAMPLE-----
+Alerty24: autoryzacja transakcji ZAKUPY 25-03-2021 -244,99 PLN Dopasowana Visa 7797 APPLE.COM/BILL www.apple.com
+
+-----EXAMPLE-----
+Alerty24: autoryzacja transakcji ZAKUPY 14-01-2023 -102,50 PLN VISA SELECT 7450 JMP S.A. BIEDRONKA 5158 WARSZAWA
+
+-----EXAMPLE-----
+Alerty24: autoryzacja transakcji ZAKUPY 13-01-2023 -131,99 PLN VISA SELECT 7450 Pyszne.pl LLXT2S Wroclaw

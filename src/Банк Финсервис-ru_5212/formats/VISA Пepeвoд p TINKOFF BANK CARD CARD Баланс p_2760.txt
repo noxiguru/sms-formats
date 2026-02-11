@@ -1,0 +1,10 @@
+^.*?(\d{4})\s+([\d.]{8}) .*[eе][pр][eе]в[оo]д.?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VISA1390 05.12.16 12:39 Пepeвoд 75000p TINKOFF BANK CARD2CARD Баланс 44832.65p
+
+-----EXAMPLE-----
+MC6093 30.10.18 08:06 Отправка перевода 5000p TINKOFF BANK CARD2CARD Баланс 16743.60p

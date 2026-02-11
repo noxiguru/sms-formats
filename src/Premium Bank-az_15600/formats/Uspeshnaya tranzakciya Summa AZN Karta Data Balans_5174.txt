@@ -1,0 +1,7 @@
+^Uspesh(?!.*ercha).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*ata.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Uspeshnaya tranzakciya Summa:691.99 AZN Karta:4192*8721 Data:11/11/21 00:00:00 Balans:928.05 AZN

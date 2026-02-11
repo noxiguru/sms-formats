@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d.]{8}).*НАЛИЧНЫХ ([\d\s.,]*\d) ([A-Z]{3}) \(КОМИССИЯ ([\d\s.,]*\d).*ДОСТУПНО ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;outcome;av_balance
+
+-----EXAMPLE-----
+БФА БАНК 4578***1151 27.05.14 16:12 ВЫДАЧА НАЛИЧНЫХ 29900.00 RUB (КОМИССИЯ 0.00 RUB) 206A4004, BANK, SPB, SAVUSHKINA, ДОСТУПНО 9422.23 RUB

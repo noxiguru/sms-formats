@@ -1,0 +1,7 @@
+^.*onta atlik.*?(\d{4})=[\d\s.,]*\d\s*[A-Z]{3}\s*\((-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+<Konta atlikums/LV26HABA1234567890=151.19 EUR(123.59 EUR)>

@@ -1,0 +1,7 @@
+^.*?x(\d{4}) (.*?Komissiya) ([\d\s.,]*\d) ([A-Z]{3}).*Dostupno ([\d\s.,]*\d).*?([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Karta 4x7102 SMS-banking  Komissiya 55,00 RUR Dostupno 228,37 RUR   01.11.2013 14:08 MSKKontakt-czentr +74955800080

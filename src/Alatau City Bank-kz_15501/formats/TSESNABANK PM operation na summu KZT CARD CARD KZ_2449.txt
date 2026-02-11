@@ -1,0 +1,7 @@
+^.*?(\d{1,2}/\d{1,2}/\d{2}).*peration.*?([\d\s.,]*\d)\s*([A-Z]{3}).*REF.*?kart.*\*(\d{4}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#MM/dd/yy;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+TSESNABANK: 5/31/16 5:54 PM operation na summu 5 250.00 KZT, CARD2CARD KZ ABSITE REF 1234567890 kartochka ***2656,Balance 000.43.tel.7711

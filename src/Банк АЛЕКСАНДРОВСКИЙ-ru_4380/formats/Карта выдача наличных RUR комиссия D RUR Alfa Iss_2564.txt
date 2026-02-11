@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*([\d.]{10}).*ыдача н.*?([\d\s.,]*\d)\s*([A-Z]{3}).*омисс.*?([\d\s.,]*\d).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Карта *7930: 10.12.2018 10:47, выдача наличных 900.00 RUR. комиссия D0.00 RUR. Alfa Iss, SANKT-PETERSB, 29A POLITEKHNICHESKAYA ST. Доступно 1284.63 RUR. Справка: 88002228707

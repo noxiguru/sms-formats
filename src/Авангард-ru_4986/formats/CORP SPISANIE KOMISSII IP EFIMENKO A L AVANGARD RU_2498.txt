@@ -1,0 +1,7 @@
+^.*?(SPISANIE\s+KOM.*?)([\d\s.,]*\d)\s*?([A-Z]{3})\s+\*\d*(\d{4})\s+([\d.]{8}).*
+
+-----COLUMNS-----
+comment;outcome;instrument;syncid;date#dd.MM.yy
+
+-----EXAMPLE-----
+CORP: SPISANIE KOMISSII IP EFIMENKO A. L. AVANGARD 900.00 RUR *17240 01.07.16 10:00 // CORP: SPISANIE KOMISSII IP EFIMENKO A. L. AVANGARD 300.00 RUR *17240 01.07.16 10:00 END

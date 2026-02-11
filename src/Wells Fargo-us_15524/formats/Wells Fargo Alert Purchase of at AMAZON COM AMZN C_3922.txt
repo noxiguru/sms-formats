@@ -1,0 +1,10 @@
+^.*(?:urchase\s+of|made\s+a)\s+(\S+?)\s*([\d\s.,]*\d)\s+(?:purchase\s+)?at\s+(.*?)\s+(?:exceed|with).*?(\d{4})\D.*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+Wells Fargo Alert: Purchase of $74.87 at AMAZON.COM AMZN.COM/BI exceeds preset amount for credit card ending 0991. Questions? Call number on card.
+
+-----EXAMPLE-----
+Wells Fargo Alert: You made a $36.40 purchase at TST* GREEKOS GRILL &amp; CAF with credit card 1153. Questions? Call the number on your card.

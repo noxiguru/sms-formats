@@ -1,0 +1,7 @@
+^Acco.*?: ([A-Z\d]+).*?mount: ([\d\s.,]*\d).*ate: (\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Account Number: CURRENT1 Amount: 2000 Value Date: 06-01-2023 Available Balance: QAR 2138

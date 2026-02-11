@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*(?:arid|okupk|peraci)\w* "?(.*?)"?, -?([\d\s.,]*\d),?\s*([A-Z]{3}), "?(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:avjud|ostu).*?(-?[\d\s.,]*\d),?\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *5663. Xarid/Pokupka "GOOGLE*GOOGLE STORAG", -1.99, USD, "10-09-2022 11:13". Mavjud qoldiq/Dostupno: 661.27, USD.
+
+-----EXAMPLE-----
+Karta *7733. operacija "VISA DIRECT>TASHKENT", 500.00, USD, "10-02-2023 18:09". Mavjud qoldiq/Dostupno: 402.30, USD.

@@ -1,0 +1,13 @@
+^((?:Vozv|Otme).*art.*?)\s.*?#\s*(\d{4})\s+([\d/]{8}).*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*limit.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}\s+(.*)
+
+-----COLUMNS-----
+comment;syncid;date#dd/MM/yy;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Otmena pokupki po karte MEGACARD #7378 28/06/2015 14:27:53 Summa: 30.00RUR Dostupniy limit: 14657.80RUR GOOGLE *SELLER     GOOGLE.COM/CH
+
+-----EXAMPLE-----
+Vozvrat na kartu MEGACARD #7378 21/02/16 13:40 Summa: 584.00RUR Ballov spisano: 5.84 Itogo balli MEGA: 399.29BB Dostupniy limit: 16300.53RUR IKEA DOM 8 RETURN   EKATERINBURG RU
+
+-----EXAMPLE-----
+Otmena pokupki po karte FERRARI CARD #3635 06/09/19 21:25 Summa: 16.00RUB Dostupniy limit: 53.25RUB Moskva Metro Moscow

@@ -1,0 +1,7 @@
+^Входя.*([\d.]{10})\s+([\d\s.,]*\d)\s*([A-Z]{3}), (.*) прош.*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;income;instrument;payee
+
+-----EXAMPLE-----
+Входящий платеж от 02.07.2018 2,300.00 EUR, BLACK FRIDAY GMBH прошел валютный контроль.

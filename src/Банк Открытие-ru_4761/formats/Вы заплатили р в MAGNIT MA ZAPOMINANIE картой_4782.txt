@@ -1,0 +1,7 @@
+^.*?заплатили ([\d\s.,]*\d) ([а-яa-zA-Z]+)\W? в (.*) картой.*?(\d{4})\.$
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+Вы заплатили 1 836 р. в MAGNIT MA ZAPOMINANIE картой *6685.

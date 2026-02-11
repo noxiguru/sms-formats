@@ -1,0 +1,7 @@
+^.*art.*?(\d{4})\s.erevod(?!.*stat).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+Karta 5.3235 Perevod (Spisanie) Uspeshno Summa:20 BYN BLR/INTERNET-BANK ALFA/Internet: bed4-1002b-1 09.04.2018 17:21:55

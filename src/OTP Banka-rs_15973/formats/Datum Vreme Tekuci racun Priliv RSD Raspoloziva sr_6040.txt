@@ -1,0 +1,7 @@
+^Datu.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*racun.*?\*(\d{2,4}).*riliv.*?([\d\s.,]*\d)\s*([A-Z]{3}).*aspoloz.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Datum: 28.10.2023, Vreme: 10:59:49 Tekuci racun: 93007***34 Priliv: 2.181,97 RSD Raspoloziva sredstva: 2.183,97 RSD Vasa OTP banka

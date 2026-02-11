@@ -1,0 +1,7 @@
+^.* ([\d.]{8}) .*x(\d{4}) plat.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Industrialbank_SMS. 15.09.17 00:00:00 2625xxx8677 platezh 1 171.12 UAH, Dostypno=1 193.50 UAH

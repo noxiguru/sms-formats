@@ -1,0 +1,7 @@
+^CREDIT.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+CREDIT ACCOUNT 400,000.00 AMD 5571***8126 BANK SYSTEM HSBC PAYMENT, AM 06.04.2018 15:25

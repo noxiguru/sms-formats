@@ -1,0 +1,7 @@
+^([\d-]{10}).*?x(\d{4}) Vydacha nalichnyh.*Summa ([\d\s.,]*\d) ([A-Z]{3}) Dostupno ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+2013-07-22 14:10:54 Karta 4xxx6470 Vydacha nalichnyh (ATM, OKRBOLNITSA) Summa 1 000.00 RUR Dostupno 79 464.28 RUR Podderzhka +73467390700

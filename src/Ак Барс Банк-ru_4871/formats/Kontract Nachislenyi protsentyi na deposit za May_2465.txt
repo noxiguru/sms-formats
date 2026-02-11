@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\.?\s+(Nachislen.*?)\..*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?ostup.*?(-?[\d\s.,]*\d).*?([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Kontract *6824. Nachislenyi protsentyi na deposit za May.Summa 405,62RUR. Dostupno 251561,80RUR na 2016-06-01 13:27:53.

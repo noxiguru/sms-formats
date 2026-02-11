@@ -1,0 +1,10 @@
+^Perevod.*?([\d\s.,]*\d)\s*([A-Z]{3})\s*([\d.]{8}|) [\d:]{5} .ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Perevod 14130.00 RUR 16.04.18 14:19 Dostupno: 107.45 RUR Tel. 8(800)7000349
+
+-----EXAMPLE-----
+Perevod 1000.00 RUR 12:00 Dostupno: 5000.00 RUR

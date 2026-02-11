@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+(.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}) возвра.*алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;income;instrument;av_balance
+
+-----EXAMPLE-----
+сумма покупки *9055 RUS/MOSKVA/SUVLAKI/ 640 RUR возвращена на вашу карту. баланс карты 4283.76 RUR. raiffeisenbank

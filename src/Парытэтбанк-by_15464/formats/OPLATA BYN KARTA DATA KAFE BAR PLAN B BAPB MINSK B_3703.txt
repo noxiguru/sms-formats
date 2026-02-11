@@ -1,0 +1,7 @@
+^OPLATA([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*([\d.]{10}) [\d:]+\s+(.*?)\s+OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+OPLATA 70.00 BYN KARTA #3323 DATA 26.05.2018 21:43:40 KAFE-BAR "PLAN B" BAPB>MINSK>BY OSTATOK 300.70 BYN

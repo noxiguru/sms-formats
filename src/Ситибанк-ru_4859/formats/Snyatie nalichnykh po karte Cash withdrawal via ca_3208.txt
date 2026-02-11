@@ -1,0 +1,7 @@
+^.*nyatie n.*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d/]{10}).*?ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Snyatie nalichnykh po karte/Cash withdrawal via card *8662. Summa/Amount:30000.00 RUB v/at:Alfa Iss 34 SIBIRSKIY. Data/Date:18/09/2017. Dostupnyj limit/Available limit:9700.00 RUB. Tel:+7(495)775-59-99

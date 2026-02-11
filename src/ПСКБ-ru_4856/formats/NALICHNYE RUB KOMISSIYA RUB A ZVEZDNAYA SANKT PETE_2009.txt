@@ -1,0 +1,7 @@
+^.*(\d{4})\s+([\d.]{8}).*NALICH.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+KOMIS.*?([\d\s.,]*\d).*DOSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+4*2136 01.10.15 09:07 NALICHNYE 1000.00 RUB KOMISSIYA 0.00 RUB 3-1-A, ZVEZDNAYA (SANKT-PETERBURG G,RU) DOSTUPNO 6040.77 RUB

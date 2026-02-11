@@ -1,0 +1,7 @@
+^Списание.*?(\d[\d\s.,]*) ([A-Z]{3}).*?\*(\d{4}). Адрес: (.*?). Дата: ([\d.]{10}).*?остаток: ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dd.MM.yyyy;balance
+
+-----EXAMPLE-----
+Списание на сумму: 58.58 RUR. Карта: *2209. Адрес: STOLOVAYA CHIB, RUS, Chelyabinsk, pl.Revolyutsii, d.8. Дата: 18.06.2013 11:53. Доступный остаток: 7512.81 RUR.

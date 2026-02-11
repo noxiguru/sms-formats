@@ -1,0 +1,7 @@
+^.*? ([\d.]{5})\D? .*uthor.*?\*(\d{4}).*moun.*?([A-Z]{3})\s*([\d\s.,]*\d).*pprov\S+\s+(.*)
+
+-----COLUMNS-----
+date#dd.MM;syncid;instrument;outcome;payee
+
+-----EXAMPLE-----
+VUB 18.05. 11:33:59 on account SK26..4097380553, authorisation  with card Visa Gold *0758, amount EUR 57.00, payment, transaction approved. Booking.com BV,AM

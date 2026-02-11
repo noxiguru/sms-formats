@@ -1,0 +1,7 @@
+^\*(\d{4})\s+(Отмена.*?)([\d\s.,]*\d)\s*([а-яA-Z]{1,3})\s+(.*?)\s+([\d.]{8})\s+.*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+*9716 Отмена 97.55р GAZPROMNEFT AZS 465 14.03.18 18:33 Доступно 68739.05р

@@ -1,0 +1,7 @@
+^.*?(\d{4}).*Poluch.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?([\d.]{8}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+*2674: Polucheno 7000.00RUB,17.04.15 18:41,1234567890, MOSCOW, ATM 105099.Ostatok: 91.77,Dostupno:91.77RUB

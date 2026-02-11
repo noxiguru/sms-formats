@@ -1,0 +1,7 @@
+^.*okup\S+\s+(.*?) po .*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).* ([\d.]{8})$
+
+-----COLUMNS-----
+payee;syncid;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Pokupka KALUZHSKAYA, MOSCOW po karte *3722 na summu: 775.00 RUB Dostupniy ostatok: 3 992.39 RUB 13:31 23.09.19

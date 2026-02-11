@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{2,3})\s+that.*?eposit.*ATM.*your\s+(account).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash
+
+-----EXAMPLE-----
+100,00 TL that you've deposited from Akbank ATM has reached your account ║ Deposit transaction

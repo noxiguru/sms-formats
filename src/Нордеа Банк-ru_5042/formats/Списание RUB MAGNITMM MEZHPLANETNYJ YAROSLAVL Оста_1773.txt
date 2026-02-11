@@ -1,0 +1,7 @@
+^.(\d{4}).*([\d.]{10})\s+[\d:]+\s+.писание.*?([\d\s.,]*\d)\s*([A-Z]{3}).\s+(.*).\s+Остат.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+*1387: 27.05.2015 17:35 Списание: 140.50 RUB, MAGNITMM MEZHPLANETNYJ, YAROSLAVL'. Остаток 47763.80 RUB

@@ -1,0 +1,7 @@
+^Попол.*?([\d\s.,]*\d)\s*([A-Z]{3}) по.*(\d{4}).*(?:аланс|стат).*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Пополнение на 200 RUB по карте *6785. Остаток: 701.31 RUB; Место: PER. B. GOLOVIN,23 >, MOSCOW RU; 07.05.2015 14:10:07.

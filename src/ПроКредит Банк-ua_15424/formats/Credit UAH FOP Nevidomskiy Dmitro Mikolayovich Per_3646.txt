@@ -1,0 +1,13 @@
+^(\d{2}[./]\d{2}[./]\d{2,4}) .*?(\d{3,4}) .*redit.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+"?(.*?)"?\s*.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+21.03.2018 17:02:02.54 1234567890.980 Credit: 81000.00 UAH. FOP Nevidomskiy Dmitro Mikolayovich "Pererakhuvannya dokhodu pidpriiemtsya za berezen 2018 r. na kartkoviy rakhunok. Bez PDV". Balance: 108748.80 UAH
+
+-----EXAMPLE-----
+07.02.2019 09:39:46.48 1234567890.980 Credit: 2000.00 UAH. Balance: 79233.63 UAH
+
+-----EXAMPLE-----
+01.04.2020 00:54:36.43 UA**1234567890 Credit: 6.34 UAH. Balance: 6.34 UAH

@@ -1,0 +1,7 @@
+^.*HAMAL.*?([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+,\s*(.*?)\. \d+, MNACO.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+HASHVI HAMALRUM 305354.00 AMD 5175***2314 30.12.2020 12:51,TRN.NU. 86588725, MNACORD: 506985.60 AMD

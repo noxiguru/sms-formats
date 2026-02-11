@@ -1,0 +1,7 @@
+^([\d-]{10}) .*ayment.*?\*(\d{3,4}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*pisan\w+\W?\s*(.*)
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;outcome;instrument;av_balance;comment
+
+-----EXAMPLE-----
+2020-01-15 14:59:45 Operaciya CH Payment po kartochke 4**545 na summu 15 000.00 KZT. Ostatok: 277 998.05 KZT. Opisanie: POST.KZ

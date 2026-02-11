@@ -1,0 +1,7 @@
+^.*ard\s+(\d{4})\s+was\s+used\s+at\s+(.*?)\s+for\s+(\S+?)\s*([\d\s.,]*\d)\s+on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;payee;instrument;outcome;date#Mdy
+
+-----EXAMPLE-----
+Truist Alerts: Your credit card 5815 was used at TOMMYS-EXPRESS.COM for $20.00 on 01/12/2024. Reply HELP for help or STOP to stop alerts.

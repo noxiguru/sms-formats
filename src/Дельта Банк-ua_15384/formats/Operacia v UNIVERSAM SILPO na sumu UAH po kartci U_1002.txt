@@ -1,0 +1,7 @@
+^Operacia v (.*) na sumu -?([\d\s.,]*\d) ([A-Z]{3}).*?-(\d{4}) USPISHNO.*([\d/]{5}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;date#dd/MM
+
+-----EXAMPLE-----
+Operacia v UNIVERSAM SILPO na sumu 95.31 UAH po kartci 48**-1486 USPISHNO 09/10 21:54 0444289595

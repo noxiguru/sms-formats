@@ -1,0 +1,7 @@
+^-\s*([\d\s.,]*\d)\s*([A-Z]{3}).*\*\d*(\d{4}).*alan.*?(-?[\d\s.,]*\d).* (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#dMy
+
+-----EXAMPLE-----
+- 75 115.85 KZT; KZ*430393; Balans: 81 341.78 KZT; 21/07/20. StarBusiness: http://onelink.to/b5q857

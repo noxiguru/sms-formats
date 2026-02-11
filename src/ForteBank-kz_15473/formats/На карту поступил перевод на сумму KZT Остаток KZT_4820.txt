@@ -1,0 +1,10 @@
+^(?:На|Na)\s+.*\*(\d{4})\s+(?:поступ|postup).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+.(?:стат|stat).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+На карту ***6330 поступил перевод на сумму 150 000.00 KZT . Остаток 331 325.70 KZT ║ Карты
+
+-----EXAMPLE-----
+Na kartu ***3548 postupil perevod 137 000.00 KZT  s karti ***7035  Ostatok 138 390.58 KZT

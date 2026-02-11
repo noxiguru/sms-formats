@@ -1,0 +1,7 @@
+^.*perev.*spisa.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?DOSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Vypolnen perevod po svoim schetam, summa spisanija 23825.34 RUB. DOSTUPNO: 72478.84 RUB po schetu spisanija. DOSTUPNO: 23825.34 RUB po schetu zachislenijer dokumenta:887

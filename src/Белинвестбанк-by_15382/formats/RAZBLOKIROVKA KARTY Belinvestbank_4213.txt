@@ -1,0 +1,10 @@
+^.*(?:RAZBLOKIROVKA KART|otkaz).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+*0632 09:17:26 RAZBLOKIROVKA KARTY ║ Belinvestbank
+
+-----EXAMPLE-----
+*9696 20.04.2021 21:01:45 otkaz proverte limity po karte term=SERVICE OPLATI>MINSK BY

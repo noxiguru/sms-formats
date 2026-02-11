@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+(.*?ozvrat.*?)\s+(?:na\s+sum.*?)?([\d\s.,]*\d)\s*([A-Z]{3}).*\s+to\s+(.*?)\s+([\d-]{10})\s+\d{2}:\d{2}.*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Uvazhaemyj klient, po vashei karte 426343**4474  proizveden vozvrat sredstv na summu 130000,00 RUB, Transfer P2P swift RPT to Межрегиональное операционное УФК (РАНХиГС л/сч 20956003840) 2018-12-04 10:54:27. Dostupno 2535,49.

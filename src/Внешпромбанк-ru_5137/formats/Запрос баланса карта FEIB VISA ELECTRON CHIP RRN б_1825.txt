@@ -1,0 +1,7 @@
+^([\d.]{8}).*апрос бал.*арта.*?(\d{4});.*аланс.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;av_balance
+
+-----EXAMPLE-----
+15.06.15 14:51 Запрос баланса (071005); карта:FEIB VISA ELECTRON CHIP****7451;RRN:039254; баланс:25.00RUR; комиссия:0.00RUR; ATM, DO KRASNODAR, RUS, 88003333355

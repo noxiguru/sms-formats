@@ -1,0 +1,7 @@
+^CREDIT.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+\d+\*+(\d{4})\s+(?:ARDSH\w+.*)?(.*?)\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*BALAN.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+CREDIT ACCOUNT 310,822.60 AMD 4454***4119 ARDSHINBANK CJSC, AM 17.01.2025 09:15 BALANCE: 1,517,046.10 AMD

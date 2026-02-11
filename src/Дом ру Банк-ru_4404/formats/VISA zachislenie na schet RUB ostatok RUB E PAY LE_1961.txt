@@ -1,0 +1,7 @@
+^\S+(\d{4})\s+([\d-]{8}).*zachisl.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+osta.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+VISA-9878 19-08-15 11:39 zachislenie na schet 400.00 RUB ostatok 412.24 RUB; E-PAY, LENINA

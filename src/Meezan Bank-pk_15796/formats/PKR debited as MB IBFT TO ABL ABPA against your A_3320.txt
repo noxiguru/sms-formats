@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d) .ebit.*? as (.*?) .gain.*?(\d{4}) of .* on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) .*Bal.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+PKR 5,000.00 debited as MB IBFT TO ABL 7ABPA1234567890 against your A/C xxxxxx1650 of MEEZAN BANK LIMITED on 01-May-2021 at 16:54:01 Bal: PKR 1,067,193.97

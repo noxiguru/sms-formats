@@ -1,0 +1,37 @@
+^.*?\*(\d{4})\D?\s*(?:spis|zapr|спис)(?!.*tklonen).*?(\d[\d\s.,]*)\s*([A-Z]{3}|\W)\W?\s*(.*?)\s*\W?\s*(?:data.*?)?([\d.]{10}|)\s+[\d:]{5}\D?\s*.(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta *9976: spisanie sredstv 2548.75 RUR; CARD2CARD PORTAL; data: 07.12.2013 00:08; dostupno 14373.43 RUR. VTB24
+
+-----EXAMPLE-----
+Karta *5139: spisanie sredstv 2519.07 RUR; Card2Card; 09.04.2016 18:22, dostupno 7780.93 RUR (v tom chisle kred. 0.00 RUR). VTB24
+
+-----EXAMPLE-----
+Schet *2306: spisanie 175 RUB; 27/04/2016 03:34; dostupno 213.95 RUB. VTB24
+
+-----EXAMPLE-----
+Karta *2190: spisanie 3000 RUB; 4, UL_BELOVEZHSKAYA; 05/07/2016 16:43, dostupno 255791.92 RUB. Kontroliruyte svoy byudzhet s besplatnim prilozheniem: www.vtb24.ru/m/smart. VTB24
+
+-----EXAMPLE-----
+Счет *6882: списание 10000.00 RUB; 01.04.2017 12:28; доступно 10245.40 RUB. ВТБ24
+
+-----EXAMPLE-----
+Schet *3296: spisanie 900.00 RUB; poluchatel PAO "MGTS"; 19.03.2018 19:46; dostupno 3567.60 RUB (sobstv. sredstva: 3567.60 RUB).
+
+-----EXAMPLE-----
+Schet *4523: spisanie 59.00 RUB;SMS-paket Karti+;07.04.2019 11:55;dostupno 208.04 RUB
+
+-----EXAMPLE-----
+Счет *4488 списание 10 €, перевод между счетами/картами, 05.09.2019 15:04 доступно: 10.58 €,
+
+-----EXAMPLE-----
+Счет *0225 списание 45000.00 RUB, перевод между счетами/картами, 13:30 доступно: 1387.84 RUB,  ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Счет *8445: списание 140.00 RUB; получатель Билайн; 07:59; доступно 252959.85 RUB ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Карта *9326: списание 4000.00 RUB; Яндекс.Деньги; 06:17, доступно 3636.69 RUB ║ ВТБ-Онлайн

@@ -1,0 +1,7 @@
+^(.*?) отправил.*? ([\d\s.,]*\d)\s*([A-Z]{3})\W? ║ Notif.*
+
+-----COLUMNS-----
+payee;income;instrument
+
+-----EXAMPLE-----
+Trustly Group AB отправил(а) Вам 11.04 EUR. ║ Notification from Swedbank

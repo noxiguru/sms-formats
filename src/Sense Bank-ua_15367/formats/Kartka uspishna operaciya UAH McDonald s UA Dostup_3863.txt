@@ -1,0 +1,13 @@
+^.*?\*(\d{4}) .*peraci.*? -([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+\s+(?!Perekaz)(.*)\s+.(?:ostu|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartka 5355***1550 uspishna operaciya -27.00UAH 23.08.18 09:02 McDonald's 039, UA Dostupno:28329.62UAH
+
+-----EXAMPLE-----
+Kartka 4102***5803 uspishna operaciya -13.39UAH 22.08.2018 19:06 NOVUS10691313UC98GERVB0, UA Dostupno:826.08UAH
+
+-----EXAMPLE-----
+Kartka 4028***7097 uspishna operaciya -29.88UAH 01.10.22 21:23 FDY*Bolt, UKR Balans:894.61UAH Korysne tut: https://sense.top/info

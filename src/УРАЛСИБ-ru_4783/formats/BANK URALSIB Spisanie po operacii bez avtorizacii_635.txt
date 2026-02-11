@@ -1,0 +1,7 @@
+^.*?Spisanie.*?\*(\d{4}) ([\d-]{10}).*?([\d\s.]{4,}) ([A-Z]{3});(.*);Ostatok ([\d\s.]+).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+BANK URALSIB.Spisanie po operacii bez avtorizacii:5312***1091 2012-11-13 00:00:00 74.80 RUR;BP PROFSOYUZNAYA RC00 in MOSCOW,RUS;Ostatok 66 482.52 RUR

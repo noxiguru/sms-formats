@@ -1,0 +1,7 @@
+^([\d-]{10}).*?POPOLNENIE SCHETA ([\d\s.,]*\d) ([A-Z]{3}). BALANS ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+2013-03-27 15:25:41 POPOLNENIE SCHETA 0.17 UAH. BALANS 1506.63 UAH. OTPRAV SMS 113103 NA 4682 UZNAY BALANS. (TEL.P INBANK 0800507080; +1234567890)

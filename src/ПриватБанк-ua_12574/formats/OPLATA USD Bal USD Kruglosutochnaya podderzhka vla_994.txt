@@ -1,0 +1,7 @@
+^(.{4}).*(?:PLATA|plata|EKVIVALENT\s+NAL|tchisl|idrahuv)(?!.*Komissia)(?!.*\().*?([\d\s.,]*\d)([A-Z]{3}).\s+Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+5*34 10:46OPLATA 84.77USD. Bal:677.90USD Kruglosutochnaya podderzhka vladelcev kart Gold 0800504707

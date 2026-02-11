@@ -1,0 +1,7 @@
+^.*depsán.*?-([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+outcome;instrument
+
+-----EXAMPLE-----
+Bylo odepsáno -370,00 CZK (platba). ║ Pohyb na účtě

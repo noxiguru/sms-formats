@@ -1,0 +1,7 @@
+^POKUP.*?-([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) (?:http.*? )?ELCART.*?\*(\d{2,4}) (\d{2}-\d{2}-\d{2}) [\d:]+ Kom.*?([\d\s.,]*\d).*Dost.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;date#yMd;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+POKUPKA: -570.00 KGS "Tri limona">Bishkek https://www.fincabank.kg/ ELCART:*62 23-02-20 11:11 Kom:0.00KGS Bal:18354.01KGS Dost:18354.01KGS

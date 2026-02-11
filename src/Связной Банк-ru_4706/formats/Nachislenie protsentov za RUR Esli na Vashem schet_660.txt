@@ -1,0 +1,7 @@
+^.*\*(\d{4}). (Nachislenie protsentov.*?): ([\d\s.]*\d)\s*([A-Z]{3}). ([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+5163***8114; Nachislenie protsentov za 03.2013: 275.57 RUR; 09.03.2013 04:17. Esli na Vashem schete bol'she 300 000 RUR, rekomenduem perevesti sredstva na schet SAFE.

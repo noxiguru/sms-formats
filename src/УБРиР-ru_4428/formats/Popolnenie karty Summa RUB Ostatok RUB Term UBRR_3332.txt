@@ -1,0 +1,7 @@
+^.*opoln.*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Popolnenie karty  4301****7277  Summa: 5000.00 RUB  Ostatok: 5255.83 RUB  Term: UBRR  06.12.17 13:22

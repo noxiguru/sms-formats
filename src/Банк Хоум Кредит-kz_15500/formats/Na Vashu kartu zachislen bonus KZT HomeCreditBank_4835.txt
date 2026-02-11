@@ -1,0 +1,13 @@
+^(?:Na|На)(?!.*\*).*(?:achisl|ачисл).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+income;instrument
+
+-----EXAMPLE-----
+Na Vashu kartu zachislen bonus 1731.00 KZT. HomeCreditBank ║ Home Credit Kazakhstan
+
+-----EXAMPLE-----
+На Вашу карточку зачислен бонус 931.00 KZT. ║ Home Credit Kazakhstan
+
+-----EXAMPLE-----
+Na Vashu kartochku zachislen bonus 2068.00 KZT.

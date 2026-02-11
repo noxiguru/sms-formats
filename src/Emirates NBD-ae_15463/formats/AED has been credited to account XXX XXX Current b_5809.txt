@@ -1,0 +1,13 @@
+^(?:.*?,\s+)?(\S+?)\s*([\d\s.,]*\d)\s+has\s+been\s+(?:cr|dep).*\s+to\s+(?:your\s+)?acc\w+\s+([\dX-]{13,}).*alan.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+AED 2,250.00 has been credited to account 101XXX13XXX01. Current balance is AED 5,381.96. Credits post cut-offs will be available next day.
+
+-----EXAMPLE-----
+Dear Customer, AED 8,000.00 has been credited to your account 101XXX35XXX01 towards instant transfer. The available balance is AED 8,129.27.
+
+-----EXAMPLE-----
+AED 5,000.00 has been deposited to your account 101XXX35XXX01 through the deposit machine. The available balance of your account is AED 13,892.27.

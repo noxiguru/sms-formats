@@ -1,0 +1,7 @@
+^.*ebit.*?-([\d\s.,]*\d)\s*([A-Z]{3})\s+from.*?\d*(\d{4}).*ate:\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*etail\w*:\s+(.*)
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance;acc_instrument;comment
+
+-----EXAMPLE-----
+Debit: -0,90 EUR from account: 540-1234567890-65 to: ERSTE BANK AD PODGOR Date: 29.02.2024 Available: 3,73 EUR Details: Naknada Erste Info usluge

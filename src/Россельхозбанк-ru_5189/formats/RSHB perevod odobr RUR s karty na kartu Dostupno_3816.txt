@@ -1,0 +1,7 @@
+^.*? ([\d/]{5}) .*(?:перевод|perevod)(?!.*(?:комис|omis)).*?(?:испол|одоб|ispol|odob).*?\.?([\d\s.,]*\d)\s*([A-Z]{3}).*(?!комис|komis)(?: с| s).*?\*(\d{4})\s+((?:на|na).*?\*\d{4}).*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;syncid;comment;av_balance
+
+-----EXAMPLE-----
+RSHB 12/10 19:08:56 perevod odobr. 1,270.00 RUR s karty *4302 na kartu *5729 Dostupno 49,731.33

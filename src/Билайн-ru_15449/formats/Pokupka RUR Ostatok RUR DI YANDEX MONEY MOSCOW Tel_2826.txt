@@ -1,0 +1,10 @@
+^.*?(\d{4}).*(?:kupka|купка).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:stat|стат).*?(-?[\d\s.,]*\d)(?:;\S+|\S+?;)\s+(.*?);\s*00\.00\.00.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+*1234; Pokupka: 1000.00RUR; Ostatok: 100.00RUR; 3DI YANDEX.MONEY, MOSCOW; 00.00.0000 00:00; Tel 88001001000
+
+-----EXAMPLE-----
+*1525; Покупка: 268.00RUR; Остаток: 580.90RUR; YANDEX.TAXI; 00.00.0000 00:00. Тел: 88007006119

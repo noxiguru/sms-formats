@@ -1,0 +1,7 @@
+^.*spisanie.\s*([\d\s.,]*\d) ([A-Z]{3}).*Balans.*?\*(\d{4}) na ([\d/]{10}).*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Planovoe spisanie:30997.22 RUR. Balans scheta karty *5648 na 15/07/2014: 79951.11 RUR. Raiffeisenbank

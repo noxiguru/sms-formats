@@ -1,0 +1,13 @@
+^(?:Popol|Попол|\+)\w*\W?([\d\s.,]*\d)\s*([а-яA-Z]{3}).*?\*\d*(\d{4})\.\s+([\d/.]{10}|).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Popolnenie: 14343.68 RUR. Karta *3853. 25.04.2017 11:13:14.Dostupno: 15317.39 RUR.
+
+-----EXAMPLE-----
+Popolnenie: 920.54 RUR. Karta *9007. Dostupno: 67209.05 RUR
+
+-----EXAMPLE-----
++ 20000.00 руб. пополнение карты *5571. Доступный остаток 233974.25  руб. ║ Хоум Кредит

@@ -1,0 +1,7 @@
+^([\d.]{10}) [\d:]+ (.*) Операция.*?(\d{4}) сумма ([\d\s.,]*\d) ([A-Z]{3}).*оступно.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;payee;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+03.03.2015 07:52 RUS NOVOSIBIRSK YARCHE Операция по карте 41***1421 сумма 45.40 RUR Бонус(+)/комиссия(-): +0.11 RUR Доступно: 8 191.67 RUR

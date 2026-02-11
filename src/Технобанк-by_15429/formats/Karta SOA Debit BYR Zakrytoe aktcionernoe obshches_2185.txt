@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{10}).*ebit.*?-([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\s+OK.\s*Dost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Karta 4.2336 30.11.2015 12:10:22 SOA Debit -150000 BYR Zakrytoe aktcionernoe obshchestvo "MTBank" Ibank BLR OK. Dostupno 5009964 BYR

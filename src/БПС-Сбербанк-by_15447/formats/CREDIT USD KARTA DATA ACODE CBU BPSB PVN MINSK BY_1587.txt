@@ -1,0 +1,7 @@
+^CREDIT ([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}) DATA ([\d.]{10}).*OSTATOK (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+CREDIT 200 USD KARTA #8268 DATA 10.02.2015 11:31:25 ACODE 681906 CBU-702/4 BPSB PVN>MINSK>BY OSTATOK 328.14 USD

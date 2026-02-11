@@ -1,0 +1,7 @@
+^([\d.]{10}).*[Ss].*?\*(\d{4}).*erevod.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(na\s+.*?)?\.?\s*.stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+27.08.2018 11:56. S karti ***6225 sdelan perevod 50 000.00 KZT na kartu ***. ostatok 158 886.66 KZT

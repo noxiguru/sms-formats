@@ -1,0 +1,7 @@
+^Mebl.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+Nagdlas.*\*(\d{4}).*(\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;syncid#cash;date#dMy
+
+-----EXAMPLE-----
+Mebleg: - 350.00 AZN Balans: 180.00 AZN Nagdlasdirma: ATM ***0193 Unvan: ATM BAKI, AZ 03.09.21 11:07

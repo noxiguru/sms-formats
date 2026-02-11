@@ -1,0 +1,7 @@
+^Spisan\w+:?([\d\s.,]*\d)\s*([A-Z]{3})\s+za\s+(.*?)\..*\*(\d{4})(?:\.\s*$|$)
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid
+
+-----EXAMPLE-----
+Spisanie:19.28 RUR za SMS-paket. Karta *4261

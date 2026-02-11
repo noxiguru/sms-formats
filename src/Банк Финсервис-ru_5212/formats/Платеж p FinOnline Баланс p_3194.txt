@@ -1,0 +1,10 @@
+^([\d.]{8}) .*(?:латеж|latez).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*?)\s+.(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+07.09.17 10:02 Платеж 193p FinOnline Баланс 13500.03p
+
+-----EXAMPLE-----
+09.04.20 15:18 Platezh 908.43p FinOnline Balans 11000p

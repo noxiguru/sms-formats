@@ -1,0 +1,16 @@
+^.*?-([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:.*onus[\d\s.,]*\s+)?(.*?)\s+(\d{2}-\d{2}-\d{2}) .*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#yMd;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+-870.00 KZT + 17.4 Bonus TOO TATYM 17-09-04 14:47 Karta *0842. Balans 81 284.30 KZT. Tel.7722, www.smartbank.kz
+
+-----EXAMPLE-----
+-1446.32 KZT +28.92 Bonus, Trata bonus 0.00 MTK METRO KASSA 31 M 18-05-28 18:45 Karta *0842. Balans 27051.27 KZT. www.smartbank.kz/app
+
+-----EXAMPLE-----
+-18128.00 KZT Pay.smartbank*P2P 18-06-04 13:06 Karta *0842. Balans 5795.08 KZT. www.smartbank.kz/app
+
+-----EXAMPLE-----
+-11676.00 KZT TOO "SUPERMARKET SOL 23-08-13 18:12 Karta*8788. Balans 104.90KZT. www.smartbank.kz/app

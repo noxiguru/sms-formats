@@ -1,0 +1,7 @@
+^\d+-(\d{4}) (([\d\s.,]*\d)\s*([A-Z]{3})\s*\(.*?) .pysan.*?([\d\s.,]*\d)\s*[A-Z]{3} (.*?) (\d{2}/\d{2}) kurs.*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;op_outcome;instrument;outcome;payee;date#dM;av_balance;acc_instrument
+
+-----EXAMPLE-----
+47-0711 1083.53TRY(55.59USD) spysano: 2081.85UAH MOLTO SUPERMARKET LTD ISK 09/05 kurs: 37.45USD/UAH Balance 12205.35UAH

@@ -1,0 +1,10 @@
+^.*?CARD(\d{4}):?\s((?:Vozvr|Отмен).*?)\s+<?([A-Z]{3})\s*[<+]*([\d\s.,]*\d)>?\s+(.*?)\.?\s+(?:B<|Бал).*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;instrument;income;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+CARD9626: Vozvrat tovara na summu RUR <+139.99> GAZPROMNEFT AZS 369/UVAT/RU. B<RUR 5,908.29>
+
+-----EXAMPLE-----
+CARD2113 Отмена операции 24.08.2024 <RUR 610> AVITO G MOSKVA B<RUR 15,448.52> ║ Возврат средств 610.00 ₽ AVITO

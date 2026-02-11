@@ -1,0 +1,7 @@
+^.*?([\d/]{4}).*?([\d.]{10}).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 6847: 26.05.2016 19:40, spisanie 9830.00 RUR. Dostupno 17114.06 RUR. Spravka: 88002502777

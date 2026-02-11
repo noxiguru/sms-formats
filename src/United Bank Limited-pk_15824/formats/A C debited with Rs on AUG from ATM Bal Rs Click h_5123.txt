@@ -1,0 +1,7 @@
+^.*\*(\d{4}) .ebit.*?with (\S+?)\.?\s*([\d\s.,]*\d) on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) from ATM.*Bal\.\s*(\S+?)\.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+A/C 0002****8939 debited with Rs. 8,000 on 06-AUG-21 from ATM. Bal. Rs. 268,792. Click http://bit.ly/2t4fya8 for Digital App. For queries, call 111825888.

@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*?(\d{4}):\s+(.(?:ozvrat|озврат).*?)\s+на\s+сум.*?([A-Z]{3})\s*<?\+?([\d\s.,]*\d)>?\s+.*(?:alan|алан).*?([A-Z]{3})\s*(-?[\d\s.,]*\d)\s+(.*?)(?:\s+║\s+.*)?$
+
+-----COLUMNS-----
+date#dMy;syncid;comment;instrument;income;acc_instrument;av_balance;payee
+
+-----EXAMPLE-----
+23.08.2024 CARD2527: Возврат товара на сумму RUR <+3,198.00> Баланс: RUR 34,365.09 OSTIN/SURGUT/RU ║ Возврат товара на сумму RUR <+3,198.00>
+
+-----EXAMPLE-----
+26.11.2024 19:41 CARD2113: Возврат товара на сумму RUR <+129.99> Баланс: RUR 27,752.59 MAGNIT DOSTAVKA_YM/Krasnodar/RU ║ Возврат товара на сумму RUR <+129.99>

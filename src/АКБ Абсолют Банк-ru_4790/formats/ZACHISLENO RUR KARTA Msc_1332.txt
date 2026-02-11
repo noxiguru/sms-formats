@@ -1,0 +1,7 @@
+^.*ZACHISLENO ([\d\s.,]*\d) ([A-Z]{3}).(?!.*BALANS).*?(\d{4});.*?([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+ZACHISLENO 15 000.00 RUR;KARTA: *8167;11-12 31.07.2014 Msc

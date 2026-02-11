@@ -1,0 +1,7 @@
+^NALI.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*([\d.]{10}).*OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+NALICHNYE 1000.00 USD KARTA #5591 DATA 27.01.2020 17:48:50 ACODE 994815 BANK RESHENIE ATM-2>MINSK>BY OSTATOK 5252.25 BYN

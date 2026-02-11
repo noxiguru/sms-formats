@@ -1,0 +1,19 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}) .*(?:еревод с|erekaz k|переказ к|ransfer).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:осту|ostu|vail).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+06.12.20 15:55 Visa Signature*6168 С2С перевод средств с карты 355.00 UAH RONLINE C2C Visa. Доступная сумма: 10789.06 UAH ║ Raiffeisen
+
+-----EXAMPLE-----
+16.12.20 13:43 Visa Gold*0262 perekaz koshtiv 211.60 UAH RAIFFEISEN ONLINE1. Dostupna suma 8994.73 UAH
+
+-----EXAMPLE-----
+17.01.21 08:33 Visa Signature*8196 C2C perekaz koshtiv z kartky 2020.00 UAH RONLINE C2C Visa. Dostupna suma: 234.24 UAH
+
+-----EXAMPLE-----
+07.03.21 15:29 Visa Gold*3047 переказ коштів 302.00 UAH RAIFFEISEN ONLINE UAH. Доступна сума 58.03 UAH ║ Raiffeisen
+
+-----EXAMPLE-----
+04.04.21 20:14 Visa Signature*6981 transfer transaction 11000.00 UAH RAIFFEISEN ONLINE UAH. Available amount 13832.07 UAH ║ Raiffeisen

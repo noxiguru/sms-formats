@@ -1,0 +1,7 @@
+^Payment\s+of\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+\(([A-Z]{3}|\W)\s*([\d\s.,]*\d)\)\s+at\s+(.*?)\s+was\s+(cancelled).*ending.*?(\d{4}).*
+
+-----COLUMNS-----
+acc_instrument;income;instrument;op_income;payee;comment;syncid
+
+-----EXAMPLE-----
+Payment of EUR 7.5 (AED 30.73) at Bolt eu o was cancelled and the amount has been credited back to your Wio Personal card ending with 8772.

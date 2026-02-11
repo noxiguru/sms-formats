@@ -1,0 +1,7 @@
+^([\d.]{8}) .*?(\d{4}) .p[iy]san.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+31.10.18 19:09 Z kartu 8514 spysano 100.00 UAH,  Balans: 1753.50 UAH  (050)(068)(056)7345005

@@ -1,0 +1,27 @@
+^(\d{2}[-./]\d{2}[-./]?\d{0,4}) .*(?:overnen|opovnen).*\*(\d{4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|alysh).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+04/11 00:49 Popovnennya kartkovogo rahunku.  Кartkа *5844.  Suma: 87664.82 UAH. Misce: OTP_IB2_POS Zalyshok: 91356.09 UAH
+
+-----EXAMPLE-----
+29.01 17:15
+Popovnennya kartky:
+*1234
+Suma: 123.12 UAH
+Zalyshok: 123.12 UAH
+vkl. kredyt. limit 0 UAH
+
+-----EXAMPLE-----
+18/11 19:13 Popovnennya kartky.  Kartka *2996.  Suma: 10000 UAH. Misce: OTP_PAYMENTS Dostupnyi zalyshok: 11362.66 UAH
+
+-----EXAMPLE-----
+22.11 10:30 Popovnennya kartky: *3848.  Suma: 1,750.32 UAH. Dostupnyi zalyshok: 1750.32 UAH vkl. kredyt. limit 0 UAH
+
+-----EXAMPLE-----
+02.04 11:15 Povernenia koshtiv na osnovniy rahunok: Kartka *3423.  Suma: 1,625.00 UAH. Dostupnyi zalyshok: 7668.7 UAH vkl. kredyt. limit 0 UAH
+
+-----EXAMPLE-----
+03/09 17:24 Popovnennya kartky.  Kartka *0660.  Suma: 1000 UAH. Misce: OTP_PAYMENTS Dostupno: 1459.89 UAH Kred.Lim: 0

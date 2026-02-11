@@ -1,0 +1,10 @@
+^.*?(\d{4})\s+([\d-]{8}) .*vydacha n.*?([\d\s.,]*\d)\s*([A-Z]{3});?\s+osta.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd-MM-yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VISA-7003 31-07-15 13:15 vydacha nalichnyh 150.00 RUB ostatok 16492.20 RUB; URAL FD, MONASTYRSKAJA, 15
+
+-----EXAMPLE-----
+VISA-2126 22-04-16 13:12 vydacha nalichnyh 3500.00 RUB;  ostatok 1273.57 RUB; URAL FD, KOSMONAVTOV, 111

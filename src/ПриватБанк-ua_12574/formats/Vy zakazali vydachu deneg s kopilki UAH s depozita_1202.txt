@@ -1,0 +1,7 @@
+^(.{4}).*?(\d[\d\s.,]*)([A-Z]{3}).*?zachisleny\s+na\s+kartu.\s+Bal.(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+5*23 17:16 Vy zakazali vydachu deneg s kopilki. 192.75UAH s depozita zachisleny na kartu. Bal:1646.84UAH  Procenty budut zachisleny zavtra. kopi.pb.ua

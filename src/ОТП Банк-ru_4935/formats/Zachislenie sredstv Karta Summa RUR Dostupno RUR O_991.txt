@@ -1,0 +1,10 @@
+^([\d.]{5}).*achislen.*?\*(\d{4}).\s+Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+30.09 11:22 Zachislenie sredstv. Karta: *1273. Summa: 91.58 RUR. Dostupno: 48352.16 RUR. OTP Bank
+
+-----EXAMPLE-----
+30.09 11:22 Zachislenie sredstv. Karta: *1273. Summa: 91.58 RUR. Dostupno: 48352.16 RUR. OTP Bank

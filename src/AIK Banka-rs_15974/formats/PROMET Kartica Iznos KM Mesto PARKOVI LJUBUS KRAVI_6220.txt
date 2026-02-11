@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*znos.*?([A-Z]{2,3}|\W)\s*([\d\s.,]*\d).*esto:\s+(.*?)\s+Auth.*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*Rasp.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+PROMET - Kartica *6192 Iznos: KM 30.00 Mesto: PARKOVI LJUBUS KRAVICA LJUBUSKI BA Auth: DXIRYE Vreme: 04-05-2024 /12:21:23 Rasp.: RSD 76,742.49. AIK Banka

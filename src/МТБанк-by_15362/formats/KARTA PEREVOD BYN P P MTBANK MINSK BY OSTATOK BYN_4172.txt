@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d-]{10}) [\d:]+ PEREVOD.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument
+
+-----EXAMPLE-----
+KARTA 535104******2692 2019-05-11 16:02:26 PEREVOD 73.00 BYN P2P_MTBANK               MINSK        BY OSTATOK 195.51 BYN Spr.:5099999

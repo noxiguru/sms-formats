@@ -1,0 +1,7 @@
+^(?:Начисление процентов|Nachislenie procentov).*?(\d{4})\s+(?:на сумму|na summu) ([\d\s.]*\d)\s*([A-Z]{3}). (?:остаток|ostatok) ([\d\s.]*\d).*?([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Начисление процентов по счёту SAFE номер *1257173  на сумму 16.27 RUR, остаток 2136.84 RUR; 27.03.2013 04:59.

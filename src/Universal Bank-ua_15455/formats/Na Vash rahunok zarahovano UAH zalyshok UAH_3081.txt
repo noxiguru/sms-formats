@@ -1,0 +1,7 @@
+^.*?ahun.*?(\d{4}) zarah.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.,]*\d).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Na Vash rahunok 1234567890 zarahovano  5680.00 UAH, zalyshok 5680.00 UAH 06.07.17 08:55

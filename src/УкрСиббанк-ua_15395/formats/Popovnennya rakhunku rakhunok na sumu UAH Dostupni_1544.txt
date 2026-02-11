@@ -1,0 +1,13 @@
+^(?:Popovn|Narak).*?([\d.]{10}).*?(\d{4})[ .].*(?:[Ss]um|ozmi).*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Popovnennya rakhunku: 08.01.2015 09:51:24, rakhunok 1234567890 na sumu 2,200.00UAH. Dostupniy zalyshok 4341.03UAH.
+
+-----EXAMPLE-----
+Narakhuvannia protsentiv na zalyshok po nakopychuvalnomu rakhunku: 29.12.2017, na rakhunok 1234567890 u rozmiri 12.61UAH. Dostupniy zalyshok 8354.91UAH.
+
+-----EXAMPLE-----
+Popovnennia rakhunku: A0309293 UKRSIBBANK, UA 15.01.2018 10:07. Kartka 5351***2207. Suma 900.00UAH. Dostupno 30.00UAH

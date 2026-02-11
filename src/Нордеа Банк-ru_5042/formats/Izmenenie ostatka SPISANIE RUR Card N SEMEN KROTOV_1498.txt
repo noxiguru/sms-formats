@@ -1,0 +1,7 @@
+^.*SPISANIE ([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}).*Balance.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: SPISANIE 60,00 RUR Card_N**4706 SEMEN KROTOV Balance: 245,02 2014-12-03 00:00:00

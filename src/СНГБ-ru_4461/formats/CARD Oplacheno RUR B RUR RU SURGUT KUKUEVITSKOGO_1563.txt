@@ -1,0 +1,16 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*?(\d{4})\D?\s+(?:Oplachen|Zakaz\s+po).*?([A-Z]{3})\s*([\d\s.,]*\d).*?>\s+B.*?(-?[\d\s.,]*\d)\s*>(?:\s*dost.*?<.*?>)?\s+(.*)
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;outcome;balance;payee
+
+-----EXAMPLE-----
+29.01.2015 19:23 CARD7810: Oplacheno <RUR 155.10> B<RUR 2,477.86> RU SURGUT KUKUEVITSKOGO 15_1 TST ALTAIR PRODUKTY.
+
+-----EXAMPLE-----
+25.05.2015 08:25 CARD2018: Zakaz po pochte (telefonu) <RUR 118.00 CREDIT 118.00> B<RUR -314,496.71 > dostupno <RUR 185,503.29 CREDIT 185,503.29> LU ITUNES.COM ITUNES.COM/BILL ITUNES.COM/BILL
+
+-----EXAMPLE-----
+03.02.2017 08:12 CARD4411: Oplacheno <RUR 89.08> B<RUR 8,624.22> TYUMEN R LYUKSEMBURG 12 7 STOLOVAYA 262
+
+-----EXAMPLE-----
+25.09.2018 12:05 CARD9614: Oplacheno <RUR 812.00> B<RUR -5,067.20> dostupno <RUR 194,932.80> SURGUT KUKUEVITSKOGO 5 2 STOLOV S161 KASSA 2

@@ -1,0 +1,7 @@
+^.*\*([\d]{4}). Otmena (?:oplaty|pokupki).*?\s([\d\s.]*\d)\s*([A-Z]{3}). Mesto:\s*([^;]+); (\d{2}\.[\d.]{7}).*Dostupno.*? (-?[\d\s.]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+5203***6614; Otmena oplaty tovarov/uslug: 1.00 USD; Mesto:PAYPAL,4029357733; 13.10.2013 00:00 Dostupno po karte: 602.62 RUB.

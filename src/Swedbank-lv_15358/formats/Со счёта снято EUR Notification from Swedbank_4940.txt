@@ -1,0 +1,7 @@
+^Со сч.*нято ([\d\s.,]*\d)\s*([A-Z]{3})\W? ║ Notif.*
+
+-----COLUMNS-----
+outcome;instrument
+
+-----EXAMPLE-----
+Со счёта снято 600 EUR. ║ Notification from Swedbank

@@ -1,0 +1,7 @@
+^.*plata.*? ([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*opasow.*? (\d{4}) .*ATM .*
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;syncid#cash
+
+-----EXAMPLE-----
+Alerty24: wplata we wplatomacie 5000,00 PLN 07-10-2022 Karta Dopasowana Mastercard 6237 ATM SANTANDER PL WARSZAWA D1700807

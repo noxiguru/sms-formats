@@ -1,0 +1,7 @@
+^Perekaz.*([\d.]{10}).*(na .*?) na sum.*?([\d\s.,]*\d)\s*([A-Z]{3}) z .*?\*(\d{4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;comment;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Perekaz koshtiv: 15.01.2018 06:25:45 na kartku 516930****8335 PALCHYK NINA na sumu 500,00 UAH z kartky 535128****2829. Dostupnyi zalyshok 18.589,76 UAH.

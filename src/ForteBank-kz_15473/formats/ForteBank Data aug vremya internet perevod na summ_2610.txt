@@ -1,0 +1,7 @@
+^.*ata.*?(\d{2}\s+\w{3}\s+\d{4}).*internet\s+per.*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?so\s+sch.*?(\d{4})\s+(na\s+.*?)\s+uspesh.*
+
+-----COLUMNS-----
+date#dd MMM yyyy;outcome;instrument;syncid;comment
+
+-----EXAMPLE-----
+ForteBank. Data 31 aug 2016, vremya 09:59:13,  internet perevod na summu 10000.00 KZT so scheta 77784 na kartu 5132********4827 uspeshno vipolnen.

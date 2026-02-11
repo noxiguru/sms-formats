@@ -1,0 +1,10 @@
+^([\d.]{10}).*(\d{2})\s+(?:zachisl|зачисл|postupil).*?([\d\s.,]*\d)\s*([a-zA-Z]{3})\s+(?:Plat[^:]+:|ot)\s+(.*).\s+Ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+07.04.2015 14:53 (Msk) na schet 408028102***32 zachisleno 13740.00 RUB Platelshik: OOO "Zolotaia rybka", Ostatok po schetu 13830.81 RUB
+
+-----EXAMPLE-----
+16.05.2016 17:16 (Ekb) na schet 408028108**89 postupilo 14500.00 RUR ot OOO PKP "VOSHOD. Ostatok po schetu 19632.93 RUR

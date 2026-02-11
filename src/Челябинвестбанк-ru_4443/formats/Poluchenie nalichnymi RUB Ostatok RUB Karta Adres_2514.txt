@@ -1,0 +1,7 @@
+^([\d.]{8}).*oluch.*?nal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stato.*?(-?[\d\s.,]*\d).*arta.*?(\d{4}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;av_balance;syncid#cash
+
+-----EXAMPLE-----
+09.07.16 10:23 Poluchenie nalichnymi 10000.00 RUB. Ostatok: 181572.83 RUB. Karta: *1574. Adres: Chelyabinsk, ul.Tsinkovaya, d.1

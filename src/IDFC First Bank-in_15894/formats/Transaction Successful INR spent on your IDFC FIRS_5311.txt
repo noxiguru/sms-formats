@@ -1,0 +1,7 @@
+^Transac.*?([A-Za-z]{2,3})\s*([\d\s.,]*\d) spent.*ending.*?(\d{4}) at (.*?) on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}).*Avbl.*?([A-Za-z]{2,3})\.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dM;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Transaction Successful! INR 383.00 spent on your IDFC FIRST Bank Credit Card ending XX1873 at MEDIWAYS CHEMISTS on 02-JUN-2022 at 07:12 PM. Avbl limit: Rs.1387755.15. If not done by you, call 18605001111 for dispute or to block your card SMS CCBLOCK 1873 to 5676732

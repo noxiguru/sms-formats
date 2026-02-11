@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d.]{8}) .*SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*KOMIS.*?([\d\s.,]*\d).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+VISA 4*4975 29.06.17 12:37 SPISANIE 35000.00 RUB KOMISSIYA 0.00 RUB BANK SPB IB (ST PETERBURG,RU) DOSTUPNO 30392.92 RUB

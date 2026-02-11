@@ -1,0 +1,7 @@
+^.*X(\d{4}) SNYAT.*?([\d\s.,]*\d).*VALY\w+\W([\dA-Z]{3}) na (.*?)\.\s+BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+KARTA:XXXX0400 SNYATA SUMMA 600.00. VALYUTA:643 na SMS.RU,Moskva,RU. BALANS POSLE OPLATI:  6.23

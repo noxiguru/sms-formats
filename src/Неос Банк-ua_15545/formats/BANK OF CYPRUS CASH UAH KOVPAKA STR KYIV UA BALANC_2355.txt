@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d-]{10}).*CASH([\d\s.,]*\d)\s*([A-Z]{3}).*BALANCE(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+BANK OF CYPRUS *0462 2016-04-12 20:23:58 CASH 2000.00 UAH KOVPAKA STR., 29 KYIV UA BALANCE 531.79 UAH

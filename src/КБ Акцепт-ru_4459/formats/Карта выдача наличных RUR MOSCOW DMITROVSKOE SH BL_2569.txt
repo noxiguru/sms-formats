@@ -1,0 +1,7 @@
+^.*?арт.*?(\d{4}):?\s+([\d.]{8}) .*?ыдача н.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?оступ.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 4716: 10.08.16 09:44, выдача наличных 1000.00 RUR, 1234567890, MOSCOW, 155 DMITROVSKOE SH BLD 1. Доступно 7047.04 RUR.

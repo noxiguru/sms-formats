@@ -1,0 +1,7 @@
+^Покупка.*\*(\d{4}).*на .*?([\d\s.,]*\d)\s*([A-Z]{3})\.?\s+(.*?)\.\s+([\d.]{8}) .*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Покупка по карте *3536 на 1318.16 RUB. PYATEROCHKA 987         >, KALUGA, . 03.07.18 21:25. Доступно: 5634.75 RUB

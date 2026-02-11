@@ -1,0 +1,13 @@
+^(?:Tranz|Pre-auth) (?!ATM|dvs).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}).*isponi.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\. Come\w+: (.*?)(?:,\s*)*\.?$
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Tranz POS. Suma 9.74 RON. Card nr. ****8374, STEPAN CURUCI. 07.09.22 06:45. Suma disponibila: 56.81 RON. Comerciant: OMV 1028, RO,Bucuresti, .
+
+-----EXAMPLE-----
+Tranz INTERNET. Suma 1.81 RON. Card nr. ****8374, STEPAN CURUCI. 25.09.22 18:54. Suma disponibila: 71.11 RON. Comerciant: WWW.ORANGE.RO CONTUL-MEU, RO,BUCURESTI
+
+-----EXAMPLE-----
+Tranz INTERNET. Suma 4.99 EUR. Card nr. ****8374, STEPAN CURUCI. 15.09.22 00:30. Suma disponibila: 879.93 RON. Comerciant: Spotify, SE,Stockholm, .

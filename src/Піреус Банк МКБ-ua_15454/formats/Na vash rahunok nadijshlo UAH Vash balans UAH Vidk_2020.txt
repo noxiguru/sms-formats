@@ -1,0 +1,10 @@
+^([\d.]{5}).*Na .*?(\d{4})\s+nadij.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|alysh).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+06.10 14:15 Na vash rahunok 2620******2961 nadijshlo 647.12 UAH. Vash balans 829.97 UAH. Vidkryite oshchadnyi rahunok Myttevyi za stavkoiu do 15% na rik!
+
+-----EXAMPLE-----
+18.11 12:45 Na vash rahunok 2620******1883 nadijshlo 4,115.56 UAH. Zalyshok 4279.03 UAH. Zamovlyaite kreditnu kartku - otrymaite 3% Cash back vid sumy pokupky!

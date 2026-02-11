@@ -1,0 +1,10 @@
+^.*\*\d*(\d{4}):\s*-([\d\s.,]+\s*)\s+(?:\([\d\s.,]*\d\)\s+)?.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}-[\d-]{5}).*?\]\s*(?!.*ATM)(.*)\s+Tel:.*
+
+-----COLUMNS-----
+syncid;outcome;av_balance;acc_instrument;date#yMd;payee
+
+-----EXAMPLE-----
+Karta *0523: -3128.00 (3128.00) Dostupno:1143.77 UAH Over:0.00 UAH Rahunok:1143.77 UAH [2015-10-08 09:37:33] MARFIN BANK BR5 UJNIY UA Tel:0800500255
+
+-----EXAMPLE-----
+Rahunok *1431: -12.00 Dostupno:5061.10 UAH Over:1000.00 UAH Rahunok:4061.10 UAH [2019-01-10 17:57:11] Tel:0800500255

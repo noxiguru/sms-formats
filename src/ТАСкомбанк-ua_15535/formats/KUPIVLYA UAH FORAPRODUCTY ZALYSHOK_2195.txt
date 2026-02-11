@@ -1,0 +1,7 @@
+^(\d{4})\s+([\d/]{8}).*KUPIVLYA([\d\s.,]*\d)\s*([A-Z]{3}).*ZALYSHOK([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+5463 22/01/16, 18:53:14 KUPIVLYA 31.96 UAH FORAPRODUCTY0000002204 ZALYSHOK 4 266.47

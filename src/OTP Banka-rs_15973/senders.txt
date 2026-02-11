@@ -1,0 +1,2 @@
+eu.newfrontier.iBanking.mobile.SOG.Retail
+otp_info

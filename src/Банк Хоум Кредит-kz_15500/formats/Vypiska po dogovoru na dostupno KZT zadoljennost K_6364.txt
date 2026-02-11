@@ -1,0 +1,7 @@
+^Vypiska\s+po\s+dog.*?(\d{4})\s+na\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostup.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Vypiska po dogovoru 4102041211 na 24.09.24: dostupno 111.98 KZT, zadoljennost' 779601.68 KZT, ejemes. platej 46776.00 KZT. Oplata do 24.10.24.

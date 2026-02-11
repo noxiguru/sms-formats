@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}) Zniat.*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+-200.00UAH Zniattia hotivky DN00           , UA, Kartka 4102***1049, 29.07.22 18:16. Balans: 3714.53UAH Korysne tut: https://sense.top/info ║

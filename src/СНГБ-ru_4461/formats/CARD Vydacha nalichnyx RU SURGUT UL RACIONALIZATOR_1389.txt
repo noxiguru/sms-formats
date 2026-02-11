@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*?(\d{4})\D?\s+(?:Vyda|Выда).*<([A-Z]{3})\s+([\d\s.,]*\d)>\s+B<[A-Z]+\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;instrument;outcome;av_balance
+
+-----EXAMPLE-----
+30.09.2014 11:39 CARD4011: Vydacha nalichnyx RU SURGUT UL. RACIONALIZATOROV, 17 ATM192 PTF SNTS <RUR 400.00> B<RUR 75.00>.
+
+-----EXAMPLE-----
+03.02.2020 21:16 CARD1234: Выдано <RUR 60.00> B<RUR 100.00> Tyumen Lenina str. Alfa Iss ║ Выдано 60.00 ₽ Lenina str.

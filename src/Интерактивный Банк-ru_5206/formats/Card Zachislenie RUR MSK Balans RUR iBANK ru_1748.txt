@@ -1,0 +1,7 @@
+^.*?(\d{4}) Zachis.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}).*alans.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Card*8317 Zachislenie 21,800.00 RUR 15.05.15 18:05 MSK Balans 21,800.00 RUR iBANK.ru

@@ -1,0 +1,7 @@
+^.*funds trans.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*into.*?\*(\d{2}-\d{2}) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Client, an electronic funds transfer of PKR 200000.00 has been made into your Account No. 18-00***61-01 on 20-10-22 via Online Banking. Avail. Bal: PKR 3877522.36.

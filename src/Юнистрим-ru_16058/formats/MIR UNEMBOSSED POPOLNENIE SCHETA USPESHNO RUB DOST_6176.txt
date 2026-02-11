@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+POPOLN.*USPES\w+\s+([\d\s.,]*\d)\s*([A-Z]{3})\W\s*(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]+\s+DOSTU.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+MIR UNEMBOSSED ****1000 POPOLNENIE SCHETA;USPESHNO 22100.00 RUB;10.04.24 19:11 DOSTUPNO 22113.18 RUB

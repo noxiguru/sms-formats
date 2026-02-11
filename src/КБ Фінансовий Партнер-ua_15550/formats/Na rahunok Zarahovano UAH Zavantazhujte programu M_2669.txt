@@ -1,0 +1,7 @@
+^.*?#(\d{4}).*arahov.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Na rahunok 2625#33001 Zarahovano 6053.80 UAH 30/09/2016 Zavantazhujte programu MBanking na Vash telefon www.ukrcard.com.ua/mobile

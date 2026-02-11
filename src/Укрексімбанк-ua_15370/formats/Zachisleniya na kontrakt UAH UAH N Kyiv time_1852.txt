@@ -1,0 +1,10 @@
+^(?:Zachis|Zarah).*?([\d\s.,]*\d)\s*([A-Z]{3})\s*=\s*([\d\s.,]*\d).*N.*\*(\d{4}).*([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;syncid;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Zachisleniya na kontrakt  1 756.48 UAH = 1 796.85  UAH N 0**9778(Kyiv time 2015-06-26 17:58:14)
+
+-----EXAMPLE-----
+Zarahuvannia na kontrakt  4234.35 UAH = 10411.48  UAH N 8**4947(Kyiv time 2019-01-04 12:57:51)

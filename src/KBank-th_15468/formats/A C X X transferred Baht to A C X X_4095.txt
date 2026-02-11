@@ -1,0 +1,7 @@
+^([\d/]{8})(?!.*alanc) .*X\d*(\d{4}).*transferred.*?([\d\s.,]*\d)\s*([a-zA-Z]{3,4}) (to .*)
+
+-----COLUMNS-----
+date#dd/MM/yy;syncid;outcome;instrument;comment
+
+-----EXAMPLE-----
+17/01/19 22:36 A/C X323345X transferred 13340.00 Baht to A/C X324918X

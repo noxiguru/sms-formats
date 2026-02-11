@@ -1,0 +1,13 @@
+^(?:Spis|Oplat).*?:\s*(.+)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Spisanie: YUBILEYNIY PR-T D.60 A 315.00 RUR Karta **7498  LEONID MAKAROV  BAL:1 419.80 RUR 2015-10-15 13:03:47
+
+-----EXAMPLE-----
+Oplata: MCDONALDS 24044 381.00 RUR Karta **7498 LEONID MAKAROV BAL:510.99 RUR 2016-09-23 08:52:57
+
+-----EXAMPLE-----
+Oplata:I-KONNTEKUSUTO 14 040.00 JPY  Karta **3832  VERA VALIEVA  BAL:470.85 USD 2016-10-03 15:28:42

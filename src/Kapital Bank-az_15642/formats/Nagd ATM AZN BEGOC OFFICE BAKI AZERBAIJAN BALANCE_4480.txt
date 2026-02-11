@@ -1,0 +1,10 @@
+^(?:Nagd|Snat).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+BALA.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Nagd(ATM) 1 000.00 AZN BEGOC OFFICE BAKI AZERBAIJAN 4169**4695 17:01 10.01.20 BALANCE 6 777.00 AZN
+
+-----EXAMPLE-----
+Snatiye nalichnix sredstv(ATM) 30.00 AZN ZEFER BRANCH1 BAKI AZERBAIJAN 4169**8275 19:53 31.10.23 BALANCE 80.92 AZN

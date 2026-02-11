@@ -1,0 +1,7 @@
+^(?:Datu.*?)?(\d{2}[-./]\d{2}[-./]?\d{0,4}).*\d+\*+(\d{2,4}).*dliv.*?([\d\s.,]*\d)\s*([A-Z]{3}).*aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Datum: 28.11.2024, Vreme: 01:59:08 Devizni racun: 93417***66 Odliv: 900,00 EUR Raspoloziva sredstva: 114,27 EUR Vasa OTP banka ║ Obavestenje

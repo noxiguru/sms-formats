@@ -1,0 +1,10 @@
+^([\d.]{5}).*achislen.*?([A-Z]{3})\s*([\d\s.,]*\d).*art.*?[-*](\d{4}).*
+
+-----COLUMNS-----
+date#dd.MM;instrument;income;syncid
+
+-----EXAMPLE-----
+17.03 16:00 Zachislenie: UAH 614.55 Karta: 5168-2319 Tel: +1234567890.  Depozit do 17,5%! Oformlyayte s mobilnogo! Zvonite: 5595
+
+-----EXAMPLE-----
+20.07 11:30 Zachislenie: UAH 21,039.40 Karta: *3065 Perevod na kartu lyubogo banka: p2p.sberbank.ua. Tel: 5595

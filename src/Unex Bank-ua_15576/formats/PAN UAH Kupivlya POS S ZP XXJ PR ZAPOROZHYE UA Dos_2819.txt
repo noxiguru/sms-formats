@@ -1,0 +1,7 @@
+^.*?#(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*upiv.*?\s+(.*?)\s+([\d/]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+PAN#7432 182.19 UAH Kupivlya POS S1ZP0XXJ PR1011 ZAPOROZHYE UA 05/01/2017 13:34:14 Dostupno: 2700.26 UAH Vsogo: 2710.26 UAH

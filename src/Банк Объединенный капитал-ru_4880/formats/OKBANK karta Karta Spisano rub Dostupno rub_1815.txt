@@ -1,0 +1,7 @@
+^.* ([\d.]{8}) .*?\*\d*(\d{4}).*pisan.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+OKBANK karta 15.11.18 15:21 Karta: *014206 Spisano: 30.00 rub. Dostupno = 24556.62 rub

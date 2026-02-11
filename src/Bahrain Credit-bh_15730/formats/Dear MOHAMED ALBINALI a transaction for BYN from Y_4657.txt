@@ -1,0 +1,7 @@
+^.*ransaction for ([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d? from (.*?) on (\d{2}[-./]\d{2}) .*#\s*x*(\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;payee;date#dM;syncid
+
+-----EXAMPLE-----
+Dear MOHAMED ALBINALI,a transaction for BYN 4.40 from Yandex.Taxi Amsterdam NLD on 17/05 @ 21:38 approved MasterCard # xxxx5938

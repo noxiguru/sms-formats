@@ -1,0 +1,10 @@
+^\S+\s+([\d.]{5}) .*?\*(\d{4}).*?racija vdal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?erminal\s+(.+?)\.\s+.*?ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+TRUST 11.07 09:57. Kartka *7009, Kupivlya. Operacija vdala. Suma 85.00 UAH. Terminal EASYPAY.TELECOM. Cred.limit 0.00 UAH. Dostupno 89.11 UAH
+
+-----EXAMPLE-----
+TRUST 14.10 17:53. Kartka *7009. Operacija vdala. Suma 20.00 UAH. Terminal Easypay_mobile. Cred.limit 0.00 UAH. Dostupno 239.48 UAH

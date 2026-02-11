@@ -1,0 +1,7 @@
+^.*msatzweck.*?-([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*x(\d{3,4})\D.*?-(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Umsatzwecker "Umsatz soll": DEUTSCHE .: -12,10 EUR Neuer Saldo zu Konto xxxxx253: -48,14 EUR Ihre Sparkasse

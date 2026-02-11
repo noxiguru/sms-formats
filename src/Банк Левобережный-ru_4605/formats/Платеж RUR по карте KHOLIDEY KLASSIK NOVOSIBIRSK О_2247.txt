@@ -1,0 +1,25 @@
+^(?!.*(?:OTMENA|ОТМЕНА|KOMIS)).*(?:PLAT|П(?:ЛАТ|лат)|SPISAN).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:KART|КАРТ|карт).*?(\d{4})\.?\s+(.*?)\.?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:OST|ОСТ|[Оо]ста).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Платеж 156.97 RUR по карте 8888. KHOLIDEY KLASSIK, NOVOSIBIRSK. 28.01.2016 16:30.Остаток 2.33 RUR
+
+-----EXAMPLE-----
+PLATEZH 0.99 USD PO KARTE 8219. HDS*HEADSPACE, 855-4323822. 08.09.16 06:12 MSK.OSTATOK 11.26 RUR
+
+-----EXAMPLE-----
+ПЛАТЕЖ 1738.06 RUR ПО КАРТЕ 3219. GAZPROMNEFT AZS 138, NOVOSIBIRSK. 03.12.17 07:34 МСК.ОСТАТОК 90280.09 RUR
+
+-----EXAMPLE-----
+BL-ONLINE www.nskbl.ru/app, PLATEZH 963.19 RUR PO KARTE 6032. 3DI PLATOSFERA, NOVOSIBIRSK. 10.02.20 13:37 MSK.OSTATOK 42050.45 RUR
+
+-----EXAMPLE-----
+BL-ONLINE www.nskbl.ru/app PLATEZH 119.97 RUR PO KARTE 9940. MAGNIT MM BAGROVOS, Kolczovo. 09.03.2023 18:42 MSK.OSTATOK 14188.94 RUR
+
+-----EXAMPLE-----
+BL-ONLINE www.nskbl.ru/app OPLATA 94.60 RUR KARTA 9940 MARIYA-RA, Kolczovo 17.07.2023 14:46 MSK. OSTATOK 9161.73 RUR
+
+-----EXAMPLE-----
+SPISANIE 35.00 RUR KARTA *3700 TRANSPORT NSK METR, NOVOSIBIRSK 07.03.2024 04:10 MSK. DOSTUPNO 647.64 RUR

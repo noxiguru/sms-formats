@@ -1,0 +1,7 @@
+^.* (\d{4}[-./]\d{2}[-./]\d{2}) [\d:]+ 출금 ([\d\s.,]*\d)\s*([A-Z]{3}|\S)\W? 잔액 (-?[\d\s.,]*\d)\s*([A-Z]{3}|\S) (.*) \d+\*+\d+(\d{4}).*
+
+-----COLUMNS-----
+date#yMd;outcome;instrument;av_balance;acc_instrument;payee;syncid
+
+-----EXAMPLE-----
+[Web발신] 2021/08/19 04:55 출금 11,000원 잔액 1,003,145원 LIIULIIA_아 665***08301015 기업

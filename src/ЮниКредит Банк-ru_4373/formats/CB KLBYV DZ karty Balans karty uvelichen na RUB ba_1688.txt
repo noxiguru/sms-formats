@@ -1,0 +1,19 @@
+^.*(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:[уy]в[еe]ли|uveli).*?([\d\s.,]*\d)\s*([A-ZА-Я]{3}).*(?:[оo][сc]т[уy]|[аa]л[аa]н|ostu|alan).*?(-?[\d\s.,]*\d)\s*([A-ZА-Я]{3}|).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+CB KLBYV6DZ #karty 3518 15.10.2013 Balans karty uvelichen na 8322.22 RUB balance: 13500.78 available: 13500.78.
+
+-----EXAMPLE-----
+CT KLBYV6DZ Карта 3518 21.10.2013 15:03 Баланс карты увеличен на 2500.00 RUB. Баланс: 13518.88. Доступно: 13518.88.
+
+-----EXAMPLE-----
+Карта 4899 20.04.2015 11:35 Баланс карты увеличен на 19245.35 RUB. Баланс: 120500.35 RUR. Доступно: 120500.35 RUR
+
+-----EXAMPLE-----
+Karta 9583 13.05.2020 12:25 Balans karty uvelichen na 63035.86 RUB. Dostupno: 287530.13 RUB
+
+-----EXAMPLE-----
+Kaрта 2622 31.01.2021 22:01 Балaнс карты увeличeн на 12600.00 RUB. Дocтупнo: 18404.08 RUB

@@ -1,0 +1,7 @@
+^.*end.*?(\d{4}).*ash\s+withd.*?([A-Z]{3})\s*([\d\s.,]*\d)\s+.*\s+on\s+([\d]{2}-\w+-\d{2,4}).*bal.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Card ending in 8885 was used for cash withdrawal: AED 3,920.84 at RIYAD BANK on 28-DEC-2024 09:21 PM. Avl bal: AED 946.36

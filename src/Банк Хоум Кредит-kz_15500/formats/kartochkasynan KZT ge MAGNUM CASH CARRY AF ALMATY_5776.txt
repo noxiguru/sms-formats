@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4})\s+karto.*?-([\d\s.,]*\d)\s*([A-Z]{3})-ge\s+(.*?)\s+operac.*aldyq\s+(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+03.05.23 08:46:37 **9589 kartochkasynan -1099.00 KZT-ge MAGNUM CASH&CARRY AF1-, ALMATY, KZ operaciya oryndaldy. Qoljetimdi qaldyq 259.00 KZT.

@@ -1,0 +1,25 @@
+^.*([Хх][Аа][Лл][Вв][Аа])(?!.*свои деньги)\s+.(?:ПЛАТА|плата) ([\d.,]*\d) (?:в)?\s*(?:.*MD00)?(.*?)[.,]?\s*.(?:алан|АЛАН).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;payee;av_balance
+
+-----EXAMPLE-----
+Халва оплата 1867 p MD00OZON.RU, баланс 79069.70 http://scb.im/hva
+
+-----EXAMPLE-----
+ХАЛВА оплата 208.72 MD00YARCHE, Баланс 80735.94 https://scb.im/hva
+
+-----EXAMPLE-----
+ХАЛВА оплата 95 MD00https:// Баланс 19147.31 https://scb.im/hva
+
+-----EXAMPLE-----
+ХАЛВА оплата 587 3DI MMR-DELI Баланс 98347.81 https://scb.im/hva
+
+-----EXAMPLE-----
+ХАЛВА оплата 420 DOM.RU UFA,  Баланс 126392.53 https://scb.im/hva
+
+-----EXAMPLE-----
+ХАЛВА оплата 268 OOO Sputnik, Баланс 1586.72 https://scb.im/hva
+
+-----EXAMPLE-----
+"ХАЛВА оплата 338 GUDFUDORLIK, Баланс 28337.47 https://scb.im/hva" ║ Совкомбанк

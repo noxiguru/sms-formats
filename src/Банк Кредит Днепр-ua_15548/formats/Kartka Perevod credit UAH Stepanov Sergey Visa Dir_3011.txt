@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*credit([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+Kartka ***8425 Perevod credit 500.00 UAH 08.04.17 13:00 Stepanov Sergey, Visa Direct,

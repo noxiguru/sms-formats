@@ -1,0 +1,7 @@
+^.*\*-?(\d{4}) .*harged on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) .*for (\S+?)\s*([\d\s.,]*\d) at (.*?)\. For info.*
+
+-----COLUMNS-----
+syncid;date#dMy;instrument;outcome;payee
+
+-----EXAMPLE-----
+Dear Customer, your UBL MasterCard *-8405 has been charged on 16-JUL-21 at 11:24:36 AM for RS 885.00 at IMTIAZ SUP. For info , call 111825888.

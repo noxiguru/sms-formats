@@ -1,0 +1,7 @@
+^Spisan.*\*(\d{4}) .*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*/ Mesto: (.*?) / .*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;av_balance
+
+-----EXAMPLE-----
+Spisano s karti 468597****4664 12.49 (12.69 USD) / Mesto: GOOGLE *Zenmoney>855-836-3987 US / Vremya: 03.06.2020 17:56:06 Ostatok: 100.23USD

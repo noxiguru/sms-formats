@@ -1,0 +1,7 @@
+^.*?Auth.(.+?) ([\d\s.,]*\d)([A-Z]{3}) \(Komissia ([\d\s.,]*\d).*Card_N\*\*(\d{4}).*BAL.(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;fee;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth:LOCCITANE 5 330.00RUR (Komissia 0.00) Card_N**1836 YULIYA EGOROVA BAL:7 111.79 RUR 2014-12-09 19:52:54

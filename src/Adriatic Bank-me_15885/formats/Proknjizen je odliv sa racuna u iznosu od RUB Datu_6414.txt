@@ -1,0 +1,7 @@
+^.*odliv\s+sa\s+rac.*?(\d{2}\.\d)\s+u\s+izn.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+.atum\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy
+
+-----EXAMPLE-----
+Proknjizen je odliv sa racuna 40-360-0000041.7 u iznosu od 36429700RUB Datum 20.12.2024. Opis

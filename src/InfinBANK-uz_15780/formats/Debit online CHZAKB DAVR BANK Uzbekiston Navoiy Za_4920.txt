@@ -1,0 +1,10 @@
+^(?:Debit|Spisan).*\D(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*alan.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Debit online: CHZAKB DAVR BANK, Uzbekiston, Navoiy Zarkaynar Blok A,16.01.21 00:24,karta ***9295. summa:25000.00 UZS balans:88539.66 UZS
+
+-----EXAMPLE-----
+Spisanie c karty: PAYME P2P, ,09.03.22 14:16,karta ***7955. summa:13200.00 UZS balans:183176.97 UZS

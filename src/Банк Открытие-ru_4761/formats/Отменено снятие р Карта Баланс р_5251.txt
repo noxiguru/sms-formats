@@ -1,0 +1,7 @@
+^(Отмен.*?снят.*?) ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? .арт.*?(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Отменено снятие 13 900 р. Карта *5212. Баланс 15 767.79 р.

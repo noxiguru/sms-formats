@@ -1,0 +1,7 @@
+^.*?: (.*?) ([A-Z]{2,3}|\W)\s*([\d\s.,]*\d) credit.*\*(\d{4}) on ([\d]{2}\w+\d{2,4}).*
+
+-----COLUMNS-----
+comment;instrument;income;syncid;date#dMy
+
+-----EXAMPLE-----
+RM0.00 CIMB: I-FUNDS TR FROM CA RM15.00 credited to your account ******4427 on 09FEB2023 13:08:41.

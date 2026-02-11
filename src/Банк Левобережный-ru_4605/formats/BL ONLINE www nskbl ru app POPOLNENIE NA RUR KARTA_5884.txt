@@ -1,0 +1,7 @@
+^.*POPOLN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}).*OSTAT.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+BL-ONLINE www.nskbl.ru/app POPOLNENIE NA 98376.90 RUR KARTA *8620 11.07.2023 15:29 MSK. OSTATOK 98376.90 RUR

@@ -1,0 +1,7 @@
+^Покуп.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*\s+║\s+(.*)
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Покупка на 1496.00 RUB. Доступно 26196.92 RUB ║ YANDEX MARKET

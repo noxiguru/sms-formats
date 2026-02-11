@@ -1,0 +1,7 @@
+^(?:Postu|Посту).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:cherez|через).*(?:tpravi|тправи)\w+\s+(?:-\s+)?(.*?)\.?\s+.(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Postuplenie na summu 2000.00 RUR cherez SBP. Otpravitel - IGOR VALEREVICH T.. Dostupno: 2224.15 RUR.

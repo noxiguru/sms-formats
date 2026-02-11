@@ -1,0 +1,7 @@
+شراء ([\d\s.,]*\d)\s*([A-Z]{3}) من حساب.*?\*(\d{4}) من\s+(.*?)\s+في ([\d-]{10}) .*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+شراء 3.99 EUR من حساب **0001 من PAYPAL *ORIGIN.COM في 2017-02-23 11:01 م

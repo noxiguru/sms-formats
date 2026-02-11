@@ -1,0 +1,7 @@
+^(Vyplata.*?) na kart.*?(\d{4}).*([\d-]{10}).*SUM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+Vyplata Voznagrazhdeniya (cash-back) na kartu 4*8718 za operacii po kartam 4*8718; 2017-10-06 15:13:40; SUMMA 88.50 RUR; BALANCE 271.26 RUR;

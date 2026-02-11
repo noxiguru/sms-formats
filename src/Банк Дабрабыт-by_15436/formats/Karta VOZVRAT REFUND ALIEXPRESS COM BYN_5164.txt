@@ -1,0 +1,7 @@
+^.*?[.*](\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}).*(VOZVR.*?REFUN\w+\W?) (.+?)\s+([1-9]\d{0,2}(?:\s\d{3})*[,.]\d{2}|\d+[,.]\d{2})\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;comment;payee;income;instrument
+
+-----EXAMPLE-----
+"Karta 5127...2208" 22.10.2021 13:49:30 VOZVRAT (REFUND) ALIEXPRESS.COM 22.59 BYN

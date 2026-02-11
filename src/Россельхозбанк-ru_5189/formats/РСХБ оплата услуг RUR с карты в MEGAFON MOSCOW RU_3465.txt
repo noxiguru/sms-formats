@@ -1,0 +1,7 @@
+^.*?([\d/]{5}).*?(?:plata|плата)(?!.*omis|.*омис).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:s|с) .*?(\d{4}) (?:v|в)\s+(.*)\s+.(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+РСХБ 22/01 11:33:42 оплата услуг 100.00 RUR с карты *0005 в MEGAFON MOSCOW RU Доступно 33,842.36

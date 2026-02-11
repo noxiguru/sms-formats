@@ -1,0 +1,10 @@
+^(\d{2}-\d{2}-\d{2}) .*perac.*?(\d{3,4}) .*?umm.*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\.? .pisanie.\s+(.*)
+
+-----COLUMNS-----
+date#yMd;syncid;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+14-05-10 20:01  Operaciya po kartochke 4**813 na summu +1.00USD. Ostatok : 7597.18. Opisanie: GOOGLE *SELLER
+
+-----EXAMPLE-----
+17-03-07 10:55 Operaciya po kartochke K**5984 na summu +708.88USD. Ostatok : 3099.54. Opisanie: BRONIN

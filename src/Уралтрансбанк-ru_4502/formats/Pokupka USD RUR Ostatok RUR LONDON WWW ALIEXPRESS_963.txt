@@ -1,0 +1,7 @@
+^([\d.]{10}).*?\*(\d{4}). Pokupka ([\d\s.,]*\d) ([A-Z]{3}) \(([\d\s.,]*\d)[^)]*\). Ostatok ([\d\s.,]*\d)[^.]*. (.*)
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;op_outcome;instrument;outcome;av_balance;payee
+
+-----EXAMPLE-----
+25.08.2013 13:49. 425607*1755. Pokupka 7.98 USD (268.05 RUR). Ostatok 1 859.35 RUR. LONDON  WWW.ALIEXPRESS.COM.

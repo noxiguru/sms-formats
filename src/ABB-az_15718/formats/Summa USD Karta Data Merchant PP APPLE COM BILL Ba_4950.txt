@@ -1,0 +1,13 @@
+^(?!.*(?:alog|[Ff]ee))(?:Sum|Meb|Amou).*?-([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*(\d{2,4}[-./]\d{2}[-./]\d{2})\s+[\d:]{5,}\s+(?:.erchan\w+\W\s*)?(.*?)\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#yMd;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Summa:-3.99 USD Karta:4127***0892 Data:2021-02-13 13:05:18 Merchant:PP*APPLE.COM/BILL Balans:351.20 AZN
+
+-----EXAMPLE-----
+Mebleg:-110.00 AZN  Kart:4127***9869  Tarix:2021-05-06 11:13:27  Merchant:ATM CNV,ARAZ MARKET DOST  Balans:490.30 AZN
+
+-----EXAMPLE-----
+Summa:-3.00 AZN 5490***7743 2021-06-25 08:37:51 Bakcell 0553526320 Balans:1906.61 AZN

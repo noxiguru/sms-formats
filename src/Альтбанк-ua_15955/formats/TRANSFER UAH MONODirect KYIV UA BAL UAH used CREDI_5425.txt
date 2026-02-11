@@ -1,0 +1,7 @@
+^(\d{4}-\d{2}-\d{2}).*\*(\d{4}) TRANS.*?([\d\s.,]*\d)\s*([A-Z]{3}).*BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#yMd;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+2022-09-12 11:44:05 *5950 TRANSFER 420.00 UAH MONODirect KYIV UA BAL: 76930.24 UAH used CREDIT 0.00 UAH

@@ -1,0 +1,7 @@
+^.*onsumo\s+en\s+(.*?)\s+con\s+tu\s+tar\w+\s+(\w+).*?por\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+payee;syncid;instrument;outcome
+
+-----EXAMPLE-----
+Registramos un consumo en MARATHON SPORTS QUITO EC con tu tarjeta Visa Debito Produbanco por $77.90. Si no lo realizaste llama al 1700123123

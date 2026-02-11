@@ -1,0 +1,19 @@
+^(?:-|Покуп.*?)?([\d\s.,]*\d)\s*([A-Z]{3})\s+.(?:plata\s+usl|erevod\s+s|еревод|\s+[Вв]аше).*\*(\d{4}).*(?:alan|алан|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+-10,000.00 KZT Oplata uslug v Jysan24 Schet*7483 Balans 483 697.00 KZT Tel.7711
+
+-----EXAMPLE-----
+-100,150.00 KZT Perevod s karty  ***0786 Balans 235 187.02 KZT Tel.7711
+
+-----EXAMPLE-----
+300,000.00 KZT Perevod so scheta ***7483 Balans 426 205.02 KZT Tel.7711
+
+-----EXAMPLE-----
+Покупка на 6 757 KZT с Вашей цифровой карты Simply 444077******3486. Остаток: 0  KZT. Ожидайте бонус: 202.71 S!, но не более 30 000 S! в месяц. Терминал MAGNUM CASH&CARRY AF31-3, 17.04.2022 17:46:20
+
+-----EXAMPLE-----
+-819.67 RUB Перевод между карточными счетами *9955 Balans 720.56 RUB Tel.7711

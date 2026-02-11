@@ -1,0 +1,10 @@
+^.*(?:нятие н|ash with).*(?:арт|ard).*?(\d{4}) .*(?:ата|ate).*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:умм|moun).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+BCR Chisinau S.A. Снятие наличных Карточка: 4600...4961 Дата: 18.11.2019 19:13 Сумма: 3000.00 MDL Баланс: 18683.02 MDL Детали: ATM213 "Nr.1"-Ciocana
+
+-----EXAMPLE-----
+BCR Chisinau S.A. Cash withdrawal Card:4600...2099 Date: 10.10.2020 18:32 Amount: 1000.00 MDL Balance: 38318.79 MDL Details: CASH IN PRIMARIA

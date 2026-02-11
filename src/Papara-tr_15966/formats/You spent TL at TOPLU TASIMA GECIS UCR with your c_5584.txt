@@ -1,0 +1,10 @@
+^(?:You\s+spent|Вы\s+потратил).*?([\d\s.,]*\d)\s*([A-Z]{2,3})\s+(?:at|on|в)\s+(?:your\s+)?(.*?)\s+(?:subscription\s+)?(?:with.*ending|на\s+свой).*?(?:with|арта)\s+(\d{4}|[A-Za-z]+).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+You spent 8,75 TL at TOPLU TASIMA GECIS UCR with your card ending with 8764. ║ Papara Card spending
+
+-----EXAMPLE-----
+You spent 20,99 TL on your Spotify subscription with your card ending with 5819. ║ Papara Card spending

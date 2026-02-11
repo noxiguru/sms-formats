@@ -1,0 +1,7 @@
+^([\d.]{8}).*ополнение.*?(\d{4});\s*([\d\s.,]*\d)\s*([A-Z]{3}).*аланс.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+18.06.15 09:37 Пополнение по карте FEIB VISA ELECTRON CHIP****7451; 4000.00RUR.  Баланс:4025.00RUR, 88003333355

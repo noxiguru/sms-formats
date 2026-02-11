@@ -1,0 +1,7 @@
+^(?!.*DOSTU)([\d.]{8}).*(\d{4}) (?:SPISANIE|OPLATA).*?([\d\s.,]*\d)\s*([A-Z]{3})\s?(.*)$
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+29.01.19 15:20:05 KAPTA 5248*9189 OPLATA  300 RUR MCDONALDS 11001 MOSKVA RUS

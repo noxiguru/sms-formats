@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*плат.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\.\s*(.*?)\s*\..*(?:алан|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+МИР*9045 Оплата 1055.00p.GBUZ SO ODKB N 1.Баланс 39038.43p.
+
+-----EXAMPLE-----
+МИР*8163 Оплата 19080.00p.3DI SANTEHNIKA-ONLINE.. Баланс 48303.99p.
+
+-----EXAMPLE-----
+VISA*5119 Оплата 860.00p.VTS Shokoladnitsa air. Доступно 34395.92p.

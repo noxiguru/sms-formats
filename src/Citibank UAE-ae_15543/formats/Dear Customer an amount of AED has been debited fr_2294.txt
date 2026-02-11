@@ -1,0 +1,7 @@
+^.*amount.*?([A-Z]{3})\s*([\d\s.,]*\d).*debit.*?acc.*?(\d{4}).*ATM.*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Dear Customer, an amount of  AED 2400.00 has been debited from your account **2345 Description: ATM WITHDRAWAL   Balance:  AED 1,262.82

@@ -1,0 +1,7 @@
+^.*([\d.]{10}) .*ontu.*?(\d{4}) .*-([\d\s.,]*\d)\s*([A-Z]{3}).*cont.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+La 16.08.2017 18:49, contul 6567341 a fost debitat cu -252.01 RON. Sold cont = 222.48 RON.RB

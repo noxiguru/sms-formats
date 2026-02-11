@@ -1,0 +1,7 @@
+^.*?Platej.*?(\d[\d\s.,]*) ([A-Z]{3}) ([\d.]{10}).*Dostupno ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ROSPROMBANK Platej na summu 6000 RUR 20.01.2014 00:00 Dostupno 6499.15 RUR

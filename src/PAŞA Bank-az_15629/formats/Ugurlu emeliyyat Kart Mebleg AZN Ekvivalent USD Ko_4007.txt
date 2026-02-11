@@ -1,0 +1,13 @@
+^.*(?:gurlu em|uccess\w+ tr|shnaya op).*\*(\d{4}).*(?:eble|ount|umma).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:kvival|quival).*?([\d\s.,]*\d).*(?:omiss|[Ff]ee).*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)(?:\s+\d{8}.*)? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;op_outcome;instrument;outcome;fee;av_balance;acc_instrument;payee;date#dMy
+
+-----EXAMPLE-----
+Ugurlu emeliyyat   Kart: *6323  Mebleg 7.00 AZN  Ekvivalent 4.12 USD  Komissiya: 0.00 USD  Balans: 185.95 USD  PASHA 3D ONLINE PAYM  10-10-18 12:35
+
+-----EXAMPLE-----
+Successful transaction  Card: *6482  Amount 200.00 RUB  Equivalent 5.15 AZN  Fee: 0.00 AZN  Balans: 6.73 AZN  YM*LIZAONAIR 02-03-20 12:06
+
+-----EXAMPLE-----
+Uspeshnaya operaciya  Karta: *4993 Summa 0.86 USD Ekvivalent 1.46 AZN Komissiya: 0.26 AZN Balans: 152.09 AZN GOOGLE *ZeptoLab 28-07-22 10:05

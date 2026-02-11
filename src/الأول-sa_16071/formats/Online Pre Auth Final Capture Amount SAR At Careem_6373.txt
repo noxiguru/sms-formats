@@ -1,0 +1,7 @@
+^Online\s+Pre-Auth\s+Fin.*mount.*?([A-Z]{3})\s*([\d\s.,]*\d)\s+At:\s+(.*?)By:.*?\*(\d{4}).*Date.*?([\d]{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid;date#yMd
+
+-----EXAMPLE-----
+Online Pre-Auth Final Capture Amount: SAR 39.75 At: Careem××Riyadh× By: mada ***5581 Account: 001 Date: 2024-10-02 11:06:18

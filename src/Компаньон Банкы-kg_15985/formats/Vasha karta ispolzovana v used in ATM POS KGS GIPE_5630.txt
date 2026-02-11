@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*used in.*?([\d\s.,]*\d)\s*([A-Z]{3})\s\W\s*(.*?)\W? 996 312 .*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+05/01/2023 18:07 Vasha karta 436153******4747 ispolzovana v (used in) ATM/POS:89.00 KGS , GIPERMARKET FRUNZE. 996 312 33-88-00, 8800

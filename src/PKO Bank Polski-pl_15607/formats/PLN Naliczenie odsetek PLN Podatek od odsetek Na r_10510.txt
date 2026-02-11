@@ -1,0 +1,7 @@
+.*?\+\s*([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4})\s+Naliczenie odsetek\s*-\s*([0-9][\d\s.,]*\d)\s*[A-Za-z]{1,4}\s+Podatek od odsetek\s+Na rachunku\s+\d{2}\.\.(\d{4})\s+Data waluty:\s*(2026-01-01)\s*║\s*Uznanie rachunku\s*$
+
+-----COLUMNS-----
+income;instrument;outcome;syncid;date#yMd
+
+-----EXAMPLE-----
++4,35 PLN Naliczenie odsetek -0,83 PLN Podatek od odsetek Na rachunku 73..5789 Data waluty: 2026-01-01 ║ Uznanie rachunku

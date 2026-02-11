@@ -1,0 +1,7 @@
+^.*\*(\d{4})\D?\s+(Komis.*?)\s+-([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta*3722. Komissiya za izmenenie PIN koda -50.00RUR Ostatok 49950,00RUR

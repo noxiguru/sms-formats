@@ -1,0 +1,7 @@
+.*?(?:cargad\w*).*?(?:cuent\w*|tarjet\w*).*?\*(\d{4}).*?(?:adeud\w*\s+de|cargo\w*\s+de)\s*(.*?)\s+(?:de|por)\s+([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4})
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+Se ha cargado en tu cuenta *9665 un adeudo de Centro Educativo y de Estudios Nuevo Mer de 38,00 EUR. ║ Recibo cargado

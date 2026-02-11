@@ -1,0 +1,7 @@
+^Pirkum.*\*(\d{4}).*umm.*?([A-Z]{3})\s*([\d\s.,]*\d).*([\d.]{10}).*ieta:\s*(.*?)\s*.ieej.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Pirkums Karte: *2941 Summa: EUR 6.99 Laiks: 07.09.2018 20:53 Vieta: Spotify P0759D4B7B>Stockholm SE Pieejams: EUR 1473.89 Paldies!

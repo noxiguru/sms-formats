@@ -1,0 +1,10 @@
+^.*?(?:pisan|erevod s).*? ([\d.]{8}) .*?\*(\d{4}).*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Spisanie so scheta: 23.08.16 12:18, karta ***9122. Summa:25.00 RUB. Dostupny ostatok:422990.05 RUB.
+
+-----EXAMPLE-----
+Perevod s karty: 20.09.19 21:03, karta ***3794. Summa:8200.00 RUB. Dostupny ostatok:250.53 RUB.

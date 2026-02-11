@@ -1,0 +1,7 @@
+^Perevod\s+s.*?\*(\d{4})\W?\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{4}-\d{2}-\d{2}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Perevod s karty *0810, 750 000.00 UZS 2022-10-15 13:30:17, UZB. Dostupno: 1 093 051.25 UZS

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*(?:ostup|оступ)(?!.*stat).*?([\d\s.,]*\d)\s*([A-Z]{0,3}).* (?:от|ot)\s+(.*?)(?:\s+(?:счет|schet).*|$)
+
+-----COLUMNS-----
+syncid;income;instrument;payee
+
+-----EXAMPLE-----
+Na schet *00278 postupilo 11360,00 ot ANO "Trening-tsentr "Delovaia Volga" schet *00159.

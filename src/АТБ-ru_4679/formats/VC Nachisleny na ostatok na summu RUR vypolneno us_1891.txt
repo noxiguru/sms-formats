@@ -1,0 +1,7 @@
+^.*(\d{4})\s+([\d.]{10}).*(Nachis.*)\s+na sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*spesh.*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;comment;income;instrument;av_balance
+
+-----EXAMPLE-----
+VC: *0025 15.07.2015 04:12:09. Nachisleny %+na ostatok na summu: 67.47 RUR vypolneno uspeshno. Dostupno: 9009.44 RUR.

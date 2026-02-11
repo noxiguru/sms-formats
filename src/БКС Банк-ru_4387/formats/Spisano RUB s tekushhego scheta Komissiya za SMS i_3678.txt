@@ -1,0 +1,7 @@
+^.*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\.\s+(Komiss.*?)\..*([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;comment;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Spisano 59 RUB s tekushhego scheta *3702. Komissiya za SMS informirovanie. 27.04.2018 00:39 nomer dokumenta218

@@ -1,0 +1,7 @@
+^Покупка.*\*(\d{4}):\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+в\s+(.*?)\..*статок\s+кред.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка *8446: 284 RUR в STOLOVAYA KOSTINA. Своих: 0 RUR. Кредитных: 284 RUR. Остаток своих: 0 RUR. Остаток кредитных: 84 010,04 RUR. Задолженность: 10 989,96 RUR

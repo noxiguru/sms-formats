@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+Bala.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+-100 AZN uBank - C2 Balans 13.4 AZN Kart: *2739 ║ Kart emeliyyati

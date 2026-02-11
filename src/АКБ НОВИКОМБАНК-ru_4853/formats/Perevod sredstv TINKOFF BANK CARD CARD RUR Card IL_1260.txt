@@ -1,0 +1,10 @@
+^Perevod.*?([\d\s.,]*\d)\s*([A-Z]{3}) .*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Perevod sredstv: TINKOFF BANK CARD2CARD 700.00 RUR Card **4300 ILEANA NIGMATULLINA BAL: 4 230.00 2018-09-17 12:42:10
+
+-----EXAMPLE-----
+Perevod sredstv: 12 955.00 RUR Rocket Bank Card *1234 BAL: 0.03 2019-09-10 01:00:00

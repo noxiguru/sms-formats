@@ -1,0 +1,7 @@
+^.*ahun.*?(\d{4}) spysan.*?([\d\s.,]*\d)\s*([A-Z]{3}) Bal.*?(-?[\d\s.,]*\d).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Z Vashogo rahunku 1234567890 spysano 125.00 UAH Balans: 3633.30 UAH 11.07.17 16:03

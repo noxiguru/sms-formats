@@ -1,0 +1,10 @@
+^.*?([\d.]{8}).*(\d{4}) (?:NALICH|Nalich).*?([\d\s.,]*\d)\s*([A-Z]{3})\s.*BALANS.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+15:47 27.11.14 4442***9023 NALICHNIE 35400.00 RUB SMP Neglinnaya, d. 8/10 BALANS: 80.00 RUB. SMP Bank, tel.8-800-555-2-555
+
+-----EXAMPLE-----
+12:28 31.05.18 MSK 5209***8259 Nalichnie 17850.00 RUB IKBU Ufa,ul Mendeleeva 205A BALANS: 1100.93 RUB. SMP Bank, tel. 8-800-700-0-555

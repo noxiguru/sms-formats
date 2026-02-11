@@ -1,0 +1,7 @@
+^Poku.*\*(\d{4}).*mount.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:erchant|at):\s*(.*)\.\s*Data.*([\d/]{10}).*lim.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Pokupka po karte/ Purchase via card *6759. Summa/ Amount: 680.00 RUB. Torgovaya tochka/ Merchant: IL PATIO. Data/ Date: 24/06/2015. Dostupnyj limit/ Available limit: 48320.00

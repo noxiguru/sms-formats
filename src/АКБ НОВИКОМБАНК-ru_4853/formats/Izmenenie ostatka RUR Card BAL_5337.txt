@@ -1,0 +1,7 @@
+^Izmenen.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}) BAL.*?(-?[\d\s.,]*\d)\s+[\d:]{5,}\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#dMy
+
+-----EXAMPLE-----
+Izmenenie ostatka: - 58.17 RUR  Card **0086 BAL: 0.00  19:59 21.07.2022

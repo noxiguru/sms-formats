@@ -1,0 +1,28 @@
+^([\d-]{10}).*(?:nyatie n|ATM|Note|A[-\d]+).*? ([1-9]\d{0,2}(?:\s\d{3})*\.\d{2}|\d+\.\d{2})\s*([A-Z]{3}).*\*(\d{3,4}).*(?:ostu|sta.o).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+2015-12-15 11:31:05 Operaciya po karte ATM 5000.00 KZT ATM 1203 AKTAU TS DOSTYK 4**602 Dostupnaya summa:376647.32 KZT
+
+-----EXAMPLE-----
+2018-06-27 22:20:07 Provedena operaciya Note Acceptance 300.00 USD ATM 1095 RKO Dinamo #3 4**222 Dostupnaya summa:126094.49 KZT
+
+-----EXAMPLE-----
+2018-08-02 09:41:03 Operaciya po karte A1 30000.00 KZT ATM 1297 ASTANA ASIA PAR 5**379 Dostupnaya summa:123411.07 KZT
+
+-----EXAMPLE-----
+2018-09-05 18:40:53 Operaciya po karte Snyatie nalichnyh 5000.00 KZT A-11082 17, KABANBAY 440563**6454 Dostupnaya summa: 536078.45 KZT
+
+-----EXAMPLE-----
+2018-09-27 19:03:47 Operaciya po karte Snyatie nalichnyh 3000.00 KZT A-19048 SHOP"MECHTA" 535451**8946 Dostupnaya summa: 4846.39 KZT
+
+-----EXAMPLE-----
+2018-11-10 12:51:45 Snyatie nalichnyh 10000.00 KZT A-13102 111,MKR SAMAL 2 400303**1276 Ostatok 25158.44 KZT Go! bonus 1201.66
+
+-----EXAMPLE-----
+2018-11-02 16:21:15 Snyatie nalichnyh 5000.00 KZT ATM 1101 KAZTELECOM 400303**4160 Ostakok 94082.02 KZT
+
+-----EXAMPLE-----
+2018-11-02 22:59:52 Snyatie nalichnyh 20000.00 KZT A-13106 44, ZHAROKOV ST 400303**8405 Ostakok 679.99 KZT

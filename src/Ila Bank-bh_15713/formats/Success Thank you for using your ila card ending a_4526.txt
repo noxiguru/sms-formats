@@ -1,0 +1,7 @@
+^.*using(?!.*alan).*nding (\d{4}) at (.*) for (\S+?)\s*([\d\s,]*\d\.\d{2})\d? on (\d{2}/\d{2}/\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;payee;instrument;outcome;date#dMy
+
+-----EXAMPLE-----
+Success! Thank you for using your ila card ending 9575 at TALABAT MIDDLE EAST IN DUBAI AE for BHD 3.350 on 28/02/2020 at 14:52. Have a great day!

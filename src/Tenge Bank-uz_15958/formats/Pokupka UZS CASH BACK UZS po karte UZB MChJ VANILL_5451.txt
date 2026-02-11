@@ -1,0 +1,7 @@
+^(?!OTMEN).*okupk.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}),\s+(\d{4}-\d{2}-\d{2})\s+[\d:]+,\s+(.*?)\.\s+.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#yMd;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Pokupka 20 000.00 UZS + CASH BACK 200 UZS, po karte *0810, 2022-10-08 18:56:46, UZB, MChJ VANILLA FOOD. Dostupno: 2 662 800.00 UZS

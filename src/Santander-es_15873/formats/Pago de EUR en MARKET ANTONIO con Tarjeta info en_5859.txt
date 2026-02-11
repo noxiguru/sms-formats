@@ -1,0 +1,10 @@
+^(?:Pago|Retencion)\s+de\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+en\s+(.*?)\s+con\s+.*?\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+Pago de 5.70 EUR en MARKET ANTONIO con Tarjeta **5258 + info. en tu banca online.
+
+-----EXAMPLE-----
+Retencion de 5.80 EUR en 241123 NERJA 1 con tarjeta **5258. +info en Banca Online.

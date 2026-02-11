@@ -1,0 +1,10 @@
+^.*niatti.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+[#*]+(\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Zniattia gotivky 100.00 UAH #9742 12:49:25 ATM NCR6676 UGB 130/23>CHERKASY, UA Dostupno: 111111.26 UAH Kreditny limit: 222222.00 UAH Detali: https://auth.ukrgasbank.com
+
+-----EXAMPLE-----
+Zniattia gotivky 400.00 UAH **87 17:17:21 ATM6443 ENERGODAR V1>ENERGODAR, UA Dostupno: 2959.03 UAH Detali: https://auth.ukrgasbank.com

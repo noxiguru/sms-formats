@@ -1,0 +1,7 @@
+^.*Poluchenie n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Kart.*?\*(\d{4}).*stat.*?([\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Poluchenie nalichnih: 1500.00 RUB. 1234567890, YAKHROMA, ATM 400107. Karta *1178. Ostatok: 00000.08 RUB.  31.05.2015 11:04

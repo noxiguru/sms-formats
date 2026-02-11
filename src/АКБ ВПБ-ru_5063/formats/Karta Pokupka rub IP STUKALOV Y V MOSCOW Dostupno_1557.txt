@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*(?:окупка|okupka|i-nal).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{3}).?\s+(.+)\s+[\d:]{5}\s+([\d.]{8}).*(?:Досту|Dostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Karta 5483*7478. Pokupka 266.00 rub. IP STUKALOV Y.V. >>MOSCOW 15:18 27.01.15. Dostupno: 21084.20 rub.

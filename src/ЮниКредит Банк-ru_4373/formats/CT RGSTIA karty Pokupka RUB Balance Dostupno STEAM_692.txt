@@ -1,0 +1,34 @@
+^.*(?:[аa][рp]т|art).*?(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:[оo]к[уy]пк|пл[аa]т[аa]|okupk|plata).*?([\d\s.,]*\d)\s*([A-ZА-Я]{1,3}).*(?:[оo][сc]т[уy]|[аa]л[аa]н|ostu|alan).*?(-?[\d\s.,]*\d)\s*([A-ZА-Я]{3}|)\.?\s*(.*?)$
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+CT RGSTIA #karty 7292 01.04.2013 10:01 Pokupka 149.00 RUB. Balance: 3011.43. Dostupno: 3011.43. STEAMPOWERED.COM GB Wimbledon.
+
+-----EXAMPLE-----
+CT 3234361 #karty 7104 21.06.2013 09:54 Oplata uslug 198.00 RUB. Balance: 5400.78. Dostupno: 5400.78. ELECSNET-UNICREDIT BANK RU MOSCOW.
+
+-----EXAMPLE-----
+Карта 7424 31.01.2016 12:07 Покупка 871.20 RUB. Доступно: 28984.24 RUR Вознаграждение за операцию: 87.12 RUB. SHOKOLADNITSA 123 MOSKVA RUS
+
+-----EXAMPLE-----
+CT DALE840 #karty 4903 18.07.2013 10:49 Pokupka 560.00 RUB. Balance: -131112.43. Dostupno: 203887.57. AKADEMIYA VKUSA RU NOVOSIBIRSK.
+
+-----EXAMPLE-----
+Карта 7424 16.03.2016 20:35 Покупка 467.00 RUB. Доступно: 20694.07 RUR VKUSVILL 818_1 REUTOV RUS
+
+-----EXAMPLE-----
+Карта 0673 14.08.2016 13:05 Покупка 897.56 RUB. Доступно: 53756.57 RUR 0.00 MAGAZIN 10 SOLIKAMSK
+
+-----EXAMPLE-----
+Карта 4731 10.09.2016 18:33 Покупка 1305.00 RUB. Доступно: 75172.3
+
+-----EXAMPLE-----
+Карта 2334 23.12.2016 11:44 Покупка 23015.00 INR. Баланс: -201258.9
+
+-----EXAMPLE-----
+Картa 2622 03.02.2021 14:20 Пoкупкa 1232.00 RUB. Дocтупнo: 3073.08 RUВ IР KLEJMЕNOV A.V. MOSCOW RUS
+
+-----EXAMPLE-----
+Kaртa 2622 12.02.2021 21:16 Пoкупкa 1508.00 RUB. Доступно: 3664.92 RUВ ММR-DELIVЕRY СLUB.. MOSСОW RUS

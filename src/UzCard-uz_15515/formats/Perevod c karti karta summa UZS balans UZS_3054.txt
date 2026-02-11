@@ -1,0 +1,10 @@
+^(?:Perevod c |Spisan).*(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Perevod c karti: 07.06.17 21:55,karta ***1741. summa:50500.00 UZS balans:1434450.81 UZS
+
+-----EXAMPLE-----
+Spisanie c karty: INSPIRED P2P, ,01.05.21 19:08,karta ***8602. summa:10798.92 UZS balans:13585458.57 UZS

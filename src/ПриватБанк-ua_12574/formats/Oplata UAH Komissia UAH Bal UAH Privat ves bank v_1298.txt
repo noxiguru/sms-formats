@@ -1,0 +1,7 @@
+^(.{4}).*?plata\s+([\d\s.,]*\d)([A-Z]{3})\s+Komissia\s+([\d\s.,]*\d).*Bal[^:]*:\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;outcome;av_balance
+
+-----EXAMPLE-----
+5*38 20:02 Oplata 700.00UAH Komissia 28.00UAH. Bal:2515.44UAH  Privat24 - ves bank v Vashem kompyutere i smartfone! privat24.ua

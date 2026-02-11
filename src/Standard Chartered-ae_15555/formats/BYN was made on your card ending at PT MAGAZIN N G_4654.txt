@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s.,]*\d) was mad.*ing (\d{4}) at (.*?) on (\d{2}[-./]\d{2}[-./]\d{2,4})\D.*imit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dMy;av_balance
+
+-----EXAMPLE-----
+BYN 18.98 was made on your card ending 7984 at PT MAGAZIN N2 GRODNO BLR on 16/05/2020. Your available credit limit is BHD .000.

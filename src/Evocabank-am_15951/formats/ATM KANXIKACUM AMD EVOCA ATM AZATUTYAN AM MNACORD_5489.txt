@@ -1,0 +1,7 @@
+^ATM (?:CASH|KANX).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:BAL|MNACO).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+ATM KANXIKACUM 400,000.00 AMD 4150***7159 EVOCA ATM AZATUTYAN 12, AM 23.10.2022 11:24 MNACORD: 8,883,796.94 AMD

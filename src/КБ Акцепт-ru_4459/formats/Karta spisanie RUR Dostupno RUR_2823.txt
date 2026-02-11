@@ -1,0 +1,7 @@
+^.*?(?:арт|art).*?(\d{4}).? ([\d.]{8}) .*?(?:писан|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+.(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 1454: 10.01.17 14:19, spisanie 59.00 RUR. Dostupno 8141.00 RUR.

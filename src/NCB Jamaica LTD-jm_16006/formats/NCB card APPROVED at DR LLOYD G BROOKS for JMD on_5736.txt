@@ -1,0 +1,7 @@
+^.*card (\d{4}) APPR.* at (.*?) for ([A-Z]{3})\s*([\d\s.,]*\d) on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}).*vail.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;instrument;outcome;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+NCB card 7792 APPROVED at DR. LLOYD G. BROOKS for JMD3,200.00 on 18 JAN 23 07:04 PM Avail Bal JMD144,005.07. Visit NCBManagemycard portal to dispute

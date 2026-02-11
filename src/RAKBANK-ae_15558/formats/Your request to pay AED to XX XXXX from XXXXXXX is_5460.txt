@@ -1,0 +1,7 @@
+^.*request to pay (\S+?)\s*([\d\s.,]*\d) (to \d{4}.*?\d{4}) from X+\d*(\d{4}) is under proc.*
+
+-----COLUMNS-----
+instrument;outcome;comment;syncid
+
+-----EXAMPLE-----
+Your request to pay AED 30,000.00 to 5595 80XX XXXX 6006 from XXXXXXX354001 is under process.

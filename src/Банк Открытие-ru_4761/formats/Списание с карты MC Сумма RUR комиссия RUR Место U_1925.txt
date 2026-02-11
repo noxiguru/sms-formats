@@ -1,0 +1,7 @@
+^.*писан.*?([\d]{4})\s+([\d-]{8}).*умма\s+([\d\s.,]*\d)\s*([A-Z]{3}).*омисс.*?([\d\s.,]*\d).*(?:ATM).*Дост.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd-MM-yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Списание с карты MC * 9999 07-08-15 12:17:17 Сумма 30 000.00 RUR комиссия 0.00 RUR Место UL'YANOVSK ATM BINBANK Доступно всего 142 618.95 RUR https://online.binbank.ru

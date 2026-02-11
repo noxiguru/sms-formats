@@ -1,0 +1,13 @@
+^.*?([\d]{4}).*?((?:(?:Списан|Spisan)\w* (?:kom|plat|ком|плат).*?|Obmen|Обмен).*?)(?:\.?\s*(?:Списан|Spisan).*?)?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Schet *1328. Spisan platezh po kreditu 20000 RUR. Balans 32688.29 RUR.
+
+-----EXAMPLE-----
+Карта *1234. Списана комиссия за обслуживание карты 750.00 RUB. Баланс 1000.00 RUB.
+
+-----EXAMPLE-----
+Счет *9205. Обмен валют. Списано 14000.00 RUR. Баланс 98964.00 RUR.

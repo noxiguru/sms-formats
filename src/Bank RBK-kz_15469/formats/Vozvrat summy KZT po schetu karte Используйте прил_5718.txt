@@ -1,0 +1,7 @@
+^((?:Vozvr|Возвр).*?) ([\d\s.,]*\d)\s*([A-Z]{3}|\W) (?:po|по) .*?\*(\d{4}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid
+
+-----EXAMPLE-----
+Vozvrat summy 709.00 KZT po schetu/karte ***4188.Используйте приложение My RBK https://onelink.to/vxgdps ║ My RBK

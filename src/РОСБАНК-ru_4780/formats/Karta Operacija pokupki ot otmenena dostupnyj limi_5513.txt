@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*?\s+(.perac.*?tmen.*?),\s+.*imit\s+uveli.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument
+
+-----EXAMPLE-----
+Karta*9616 Operacija pokupki ot 09.11.22 otmenena, dostupnyj limit uvelichen na summu 1.00 RUB.

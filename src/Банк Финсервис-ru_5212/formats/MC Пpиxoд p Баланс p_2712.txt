@@ -1,0 +1,10 @@
+^.*?(\d{4})\s+([\d.]{8}) .*(?:[рp]и[хx][оo]д|rihod)([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+MC6093 28.10.16 16:06 Пpиxoд 27500p Баланс 27500p
+
+-----EXAMPLE-----
+VISA6937 12.08.19 13:04 Prihod 75644.37p Balans 138114.31p

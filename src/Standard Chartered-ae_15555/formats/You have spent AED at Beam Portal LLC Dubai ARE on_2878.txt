@@ -1,0 +1,10 @@
+^.*spent\s+([A-Z]{3})\s*([\d\s.,]*\d) at\s+(.*?)\s+on your.*?(\d{4}) on (\d{1,2} \D{3}).*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid;date#dd MMM
+
+-----EXAMPLE-----
+You have spent AED 17.00 at Beam Portal LLC        Dubai        ARE on your credit card ending 8923 on 19 Feb.Visit sc.com/ae/breeze to bank on-the-go.
+
+-----EXAMPLE-----
+You have spent AED 14.00 at CAREEM NETWORKS FZ LLC DUBAI         ARE on your credit card ending 3028 on 14 Nov.Visit sc.com/ae/breeze to bank on-the-go.

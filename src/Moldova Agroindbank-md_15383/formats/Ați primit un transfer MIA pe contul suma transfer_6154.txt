@@ -1,0 +1,7 @@
+^.*primit.*ontul\s+\d*(\d{4}).*suma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*isponib.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Ați primit un transfer MIA pe contul 22595906322, suma transferului 100.00 MDL. Soldul disponibil: 11800.80 MDL. ║

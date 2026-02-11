@@ -1,0 +1,7 @@
+Procurare cu card\s*\*(\d{4})\s+Data:(\d{2}\.\d{2}\.\d{4})\s+\d{2}:\d{2}\s+Suma:([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3})\s*\(\+?([0-9][\d\s.,]*\d)\s*[A-Za-z]{1,3}\)\s+Terminal:\s*(.*?)\s{2,}Soldul disponibil:\s*(-?[0-9][\d\s.,]*\d)(?=\s|$)\s*([A-Za-z]{1,3})
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;op_outcome;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Procurare cu card *4651 Data:12.05.2025 16:27 Suma:54.99 UAH (+0.00 USD) Terminal: GOOGLE *Zenmoney expen  Soldul disponibil: 3.44 USD

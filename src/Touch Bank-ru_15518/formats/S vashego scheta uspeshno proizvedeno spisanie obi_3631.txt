@@ -1,0 +1,7 @@
+^.*(spisanie ob.*?)\s+v razm.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*
+
+-----COLUMNS-----
+comment;outcome;instrument
+
+-----EXAMPLE-----
+S vashego scheta uspeshno proizvedeno spisanie obiazatelnogo platezha v razmere 60 rub. Vash Touch Bank

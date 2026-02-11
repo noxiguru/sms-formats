@@ -1,0 +1,7 @@
+^.*?(\d{4})(?!.*00\.00\.).*?([\d.]{10}).*(vozvrat)([\d\s.,]*\d)\s*?([A-Z]{3}),?\s+(.*?)\.\s+.ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;comment;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 0351: 06.07.2016 08:18, vozvrat 108.22 RUR, LUKOIL.AZS 1 43P, KIROV. Dostupno 67401.00 RUR. Spravka: 88002502777

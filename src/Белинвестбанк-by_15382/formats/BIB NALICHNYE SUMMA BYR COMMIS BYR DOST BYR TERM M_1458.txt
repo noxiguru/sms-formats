@@ -1,0 +1,7 @@
+^.*?(\d{4})\s.*NALICH.*?([\d\s.,]*\d)\s*([A-Z]{3}) COMMIS.\s*([\d\s.,]*\d).*?OST.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+BIB *8064  17:15:58 NALICHNYE SUMMA=50 000 BYR COMMIS=10 000 BYR DOST=7 145 901 BYR TERM=METRO BPSB ATM-57>MINSK               BY

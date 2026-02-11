@@ -1,0 +1,10 @@
+^.*our\s+(?:BLIK.*?)?([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(?:transfer\s+)?to\s+(.*?)\s+(?:has\s+been\s+sent|is\s+compl).*
+
+-----COLUMNS-----
+instrument;outcome;payee
+
+-----EXAMPLE-----
+⚡️ Your €27.20 transfer to Andrii Kravetskyi has been sent. It will arrive in seconds. ║ Revolut
+
+-----EXAMPLE-----
+Your BLIK payment for PLN202.77 to allegro.pl is complete! Tap for details ║ BLIK payment successful ✅

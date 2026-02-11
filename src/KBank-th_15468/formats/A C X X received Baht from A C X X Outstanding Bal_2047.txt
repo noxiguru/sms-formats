@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*X-?\d*(\d{4}).*received.*?([\d\s.,]*\d)\s*([a-zA-Z]{3,4})\s+(from .*?)\s+.utstan.*?alan.*?(-?[\d\s.,]*\d)\s*([a-zA-Z]{3,4}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+02/12/18 17:16 A/C X323345X received 13000.00 Baht from A/C X206794X Outstanding Balance 215991.84 Baht.
+
+-----EXAMPLE-----
+01/11/23 01:56 A/C X-2181 received 5,000.00 Baht from A/C X-8994 Outstanding Balance 5,500.00 Baht.

@@ -1,0 +1,13 @@
+^-([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*?)\.?\s*.стат.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+-700.00 RUR MEGAMART-08, TYUMEN. Остаток 19 084.98 RUR. Карта *4906
+
+-----EXAMPLE-----
+-200.00 RUR Остаток 54 151.99 RUR. Карта *5670 ║ Кукуруза
+
+-----EXAMPLE-----
+-38.28 р Urent. Остаток 49342.37 р. Карта *0979 ║ Связной Плюс

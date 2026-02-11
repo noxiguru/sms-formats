@@ -1,0 +1,7 @@
+^([\d.]{8}).*окуп.*?\*(\d{4});.*?([\d\s.,]*\d)\s*([A-Z]{3}).*аланс.*?(-?[\d\s.,]*\d)\s*[A-Z]+\s+(.*)
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+28.06.15 22:51 Интернет покупка (05170571); карта:FEIB VISA ELECTRON CHIP****7451;RRN:197206; 155.44RUR,баланс 2529.56RUR WEBMONEY.RU, RU, 88003333355

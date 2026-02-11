@@ -1,0 +1,7 @@
+^.*(?:несен|nesen).*?\d\.(\d{4}) .*(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Внесение наличных Карта 4.9057 Успешно Сумма: +2070.00 BYN Остаток: 2672.13 BYN 12.04.2023 17:05:36 ║ InSync.by

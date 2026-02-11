@@ -1,0 +1,7 @@
+^Uvel.*?([\d\s.,]*\d)\s*([A-Z]{3}).\s+(.*).\s+Kart.*?(\d{4}).*stat.*?([\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+income;instrument;payee;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Uvelichenie limita karti: 410.28 RUB. PAYPAL *XIANGJF2010, 35314369001. Karta *1387. Ostatok: 56244.87 RUB. 26.06.15 00:00

@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+.exaric.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+www.birbank.az 4169**5616 Mexaric 1.00 USD BALANCE 188.57 USD 16:31 03.08.22

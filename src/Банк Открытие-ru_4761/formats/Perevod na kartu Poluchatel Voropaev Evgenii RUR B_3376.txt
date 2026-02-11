@@ -1,0 +1,7 @@
+^.*erevod.*oluchat\S+:\s*(.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}) .*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+payee;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Perevod na kartu *9536: Poluchatel': Voropaev Evgenii 960.00 RUR 27.12.17 10:32. Balans: 19899.75 RUR. i.binbank.ru

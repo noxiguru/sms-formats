@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) POPO.*?\*(\d{4}) ([\d/]{8})\D.*ZALY.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd/MM/yy;av_balance
+
+-----EXAMPLE-----
+2 060.00 UAH POPOVNENNYA *2556 30/01/19, 18:50:27 ZALYSHOK 2 061.78, VLASNI KOSHTY 1 061.78

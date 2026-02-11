@@ -1,0 +1,7 @@
+(?:Зачислен\w*).*?(-?[0-9][\d\s]*[.,]\d{2})\s*([A-Za-zА-Яа-я]{1,4})\s+(.*?)\s+(?:Остаток|Баланс)\s*:\s*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-zА-Яа-я]{1,4}).*?[*#]\s*(\d{2,})
+
+-----COLUMNS-----
+income;instrument;payee;balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+Зачисление 4,00 RUB MTSB  pr. Andropova  Остаток: 180,25 RUB; *1607

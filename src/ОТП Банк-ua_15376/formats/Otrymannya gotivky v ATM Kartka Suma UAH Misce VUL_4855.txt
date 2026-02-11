@@ -1,0 +1,7 @@
+^Otryman.*?otiv.*\*(\d{4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Otrymannya gotivky v ATM. Kartka *0713. Suma: 500 UAH. Misce: VUL.SHOLOM ALE-HEMA,17. Dostupno: 207.24 UAH Kred.Lim: 0

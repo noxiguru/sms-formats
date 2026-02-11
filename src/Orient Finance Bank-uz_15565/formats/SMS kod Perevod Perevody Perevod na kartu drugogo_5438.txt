@@ -1,0 +1,10 @@
+^(?:.*[Kk]od\W?\s+\d{4}|Otklon).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+SMS-kod: 1595. Perevod Perevody: Perevod na kartu drugogo klienta na 860057******8882 v summe 300,000.00 UZS
+
+-----EXAMPLE-----
+Otkloneno, nedostatochno sredstv MILLIY MasterCard *28: 22-11-13 15:27 pokupka WWW.ALIEXPRESS.COM>L -96.03 USD. Komissiya za operaciyu: 5375.21 UZS. Dostupno: 246094.58 UZS

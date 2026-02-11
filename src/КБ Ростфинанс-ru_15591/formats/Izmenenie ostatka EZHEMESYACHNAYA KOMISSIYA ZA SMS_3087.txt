@@ -1,0 +1,14 @@
+^Izmen.*?:\s+(?!.*ZARAB)(.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+comment;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka:
+EZHEMESYACHNAYA KOMISSIYA
+ZA SMS
+30.00 RUR
+Card_N**1234
+IVAN IVANOV
+BAL:123.00
+2017-07-06 00:00:00

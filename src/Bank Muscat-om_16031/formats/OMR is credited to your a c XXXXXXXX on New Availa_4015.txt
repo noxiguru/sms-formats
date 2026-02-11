@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d? is credited to.*?X(\d{4}) on (\d{2}[-./]\w+[-./]\d{2,4}).*alan.*?([A-Z]{3})\s*(-?[\d\s,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+OMR 165.000 is credited to your a/c 0307XXXXXXXX0014 on 17/09/2023 20:46:50. New Available Balance is OMR 442.964

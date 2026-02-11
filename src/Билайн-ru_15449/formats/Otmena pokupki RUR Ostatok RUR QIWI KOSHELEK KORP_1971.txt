@@ -1,0 +1,7 @@
+^.*?(\d{4}).*Otmena pok.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*stato.*?(-?[\d\s.,]*\d).*?;\s*(.+);\s*(\d\d\.[\d.]{7}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;payee;date#dd.M.yyyy
+
+-----EXAMPLE-----
+*1132; Otmena pokupki: 16.52RUR; Ostatok: 151.00RUR; QIWI KOSHELEK 35 KORP., W.QIWI.RU; 01.09.2015 01:22

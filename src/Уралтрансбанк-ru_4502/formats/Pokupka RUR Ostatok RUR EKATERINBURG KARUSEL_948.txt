@@ -1,0 +1,7 @@
+^([\d.]{10}).*?\*(\d{4}). Pokupka ([\d\s.,]*\d) ([A-Z]{3}). Ostatok ([\d\s.,]*\d)[^.]*. (.*)
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+19.08.2013 19:06. 425607*1755. Pokupka 699.00 RUR. Ostatok 2 127.40 RUR. EKATERINBURG  KARUSEL.

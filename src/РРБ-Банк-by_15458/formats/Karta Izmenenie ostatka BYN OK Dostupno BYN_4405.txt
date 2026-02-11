@@ -1,0 +1,10 @@
+^.*art.*?(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}).*\+([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 4.1234 03.12.2019 16:27:44 Izmenenie ostatka +505 BYN OK. Dostupno 23302 BYN
+
+-----EXAMPLE-----
+Karta 4.5356 10.02.2023 10:12:07 SOA Credit +2861.29 BYN SOA Credit OK. Dostupno 5100.00 BYN

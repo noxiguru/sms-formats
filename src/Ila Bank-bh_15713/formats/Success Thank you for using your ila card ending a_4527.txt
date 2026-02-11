@@ -1,0 +1,7 @@
+^.*using.*nding (\d{4}) at (.*) for (\S+?)\s*([\d\s,]*\d\.\d{2})\d? on (\d{2}/\d{2}/\d{2,4}) .*alan.*?(-?[\d\s.,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+syncid;payee;instrument;outcome;date#dMy;av_balance
+
+-----EXAMPLE-----
+Success! Thank you for using your ila card ending 5238 at CARREFOUR MANAMA BH for BHD 6.015 on 03/03/2020 at 11:56. Your new balance is BHD 4.887. Have a great day!

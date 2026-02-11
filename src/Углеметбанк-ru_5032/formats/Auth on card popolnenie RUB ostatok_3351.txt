@@ -1,0 +1,7 @@
+^([\d.]{8}) .*\*(\d{4}) popoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+14.12.17 19:24 Auth on card 5482***6105 popolnenie 22077.98 RUB ostatok 25444.48

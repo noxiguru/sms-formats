@@ -1,0 +1,7 @@
+^([\d.]{10}).*?Popovnennja.*?(\d[\d\s.,]*) ([A-Z]{3}).*?\*(\d{4}).*?Dostupno ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;income;instrument;syncid;balance
+
+-----EXAMPLE-----
+20.06.2013 09:54 Popovnennja rahunku cherez POS terminal 2000.00 UAH. Karta **2421 POS UAH BRANCH #5, UA, Kiyiv, Chervonogvardiyska street, 7. Dostupno 492

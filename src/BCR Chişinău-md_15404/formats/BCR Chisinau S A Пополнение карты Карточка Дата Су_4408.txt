@@ -1,0 +1,10 @@
+^.*(?:ополн|upply).*\.(\d{4}) .(?:ата|ate): (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:умм|umm|moun).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*(?:етал|etail)\w+\W?\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument;comment
+
+-----EXAMPLE-----
+BCR Chisinau S.A. Пополнение карты Карточка: 4600...4961 Дата: 16.12.2019 16:24 Сумма: 18373.95 MDL Баланс: 18471.69 MDL Детали: Alimentare salariu
+
+-----EXAMPLE-----
+BCR Chisinau S.A. Card supply Card:4600...4887 Date: 01.09.2020 09:56 Amount: 34.63 MDL Balance: 755.59 MDL Details: Capitalizare dobanda la contractul de depozit nr. OC1/104252/20191030 din data 30/10/2019

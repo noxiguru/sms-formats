@@ -1,0 +1,7 @@
+^Na\s+kart\w+\s*\*(\d{4}).*achislen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Na kartu*6762 perevedeno 30000.00 RUB.P2P ROSBANK. Nachisleno 30000.00 RUB.06.02.21

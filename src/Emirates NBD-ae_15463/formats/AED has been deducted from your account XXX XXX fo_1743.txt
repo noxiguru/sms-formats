@@ -1,0 +1,16 @@
+^([A-Z]{3})\s*([\d\s.,]*\d).*(?:deducted|debited)\sfrom.*?([-\dX*]{13,15})\s+(?:for\s+)?(.+?)(?:\..*|$)
+
+-----COLUMNS-----
+instrument;outcome;syncid;comment
+
+-----EXAMPLE-----
+AED 100.00 has been deducted from your account 101-XXX33XXX-01 for Telecommunication bill payment through Online Banking.
+
+-----EXAMPLE-----
+AED 37,000.00 has been deducted from your account 021***60***04 for Fund Transfer through Online Banking.
+
+-----EXAMPLE-----
+AED 220.37 has been debited from your account 021-XXX60XXX-04 for GLOBALCASH CARD RE-LOAD
+
+-----EXAMPLE-----
+AED 100.00 has been deducted from your account 101-XXX33XXX-01 for SALIK RECHARGE

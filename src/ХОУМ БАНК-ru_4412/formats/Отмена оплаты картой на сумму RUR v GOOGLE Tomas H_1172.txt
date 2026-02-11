@@ -1,0 +1,7 @@
+^(Отмена\s+оплаты.*?(\d{4})\s+(?:na\s+summu|на\s+сумму)\s+([\d\s.,]*\d)\s+([A-Z]{3}).*?).\s+([\d.]{5}\.\d{4}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Отмена оплаты картой *5572 на сумму 35.00 RUR v GOOGLE *Tomas Hubalek; 13.02.2014 04:37:47. Банк Хоум Кредит

@@ -1,0 +1,7 @@
+^.*\*(\d{4}):.*plat.*?([\d\s.,]*\d)\s*([A-Z]{3});\s+(.*?);\s+([\d-]{8}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yy-MM-dd;av_balance
+
+-----EXAMPLE-----
+HUMOCARD *1234: oplata 10300.00 UZS; FRB KAPBANK; 20-01-21 16:00; Dostupno: 300000.00 UZS

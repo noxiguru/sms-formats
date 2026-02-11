@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d) to (.*?) Wasel Re.* from X+\d*(\d{4}) is.*uccess.*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+AED 300.00 to ETISALAT Wasel Recharge for Consumer no. 0503047031 from XXXXXXX354001 is processed successfully.

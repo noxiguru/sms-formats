@@ -1,0 +1,13 @@
+^(?:Karta\s+\*|Карта\s+\*|Schet\s+|Счет\s+)?(Koshelek|Кошелек|\d{4}|[A-Z]{3})\.\s+.(?:pisan|писан).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Koshelek. Spisano 209.00 RUB. Dostupno 165.86 RUB. www.tinkoff.ru
+
+-----EXAMPLE-----
+Карта *3834. Списано 22.00 RUB. Доступно 268.00 RUB
+
+-----EXAMPLE-----
+Счет RUB. Списано 2640 RUB. Доступно 50 RUB

@@ -1,0 +1,23 @@
+^([\d.]{8}).*(?:ard|cnt).*?(\d{2,4})[\s*]+Sum.-([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:M=)?(.*?)\s+.(?:alan|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+21.02.14 10:46  Card:5274-3563  Sum:-15.50 UAH  M=McDonald's 038 Balance=4 111.44 UAH Dovidka 0800210800
+
+-----EXAMPLE-----
+10.03.17 21:04  Acnt:130-262540-92 Sum:-146.00 UAH  M=О/р: 16133 Balance=531.04 UAH Info 0800210800
+
+-----EXAMPLE-----
+10.10.17 19:54 
+Card:5167-3358 
+Sum:-255.40 UAH 
+WATSONS TURGENIVSKA
+Balance=31,905.42 UAHDetali oschadbank.ua/24-7
+
+-----EXAMPLE-----
+15.03.19 18:44  Card:5-206*  Sum:-496.02 UAH Auchan 007 Balance=5 849.93 UAH Detali: www.oschadbank.ua/ib
+
+-----EXAMPLE-----
+20.01.20 11:33  Card:5-206*  Sum:-662.00 UAH 143 Gulliver Dostupna suma=5 471.89 UAH oschadbank.ua/chat

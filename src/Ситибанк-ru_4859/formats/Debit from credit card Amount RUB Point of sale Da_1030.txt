@@ -1,0 +1,7 @@
+^Debit.*?(\d{4}) Amount. ([A-Z]{3})\s+([\d\s.,]*\d).*Date. ([\d/]{8}).*limit.*?\s([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#MM/dd/yy;av_balance
+
+-----EXAMPLE-----
+Debit from credit card **7002 Amount: RUB  4,550.00 Point of sale: 1234567890          Date: 10/30/13 Available limit: RUB 50,298.90

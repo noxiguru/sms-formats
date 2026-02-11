@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d) is credited to .*?X\d*(\d{4})(?!.* on ).*
+
+-----COLUMNS-----
+instrument;income;syncid
+
+-----EXAMPLE-----
+USD 1,440.24 is credited to your account XXXXXXX354002.

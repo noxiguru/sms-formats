@@ -1,0 +1,10 @@
+^([\d.]{10}).*\*(\d{2})\s+spisano\s+([\d\s.,]*\d)\s*([A-Z]{3}).*(Komissiia\s+za\s+.*?),.*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;comment
+
+-----EXAMPLE-----
+04.03.2016 20:42 (Msk) so scheta 407028108***52 spisano 75.00 RUB Poluchatel: Komissiia za SMS-informirovanie ob operatciiah  po deistvuiushchemu r/s,F-l
+
+-----EXAMPLE-----
+06.04.2016 20:44 (Msk) so scheta 407028108***52 spisano 300.00 RUB Poluchatel: Komissiia za ekspluatatciiu sistemy Internet-Bank Pro, F-l

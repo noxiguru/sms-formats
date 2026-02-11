@@ -1,0 +1,7 @@
+^Izm.*\*(\d{4}).*\+([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{8}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Izmenenie ostatka Karta: *3728 +23241.69 RUB 31.10.15 16:44:51. Balans: 23241.69 RUB. RosinterBank

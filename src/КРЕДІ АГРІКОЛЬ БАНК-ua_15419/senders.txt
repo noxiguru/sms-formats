@@ -1,0 +1,2 @@
+CAgricole
+ua.creditagricole.mobile.app

@@ -1,0 +1,7 @@
+^.*\*(\d{4}):.*njat.*?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d-]{8}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#yy-MM-dd;av_balance
+
+-----EXAMPLE-----
+HUMOCARD *8587: snjatie nalichnih 800000.00 UZS; TOSHKENT SH AT ALOKA; 19-07-09 10:15;  Dostupno: 98655.17 UZS

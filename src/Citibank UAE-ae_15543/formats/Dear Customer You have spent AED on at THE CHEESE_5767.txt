@@ -1,0 +1,10 @@
+^.*spent ([A-Z]{3}|\W)\s*([\d\s.,]*\d) on (\d{2}[-./]\d{2}[-./]\d{2,4})\W? at (.*?)\W on your.*?with (\d{4}).*vail.*? is ([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;date#dMy;payee;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Customer,
+
+You have spent AED 150.00 on 26/04/2023, at THE CHEESE CAKE FACTOR DU, on your card ending with 3712.
+Your available credit limit now is AED 2872.48

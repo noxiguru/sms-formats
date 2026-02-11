@@ -1,0 +1,7 @@
+^.*?\*(\d{2,4})\s+.zmenen.*?na\s+-([\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+LUKOIL *82 Izmenenie dostupnogo ostatka po schetu na -25.00 USD 05.08.2023 12:02. Dostupno: 2311.71 USD

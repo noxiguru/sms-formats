@@ -1,0 +1,7 @@
+^.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) hav.*paid at (.*?) on (\d{2}[-./]\d{2}[-./]\d{2,4}) using.*?x(\d{4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;payee;date#dMy;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Client, PKR 184300.00 have been paid at NISHAT HOTELS AND PROP on 08-10-22 using Debit Card no. 4215xxxxxxxx6142. Avail. Bal: PKR 65896.98.

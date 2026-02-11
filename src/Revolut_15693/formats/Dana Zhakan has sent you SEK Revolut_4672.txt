@@ -1,0 +1,7 @@
+^\W{1,2}\s+(.*?)\s+has\s+sent\s+you\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+║\s+.*
+
+-----COLUMNS-----
+payee;instrument;income
+
+-----EXAMPLE-----
+😉 Dana Zhakan has sent you SEK4.00 ║ Revolut

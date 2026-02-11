@@ -1,0 +1,7 @@
+^.*?achislenie (\d[\d\s.,]*)\s*([A-Z]{3})\s+([\d.]{10}).*Karta .?(\d{4})\s*Balans (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yyyy;syncid;av_balance
+
+-----EXAMPLE-----
+Bank "Transportny" Zachislenie 30 000.00 RUR 24.12.2014 14:58:43 TSBN Karta *6128 Balans 30 000.00 RUR +7(495) 646-52-32

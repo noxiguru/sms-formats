@@ -1,0 +1,7 @@
+^(Konv.*?)\. .uplen.*?([\d\s.,]*\d)\s*([A-Z]{3}), sch.*?\*(\d{4}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid
+
+-----EXAMPLE-----
+Konvertaciya. Kupleno 50.00 USD, schet ***6401.

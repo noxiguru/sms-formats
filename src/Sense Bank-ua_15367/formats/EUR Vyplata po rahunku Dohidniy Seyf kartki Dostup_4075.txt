@@ -1,0 +1,13 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+([Vv]yplat.*?)\s+.artki \d+\*+(\d{4}), (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:ostu|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;comment;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
++0.01EUR, Vyplata % po rahunku Dohidniy Seyf kartki 4102***7479, 01.02.19 00:02. Dostupno: 862.34EUR. Alfa-Bank u vas v telefoni: www.alfabank.ua/getapp
+
+-----EXAMPLE-----
++147.65UAH, Vyplata % po rahunku Dohidniy Seyf kartki 4102***1049, 01.12.22 12:51. Balans: 23147.65UAH. Bagato korysnogo tut: https://sense.top/info ║
+
+-----EXAMPLE-----
++16.41UAH, vyplata procentiv kartki 4028***6186, 01.11.22 08:21. Balans: 1237.63UAH. Bagato korysnogo tut: https://sense.top/info

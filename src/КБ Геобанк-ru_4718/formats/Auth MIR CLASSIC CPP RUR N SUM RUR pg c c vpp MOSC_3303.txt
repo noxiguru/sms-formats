@@ -1,0 +1,7 @@
+^Auth.*\*(\d{4}) SUM.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*LIM.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Auth: MIR CLASSIC CPP (RUR) N: *9953 SUM: -1.00 RUR; pg c2c vpp//MOSCOW/ RUS; 20.11.2017 13:04 (UTC+3); LIM: 4,208.98 RUR

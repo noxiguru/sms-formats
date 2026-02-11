@@ -1,0 +1,7 @@
+^Reversal.*?(\d{4}) SUM. \+([\d\s.,]*\d) ([A-Z]{3}). LIM. ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Reversal: VISA CLASSIC (RUR) N: *8019 SUM: +1,000 RUR; LIM: 2,000 RUR

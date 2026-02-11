@@ -1,0 +1,13 @@
+^(?!.*(?:Otmena|Отмена)).*?\*(\d{4}).*?(?:окупк|okupk|etail).*?([\d\s.,]*\d)\s*([A-Z]{3});\s*([\d/]{5}|)[^;]+;(?:.*;)?\s*(.*?)\.\s*.(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM;payee;av_balance
+
+-----EXAMPLE-----
+Карта *7831: Безналичная покупка 2 589.60 RUR; 30/03, 15:39;MOSCOW;AS FLORIYA.Доступно 1 000.00 RUR.
+
+-----EXAMPLE-----
+Karta *7818: Retail 416.00 RUR; 08/02, 15:12;ROSTOV-NA-DON;PITKOFE.Dostupno 2 951.95 RUR.
+
+-----EXAMPLE-----
+Karta *9828: Pokupka 952.11 RUR;18:40;MOSCOW;PYATEROCHKA 450.Dostupno 3 218.22 RUR.

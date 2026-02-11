@@ -1,0 +1,7 @@
+^.*?-(\d{4}) ([\d\s.,]*\d) ([A-Z]{3}) ([\d/]{5}).*?Dostupno: (-?[\d\s.,]*\d).*?SPYSANNYA Odobreno.*ATM.*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM;av_balance
+
+-----EXAMPLE-----
+PAN 5441-0800 300 UAH 18/04 15:29 Dostupno: 1676.94 UAH SPYSANNYA Odobreno ATM7064 PT KUYBSH_BR

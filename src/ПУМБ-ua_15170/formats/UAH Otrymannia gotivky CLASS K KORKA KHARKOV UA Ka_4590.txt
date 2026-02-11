@@ -1,0 +1,10 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}).*(?:tryman.*?otiv|триман.*?от.в).*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]{5}.*\*(\d{4}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;syncid#cash;av_balance
+
+-----EXAMPLE-----
+2000.00UAH Otrymannia gotivky CLASS K.KORKA KHARKOV UA 26-12-2019 20:10 Kartka: *1436 Dostupno: 11939.74UAH
+
+-----EXAMPLE-----
+4000.00UAH Отримання готівки SIGMA SOFTWARE KHARKIV UA 31-03-2020 17:17 Карта: *0025 Доступно: 33265.50UAH ║ ОПЕРАЦІЯ:

@@ -1,0 +1,7 @@
+^.*?schet.*?(\d{4})\s+([\d.]{10})\s+postup.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Na Vash schet 1234567890 06.09.2016 postupili sredstva na summu 45000.00 RUR. Platezhnyj dokument No2939. Ostatok 71065.01 RUR

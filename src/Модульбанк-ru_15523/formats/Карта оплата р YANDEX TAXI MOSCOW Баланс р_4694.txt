@@ -1,0 +1,7 @@
+^.*арт.*?(\d{4})\W? .плат.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) (.*?)\. .алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта 3267: оплата 2.00р YANDEX.TAXI, MOSCOW. Баланс 29998.00р

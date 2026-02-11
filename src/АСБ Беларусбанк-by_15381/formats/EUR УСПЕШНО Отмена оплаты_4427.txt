@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}), УСПЕШНО ║ (Отмена.*)
+
+-----COLUMNS-----
+income;instrument;comment
+
+-----EXAMPLE-----
+1.00 EUR, УСПЕШНО ║ Отмена оплаты

@@ -1,0 +1,10 @@
+^.*?(?:арт|чет).*?(\d{4}|[A-Z]{3})\s+(начислено\s+пр.*?([\d\s.,]*\d)\s*([а-яA-Z]{3}).*ashback.*?([\d\s.,]*\d).*)
+
+-----COLUMNS-----
+syncid;comment;income;instrument;income
+
+-----EXAMPLE-----
+По карте *1457 начислено процентов 60.10 руб. Cashback: 619 руб
+
+-----EXAMPLE-----
+По счету RUB начислено процентов 1378.31 RUB. Cashback: 964 RUB

@@ -1,0 +1,10 @@
+^(?:Popol|Попол).*?(\d{4})\s+(?:na\s+summu|на\s+сумму)\s+([\d\s.,]*\d)\s+([A-Z]{3}).\s+([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Popolnenie scheta karty *1888 na summu 11000.00 RUR; 24.05.2013 13:30:31. Dannoe sms besplatnoe.
+
+-----EXAMPLE-----
+Пополнение вклада по договору № *6139 на сумму 35000.00 RUR; 19.10.2013 12:35:55.

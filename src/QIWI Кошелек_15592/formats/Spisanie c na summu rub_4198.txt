@@ -1,0 +1,7 @@
+^Spisan(?!.*oluchat).*?c.*?(\d{4})\s+na\s+sum.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+Spisanie c +79308111958 na summu 5.00 rub.

@@ -1,0 +1,7 @@
+^([\d-]{10}).*Snyatie nal.*(\d{4}) Summa.\s*([\d\s.,]*\d)\s*([A-Z]{3}).*Dostupno.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd-MM-yyyy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+18-07-2014 14:58:58 Snyatie nalichnykh s karty 6720 Summa: 2 000.00 RUR Mesto: A694 NB TRUST MOSCOW Dostupno: 2 722.18RUR

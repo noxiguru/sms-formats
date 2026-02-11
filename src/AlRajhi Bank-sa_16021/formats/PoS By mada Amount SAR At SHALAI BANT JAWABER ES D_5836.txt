@@ -1,0 +1,7 @@
+^PoS.*By:\s*(\d{4}).*mount:\s*([A-Z]{3}|\W)\s*([\d\s.,]*\d).*At:\s*(.*)\s+.ate:\s*(\d{2}-\d{2}-\d{2}) .*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#yMd
+
+-----EXAMPLE-----
+PoS By:6569;mada Amount:SAR 218 At:SHALAI BANT JAWABER ES Date:23-06-03 11:09

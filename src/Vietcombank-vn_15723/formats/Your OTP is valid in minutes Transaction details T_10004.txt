@@ -1,0 +1,7 @@
+^Your OTP.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Your OTP is 273415, valid in 1 minutes. Transaction details: Topup, amount 500,000 VND on Mobile of VCB Digibank

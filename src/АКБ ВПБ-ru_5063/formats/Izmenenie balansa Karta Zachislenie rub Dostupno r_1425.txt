@@ -1,0 +1,10 @@
+^.*?\*(\d{4})\. (?:Зачисление|Zachislenie|Перевод|Perevod).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{3}).*?(?:оступ|ostup).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Izmenenie balansa Karta: 0000*0000. Zachislenie: 000.00 rub Dostupno: 000000.00 rub
+
+-----EXAMPLE-----
+Karta 4469*9589. Perevod mezdu svoimi scetami v Internet-Banke.  Summa: 369.46 rub. Dostupno: 369.46 rub.

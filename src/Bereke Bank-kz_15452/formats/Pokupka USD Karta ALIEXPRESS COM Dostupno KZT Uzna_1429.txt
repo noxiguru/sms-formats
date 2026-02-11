@@ -1,0 +1,13 @@
+^(?:Pokup|Oplat|Summa).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(?!на\s+ваш)(.*?)\s+.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Pokupka: 1,09 USD Karta: ***7967 ALIEXPRESS.COM Dostupno: 11783,50 KZT Uznaite Cashback v Sberbank Online
+
+-----EXAMPLE-----
+Oplata: 400,00 KZT Karta: ***7168 Beeline Dostupno: 14052,48 KZT
+
+-----EXAMPLE-----
+Summa: 500,00 KZT Karta: ***5733 ACTIV Dostupno: 0,00 KZT ║ Bereke Bank

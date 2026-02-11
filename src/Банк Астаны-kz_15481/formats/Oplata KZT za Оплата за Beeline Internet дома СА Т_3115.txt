@@ -1,0 +1,7 @@
+^Oplat.*?([\d\s.,]*\d)\s*([A-Z]{3}) za (.*?)(?:\..*?)? po .*?\*(\d{3,4}) ([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Oplata 3500.00 KZT za Оплата за Beeline Internet дома (СА Телеком). Контракт: ************. Номер операции: ********* po karte 5**391 2017-07-21 13:57:02. Dostupno 5510.99 KZT.

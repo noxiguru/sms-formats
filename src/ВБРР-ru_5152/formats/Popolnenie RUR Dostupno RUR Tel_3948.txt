@@ -1,0 +1,10 @@
+^(?:Popoln|Пополн).*?([\d\s.,]*\d)\s*([A-Z]{3})\s*(\d{2}[-./]\d{2}[-./]\d{2,4}|)\s+[\d:]{5}.*(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Popolnenie 34.85 RUR 02.10.2018 13:00:16 Dostupno: 3475.32 RUR  Tel. 8(800)7000349
+
+-----EXAMPLE-----
+Пополнение 23811.90 RUB 08:30 Доступно: 23811.90 RUB ║ VBRR

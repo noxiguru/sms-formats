@@ -1,0 +1,7 @@
+^.*?plata uslug\w*\s+"(.+?)",.*?\.(\d{4}), (nomer.*?), .umm.*?([\d\s.,]*\d)\s*?([A-Z]{3}).*?omiss.*?([\d\s.,]*\d).*?alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+payee;syncid;comment;outcome;instrument;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+IBANK Oplata uslug "Bilain", Visa Classic 4343...2186, nomer 9636351945, summa 85.91RUR, komissiia 0.00RUR. Balans 5,100.00RUR

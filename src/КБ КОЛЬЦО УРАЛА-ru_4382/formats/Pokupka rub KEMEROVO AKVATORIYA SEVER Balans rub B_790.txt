@@ -1,0 +1,7 @@
+^.*?([\d.]{8})\s*.okup.*?([\d\s.,]*\d)\s*([a-zA-Z]{3})\s+[^(]+?\*(\d{4})\s+(.*)\s+Balans.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+19:44 27.04.13 Pokupka 235.62 rub 4272*2383 KEMEROVO AKVATORIYA-SEVER Balans 21505.48 rub Bank 88001002254

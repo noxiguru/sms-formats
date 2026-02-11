@@ -1,0 +1,10 @@
+^Postup.*chet.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).* ([\d.]{8}).*latel.*?:\s*(.*)
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yy;comment
+
+-----EXAMPLE-----
+Postuplenie po schetu 1639; Summa:25000.00 RUR; Ostatok: 25115.49 RUR; 14.06.18 09:55; Platel'schik:PAO SBERBANK//GEBEL' VYaChESLAV BORISOVICh//1234567890//ROSSIYa 350000 KRAY KRASNODARSKIY KRASNOARMEYSKIY G MAR'YaNSKAYa UL SEVERNAYa D 53 K 1 KV 0//
+
+-----EXAMPLE-----
+Postuplenie po schetu 1639; Summa: 96000.00 RUR; Ostatok: 98768.84 RUR; 15.08.18 10:44; Platel'schik: RED'KA TIMOFEY VASIL'EVICh (IP)

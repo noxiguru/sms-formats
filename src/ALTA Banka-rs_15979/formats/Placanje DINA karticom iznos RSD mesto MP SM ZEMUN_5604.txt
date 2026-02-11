@@ -1,0 +1,7 @@
+^Placa.*\*(\d{4})\W? iznos ([\d\s.,]*\d)\s*([A-Z]{3})\W? .esto (.*?)\s*\W? .ana (\d{2}[-./]\d{2}[-./]\d{2,4}).* [Rr]asp.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Placanje DINA karticom **2315: iznos 3,032.52RSD, mesto MP427 SM ZEMUN , dana 20.12.2022 u 13:23:08h. Rasp.: RSD 16,967.48. ALTA banka

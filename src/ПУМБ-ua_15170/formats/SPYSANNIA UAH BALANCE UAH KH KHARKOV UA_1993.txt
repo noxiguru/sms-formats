@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*?(?:SPISANIE|SPYSANNIA|ZABLOKIROVANO|ZABLOKOVANO)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\(BAL.*?(-?[\d\s.,]*\d).*?\)\s+(?!VLAS|.*Detali)(.+)
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+*0459 2015-09-14 09:58 SPYSANNIA 3009.00UAH (BALANCE 12023.70UAH) KH-2 KHARKOV UA

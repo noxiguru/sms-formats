@@ -1,0 +1,7 @@
+^.*?Spisanie.*-\s*([\d\s.,]*\d) ([A-Z]{3}).*\*(\d{4}) NEW_BAL: (-?[\d\s.,]*\d) ([\d-]{8}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#dd-MM-yy
+
+-----EXAMPLE-----
+Spisanie(Bank): - 1 000.00 RUR CARD **2133 NEW_BAL: 115 112.25 01-07-13

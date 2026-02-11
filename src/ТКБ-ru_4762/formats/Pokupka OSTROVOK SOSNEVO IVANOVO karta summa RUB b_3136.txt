@@ -1,0 +1,10 @@
+^Pokupka.*?:\s+(.*?)(?:,\s*)+([\d.]{8}).*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+payee;date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Pokupka: OSTROVOK SOSNEVO, IVANOVO, ,04.08.17 13:17,karta ***8583. summa:66.00 RUB, balance:1039.21 RUB.
+
+-----EXAMPLE-----
+Pokupka v internet: WWW.ALIEXPRESS.COM, LONDON, ,31.05.18 21:47,karta ***5152. summa:236.86 RUB, balance:6784.85 RUB.

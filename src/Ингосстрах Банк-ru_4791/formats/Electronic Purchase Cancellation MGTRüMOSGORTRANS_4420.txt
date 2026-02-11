@@ -1,0 +1,7 @@
+^([\d.]{8}) .*urchase.*(.ancel\w+)\s+(.*?)\s+.ard\s+\*+(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;comment;payee;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+26.12.19 08:05 Electronic Purchase Cancellation MGTRüMOSGORTRANS, RU card ***6665. Amount:300.00RUB. Balance:6375.89RUB.

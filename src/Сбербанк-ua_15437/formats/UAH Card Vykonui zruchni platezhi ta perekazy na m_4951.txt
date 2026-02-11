@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]?\d{0,4}) [\d:]{5}.*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy
+
+-----EXAMPLE-----
++7 105.74 UAH, Card *5100, 16.02 10:30. Vykonui zruchni platezhi ta perekazy na mcp.sbrf.com.ua

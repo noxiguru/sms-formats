@@ -1,0 +1,10 @@
+^Снятие н.*\*(\d{4}) .*?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d.]{8}) .*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Снятие наличных по карте 4256***7328 на сумму 5000.00 RUB. KALUGA-AZAROVSKAYA 2, Kaluga, Kaluga, Azarovskaya street 2. 19.02.18 15:38. Доступно: 426071.70 RUB
+
+-----EXAMPLE-----
+Снятие наличных по карте *3490 на 200.00 RUB. KALUGA-KIROVA19 RIO, Kaluga, Kirova Street, 19 RIO. 02.08.18 18:14. Доступно: 10000.00 RUB

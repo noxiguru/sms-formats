@@ -1,0 +1,7 @@
+^.*?(\d{4}).\s+cash-back\s+([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income
+
+-----EXAMPLE-----
+Карта 4...0926, cash-back 262.47 RUR.

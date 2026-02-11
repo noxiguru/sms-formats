@@ -1,0 +1,7 @@
+^.*\*(\d{4}) выда.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Карта *3956 выдача 900.00 RUR в 26 50 LET OKTYABRYA 15.03.2018 13:42. Доступно 453894.94 RUR

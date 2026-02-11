@@ -1,0 +1,7 @@
+^Kart.*?(\d{4});\s+(.*?(?:yplata\s+proc).*?);\s+Summa.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income
+
+-----EXAMPLE-----
+Karta: *4261; Vyplata procentov; Period: 01.01.2016 - 24.01.2016; Summa: 106.84 RUR.

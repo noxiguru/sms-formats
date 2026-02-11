@@ -1,0 +1,7 @@
+^.*AUTOOPLA.*?([\d\s.,]*\d)\s*([A-Z]{3}).*DATA\s+([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+BIB AUTOOPLATA 50000 BYR T.8558470 DATA 06.08.2015 2:30:25 ID=1022499845

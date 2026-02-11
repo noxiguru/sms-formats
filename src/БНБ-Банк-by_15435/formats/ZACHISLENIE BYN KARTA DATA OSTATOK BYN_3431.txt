@@ -1,0 +1,7 @@
+^ZACHIS.*?([\d\s.,]*\d)\s*([A-Z]{3}) KART.*?(\d{4}) .*([\d.]{10}).*OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ZACHISLENIE 5.82 BYN KARTA #6517 DATA 01.02.2018 16:01:30 OSTATOK 175.84 BYN

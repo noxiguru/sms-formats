@@ -1,0 +1,7 @@
+^.*erevod ([\d\s.,]*\d)\s*([a-zA-Z]{3}) comis.*?([\d\s.,]*\d).*\*(\d{4}).*ost.*?(-?[\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+outcome;instrument;fee;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Perevod 70 rur comissia 30,00 rur;KARTA: *9755;ADRES:Tinkoff Bank Card2Card >\\MOSCOW\ RU;dostupno: 6,71 rur; 22.05.15 14:05;

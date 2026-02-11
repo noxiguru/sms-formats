@@ -1,0 +1,10 @@
+^.*(?:Paid|Оплата|Ai plătit)\W?\s+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+\(([\d\s.,]*\d)\s*([A-Z]{3}).*(?:Spent\s+tod|Расходы\s+за|Ai cheltuit).*\s+║\s+(.*)
+
+-----COLUMNS-----
+op_outcome;instrument;outcome;acc_instrument;payee
+
+-----EXAMPLE-----
+🍽️ Оплата: 10 € (45,79 PLN) (McDonald's). 💸 Расходы за сегодня: 45,79 PLN ║ McDonald's
+
+-----EXAMPLE-----
+⚡ Ai plătit 5 USD (22,97 RON) la Indyzospzoo 💸 Ai cheltuit astăzi: 22,97 RON ║ Indyzospzoo

@@ -1,0 +1,10 @@
+^(?:Popoln|Zachis)(?!.*Kom:).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*\.(\d{4})\D.*um.*?([\d\s.,]*\d)\s*([A-Z]{3})\W? .al\W?\s*(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Popolnenie scheta 04.04.2019 10:51; Odobreno; 1071..7379; Sum:1000,00RUB; Bal:2960,20RUB Info: 071-099-50-39
+
+-----EXAMPLE-----
+Zachislenie 22.02.2022 10:17; Odobreno; Schet 40817...0416; Sum:20053,70RUB; Bal:20222,71RUB Info: 071-099-50-39

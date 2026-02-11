@@ -1,0 +1,7 @@
+^.*?(\d{4}):.*?(\$)([\d\s.,]*\d).*? made (to .*?) on ([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;comment;date#MM/dd/yyyy
+
+-----EXAMPLE-----
+Chase acct 6377: The $1,600.00 pmt made to CHASE CARD 9146 on 07/20/2017 10:12:21 ET was more than the $0.00 limit in your Alerts settings.

@@ -1,0 +1,7 @@
+^Rash.*?(\d{4}) na.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+Rashod so scheta KZ382856 na summu 12526.02 KZT

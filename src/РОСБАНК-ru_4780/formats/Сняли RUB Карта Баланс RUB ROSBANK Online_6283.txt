@@ -1,0 +1,7 @@
+^Снял.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Сняли 1500RUB. Карта *6578. Баланс 358798.39RUB ║ ROSBANK Online

@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) prinyat.*summu ([\d\s.,]*\d) (\w{3}).*(?:ostatok|dostupno): (-?[\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+; Na kartu: *2899 prinyat platezh na summu 100 rur ;dostupno: 3030,31 rur; 02.10.14 00:08;

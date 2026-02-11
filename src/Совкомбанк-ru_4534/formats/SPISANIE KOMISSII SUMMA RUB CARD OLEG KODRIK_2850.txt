@@ -1,0 +1,7 @@
+^([\d.]{8}) .*(SPISANIE KOM.*?)\s+SUM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;comment;outcome;instrument;syncid
+
+-----EXAMPLE-----
+31.01.17 02:55 SPISANIE KOMISSII SUMMA 61.00 RUB CARD 518774******8163 OLEG KODRIK

@@ -1,0 +1,13 @@
+^.*?([\d.]{10}).*\*(\d{4})\s+((?:VOZVRAT|OTMENA|ВОЗВРАТ|ОТМЕНА).*?):([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\.?\s+.(?:alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;comment;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+MKB: 13.08.2013 22:49 4*3480 VOZVRAT: 30 RUB, GOOGLE *SELLER. balance: 11721.51 RUB. Blokirovka kart - SMS "All" na  79037672667
+
+-----EXAMPLE-----
+MKB: 28.04.2018 00:51 4*1234 OTMENA POKUPKI: 1.00 RUB YANDEX.TAXI. Balance: 1 700.06 RUB. Blokirovka kart - SMS "All" na +79037672667
+
+-----EXAMPLE-----
+MKB: 26.01.2019 23:03 4*9410 ОТМЕНА ПОКУПКИ: 109.00 RUB GOOGLE*ZENMONEY. Баланс: 34 167.83 RUB. Блокировка карт - СМС "All" на +79037672667

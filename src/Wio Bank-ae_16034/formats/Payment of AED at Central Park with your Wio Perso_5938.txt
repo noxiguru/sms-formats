@@ -1,0 +1,7 @@
+^.*was\s+declined.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Payment of AED 66.75 at Central Park with your Wio Personal card ending with 8027 was declined due to insufficient funds.

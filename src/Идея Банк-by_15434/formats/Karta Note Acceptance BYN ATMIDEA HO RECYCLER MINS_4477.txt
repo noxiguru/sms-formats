@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d.]{10}).*Note.*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 5.7027 22.01.2020 08:31:04 Note Acceptance +145.00 BYN ATMIDEA HO20 RECYCLER MINSK BLR OK. Dostupno 713.49 BYN

@@ -1,0 +1,7 @@
+^.*?#(\d{4}) ([\d\s.,]*\d) ([A-Z]{3}) Kupivlya (.*?) (\d{2}.\d{2}.\d{4}).*?Dostupno: (-?[\d\s,.]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+PAN#8056 1312 UAH Kupivlya POS S1861135 FOP KLINIKA MEDIKOM KYIV UA 04/05/2013 13:39:23 Dostupno: 4305.88 UAH Vsogo: 4322.87 UAH

@@ -1,0 +1,7 @@
+^.*?(\d{4}).*?vnesena\s+summa\s+([\d\s.,]*\d)\s+\(?([A-Z]{3}).*?zachisleno\s+([\d\s.,]*\d).*?Ostatok:(-?[\d\s.,]*\d).*([\d/]{8}).*
+
+-----COLUMNS-----
+syncid;op_income;instrument;income;av_balance;date#dd/MM/yy
+
+-----EXAMPLE-----
+Karta **0817.Cherez CASH-IN vnesena summa 4200.00 RUR.PR. MIRA, 26.Na schet zachisleno 4200.00 RUR.Ostatok:30206.97 RUR.16/05/13,12:01:09.

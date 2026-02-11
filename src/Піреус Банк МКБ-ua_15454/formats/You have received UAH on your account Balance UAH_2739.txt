@@ -1,0 +1,7 @@
+^([\d.]{5}) .*eceive.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+01.11 08:45 You have received 2.04 UAH on your account 2620******8928. Balance 15537.17 UAH. Order Credit card and receive 3% Cash back on purchases!

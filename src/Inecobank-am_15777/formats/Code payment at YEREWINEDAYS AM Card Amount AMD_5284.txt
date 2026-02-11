@@ -1,0 +1,7 @@
+^Code: \d{4}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Code: 24057 - payment at YEREWINEDAYS.AM. Card ************8350. Amount: 13,000.00 AMD.

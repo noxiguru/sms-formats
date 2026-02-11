@@ -1,0 +1,7 @@
+^([\d.]{5}) .*?(\d{4}) popovnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+02.03 15:30 5577-7732 popovneno na 8,900.00 UAH Zalyshok: 8900 UAH Zamovliaite kredyt  online do 100 000 UAH. online.pravex.ua

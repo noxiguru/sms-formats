@@ -1,0 +1,7 @@
+^.*abarate\s+op.*ipri:\s*(\d{4})\s+.anxa:\s*([\d\s.,]*\d)\s*([A-Z]{3}).*ATM.*arighi:\s*(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*ashti.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Credo Bank: Sabarate operacia Baratis bolo 4 cipri: 9018 Tanxa: 750.00 GEL       Obiekti:ATM Credo 5001 (Batumi1), Batumi Tarighi: 18/04/2022 19:02:50 Nashti angarishze: 29517.94 GEL

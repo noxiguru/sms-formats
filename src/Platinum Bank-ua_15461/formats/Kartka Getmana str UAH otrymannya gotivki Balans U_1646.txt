@@ -1,0 +1,10 @@
+^.*(\d{4}) ([\d.]{10}).*?([\d\s.,]*\d)\s([A-Z]{3}) otryman.*gotiv.*?(-?[\d\s.,]*\d).*Usp.*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Kartka 4714*3823 01.04.2015 14:07:42 1 Getmana str: -100.00 UAH otrymannya gotivki. Balans 54.32 UAH. Uspishno.
+
+-----EXAMPLE-----
+Kartka 4438*7199 03.12.2015 13:27:00 POS PLATINUM BANK : +87000.00 UAH otrymannya gotivki. Balans 88982.08 UAH. Uspishno.

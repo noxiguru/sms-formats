@@ -1,0 +1,7 @@
+^.*urašyt.*?(\d{4})\D? -([\d\s.,]*\d)\s*([A-Z]{3}).*ikut.*?(-?[\d\s.,]*\d).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Nurašyta LT1234567890, -230.00 EUR, likutis: 28.99 EUR (15/06 09:14:16), Lėšų nurašymas 15/06/2020 09:14 card...2502 20440431 SODU G. 22#33097.

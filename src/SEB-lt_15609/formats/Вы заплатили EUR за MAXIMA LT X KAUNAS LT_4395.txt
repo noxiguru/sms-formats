@@ -1,0 +1,7 @@
+^.*платил.*?([\d\s.,]*\d)\s*([A-Z]{3}) за (.*?)\.$
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+Вы заплатили 12,94 EUR за MAXIMA LT, X-590 KAUNAS LT.

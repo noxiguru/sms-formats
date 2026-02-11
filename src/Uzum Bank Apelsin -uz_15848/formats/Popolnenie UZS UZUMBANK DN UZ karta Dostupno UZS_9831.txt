@@ -1,0 +1,7 @@
+.*?[Pp]opolnenie.*?:\s*([0-9][\d\s]*[.,]\d{2})\s*([A-Za-zА-Яа-я]{1,4})[,\s]*\s*(.*?),\s*(?:karta|карта).*?\*+(\d{4}).*?(?:Dostupno|Доступно)\s*:\s*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-zА-Яа-я]{1,4}).*
+
+-----COLUMNS-----
+income;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Popolnenie: 1300000.00 UZS, UZUMBANK DN 01158 01, UZ, karta ****6160. Dostupno: 2734478.69 UZS

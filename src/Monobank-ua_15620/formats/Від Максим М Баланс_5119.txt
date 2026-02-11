@@ -1,0 +1,7 @@
+^Від\W?\s+(.*?)\.?\s+Бала.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+║\s+👉💳\s+([\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+payee;av_balance;acc_instrument;income;instrument
+
+-----EXAMPLE-----
+Від: Максим М. Баланс 20 515.39₴ ║ 👉💳 1 055.00₴

@@ -1,0 +1,16 @@
+^(?:Opl[aа]ta|Auth):([\d\s.,]*\d)\s*([A-Z]{3}) (.*?)\s*C[aа]rd.*?\*(\d{4}).*[BВ][AА]L.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|)\s+(\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+Oplata: 303.00 RUR MCDONALDS 23018 Card **1389 BAL: 87 428.64 2020-02-13 16:46:38
+
+-----EXAMPLE-----
+Oplata: 1 463.00 RUR VINLAB Card **1389 BAL: 85 329.64 2020-02-14 19:20:00
+
+-----EXAMPLE-----
+Oplаta: 132.00 RUR UBЕR Cаrd **1674 ВAL: 755.21 2021-02-11 15:49:32
+
+-----EXAMPLE-----
+Oplata:  5 606.64 RUR  Card **7051  BAL: 39 017.93  2023-09-16 16:26:25

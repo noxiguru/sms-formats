@@ -1,0 +1,13 @@
+^(?:Payment\s+of|Your.*?transfer\s+of)(?!.*with.*funds)\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(?:was\s+done\s+at|to)\s+(.*?)\s+(?:using|from).*?(?:card\s+|number).*?(\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+Payment of AED 59 was done at Central Park using your Wio Personal card ending with 8027.
+
+-----EXAMPLE-----
+Your local transfer of AED 75 to Eduard Dolgushin from your account number 69XXXX5646 was processed.
+
+-----EXAMPLE-----
+Payment of AED 507.09 was done at Bosporusmirdifcityqlub using your Wio Personal card 9072 with

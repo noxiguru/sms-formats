@@ -1,0 +1,7 @@
+.*art.*?(\d{4}).*([\d.]{10}).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?),.*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 9776: 23.02.2017 19:45, spisanie 123.00 RUR, IP BOBROV AE, PENZA. Dostupno 283.11 RUR.

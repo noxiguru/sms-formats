@@ -1,0 +1,7 @@
+^Bill\s+Pymt\s+for\s+(.+)\s+of.*([A-Z]{3})\s*([\d\s.,]*\d).*X\d+(\d{4}).*limit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+payee;instrument;outcome;syncid;av_balance
+
+-----EXAMPLE-----
+Bill Pymt for GOOGLE CC@GOOGLE.COM of AED 200.00 has been made using Credit Card XXXX13461.Avl.limit AED 10,615.16.

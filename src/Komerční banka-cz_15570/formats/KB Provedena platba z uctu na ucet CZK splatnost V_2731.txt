@@ -1,0 +1,7 @@
+^.*platba z uct.*?(\d{4})\s+(na ucet.*?):([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+KB: Provedena platba z uctu 78-442160247 na ucet 1429063033/0800: 750,00 CZK, splatnost 14.11.2016, VS 0.

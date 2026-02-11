@@ -1,0 +1,7 @@
+^.*?(\d{4}) Operaciya.*?(\d[\d\s.,]*) ([A-Z]{3}) \S+ (.*?) ([\d.]{10}).*?Dostupno ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;balance
+
+-----EXAMPLE-----
+RPB cardxxx1165 Operaciya na summu 500 RUR Unique 777194 TOMSK TOMTEL INTERNET, KOMMU 17.06.2013 07:10 Dostupno 11161.82 RUR

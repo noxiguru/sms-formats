@@ -1,0 +1,13 @@
+^.*?(\d{4})\s+(?:vydano|выдано)([\d\s.,]*\d)\s*([A-Z]{3}).*?([\d/]{10}).*(?:stat|стат|ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM/yyyy;balance
+
+-----EXAMPLE-----
+Karta 4...3720 vydano 1000,00 RUB mesto O.O "BRYANSKIY" BRYANSK RUS 17/06/2013 Ostatok 1204,98 RUR
+
+-----EXAMPLE-----
+Карта 4...4006 выдано 4900,00 RUB место ZAVODOUPRAVLENIE SINTZ ZAVODSKOY PROEZD, 1 KAMENSK-URALSK RUS 02/02/2018 Остаток 29890,35 RUR
+
+-----EXAMPLE-----
+Карта 4...4006 выдано 6000,00 RUB SKB BANK ATM 90316 06/09/2018 Доступно 65219,01 RUR

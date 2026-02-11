@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+has\s+been\s+cred.*ccount.*?[\dX]+(\d{2,4})\s+.*REF:\s+[A-Z]+\d{10,}\s+(.*?)\..*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+AED 100.00 has been credited to your account no. 101XXX66XXX01 IPI TT REF: LN1234567890 VLADIMIR KATASHINSKII. The available balance is AED 100.00.

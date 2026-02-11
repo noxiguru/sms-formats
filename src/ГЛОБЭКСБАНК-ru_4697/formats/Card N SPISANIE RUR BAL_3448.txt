@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Card_N**6441 SPISANIE 60.00RUR 2018-02-01 15:49:36 BAL: 71 242.2

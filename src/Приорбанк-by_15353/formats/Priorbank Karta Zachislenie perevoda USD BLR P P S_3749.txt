@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*([\d-]{10}).*(?:achislen|opolnen)(?!.*ostu).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yyyy;income;instrument
+
+-----EXAMPLE-----
+Priorbank. Karta 4***8803 15-06-2018 12:03:27. Zachislenie perevoda 130.00 USD. BLR P2P SDBO NO FEE.  . Spravka: 80172899292
+
+-----EXAMPLE-----
+Priorbank. Karta 4***1441 29-06-2018 14:54:14. Popolnenie 20.00 BYN. BLR PST 421.  . Spravka: 80172899292

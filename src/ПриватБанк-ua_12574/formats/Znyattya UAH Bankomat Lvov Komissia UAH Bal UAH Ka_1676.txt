@@ -1,0 +1,7 @@
+^(.{4}).*(?:nyatie|nyattya).*?(\d[\d\s.,]*)([A-Z]{3}).*omis.*?([\d\s.,]*\d).*Bal:(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+5*17 11:46 Znyattya 2000.00UAH (Bankomat 5730 Lvov) Komissia 20.00UAH. Bal:7204.67UAH Kartka Universalna - bezprocentnyi kredyt do 55 dniv! pb.ua/karta

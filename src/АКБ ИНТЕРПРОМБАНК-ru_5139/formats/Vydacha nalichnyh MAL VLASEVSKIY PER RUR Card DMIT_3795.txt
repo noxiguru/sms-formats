@@ -1,0 +1,7 @@
+^Vydacha.*?([1-9]\d{0,2}(?:\s\d{3})*\.\d{2}|\d+\.\d{2})\s*([A-Z]{3}).*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Vydacha nalichnyh MAL.VLASEVSKIY PER., 9 38 000.00RUR Card **4006 DMITRY FINOGENOV BAL: 1 922.38 2018-07-03 14:36:30

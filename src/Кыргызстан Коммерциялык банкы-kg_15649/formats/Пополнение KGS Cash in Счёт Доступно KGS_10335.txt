@@ -1,0 +1,7 @@
+Пополнение:\s+([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3})\s+Cash-in\s+Сч[её]т:\s*\*(\d{4})\s+Доступно:\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,3})(?:\s*║.*)?
+
+-----COLUMNS-----
+income;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Пополнение: 300 KGS Cash-in Счёт: *4523 Доступно: 8 077,07 KGS ║

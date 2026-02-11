@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3}) (na .*?) c kart.*?(\d{4}).*ostu.*?(?:\d{2}:\d{2})?(-?[\d\s.,]*\d)\s*[A-Z]{3}.*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;av_balance
+
+-----EXAMPLE-----
++1218.5 RUR na nakopitel'nyj schet c karty *4689. Dostupno po karte na 09:09 1100.66 RUR

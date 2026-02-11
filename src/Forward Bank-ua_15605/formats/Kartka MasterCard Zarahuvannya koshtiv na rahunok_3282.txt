@@ -1,0 +1,13 @@
+^.*[-*](\d{4})\D.*arahuvan.*?(?:kosh|cash).*:\s*\+?([\d\s.,]*\d)\s*([A-Z]{3}).*? (\d{2}[-./]\d{2}[-./]?\d{0,4}) .*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartka MasterCard *1199. Zarahuvannya koshtiv na rahunok: +100.00 UAH Cash2Card EasyPay Uk 13.11.2017 22:24. Dostupno: 101.35 UAH. Forward Bank, tel. 0800300880
+
+-----EXAMPLE-----
+Kartka 5168-2380. Zarahuvannya koshtiv na rahunok: 5 UAH 11.03 15:30. Dostupno 1202.6 UAH. Tel.583 ║ Card transactions
+
+-----EXAMPLE-----
+Kartka 5168-3487. Zarahuvannya cash-back: 110.86 UAH 09.11 16:30.Kredytnyy limit: 64700, vykorystano: 66779.15. Dostupno -2079.15 UAH. Tel.583

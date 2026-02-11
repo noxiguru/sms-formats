@@ -1,0 +1,7 @@
+^.*(?:urchase|URCHASE).*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}) .rom (.*) (?:on .*?)? at (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy
+
+-----EXAMPLE-----
+Internet Purchase Transaction Mada card *3275 Account 111*303 Amount 515.71 SAR From autodoc.ru Dubna on Russian Federation at 19/04/2021 13:23

@@ -1,0 +1,7 @@
+^.*ostup.*\*(\d{4}).*umm.*?([A-Z]{3})\s*([\d\s.,]*\d).*([\d.]{10}).*esto\W?\s*(.*?)\s+.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;income;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Postuplenie deneg Karta: *8149 Summa: EUR 125.00 Vremja: 20.11.2018 20:12 Mesto: Bankas operacija ar kontu>Riga LV Dostupno: EUR 130.26 Spasibo!

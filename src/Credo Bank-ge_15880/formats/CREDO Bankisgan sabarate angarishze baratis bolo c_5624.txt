@@ -1,0 +1,7 @@
+^.*agibrundat.*adaxdili\s+tanxis\s+(Cashback-i):\s+([\d\s.,]*\d)\s*([A-Z]{3})\.\s*\*(\d{4}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid
+
+-----EXAMPLE-----
+CREDO Bankisgan sabarate angarishze (baratis bolo 4 cifri: 3714) Dagibrundat SPAR 236-is qselshi gadaxdili tanxis Cashback-i: 0.11 GEL.*4242

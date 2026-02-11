@@ -1,0 +1,7 @@
+^ACHITAREA.*(\d{4}) (.*);\s*([\d\s.,]*\d) ([A-Z]{3}). ([\d.]{10}).*DISPONIBILA.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ACHITAREA: 522399******9900 VATRAFEST 16; 37.00 MDL; 16.08.2014, 12:48:30. SUMA DISPONIBILA: 397.00 . OK VA MULTUMIM. UNIBANK

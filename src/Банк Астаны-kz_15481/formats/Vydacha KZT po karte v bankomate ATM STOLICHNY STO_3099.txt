@@ -1,0 +1,7 @@
+^Vyda.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{3,4}).*ankom.*([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Vydacha 9 000.00 KZT po karte 5**168 v bankomate ATM 463 "STOLICHNY" STOR, 2017-07-12 18:35:32. Dostupno 287 340.28 KZT.

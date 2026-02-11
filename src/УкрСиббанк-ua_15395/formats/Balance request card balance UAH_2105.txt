@@ -1,0 +1,7 @@
+^Bal.*([\d.]{10}).*(\d{4})\s+bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;av_balance
+
+-----EXAMPLE-----
+Balance request: 16.11.2015 12:58:33 card 5582%9491 balance 308.84 UAH.

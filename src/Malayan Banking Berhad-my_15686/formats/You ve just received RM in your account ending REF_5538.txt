@@ -1,0 +1,10 @@
+^.*(?:eceived|eposit plac.*?) ([A-Z]{2,3}|\W)\s*([\d\s.,]*\d) (?:in|to) .*ending.*?(\d{4}).*
+
+-----COLUMNS-----
+instrument;income;syncid
+
+-----EXAMPLE-----
+You’ve just received RM2,000.00 in your account ending ***2415. REF: Maid Payment ║ Maybank2u: Funds Received
+
+-----EXAMPLE-----
+Successful Fixed Deposit placement of RM 1,000.00 to account ending 3679. REF: 684727641M ║ Maybank2u: Fixed Deposit Placement

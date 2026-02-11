@@ -1,0 +1,10 @@
+^.*?(\d{4}).*?(\$)([\d\s.,]*\d).*eposit.* on ((?:\d{2}|[A-Z][a-z]+)[-./ ]\d{2},?[-./ ]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;instrument;income;date#Mdy
+
+-----EXAMPLE-----
+Chase acct 6377: Your recent $500.00 Direct Deposit posted on 07/29/2017 02:28:11 AM EDT was more than the $0.01 limit in your Alerts settings.
+
+-----EXAMPLE-----
+Chase acct 8778: Your recent $2,218.33 Direct Deposit posted on Feb 28, 2023 at 3:25 AM ET was more than the $0.01 limit in your Alerts settings.

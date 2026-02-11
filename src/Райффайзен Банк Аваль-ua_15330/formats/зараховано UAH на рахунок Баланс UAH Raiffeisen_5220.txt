@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:арахов|arakho).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:на|na) .*?(\d{4}).*(?:алан|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+06.01.22 зараховано 14323.67 UAH на рахунок 1234567890. Баланс: 14323.67 UAH ║ Raiffeisen
+
+-----EXAMPLE-----
+23.11.22 zarakhovano 14000.00 UAH na rakhunok 1234567890. Balans: 17098.12 UAH

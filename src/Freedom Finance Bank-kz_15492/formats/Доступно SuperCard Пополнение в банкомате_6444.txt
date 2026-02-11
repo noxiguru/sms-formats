@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*?\*(\d{4}).*ополнение\s+в\s+банк.*
+
+-----COLUMNS-----
+income;instrument;av_balance;acc_instrument;syncid#cash
+
+-----EXAMPLE-----
++270 000 ₸ Доступно 4 813 612,22 ₸ SuperCard **2433 ║ Пополнение в банкомате

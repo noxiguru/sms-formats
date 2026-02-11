@@ -1,0 +1,11 @@
+^(?:Postup|POSTUP).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+POSTUPLENIE SREDSTV NA SCHET: 40000.00 RUR. Karta *2146 10.09.18 11:41. Ostatok 43458.86 RUR.
+
+-----EXAMPLE-----
+Postuplenie sredstv po operacii bez avtorizacii 341.64 RUR. 
+Karta *8030, WWW.ALIEXPRESS.COM in LONDON, 15.10.18 00:00. Ostatok 24134.73 RUR

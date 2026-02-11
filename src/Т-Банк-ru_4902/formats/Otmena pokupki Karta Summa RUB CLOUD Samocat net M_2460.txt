@@ -1,0 +1,7 @@
+^(Otmena.*?|Отмена.*?|Vozvrat.*?)\..*?\*([\d]{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}).\s+(.*).\s+(\d{2}\.[\d.]{7}).*(?:ostu|осту).*(?:limit|лимит).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Otmena pokupki. Karta *8293. Summa 1000.00 RUB. CLOUD*Samocat.net, MOSCOW. 05.06.2016 21:01. Dostupno s uchetom rashodnogo limita 54225.89 RUB. www.tinkoff.ru

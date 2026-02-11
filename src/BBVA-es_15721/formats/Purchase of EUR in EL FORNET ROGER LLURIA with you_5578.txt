@@ -1,0 +1,16 @@
+^(?:Purch|Compra|Paym|Aceptado\s+el\s+pag).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:in|en)\s+(.*?)\s+(?:with\s+yo|con\s+tu).*?\s+(?:in|en)\s+(\d{4}).*\s+║\s+.*acc?ept.*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+Purchase of 6,50 EUR in EL FORNET ROGER LLURIA with your card ending in 5361. ║ Purchase accepted 👍💳
+
+-----EXAMPLE-----
+Compra de 1,80 EUR en BLAT CAFE con tu tarjeta terminada en 5361. ║ Compra aceptada 👍💳
+
+-----EXAMPLE-----
+Payment of 2,40 EUR in TRAMBESOS with your card ending in 5361 accepted. ║ Payment accepted 👍💳
+
+-----EXAMPLE-----
+Aceptado el pago de 2,17 EUR en CONDIS BALMES 466 con tu tarjeta terminada en 8218. ║ Pago aceptado 👍💳

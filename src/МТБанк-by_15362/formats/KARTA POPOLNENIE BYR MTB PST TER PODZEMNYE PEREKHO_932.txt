@@ -1,0 +1,10 @@
+^.*?\*(\d{4}).([\d/]{8}).*?(?:POPOLNEN|PEREVOD).*?([\d\s.,]*\d)\s*?([A-Z]{3}).*?OSTAT.*?([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+KARTA:4177*8079,14/08/13 15:53,POPOLNENIE 20000 BYR,MTB PST 17, TER. PODZEMNYE PEREKHODY 3, MINSK,OSTATOK 493 BYR. Spravka: 5099999
+
+-----EXAMPLE-----
+KARTA:5351*5635 01/07/16 16:41 PEREVOD 5.00 BYN P2P_MTBANK, PEREVOD, MINSK OSTATOK 74.81 BYN Spr.:5099999

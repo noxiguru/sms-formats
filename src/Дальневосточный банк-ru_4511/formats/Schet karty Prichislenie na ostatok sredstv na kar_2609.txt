@@ -1,0 +1,7 @@
+^.*?\*(\d{2,4})\.?\s+(.*?% na ost.*?)\..*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;av_balance
+
+-----EXAMPLE-----
+Schet karty **2388. Prichislenie % na ostatok sredstv na kartschete. Summa 8.75 RUR; Dostupno: 60.24 RUR

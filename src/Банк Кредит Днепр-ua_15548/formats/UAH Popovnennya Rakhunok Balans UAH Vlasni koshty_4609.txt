@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) .opovn\w+ (\d{2}[-./]\d{2}[-./]\d{2,4}).*akhun.*?(\d{4}) .alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+100.00 UAH Popovnennya 16.11.22 06:48 Rakhunok 1234567890 Balans 9815.83 UAH Vlasni koshty 0.00 UAH Kredytnyy limit 19500.00 UAH

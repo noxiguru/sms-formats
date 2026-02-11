@@ -1,0 +1,5 @@
+ozon.card
+ru.ozon.card
+ru.ozon.app.android
+ozonfinance
+ru.ozon.fintech.finance

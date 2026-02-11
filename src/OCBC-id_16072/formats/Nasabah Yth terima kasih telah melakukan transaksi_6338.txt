@@ -1,0 +1,7 @@
+^.*melakukan\s+transaksi\s+sebesar\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+tanggal\s+([\d]{2}[-\s+](?:\w+|\d{2})[-\s+]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;date#dMy
+
+-----EXAMPLE-----
+Nasabah Yth, terima kasih telah melakukan transaksi sebesar IDR 56,000.00 tanggal 05 Sep 2024. Info 1500999

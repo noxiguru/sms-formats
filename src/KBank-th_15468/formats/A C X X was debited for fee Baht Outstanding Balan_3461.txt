@@ -1,0 +1,7 @@
+^([\d/]{8}) .*X\d*(\d{4}).*debited.*?([\d\s.,]*\d)\s*([a-zA-Z]{3,4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM/yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+30/01/18 16:58 A/C X235075X was debited for fee 10.00 Baht Outstanding Balance 43384.18 Baht.

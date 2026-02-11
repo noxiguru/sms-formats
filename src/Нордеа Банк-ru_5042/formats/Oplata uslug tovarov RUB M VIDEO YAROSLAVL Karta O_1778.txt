@@ -1,0 +1,7 @@
+^Oplat.*?([\d\s.,]*\d)\s*([A-Z]{3}).\s+(.*).\s+Kart.*?(\d{4}).*stat.*?([\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Oplata uslug/tovarov: 3590.00 RUB. M.VIDEO 152, YAROSLAVL. Karta *1387. Ostatok: 44173.80 RUB. 28.05.2015 15:17

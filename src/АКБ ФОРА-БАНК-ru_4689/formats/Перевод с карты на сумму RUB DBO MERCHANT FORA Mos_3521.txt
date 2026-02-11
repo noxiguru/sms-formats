@@ -1,0 +1,7 @@
+^Перевод с.*?(\d{4}) .*?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d.]{8}) .*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Перевод с карты 4256***7328 на сумму 5000.00 RUB. DBO MERCHANT FORA, Moscow, Zubovskiy 25. 16.02.18 18:17. Доступно: 328561.70 RUB

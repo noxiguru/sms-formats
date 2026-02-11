@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*-([\d\s.,]*\d)\s*([A-Z]{3}).*esto:\s*(.*?)\s+([\d-]{10}) .*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Card_N**6441 - 333.00RUR Mesto: CASTORAMA 7121 2017-11-15 16:20:23 BAL: 1 403.16

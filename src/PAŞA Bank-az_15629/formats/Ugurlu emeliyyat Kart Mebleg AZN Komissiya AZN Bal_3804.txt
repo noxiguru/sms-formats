@@ -1,0 +1,16 @@
+^.*(?:gurlu|spesh|ucces).*\*(\d{4}).*(?:ebleg|umma|mount)(?!.*kvival).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:[Kk]omiss|[Ff]ee).*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s*\S+\s+(.*?)(?:\s+\d{8}.*)?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;fee;av_balance;acc_instrument;payee;date#dMy
+
+-----EXAMPLE-----
+Ugurlu emeliyyat   Kart: *9897  Mebleg 2.24 AZN  Komissiya: 0.40 AZN  Balans: 25.71 AZN  TAXIFY 20180712 0125  12-07-18 01:32
+
+-----EXAMPLE-----
+Ugurlu emeliyyat   Kart: *3579  Mebleg 500.00 AZN  Komissiya: 0.00 AZN  Balans: 2254.43 AZN  PASHA ATM HEAD OFFI  31-10-18 19:25
+
+-----EXAMPLE-----
+Uspeshnaya operaciya   Karta: *1377  Summa 50.00 AZN  Komissiya: 0.00 AZN  Balans: 119.47 AZN  GALINA FLOWERS  07-03-21 22:08
+
+-----EXAMPLE-----
+Successful transaction  Card: *7900  Amount 4.50 AZN  Fee: 0.00 AZN  Balans: 1485.66 AZN  POS MOKKO COFFEE (Z. 02-06-21 10:22

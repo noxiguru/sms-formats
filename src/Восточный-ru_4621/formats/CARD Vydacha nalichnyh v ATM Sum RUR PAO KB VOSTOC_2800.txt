@@ -1,0 +1,7 @@
+^.*?(\d{4})\.\s+Vydacha n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+CARD: 9555. Vydacha nalichnyh v ATM. Sum: 2 400.00 RUR PAO KB "VOSTOChNYY" 2016-12-29 12:00:41 (MCK) Ostatok:33 752.04 RUR.

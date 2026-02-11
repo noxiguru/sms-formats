@@ -1,0 +1,7 @@
+^Snyat.*?nal.*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*omis.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;fee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Snyatie nalichnyh VB24, VLADIMIR G po karte *3173 na summu: 6 500.00 rub Komissiya: 0.00 rub Dostupniy ostatok: 96 613.95 rub 22.07.18  13:09

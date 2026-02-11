@@ -1,0 +1,7 @@
+^([\d.]{10})\s+(?!.*\d[.,]\d+\s*[A-Z]{3}\b)(.*)
+
+-----COLUMNS-----
+date#dd.MM.yyyy;payee
+
+-----EXAMPLE-----
+31.08.2017  MCDONALDS 11015 MOSKVA

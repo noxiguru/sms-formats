@@ -1,0 +1,16 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}).*(?:latez|erevod|P2P).*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+-3400 KZT CashBack 34.00 Platezh BCC.KZ Schet KZ**2714 Balans 1546.43 KZT
+
+-----EXAMPLE-----
+-11096.09 KZT CashBack 110.96 Platezh BCC.KZ Schet KZ**4646 Balans 3156.15
+
+-----EXAMPLE-----
+-50000 KZT Perevod BCC.KZ Karta 4**1220 Balans 650000 KZT
+
+-----EXAMPLE-----
+-20 EUR P2Ps karti *2494 Balans 1092.43 EUR  ║

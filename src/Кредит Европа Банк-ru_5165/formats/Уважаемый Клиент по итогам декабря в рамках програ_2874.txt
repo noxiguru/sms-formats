@@ -1,0 +1,10 @@
+^.*(Вернем проц.*?|Vernem prot.*?)\s+(?:на|na) .*?(\d{4}) .*?(?:ачисл|achisl).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument
+
+-----EXAMPLE-----
+Уважаемый Клиент, по итогам декабря 2016 в рамках программы Вернем процент от покупок по карте CARD PLUS на Ваш счет #3240 зачислено 211,5 руб. АО Кредит Европа Банк
+
+-----EXAMPLE-----
+Uvazhayemyy Klient, po itogam Marta 2018 v ramkakh programmy Vernem protsent ot pokupok po karte CARD PLUS na Vash schet #0948 zachisleno 529,54 rub. AO Kredit Evropa Bank

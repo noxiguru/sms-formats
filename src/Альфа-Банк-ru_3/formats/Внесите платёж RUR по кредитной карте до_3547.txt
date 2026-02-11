@@ -1,0 +1,10 @@
+^.*(?:несите\s+плат|e\s+proshla|е\s+прошла).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Внесите платёж 300.00 RUR по кредитной карте  *0581 до 05.02.2020
+
+-----EXAMPLE-----
+**9905 Ne proshla pokupka na 1 RUR Balans 127 967,17 RUR MAGNIT DOSTAVKA

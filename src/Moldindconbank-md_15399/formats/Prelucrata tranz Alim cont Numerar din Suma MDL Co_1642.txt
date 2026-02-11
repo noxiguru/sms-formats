@@ -1,0 +1,13 @@
+^.*?(?:Alim.*umerar|ополн.*?нал).*([\d.]{8}).*Suma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}).*disp.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;income;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Prelucrata tranz. Alim.cont: Numerar din 17.01.15 09:43. Suma:500,00 MDL. Cont:2**4498. Suma disp:512,37 MDL.
+
+-----EXAMPLE-----
+Efectuata tranz. Alim.numerar ATM "ATM135 "Sed. Central"-3" din 16.03.16 11:12. Suma:10,00 USD. Card:5**7296. Suma disp:240,39 MDL.
+
+-----EXAMPLE-----
+Efectuata tranz. Пополн. наличными ATM "ATM008 Filiala "Kiev"" din 13.06.17 12:35. Suma:80,00 USD. Card:5**1221. Suma disp:95,08 USD.

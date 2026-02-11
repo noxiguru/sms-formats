@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]?\d{0,4})\s+.*\.{3}(\d{4}).*znos.*?([\d\s.,]*\d)\s*([A-Z]{3}).*okacija:\s+(.*?)(?:>.*?)?\.\s+Br.*aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+31.10 15:49 Mastercard Platinum debit ...5020. Iznos: 19,00 USD. Lokacija: BRAINSOUP>+33951360068. Br.odobr: 551824. Raspolozivo:2.021,96 RSD i 0,00 EUR.

@@ -1,0 +1,7 @@
+^.*?Spisanie.*?Summa. ([\d\s.,]*\d) ([а-яa-zA-Z]{3}).*alans. ([\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Forshtadt: Spisanie so scheta Summa: 39 078.88 rub Balans: 436.91 rub Vremja: 11:56 24.02.14

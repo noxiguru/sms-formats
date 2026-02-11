@@ -1,0 +1,10 @@
+^.* (\d{2}/\d{2}) .* \*\d*(\d{4})\s+(?:출금|PAY)\s+([\d\s.,]*\d)\s*(\S{1,3})\s+().*\s+(?:잔액|BAL)\s*(-?[\d\s.,]*\d)\s*([A-Z]{3}|\S)\s*$
+
+-----COLUMNS-----
+date#Md;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+[Web발신] WOORI 07/29 [11:24] *629644 PAY 25,000WON 아마레 BAL 7,960WON
+
+-----EXAMPLE-----
+우리 01/17 19:33  *954950  출금 7,580원  굿마트  잔액 604,141원

@@ -1,0 +1,19 @@
+^(?:Vk?hodya|Входя).*?([\d\s.,]*\d)\s*([A-Z]{3})\W? (?:.(?:tprav|тправ)\w+\W?)?\s*(.*?)(?:\.|,)\s+(\d{2}[-./]\d{2}[-./]?\d{0,4}|)\..*
+
+-----COLUMNS-----
+income;instrument;payee;date#dMy
+
+-----EXAMPLE-----
+Vhodyaschiy platezh. Summa 111,200.00 RUB. Otpravitel Obschestvo s ogranichennoy otvetstvennostyu "MEDTREYD SPB" R/S 1234567890. 10.10.2017. Tinkoff.ru
+
+-----EXAMPLE-----
+Vhodyaschiy platezh. Summa 65,000.00 RUB. Otpravitel. 16.10.2017. Tinkoff.ru
+
+-----EXAMPLE-----
+Входящий платеж: 45,000.00 RUB, ИВАНОВ АЛЕКСЕЙ АЛЕКСЕЕВИЧ (ИП) Р/С 1234567890, 15.12.2017.
+
+-----EXAMPLE-----
+Входящий платеж: 11875.00 RUB, ООО "Аптеки Столички Клин",  29.11.
+
+-----EXAMPLE-----
+Входящий платеж: 3000.00 RUB, ООО "Восточный экспресс", 15.07. ║ Пополнение

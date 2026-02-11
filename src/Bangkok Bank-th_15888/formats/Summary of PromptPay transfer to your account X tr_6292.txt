@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]?\d{0,4}).*?.*ummary\s+of\s+(.*?)\s+transfer\s+to.*?X(\d{4}).*mount.*?([A-Za-z]{2,3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;payee;syncid;instrument;outcome
+
+-----EXAMPLE-----
+03/07 @20:00 Summary of PromptPay transfer to your account X7675; 1 transactions, total amount Bt 11,000.00.

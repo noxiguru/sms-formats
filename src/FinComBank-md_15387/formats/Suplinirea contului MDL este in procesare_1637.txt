@@ -1,0 +1,7 @@
+^Suplinirea.*?(\d{4}). ([\d-]{10})[^;]+. ([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument
+
+-----EXAMPLE-----
+Suplinirea contului 4..0716; 2015-03-13 16:30:53; 8316.17 MDL este in procesare.

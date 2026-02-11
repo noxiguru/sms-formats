@@ -1,0 +1,7 @@
+^Po\s+kart.*\*(\d{4})\s+proizv.*\s+(otmena.*?)\s+na\s+([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument
+
+-----EXAMPLE-----
+Po kartochke **9589 proizvedena otmena operatsii na 1500.00 KZT ot 06.10.24 13:27:58 HCB, ALMATY, KZ

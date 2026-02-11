@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}) .eposi.* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+PAN5375***3426 200.00 BYN Deposit POS SMS90208 PEREVOD BAPB, MINSK, BY 19.08.21 21:05 Dostupno: 2150.93 UAH

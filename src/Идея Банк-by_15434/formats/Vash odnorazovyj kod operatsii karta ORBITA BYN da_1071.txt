@@ -1,0 +1,7 @@
+^.*dnoraz.*?kod.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Vash odnorazovyj kod operatsii 944562 (karta 5*5050, ORBITA, 51.20 BYN, data operatsii  2019-04-08 21:24:39)

@@ -1,0 +1,10 @@
+^.*art.*?(\d{4}).*znos.*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*[Oo]pis:\s*(.*?)\s+[Rr]aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartica: 2525 Iznos: 2,50 EUR Vrijeme: 19.03.2019 10:05:48 Status: ODOBRENO Opis: MEGAMARKET 6, KASA 2   BUDVA          ME Raspolozivo: 208,45 EUR
+
+-----EXAMPLE-----
+Kartica: 4557 Iznos: 40,80 EUR Vrijeme: 02.04.2022 21:35:54 Status: ODOBRENO Opis: Wondershare INTERNET HK Raspolozivo: 1174,21 EUR

@@ -1,0 +1,7 @@
+^.*redito por ([A-Z]{1,3})\.?\s*([\d\s.,]*\d) en la Agen.*?: (.*?) Cuen.*?: (\w+) (\d{2}-\w{3}) .*
+
+-----COLUMNS-----
+instrument;income;payee;syncid;date#dM
+
+-----EXAMPLE-----
+BiMovil: Credito por Q.600.00 en la Agencia: CENTRAL Cuenta: MONE1 05-Jul 12:26 Autorizacion: 185244.

@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d.]{10}).*opolnen.*ATM.*na([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+VISA: *9802 13.12.2017 13:56:25 Popolnenie v ATM ATB CashIn asPOS na 10000.00 RUR vypolneno Dostupno: 10167.82 RUR

@@ -1,0 +1,7 @@
+Pri.*? (\d{2}[-./]\w+[-./]\d{2,4}) -> .*?(\d{4}) -> ([\d\s.,]*\d).*Ost.*?(-?[\d\s.,]*\d) -> (.*)
+
+-----COLUMNS-----
+date#dMy;syncid;income;av_balance;comment
+
+-----EXAMPLE-----
+Prixod: 08-OCT-20 ->  1234567890 -> 2 000 000.00, Ost: 2 000 000.00 -> NEW BEZNAL PRIBANK UZCARD (00634 POPOL NA DV SCHET TYO DANIL);

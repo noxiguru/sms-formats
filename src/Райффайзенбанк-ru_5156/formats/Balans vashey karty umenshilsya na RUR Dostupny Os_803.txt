@@ -1,0 +1,7 @@
+^.*?[#*]\d*([\d]{4}) umenshilsya ([\d/]{10}) na.*?([\d\s,.]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Balans vashey karty *5010 umenshilsya 07/05/2013 na:17899,65RUR. Dostupny Ostatok: 146794,01RUR. Raiffeisenbank

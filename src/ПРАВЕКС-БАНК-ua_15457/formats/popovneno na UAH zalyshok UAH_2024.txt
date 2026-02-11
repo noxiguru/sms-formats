@@ -1,0 +1,7 @@
+^([\d.]{10}).*-(\d{4}) .opovne.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+.alysho.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+16.10.2015 10:48 5218-5114 popovneno na 29054.34 UAH zalyshok 34189.23(UAH)

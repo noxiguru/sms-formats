@@ -1,0 +1,46 @@
+^.*?\*(\d{4})\D.*?(?:snyat\S+|снят\S+)(?!.*(?:otklon|отклон)).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?([\d./]{10}|)\s+[\d:]{5,}\D\s*.(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta *1234: snyatie nalichnih 4000.00 RUR; 19-1, NAUKI; data: 24.10.2013 23:42; dostupno 15178.18 RUR. VTB24
+
+-----EXAMPLE-----
+Karta *1177: snyatie sredstv 3880.97 RUR; 234,FRUNZE; data: 27.01.2014 20:41; dostupno 0 RUR (v tom chisle kred. 0.00 RUR). VTB24
+
+-----EXAMPLE-----
+Karta *9591: snyatie sredstv 8500 RUB; 26/1, L.KETSKHOVEL; data: 15/07/2015 11:55; dostupno 11500 RUB. VTB24
+
+-----EXAMPLE-----
+Karta *6047: snyatie nalichnih 300 USD; 8, NAKHIMOVA >; data: 09/09/2015 11:06; dostupno 1462 USD. VTB24
+
+-----EXAMPLE-----
+Karta *0318: snyatie sredstv 1100.00 RUR; VTB24-ONLINE; 05.04.2016 14:54, dostupno 264498.39 RUR (v tom chisle kred. 264498.39 RUR). VTB24
+
+-----EXAMPLE-----
+Karta *2112: snyatie nalichnih 500.00 RUR; 10, LENINA; 05.04.2016 16:12, dostupno 11350.26 RUR (v tom chisle kred. 0.00 RUR). VTB24
+
+-----EXAMPLE-----
+Karta *9086: snyatie sredstv 12000 RUB; 114, VSEVOLOZHSKIY; 06/04/2016 09:05, dostupno 1076.5 RUB. VTB24
+
+-----EXAMPLE-----
+Karta *0409: snyatie 4400.00 RUR; 7, UL_TVERSKAYA; 07.06.2016 15:14, dostupno 22968.7 RUR (v tom chisle kred. 0.00 RUR). VTB24
+
+-----EXAMPLE-----
+Karta *7136: snyatie 3000 RUB; 15, BOLSHAYA OLENYA; 09/06/2016 13:31, dostupno 354845.64 RUB. VTB24
+
+-----EXAMPLE-----
+Karta *7136: snyatie 200000 RUB; 17/09/2016 12:14, dostupno 157630.16 RUB. VTB24
+
+-----EXAMPLE-----
+Karta *4766: snyatie 0.00 EUR; 29.12.2016 19:00, dostupno 0.00 EUR. VTB24
+
+-----EXAMPLE-----
+Карта *6236: снятие 5000.00 RUB; Krasnoyarsk; 12.04.2017 06:03, доступно 17508.65 RUB. ВТБ24
+
+-----EXAMPLE-----
+Karta *7284: snyatie 13000.00 RUB; D. 11, PR-KT KOMSOMOL'SKII; 26.08.2017 20:53, dostupno 3.49 RUB (sobstv. sredstva 3.49 ). VTB24
+
+-----EXAMPLE-----
+Karta *4828: snyatie 2700.00 RUB;D. 105, PR-KT UNIVERSITETSKII;08.09.2018 12:58,dostupno 15971.74 RUB.

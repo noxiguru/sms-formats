@@ -1,0 +1,10 @@
+^Cheque.*?for\s+([A-Z]{3})\s*([\d\s.,]*\d).*deposit.*?acc.*?(\d{4})\s+on\s+(\S{3}\s+\d{1,2}\s+\d{4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#MMM dd yyyy
+
+-----EXAMPLE-----
+Cheque no. 342418 for AED562.55 has been deposited into your account no. XXX132001 on Oct 25 2016  5:40PM.
+
+-----EXAMPLE-----
+Cheque no. 000072 for AED8000.00 has been deposited into your account no. XXX217001 on Sep  9 2017  4:32PM.

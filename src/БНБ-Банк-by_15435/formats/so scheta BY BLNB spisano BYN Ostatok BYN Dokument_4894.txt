@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ so? .*?(\d{4}) .pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+14.12.20 13:58 so scheta BY86BLNB1234567890 spisano 400 BYN. Ostatok 2 806.17 BYN. Dokument N62434.

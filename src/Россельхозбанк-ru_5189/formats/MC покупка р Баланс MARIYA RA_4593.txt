@@ -1,0 +1,10 @@
+^\w+(\d{4}) .*(?:окупк|okupk).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:алан|alan).*?(-?[\d\s.,]*\d) (?:(?:Dolg|Долг).*?[\d\s.,]*\d )?(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+MC4178 04:26 покупка 555.10р Баланс 7,064.89 MARIYA-RA
+
+-----EXAMPLE-----
+MC3394 13:49 pokupka 1,000r Balans 26,605.95 Dolg 1,895.05 CHACHA

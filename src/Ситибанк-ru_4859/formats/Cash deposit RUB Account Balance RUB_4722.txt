@@ -1,0 +1,7 @@
+^Cash d.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s*(\d{2}/\d{2}) .*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#Md;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Cash deposit 12050.00RUB;06/14 Account*0169 Balance 12980.00RUB

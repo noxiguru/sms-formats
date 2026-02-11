@@ -1,0 +1,7 @@
+^Снятие н.*\*(\d{4})\s.*сумм.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d/]{5}/\d{2}).*Досту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM/yy;av_balance
+
+-----EXAMPLE-----
+Снятие наличных по карте VISA*2138 на сумму 500.00 RUB. FORA BANK, ZUBOVSKIY BULVAR 25, MOSCOW. 22/12/15 17:13:40. Доступно: 496.72 RUB.

@@ -1,0 +1,10 @@
+^\*(\d{4}).*(?:ostup|opoln|ополн|оступ).*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*(?:rocent|роцент).*%.*?)(?: ║ .*)?$
+
+-----COLUMNS-----
+syncid;income;instrument;comment
+
+-----EXAMPLE-----
+*3830; Postuplenie na 430.52 RUB. Nachislenie procentov ot banka po usluge "% na ostatok"
+
+-----EXAMPLE-----
+*2784; Пополнение 1,166.28RUB Проценты по услуге "% на остаток" ║ Кукуруза

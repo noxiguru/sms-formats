@@ -1,0 +1,16 @@
+^(\d{2}[-./]\d{2}[-./]?\d{0,4})\s+.*(?:USPIS.*?\s+|SPYSA.*?-)([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*) CARD.*?-(\d{4})\s+(?:kred.*)?.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+08/09 06:32 USPISHNO 2500UAH P24 CR MD UA CARD 5355-5898 Dostupno 2567.17UAH
+
+-----EXAMPLE-----
+26/09 13:14 USPISHNO 190.97UAH AGZP CARD 5181-4877 kred lim 49900UAH Vikorystaniy kred lim 164UAH Dostupno 49736UAH
+
+-----EXAMPLE-----
+20/10 15:31 USPISHNO 2UAH MONODirect CARD 5181-4877  kred lim 49900UAH Vikorystaniy kred lim 2029.28UAH Dostupno 47870.72UAH
+
+-----EXAMPLE-----
+08/12 22:10 SPYSANO -2UAH IDEA BANK CARD 5355-2563 Dostupno 73.96UAH

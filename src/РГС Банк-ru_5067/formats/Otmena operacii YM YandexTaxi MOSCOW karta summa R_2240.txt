@@ -1,0 +1,7 @@
+^(Otmena o.*?:\s+.+?),.*([\d.]{8}).*?art.*?\*(\d{4}).*sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Otmena operacii: YM*YandexTaxi, MOSCOW, ,05.02.16 23:36,karta 4169***1477. summa:2.00 RUB, balance:21568.08 RUB

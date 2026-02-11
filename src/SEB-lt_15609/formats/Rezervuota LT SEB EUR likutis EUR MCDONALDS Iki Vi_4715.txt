@@ -1,0 +1,7 @@
+^.*ezervu.*?(\d{4}).*-([\d\s.,]*\d)\s*([A-Z]{3}).*ikut.*?(-?[\d\s.,]*\d).*\((\d{2}[-./]\d{2}) .*?\), [.\d\s]+(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dM;payee
+
+-----EXAMPLE-----
+Rezervuota LT1234567890, SEB, -2.00 EUR, likutis: 26.99 EUR (15/06 17:38:43), ...112502 MCDONALDS 9059346 Iki >Vilnius LT.

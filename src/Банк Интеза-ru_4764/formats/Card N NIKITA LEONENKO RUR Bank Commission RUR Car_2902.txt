@@ -1,0 +1,7 @@
+^.*?(\d{4}).*?([\d-]{10})\s+[\d:]+\s+\+\s+([\d\s.,]*\d)\s*([A-Z]{3}).*ommiss.*?([\d\s.,]*\d).*ransact.*? OK .*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Card N **2314 NIKITA LEONENKO 2017-03-08 14:56:47 + 100.00 RUR Bank Commission 0.00 RUR Card Transaction Status: OK VISA MONEY TRANSFER Balance: 269.43

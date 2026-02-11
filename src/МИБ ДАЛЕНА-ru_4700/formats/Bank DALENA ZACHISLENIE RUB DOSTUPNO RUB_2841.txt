@@ -1,0 +1,12 @@
+^.*(\d{4})\s+([\d.]{8}).*ZACHIS.*?([\d\s.,]*\d)\s*([A-Z]{3}).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Bank DALENA
+*7072
+25.01.17 13:02
+ZACHISLENIE
+40,000.00 RUB
+DOSTUPNO: 40,003.80 RUB

@@ -1,0 +1,7 @@
+^Oplata.*(\d{4}).\s+([\d\s.,]*\d)([A-Z]{3})\s+([\d/]{8})\s+[\d:]{8}\s+\S+\s+(.*).\s+Dostupno.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM/yy;payee;av_balance
+
+-----EXAMPLE-----
+Oplata po karte MC *9833: 100.00RUB 18/12/13 14:25:15 MSK TL2 Tver Russia. Dostupno: 1474.58 RUR. 88007752424

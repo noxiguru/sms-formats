@@ -1,0 +1,10 @@
+^.*(Otmen.*?blokir.*?) po .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;income;instrument;av_balance
+
+-----EXAMPLE-----
+Otmenena blokirovka sredstv po Vashey karte na summu 294.00 RUR po operacii: tranzakcija. Balans karty 9508.84 RUR. Raiffeisenbank
+
+-----EXAMPLE-----
+Uvazhaemyj klient! Otmenena blokirovka sredstv po Vashey karte na summu 2.00 RUR po operacii: tranzakcija. Balans karty 30357.71 RUR. Raiffeisenbank

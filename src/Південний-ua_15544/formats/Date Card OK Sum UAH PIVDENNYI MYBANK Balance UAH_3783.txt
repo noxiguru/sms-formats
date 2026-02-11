@@ -1,0 +1,7 @@
+^.*ate:([\d/]{5}) .*ard:.*?(\d{4}) OK Sum.-([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Date:14/07 14:51 Card:5458-6165 OK Sum=-650 UAH (PIVDENNYI MYBANK) Balance=1013.32 UAH Neymovirni vidsotky do 12% na OSCHADNOMU RAHUNKU !!

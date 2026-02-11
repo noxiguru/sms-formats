@@ -1,0 +1,7 @@
+^Outward.*ccoun.*?(\d{4})\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d).*ate\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Outward Remittance Debit Account XXXX4002 AED 283.00 Value Date 06/06/23 Available Balance AED 35.21

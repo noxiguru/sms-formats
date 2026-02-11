@@ -1,0 +1,7 @@
+^CREDIT([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*([\d.]{10}) [\d:]+\s+(.*?)\s+OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;comment;av_balance
+
+-----EXAMPLE-----
+CREDIT 6.85 BYN KARTA #3323 DATA 25.05.2018 15:50:30 PERSON TO PERSON PARITET>MINSK>BY OSTATOK 464.41 BYN

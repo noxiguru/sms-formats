@@ -1,0 +1,7 @@
+.*?(?:успеш\w*\s+)?платеж.*?([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4})\s*,\s*(.*?),\s*(?:[^,]*,\s*)?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\d{2}:\d{2}\s*,\s*(?:\d+\*+)?(\d+)\s*,\s*(?:Доступно|Dostupno|Available)\s*:\s*(-?[0-9][\d\s]*[.,]\d{2})\s*([A-Za-z]{1,4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Успешный платеж 23.00 KGS, MB QR Pay, KG, 23.06.25 17:58, 4714***4773, Доступно: 4446.57 KGS ║ Оплата

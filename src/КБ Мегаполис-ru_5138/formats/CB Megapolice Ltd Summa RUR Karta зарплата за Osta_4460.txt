@@ -1,0 +1,13 @@
+^.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*(.(?:арплат|ачислен|плата.*нетрудос).*?)\W?\s+(\d{2}[./]\d{2}[./]\d{2,4}) .*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;comment;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+CB Megapolice Ltd. Summa 22900.00 RUR. Karta  *8304, зарплата за 01.2020, 15.01.20 00:00.  Ostatok 22944.44 RUR
+
+-----EXAMPLE-----
+CB Megapolice Ltd. Summa 16400.00 RUR. Karta  *8304, Зачисление на карту, 28.02.20 00:00.  Ostatok 16411.37 RUR
+
+-----EXAMPLE-----
+CB Megapolice Ltd. Summa 10187.67 RUR. Karta *8304, оплата листка нетрудоспособности, 30.09.20 00:00. Ostatok 10187.99 RUR

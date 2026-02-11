@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*?pisan.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d-]{10}).*?esto\s+(.+)\s+.ostup.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;payee;av_balance
+
+-----EXAMPLE-----
+Karta VISA  *4832 Spisano 50.60 RUR 2015-08-31 14:42:19 Mesto KIROV KREP  Dostupno vsego 25 533.41 RUR SUPPORT tel 8 800 1001 777.

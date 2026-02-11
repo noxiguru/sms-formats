@@ -1,0 +1,7 @@
+^.*perat.*?\*(\d{3,4}),([\d\s.,]*\d),*\s*([A-Z]{3}),?\s+([\d-]{10}) .*ополнен.*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Operatsya po karte 5**990, 100 000.00, KZT, 2017-04-14 17:47:43, FRRBSTOCARD,  , Операция "Пополнение карты", пополнение средств  на карту 530796***5990 в системе QP, операция 57319745 SIC;Dostupno 297 830.24 KZT.

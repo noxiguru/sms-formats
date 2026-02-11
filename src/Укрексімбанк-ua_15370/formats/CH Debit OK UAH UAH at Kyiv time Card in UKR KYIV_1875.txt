@@ -1,0 +1,7 @@
+^(?:CH Debi|ATM).*?([\d\s.,]*\d)\s*([A-Z]{3}) = (-?[\d\s.,]*\d)\s*([A-Z]{3}) at .*?(\d{4}-\d{2}-\d{2}).*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;date#yMd;syncid#cash
+
+-----EXAMPLE-----
+CH Debit_OK 150.00 UAH = 14811.59 UAH at Kyiv time 2021-01-06 18:11:13 Card=5**0415 in UKR KYIV (MONODirect) ║ EXIM

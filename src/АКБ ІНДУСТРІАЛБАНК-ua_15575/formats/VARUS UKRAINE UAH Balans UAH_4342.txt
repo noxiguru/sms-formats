@@ -1,0 +1,7 @@
+^([\d/]{5}) [\d:]{4,5}\s+(.*?)\s+\d+\*+(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;payee;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+23/09 20:25 VARUS510 UKRAINE 4598***6417 8.60UAH Balans 71.34UAH

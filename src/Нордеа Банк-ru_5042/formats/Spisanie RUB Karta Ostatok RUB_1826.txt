@@ -1,0 +1,7 @@
+^.*Spis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Kart.*?\*(\d{4}).*stat.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Spisanie: 60.00 RUB. Karta *1178. Ostatok: 3.32 RUB. 11.06.2015

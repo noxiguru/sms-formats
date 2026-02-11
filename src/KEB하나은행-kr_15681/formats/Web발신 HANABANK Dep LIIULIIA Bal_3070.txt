@@ -1,0 +1,10 @@
+^.*\s*,([\d/]{5}),.*?\*\d*(\d{4})\s+Dep\W*([\d\s.,]*\d)\s+(.*?)\s+Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#Md;syncid;income;payee;av_balance
+
+-----EXAMPLE-----
+[Web발신] HANABANK,08/12,02:03 398******49807 Dep.:2,475,000 LIIULIIA Bal.:2,478,118
+
+-----EXAMPLE-----
+[Web발신] HANABANK,12/05,17:03 339******40007 Dep.:297,000 최홍규 Bal.:1,345,083

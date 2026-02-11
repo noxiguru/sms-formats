@@ -1,0 +1,13 @@
+^.*?(\d{4}) (?:Tovary|Oplata|Товары|Оплата).*([\d]{4}-\d{2}-\d{2}).*(?:umm|умм).*?([\d\s.,]*\d)\s([A-Z]{3}).*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(?:Na vre.*?[\d:]{8}\s+)?(.+)
+
+-----COLUMNS-----
+syncid;date#yMd;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+4..7148 Tovary i uslugi Uspeshno 2013-11-02 13:18:55 Summa: 246700 BYR Ostatok: 1144608 BYR Na vremya: 13:19:03 BLR/MINSK/PT SHOP MATERIK
+
+-----EXAMPLE-----
+3460 Товары и услуги Успешно 2017-09-16 17:31:07 Сумма: 5.45 BYN Остаток: 1 527.92 BYN NL/Vorden/Uber BV
+
+-----EXAMPLE-----
+2643 Oplata proizvedena uspeshno 2023-02-18 20:06:33 Summa: 18.98 PLN Ostatok: 86.44 USD PL/Poznan/Allegro Vash BSB Bank

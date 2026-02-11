@@ -1,0 +1,7 @@
+^NALICHNYE([\d\s.,]*\d)\s*([A-Z]{3}) KART.*?(\d{4}) .* ([\d.]{10}) .*OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+NALICHNYE 300.40 BYN KARTA #2652 DATA 03.02.2017 09:28:23 CBU BRESTDIREKTSIYA BTA PVN>BREST>BY OSTATOK 5006.88 BYN

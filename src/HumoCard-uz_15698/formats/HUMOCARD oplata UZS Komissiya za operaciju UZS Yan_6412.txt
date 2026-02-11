@@ -1,0 +1,7 @@
+^.*\*(\d{4}):.*plat.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?omis.*?([\d\s.,]*\d)\s*[A-Z]{3}\s+(.*?);\s+(\d{2}-\d{2}-\d{2})\s+.*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;fee;payee;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+HUMOCARD *3633: oplata 19500.00 UZS;. Komissiya za operaciju: 0.00 UZS YandexGO Taxi UB OPL; 24-12-14 12:08; Dostupno: 49978800.00 UZS

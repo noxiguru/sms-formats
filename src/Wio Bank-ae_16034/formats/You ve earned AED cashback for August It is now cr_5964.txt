@@ -1,0 +1,7 @@
+^.*earned\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(.ashback).*
+
+-----COLUMNS-----
+instrument;income;comment
+
+-----EXAMPLE-----
+You've earned AED 36.75 cashback for August. It is now credited to your account.

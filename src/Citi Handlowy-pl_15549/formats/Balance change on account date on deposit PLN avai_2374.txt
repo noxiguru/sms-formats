@@ -1,0 +1,7 @@
+^Bal.*?change.*?acc.*?(\d{4}).*date.*?([\d-]{10}).*deposit.*?([\d\s.,]*\d)\s*([A-Z]{3}).*avail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Balance change on account: 8753 date:29-03-2016 on deposit:4975.71PLN available now:4975.71PLN Citi Handlowy

@@ -1,0 +1,7 @@
+^Auth:\s*"(.*?)"\s+([\d\s.,]*\d)\s*([A-Z]{3}) .*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth: "Magazin M-321" 80.90RUR Card_N**7482 STANISLAV SEROV BAL: 8 341.01 2017-02-13 16:42:25

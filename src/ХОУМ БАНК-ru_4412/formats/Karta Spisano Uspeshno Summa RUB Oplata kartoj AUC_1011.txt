@@ -1,0 +1,7 @@
+^.*\*(\d{4}).\s+Spisano.\s+Uspeshno.\s+Summa(?!.*(?:ala|ostu)).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:kartoj|nalichnyh)\s+(.*).\s+([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Karta: *9943; Spisano; Uspeshno; Summa: 2857.24 RUB; Oplata kartoj AUCHAN MARJINO MOSCOW; 15.10.2013 21:35 . Dannoe sms besplatnoe.

@@ -1,0 +1,7 @@
+^(?![\d.-]{10}).*art.*?(\d{4}).*ydacha n.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4x1631 Vydacha nalichnyh (ATM, TC LYANTOR-CITY) Summa 8 000.00 RUR Dostupno 25 127.16 RUR

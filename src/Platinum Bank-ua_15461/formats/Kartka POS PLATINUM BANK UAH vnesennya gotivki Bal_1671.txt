@@ -1,0 +1,7 @@
+^.*(\d{4}) ([\d.]{10}).*?([\d\s.,]*\d)\s([A-Z]{3}) vnes.*got.*?(-?[\d\s.,]*\d).*Usp.*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Kartka 4438*3485 10.04.2015 09:41:40 POS  PLATINUM BANK: +20000.00 UAH vnesennya gotivki. Balans 36736.94 UAH. Uspishno.

@@ -1,0 +1,7 @@
+^([\d.]{8}) .*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}).*арт.*?(\d{4}) .*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+11.11.17 09:44 Списание 4 500,00 RUR карта 2430 Virtual Card PayGate 3D, Visa Transfer, RUS. Доступно 25 437,02 RUR Банк РОССИЙСКИЙ КАПИТАЛ

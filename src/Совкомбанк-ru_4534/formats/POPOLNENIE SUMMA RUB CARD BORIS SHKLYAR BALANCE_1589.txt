@@ -1,0 +1,7 @@
+^([\d.]{8}).*POPOLNENIE.*?([\d\s.,]*\d)\s*([A-Z]{3}).*CARD.*?(\d{4}).*BALANCE (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+13.02.15 11:20 POPOLNENIE SUMMA 22 011.00 RUB CARD *3823 BORIS SHKLYAR BALANCE 42 561.00

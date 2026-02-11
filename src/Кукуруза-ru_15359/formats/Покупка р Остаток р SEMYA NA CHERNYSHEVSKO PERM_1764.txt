@@ -1,0 +1,31 @@
+^(?!.*(?:Otmen|Отмен)).*?(\d{4}).*(?:окуп|okup).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:стат|stat).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W?;\s+([^;]+);? (\d{2}[-./]\d{2}[-./]?\d{0,4})(?: .*)?$
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;payee;date#dMy
+
+-----EXAMPLE-----
+*6985; Покупка: 363.90 р.; Остаток: 2048.00 р.; SEMYA NA CHERNYSHEVSKO, PERM; 30.03.2013 15:49
+
+-----EXAMPLE-----
+*4884; Pokupka:3701.00RUB; Ostatok:93.63RUB; 3DI EMEX.RU, MOSCOW; 00.00.0000 00:00. Tel 88007007710
+
+-----EXAMPLE-----
+*5791; Покупка 1899.00RUR; Остаток 2513.33р; PAYPAL *PLAYSTATION 14.12 08:43
+
+-----EXAMPLE-----
+*7346; Покупка 152.00RUR; Остаток 4691.44р; DELIMOBIL EKB 00.00 00:00
+
+-----EXAMPLE-----
+*4834; Pokupka: 680.00RUR; Ostatok: 211895.49RUR; MD00RYBNYY KHIT, NOVOSIBIRSK; 13.10.2018 15:10. Tel: 88007007710
+
+-----EXAMPLE-----
+*4834; Покупка 1004.00RUR; Остаток 183958.24р; WILDBERRIES 06.03.2019 15:37
+
+-----EXAMPLE-----
+*0938; Покупка 170.00RUR; Остаток 270.70р; YANDEX.TAXI 00.00.0000 00:00
+
+-----EXAMPLE-----
+*3686; Покупка 407.13RUR; Остаток 231381.89р; MD00MAGNIT MM PASSIONA 02.01.2020 13:10
+
+-----EXAMPLE-----
+*9461; Покупка 610.51р; Остаток 1991.81р; MAGNIT MM ASSIGNAT 27.03

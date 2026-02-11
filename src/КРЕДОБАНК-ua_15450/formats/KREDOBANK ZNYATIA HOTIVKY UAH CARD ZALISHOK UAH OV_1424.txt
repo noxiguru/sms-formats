@@ -1,0 +1,7 @@
+^([\d.]{10}).*ZNYATIA HOTIVKY ([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4})\s.*DOSTUPNO (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+31.10.2014 13:08 KREDOBANK ZNYATIA HOTIVKY 300.00UAH CARD **9646 ZALISHOK -3086.43 UAH OVERDRAFT 10000.00 UAH DOSTUPNO 6913.57UAH

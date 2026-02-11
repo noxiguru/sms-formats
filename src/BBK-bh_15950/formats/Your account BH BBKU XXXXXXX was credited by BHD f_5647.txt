@@ -1,0 +1,7 @@
+^.*ccoun.*?(\d{2,4}) was credited by ([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d? (from .*?) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;instrument;income;comment;date#dMy
+
+-----EXAMPLE-----
+Your account BH19BBKU00200XXXXXXX74 was credited by BHD975.000 from BH51BBME00002XXXXXXX20 for Fawri 001 on 16/02/2023 14:06 ref:LP SEF3013J5.For help 17207777

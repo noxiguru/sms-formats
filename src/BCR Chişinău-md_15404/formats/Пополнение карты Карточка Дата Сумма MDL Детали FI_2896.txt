@@ -1,0 +1,7 @@
+^Пополн.*арт.*?(\d{4}) .* ([\d.]{10}) .*умм.*?([\d\s.,]*\d)\s*([A-Z]{3}).*етали:\s*(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;comment
+
+-----EXAMPLE-----
+Пополнение карты Карточка: 4600...2407 Дата:     01.03.2017 08:53 Сумма:  602.83 MDL Детали: FILE_BCR Capitalizare dobanda la

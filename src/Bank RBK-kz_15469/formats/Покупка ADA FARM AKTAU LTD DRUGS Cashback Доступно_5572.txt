@@ -1,0 +1,13 @@
+^Покуп.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W|)\s+(.*?) (?:Cashb.*? )?.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W|)(?:\s+║ .*)?$
+
+-----COLUMNS-----
+outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка: 2 515.00 ADA-FARM AKTAU LTD DRUGS Cashback: 25.15 ₸ Доступно: 22 591.85  ║ My RBK
+
+-----EXAMPLE-----
+Покупка: 464.00₸ 26 MKR DOSTYK Cashback: 4.64 ₸ Доступно: 33 154.45 ₸ ║ My RBK
+
+-----EXAMPLE-----
+Покупка: 175.00₸  TOO MAGA-BREAD Cashback: 1.75₸ Доступно: 201.70₸  ║ My RBK

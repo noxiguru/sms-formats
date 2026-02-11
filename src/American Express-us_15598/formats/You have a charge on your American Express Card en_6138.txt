@@ -1,0 +1,7 @@
+^You\s+have\s+a\s+(\S+?)\s*([\d\s.,]*\d)\s+charge.*ending\s+in\s+\d*(\d{4})\s+at\s+(.*?)\W?(?:\s+║.*)?$
+
+-----COLUMNS-----
+instrument;income;syncid;payee
+
+-----EXAMPLE-----
+You have a $134.39 charge on your American Express Card ending in 21004 at SUNNY HEALTH FITNESS. ║ Amex

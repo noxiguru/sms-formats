@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:alans|[аa]л[аa]н[сc]).*?(\d{4}) (?:uvelichen na|[уy]в[еe]лич[еe]н н[аa]) ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:ostu|[оo]ст[уy]|vail).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+19.05.2020 Balans karty 4650 uvelichen na 433.28 RUB. Dostupno: 17572.39 RUB
+
+-----EXAMPLE-----
+09.02.2021 Бaлaнс карты 2622 yвеличен на 942.00 RUВ. Дoстyпно: 6185.01 RUB

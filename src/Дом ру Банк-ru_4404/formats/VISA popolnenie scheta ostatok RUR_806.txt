@@ -1,0 +1,7 @@
+^\S+(\d{4}) ([\d-]{8}).*?popolnenie scheta ([\d\s.,]*\d)\s+ostatok (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;income;av_balance
+
+-----EXAMPLE-----
+VISA-8261 13-05-13 11:53 popolnenie scheta 1472.00  ostatok 18288.12 RUR

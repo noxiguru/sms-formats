@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*\*(\d{4})\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+Отриман.*
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+7100.00UAH FUIB M05 BOVSHIV UA  23-12-2022 10:34  Картка: *5718  Доступно: 2515.79UAH  Власні кошти: 65.79UAH ║ Отримання готівки

@@ -1,0 +1,10 @@
+^.*(?:ydacha n|ыдача н).*?(\d{4}) .*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*(?:stat|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Vydacha nalichnykh MC0321 summa 10000 KZT A-13296 82, AUEZOV      >ALMATY       KZ 2017-10-22 15:27:25. Ostatok: 193.97 KZT
+
+-----EXAMPLE-----
+Выдача наличных 5351********9913 сумма 3000 KZT ALKZ Sarayshik 28/56B >Uralsk KZ 2019-07-25 13:18:08 Доступно 81426.46 KZT

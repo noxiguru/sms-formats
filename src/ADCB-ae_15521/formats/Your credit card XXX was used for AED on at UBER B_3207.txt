@@ -1,0 +1,10 @@
+^.*ard.*?(\d{4}) .*used for ([A-Z]{3})\s*([\d\s.,]*\d) on ([\d/]{10}) .* at\s+(.*?)\..*(?:Bal|vail|imit).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;payee;av_balance
+
+-----EXAMPLE-----
+Your credit card XXX0409 was used for AED12.49 on 15/09/2017 16:41:44 at UBER BV,800-592-8996-NL. Available credit limit is now AED63617.48.
+
+-----EXAMPLE-----
+Your Cr.Card XXX1584 was used for AED997.50 on 23/08/2020 14:17:27 at DU UNREGISTERED,DUBAI-AE. Avl. Cr.limit is AED4493.84

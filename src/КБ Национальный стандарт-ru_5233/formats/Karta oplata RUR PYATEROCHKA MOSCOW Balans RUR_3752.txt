@@ -1,0 +1,13 @@
+^.*?(\d{4})\W (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:plat|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3})\W\s+(.*?)\. .(?:alan|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 8958: 14.06.2018 13:39 oplata 64.99 RUR, PYATEROCHKA 6526, MOSCOW. Balans 7632.95 RUR
+
+-----EXAMPLE-----
+Karta 8958: 07.06.18 12:00 oplata v internet 450.00 RUR, MARP PAY.MTS.RU TOPUP, MOSCOW. Balans 410.98 RUR
+
+-----EXAMPLE-----
+Karta 0213: 08.02.2022 14:34, spisanie 775.91 RUR, PYATEROCHKA 5245, Gorod Moskva. Dostupno 10910.48 RUR.

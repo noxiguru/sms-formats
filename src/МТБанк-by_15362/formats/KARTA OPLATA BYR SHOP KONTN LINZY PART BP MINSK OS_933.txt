@@ -1,0 +1,7 @@
+^(?!.*OTKAZANO).*?\*(\d{4}).([\d/]{8}).*?OPLATA ([\d\s.,]*\d) ([A-Z]{3}).(.*?).OSTATOK ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+KARTA:4177*8570,14/08/13 15:48,OPLATA 150000 BYR,SHOP"KONTN.LINZY PART."BP, , MINSK,OSTATOK 49 BYR. Spravka: 5099999

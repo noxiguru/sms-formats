@@ -1,0 +1,7 @@
+^.*agato ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}) il (\d{2}\.\d{2}) .* da (.*?)\.?$
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#Md;payee
+
+-----EXAMPLE-----
+INTESA SANPAOLO: Hai pagato 5,00 EUR con la carta virtuale *5071 rif. carta *5605 il 11.03 alle ore 08:52 da ARGENTA, 0, REGGIO EMILIA.

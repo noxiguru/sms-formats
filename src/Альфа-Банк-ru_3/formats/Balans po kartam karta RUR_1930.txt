@@ -1,0 +1,7 @@
+^Bal.*?arta.*?(\d{4})\s+-\s+(-?[\d\s.,]*\d)
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+Balans po kartam:  karta 5*0822 - 149969.54 RUR

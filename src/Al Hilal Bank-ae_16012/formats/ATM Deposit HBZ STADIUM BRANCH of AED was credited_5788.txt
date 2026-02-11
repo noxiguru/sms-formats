@@ -1,0 +1,7 @@
+^ATM .epos.*? of ([\d\s.,]*\d)\s*([A-Z]{3}).* with (\d{4}).*alan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+ATM Deposit, HBZ STADIUM BRANCH-1 of 6500.00 AED was credited to your account ending with 7001. Your balance is now 10196.2 AED.

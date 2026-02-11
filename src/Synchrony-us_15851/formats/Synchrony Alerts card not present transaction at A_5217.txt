@@ -1,0 +1,13 @@
+^.*lerts\s+(\S+?)\s*([\d\s.,]*\d).*\stransaction\s+at\s+(.*?)\s+on\s.*nding\s+in\s+(\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+Synchrony Alerts $1.00 card not present transaction at AMAZON RETAIL on your Amazon Prime Secured Card ending in 2578.
+
+-----EXAMPLE-----
+Synchrony Alerts $21.05 card not present transaction at AMAZON MARKETPLACE on your Prime Store Card ending in 4755.
+
+-----EXAMPLE-----
+Synchrony Alerts $176.16 transaction at T.J. MAXX on your TJX Rewards® Credit Card ending in 0972.

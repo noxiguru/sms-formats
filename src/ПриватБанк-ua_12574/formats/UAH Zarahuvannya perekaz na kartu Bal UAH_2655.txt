@@ -1,0 +1,40 @@
+^(?:(?:Приват|Транз).*?)?([\d\s.,]*\d)\s*([A-Z]{3})\s+((?:(?:Popo.n|Попо.н)(?!.*гот)|(?:Зарах|Zarak?h)(?!.*(?:rotsent|роцент))|Perekaz\s+(?:zi|.*dpravnyk)|Переказ\s+(?:з|дправн))(?!.*дправник).*?)\s+(\d\*\d\d)\s+[\d:]{5,}\s+(?:Bal|Бал).\s*(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;comment;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+1428.47UAH Zarahuvannya perekaz na kartu 5*17 19:22 Bal. 2023.15UAH
+
+-----EXAMPLE-----
+3500.00UAH Popolnenie
+5*29 15:35
+Bal. 4374.74UAH
+Kred.limit 8500UAH
+
+-----EXAMPLE-----
+1700.00UAH Popovnennia 5*91 09:10 Bal. 5662.52UAH Kred.limit 5000UAH https://pb.ua/s/p24/2
+
+-----EXAMPLE-----
+102.00UAH Popovnennia mobilnoho +1234567890 4*93 17:29 Bal. 2066.66UAH Bal.Bonus+ 9.78UAH
+
+-----EXAMPLE-----
+10.00UAH Зарахування переказу на картку 4*31 12:00 Бал. 61.00UAH ║ Транзакцii за рахунками
+
+-----EXAMPLE-----
+7009.88UAH Переказ зі своєї карти 5*31 23:52 Бал. 66154.41UAH Бал.Бонус+ 211.85UAH Кред. лiмiт 55000.0UAH ║ ПриватБанк: Транзакції за рахунками
+
+-----EXAMPLE-----
+4820.28UAH Поповнення карти 5*03 08:15 Бал. 64428.65UAH Кред. лiмiт 50000.0UAH
+
+-----EXAMPLE-----
+1005.00UAH Perekaz zi svoiei karty 4*54 19:11 Bal. 15317.35UAH Bal.Bonus+ 653.24UAH
+
+-----EXAMPLE-----
+ПриватБанк: 127.63UAH Зарахування переказу на картку 5*90 17:56 Бал. 860.40UAH ║ ПриватБанк: Transactions
+
+-----EXAMPLE-----
+1.00UAH Perekaz zi svoiei karty 53**99 cherez dodatok Pryvat24 5*27 12:34 Bal. 84.44UAH
+
+-----EXAMPLE-----
+400.00UAH Perekaz cherez dodatok Pryvat24. Vidpravnyk: Krachun Mykhailo Olehovych 5*99 18:42 Bal. 56959.35UAH Kred. limit 30000.0UAH

@@ -1,0 +1,7 @@
+^(.{4}).*(?:OPOL|opol|opovn).*?([\d\s.,]*\d)([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;fee;av_balance
+
+-----EXAMPLE-----
+5*08 10:55 Popovnennya 300.00USD Komissia 1.50USD. Bal:300.05USD  Popolnenie kartischeta

@@ -1,0 +1,7 @@
+^MKB (Onl\w+).*latez.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;fee
+
+-----EXAMPLE-----
+MKB Online: Sovershen platezh na summu 8245,14 RUB, komissiya 385,14 RUB

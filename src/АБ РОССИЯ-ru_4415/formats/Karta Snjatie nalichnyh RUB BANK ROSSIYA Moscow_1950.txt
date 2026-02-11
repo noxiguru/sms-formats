@@ -1,0 +1,13 @@
+^.*? ([\d.]{8}) .*?(\d{4})\s+.(?:нятие|n.atie)(?!.*осту|.*ostu).*?([\d\s.,]*\d)\s*([а-яА-ЯA-Z]{1,3}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+14:06 18.08.15 Karta **9708 Snjatie nalichnyh 1800.00 RUB BANK "ROSSIYA" Moscow
+
+-----EXAMPLE-----
+15:16 30.08.17 Karta **4919 Sniatie nalichnyh 20000.00 RUB BANK "ROSSIYA" Sevastopol
+
+-----EXAMPLE-----
+15:58 06.04.18 МИР7732 Снятие 900 р

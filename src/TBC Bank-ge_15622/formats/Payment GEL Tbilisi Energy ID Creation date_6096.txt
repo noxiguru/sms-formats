@@ -1,0 +1,7 @@
+^Paym.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+(?:ID:.*?)?\s+Creat.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dMy
+
+-----EXAMPLE-----
+Payment: 254.20 GEL Tbilisi Energy ID:194247441 Creation date: 17/01/2024 19:40:58

@@ -1,0 +1,7 @@
+^Your payment of\s+([A-Za-z]{1,3})\s+([0-9][\d\s\.,]*\d?)\s+against\s+Credit Card no\.\s+XXX(\d{4})\s+was received at\s+\d{2}:\d{2}\s(?:AM|PM)\s+on\s+(\d{2}\/\d{2}\/\d{4})\.\s+Thank you\.$
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy
+
+-----EXAMPLE-----
+Your payment of AED 2343 against Credit Card no. XXX6634 was received at 06:10 PM on 06/10/2025. Thank you.

@@ -1,0 +1,7 @@
+^([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) .*bnalic.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+03-SEP-22 Vy obnalichili 3,000.00 KGS.Tel+1234567890

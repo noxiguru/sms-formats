@@ -1,0 +1,10 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})\s+(DOŁADOWANIE\s+TEL.*?)\s+(?:Odbi|Rece)\w+:\s*(.*?)\s+(?:Tytuł|Titl).*(?:Na\s+rach|On\s+acc).*?(\d{4})\D.*\s+(\d{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;comment;payee;syncid;date#yMd
+
+-----EXAMPLE-----
+-30,00 PLN DOŁADOWANIE TELEFONU   Odbiorca: PKO BP FINAT SP. Z O.O.    Tytuł: DOŁADOWANIE TELEFONU +48 694636893 T-MOBILE IDENTYFIKATOR OPERACJI: 62580812 Na rachunku 34..0122. Data waluty: 2021-01-18 ║ Obciążenie rachunku
+
+-----EXAMPLE-----
+-25,00 PLN DOŁADOWANIE TELEFONU Receiver: PKO BP FINAT SP. Z O.O.    Title: DOŁADOWANIE TELEFONU +48 57437xxx PLAY IDENTYFIKATOR OPERACJI: 84232510 On account no. 36..7425 Value date: 2022-09-29 ║ Account debit

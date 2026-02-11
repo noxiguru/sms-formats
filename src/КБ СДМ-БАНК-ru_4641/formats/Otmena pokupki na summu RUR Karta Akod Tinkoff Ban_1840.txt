@@ -1,0 +1,7 @@
+^Otm.*oku.*?(\d[\d\s.,]*)\s*([A-Z]{3}).*arta.*(\d{4})\s+Akod.\s+\d+\s+(.*?)\s+([\d-]{10}).*ostu.*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+income;instrument;syncid;comment;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Otmena pokupki na summu 0.32 RUR Karta: *6830 Akod: 144257 Tinkoff Bank Card2Card RUS 2015-06-05 11:44:10. Dostupno po karte 5 942.42 RUR. SDM-BANK +7(495)7059090.

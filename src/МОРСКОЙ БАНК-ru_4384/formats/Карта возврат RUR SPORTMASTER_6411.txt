@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*?(.озврат.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\W?\s+(.*?)\.?(?:\s+║\s+)?$
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dMy;payee
+
+-----EXAMPLE-----
+Карта *3171: возврат 45999.00 RUR; 09.12.2024; SPORTMASTER 6907.

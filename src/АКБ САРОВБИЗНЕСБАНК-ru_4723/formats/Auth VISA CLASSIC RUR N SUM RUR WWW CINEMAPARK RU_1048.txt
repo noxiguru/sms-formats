@@ -1,0 +1,7 @@
+^.*?(\d{4}) SUM. -?([\d\s.,]*\d) ([A-Z]{3}). ([^;]*).*LIM. ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Auth: VISA CLASSIC (RUR) N: *8019 SUM: -500.00 RUR; WWW.CINEMAPARK.RU//Moscow/R; November  08, at  17:50 (UTC+4); LIM: 22,395.56 RUR

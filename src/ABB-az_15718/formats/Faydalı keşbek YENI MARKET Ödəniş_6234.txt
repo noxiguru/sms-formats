@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)[\s‎]*([A-Z]{3}|₼).*?\*(\d{4}).*📍(.*?),[\s‎]+\W+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+-14.58 ₼,‎ 💳****5904 "Faydalı" keşbek: +0.36 ₼‎ 📍YENI MARKET,‎ 🗓️22/05/2024 18:33:20‎ ║ Ödəniş

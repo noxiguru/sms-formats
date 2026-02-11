@@ -1,0 +1,7 @@
+^A/C \d*(\d{4}) debit\w+ ([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d? on ([\d]{2}[- ](?:\w+|\d{2})) [\d:]{5,} "(.*?)".*alan.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+syncid;instrument;income;date#dM;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+A/C 1234567890 debited BHD 437.260 on 12-Dec 12:41 "EFTS-BPAY-FAWRI+-/PHONE/97339521177-", new balance is BHD 43,620.834. For any enquiries call 77777777

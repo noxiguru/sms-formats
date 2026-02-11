@@ -1,0 +1,13 @@
+^(?:Popol|Попол)(?!.*ostupno|.*озврат).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*?\s+([\d.]{10})\s+.*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Popolnenie na summu 32000.00RUR po dogovoru vklada *3588; 12.02.2015 14:39:38. Podrobnee po tel. 8(800)700-80-06. Home Credit Bank
+
+-----EXAMPLE-----
+Popolnenie: 10000.00 RUR. Karta *2007. 26.04.2017 12:07:37.
+
+-----EXAMPLE-----
+Popolnenie: 10000.00RUB. Karta *8146. 27.08.2017 21:58:52. . Vy mozhete sovershat operacii po karte. Inye operacii s postupivshimi denezhnymi sredstvami stanut dostupny v techenie neskolkih chasov.

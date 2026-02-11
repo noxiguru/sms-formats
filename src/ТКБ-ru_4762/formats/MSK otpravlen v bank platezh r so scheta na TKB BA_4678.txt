@@ -1,0 +1,10 @@
+^.*(?:otpravlen v b|отправлен в б).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+29.05 16:09 MSK otpravlen v bank platezh 25000 r. so scheta 1505 na TKB BANK PAO.
+
+-----EXAMPLE-----
+30.04 18:15 МСК отправлен в банк платеж 2519.29 р. со счета 6121 на Салахов Марат Шавкатович. ║

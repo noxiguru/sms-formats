@@ -1,0 +1,7 @@
+^([\d.]{8}).*POPOLNENIE.*(\d{4}) SUMMA.\s*([\d\s.,]*\d) ([A-Z]{3}). BALANS.*\s(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+16.06.14 15:19 POPOLNENIE PO KARTE ****3013 SUMMA:12000.69 RUB; BALANS PO KARTE:  12036.43 RUB

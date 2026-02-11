@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+(\d{4}-\d{2}-\d{2}).*PLATA (ZA\s+.*?):?\s+(?:SPISAN|K POGAS).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yMd;comment;outcome;instrument
+
+-----EXAMPLE-----
+KARTA: 5*6634  2020-02-17 21:58:08  PLATA ZA OBSLUZHIVANIE KARTY: SPISANO 9.64 BYN  Spr.:5099999

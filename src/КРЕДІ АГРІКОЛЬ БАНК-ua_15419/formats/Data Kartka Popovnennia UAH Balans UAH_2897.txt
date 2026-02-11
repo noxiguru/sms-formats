@@ -1,0 +1,7 @@
+^Data:([\d.]{5})\s+.*art.*?(\d{4}).*opovnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Data:03.03 18:00 Kartka:*4423 Popovnennia= 34,978.23UAH Balans= 34970.24UAH

@@ -1,0 +1,7 @@
+^.*?POPOLNENIE. ([\d\s.,]*\d)([A-Z]{3}).*Card_N.*(\d{4}).*BAL.(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+POPOLNENIE: 0.00RUR Card_N**1836 YULIYA EGOROVA BAL:0.00 RUR 2014-12-01 00:00:00

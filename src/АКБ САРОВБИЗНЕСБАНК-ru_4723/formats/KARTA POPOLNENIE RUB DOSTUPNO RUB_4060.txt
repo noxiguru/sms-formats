@@ -1,0 +1,7 @@
+^([\d.]{8}) .*\*(\d{4}).*POPOLN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+24.01.19 15:12 KARTA ****3936 POPOLNENIE 4333.77 RUB DOSTUPNO 00000.79 RUB

@@ -1,0 +1,7 @@
+^((?:Otmen|Отмен).*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*(?:stat|стат).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Отмена ecom авторизации 1.40 EUR, по карте 5269********0976 в терминале  26.05.23 13:06:20 остаток по карте 9 517.38 KZT ║ BANKFFIN

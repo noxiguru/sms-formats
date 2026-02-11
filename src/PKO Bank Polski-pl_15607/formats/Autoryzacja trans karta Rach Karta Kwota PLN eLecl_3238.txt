@@ -1,0 +1,27 @@
+^Autoryz.*?arta.*?(\d{4}).*wota\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+(?:[Dd]oste|[Ss]tan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+Autoryzacja trans. karta
+Rach. 85..1780
+Karta 1718
+Kwota 54,23 PLN
+eLeclerc
+Wroclaw
+Dostepne +28,05PLN
+2017-10-14 16:45
+
+-----EXAMPLE-----
+Autoryzacja trans. karta
+Rach. 66..7004
+Karta 3747
+Kwota 11,77 PLN
+AUCHAN KRAKOW BORA
+Krakow
+Dostepne +361,29PLN
+2018-08-24 18:45
+
+-----EXAMPLE-----
+Autoryzacja trans. karta 6147 Konto 10..4473 Kwota 500,00 PLN 1616000011 GDANSK Stan konta +16240,33 PLN 2023-03-02 15:05:05

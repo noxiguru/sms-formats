@@ -1,0 +1,7 @@
+^.*\+([A-Z]{1,3})\s*([\d\s.,]*\d) into (\S+).*vail.*?(-?[\d\s.,]*\d).* (\d{1,2}-\w{3}).*
+
+-----COLUMNS-----
+instrument;income;syncid;av_balance;date#dd-MMM
+
+-----EXAMPLE-----
+Capitec: Money In +R200.00 into SAVINGS ACCOUNT; Ref RTC 1603F11706 Mamma; Avail R201.09; 14-Sep. Call 0860102043

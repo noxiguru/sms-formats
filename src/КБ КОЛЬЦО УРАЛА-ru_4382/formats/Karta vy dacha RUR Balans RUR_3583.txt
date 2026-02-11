@@ -1,0 +1,7 @@
+^.*art.*?(\d{4})\D?\s+([\d.]{10}).*dacha (?!.*omiss).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 2088: 19.03.2018 vy'dacha 59900.00 RUR. Balans 92.14 RUR.

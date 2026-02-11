@@ -1,0 +1,7 @@
+^.*ydatek.*?(\d{4}) \* ([\d\s.,]*\d)\s*([A-Z]{3}) (.*) (\d{2}[-./]\d{2}[-./]\d{2,4}) \* Sald.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Alerty24: wydatek z konta ...147534704 * 5,00 PLN SANPL S.A. 26-03-2021 * Saldo po operacji: 724,29 PLN

@@ -1,0 +1,7 @@
+^Your.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+at\s+(.*?)\s+revert.*\s+║\s+(.*?)\s*\W*$
+
+-----COLUMNS-----
+instrument;income;payee;comment
+
+-----EXAMPLE-----
+Your payment of $6.64 at Bolt was reverted. Please contact the merchant before trying again ║ Card payment reverted 🚫

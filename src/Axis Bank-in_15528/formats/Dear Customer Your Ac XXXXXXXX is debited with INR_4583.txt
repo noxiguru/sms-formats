@@ -1,0 +1,13 @@
+^(?!.*CASH).*?(\d{4})\s.*(?:debit|state).*? ([a-zA-Z]{1,3})\.?\s*([\d\s.,]*\d)\s+(?:on|with.*?)\s+(\d{2}\s*\w+\s*\d*).*[Bb]al.*?\.?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;av_balance
+
+-----EXAMPLE-----
+Dear Customer, Your Ac XXXXXXXX1759 is debited with INR3,000.00  on 01 Aug. Info.EBA*MF-UTI MUTU-43130733*201. Your Total Avbl. Bal is INR5,76,903.74.
+
+-----EXAMPLE-----
+Hello! Your A/c no. 616515 has been debited by Rs. 5120 on 03Apr18. The A/c balance is Rs. 6729.17.Info: ECS/BAJAJ FINANCE LI/405SAL23195402
+
+-----EXAMPLE-----
+Your A/c 616515 is debited by Rs. 1299 on 03Feb20. Avbl Bal: Rs. 25973.34. Info: ECS/BAJAJ FINANCE LI/405SPFEB133118. Call 18605005555 for dispute.

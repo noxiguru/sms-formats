@@ -1,0 +1,16 @@
+^(Zarak?h.*?arob.*?|Зарах.*?ароб.*?|Зачис.*?арпл.*?|Salary p.*?) ([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) (?:na|на|acc\w+) .*?\d*(\d{4})\s*\(([A-Z]{3})\).*
+
+-----COLUMNS-----
+comment;income;instrument;date#dMy;syncid;acc_instrument
+
+-----EXAMPLE-----
+Zarakhuvannia zarobitnoi platy 25753.26 UAH 30.09.20 na rakhunok 0845553200(UAH). Perevirka balansu ONLINE: http://bit.ly/2MlgJNI
+
+-----EXAMPLE-----
+Зарахування заробітної плати 29517.14 UAH 26.02.21 на рахунок 1234567890(UAH). ║ Raiffeisen
+
+-----EXAMPLE-----
+Зачисление зарплаты 6155.93 UAH 12.03.21 на счет 1234567890(UAH). ║ Raiffeisen
+
+-----EXAMPLE-----
+Salary payment 29516.67 UAH 31.03.21 account 1234567890(UAH). ║ Raiffeisen

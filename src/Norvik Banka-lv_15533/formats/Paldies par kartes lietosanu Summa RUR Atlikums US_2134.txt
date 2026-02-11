@@ -1,0 +1,7 @@
+^([\d/]{5}).*kart.*?(\d{4})\s.*umma.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*tliku.*?(-?[\d\s.,]*\d).*Vieta:?\s*(.+)
+
+-----COLUMNS-----
+date#dd/MM;syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+03/01 19:14 Paldies par kartes 40488767 lietosanu Summa: -578.00RUR Atlikums: 50.01USD Vieta: PYATEROCHKA 24 SANKT-PETE Russia

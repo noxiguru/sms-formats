@@ -1,0 +1,7 @@
+^Poluchenie nalichnykh.*([\d.]{8}).*(\d{4}). summa.([\d\s.,]*\d) ([A-Z]{3}). balance.(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Poluchenie nalichnykh: RGS BANK MSK ATM, Moscow, KIEVSKAYA,7,28.10.13 11:00,karta 4169***0276. summa:30000.00 RUB, balance:1374.02 RUB.

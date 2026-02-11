@@ -1,0 +1,7 @@
+.*?(?:[Pp]okupk\w*|[Пп]окупк\w*).*?(?:karta|карта)\s*\*+(\d{4}).*?:\s*([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4}).*?,\s*(.*?)(?=[\.,]\s*(?:Dostupno|[Дд]оступн)).*?(?:Dostupno|[Дд]оступн)\s*:\s*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,4})
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Pokupka, karta ****7667: 1700.00 UZS, OOO ATTO TOLOV, UZ. Dostupno: 853429.75 UZS

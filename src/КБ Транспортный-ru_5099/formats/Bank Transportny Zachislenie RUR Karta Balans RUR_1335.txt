@@ -1,0 +1,7 @@
+^.*?achislenie (\d[\d\s.,]*)\s*([A-Z]{3})\s*Karta .?(\d{4})\s*Balans (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Bank "Transportny"  Zachislenie 17 590.61 RUR Karta *1005  Balans 152 851.44 RUR +7(495)78-0000-4

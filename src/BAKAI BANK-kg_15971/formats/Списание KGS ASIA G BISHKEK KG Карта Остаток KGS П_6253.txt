@@ -1,0 +1,13 @@
+^Списан.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+(?:\d{8,}\s+)?.арт.*?\*(\d{4})\s+.стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|) ║ Покупка.*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Списание: 1 067,93 KGS ASIA 2-2>G.BISHKEK KG 0201356572 Карта: 4714*3864 Остаток: 20 050,89 KGS ║ Покупка
+
+-----EXAMPLE-----
+Списание: 180,00 KGS FP*Yandex GO>Bishkek KG 8590006045 Карта: 4714*9752 Остаток: 5 101,18 ║ Покупка
+
+-----EXAMPLE-----
+Списание: 4,43 USD OZON - EVOCA 3DS USD>YEREVAN AM 22006401 Карта: 4714*6100 Остаток: 1,56 ║ Покупка

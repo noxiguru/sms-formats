@@ -1,0 +1,7 @@
+^.*\*(\d{4})\W? .mount.*?([\d\s.,]*\d)\s*([A-Z]{3})\W? .ate.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*ercha\w+\W?\s+(.*?);.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;payee
+
+-----EXAMPLE-----
+Card: 437469******7406; Amount: 163.99 EUR; Date: 03-11-22 20:26; Merchant: WizzAirCOM; OTP:46901

@@ -1,0 +1,7 @@
+^.*cct.*?(\d{4}) Amt.?\s* ([A-Z]{0,3})\s*([\d\s.,]*\d) CR\s+Desc:[\s-]*(.*?)\s+.vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;income;comment;av_balance
+
+-----EXAMPLE-----
+Acct: 0228895607 Amt: 265,000.00 CR  Desc: |ADD_EXPAT ALLOW_AUGUST_||ZBN|NAIRDA LTD PAYROLL ACCOUNT Avail Bal: 425,102.41

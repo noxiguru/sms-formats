@@ -1,0 +1,13 @@
+^(?!.*(?:emain|alan)).*(?:ayment|urchase).*?([A-Z]{3})\s*([\d\s.,]*\d).*(?:ccount|\*{4}\s*).*?(\d{4})\s+(?:.erchant)?\W?\s*(.*?)\s+(?:You\s+will|Available\s+PLUS).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Bank of Georgia: Purchase: GEL 2.00 Card: **** 7180 Merchant: Yandex.Taxi>Amsterdam NL Available PLUS points: 2,406.29 Collect PLUS points on payments made via Bank of Georgia terminals. 29.01.2022
+
+-----EXAMPLE-----
+Purchase: GEL 4.50 Card: **** 4771 Bolt Operations OU You will get: 4.50 PLUS Available PLUS points: 295.39 400 PLUS = 1 GEL 16.11.2022
+
+-----EXAMPLE-----
+Purchase: USD 329.40 Card: **** 1574 UZAIRWAYS.COM>Tashkent UZ Available PLUS points: 455.44 400 PLUS = 1 Gel 26.11.2022

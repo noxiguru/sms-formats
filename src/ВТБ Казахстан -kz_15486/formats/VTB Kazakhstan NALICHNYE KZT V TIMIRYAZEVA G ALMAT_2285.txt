@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d.]{8}).*NALICHNYE([\d\s.,]*\d)\s*([A-Z]{3}).*DOSTUPNO:(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VTB Kazakhstan 4**5409 15.03.16 18:12 NALICHNYE 5,000.00 KZT 28V, TIMIRYAZEVA (G.ALMATY,KZ) DOSTUPNO: 14,603.03 KZT

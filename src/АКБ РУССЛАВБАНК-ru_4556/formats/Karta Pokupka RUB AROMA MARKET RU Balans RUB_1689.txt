@@ -1,0 +1,7 @@
+^.*?(\d{4}).*okupka.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{8}) [\d:]+. (.*). Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+Karta ****1111 Pokupka 108.00 RUB, 16.04.15 11:40, AROMA MARKET, RU, Balans 1111.11 RUB

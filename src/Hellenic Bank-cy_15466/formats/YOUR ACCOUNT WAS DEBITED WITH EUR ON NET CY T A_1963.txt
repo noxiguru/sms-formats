@@ -1,0 +1,13 @@
+^.*?([\d]{3,4})-\d{2}\s+WAS\s+DEB.*?([A-Z]{3})\s+-([\d\s.,]*\d)\s+ON\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\((.*)\).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;comment
+
+-----EXAMPLE-----
+YOUR ACCOUNT 290-01-333467-01 WAS DEBITED WITH EUR -110,48 ON 03/08/2015 (NET/CY.T.A 30301580871)
+
+-----EXAMPLE-----
+YOUR ACCOUNT 243-10-764206-01 WAS DEBITED WITH EUR -203,59 ON 29/12/2020 (JUMBO - AYIOS *0777 14840777 560349)
+
+-----EXAMPLE-----
+YOUR ACCOUNT 243-10-***206-01 WAS DEBITED WITH EUR -92,82 ON 09/03/2021 (LIDL CY - AGIA *0777 14840777 582457)

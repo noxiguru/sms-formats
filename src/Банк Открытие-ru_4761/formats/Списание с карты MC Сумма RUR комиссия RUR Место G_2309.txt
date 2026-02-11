@@ -1,0 +1,7 @@
+^.*?писан.*?([\d]{4})\s+([\d-]{8}) .*?умм.*?([\d\s.,]*\d)\s*([A-Z]{3}).*омисс.*?([\d\s.,]*\d)(?!.*ATM).*?есто\s+(.*)\s+.оступ.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;outcome;instrument;fee;payee;av_balance
+
+-----EXAMPLE-----
+Списание с карты  MC  *6880 30-03-16 10:42:26 Сумма 3 000.00 RUR комиссия 0.00  RUR Место G UFA IKBU Ufa, Pr.Oktyabrya Доступно всего 2 232.79 RUR  https://online.binbank.ru

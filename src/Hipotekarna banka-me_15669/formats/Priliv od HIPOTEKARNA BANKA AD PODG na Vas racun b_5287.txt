@@ -1,0 +1,7 @@
+^Priliv.*na Vas.*?(\d{4}) u iz.*?([\d\s.,]*\d)\s*([A-Z]{3}).*aspoloz.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Priliv od HIPOTEKARNA BANKA AD PODG na Vas racun broj 1234567890 u iznosu od 2.000,00 EUR. Raspolozivo: 2.000,00 EUR.

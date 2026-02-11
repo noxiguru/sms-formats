@@ -1,0 +1,7 @@
+^\w+(\d{4}) .*achisl.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+MIR5123 10:02 Zachisleno 1500.00RUB D. 23, UL. KOMSOMOLSKAYA Balans 1502.65RUB

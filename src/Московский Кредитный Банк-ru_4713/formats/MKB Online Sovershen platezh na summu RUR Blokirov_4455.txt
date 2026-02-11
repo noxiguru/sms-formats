@@ -1,0 +1,16 @@
+^MKB (Onl\w+).*(?:overshen|овершен)(?!.*(?:omiss|омисс)).*?([\d\s.,]*\d)\s*([а-яA-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+MKB Online: Sovershen platezh na summu 89 RUR Blokirovanie dostupa v sistemu SMS "Online" na nomer +79037672667.
+
+-----EXAMPLE-----
+MKB Online: Sovershen platezh na summu 2858,03 рублях Blokirovanie dostupa v sistemu SMS "Online" na nomer +79037672667.
+
+-----EXAMPLE-----
+MKB Online: Sovershen platezh na summu 6662,29 RUB Blokirovanie dostupa v sistemu SMS "Online" na nomer +79037672667
+
+-----EXAMPLE-----
+MKB Online: Совершен платеж на сумму 6640,62 RUB Блокирование доступа в систему СМС "Online" на номер +79037672667.

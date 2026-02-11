@@ -1,0 +1,7 @@
+^Auth.\s+(.+)\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+Card.*?(\d{4})\s.*BAL.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth: "EUREST" STOLOVAYA 144.00RUR Card¿N**3637 DAVID SIMONYAN BAL: 51 553.17 RUR 2014-04-01 13:19:11

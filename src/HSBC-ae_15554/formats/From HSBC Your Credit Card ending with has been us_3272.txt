@@ -1,0 +1,10 @@
+^.*ending.*?(\d{4}) .*?used for\s+([A-Z]{3})\s*([\d\s.,]*\d) on (\d{2}[-./]\d{2}[-./]\d{2,4}) at\s+(.*?)\..*vailab.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+From HSBC: Your Credit Card ending with *** 7319 has been used for AED 352.30 on 13/11/2017 at EMIRATES COOP SOCIETY. Your available limit is AED 107999.42
+
+-----EXAMPLE-----
+Your Credit Card ending with *** 6368 has been used for AED 128.00 on 10/07/2022 at Zomato. Your available limit is AED 29202.11

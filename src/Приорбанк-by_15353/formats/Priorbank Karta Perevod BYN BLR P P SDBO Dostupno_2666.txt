@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).* ([\d-]{8}) .*erevod([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Priorbank. Karta 4***5756. 30-09-16 11:28:38. Perevod 152.80 BYN. BLR P2P_SDBO. Dostupno: 2 271.74 BYN. Spravka: 80172899292

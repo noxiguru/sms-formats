@@ -1,0 +1,7 @@
+^.*ard.*?X(\d{4})\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+(.*?)\s+([\d/]{8}) .*vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd/MM/yy;av_balance
+
+-----EXAMPLE-----
+Credit Card Purchase  Card No XXXX9193  AED 183.75  DUBAI DUTY FREE 363 Dubai AE  22/12/18 13:44  Available Balance AED 21309.42 Your December statement payment due date is 26/12/2018

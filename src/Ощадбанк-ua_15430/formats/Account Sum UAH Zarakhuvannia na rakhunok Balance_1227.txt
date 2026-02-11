@@ -1,0 +1,10 @@
+^([\d.]{10}).*?(\d{2,4})\s+Sum.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(Zarakh.*)\s+.(?:alan|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+16.04.2014  Account:0090-2625-3442 Sum:2 007.53 UAH  Zarakhuvannia na rakhunok  Balance=18 355.51 UAH Dovidka 0800210800
+
+-----EXAMPLE-----
+20.01.2020  Acnt:262075-94 Sum:4 000.00 UAH  Zarakhuvannia zarobitnoi platy  Dostupna suma=8 303.96 UAH oschadbank.ua/chat

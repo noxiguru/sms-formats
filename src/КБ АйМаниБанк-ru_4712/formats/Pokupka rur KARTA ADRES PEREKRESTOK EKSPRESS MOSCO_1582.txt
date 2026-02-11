@@ -1,0 +1,7 @@
+^.*?Pokupka ([\d\s.,]*\d) ([a-zA-Z]{3})\s*;K.*?\*(\d{4});ADRES:([^;]+);(?:ostatok|dostupno): ([\d\s.,]*\d).*?([\d.]{8}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Pokupka 51 rur ;KARTA: *1096;ADRES:PEREKRESTOK EKSPRESS 2 >\\MOSCOW\ RU;dostupno: 7888,74 rur; 02.02.15 19:11;

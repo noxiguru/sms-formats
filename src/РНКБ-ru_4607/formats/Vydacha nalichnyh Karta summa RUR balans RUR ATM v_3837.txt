@@ -1,0 +1,10 @@
+^Vydac.*?nal.*?(\d{4})\s.*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*(\d{2,4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+Vydacha nalichnyh Karta:8624 summa:4000.00 RUR  balans:14354.04 RUR ATM-5883 (vremya operatsii MSK 2017-06-12 16:03:57)
+
+-----EXAMPLE-----
+Vydacha nalichnyh Karta:8624 summa:2500.00 RUR  balans:172.58 RUR ATM 5867 18-08-02 20:39:33

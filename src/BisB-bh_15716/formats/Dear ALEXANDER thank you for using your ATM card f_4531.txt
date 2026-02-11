@@ -1,0 +1,13 @@
+^.* using .*? (\d{4}) for ([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d* at\s+(.*?)\s*(?:[A-Z]{1,3}-\d{4,}) on (\d{1,2}/\d{2}) .*vail.*?([A-Z]{3})\s*(-?[\d\s,]*\d\.\d{2})\d*.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dM;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear ALEXANDER, thank you for using your ATM card 2648 for BHD 27.165 at BENNIGANS RESTAURANT MA  BH-726748 on 29/02 @19:00. Avail Bal BHD   1.027. Tel 17515151
+
+-----EXAMPLE-----
+Dear MAHMOOD, thank you for using your Debit card 7212 for BHD 1.000 at PARK POINT WLL  MANAM  BH-429633 on 16/07 @12:01. Avail Bal BHD   3433.241. Tel 17515151
+
+-----EXAMPLE-----
+Dear ADNAN, thank you for using your Debit card 6085 for BHD 1.000 at Batelco    MANAMA  ManBH-890633 on 09/06  14:46. Avail Bal BHD   12016.714. Tel 17515151

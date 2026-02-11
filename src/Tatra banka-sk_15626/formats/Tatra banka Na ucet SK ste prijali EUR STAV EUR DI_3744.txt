@@ -1,0 +1,7 @@
+^.*?([\d.]{8,10}).*Na .*?(\d{4})\s+ste prijal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*DISP.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}\s+(.*)
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance;comment
+
+-----EXAMPLE-----
+Tatra banka 16.4.2018 15:27 Na ucet SK1234567890 ste prijali 4800,00 EUR. STAV 5055,30 EUR DISP 5055,30 EUR VKLAD V HOTOVOSTI

@@ -1,0 +1,7 @@
+^\s*(\d{4})\s+-([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+?)\s+Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+5712 -3059.00 UAH SHOP LEVIS>KYIV UA Balance = 752.98 USD

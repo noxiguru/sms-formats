@@ -1,0 +1,10 @@
+^.*?\*(\d{4}).?\s+([\d.]{8}) .*pisa.*?([\d\s.,]*\d)\s*([а-яA-Z]{3}).\s+(.*)\.?
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee
+
+-----EXAMPLE-----
+*5266: 29.03.16 09:12 Spisanie:55.00 RUR, IP NIBUSIN  E.E. Moskv, MOSKVA.
+
+-----EXAMPLE-----
+*1969 10.09.16 16:26 Spisanie: 1079.00 RUR, MAGNIT GM 4 REVOLYUT, N.NOVGOROD.

@@ -1,0 +1,7 @@
+([\d.]{8})\s+.*?so\s+sch.*?(\d{2,4})\s+spisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?atel:\s+(.*?)\..*?stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+06.10.16 20:49 (Msk) so scheta 408028104***91 spisano 350.00 RUR Poluchatel: Komissiia za vedenie r/s v rezhime "Ekonom" s ispolzovaniem sistemy udalennogo dostupa bez predostavleniia vypisok i dokumentov v bumazhnom vide, f-l "Kirovskii" (IP). Ostatok po schetu 67797.05 RUR

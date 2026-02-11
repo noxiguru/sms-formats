@@ -1,0 +1,7 @@
+^ALIMENTAREA.*(\d{4}).*;\s*([\d\s.,]*\d) ([A-Z]{3}). ([\d.]{10}).*DISPONIBILA.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ALIMENTAREA: 522399******9900 VATRAFEST BBT 19; 471.00 MDL; 16.08.2014, 12:27:58. SUMA DISPONIBILA: 471.00 . OK VA MULTUMIM. UNIBANK

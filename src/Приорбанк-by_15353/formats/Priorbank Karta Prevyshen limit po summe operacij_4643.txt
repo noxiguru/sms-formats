@@ -1,0 +1,10 @@
+^.*(?:revyshen limit|ревышен лимит|<#>).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Priorbank. Karta 4***6031. 15-02-2022 17:02:03. Prevyshen limit po summe operacij. Spravka: 80172899292
+
+-----EXAMPLE-----
+<#> Priorbank 13/09 08:55. M-code:086837, Platezh s DK8744, schet platezha 2398293. Summa 16.00 BYN. Spravka: 487 VhGfTg0y6/D

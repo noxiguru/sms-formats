@@ -1,0 +1,7 @@
+^Sizd.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+bonus\s+tus.*
+
+-----COLUMNS-----
+income;instrument
+
+-----EXAMPLE-----
+Sizdin kartochkanyzga 830.00 KZT bonus tusti.

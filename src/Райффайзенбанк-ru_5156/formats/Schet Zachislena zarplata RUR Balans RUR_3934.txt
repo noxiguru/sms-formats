@@ -1,0 +1,19 @@
+^.*\*(\d{4})\W? (.(?:achislen|ачислен)(?!.*\d{2,4}[\-/\.]\d{2,4}[\-/\.])\S*\s+.*?)\s*([\d\s.,]*\d)\s*([А-ЯA-Z]{3}).*?(?:alan|алан).*?(-?[\d\s.,]*\d)\s*([А-ЯA-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Schet *1872. Zachislena zarplata 48842.3 RUR. Balans 48842.3 RUR.
+
+-----EXAMPLE-----
+Счет *7854. Зачислен перевод 25000 RUB. Баланс 25501 RUB.
+
+-----EXAMPLE-----
+Schet *0306. Zachisleny komandirovochnye/kompensaciya 5335 RUR. Balans 15821.62 RUR.
+
+-----EXAMPLE-----
+Schet *0019. Zachislen perevod 1000.00 RUB. Balans 1236.86 RUB.
+
+-----EXAMPLE-----
+Счет *8845. Зачислен перевод 3245.24 РУБ. Баланс 13934.59 РУБ.

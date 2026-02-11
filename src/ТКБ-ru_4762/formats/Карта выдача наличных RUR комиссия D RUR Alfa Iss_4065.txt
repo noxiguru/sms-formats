@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*?([\d.]{10}).*ыдача н.*?([\d\s.,]*\d)\s*([A-Z]{3}).*омис.*?([\d\s.,]*\d).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Карта *5152: 21.01.2019 18:00, выдача наличных 500.00 RUR. комиссия D0.00 RUR. Alfa Iss, SARATOV, 80 NOVO-ASTRAKHANSKOE H/W. Доступно 307.24 RUR. Справка: 8-800-100-32-00

@@ -1,0 +1,16 @@
+^.*\*(\d{4}).*?(?:писан пер|плата чер|еревод по|pisan per|plata cher|erevod po).*?([\d\s.,]*\d)\s*([а-яА-ЯA-Z]{3}).*?(?:алан|alan).*?(-?[\d\s.,]*\d)\s*([а-яА-ЯA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Счет *7854. Списан перевод 15501 РУБ. Баланс 10000 РУБ.
+
+-----EXAMPLE-----
+Schet *0761. Spisan perevod 23440 RUB. Balans 44871.22 RUB.
+
+-----EXAMPLE-----
+Schet *4828. Oplata cherez SBP. Summa 1379.00 RUB. Balans 2411.83 RUB
+
+-----EXAMPLE-----
+Schet *5324. Perevod po QR-kodu cherez SBP. Summa 276.79 RUB. Balans 54590.77 RUB

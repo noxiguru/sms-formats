@@ -1,0 +1,7 @@
+^(Я\.Кард|ЮCard).*?писа.*?([\d\s.,]*\d)\s*([A-Z]{3}) [-–—] это (.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment
+
+-----EXAMPLE-----
+Я.Кард: списали 6,23 RUB — это курсовая разница по платежу SANI MARKET

@@ -1,0 +1,7 @@
+^.*SA CH Deb.*?\.(\d{4}) .ata.*?(\d{4}-\d{2}-\d{2}) [\d:]+ .uma.*?([\d\s.,]*\d)\s*([A-Z]{3}) .old.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yMd;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+BC VICTORIABANK SA CH Debit Card: 5...7122 Data: 2022-11-24 10:51:32 Suma: 8.00 MDL Sold: 356.68 MDL Detalii: Web/Mob P2P transfer own 5..71

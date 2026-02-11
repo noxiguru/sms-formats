@@ -1,0 +1,7 @@
+^.*?([\w-]{9}).*?(\d{4}) POPOLNENIE(?!.*ATM|.*alan).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd-MMM-yy;syncid;income;instrument
+
+-----EXAMPLE-----
+MKB: 31-JAN-18 4*2655 POPOLNENIE: 546.24 RUR.

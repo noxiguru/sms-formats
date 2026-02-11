@@ -1,0 +1,7 @@
+^.*ard.*?x(\d{4}).*urchas.*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\w+[-./]\d{2,4}) .*vail.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Card 970421xx7340:Normal Purchase 473,550 VND; 15-Feb-2021 17:09:52;04-06-08 HO HUAN NGHIE, HCM;Trans No:422401.Available:12,235.70 USD. Hotline: 18006656

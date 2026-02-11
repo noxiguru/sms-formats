@@ -1,0 +1,7 @@
+^([\d.]{8}) .*?(\d{4}) .arahov.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+14.11.18 20:49 Na karty 8514 zarahovano 1000.00 UAH,  Balans: 1028.69 UAH  (050)(068)(056)7345005

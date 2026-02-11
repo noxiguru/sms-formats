@@ -1,0 +1,10 @@
+^.*?(?:с\s+|s\s+).*?(?:вклад|vklad).*?(\d{4})\s.*?(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:на\s+Ваш|na\s+debet).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+с Вашего договора вклада ******0783 сумма в размере 302,220.21 RUR переведена на Ваш Картсчет. www.tinkoff.ru
+
+-----EXAMPLE-----
+Andrey Vladimirovich, s vklada 3413081211 perevedena summa v razmere 100,000 RUB na debetovuyu kartu. www.tinkoff.ru

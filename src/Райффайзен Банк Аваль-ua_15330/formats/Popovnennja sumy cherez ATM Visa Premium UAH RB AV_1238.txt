@@ -1,0 +1,7 @@
+^Popovnen.*?ATM.*([\d.]{10}).*?(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3})(?!.*ATM).*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid#cash;income;instrument;av_balance
+
+-----EXAMPLE-----
+Popovnennja sumy cherez ATM: 03.05.2017 12:53:27 Visa Premium/2758 12300.00 UAH RB AVAL OD TAIR UAH CASH 3 dostupna suma 12301.17 UAH

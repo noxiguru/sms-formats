@@ -1,0 +1,13 @@
+^.*? ([\d/]{5}) .*(?:перевод|perevod)(?!.*(?:комис|оступ|omis|ostu)).*?(?:испол|одоб|ispol|odob).*?\.?([\d\s.,]*\d)\s*([A-Z]{3}).*(?!комис|komis)(?: с| s).*?\*(\d{4})\s+((?:на|na).*?\*\d{4}).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;syncid;comment
+
+-----EXAMPLE-----
+РСХБ 28/04 19:10 перевод испол.5000.00RUR со счета*1543 на счет*2367
+
+-----EXAMPLE-----
+RSHB 06/12 16:15:41 perevod ispolnen 1,734.88 RUR s karty *1294 na kartu *6466
+
+-----EXAMPLE-----
+RSHB 15/10 18:57:25 perevod odobr. 12,803.73 RUR s karty *4822 na kartu *9380

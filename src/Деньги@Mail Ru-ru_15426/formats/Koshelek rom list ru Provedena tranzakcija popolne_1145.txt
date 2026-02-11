@@ -1,0 +1,7 @@
+^.*?popolnenie ([\d\s.,]*\d)([A-Z]{3}); ([\d.]{8}).*Ostatok ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Koshelek  rom***@list.ru. Provedena tranzakcija: popolnenie 1000.00RUB; 16.01.14 13:17. Ostatok 1000.00RUB. Dengi.MailRu

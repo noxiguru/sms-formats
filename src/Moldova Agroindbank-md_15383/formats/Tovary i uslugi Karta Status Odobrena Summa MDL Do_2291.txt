@@ -1,0 +1,16 @@
+^(?:Tovary\s+i\s+us|Op:\s+(?!Aliment))(?!Popol).*?(?:art|ard).*?(\d{4}).*(?:dobren|pprov|eusit).*?(?:Sum|Amo).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:ost|vail|isp)\w*:(-?[\d\s.,]*\d).*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*?(?:dres|ocat)\w*:\s+(.*?)\s+(?:Podder|Supp?or).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dMy;payee
+
+-----EXAMPLE-----
+Tovary i uslugi Karta: *0593 Status: Odobrena Summa: 76,85 MDL Dost: 1193,03 Data/vremya: 17.03.16 22:10 Adres: MAIB FIDESCO SRL Podderzhka: +37322450603
+
+-----EXAMPLE-----
+Op: Marfuri si servicii Card: *1361 Statut: Reusit Suma: 20,98 EUR Disp: 4672,38 Data/ora: 16.08.16 21:35 Locatie: PAYPAL *NEWFROG COM Suport: +37322450603
+
+-----EXAMPLE-----
+Op: Oplata Karta: *0593 Status: Odobrena Summa: 232,32 MDL Dost: 5381,48 Data/vremya: 19.08.16 17:38 Adres: MAIB RED UNION FENOSA Podderzhka: +37322450603
+
+-----EXAMPLE-----
+Op: Goods and services Card: *9473 State: Approved Amount: 550 MDL Avail: 3209,25 Date/time: 02.04.20 13:26 Address: WWW BEMOL MD Support: +37322450603

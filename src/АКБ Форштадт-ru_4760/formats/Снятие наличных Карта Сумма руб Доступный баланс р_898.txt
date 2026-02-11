@@ -1,0 +1,10 @@
+^.*?(?:Снятие|Snjatie).*?(?:Карта|Karta).*?\*(\d{4}) (?:Сумма|Summa). ([\d\s.,]*\d) ([а-яa-zA-Z]{3}).*(?:баланс|Balans): (-?[\d\s.,]*\d).*?([\d.]{8}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Снятие наличных Карта: 4124***1362 Сумма: 100.00 руб Доступный баланс: 351.09 руб Время: 21:16 10.07.13 Адрес: FRSB ORENBURG, SALMYShSKAJA 41
+
+-----EXAMPLE-----
+Snjatie Karta: *1362 Summa: 20 000.00 rub Balans: 147.46 rub Vremja: 07:40 05.09.13 Adres: FRSB ORENBURG, CHKALOVA 35

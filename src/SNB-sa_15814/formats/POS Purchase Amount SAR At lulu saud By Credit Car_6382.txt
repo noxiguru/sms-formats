@@ -1,0 +1,7 @@
+^.*urchas.*mount\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+[Aa]t\s+(.*?)\s+By\s+Cred.*?\*(\d{4}).*?\s+[Oo]n\s+(\d{2}/\d{2}/\d{2})\s+.*imit\s+(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+POS Purchase Amount 51.22 SAR At lulu saud By Credit Card **1716 (Apple Pay) On 05/10/24 10:07 Remaining limit 27937.13 SAR

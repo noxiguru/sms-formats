@@ -1,0 +1,7 @@
+^Vnesen.*?nal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Vneseny nalichnie 1000000 RUR na schet *1328. Balans 1004235.73 RUR. Raiffeisenbank

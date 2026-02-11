@@ -1,0 +1,7 @@
+^(Perevod na .*?)\s+.umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d/]{5}) .*\*(\d{4}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;outcome;instrument;date#dd/MM;syncid;av_balance
+
+-----EXAMPLE-----
+Perevod na schet 40817*430 Summa 5000RUB Telebank 06/08 10:10 karta *0153 Ostatok 10634.88RUB

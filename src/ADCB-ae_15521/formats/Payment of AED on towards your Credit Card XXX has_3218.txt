@@ -1,0 +1,7 @@
+^.*ayment.*?([A-Z]{3})\s*([\d\s.,]*\d)\s+on\s+([\d/]{10}) towards.*?(\d{4}) .*received.*
+
+-----COLUMNS-----
+instrument;income;date#dd/MM/yyyy;syncid
+
+-----EXAMPLE-----
+Payment  of AED 958.58 on 09/09/2017 towards your Credit Card XXX4971 has been received.

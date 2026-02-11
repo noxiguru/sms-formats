@@ -1,0 +1,7 @@
+^(OTMENA).*okupk.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}),\s+(\d{4}-\d{2}-\d{2})\s+[\d:]+,\s+(.*?)\.\s+.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;date#yMd;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+OTMENA pokupki 107 189.70 UZS, po karte *0810, 2023-09-13 23:19:05, UZB, LEBAZAR.UZ. Dostupno: 907 235.19 UZS

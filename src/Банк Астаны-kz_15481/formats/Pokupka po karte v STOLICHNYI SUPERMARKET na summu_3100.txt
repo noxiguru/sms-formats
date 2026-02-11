@@ -1,0 +1,7 @@
+^Pokupka.*\*(\d{3,4}) v (.*?) na sum.*?([\d\s.,]*\d)\s*([A-Z]{3}) ([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Pokupka po karte 5**168 v STOLICHNYI SUPERMARKET na summu 1 195.00 KZT 2017-07-12 22:19:29. Dostupno 280 945.28 KZT. Vam nachisleny bonusy v razmere 14.34 KZT

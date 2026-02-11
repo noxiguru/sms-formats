@@ -1,0 +1,7 @@
+^(.*?) \d{6,} ACC.*?(\d{4}) Sum.*?([\d\s.,]*\d) Date.*?(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} Usp.*
+
+-----COLUMNS-----
+payee;syncid;outcome;date#dMy
+
+-----EXAMPLE-----
+Alif Wallet 701953768 ACC:1234567890 Suma:5,32 Date:18.05.23 22:18 Uspeshno zachisleno! Spasibo za vibor Dushanbe City!

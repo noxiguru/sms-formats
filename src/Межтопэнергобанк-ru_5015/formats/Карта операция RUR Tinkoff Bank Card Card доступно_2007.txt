@@ -1,0 +1,10 @@
+^([\d.]{10}).*\*\d*(\d{4}).*(?:перац|perac).*?-([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?),.*(?:оступ|ostup).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+02.10.2015 00:22 Карта *6951, операция -11.09 RUR, Tinkoff Bank Card2Card, доступно: 0.00 RUR
+
+-----EXAMPLE-----
+28.01.2016 14:42 Karta *2760, operacziya -30.40 RUR, KAK DOMA, bonus +0,08 RUR, dostupno: 43 956.41 RUR

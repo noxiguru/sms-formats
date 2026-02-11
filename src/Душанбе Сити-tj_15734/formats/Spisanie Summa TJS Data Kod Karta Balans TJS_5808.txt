@@ -1,0 +1,7 @@
+^(?:Spisan|Списан).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:Data|Дата).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:arta|арта) \d*(\d{4}) (?:Bala|Бала).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Spisanie Summa 151.00 TJS Data 17:17 19.05.23 Kod 1959032820 Karta 1234567890 Balans 27.20 TJS

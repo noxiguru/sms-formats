@@ -1,0 +1,13 @@
+^Postuplenie n.*?([\d/]{5}).*arta.*?(\d{4}).*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid;income;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Postuplenie na kartu
+Data: 21/01 15:17
+Karta: ****1892
+Summa: 350.00RUB
+Komissija: 0.00RUB
+Dostupno: 363.09RUB
+Terminal: Mbank_01

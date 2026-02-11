@@ -1,0 +1,7 @@
+^.*?Vydacha ([\d\s.,]*\d) ([a-zA-Z]{3}).*?\*(\d{4}).*(?:ostatok|dostupno): (-?[\d\s.,]*\d).*?([\d.]{8}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Vydacha 3000 rur ;KARTA: *2899;ADRES:ATM 031015 56 VERY VOL >\\MYTISHCHI\ RU;dostupno: 175,4 rur; 15.10.14 13:31;

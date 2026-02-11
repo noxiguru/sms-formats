@@ -1,0 +1,16 @@
+^.*?\.(\d{4})(?!.*stat)\s+((?:.pisan\w+)?.*?(?:omiss|opilk).*?)\s+.spesh.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*? (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;date#dMy
+
+-----EXAMPLE-----
+Karta 5.7168 Komissiya za Alfa-Check (opovescheniya po karte) Uspeshno Summa:2.99 BYN 01.11.2018
+
+-----EXAMPLE-----
+Karta 5.3393 Spisanie v kopilku Uspeshno Summa:2.11 BYN 05.03.2019
+
+-----EXAMPLE-----
+Karta 5.2875 Spisanie komissii za obsluzhivanie v ramkah Nabora Privilegiy Uspeshno Summa:3.90 BYN 05.09.2019
+
+-----EXAMPLE-----
+Karta 5.9930 Spisanie v kopilku Uspeshno Summa:1.20 BYN Списание в копилку с автоматическим способом накопления 26.10.2022 23:10:22

@@ -1,0 +1,10 @@
+^.*?arta.*?([\d/]{4})\s+.ostupn.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+Priorbank. Karta: *1226 Dostupno: 725939 BYR Status karty: dejstvitel'na Karta do: 31.12.2019. Spravka: 487
+
+-----EXAMPLE-----
+Priorbank. Karta: DK1226 Dostupno: 7 016 705 BYR.  Spravka: 487

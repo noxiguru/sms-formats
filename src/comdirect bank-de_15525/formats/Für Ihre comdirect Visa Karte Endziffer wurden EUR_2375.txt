@@ -1,0 +1,7 @@
+^.*Karte.*?(\d{4}) wurden([\d\s.,]*\d)\s*([A-Z]{3}) angefragt.*?([\d.]{8}),\s+(.+?)\s+Bei.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;payee
+
+-----EXAMPLE-----
+Für Ihre comdirect Visa-Karte Endziffer-1993 wurden 66,87 EUR angefragt. 21.03.16, Lidl Vertriebs GmbH  Bei Fragen wenden Sie sich an +49 69 6657 1913.

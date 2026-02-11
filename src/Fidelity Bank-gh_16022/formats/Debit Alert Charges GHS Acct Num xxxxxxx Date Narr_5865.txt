@@ -1,0 +1,7 @@
+^Debit.*harge.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*Num:\s*(\d{4}x+\d{2}),\s+.ate:\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*arration:\s+(.*?), .urrent.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy;comment;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Debit Alert, Charges: GHS0.95, Acct Num: 1400xxxxxxx17, Date: 03-07-2023 09:09:38, Narration: Account to wallet charges, Current bal:GHS149.09.

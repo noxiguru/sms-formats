@@ -1,0 +1,7 @@
+^NALICH.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*([\d.]{10}).*OSTA.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+NALICHNYE 300.00 USD KARTA #4194 DATA 16.10.2018 15:19:41 HEAD OFIS ZEPTER PVN>MINSK>BY OSTATOK 2.53 BYN

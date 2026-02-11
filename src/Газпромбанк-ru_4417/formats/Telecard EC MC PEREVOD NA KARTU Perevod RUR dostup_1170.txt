@@ -1,0 +1,7 @@
+^Telecard;\s+[^;]*?(\d{4}|[^\d\s;]+);\s+([\d.]{8})[^;]*;\s+[^;]*;\s+Perevod;([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Telecard; EC/MC1810; 12.02.14 09:09:23; PEREVOD NA KARTU; Perevod; 1950 RUR; dostupno: 6556.99 RUR; ostatok na schete: 6556.99 RUR

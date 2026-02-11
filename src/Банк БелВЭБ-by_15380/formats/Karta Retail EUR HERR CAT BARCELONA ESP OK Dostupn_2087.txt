@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{10}).*Retail.*?-([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\s+OK.\s*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 5.9883 31.10.2015 12:08:01 Retail -70 EUR HERR-CAT BARCELONA ESP OK. Dostupno 90597 BYR

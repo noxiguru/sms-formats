@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ Snyat.*?([\d\s.,]*\d)\s*([A-Z]{3}) po k.*?\*(\d{4}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+01.12.2022 14:34 Snyatie nalichnih 10000.00 INR po karte 5477***5263 v terminale UBI CHHATARPUR , IN, ostatok 509.74 USD

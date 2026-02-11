@@ -1,0 +1,13 @@
+^(?!Decl)(?:.*arge.*?)?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*ard (\d{4}) (.*?) ║ .*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee
+
+-----EXAMPLE-----
+Credit card charge $11.10 Credit card 6062 76 - UNITED PACIFIC ║ BofA
+
+-----EXAMPLE-----
+Charge online or by phone $10.64 Credit card 6556 AMZN Mktp US ║ BofA
+
+-----EXAMPLE-----
+$70.85 Credit card 1233 E S CAMPOAMOR, Spain ║ BofA

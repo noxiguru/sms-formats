@@ -1,0 +1,7 @@
+^Kart.*\*(\d{4})\s+Məbləğ.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+Mədaxil.*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kart: 416973******4111 Məbləğ: 1.0 AZN KAPS Balans: 1.5 AZN ║ Mədaxil

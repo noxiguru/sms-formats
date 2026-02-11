@@ -1,0 +1,10 @@
+^\w+\.+(\d{4}|\d[A-Z]{3}) (\d{4}-\d{2}-\d{2}) .*ayment\W?\s*([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yMd;outcome;instrument
+
+-----EXAMPLE-----
+M...7014 2023-06-07 11:45:56 Online Payment;20.00 MDL Web P2P transfer own MD14VI225 ║ 20.00 MDL 2023-06-07 11:45:56
+
+-----EXAMPLE-----
+M...5MDL 2024-06-05 09:26:36 Online Payment;3.16 MDL Web P2P transfer own MD71VI022 ║ 3.16 MDL 2024-06-05 09:26:36

@@ -1,0 +1,7 @@
+.*?(?:[Oo]utgoing\s+(?:transaction|transfer)).*?\s*:?\s*([A-Za-z]{1,4})\s*([0-9][\d\s.,]*\d).*?\*+(\d+)(?=\D).*?(?:Balance|Баланс|Доступно|Available)\s*:?\s*([A-Za-z]{1,4})\s*(-?[0-9][\d\s.,]*[.,]\d{2})(?=\s|$).*?(\d{2}[-./]\d{2}[-./]\d{2,4})
+
+-----COLUMNS-----
+instrument;outcome;syncid;acc_instrument;balance;date#dMy
+
+-----EXAMPLE-----
+Outgoing transaction: GEL70.00 GE16***8483GEL Balance: GEL213,005.69 02.07.2025

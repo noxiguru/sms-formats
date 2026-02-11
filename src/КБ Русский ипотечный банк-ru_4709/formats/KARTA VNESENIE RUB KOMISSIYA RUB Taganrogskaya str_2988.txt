@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d.]{8}) .*VNESEN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*KOMIS.*?([\d\s.,]*\d).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;income;instrument;fee;av_balance
+
+-----EXAMPLE-----
+KARTA 4*0408 11.04.17 08:25 VNESENIE 2500.00 RUB KOMISSIYA 0.00 RUB Taganrogskaya str., 161/2 (ROSTOV-NA-DONU,RU) DOSTUPNO 132185.30 RUB

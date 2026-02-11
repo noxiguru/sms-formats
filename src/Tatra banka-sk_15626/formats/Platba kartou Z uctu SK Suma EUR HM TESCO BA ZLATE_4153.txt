@@ -1,0 +1,7 @@
+^.*art.*?\*(\d{4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+STAV.*?(-?[\d\s.,]*\d).* [A-Z]{3} ([\d.]{8,10}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Platba kartou 4405**2294 Z uctu: SK97**2930256626 Suma: 54,84 EUR HM TESCO, BA, ZLATE STAV 2688,30 EUR DISP 2688,30 EUR 18.4.2019 13:34

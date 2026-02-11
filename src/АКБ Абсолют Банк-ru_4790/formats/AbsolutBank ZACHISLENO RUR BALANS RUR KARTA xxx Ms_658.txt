@@ -1,0 +1,7 @@
+^.*ZACHISLENO: ([\d\s.,]*\d) ([A-Z]{3}). BALANS: (-?[\d\s.,]*\s).*?x\d*([\d/]{4});.*?([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;balance;syncid;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+AbsolutBank; ZACHISLENO: 80 000.30 RUR; BALANS: 82 635.60 RUR; KARTA: 4433xxx30545; 15-59 28.02.2013 Msc

@@ -1,0 +1,7 @@
+^ATM (?:CASH|KANX).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:BAL|MNACO).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+ATM CASH 23,000.00 AMD 5501***4983 ATM 301 KOMITAS 1, AM 21.10.2022 17:42 BALANCE: 716.95 AMD

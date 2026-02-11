@@ -1,0 +1,7 @@
+^.*?(\d{4}).*нятие н.*?([\d\s.,]*\d)\s*([a-яA-Z]{3}).*([\d.]{8}).*?осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+MC 7144; Снятие наличных; 1500 руб; Nauki 23; 17:20 01.08.15; Доступно 0 руб

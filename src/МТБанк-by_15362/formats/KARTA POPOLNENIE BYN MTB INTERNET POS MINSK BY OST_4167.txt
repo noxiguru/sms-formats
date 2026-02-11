@@ -1,0 +1,10 @@
+^.*\*(\d{4}) ([\d-]{10}).*POPOLN.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+KARTA 535104******4077 2019-05-12 21:35:45 POPOLNENIE 200.00 BYN MTB INTERNET POS         MINSK        BY OST.DB 200.82 BYN OST.CR 2317.91 BYN Spr.:5099999
+
+-----EXAMPLE-----
+KARTA 535104******7848 2019-05-10 09:44:42 POPOLNENIE 186.00 BYN MTB INTERNET POS         MINSK        BY OSTATOK 269.31 BYN Spr.:5099999

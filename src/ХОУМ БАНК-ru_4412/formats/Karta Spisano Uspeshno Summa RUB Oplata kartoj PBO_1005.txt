@@ -1,0 +1,7 @@
+^.*\*(\d{4}).\s+Spisano.\s+Uspeshno.\s+Summa.\s+([\d\s.,]*\d)\s+([A-Z]{3}).*?(?:kartoj|nalichnyh)\s+(.*).\s+([\d.]{10}).*Dostupno.\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta: *8537; Spisano; Uspeshno; Summa: 210 RUB; Oplata kartoj PBO PRIMESTAR DOMNIKOV MOSCOW; 14.10.2013 15:42; Dostupno: 121499.62 RUB.

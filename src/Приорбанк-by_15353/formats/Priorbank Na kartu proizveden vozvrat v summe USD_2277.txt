@@ -1,0 +1,7 @@
+^.*art.*?\*(\d{4}).*vozvr.*?([\d\s.,]*\d)\s*([A-Z]{3}) .* v (.+?)\..*ostup.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}.*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Priorbank. Na kartu 4***4611 proizveden vozvrat v summe 1.00 USD po operacii v USA GOOGLE *SERVICES. Dostupno: 966.85 USD. Spravka: 80172899292

@@ -1,0 +1,7 @@
+^.*eposit.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+To\s+acc\w+:\s+([A-Za-z]+)\s+.*alan.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+deposit money GEL 599.00 To account: Visa plastic Remaining balance: GEL 611.78 18.05.2023

@@ -1,0 +1,13 @@
+^Tr(?:x|ansac).*?([A-Z]{3})\s*([\d\s.,]*\d).*\*(\d{3,4})\s+at\s+(.*?)(?:\s+.pprov.*?)?\.\s+Avl.*? ([A-Z]{3}|)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Trx. of AED 102.00 on your card ending **6094 at LIFE PARA PHARMACY & N in DUBAI, United Arab Emi Approved. Avl card bal is 26836.95.
+
+-----EXAMPLE-----
+Trx. of AED 53.50 on your a/c ****9026 at KUWAIT FOOD CO A-541903 DUBAI AE. Avl Bal is AED 1451.22
+
+-----EXAMPLE-----
+Transaction of AED 788.50 debited from your a/c *547 at PLP EVENTS DU BAI AE. Avl Bal is AED 57582.10

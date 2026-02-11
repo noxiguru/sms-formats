@@ -1,0 +1,7 @@
+^Perevod[\d\s.,]*\d\s*[A-Z]{3}\s+na kart.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Perevod 300 RUB na kartu 510069******5533. 8-800-7000072 Raiffeisen Online

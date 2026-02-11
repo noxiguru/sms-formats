@@ -1,0 +1,7 @@
+^.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+EKSIBANK. Summa 130.83 RUR. Karta *9219, , 23.09.20 00:00. Ostatok 130.83 RUR

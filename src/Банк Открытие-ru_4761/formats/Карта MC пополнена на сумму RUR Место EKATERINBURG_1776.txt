@@ -1,0 +1,13 @@
+^.*?(?:\*|-)\d*(\d{4})\s*.(?:opol|опол).*?\D([\d-]{8})\s+[\d:]+\s+.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Карта  MC  *9610 пополнена 25-05-15 14:32:05 на сумму 46 000.00 RUR Место EKATERINBURG IPT BINBANK  Доступно всего 100 158.13 RUR  https://online.binbank.ru
+
+-----EXAMPLE-----
+Карта  MC  *6880 пополнена29-03-16 12:30:03  750.00 RUR Доступно всего 5 232.79 RUR ПАО "БИНБАНК" Телефон 8 800 200 50 75.
+
+-----EXAMPLE-----
+Dogovor 281-P-8519639 popolnen 24-09-18 11:55:48   15022,68 RUR   Dostupno vsego 15092,26 RUR. BINBANK Telefon 8 800 200 50 75

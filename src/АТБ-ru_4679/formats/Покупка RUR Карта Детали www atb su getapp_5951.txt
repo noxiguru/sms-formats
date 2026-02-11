@@ -1,0 +1,7 @@
+^Покуп.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+.арта\s+\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid
+
+-----EXAMPLE-----
+Покупка 699.00 RUR Карта *4383 Детали www.atb.su/getapp

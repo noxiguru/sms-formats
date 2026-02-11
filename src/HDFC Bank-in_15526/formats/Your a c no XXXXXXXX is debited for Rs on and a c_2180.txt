@@ -1,0 +1,7 @@
+^.*a/c.*?(\d{4})\s.*?debit.*? ([a-zA-Z]{1,3})\.?([\d\s.,]*\d)\s+on\s+([\d-]{8}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dd-MM-yy
+
+-----EXAMPLE-----
+Your a/c no. XXXXXXXX3110 is debited for Rs. 300.00 on 12-01-16 and a/c linked to mobile 9869140840 credited (IMPS Ref no 1234567890)

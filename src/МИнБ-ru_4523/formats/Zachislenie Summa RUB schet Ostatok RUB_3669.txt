@@ -1,0 +1,16 @@
+^(?:Zachis|Popoln|Postup|Зачис|Пополн|Поступ).*?([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d/]{5}) .*\*(\d{3,4}).*(?:stat|стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd/MM;syncid;av_balance
+
+-----EXAMPLE-----
+Zachislenie Summa 312.77RUB 03/05 20:21 schet 40817*938 Ostatok 50545.62RUB
+
+-----EXAMPLE-----
+Popolnenie Summa 3000RUB F0140022 04/05 12:12 karta *1206 Ostatok 53545.62RUB
+
+-----EXAMPLE-----
+Postuplenie Summa 3000RUB Telebank 06/08 18:24 karta *3708 Ostatok 3433.05RUB
+
+-----EXAMPLE-----
+Поступление Сумма 240RUB Телебанк 12/08 12:18 карта *7045 Остаток 1799.33RUB

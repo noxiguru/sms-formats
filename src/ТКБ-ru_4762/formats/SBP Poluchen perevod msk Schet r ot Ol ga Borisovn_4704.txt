@@ -1,0 +1,13 @@
+^.*(?:oluchen p|олучен п)\w+ (\d{2}[-./]\d{2}) .*(?:chet|чет).*?(\d{4})\W.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? (?:ot|от) (.*?) (?:iz|из).*
+
+-----COLUMNS-----
+date#dM;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+SBP. Poluchen perevod 02.06 07:37 (msk). Schet *1505. 2500 r. ot Ol?ga Borisovna M iz PAO SBERBANK.
+
+-----EXAMPLE-----
+SBP. Poluchen perevod 14.07 11:14 (msk). Schet *1505. Zachisleno 1250 r. ot Ol`ga Borisovna M iz PAO SBERBANK.
+
+-----EXAMPLE-----
+СБП. Получен перевод 14.09 06:09 (мск). Счет 5091. Зачислено 1000 р. от Салахов Марат Шавкатович из ПАО СБЕРБАНК БИК 044525225. ║

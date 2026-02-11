@@ -1,0 +1,10 @@
+^.*(?:PAYMENT|риход).*?\*(\d{4}) sum([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Kub universal bank.PAYMENT card 4125*0174 sum 8 366.32RUROstatok 8 417.22 RUR
+
+-----EXAMPLE-----
+Kub universal bank.Приход денежных средств через ка card 4117*3480 sum 10 000.00RUROstatok 18 164.13 RUR

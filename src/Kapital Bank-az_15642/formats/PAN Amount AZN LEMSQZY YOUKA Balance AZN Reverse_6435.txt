@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+.(?:əblə|moun).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+(Revers.*)
+
+-----COLUMNS-----
+syncid;income;instrument;payee;av_balance;acc_instrument;comment
+
+-----EXAMPLE-----
+PAN: 416973******3571 Amount: 30.34 AZN LEMSQZY* YOUKA Balance: 9521.03 AZN ║ Reverse

@@ -1,0 +1,7 @@
+^GNUM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4})\W?\s+(.*?)\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*MNACORD.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+GNUM 8233.00 AMD, 5124***0563, YEREVAN CITY T.METS 3, AM, 02.12.2023 21:08,TRN.NU. 270783541, MNACORD: 7388.00 AMD

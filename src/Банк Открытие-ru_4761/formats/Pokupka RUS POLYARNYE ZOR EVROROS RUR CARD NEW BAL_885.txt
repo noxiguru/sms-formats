@@ -1,0 +1,7 @@
+^\s*Pokupka: (.*) -\s*([\d\s.,]*\d) ([A-Z]{3}).*\*(\d{4}) NEW_BAL: (-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Pokupka: RUS POLYARNYE ZOR EVROROS -524.80 RUR CARD **2133 NEW_BAL: 76 587.45 2013-07-05 20:08:11

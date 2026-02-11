@@ -1,0 +1,7 @@
+^.okup.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*alysh.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*\((.*?)\) (\d{4}-\d{2}-\d{2}) .*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument;payee;date#yMd
+
+-----EXAMPLE-----
+pokupka 13.07 UAH kartka *2416 zalyshok 28986.93 UAH overdraft 29000.00 UAH vlasni koshty 0.00 UAH (APTEKA (ANTOSHCHUK) POLYANYTSYA UA) 2021-02-14 15:52:12

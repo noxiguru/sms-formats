@@ -1,0 +1,7 @@
+^.*P2P\s+Credit.*\*(\d{4})\s+TIME:\s+[\d:]+\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*\s+SUM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+TYPE: POS P2P Credit CARD: 5058***0721 TIME: 10:14 22.03.23 TERM: SpitamenPay 3.0 SUM : 2873.9 TJS COMM: 26.10 TJS BAL: 6 960.29 TJS TEL: 900

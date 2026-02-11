@@ -1,0 +1,10 @@
+^.*ending.*?(\d{4}).*urchas.*?([\d\s.,]*\d)\s*([A-Z]{3}).*erchant.*?at\s+(.*?)\s+.ate\s+([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#MM/dd/yyyy
+
+-----EXAMPLE-----
+Card ending in 6071
+Purchase amount 16.20 USD
+Merchant details at PRONTO PIZ in SAN FRANCISCO UNITED STATES
+Date 08/19/2016

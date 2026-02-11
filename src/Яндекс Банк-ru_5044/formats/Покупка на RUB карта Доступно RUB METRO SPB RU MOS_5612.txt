@@ -1,0 +1,7 @@
+^Покуп.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\W?\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*║\s+(.*)
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Покупка на 41.00 RUB, карта *1467. Доступно 2377.14 RUB ║ METRO.SPB.RU MOSKOVSKI

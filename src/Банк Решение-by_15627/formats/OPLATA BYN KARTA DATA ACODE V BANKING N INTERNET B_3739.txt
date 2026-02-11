@@ -1,0 +1,7 @@
+^OPLATA([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*([\d.]{10}).*ACODE \d+ (.*?) OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+OPLATA 1.00 BYN KARTA #7748 DATA 11.06.2018 11:47:32 ACODE 327441 V-BANKING_N>INTERNET>BY OSTATOK 9.00 BYN

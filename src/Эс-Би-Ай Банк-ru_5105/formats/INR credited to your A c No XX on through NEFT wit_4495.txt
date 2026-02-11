@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s.,]*\d) credit.*? to .*?(\d{4}) on ([\d/]{10}).*by (.*)
+
+-----COLUMNS-----
+instrument;income;syncid;date#dd/MM/yyyy;payee
+
+-----EXAMPLE-----
+INR 11,000.00 credited to your A/c No XX1690 on 09/10/2019 through NEFT with UTR AXMB1234567890 by PRAVIN VASANT MAHULKAR

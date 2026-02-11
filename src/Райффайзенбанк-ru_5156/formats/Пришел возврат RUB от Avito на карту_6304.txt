@@ -1,0 +1,7 @@
+^Приш\w+\s+(возвр.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+от\s+(.*?)\s+на\s+.*?(\d{4}).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;syncid
+
+-----EXAMPLE-----
+Пришел возврат 879.00 RUB от Avito на карту *4811

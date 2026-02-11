@@ -1,0 +1,7 @@
+^.*ayment\s+succ.*paid\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+from\s+.*?x+(\d{3,4})\s+to\s+(.*?)\s+at\s+([\d]{2}[-\s+](?:\w+|\d{2})[-\s+]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Payment successful. You have paid 19.00THB from A/C 552-7-xxx707 to CS 7-Eleven Vending MPQ 00022 at 21 Dec 2024, 11:55 ║ Bangkok Bank

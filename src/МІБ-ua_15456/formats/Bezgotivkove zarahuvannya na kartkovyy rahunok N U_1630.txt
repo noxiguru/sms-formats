@@ -1,0 +1,7 @@
+^.*(?:zarahuv|achisl).*?(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*Avail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Bezgotivkove zarahuvannya na kartkovyy rahunok N 2883000011 5 228.60 UAH (Kyiv time 2015-02-26 16:40:23) Available amount 8 346.53 UAH

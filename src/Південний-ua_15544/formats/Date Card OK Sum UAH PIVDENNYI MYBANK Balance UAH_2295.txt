@@ -1,0 +1,7 @@
+^.*ate:([\d/]{5}) .*ard:.*?(\d{4}) OK Sum\D([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Date:18/03 17:19 Card:4029-9671 OK Sum=400 UAH (PIVDENNYI MYBANK) Balance=4254.97 UAH Akcia KARTA MORYAKA AKCIONNY-krashi umovi.Detali:0800307030

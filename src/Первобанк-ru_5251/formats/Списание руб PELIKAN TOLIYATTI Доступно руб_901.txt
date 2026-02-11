@@ -1,0 +1,7 @@
+^\*(\d{4}). ([\d.]{8}).*Списание. ([\d\s.,]*\d) ([а-яA-Z.]{3,4}), (.*) Доступно. ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+*4939: 15.07.13 13:19 Списание: 188.70 руб., PELIKAN, TOLIYATTI.  Доступно: 5511.30 руб.

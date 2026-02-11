@@ -1,0 +1,15 @@
+^PEREKAZ\s+na.*?\*(\d{4})\s+(\d{2}/\d{2})\s+.*uma:\s+([\d\s.,]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dM;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+PEREKAZ
+na kartku *0832
+01/02 00:06
+Suma: 60 UAH
+MONODirect
+Overdraft 8000 UAH
+Vykorystano overdraft 7828.64 UAH
+Vlasni koshty 0 UAH
+Zalyshok 171.36 UAH

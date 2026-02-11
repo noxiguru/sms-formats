@@ -1,0 +1,7 @@
+^([\d.]{8}).*peraciya.*?(\d{3,4})\s.*?umm.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*pisanie.\s*(?!A(?:TM|\d+))(.*)
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+26.04.17 07:17 Operaciya po kartochke 3**6300 na summu -590.00RUB. Ostatok : 1853008.75. Opisanie: UBER \\AMSTERDAM, THE NETHE

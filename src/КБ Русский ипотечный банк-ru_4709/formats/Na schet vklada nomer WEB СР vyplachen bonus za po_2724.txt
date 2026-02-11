@@ -1,0 +1,10 @@
+^Na schet vk.*?(\d{2}\/?\d{2}) vyplachen\s+(.*?)\s+(?:na sum.*?|-)([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument
+
+-----EXAMPLE-----
+Na schet vklada nomer WEB/СР/810/59257/05 vyplachen bonus za popolnenie mezhbankom na summu 300.00 RUR
+
+-----EXAMPLE-----
+Na schet vklada WEB/СР/810/73286/03 vyplachen bonus za mezhbank - 55.00 RUR

@@ -1,0 +1,7 @@
+^.*?([\d.]{8}) Umenshenie.*?na ([\d\s.,]*\d) (\S+) Dost.balans ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+13:33 27.06.13 Umenshenie dostupnogo balansa na 2500.00 rub Dost.balans 2472.97 rub Bank 88001002254

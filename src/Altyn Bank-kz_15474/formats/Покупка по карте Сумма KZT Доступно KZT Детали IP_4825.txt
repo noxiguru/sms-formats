@@ -1,0 +1,7 @@
+^Покупк.*арт.*?(\d{4}).*умм.*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*етали\W? (.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Покупка по карте 8162 Сумма: 1650 KZT Доступно: 22644.82 KZT Детали: IP DAIROVA MERUYERT Nur-Sultan KZ

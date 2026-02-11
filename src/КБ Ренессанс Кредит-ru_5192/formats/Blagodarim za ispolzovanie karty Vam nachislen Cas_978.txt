@@ -1,0 +1,7 @@
+^.*nachislen Cash Back ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+income
+
+-----EXAMPLE-----
+Blagodarim za ispolzovanie karty. Vam nachislen Cash Back 400 RUR za operatsii, sovershennye v proshlom mesyatse. Renaissance Credit

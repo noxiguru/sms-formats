@@ -1,0 +1,13 @@
+^.*?\*(\d{4}),([\d\s.,]*\d),?\s*([A-Z]{3}).*?([\d-]{10}).*(?:plata|nique).*?,\s+(.*?)\..*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;payee;av_balance
+
+-----EXAMPLE-----
+Optima Bank: 41**3316, 182.00, KGS, 2017-07-05 01:58:48, Oplata Tovara/Uslugi, Retail, METRO MARKET. Dostupnaya summa 1 033.71 KGS.
+
+-----EXAMPLE-----
+Optima Bank: 41**0922, 687.17, KGS, 2018-06-01 08:11:22, Oplata Tovara/Uslugi, GAZPROM 4. Dostupnaya summa 172,272.39 KGS.
+
+-----EXAMPLE-----
+Optima Bank: 41**5674, 2.13, USD, 2018-07-17 16:42:54, Unique, 1xbet. Dostupnaya summa 3.58 KGS.

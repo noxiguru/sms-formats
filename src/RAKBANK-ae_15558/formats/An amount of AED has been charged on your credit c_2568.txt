@@ -1,0 +1,7 @@
+^.*?moun.*?([A-Z]{3})\s*([\d\s.,]*\d).*?charged.*?X(\d{4}) .*?alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;av_balance
+
+-----EXAMPLE-----
+An amount of AED 74.00 has been charged on your credit card 533767XXXXXX0018 from HOMES R US TRADI-17073 on 06/08. Available balance is AED 45256.27

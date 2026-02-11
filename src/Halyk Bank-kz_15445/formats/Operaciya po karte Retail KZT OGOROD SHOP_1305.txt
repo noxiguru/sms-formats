@@ -1,0 +1,10 @@
+^(?!.*(?:ostu|stat))(?!\d{2}\.\d{2}\.)(\d{4}-\d{2}-\d{2}|).*?(?:Retail|Pokupka|Credit).*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?)\s*\w*\*+(\d{3,4}).*
+
+-----COLUMNS-----
+date#yMd;outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+2014-07-14 16:11:37 Operaciya po karte Retail 755.00 KZT OGOROD SHOP 3**300
+
+-----EXAMPLE-----
+2021-01-16 11:10:09 Operaciya po dop karte Retail 7310.00 KZT BEKKER SUPERMARKET 3**114

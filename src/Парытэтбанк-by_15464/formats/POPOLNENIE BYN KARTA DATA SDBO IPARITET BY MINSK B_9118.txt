@@ -1,0 +1,7 @@
+.*?(?:POPOLNENI\w*|Попол\w*).*?([0-9][\d\s.,]*\d)\s*([^\d\s]{1,4}).*?(?:KARTA|КАРТА)\s*[#*]?(\d{3,6}).*?(?:DATA|ДАТА|Дата)\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*?(?:SDBO|СДБО)?\s*(.*?)\s+(?:OSTATOK|ОСТАТОК)\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([^\d\s]{1,4}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+POPOLNENIE 70.00 BYN KARTA #2788 DATA 28.06.2025  09:44:16 SDBO IPARITET.BY>MINSK>BLR OSTATOK 84.28 BYN

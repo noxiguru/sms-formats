@@ -1,0 +1,13 @@
+^.*?([\d/]{5}) [\d:]{5} (?!.*ATM)(?:SPYSANNIA|PORTMONE)?\s*(.*?)\s+[CС]ARD.*?(\d{4}) .*SUM.*?([\d\s.,]*\d)\s*([A-Z]{3}) BALANCE (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;payee;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+DATE 13/11 22:04 SPYSANNIA BOOKING UZ СARD 4069-8703 SUMA 480.9 UAH BALANCE 1631.23 UAH
+
+-----EXAMPLE-----
+DATE 02/02 18:45 PORTMONE LTD*MBK_MOBIL CARD 4069-2048 Uspishno SUMA 100.01 UAH BALANCE 36012.78 UAH
+
+-----EXAMPLE-----
+DATE 06/04 02:01 GOOGLE *Zenmoney CARD 4069-5802 AP SUMA 40 UAH BALANCE 8909.08 UAH

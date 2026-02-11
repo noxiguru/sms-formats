@@ -1,0 +1,10 @@
+^.*(?:плат|Paid).*?([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(?:\(|(?:at|в)\s+)(?![\d\s.,]*\d\s*[A-Z]{3}).*(?:Расходы\s+за|Spent\s+to).*\s+║\s+(.*?) · (.*?)\s*\W*$
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+Tatsiana S оплатил(а) 150,66 PLN в Crv*kaufland Polska Ma. Расходы за сегодня: 404,65 PLN ║ Crv*kaufland Polska Ma · Совместный 🛍
+
+-----EXAMPLE-----
+Оплата 24,57 PLN в Crv*warzywniak Limonka. Расходы за сегодня: 192,26 PLN ║ Crv*warzywniak Limonka · Совместный 🛒

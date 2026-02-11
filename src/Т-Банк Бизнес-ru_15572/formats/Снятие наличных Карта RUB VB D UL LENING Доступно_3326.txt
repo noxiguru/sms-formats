@@ -1,0 +1,7 @@
+^.*нят.*?нал.*\*(\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Снятие наличных. Карта *2310. 30000.00 RUB. VB24 D. 85, UL. LENING. Доступно 29356.30 RUB.

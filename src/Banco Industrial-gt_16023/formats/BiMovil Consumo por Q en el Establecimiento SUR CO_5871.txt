@@ -1,0 +1,16 @@
+^.*(?:onsumo|ebito) por ([A-Z]{1,3})\.?\s*([\d\s.,]*\d) en.*?: (.*?) Cuen.*?: (\w+) (\d{2}-\w{3}) .*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid;date#dM
+
+-----EXAMPLE-----
+BiMovil: Consumo por Q.20.00 en el Establecimiento: SUR COMERCIOS Cuenta: BICHEQUE2 05-Jul 16:18 Aut.172357.
+
+-----EXAMPLE-----
+BiMovil: Debito por Q.182.00 en la Agencia: OPERACIONES VARIAS Cuenta: MONE1 06-Jul 09:33 Autorizacion: 160400.
+
+-----EXAMPLE-----
+BiMovil: Consumo por US.5.75 en: AMZN Mktp US Cuenta: BICHEQUE2 23-Jul 12:56 Aut.162228.
+
+-----EXAMPLE-----
+BiMovil: Consumo por Q.162.75 en: UBER * EATS PENDING Cuenta: BICHEQUE2 23-Jul 17:32 Aut.183717.

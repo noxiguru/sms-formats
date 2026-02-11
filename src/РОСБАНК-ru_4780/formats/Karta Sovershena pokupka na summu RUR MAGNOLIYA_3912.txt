@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*okupk(?!.*(?:stat|alanc|\d[./-]\d{2}[./-])).*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Karta **8928.Sovershena pokupka na summu 173.00 RUR. MAGNOLIYA57

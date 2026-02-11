@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d.]{8}) .*?(?:ATM).*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+ODOBRENO 4*9091 27.06.17 12:33 ATM 500.00 RUR ATM00578900 VBRR BALANCE 5 958.01 RUR Tel +74959330349, 88007000349

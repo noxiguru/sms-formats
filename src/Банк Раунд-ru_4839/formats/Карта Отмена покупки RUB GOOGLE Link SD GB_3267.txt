@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d.]{8}) .*тмена пок.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;payee
+
+-----EXAMPLE-----
+Карта ***6653 31.10.17 08:45. Отмена покупки 117.99 RUB GOOGLE *Link2SD, GB.

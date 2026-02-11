@@ -1,0 +1,19 @@
+^(?!Oplata).*([\d.]{10}).* z .*?(\d{4}) (na .*?)\s*\.?\s*.uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Perekaz koshtiv: 08.01.2015 09:03:13, z rakhunku 1234567890 na rakhunok 265071786 suma 7,900.00UAH. Dostupniy zalyshok 2154.01UAH.
+
+-----EXAMPLE-----
+Postiyne doruchennya: 31.08.2016 12:34:10, z rakhunku 1234567890 na rakhunok 26006154490 suma 150.00UAH. Dostupniy zalyshok 1777.83UAH.
+
+-----EXAMPLE-----
+Pogashennya kredytu: 03.11.2017 15:16:45, z rakhunku 1234567890 na rakhunok 1234567890 suma 1.700,00UAH. Dostupniy zalyshok 46,78UAH.
+
+-----EXAMPLE-----
+Perekaz: 05.02.2018 15:30:01 z rakhunku 1234567890 na rakhunok 1234567890 . Suma 323,04UAH. Dostupno 1,14UAH
+
+-----EXAMPLE-----
+Perekaz: 28.03.2018 17:11:46 z rakhunku 1234567890 na rakhunok 1234567890 . Suma 587,47UAH. Dostupno 48.645,60UAH

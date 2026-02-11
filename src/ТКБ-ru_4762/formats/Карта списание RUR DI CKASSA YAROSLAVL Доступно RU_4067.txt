@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*?([\d.]{10}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта *5152: 22.01.2019 04:04, списание 1.31 RUR, 3DI CKASSA, YAROSLAVL. Доступно 5305.93 RUR. Справка: 8-800-100-32-00

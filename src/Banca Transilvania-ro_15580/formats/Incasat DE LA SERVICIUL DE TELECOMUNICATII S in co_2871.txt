@@ -1,0 +1,7 @@
+^Incas\S+\s+(.*?)\s+in cont.*(\d{4}).*sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*info:\s+(.*)
+
+-----COLUMNS-----
+payee;syncid;income;instrument;comment
+
+-----EXAMPLE-----
+Incasat DE LA SERVICIUL DE TELECOMUNICATII S in cont: RO34BTRL06401201A27441XX suma: 5,779.00 RON,info: ALIMENTARE CARD SALARII, CONTURI CURENTE - PERS FIZICE

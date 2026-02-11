@@ -1,0 +1,7 @@
+^.*ayment.*\*(\d{4}).*TIME.*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+AMOU.*?([\d\s.,]*\d)\s*([A-Z]{3}).*BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+TYPE: Alif Payment CARD: 5058***0136 TIME: 17:24 08.06.23 AMOUNT: 8.99 TJS CODE: 087015 BAL: 0.00 TJS TEL: 900

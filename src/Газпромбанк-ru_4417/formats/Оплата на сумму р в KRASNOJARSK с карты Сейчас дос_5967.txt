@@ -1,0 +1,7 @@
+^Оплат.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W?\s+в\s+(.*?)\s+с\s+карт.*?(\d{4}).*?осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Оплата на сумму 229 р. в KRASNOJARSK с карты *9774. Сейчас доступно 49 810.97 р. ║ Газпромбанк

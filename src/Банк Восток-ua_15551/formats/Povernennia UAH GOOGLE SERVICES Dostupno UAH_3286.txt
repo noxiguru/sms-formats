@@ -1,0 +1,7 @@
+^.*?(\d{4}) .*?overnen.*?([\d\s.,]*\d)\s*([A-Z]{3})\s*\((.*?)\).*ostu.*?(-?[\d\s.,]*\d).*\s([\d/]{5})\s.*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;av_balance;date#dd/MM
+
+-----EXAMPLE-----
+5168-3188 - Povernennia 6 UAH(GOOGLE *SERVICES) Dostupno 1068.9 UAH 12/11 11:31

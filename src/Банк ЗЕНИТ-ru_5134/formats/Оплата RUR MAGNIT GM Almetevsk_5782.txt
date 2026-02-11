@@ -1,0 +1,7 @@
+^\*(\d{4})(?!.*(?:[оo][сc]т[уy]|[сc]т[аa]т)).*пл[аa]т[аa].*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+*3255 Оплата 3902,11RUR MAGNIT GM Almetevsk 1

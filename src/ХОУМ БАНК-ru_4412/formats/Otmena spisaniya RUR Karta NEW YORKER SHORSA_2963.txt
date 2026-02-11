@@ -1,0 +1,7 @@
+^(Otmena.*?):([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\D?\s+(.*?)\.\s+([\d.]{10}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Otmena spisaniya: 599.00 RUR. Karta *7301. NEW YORKER SHORSA. 29.04.2017 14:58:22

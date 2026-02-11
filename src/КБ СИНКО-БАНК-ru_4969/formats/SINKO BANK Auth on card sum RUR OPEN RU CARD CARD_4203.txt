@@ -1,0 +1,7 @@
+^.*[Aa]uth.*\*(\d{4}) ([\d-]{10}).*[Ss]um.*?([\d\s.,]*\d)\s*([A-Z]{3});\s+(.*?);.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+SINKO-BANK. Auth on card 5342***8777 2019-06-15 18:38:21 sum 7504.06 RUR; OPEN.RU CARD2CARD in MOSCOW, RUS; Ostatok 0.00 RUR

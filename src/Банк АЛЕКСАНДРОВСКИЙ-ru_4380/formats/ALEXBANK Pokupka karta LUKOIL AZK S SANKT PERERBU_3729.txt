@@ -1,0 +1,13 @@
+^.*(?:okupk|plata).*\*(\d{4}),\s*\S+,\s+(.*?),\s+([\d.]{8}) .*?,([\d\s.,]*\d)\s*([a-zA-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+ALEXBANK Pokupka, karta *7930, 1234567890, LUKOIL.AZK 176 47S, SANKT PERERBU, 02.06.18 08:35, 1980.39 rub. Dostupno = 1 077947.56 rub.
+
+-----EXAMPLE-----
+ALEXBANK Oplata, karta *7930, 80002831, PAY.MTS.RU TOPUP 0788, MOSCOW, 07.06.18 00:37, 750.00 rub. Dostupno = 969356.23 rub.
+
+-----EXAMPLE-----
+ALEXBANK Pokupka, karta *7930, TS169701, OOO CHEREPITSA 6, St Petersburg, 05.06.18 15:26, 4250.00 rub. Dostupno = 970326.23 rub.

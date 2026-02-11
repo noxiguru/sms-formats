@@ -1,0 +1,7 @@
+^.*\*(\d{4})\W?\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(voznag.*?|вознаг.*?)\W?\s+.(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*(?:ata|ата)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Karta *0515. 51.23 RUB voznagrazhdenie po operatsii MIR. Ostatok: 4476.56 RUB. Data 15.09.21

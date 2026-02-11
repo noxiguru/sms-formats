@@ -1,0 +1,10 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}).*okup\w+\s+(.*)\s+.art.*?(\d{4}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+-980.00 KZT Pokupka   MASTER TORGOVYI KOMPLEX Karta*1180 Balans 36 061.36 KZT Tel.7711
+
+-----EXAMPLE-----
+-1,310.00 KZT Pokupka   TAXI.YANDEX.KZ Karta*1649 Balans 7 350.01 KZT Tel.7711

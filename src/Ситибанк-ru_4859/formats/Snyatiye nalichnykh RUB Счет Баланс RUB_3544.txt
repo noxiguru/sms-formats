@@ -1,0 +1,10 @@
+^(?:Snyati.*?nal|Снятие н).*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s*(\d{2}/\d{2}) .*\*(\d{4}).*?алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd/MM;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Snyatiye nalichnykh 2000.00RUB; 07/03 Счет*1148 Баланс 90023.75RUB
+
+-----EXAMPLE-----
+Снятие наличных 4500.00RUB; 07/03 Счет*1148 Баланс 83413.75RUB

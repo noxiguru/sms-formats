@@ -1,0 +1,7 @@
+.*?(?:[Ii]splata\s+na\s+salteru).*?Br\.?\s*kart\.?[^\d]*\d+\D+(\d{4}).*?(?:Iznos|IZNOS).*?([A-Za-z]{1,5}|[^\w\s]).*?([0-9][\d\s.,]*[.,]\d{2}).*?(?:Raspoloziv\w*).*?([A-Za-z]{1,5}|[^\w\s]).*?(-?[0-9][\d\s.,]*[.,]\d{2})(?=\s|$).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Isplata na salteru: MENJACNICA ALKA / BEOGRAD RS / Br.kart. 487077_5495 / Iznos: RSD 11.131,00 / Raspolozivo: EUR 2.937,88

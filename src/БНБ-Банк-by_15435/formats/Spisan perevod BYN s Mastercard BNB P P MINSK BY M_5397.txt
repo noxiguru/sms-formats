@@ -1,0 +1,7 @@
+^Spisa.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?#(\d{4}).*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance
+
+-----EXAMPLE-----
+Spisan perevod 50.00 BYN s Mastercard#6012; BNB P2P>MINSK>BY; MCC 6538; 14.09.2022 12:24:57; Dostupno: 100.00.

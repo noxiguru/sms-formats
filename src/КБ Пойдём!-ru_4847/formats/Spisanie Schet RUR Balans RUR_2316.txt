@@ -1,0 +1,10 @@
+^([\d.]{10}).*Spisanie.*(?:chet|arta).*?(\d{4})(?:\.|\s).*?-([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+31.03.2016 22:13:42. Spisanie. Schet 40817*8440. -55 RUR.Balans 5900.13 RUR
+
+-----EXAMPLE-----
+26.04.2016 06:56:39. Spisanie. B. Bogatkova 206. Karta *2686. -5000 RUR. Tariff (0 RUR). Balans 9431.96 RUR

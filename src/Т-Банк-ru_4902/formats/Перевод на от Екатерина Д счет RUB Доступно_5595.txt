@@ -1,0 +1,7 @@
+^\s*Перевод\s+на\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W),\s+от\s+(.*?),\s+счет\s+([A-Z]{3}).*?осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W).*
+
+-----COLUMNS-----
+income;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Перевод на 675.12 ₽, от Екатерина Д., счет RUB. Доступно 51 456.93 ₽ ║

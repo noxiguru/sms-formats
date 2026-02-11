@@ -1,0 +1,7 @@
+^A/C \d*(\d{4}) credit\w+ ([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d? on ([\d]{2}[- ](?:\w+|\d{2})) [\d:]{5,} "(.*?)".*alan.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dM;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+A/C 1234567890 credited BHD 483.593 on 13-Oct 10:40 "WORLDPAY AP LTD", new balance is BHD 5,455.913. For any enquiries call 77777777

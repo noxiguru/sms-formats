@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*(\d{2}[-./]\d{2}[-./]?\d{0,4}).*(?:ополн|opoln).*?([\d\s.,]*\d)\s*([A-Z]{3})\W? (.*?)\.?\s*.(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*0237: 13.06 20:50 Popolnenie 200 KGS. BANKKRGZ. Dostupno 208.50 KGS.
+
+-----EXAMPLE-----
+Karta *3337:30.12.2022 03:20, popolnenie 382.57 KGS, BANKKRGZ, BISHKEK, TOGOLOK MOLDO. Dostupno 107527.27 KGS. Spravka: 3333

@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8}).*SPISAN(?!.*KOMIS).*?([\d\s.,]*\d)\s*([A-Z]{3}).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+KARTA 4*9350  07.07.17 20:08  SPISANIE 5000.00 RUB   TINKOFF BANK CARD2CARD Visa Direct Russia  DOSTUPNO 204866.79 RUB

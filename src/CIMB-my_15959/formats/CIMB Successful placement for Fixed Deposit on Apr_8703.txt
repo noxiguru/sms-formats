@@ -1,0 +1,7 @@
+CIMB:\s+(Successful placement for Fixed Deposit)\s+\*{4}(\d{4})\s+on\s+(\d{2}-[A-Za-z]{3}-\d{4})\s+\d{2}:\d{2}:\d{2}\.\s+Call the no at the back of your card for queries\.\s*\u2551\s*CIMB OCTO MY
+
+-----COLUMNS-----
+comment;syncid;date#dMy
+
+-----EXAMPLE-----
+CIMB: Successful placement for Fixed Deposit ****0013 on 12-Apr-2025 17:01:40. Call the no at the back of your card for queries. ║ CIMB OCTO MY

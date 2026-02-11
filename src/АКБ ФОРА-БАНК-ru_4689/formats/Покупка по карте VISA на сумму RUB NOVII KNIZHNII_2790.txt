@@ -1,0 +1,7 @@
+^Покупка.*\*(\d{4}).*умм.*?([\d\s.,]*\d)\s*([A-Z]{3})\.?\s+(.*?)\.\s+([\d/]{8}) .*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd/MM/yy;av_balance
+
+-----EXAMPLE-----
+Покупка по карте VISA*7783 на сумму 581.00 RUB. NOVII KNIZHNII, , KALUGA. 23/12/16 14:50:51. Доступно: 2623.31 RUB.

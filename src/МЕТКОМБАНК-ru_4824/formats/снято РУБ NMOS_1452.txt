@@ -1,0 +1,10 @@
+^([\d]{4}) (?:снято|snyato) ([\d\s.,]*\d)\s*(\S+) ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+7654 снято 123.00РУБ 13.11.14 10:30 NMOS
+
+-----EXAMPLE-----
+1855 snyato 4 900.00 rub 18.01.16 20:32  METCOMBANK

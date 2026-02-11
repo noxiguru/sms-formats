@@ -1,0 +1,10 @@
+^.*\*(\d{4})(?!.*(?:tklonen|тклон)).*(?:ыдача|ydach).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\s+([\d.]{8})\s+.*(?:стат|stat).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Karta *4833 vydacha nalichnyh 95000.00 RUR ATM 6682-PR LOMONOS 18 03.01.18 13:15 MSK Ostatok 4322.76 RUR
+
+-----EXAMPLE-----
+Карта *4833 выдача наличных 500.00 RUB UNKNOWN 28.09.19 18:34 МСК  Остаток 802.50 RUB долг 0 блок 0 ║ ВТБ-Онлайн

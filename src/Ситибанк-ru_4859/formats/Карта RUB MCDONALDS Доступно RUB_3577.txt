@@ -1,0 +1,7 @@
+^.*\*(\d{4});([\d\s.,]*\d)\s*([A-Z]{3})\s*;\s*(.*?)\s*;\s*([\d/]{5})\s*;.*?осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd/MM;av_balance
+
+-----EXAMPLE-----
+Карта *3004; 699.00RUB ; MCDONALDS 1;17/03; Доступно 89907.74RUB

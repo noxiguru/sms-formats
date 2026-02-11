@@ -1,0 +1,7 @@
+^.*utgoing.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+From.*?:\s+[\dA-Z]{6}\d*(\d{4})([A-Z]{3}).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Outgoing transaction USD 1,234.56 From account: GE12BG1234567890USD Remaining balance: GEL 98,765.43 16.07.2022

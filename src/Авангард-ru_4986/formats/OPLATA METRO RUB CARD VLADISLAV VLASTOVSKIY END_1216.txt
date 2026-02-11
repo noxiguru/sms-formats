@@ -1,0 +1,7 @@
+^(?:POKUPKA|OPLATA)(?!.*BAL)\s+(.*)\s+([\d\s.,]*\d)\s*([A-Z]{3})\W?.*?\*(\d{4}).*?\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;date#dd.MM.yy
+
+-----EXAMPLE-----
+OPLATA METRO 840.00 RUB, CARD*1709 VLADISLAV VLASTOVSKIY 07.04.14 16:04 END

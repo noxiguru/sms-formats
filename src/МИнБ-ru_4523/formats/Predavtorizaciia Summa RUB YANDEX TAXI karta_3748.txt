@@ -1,0 +1,7 @@
+^(?:Pokupk|Покупк|Plate|Платеж|Predav|Предав)(?!.*stat|.*стат).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:(?:Bonus|Бонус).*?[\d\s.,]*\d\s*[A-Z]{3}\s+)?(.*?)\s+([\d/]{5}) .*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dd/MM;syncid
+
+-----EXAMPLE-----
+Predavtorizaciia Summa 164RUB YANDEX.TAXI 15/06 11:54 karta *4624

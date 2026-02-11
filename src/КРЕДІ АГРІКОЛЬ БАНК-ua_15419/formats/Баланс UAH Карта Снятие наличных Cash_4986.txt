@@ -1,0 +1,7 @@
+^Бала.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*\*(\d{4})\s+║\s+\W+\s+-([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+Снят.*
+
+-----COLUMNS-----
+av_balance;acc_instrument;syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+Баланс: 5540.47 UAH  Карта: *1612 ║ ⬅️ -5000.00₴ Снятие наличных Cash

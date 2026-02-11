@@ -1,0 +1,7 @@
+^\+(?!.*тмен)([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\S)\s+.*алан.*?(-?[\d\s.,]*\d).*•\s*(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;syncid
+
+-----EXAMPLE-----
++18 785 ₽ - Баланс: 23 691,03 ₽ MasterCard •• 9054

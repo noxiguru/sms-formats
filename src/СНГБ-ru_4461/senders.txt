@@ -1,0 +1,2 @@
+SNGB
+ru.sngb.dbo.client.android

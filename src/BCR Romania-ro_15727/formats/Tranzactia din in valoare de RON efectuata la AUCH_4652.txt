@@ -1,0 +1,7 @@
+^Tranz.*? (\d{2}[-./]\d{2}) .* de ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) .* la (.*?) a fost.* tau RO(\d{2,4})XX.*
+
+-----COLUMNS-----
+date#dM;outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+Tranzactia din 02/05 19:12 in valoare de 147.77 RON efectuata la AUCHAN ROMANIA SA SUCEAVA a fost inregistrata cu succes din contul tau RO14XX

@@ -1,0 +1,10 @@
+^.*?(?:shetana|შეტანა).*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*?(?:ngari|ანგარიში).*?\.+\d*(\d{4}).*
+
+-----COLUMNS-----
+instrument;income;syncid
+
+-----EXAMPLE-----
+tanxis shetana: GEL 1200.00 angarishi: GE96LB...41178000
+
+-----EXAMPLE-----
+თანხის შეტანა: GEL 7400.00 ანგარიში: GE82LB...27219000

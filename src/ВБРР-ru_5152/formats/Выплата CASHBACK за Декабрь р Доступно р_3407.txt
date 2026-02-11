@@ -1,0 +1,13 @@
+^(?!Kart|Карт).*((?:C[Aa][Ss][Hh][Bb]|[Кк]ешб).*?)([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+comment;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Выплата CASHBACK за Декабрь 60.20р Доступно: 156920.59р
+
+-----EXAMPLE-----
+Vyplata CASHBACK 110.70 RUR Dostupno: 9082.37 RUR
+
+-----EXAMPLE-----
+Кешбэк UnionPay_Mir 942.10 RUB 12:50 Доступно: 18428.38 RUB ║ VBRR

@@ -1,0 +1,13 @@
+^.*?(?:арт|art).*?(\d{4})\D?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*?(?:писан|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?)\.\s+.(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта 4716: 26.07.16 20:05, списание 363.00 RUR, "YVES ROCHER" SHOP, MOSKOVSKAYA O. Доступно 4688.84 RUR.
+
+-----EXAMPLE-----
+Karta 4716: 21.11.16 20:15, spisanie 329.00 RUR, PYATEROCHKA 8115, MOSCOW. Dostupno 6644.58 RUR.
+
+-----EXAMPLE-----
+Karta *8224:  15.04.20 15:21, spisano 3500.00 RUR, B2P*unicredit, MOSKVA.   Dostupno 20843.71 RUR.

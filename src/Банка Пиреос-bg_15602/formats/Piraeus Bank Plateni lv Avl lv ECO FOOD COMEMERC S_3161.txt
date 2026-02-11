@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d.]{8}) .*laten.*?([\d\s.,]*\d)\s*([a-zA-Z]{2,3}).*Avl.*?(-?[\d\s.,]*\d)\s*[a-zA-Z]{2,3}\.?\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Piraeus Bank: 5354****2224 08.08.17 19:15 Plateni 5.59 lv. / Avl.: 5566.68 lv. ECO FOOD COMEMERC SOFIA BG

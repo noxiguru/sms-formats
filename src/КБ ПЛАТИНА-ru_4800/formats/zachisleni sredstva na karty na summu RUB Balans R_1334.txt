@@ -1,0 +1,7 @@
+^([\d.]{8}).*zachisleni.*?(\d{4}) na summu ([\d\s.,]*\d)\s*([A-Z]{3}). Balans.?\s*(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+31.07.14 zachisleni sredstva na karty 461273***0084 na summu 85325 RUB. Balans: 149188,52 RUB.

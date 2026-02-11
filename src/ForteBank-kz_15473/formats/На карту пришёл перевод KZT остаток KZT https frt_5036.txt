@@ -1,0 +1,7 @@
+^(?:На|Na)\s+.*\*(\d{4})\s+(?:приш|pris).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:стат|stat).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+На карту ***7729 пришёл перевод 90 000.00 KZT, остаток 285 638.13 KZT.  https://frt.kz/app

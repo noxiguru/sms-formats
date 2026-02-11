@@ -1,0 +1,7 @@
+^([\d.]{8}).*peraciya.*?(\d{3,4})\s.*?umm.*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*pisanie.\s+(.*)
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+25.04.17 13:36  Operaciya po kartochke K**3814 na summu +750000.00KZT. Ostatok : 1860448.58. Opisanie: SALMANOV

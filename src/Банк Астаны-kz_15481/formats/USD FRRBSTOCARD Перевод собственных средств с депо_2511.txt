@@ -1,0 +1,7 @@
+^\d\*+(\d{3,4}),([\d\s.,]*\d),?\s*([A-Z]{3}),\s+([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+5**469, 20.00, USD, 2016-07-06 21:53:14, FRRBSTOCARD,  , Перевод собственных средств с депозита batyr, KZ1234567890 в системе 24.bankastana.kz, операция №1471472;

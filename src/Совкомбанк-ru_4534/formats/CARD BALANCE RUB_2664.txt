@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+CARD: *8163  BALANCE: 261.81 RUB

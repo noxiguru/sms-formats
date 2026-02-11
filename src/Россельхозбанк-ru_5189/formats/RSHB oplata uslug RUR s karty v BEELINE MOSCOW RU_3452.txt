@@ -1,0 +1,7 @@
+^.*?([\d/]{5}).*?plata(?!.*omis).*?([\d\s.,]*\d)\s*([A-Z]{3}) s .*?(\d{4}) v\s+(.*)
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;syncid;payee
+
+-----EXAMPLE-----
+RSHB 08/02 14:25:26 oplata uslug 100.00 RUR s karty *9575 v BEELINE MOSCOW RU

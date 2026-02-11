@@ -1,0 +1,7 @@
+^.*? (\d{4}) (\d{2}[-./]\d{2}) .*(.asheni.*?) ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? .stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dM;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+ZSKB 6734 09.04 02:28 Gashenie kredita po dogovoru 35000.00r, ostatok 2415.46r

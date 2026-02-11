@@ -1,0 +1,10 @@
+^.*pysan.*?z \d+(\d{4}) na([\d\s.',]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.',]*\d).*? ([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+OTP Smart: Spysannya z 1234567890 na 10,00 UAH. Zalyshok: 56,28 UAH. Nadislano: 18:48:26 05/09/2016
+
+-----EXAMPLE-----
+OTP Smart: Spysannya z 1234567890 na 30'000,00 UAH. Zalyshok: 201,28 UAH. Nadislano: 13:55:03 14/09/2016

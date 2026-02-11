@@ -1,0 +1,7 @@
+^Payment.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) to (.*?) with .*ending (\d{4}).*imit is ([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Payment of AED 809.14 to BNKNT UTLTY PYMNT-DEWA with Credit Card ending 0798. Avl Cr. Limit is AED 14,442.36.

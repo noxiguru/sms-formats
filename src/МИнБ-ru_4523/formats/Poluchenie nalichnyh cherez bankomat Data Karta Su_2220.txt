@@ -1,0 +1,10 @@
+^(?:Poluchenie n|Получение н).*?([\d/]{5}).*(?:arta|арта).*?(\d{4}).*(?:umma|умма).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:omiss|омисс).*?([\d\s.,]*\d).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid#cash;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Poluchenie nalichnyh cherez bankomat Data: 10/02 18:05 Karta: ****6819 Summa: 26000.00RUB Komissija: 0.00RUB Dostupno: 525.32RUB Terminal: A0330144,MINB,Generala Luzyukova str.,d.24,Voronezh,RU
+
+-----EXAMPLE-----
+Получение наличных через банкомат Дата: 03/07 17:15 Карта: ****8033 Сумма: 1000.00RUB Комиссия: 150.00RUB Доступно: 7937.22RUB Терминал: 28100706,1234567890,ATM 706 MKB 810,MO,RU

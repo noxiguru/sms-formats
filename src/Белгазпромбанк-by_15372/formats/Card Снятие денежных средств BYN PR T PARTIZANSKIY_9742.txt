@@ -1,0 +1,7 @@
+Card(\d{4});\s*Снятие денежных средств:\s*([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3});\s*(\d{2}\.\d{2}\.\d{2})\s+\d{2}:\d{2}:\d{2};\s*.*?;\s*MCC:\s*\d{4};\s*Dostupno:\s*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,3})
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Card9603; Снятие денежных средств: 160,00 BYN; 23.09.25 18:18:36; PR-T PARTIZANSKIY, 79,PR-T PARTIZANSKIY,; MCC: 6011;Dostupno: 162,06 BYN ║ BGPB mobile

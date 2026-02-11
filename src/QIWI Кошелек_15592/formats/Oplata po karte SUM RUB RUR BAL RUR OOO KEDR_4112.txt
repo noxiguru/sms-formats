@@ -1,0 +1,10 @@
+^(?:Oplata|Оплата).*?\*(\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+\(([\d\s.,]*\d).*?\).*(?:BAL|алан).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(?!\d)(.*)
+
+-----COLUMNS-----
+syncid;op_outcome;instrument;outcome;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Oplata po karte 4693****5045 SUM: 131.00 RUB (131,00 RUR). BAL: 7200.05 RUR OOO KEDR 33
+
+-----EXAMPLE-----
+Oplata po karte 4693****6817 SUM: 242.00 RUB (242,00 RUR). BAL: 29.27 RUR YANDEX.TAXI

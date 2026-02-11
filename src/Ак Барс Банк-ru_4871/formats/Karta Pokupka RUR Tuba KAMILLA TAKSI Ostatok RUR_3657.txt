@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*(?:okupk|pisan|окупк|писан).*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s*(.*?)\.\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *1481. Pokupka 60.00RUR. Tuba, KAMILLA TAKSI 2. 24.04.18 08:42. Ostatok 61.59RUR.
+
+-----EXAMPLE-----
+Карта*9579 Покупка 38.00RUR. Kazan, KAZANMETRO.RU.. 20.08.24 18:20. Остаток 23763.53RUR

@@ -1,0 +1,13 @@
+^(?:SPISANO|СПИСАНО)(?!.*ATM) ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\W?\s+(?:V|в)?\s*(.*?)\W?\s*[\d\-:]+(?: \w+\W?)?\s+(\d{2}[-.\/]\d{2}[-.\/]\d{2,4}).*(?:BAL|алан).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+SPISANO 175.00 RUR; KARTA *5579; ST PETERSBURG, BRYNZA; 18-35 21.12.2014 Msc; BALANS 8 814.32 RUR
+
+-----EXAMPLE-----
+SPISANO 200.60 RUR S KARTI *2291 V UFA, YOMART 11, 11:34 Msc 17.12.2017; BALANS 2784.50 RUR
+
+-----EXAMPLE-----
+СПИСАНО 692.00 RUR с карты *8016 в SOVKHOZ IM. L, KROTEKS TK TVOY DOM, 19:01 МСК, 05.02.2018. Баланс 38517.62 RUR

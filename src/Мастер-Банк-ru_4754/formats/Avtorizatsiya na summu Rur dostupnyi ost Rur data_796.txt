@@ -1,0 +1,10 @@
+^(?:Avtorizatsiya na summu|Авторизация на сумму) ([\d.]+) (\S{3}).*?(?:ost|ост)\. ([\d.]+).*?(?:karta|карта):.*?(\d{4}) (?:v|в): (.*)
+
+-----COLUMNS-----
+outcome;instrument;balance;syncid;payee
+
+-----EXAMPLE-----
+Avtorizatsiya na summu 1 Rur (dostupnyi ost. 9255.45 Rur) data: 03-mai 00:46 msk karta: ..2229 v: Rus Moscow Mcmobile*Megafon
+
+-----EXAMPLE-----
+Авторизация на сумму 13500 Rur (доступный ост. 1.29 Rur) дата: 28-окт 13:12 мск карта: ..9341 в: Rus Moscow 6 Vernadskogo Av.

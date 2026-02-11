@@ -1,0 +1,7 @@
+^[A-Z]+(\d{4}) (\d{2}[-./]\d{2}[-./]\d{2,4}).*плата.*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) .стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+VISA5215 20/03/2023 12:19 Оплата: 80.98 TJS SUPERMARKET EVAR; DUSHANBE TADZ, DUSHANBE TADZ Остаток: 12 468,85 TJS

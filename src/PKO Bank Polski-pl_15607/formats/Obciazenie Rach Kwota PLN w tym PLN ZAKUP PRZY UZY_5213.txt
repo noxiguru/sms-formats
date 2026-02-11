@@ -1,0 +1,16 @@
+^Obciaz.*?\.(\d{4})\s+(?:Kwot.*?\s+)?-([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:w\s+tym\s+-[\d\s.,]+\s*[A-Z]{3}\s+)?(.*?)\s+.ata\s+(?:walut.*?)?(\d{4}-\d{2}-\d{2}).*(?:Stan|Dost).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Obciazenie
+Rach. 66..7004
+Kwota -11,77 PLN
+w tym
+-11,77 PLN ZAKUP PRZY UZYCIU KARTY
+Data waluty 2018-08-24
+Dostepne +361,29 PLN
+
+-----EXAMPLE-----
+Obciazenie Konto 70..4889 -26,00 PLN PLATNOSC ZBLIZENIOWA BLIKIEM, RESTAURACJA GRUBA R     Data 2021-12-22 Stan konta +307,77 PLN

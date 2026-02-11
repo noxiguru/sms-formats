@@ -1,0 +1,7 @@
+^.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*?\*(\d{4}) .znos -([\d\s.,]*\d)\s*([A-Z]{3}) .esto (.*)
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+API Bank 29/01/2023 STORNO VISA **8498 Iznos -130,00 RSD Mesto Yandex.Taxi, Amsterdam, NL

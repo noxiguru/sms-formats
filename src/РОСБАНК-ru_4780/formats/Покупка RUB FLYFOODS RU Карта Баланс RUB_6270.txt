@@ -1,0 +1,10 @@
+^Покуп.*?([\d\s.,]*\d)\s*([A-Z]{3})\.?\s+(.*?)\.?\s+.арт.*?(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка 1426RUB. FLYFOODS.RU. Карта *2470. Баланс 10770.73RUB
+
+-----EXAMPLE-----
+Покупка 420RUB. ZHIZNMART MINI. Карта *7279. Баланс 48143.33RUB ║ ROSBANK Online

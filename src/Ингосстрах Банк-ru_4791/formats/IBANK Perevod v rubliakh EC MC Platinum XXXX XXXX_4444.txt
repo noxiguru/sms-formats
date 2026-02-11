@@ -1,0 +1,7 @@
+^.*(?:еревод|erevod)(?!.*(?:алан|alan)).*?\D(\d{3,4}) .*((?:на|na)\s+.*?\d{4}), (?:сумм|summ).*?([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;fee
+
+-----EXAMPLE-----
+IBANK Perevod v rubliakh EC/MC Platinum 5310-XXXX-XXXX-6665 na 5239...0000 BIK 044525148, summa 625.00 RUR, komissiia 0.00 RUR.

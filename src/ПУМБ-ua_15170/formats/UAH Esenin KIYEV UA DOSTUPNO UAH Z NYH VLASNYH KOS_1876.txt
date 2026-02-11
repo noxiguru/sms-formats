@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10})\s+[\d:]+\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+\(DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+**5995 *5995 2015-07-10 14:10:04  61.89 UAH Esenin KIYEV UA (DOSTUPNO 7672.30 UAH) Z NYH VLASNYH  KOSHTIV 7672.30 UAH Detali v PUMB online.

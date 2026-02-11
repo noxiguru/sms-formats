@@ -1,0 +1,10 @@
+^.*?(\d{4}) \+([\d\s.,]*\d)\s*([A-Z]{3}).*(?:aksat|latel)\S+\s+(.*?)\s+.etal\S+\s+(.*?)\s+.(?:ieejam|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;comment;av_balance
+
+-----EXAMPLE-----
+LV54HABA1234567890 +200.00EUR Platel'schik: .SENSMAX. SIA  Detali: darba algas avans Dostupnyj ostatok: 218.98EUR
+
+-----EXAMPLE-----
+LV26HABA1234567890 +360.45EUR Maksatajs: LATVIJAS DZELZCE*** Detalas: Aprekinata darba samaksa par 08.201 8 Pieejamais atlikums: 364.53EUR

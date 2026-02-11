@@ -1,0 +1,7 @@
+^.*\*(\d{4})\D\s*([\d.]{8}) .*(?:ыдача н|dacha n).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:омис|omis).*?([\d\s.,]*\d).*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Karta *2138: 15.02.19 16:13, vy'dacha nalichny'x 10000.00 RUR. komissiya D0.00 RUR. TKBATM263944, Moscow, POLKOVAYA 3/4. Dostupno 1504.86 RUR. Spravka: 8-800-100-32-00

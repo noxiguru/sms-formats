@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{8}) .*?perevod me.*?([\d\s.,]*\d)(?!.*stat).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;outcome
+
+-----EXAMPLE-----
+VISA-9878 28-07-15 19:21 perevod mezhdu schetami 15000.00; URAL FD, KOSMONAVTOV, 111

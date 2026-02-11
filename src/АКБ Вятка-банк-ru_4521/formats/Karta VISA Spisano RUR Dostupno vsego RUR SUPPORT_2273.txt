@@ -1,0 +1,10 @@
+^.*?\*(\d{4}).*?(?:pisan|писан).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d-]{10})(?!.*(?:esto|есто)).*.(?:ostu|осту).*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta  VISA  *8982 Spisano  30.00 RUR 2016-03-01 13:49:15 Dostupno vsego 28.06 RUR SUPPORT tel 8 800 1001 777.
+
+-----EXAMPLE-----
+Карта MC *1180 Списано 7.79 RUR 2018-01-19 23:23:08  Доступно всего 6,877.33 RUR тел 8 800 1001 777.

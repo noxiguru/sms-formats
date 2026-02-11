@@ -1,0 +1,7 @@
+^.*#(\d{4}) .okup.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\D? (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} MCC (\d+) (.*?) .imit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;mcc;payee;av_balance
+
+-----EXAMPLE-----
+Karta #4939 Pokupka: 649.00 RUB, 24.04.2020 17:57 MCC 5912 APTEKA 18 limit: 36645.05 RUB

@@ -1,0 +1,7 @@
+^.*([\d.]{8}).*Pover.*tov.*?(\d{4}).?\s*.uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Misce.\s+(.*).\s+Zal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+OTPdirekt:09.06.15 11:43: Povernennya tovaru. Kartka *3465. Suma: 784,00UAH . Misce: P2P MC DOM Kiev. Zalyshok: 2.455,97UAH.

@@ -1,0 +1,7 @@
+^(?:Снятие\s+нал|Snyatie\s+nal).*?(\d{4}).*(?:сумму|summu)\s+([\d\s.,]*\d)\s+([A-Z]{3}).\s+([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Snyatie nalichnyh s karty *1234 na summu  2000.00 RUR; 20.02.2015  14:04:28; HCFB;  Dostupno: 4080.54 RUR. +74957858222

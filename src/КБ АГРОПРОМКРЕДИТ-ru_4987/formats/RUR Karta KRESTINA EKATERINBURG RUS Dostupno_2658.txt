@@ -1,0 +1,10 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}).*?\.\.(\d{4}).* ([\d-]{10}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+-115.00 RUR - Karta 4..6610 - KRESTINA EKATERINBURG RUS 2016-09-19 18:35:13. Dostupno 4 233.70
+
+-----EXAMPLE-----
+-5 663.00 RUR - Schet 40817810..1810 - SPISANIE SO SCHETA SKS No 1234567890   2018-05-25 14:51:14. Dostupno 4 253.71

@@ -1,0 +1,7 @@
+^ชำระ\s+([\d\s.,]*\d)\s*(\S+)\s+บัตร.*?(\d{4})@(.*?)\s+\d\d:\d\d.*เหลือ.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+ชำระ 414.54บ บัตร x-0924@ITUNES.COM/BILL 11:51น เหลือ 87,730.94บ

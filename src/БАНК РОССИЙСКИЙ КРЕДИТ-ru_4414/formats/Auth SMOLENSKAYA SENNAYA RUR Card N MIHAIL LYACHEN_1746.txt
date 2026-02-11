@@ -1,0 +1,7 @@
+^Auth.(.*?)\s([\d\s.,]*\d)\s*([A-Z]{3})(?!.*Komissia).*\*(\d{4})\s.*BAL.*?(-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth:SMOLENSKAYA-SENNAYA,30.6 3 000.00 RUR Card_N**2488 MIHAIL LYACHENKOV BAL:7 085.43 2015-05-15 08:56:32

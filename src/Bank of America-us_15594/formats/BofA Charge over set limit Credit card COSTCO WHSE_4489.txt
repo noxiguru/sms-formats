@@ -1,0 +1,13 @@
+^BofA: (?!.*eclined)(?:.*harge.*?)?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*ard.*?(\d{4}),\s+(.*), (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#Mdy
+
+-----EXAMPLE-----
+BofA: Charge over set limit: $222.32, Credit card 7184, COSTCO WHSE #0452, 01/30/20. View in app or online
+
+-----EXAMPLE-----
+BofA: Credit card charge: $55.85, Credit card 1950, WHOLEFDS ART #10507, 08/22/21. View in app or online
+
+-----EXAMPLE-----
+BofA: $63.23, Credit card 1444, WWW.RIVERISLAND.COM, United Kingdom of Gre..., 02/11/24. View in app or online

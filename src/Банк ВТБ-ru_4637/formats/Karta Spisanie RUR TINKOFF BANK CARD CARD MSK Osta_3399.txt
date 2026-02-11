@@ -1,0 +1,10 @@
+.*\*(\d{4}).*?(?:pisan|писан)(?!.*(?:SMS|СМС)).*?,?([\d\s.,]*\d)\s*([A-Z]{3}).*\s+([\d.]{8})\s+.*(?:stat|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Karta *8643 Spisanie, 2000.00 RUR TINKOFF BANK CARD2CARD 02.01.18 16:58 MSK Ostatok 48101.69 RUR
+
+-----EXAMPLE-----
+Карта *8377 Безналичное списание 25000.00 RUB  05.10.19 16:11 МСК Доступно 1163.19 RUB долг 0 блок 69 594.81 ║ ВТБ-Онлайн

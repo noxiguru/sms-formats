@@ -1,0 +1,7 @@
+^.*?(\d{4}).*Vozvrat.*?([\d\s.,]*\d)\s*([A-Z]{1,3});\s+([\d.]{10});\s*(.+)
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;payee
+
+-----EXAMPLE-----
+*8124; Vozvrat:11470.00RUR; 13.10.2015; "Yulmart"

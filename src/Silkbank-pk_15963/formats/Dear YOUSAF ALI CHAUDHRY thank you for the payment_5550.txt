@@ -1,0 +1,7 @@
+^.*ayment of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) for .*ending (\d{4}) on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy
+
+-----EXAMPLE-----
+Dear YOUSAF ALI CHAUDHRY, thank you for the payment of PKR 43,480.50 for your Silkbank Card ending 5577 on 18 Nov 2022. Keep smiling and spending!

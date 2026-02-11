@@ -1,0 +1,10 @@
+^(.*?idmina.*?):\s+(.+)\s+([\d.]{10}).*\*(\d{4}).*[Ss]um.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;payee;date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Vidmina operatsii z oplaty tovariv: SGHA0GSB PR507, UA 31.12.2015 16:46 kartka 5571***4991 na sumu 63.25UAH. Dostupnyi zalyshok 980.86UAH.
+
+-----EXAMPLE-----
+Vidmina oplaty: 30000150 OKKO, UA 05.02.2018 12:40. Kartka 5351***0260. Suma 640.37UAH. Dostupno 53659.94UAH

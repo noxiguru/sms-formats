@@ -1,0 +1,7 @@
+^Utility\s+Bills:\s+Payment\s+(.*?),\s+ID.*mount.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;outcome;instrument;date#dMy
+
+-----EXAMPLE-----
+Utility Bills: Payment Tbilisi Cleaning Service cleaning, ID: 4742201, Amount: 7.50 GEL, 17/05/2022 16:52. Thank you for choosing us!

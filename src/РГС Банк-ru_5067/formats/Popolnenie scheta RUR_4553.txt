@@ -1,0 +1,7 @@
+^Popoln.*\*(\d{4}) ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Popolnenie scheta 40817*5945 4180.00 RUR

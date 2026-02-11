@@ -1,0 +1,10 @@
+^(?:POLUCH.*?NAL|Получ.*нал).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*([\d.]{10}).*(?:STAT|стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Получение наличных 900.00 RUB по карте *9824.G. NOVOSIBIRSK,;ul. Demakova, 42;Bank Levoberezhnyy.27.05.2015 15:33.Остаток: 15097.00 RUB
+
+-----EXAMPLE-----
+POLUCHENIE NALICHNIKH 2700.00 RUB PO KARTE *0681. G. NOVOSIBIRSK;ul. Nikolaeva, 12/1;Bank Levoberezhnyy. 20.11.2017 15:49 MSK. OSTATOK 5335.33 RUB

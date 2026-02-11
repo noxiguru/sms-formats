@@ -1,0 +1,7 @@
+^Inici.*chet.*?(\d{4})\s+.umm.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy
+
+-----EXAMPLE-----
+Iniciirovan platezh schet KZ1234567890 summа 120000 KZT 25.06.2021 15:14:16; platezh budet proveden cherez 10 min. Сontact Сenter 8-8000-8000-75 +7 (727) 244-75-75

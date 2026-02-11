@@ -1,0 +1,7 @@
+^Telecard;\s+[^;]*?(\d{4}|[^\d\s;]+);\s+OTMENA.*(?:plata|redauth|latezh).*umma\s+([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{8})[^;]*;\s+(.*);\s+.ostupno.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+Telecard; Card3961; OTMENA; Oplata v I-net; Summa 2.79 RUR; 26.05.15 11:58:31; YANDEX.MONEY; dostupno: 1.20 RUR; ispolzovano: 1.20 RUR

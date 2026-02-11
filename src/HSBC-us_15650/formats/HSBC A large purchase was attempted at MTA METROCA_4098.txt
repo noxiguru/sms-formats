@@ -1,0 +1,7 @@
+^.*urchas.* at\s+(.*?)\s+for (\S+?)\s*([\d\s.,]*\d).*\*(\d{4}).*
+
+-----COLUMNS-----
+payee;instrument;outcome;syncid
+
+-----EXAMPLE-----
+HSBC: A large purchase was attempted at MTA*METROCARD MACHIN for $40 on your HSBC Credit Card ending in **7494. Reply STOP to cancel alerts, HELP for help.

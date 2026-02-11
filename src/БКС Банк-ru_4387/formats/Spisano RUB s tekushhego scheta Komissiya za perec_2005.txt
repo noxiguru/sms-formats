@@ -1,0 +1,7 @@
+^Spis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*\d*(\d{4})\.?\s+(.+)\s*DOSTU.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Spisano 150 RUB s tekushhego scheta *6341 Komissiya za perechislenie denejnyh sredstv so scheta. DOSTUPNO:7284.96 RUB04.08.2015 08:39 nomer dokumenta:1554

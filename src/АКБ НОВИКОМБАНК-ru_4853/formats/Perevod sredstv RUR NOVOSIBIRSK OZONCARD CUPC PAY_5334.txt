@@ -1,0 +1,10 @@
+^Perev.*?([\d\s.,]*\d)\s*([A-Z]{3}) .*\*(\d{4})\s+BAL.*?(-?[\d\s.,]*\d)\s+[\d:]{5,} (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#dMy
+
+-----EXAMPLE-----
+Perevod sredstv: 3 000.00 RUR NOVOSIBIRSK OZONCARD-CUPC-PAY Card **8541 BAL: 46 226.61  18:34 20.07.2022
+
+-----EXAMPLE-----
+Perevod sredstv:  2 000.00 RUR  Card **4620  BAL: 1052.73  11:10 01.12.2022

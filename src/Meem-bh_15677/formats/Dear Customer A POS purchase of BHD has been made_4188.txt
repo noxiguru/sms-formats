@@ -1,0 +1,10 @@
+^.*urchas.*?([A-Z]{3})\s*([\d\s.,]*\d\.\d{2})\d .*ending.*?(\d{3,4}) .*?at\s+(.*?)\s+on ([\d/]{10}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Dear Customer, A POS purchase of BHD 7.900 has been made from your account ending with 017 in BAHRAIN at DON VITO CAFE  PARTNER, MANAMA, BH on 27/05/2019 22:05. Your account balance is 6,717.895
+
+-----EXAMPLE-----
+Dear Customer, A POS purchase of BHD 24.655 has been made from your account ending with 017 in BAHRAIN at CARREFOUR, MANAMA, BH on 04/06/2019 18:33. Your account balance is 6,639.790

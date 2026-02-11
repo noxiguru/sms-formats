@@ -1,0 +1,7 @@
+^(Tranz .*?anula.*?)\..*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}).*isponi.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\. Come\w+: (.*?)(?:,\s*)*\.?$
+
+-----COLUMNS-----
+comment;income;instrument;syncid;date#dMy;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Tranz dvs a fost anulata.Suma 16.00 RON. Card nr. ****8374, STEPAN CURUCI. 30.09.22 22:03. Suma disponibila: 592.06 RON. Comerciant: BOLT.EU/O/2209301901, EE,T

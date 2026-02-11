@@ -1,0 +1,7 @@
+^Your\s+(current)\s+acc.*charged\s+([\d\s.,]*\d)\s*([A-Z]{3}).*vail.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Your current account has been charged 3,300.00 RSD. The current available balance is: 1,967,135.37RSD.

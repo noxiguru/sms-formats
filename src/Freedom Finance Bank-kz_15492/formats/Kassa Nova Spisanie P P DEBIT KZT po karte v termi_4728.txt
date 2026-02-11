@@ -1,0 +1,7 @@
+^.*\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*pisan.*?([\d\s.,]*\d)\s*([A-Z]{1,3})\s+po\s+.*?\*(\d{4})\s+.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Kassa Nova 19.11.19 17:09 Spisanie P2P DEBIT 61500.00 KZT po karte 5504***8156 v terminale MyKassa, KZ, ostatok 45732.61 KZT.

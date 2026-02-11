@@ -1,0 +1,9 @@
+^.*\*(\d{4}).*okup.*?-([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Kartka MasterCard *3601.Pokupka: -73.77 UAH
+VARUS11>DNEPROPETR-S 30.08.2017 19:41.
+Dostupno: 19926.23 UAH. Forward Bank, tel. 0800300880

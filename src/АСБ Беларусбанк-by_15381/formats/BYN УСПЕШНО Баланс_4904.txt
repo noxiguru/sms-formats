@@ -1,0 +1,7 @@
+^(-?[\d\s.,]*\d)\s*([A-Z]{3}), УСП\w+ ║ Баланс.*
+
+-----COLUMNS-----
+av_balance;acc_instrument
+
+-----EXAMPLE-----
+148.22 BYN, УСПЕШНО ║ Баланс

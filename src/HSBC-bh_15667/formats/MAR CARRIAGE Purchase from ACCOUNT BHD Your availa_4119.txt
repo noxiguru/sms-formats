@@ -1,0 +1,10 @@
+^.*(\d{2}\w{3}\d{2})\s+(.*?)\s+.urchas.*?(\d{3,4})\s+([A-Z]{3})\s*([\d\s,]*\d\.\d{2}).*vail.*?(-?[\d\s,]*\d\.\d{2}).*
+
+-----COLUMNS-----
+date#ddMMMyy;payee;syncid;instrument;outcome;av_balance
+
+-----EXAMPLE-----
+17MAR19 CARRIAGE Purchase from ACCOUNT020 BHD 4.550- Your available balance is BHD 2,988.899
+
+-----EXAMPLE-----
+From HSBC: 17MAR19 DON VITO CAFE  PARTN Purchase Transaction from ACCOUNT020 BHD 9.500- Your available balance is BHD 2,979.399

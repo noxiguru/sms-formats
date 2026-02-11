@@ -1,0 +1,7 @@
+^Incom.*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*onto .*? w ([A-Z]{3}).*ate.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy
+
+-----EXAMPLE-----
+Incoming transfer: Amount: 1,183.99 EUR, To account: Konto walutowe w EUR, Date: 14/04/2021 08:22 ║ Bank Millennium

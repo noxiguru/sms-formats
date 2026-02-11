@@ -1,0 +1,7 @@
+^Transac.*?([a-zA-Z]{1,3})\.?\s*([\d\s.,]*\d).*?ard.*?(\d{4})\s+at\s+(.*?)\s*,.*?(\d{1,2} \S{3} \d{2}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dd MMM yy
+
+-----EXAMPLE-----
+Transaction of Rs.304.34 made on SBI Credit Card XX3724 at BIG BAZAAR , on 13 Aug 16 .

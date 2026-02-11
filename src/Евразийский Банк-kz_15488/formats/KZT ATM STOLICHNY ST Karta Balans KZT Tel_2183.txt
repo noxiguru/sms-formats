@@ -1,0 +1,7 @@
+([\d-]{10})\s+[\d:]+\s+([\d\s.,]*\d)\s([A-Z]{3})\s+(?:ATM|ITT).*art.*?(\d{4})\..*?alans(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+2015-12-30 09:07:13 10 000.00 KZT ATM 463 "STOLICHNY" ST Karta 5298***7653. Balans 10 783.57 KZT. Tel.7722

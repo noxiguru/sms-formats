@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*окупк.*?([\d\s.,]*\d)\s*([A-Z]{3}) в (.*?) ([\d.]{10}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Карта *8294 покупка 1.00 RUR в KONFAEL 13.03.2018 19:07. Доступно 1.91 RUR

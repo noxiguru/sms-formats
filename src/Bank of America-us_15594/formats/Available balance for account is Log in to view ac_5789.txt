@@ -1,0 +1,10 @@
+^Avail.* for .*?(\d{4}) is ([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Available balance for account 7150 is $2,750.00. Log in to view activity ║ BofA
+
+-----EXAMPLE-----
+Available balance for account 3296 is $-36.00. Log in to view activity ║ BofA

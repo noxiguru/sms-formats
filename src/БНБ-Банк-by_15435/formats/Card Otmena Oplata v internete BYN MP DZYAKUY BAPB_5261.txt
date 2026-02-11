@@ -1,0 +1,7 @@
+^.*ard\W?(\d{4})\W? (.(?:tmena|тмена)).*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+;\s+(.*?)\s*;\s+.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Card#6478; Otmena; Oplata v internete: 74.00 BYN; 18.02.2022 23:05:31; MP "DZYAKUY" BAPB>MINSKIY R-N>BLR; Dostupno 243.45 BYN

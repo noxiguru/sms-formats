@@ -1,0 +1,7 @@
+^([\d.]{8}) .*opoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{3,4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+19.04.17 13:53 Popolnenie 000.00 KZT K**547 Dostupnaya summa:00.66 KZT

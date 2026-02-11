@@ -1,0 +1,7 @@
+^(Sal.*?) cred.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) to .*?\*\d*(\d{4}) .*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;instrument;income;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Salary credit of QAR 17,000.00 to your Current Account 01***060015 Your new available balance is QAR 30,966.05

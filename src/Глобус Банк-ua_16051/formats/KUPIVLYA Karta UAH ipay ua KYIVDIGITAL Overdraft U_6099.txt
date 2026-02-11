@@ -1,0 +1,14 @@
+^KUPIV.*\*(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+(\d{2}/\d{2})\s+[\d:]{5}.*alysh.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dM;av_balance;acc_instrument
+
+-----EXAMPLE-----
+KUPIVLYA
+Karta*0832
+8 UAH
+ipay.ua*KYIVDIGITAL
+29/01 18:39 Overdraft 8000 UAH
+Vykorystano overdraft 7992.75 UAH
+Vlasni koshty 0 UAH
+Zalyshok 7.25 UAH

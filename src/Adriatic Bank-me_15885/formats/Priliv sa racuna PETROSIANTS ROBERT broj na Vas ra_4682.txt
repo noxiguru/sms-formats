@@ -1,0 +1,7 @@
+^Priliv.*na Vas.*?(\d{4}) u iz.*?([\d\s.,]*\d)\s*([A-Z]{3}).*aspoloz.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Priliv sa racuna PETROSIANTS ROBERT broj 1234567890 na Vas racun broj 1234567890 u iznosu od 100,00 EUR. Raspolozivo: 1.066,23 EUR.

@@ -1,0 +1,7 @@
+^Balans.*?\*([\d]{4}) popolnilsya ([\d/]{10}) na:([\d\s,.]*\d)\s*([A-Z]{3})(?!.*stat).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yyyy;income;instrument
+
+-----EXAMPLE-----
+Balans vashey karty *5010 popolnilsya 13/05/2013 na:30000,00RUB.Raiffeisenbank

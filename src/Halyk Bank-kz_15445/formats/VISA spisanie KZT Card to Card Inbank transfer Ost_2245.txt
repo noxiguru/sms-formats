@@ -1,0 +1,10 @@
+^.*?(\d{4}).*pisan.*?\.?([\d\s.,]*\d)\s*([A-Z]{3});\s+(.*?);\s+([\d.]{10}).*(?:stat|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+VISA6079 spisanie. 40050.00 KZT; Card to Card Inbank transfer; 04.02.2016  11:49. Ostatok: 772987.33 KZT
+
+-----EXAMPLE-----
+VISA3323 spisanie. 202600.00 KZT; Transfer via Personal Banking; 27.02.2017  12:51. Dostupnaya summa: 2524700.87 KZT

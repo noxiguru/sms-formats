@@ -1,0 +1,7 @@
+^.*ebit.*P2P.* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4})\W? .uma\W ([\d\s.,]*\d)\s*([A-Z]{3}).*disp.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Efectuata tranz. Debitare card P2P "P2P: Card MICB" din 18.08.22 20:44. Card: 4**3218. Suma: 600,00 MDL.  Suma disp.: 82.042,05 MDL.

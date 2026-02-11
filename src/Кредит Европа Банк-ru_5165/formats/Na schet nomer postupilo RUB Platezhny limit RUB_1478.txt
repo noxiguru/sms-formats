@@ -1,0 +1,7 @@
+^Na.*?(\d{4}) postupilo ([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{5}).*limit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM;av_balance
+
+-----EXAMPLE-----
+Na schet nomer * 2304 postupilo  31126.78 RUB 26.11 10:12 Platezhny limit: 37116.78 RUB

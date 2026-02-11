@@ -1,0 +1,7 @@
+^([\d.]{10}) z.*spysano sumu ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;outcome
+
+-----EXAMPLE-----
+26.02.2015 z Vashogo rakhunku spysano sumu 30.00 UAH na pogashennya planovogo platezhu za kredytnoju kartoju

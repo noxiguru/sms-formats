@@ -1,0 +1,10 @@
+^.*?([\d]{4});\s+Provedena t.*?([\d\s,.]*\d)\s*([A-Z]{3}).*?([\d/]{10}).*ATM.*ostu.*?(-?[\d\s,.]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Karta *0948; Provedena tranzakcija:3400,00RUB; Data:11/04/2014;Mesto: RBA ATM 36101 39/79 LE MOSKVA; Dostupny Ostatok: 41119,06RUB. Raiffeisenbank
+
+-----EXAMPLE-----
+Karta *3347; Provedena tranzakcija: 13000.00 RUB; Data: 22/06/2015; RBA ATM 20221 Dostupny Ostatok: 66779.79 RUB. Raiffeisenbank

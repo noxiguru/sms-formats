@@ -1,0 +1,13 @@
+^([\d/]{5}).*Oplat.*?([\d\s.,]*\d)\s*([A-Z]{3}).*art.*?(\d{4})\s+(.*?)\s+.stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+06/03 18:36 Oplata=524.02 UAH Karta 5168-2319 AZSN 1128 LUK Ostatok=1676.09 UAH.  Tel: +1234567890. Novyi nomer Call-center - 5595! Zvonite s mobilnogo!
+
+-----EXAMPLE-----
+19/12 14:48 Oplata=-218.4 UAH Karta 4375-2716 POPOLNENIE SCHETA Ostatok=218.4 UAH. Podarki za raschety kartoi MasterCard. Registratsiia:5595
+
+-----EXAMPLE-----
+16/07 20:28 Oplata=1709.19 UAH Karta *3065 SHOP MEGAMARKET Ostatok=11791.14 UAH. Depozity do 15% v grivne. Tel.: 5595 (callback)

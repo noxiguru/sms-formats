@@ -1,0 +1,10 @@
+^.*?(\d{4})\D.*([\d.]{10}).*(?:ополнен|opolnen).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 7570: 24.04.2017, пополнение 10440.00 RUR. Доступно 18142.78 RUR.
+
+-----EXAMPLE-----
+Karta *7484: 19.06.2018 10:06, popolnenie 19000.00 RUR, BAIKALINVATM170890, MOSCOW, 4, BUL. STROITELEI. Dostupno 31011.65 RUR, v tom chisle kred 0.00.

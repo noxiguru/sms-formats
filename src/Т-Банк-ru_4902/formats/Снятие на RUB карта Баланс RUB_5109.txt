@@ -1,0 +1,7 @@
+^Снят.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W).*\*(\d{4})\s+.алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\s+║.*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;balance;acc_instrument
+
+-----EXAMPLE-----
+Снятие на 3 000 RUB, карта *6240 Баланс 3 860.13 RUB ║

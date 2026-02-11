@@ -1,0 +1,10 @@
+^Summa pokupki \*?(\d{4}|\S+) .*?([\d\s.,]*\d)\s*([A-Z]{3}) vozvras.*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Summa pokupki RUR Eurocard Standard RUS/KOMMUNARKA/AUCHAN KOMMUNARKA 1630.94 RUR vozvrashchena na Vashu kartu. Balans karty 12094.84 RUR. Raiffeisenbank
+
+-----EXAMPLE-----
+Summa pokupki *4273 RUS/ST PETERSBURG/IKEA DOM 6 RETURN/ 11792 RUR vozvrashchena na Vashu kartu. Balans karty 92601.28 RUR. Raiffeisenbank

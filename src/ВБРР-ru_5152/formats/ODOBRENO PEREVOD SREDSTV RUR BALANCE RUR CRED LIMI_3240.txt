@@ -1,0 +1,7 @@
+^ODOB.*?PEREVOD.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d-]{10}).*?BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+ODOBRENO PEREVOD SREDSTV 14 130.00 RUR 2017-10-16 14:12:07 BALANCE 61.72 RUR CRED LIMIT 0.00 RUR TEL +74959330349, 88007000349

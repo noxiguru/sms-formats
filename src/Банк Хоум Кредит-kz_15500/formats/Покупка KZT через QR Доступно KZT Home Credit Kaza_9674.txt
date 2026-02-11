@@ -1,0 +1,7 @@
+^(\d{4})\s+Покупка:\s*-\s*([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3})\s+(через\s+QR)\s+Доступно:\s+([0-9][\d\s.,]*\d)(?=\s)\s*([A-Za-z]{1,3})\s*║\s*Home Credit Kazakhstan$
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+0743 Покупка: -400 KZT через QR Доступно: 4240 KZT ║ Home Credit Kazakhstan

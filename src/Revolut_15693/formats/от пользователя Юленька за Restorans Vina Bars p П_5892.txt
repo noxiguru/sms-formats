@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+от\s+поль\w+\s+(.*?)\s+(за\s+.*?)\s+║\s+Получ.*
+
+-----COLUMNS-----
+instrument;income;payee;comment
+
+-----EXAMPLE-----
+€56.15 от пользователя Юленька за Restorans Vina Bars 4p 🤑 ║ Получен платеж

@@ -1,0 +1,7 @@
+^SPISANIE.*(\d{4})\s.*([\d.]{8}).*SUMMA\s+([\d\s.,]*\d) ([A-Z]{3}) BALANCE. ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+SPISANIE: 4232***1762 MR ILDAR KHABIBULLIN 05.03.14 19:36 SUMMA  300.00 RUR BALANCE: 7781.67 RUR

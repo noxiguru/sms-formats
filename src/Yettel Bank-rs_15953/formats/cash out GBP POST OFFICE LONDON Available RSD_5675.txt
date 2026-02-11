@@ -1,0 +1,7 @@
+^.*\*(\d{4}),\s+cash\s+out.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#yMd
+
+-----EXAMPLE-----
+5574****8332, cash out: 100.00 GBP, 2023-03-11, POST OFFICE LONDON . Available: 42,282.77 RSD.

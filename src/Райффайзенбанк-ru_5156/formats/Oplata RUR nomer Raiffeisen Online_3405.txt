@@ -1,0 +1,10 @@
+^(?:Oplata|Оплата).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+((?:nomer|номер)\s+.*?)\..*
+
+-----COLUMNS-----
+outcome;instrument;comment
+
+-----EXAMPLE-----
+Oplata 2000 RUR nomer 9254332656. 8-800-7000072 Raiffeisen Online
+
+-----EXAMPLE-----
+Оплата  500.0 RUR номер 9650090258. 8-800-7005250 Raiffeisen Online

@@ -1,0 +1,7 @@
+^.*([A-Z]{3})\s*([\d\s.,]*\d).*charg.* on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) to .*ard.*?(\d{4}).* at (.*?)\..*
+
+-----COLUMNS-----
+instrument;outcome;date#dMy;syncid;payee
+
+-----EXAMPLE-----
+OCBC: SGD19.35 was charged at 21:42 on 15-Jan-21 to your card (-8148) at NTUC FP-BISHAN A SINGAPOR. If you did not do this, call +65 6535 2233.

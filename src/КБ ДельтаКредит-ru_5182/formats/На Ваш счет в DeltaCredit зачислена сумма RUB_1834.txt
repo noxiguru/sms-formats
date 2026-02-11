@@ -1,0 +1,7 @@
+^На.*([\d.]{8})\s+.ачисле.*?([\d\s.,]*\d)\s([A-Z]{3})
+
+-----COLUMNS-----
+date#dd.MM.yy;income;instrument
+
+-----EXAMPLE-----
+На Ваш счет в DeltaCredit 15.06.15 зачислена сумма 100000.00 RUB

@@ -1,0 +1,7 @@
+^.*?#(\d{4})\s+(?:спис|spis).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:Досту|Dostu).*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+S Vashego scheta 40817810####1720 spisano 300.00 RUB. Dostupno po karte 85 256.53 RUR. SDM-BANK +7495 7059090

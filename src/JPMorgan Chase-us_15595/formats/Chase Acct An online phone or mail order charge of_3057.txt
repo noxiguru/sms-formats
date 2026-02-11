@@ -1,0 +1,7 @@
+^.*?cct (\d{4}):.*charge.*?(\$)([\d\s.,]*\d).* at (.*?) on ([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#MM/dd/yyyy
+
+-----EXAMPLE-----
+Chase Acct 9146: An online, phone or mail order charge of $14.99 has been authorized at AMAZON MKTPLACE PMTS on 06/21/2017 12:33:53 ET.

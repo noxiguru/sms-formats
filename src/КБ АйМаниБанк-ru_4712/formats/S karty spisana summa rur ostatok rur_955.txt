@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) spisana.*?(\d[\d\s.,]*) (\w{3}).*?(?:ostatok|dostupno): ([\d\s.,]*\d).*?([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+S karty:*2899 spisana summa 25000 rur ;ostatok: 3897,97 rur; 21.08.2013 10:59

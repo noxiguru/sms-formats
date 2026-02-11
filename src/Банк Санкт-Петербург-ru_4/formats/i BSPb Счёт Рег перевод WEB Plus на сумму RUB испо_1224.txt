@@ -1,0 +1,7 @@
+^.*?(\d{4})\s.*?перевод (.*) на сумму ([\d\s.,]*\d) ([A-Z]{3}) исполнен ([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+i.BSPb. Счёт *844879 Рег. перевод WEB Plus на сумму 359 RUB исполнен 14.04.2014 11:07

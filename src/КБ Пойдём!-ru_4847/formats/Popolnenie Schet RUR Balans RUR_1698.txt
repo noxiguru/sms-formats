@@ -1,0 +1,7 @@
+^([\d.]{10}).*Pop.*?([\d]{4}). \+([\d\s.,]*\d)\s*([A-Z]{3}). Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+19.04.2015 15:09:44. Popolnenie. Schet 40817*7106. +5000 RUR. Balans 5132.67 RUR

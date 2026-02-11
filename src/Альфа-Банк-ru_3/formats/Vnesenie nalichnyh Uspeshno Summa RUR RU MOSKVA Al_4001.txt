@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*nesen.*?nal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+**4677; Vnesenie nalichnyh; Uspeshno; Summa: 90 000 RUR; RU/MOSKVA/Alfa Iss; 29.10.2018 18:11:35

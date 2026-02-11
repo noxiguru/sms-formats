@@ -1,0 +1,7 @@
+.*?(?:Suma|Sum[ăa]).*?([0-9][\d\s.,]*\d|[0-9]+)\s*([A-Za-z]{1,5}).*?(?:alimenta\w+).*?(?:cont(?:ul)?|card(?:ul)?|account)\s+(\d{4,}).*?(?:Sold\s+disponibil|Disponibil|Available).*?:?\s*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,5}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Suma de 2000 MDL a fost alimentată pe contul 22594817864. Sold disponibil: 5775.83 MDL. ║

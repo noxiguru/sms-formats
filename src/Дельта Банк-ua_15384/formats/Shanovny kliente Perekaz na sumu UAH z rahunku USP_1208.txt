@@ -1,0 +1,7 @@
+^.*?Perekaz.*?(\d[\d\s.,]*) ([A-Z]{3}) z rah.*?(\d{2}) USPISHNO ([\d/]{5}).*ZALYSHOK (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#MM/dd;av_balance
+
+-----EXAMPLE-----
+Shanovny kliente! Perekaz na sumu 10.00 UAH z rahunku 2620****99 USPISHNO 03/31 15:51 ZALYSHOK 28.86 UAH DeltaBank:0444289595

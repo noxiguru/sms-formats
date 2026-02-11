@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*erekaz ko.*\*(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}) .omis.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+11.06.2021 15:05 Perekaz koshtiv z karty *1810 6500.00 UAH Komissiya: 32.50 UAH Dostupno: 40187.37 UAH (050)(068)(056)7345005

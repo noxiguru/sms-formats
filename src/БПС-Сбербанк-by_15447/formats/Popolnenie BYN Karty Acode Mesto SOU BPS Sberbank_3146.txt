@@ -1,0 +1,7 @@
+^Popoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Popolnenie 269.53 BYN Karty #2689 26.07.17 18:18 Acode 976246; Mesto: SOU BPS-Sberbank > Minsk BLR; Ostatok: 704.99 BYN. BPS-Sberbank

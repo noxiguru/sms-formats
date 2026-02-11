@@ -1,0 +1,10 @@
+^.*?(\d{1,2}/\d{1,2}/\d{2,4}).*arihin.*?(\d{4}) ile.*artini\w+ (.*?) firmas.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#Mdy;syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+Degerli Musterimiz,10/12/2022 7:19: tarihinde 4167 ile biten banka kartinizla MJET HURMA ANTALYA ANTALYA TR firmasindan 72.7 TRY tutarinda islem yapilmistir. Bilgi:08502220800 MERSIS:1234567890 B002
+
+-----EXAMPLE-----
+Degerli Musterimiz,11/2/2022 6:17:1 tarihinde 4167 ile biten banka kartinizla BIM K695 -LIMAN-ANTALYA ISTANBUL TR firmasindan 37.5 TRY tutarinda islem yapilmistir. Bilgi:08502220800 MERSIS:1234567890 B002

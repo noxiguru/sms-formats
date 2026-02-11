@@ -1,0 +1,7 @@
+^.*tran.*?([\d\s.,]*\d).*card.*?(\d{4})\s+on\s+(\d{2}\s+\S+),.*
+
+-----COLUMNS-----
+outcome;syncid;date#dd MMM
+
+-----EXAMPLE-----
+Fr DBS Alert: You've made a NETS transaction of $1,072.20 with your DBS/POSB card ending with 8758 on  30 May, 16:30. If this transaction was not made by you, please contact +65 63396963.

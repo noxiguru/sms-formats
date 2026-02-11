@@ -1,0 +1,7 @@
+^DuitNow of ([A-Z]{2,3}|\W)\s*([\d\s.,]*\d) to (.*?)\. Mobile.*
+
+-----COLUMNS-----
+instrument;outcome;payee
+
+-----EXAMPLE-----
+DuitNow of RM 100.00 to AFIDA BINTI IBRAHIM. Mobile Number : ****2880. REF: 305099661M ║ Maybank2u: Transfer

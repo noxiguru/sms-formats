@@ -1,0 +1,10 @@
+^([\d.]{10}).*[Nn]a.*?\*(\d{4}).*erevod.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(so?\s+.*?)?\.?\s*.stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+24.12.2017 10:30. Na kartu ***0973 sdelan internet perevod 5 000.00 KZT so scheta 07524. Ostatok 6 178.34 KZT.
+
+-----EXAMPLE-----
+21.08.2018 14:11. Na kartu ***5089 sdelan perevod 60 000.00 KZT Ostatok 59 550.00 KZT.

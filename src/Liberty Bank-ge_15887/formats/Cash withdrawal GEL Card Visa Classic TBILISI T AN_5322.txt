@@ -1,0 +1,10 @@
+^(?:Cash w|განაღდება).*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*?\.{3}(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4})\s+.(?:alan|აშთი).*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Cash withdrawal: GEL 22.50   Card: Visa Classic / ....1828  TBILISI T AND K RESTAURANTS LTD Date: 21/06/2022 Balance: GEL 1,778.37
+
+-----EXAMPLE-----
+განაღდება: GEL 100.00 ბარათი: Visa Classic / ....5180 LB ATM135 / Tbilisi თარიღი: 27/07/2022 ნაშთი: GEL 570.81

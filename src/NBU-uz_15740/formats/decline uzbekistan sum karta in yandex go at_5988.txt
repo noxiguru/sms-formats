@@ -1,0 +1,7 @@
+^.ecline.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+decline 10000 uzbekistan sum karta 403701******6608 in yandex go at 18/08/23 01:53:14

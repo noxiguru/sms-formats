@@ -1,0 +1,7 @@
+^.*osted bal.*ccount (\d{4}) is ([A-Z]{3}|\W)\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Truist Alerts: Posted balance for account 5815 is $29.61. May not include pending txns. Reply HELP for help or STOP to stop alerts.

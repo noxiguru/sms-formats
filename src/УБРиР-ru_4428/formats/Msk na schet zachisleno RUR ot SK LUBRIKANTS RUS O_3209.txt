@@ -1,0 +1,10 @@
+^([\d.]{8})\s+.*na\s+sch.*?(\d{2,4})\s+zachisl.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+ot\s+(.*?)[;.,].*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+14.09.17 14:49 (Msk) na schet 408028106***82 zachisleno 5 000.00 RUR ot SK LUBRIKANTS RUS OOO//123317;ROSSIIA,,,MOSKVA,UL.TESTOVSKAIA,D.10,,,//. Ostatok po schetu 12478.05 RUR
+
+-----EXAMPLE-----
+13.07.18 16:04 (Msk) na schet 408028105***92 zachisleno 6 121.08 RUR ot ZAPADNO-URALSKII BANK PAO SBERBANK. Ostatok po schetu 32970.95 RUR

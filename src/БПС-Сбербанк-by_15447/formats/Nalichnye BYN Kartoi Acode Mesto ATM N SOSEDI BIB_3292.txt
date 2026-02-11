@@ -1,0 +1,10 @@
+^(?:Nalich|NALICH|Snyatie n).*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) .*\s*(\d{4}[-./]\d{2}[-./]\d{2}) .*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Nalichnye 50.00 BYN Kartoi #1892 2020-05-01 11:37:56 Acode 184821; Mesto: ATM N34 SOSEDI BIB > GOMEL BLR; Ostatok: 1 038.54 BYN. BPS-Sberbank
+
+-----EXAMPLE-----
+Snyatie nalichnyh 200.00 BYN s Karty #1234 2023-04-10 18:00:00 Acode 380889; Mesto: METRO BPSB ATM-23 > MINSK BY; Ostatok: 1 000.00 BYN. Sber Bank

@@ -1,0 +1,13 @@
+^.*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:писан|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3})(?:, )?(.*?)\. .(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *8799: 06.12.2022 10:59, списание 700.00 RUR, SBP MARITIMEBANK, MOSCOW, 1, BLD. 1-2, VARSHAVSKOE RD.. Доступно 22686.28 RUR.
+
+-----EXAMPLE-----
+Karta *2793: 28.02.2023, spisanie 49.00 RUR. Dostupno 127.01 RUR.
+
+-----EXAMPLE-----
+Karta *2793: 07.03.2023 08:00, spisanie 230.00 RUR, SHTAB KOFE, Gorod Moskva. Dostupno 35393.13 RUR.

@@ -1,0 +1,7 @@
+^(.*) Залиш.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W) ║ Оплата.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+comment;av_balance;acc_instrument;outcome;instrument
+
+-----EXAMPLE-----
+Поповнення: 0972581235 Залишок: 28.01 ₴ ║ Оплата: 100.00 ₴

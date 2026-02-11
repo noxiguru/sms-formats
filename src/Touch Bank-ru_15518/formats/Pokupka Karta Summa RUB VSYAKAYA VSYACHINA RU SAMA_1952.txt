@@ -1,0 +1,19 @@
+^(?:Appr|Pokup|Покуп).*(?:art|арт).*?(\d{4}).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3})\.?\s+(.+?)\.?\s+([\d.]{5}\.\d{4})\D.*?(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Pokupka. Karta 6998. Summa 127.60 RUB. VSYAKAYA VSYACHINA RU SAMARA. 20.08.2015,  19:43:49. Dostupno 3061.85 RUR.
+
+-----EXAMPLE-----
+Approved. Karta 1562. Summa 592.00 RUB. MATRITSA 26 RU UFA. 05.11.2015,  17:57:56. Dostupno 412.00 RUR.
+
+-----EXAMPLE-----
+Pokupka. Karta *9948. Summa 459 RUB. STOLOVAJA KOMMUNARKA. 01.03.2017, 12:50:38. Dostupno 24354.94 RUR. Nachisleno ballov:14. Dostupno ballov:147.
+
+-----EXAMPLE-----
+Покупка. Карта *9127. Сумма 1530 RUB. IP VASILJUKOVA E A RU STPETE. 27.02.2018, 20:29:12. Доступно 1521.69 RUR. Начислено баллов:15. Доступно баллов:37.
+
+-----EXAMPLE-----
+Покупка. Карта *6629 Сумма 330 RUB. FIXPRICE 2984 RU ZLATOUST 13.03.2018,12:12:12 Доступно 1908.64 RUR. Начислено баллов:3

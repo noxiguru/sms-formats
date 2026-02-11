@@ -1,0 +1,10 @@
+^.*(?:transaction|ill .ayment) of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) .*? on .*?\*(\d{2}-\d{2}) .*?on (\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Client, a transaction of PKR 20000.00 has been completed on Acc. Number 01-72***84-01 to YOUSUF ALI CHOUDHRY on 13/10/22 through Online Banking. Avail. Bal:Avail. Bal:PKR 210896.98
+
+-----EXAMPLE-----
+Dear Client, a Bill Payment of PKR 55724.67 has been completed on Account No. 01-72***84-01 on 17-10-22 using Online Banking. Avail. Bal: PKR 104760.17.

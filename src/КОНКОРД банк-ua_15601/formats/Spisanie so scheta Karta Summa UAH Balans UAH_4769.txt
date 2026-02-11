@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ .(?:p[iy]san|okup|upiv).*?[*#](\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+31.07.2020 13:48:22 Spisanie so scheta Karta *2125 Summa: 1000.00 UAH Balans: 1952.90 UAH (050)(068)(056)7345005
+
+-----EXAMPLE-----
+16.05.2021 14:39 Kupivlia Silpo, po karti *1810 495.80 UAH Dostupno: 37223.37 UAH (050)(068)(056)7345005

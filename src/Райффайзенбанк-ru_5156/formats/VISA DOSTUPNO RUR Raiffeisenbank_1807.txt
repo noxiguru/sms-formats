@@ -1,0 +1,7 @@
+^\w+\*(\d{4}).\s+DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+VISA*4353; DOSTUPNO: 11303.67 RUR. Raiffeisenbank.

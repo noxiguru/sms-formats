@@ -1,0 +1,7 @@
+^.*uplini\w+\s+(.*)\s+[Ss]um.*?([\d\s.,]*\d).*old.*?(-?[\d\s.,]*\d).*ata.*?([\d.]{10}).*
+
+-----COLUMNS-----
+comment;income;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Op: Suplinire Alimentare conventie Suma:7452.86 Sold:10823.79 Data/Ora:31.01.2020 17:15:42 Eticheta:SALARIAL Suport:022256456

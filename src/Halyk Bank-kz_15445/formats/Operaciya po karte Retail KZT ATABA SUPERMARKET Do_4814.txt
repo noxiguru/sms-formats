@@ -1,0 +1,37 @@
+^(?!\d{2}\.\d{2}\.\d{2})(\d{4}[-./]\d{2}[-./]\d{2}|)(?!.*(?:озврат|ozvrat)).*(?:плат|перац\w+ по|окуп|редит|plat|perac\w+ po|okup|redit|etail)(?!.*(?:ATM|nyatie|ebit|erevod)).*?-?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) (.*?)\s*[\w]*\*+(\d{3,4}).*(?:ostu|stat).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|).*
+
+-----COLUMNS-----
+date#yMd;outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+2015-12-07 19:36:21 Operaciya po karte Retail 1847.00 KZT ATABA SUPERMARKET 4**602 Dostupnaya summa:378339.93 KZT
+
+-----EXAMPLE-----
+2018-08-23 15:04:51 Operaciya po karte Pokupka 850.00 KZT KUB, STOLOVAYA 440563**4661 Dostupnaya summa: 901352.05
+
+-----EXAMPLE-----
+2018-11-01 21:12:38 Pokupka 840.00 KZT TAXIYANDEX KZ 400303**8379 Ostatok 231917.04
+
+-----EXAMPLE-----
+2019-07-13 15:48:31 Credit 267.26 KZT ALIEXPRESS.COM 5**847 Dostupnaya summa:937.68 KZT
+
+-----EXAMPLE-----
+17:36 Pokupka 670.00 KZT IP "TELEUBAYEVA A.ZH." 7**2902 Ostatok 372593.00, dostupno 1600.42 bonus (+6.7 bonus)
+
+-----EXAMPLE-----
+12:29 Pokupka 5990.00 KZT ITUNES.COM/BILL 5**0550 Ostatok 1775.68
+
+-----EXAMPLE-----
+06:51 Pokupka 500.00 RUB NSK AEXP3 *0550 Ostatok 15018.76
+
+-----EXAMPLE-----
+2020-07-20 03:52:59 Operaciya po karte Retail_CRS 35157.03 KZT  K**081 Dostupnaya summa:154134.77 KZT
+
+-----EXAMPLE-----
+2020-09-24 09:00:05 Оплата картотеки BS -10402.73 KZT K**081 Dostupnaya summa:189597.27 KZT
+
+-----EXAMPLE-----
+2021-04-19 23:38:04 Operaciya po karte Unique 40000.00 KZT Binance 4**353 Dostupnaya summa:992.89 KZT ║
+
+-----EXAMPLE-----
+2024-04-08 14:43:52 Retail -32470.18 KZT EBAY O*25-11403-98768 3**104 Dostupnaya summa:88425.92 KZT ║

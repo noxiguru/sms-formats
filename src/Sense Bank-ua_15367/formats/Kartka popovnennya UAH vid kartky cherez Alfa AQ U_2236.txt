@@ -1,0 +1,7 @@
+^.*?-(\d{4}).*popovnennya([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d/]{5})(?!.*ostupno).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM
+
+-----EXAMPLE-----
+Kartka 4102-7563 popovnennya 200UAH 22/02 10:17 vid kartky 4102-5497 cherez Alfa AQ UAH

@@ -1,0 +1,7 @@
+^(Вернул.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+за\s+опер.*\*(\d{4}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid
+
+-----EXAMPLE-----
+Вернули 149.00RUB за операцию по карте *6578 от 30.06.24 ║ ROSBANK Online

@@ -1,0 +1,7 @@
+^Spisan.*chet.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Spisanie po schetu 6627; Nomer: 36; Summa:16093.99 RUR; Ostatok: 6190.13 RUR; 21.05.19 12:58

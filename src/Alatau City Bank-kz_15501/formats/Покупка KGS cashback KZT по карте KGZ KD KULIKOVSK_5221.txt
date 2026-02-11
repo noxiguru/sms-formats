@@ -1,0 +1,7 @@
+^Покуп.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(cash.*?),\s+по\s+к.*?\*(\d{4}),\s+(\d{4}[-./]\d{2}[-./]\d{2})\s+[\d:]+,\s+(.*?)\..*стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;date#yMd;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка 236.42 KGS, cashback 55.37 KZT, по карте *8011, 2022-01-12 21:03:39, KGZ, KD KULIKOVSKII LLC. Остаток 1.64 KZT

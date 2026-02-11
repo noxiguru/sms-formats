@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).* ([\d.]{8}) .*ZACHIS.*?([\d\s.,]*\d)\s*([A-Z]{3}) BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+e-pay 5288***3116 RUSTEM GALIMOV 23.11.16 15:15 ZACHISLENO 7457.43 RUR BALANCE: 18743.38 RUR

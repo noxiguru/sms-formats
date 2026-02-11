@@ -1,0 +1,7 @@
+^Debit.*?([\d\s.,]*\d)\s*([A-Z]{3}) from.*?\*(\d{4})(?!.*Cash Withdrawal).*([\d/]{8}) Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#MM/dd/yy;av_balance
+
+-----EXAMPLE-----
+Debit: 50000.00 RUB from account **9488 Transaction: External Fund Transfer Date: 11/28/14 Balance: 13667.62 RUB

@@ -1,0 +1,7 @@
+^([\d/]{8}) .*X\d*(\d{4}).*received(?!.*alan).*?([\d\s.,]*\d)\s*([a-zA-Z]{3,4})\s+(from .*)
+
+-----COLUMNS-----
+date#dd/MM/yy;syncid;income;instrument;comment
+
+-----EXAMPLE-----
+30/01/18 05:43 A/C X235075X received 1440.00 Baht from A/C X322506X

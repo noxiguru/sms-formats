@@ -1,0 +1,7 @@
+^.*?(\d{4}). ([\d.]{8}).*ачисл.*?([\d\s.,]*\d) \(([A-Z]{3})\) (.*). Баланс.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта ****2847: 05.05.15 14:43. Зачислено 15000.00 (RUB) RUS/TULA/UNIASTRUM TULA. Баланс: 15028.25 (RUB).

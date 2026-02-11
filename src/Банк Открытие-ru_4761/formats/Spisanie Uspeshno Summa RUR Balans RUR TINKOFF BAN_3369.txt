@@ -1,0 +1,10 @@
+^.*?(?:pisan|писан).*\*(\d{4}).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|алан).*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Spisanie *1048; Uspeshno; Summa: 10000.00 RUR; Balans: 42990.38 RUR; TINKOFF BANK CARD2CARD; 23.12.2017 20:53
+
+-----EXAMPLE-----
+Списание *6989; Успешно; Сумма: 500.00 RUR; Баланс: 24685.64 RUR; VTB PJSC; 03.02.2019 9:29

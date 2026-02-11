@@ -1,0 +1,7 @@
+^[A-ZА-Я]+(\d{4}) .окуп.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) (.*) .осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+МИР5035 Покупка 311р MAGAZIN OVOSHCHNOI Доступно 21396.07р

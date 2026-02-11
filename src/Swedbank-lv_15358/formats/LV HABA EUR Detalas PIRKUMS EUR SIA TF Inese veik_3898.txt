@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3}).*etala\S+\s+(.*?)\s+.ieejam.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+LV26HABA1234567890 14.61EUR Detalas: PIRKUMS 1234567890 11.09.2018 14.61 EUR (715551) SIA "TF Inese"-11.veik LV-2008 Jurmala       Pieejamais atlikums: 120.09EUR

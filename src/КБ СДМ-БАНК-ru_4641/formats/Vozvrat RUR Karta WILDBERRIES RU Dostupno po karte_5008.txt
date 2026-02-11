@@ -1,0 +1,7 @@
+^(Vozvr.*?) ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(.*)\s+(\d{4}[-./]\d{2}[-./]\d{2}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Vozvrat 3 813.00 RUR Karta: *4897 WILDBERRIES.RU 2021-05-04 00:00:00. Dostupno po karte 7 972.85 RUR. +7(495)7059090.

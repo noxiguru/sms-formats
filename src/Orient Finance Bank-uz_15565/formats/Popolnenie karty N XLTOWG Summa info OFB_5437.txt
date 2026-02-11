@@ -1,0 +1,7 @@
+^Popoln.*arty.*?\d+[A-Z]+(\d{4})\s+.umma\s+([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income
+
+-----EXAMPLE-----
+Popolnenie karty N 531951XLTOWG1828 Summa 50 000.00 info:OFB

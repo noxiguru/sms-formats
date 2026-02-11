@@ -1,0 +1,7 @@
+^.*(\d{4}) ([\d.]{10}) [\d:]+ ([^:]+)\s*: -([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:poku|spysan).*alans.*?(-?[\d\s.,]*\d).*Usp.*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Kartka 4438*3485 01.04.2015 11:20:41 EASYPAYINTERNET: -70.00 UAH pokupka tovaru. Balans 1513.84 UAH. Uspishno.

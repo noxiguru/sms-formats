@@ -1,0 +1,10 @@
+^Schet.*\*(\d{4})\s*.opoln.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s*(\d{2}[-./](?:\d{2}|\w+)[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy
+
+-----EXAMPLE-----
+Schet po karte *4504popolnen/spisan na summu 10.00 USD. 25-JUL-2020 14:08
+
+-----EXAMPLE-----
+Schet po karte *3443 popolnen/spisan na summu 50.00 USD.07-JUL-2021

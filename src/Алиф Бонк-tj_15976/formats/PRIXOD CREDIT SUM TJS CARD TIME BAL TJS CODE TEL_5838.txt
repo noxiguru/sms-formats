@@ -1,0 +1,7 @@
+^.*CREDIT.*SUM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+TIME.*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+BAL.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+PRIXOD(CREDIT) SUM: 60.00 TJS CARD: 5058***0136 TIME: 20:14 07.06.23 BAL: 60.00 TJS CODE: 533154 TEL: 900

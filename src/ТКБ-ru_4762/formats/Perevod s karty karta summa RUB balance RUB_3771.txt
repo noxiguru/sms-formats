@@ -1,0 +1,7 @@
+^Perevod s.*? ([\d.]{8}) .*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Perevod s karty: 05.07.18 16:21,karta ***5152. summa:260.00 RUB, balance:4141.85 RUB.

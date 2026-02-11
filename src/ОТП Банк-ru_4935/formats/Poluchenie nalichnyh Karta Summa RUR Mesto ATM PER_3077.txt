@@ -1,0 +1,7 @@
+^([\d.]{5}).*?Poluchenie n.*?\*(\d{4}).*?umm(?!.*ostu).*?-?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM;syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+30.06 16:33 Poluchenie nalichnyh. Karta *1210. Summa: -4000.00 RUR. Mesto: ATM 10084807 65 PERVOM MOSKVA. Podrobnee na otpbank.ru/ib2 . OTP Bank

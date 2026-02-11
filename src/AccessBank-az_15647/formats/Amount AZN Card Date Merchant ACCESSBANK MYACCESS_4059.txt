@@ -1,0 +1,7 @@
+^Amount.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*([\d-]{10}).*erchan\S+\s+(.*?)\.\s*.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#yyyy-MM-dd;payee;av_balance
+
+-----EXAMPLE-----
+Amount: -75 AZN. Card: *5333. Date: 2019-01-17 10:29. Merchant: ACCESSBANK MYACCESS>. Balance: 4925 AZN	75	AZN	5333	2019-01-17	ACCESSBANK MYACCESS>	 4925

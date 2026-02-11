@@ -1,0 +1,10 @@
+^.*няти.*\*(\d{4})\W?.*?([\d\s.,]*\d)\s*([A-Z]{3}).*алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+Снятие. Карта *2744. 35500 NPR. SCB POKHARA BRAN. Баланс 4455.8 RUB
+
+-----EXAMPLE-----
+Снятие. Карта *2744. 35500 NPR. SCB POKHARA BRAN. Баланс 4455.8 RUB

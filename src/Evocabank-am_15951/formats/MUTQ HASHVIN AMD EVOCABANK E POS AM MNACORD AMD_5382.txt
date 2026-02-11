@@ -1,0 +1,7 @@
+^(?:MUTQ HASH|CREDIT ACC)\w+ ([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}) .*? (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} (?:BALA|MNACO).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+MUTQ HASHVIN 3,062,000.00 AMD 4150***7159 EVOCABANK E-POS, AM 08.08.2022 17:25 MNACORD: 3,071,845.00 AMD

@@ -1,0 +1,7 @@
+^Platezh.*?poluchatel.*?\s+(.+?)\s+na sum.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+ot\s+([\d.]{10}).*ispolnen.*
+
+-----COLUMNS-----
+payee;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Platezh v polzu poluchatelya Bilain  na summu 100 RUB ot 28.05.2016 00:27 (moskovskoe vremja) ispolnen. Nomer telefona dlya svyazi s Bankom 8-800-200-0981. Renaissance Credit.

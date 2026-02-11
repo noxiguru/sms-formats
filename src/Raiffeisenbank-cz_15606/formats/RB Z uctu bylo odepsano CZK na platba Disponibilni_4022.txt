@@ -1,0 +1,7 @@
+^.*Z .*?(\d{4}) bylo ([\d.]{5}).*-([\d\s.,]*\d)\s*([A-Z]{3}) (na .*?)\s*\.\s+.ispon.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+RB: Z uctu 3747170001 bylo 22.01. odepsano -350,00 CZK na 1023991198/6100 (platba). Disponibilni zustatek +103.333,68 CZK

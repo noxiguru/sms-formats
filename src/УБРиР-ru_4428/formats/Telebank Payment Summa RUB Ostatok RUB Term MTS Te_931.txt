@@ -1,0 +1,30 @@
+^.*?(?:Payment|Pokupka|Zakaz|Purchase|Cash\s+Ad|Mail|P2P).*?[^\d.]([\d.]{8})[^\d.].*\*(\d{4}).*?(?:umma|mount).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:stat|alan).*?(-?[\d\s.,]*\d).*?Term:\s+(.*?)\s*(?:Tel:.*|$)
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Telebank Payment 15.08.13 13:30 9990****0663 Summa: 50.00 RUB Ostatok: 21640.69 RUB Term: MTS Tel:+73432645564 www.ubrr.ru
+
+-----EXAMPLE-----
+Pokupka 18.08.13 09:30 4301****2249 Summa: 89.00 RUB Ostatok: 25046.19 RUB Term: POL BEYKERI Tel:+73432645564 www.ubrr.ru
+
+-----EXAMPLE-----
+Zakaz po pochte, telefonu, internet 02.09.13 15:14 4301****2249 Summa: 1000.00 RUB Ostatok: 34793.42 RUB Term: EPC LTD Tel:+73432645564 www.ubrr.ru
+
+-----EXAMPLE-----
+Purchase 08.03.14 17:01 4301****5203 Amount: 150.00 RUB Av/Balance: 7874.82 RUB Term: ALVIK KASHIRINYKH134 Tel:+73432645564 www.ubrr.ru
+
+-----EXAMPLE-----
+=FREE=
+Telebank Payment
+01.06.16 16:45
+9990****9584
+So scheta:
+42301810****3855
+Summa: 45.00 RUB
+Ostatok: 16778.92 RUB
+Term: OOO "Faktorial EK"
+
+-----EXAMPLE-----
+POS P2P Debit 03.02.17 22:56 4301****5203 Amount: 5000.00 RUB Av/Balance: 7288.95 RUB Term: TINKOFF BANK CARD2CARD Tel:88001000200 Internet-bank: i.ubrr.ru

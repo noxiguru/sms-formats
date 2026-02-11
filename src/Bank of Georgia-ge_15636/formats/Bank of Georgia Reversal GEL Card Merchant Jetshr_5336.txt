@@ -1,0 +1,7 @@
+^.*(Rever.*?):\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+Card.*?(\d{4})\s+Merc\w+:\s+(.*?)\s+Bala.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;instrument;income;syncid;payee;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Bank of Georgia: Reversal: GEL 1.00 Card: **** 8813 Merchant: Jetshr.com>Tbilisi GE Balance: GEL 12.31 Available PLUS points: 0.00 Collect PLUS points on payments made via Bank of Georgia terminals. 20.07.2022

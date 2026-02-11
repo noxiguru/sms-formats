@@ -1,0 +1,10 @@
+^.*?([a-zA-Z]{1,3})\.?([\d\s.,]*\d).*ebited.*?(\d{4}) for.*
+
+-----COLUMNS-----
+instrument;outcome;syncid
+
+-----EXAMPLE-----
+An amount of Rs.53,597.00 has been debited from your account number XXXX9101 for TPT txn done using HDFC Bank NetBanking
+
+-----EXAMPLE-----
+Dear Customer, Rs.6,636.00 is debited from A/c XXXX9081 for BillPay/Credit Card payment via HDFC Bank NetBanking. Call 18002586161 if txn not done by you

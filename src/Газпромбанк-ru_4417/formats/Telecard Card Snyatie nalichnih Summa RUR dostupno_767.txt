@@ -1,0 +1,13 @@
+^.*?(\d{4})\D.*(?:nyatie\s+n|аличные).*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*\s+([\d.]{8})\s+.*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Telecard; Card9585; Snyatie nalichnih; Summa 400 RUR; 15.07.14 22:50:08; 00000556; dostupno: 1328.47 RUR
+
+-----EXAMPLE-----
+*1111 Наличные 1900р GAZPROMBANK 01.06.18 13:13:43 Доступно 9385.56р
+
+-----EXAMPLE-----
+5573 Наличные 40000р GAZPROMBANK 10.10.18 18:12:52 Доступно 18550.68р

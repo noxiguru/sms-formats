@@ -1,0 +1,10 @@
+^.*(?:PRIX|PRIH).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+([\d.]{8}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yy
+
+-----EXAMPLE-----
+PRIXOD 8507.00 RUR KAPTА:4779*2362 09.10.15 15:01 RUB
+
+-----EXAMPLE-----
+PRIHOD 28620.23 RUR KAPTA:4779*5977 11.04.16 12:47 CHELINDBANK

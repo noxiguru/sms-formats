@@ -1,0 +1,7 @@
+^.*окупк.*\*(\d{4}).*умм.*?([\d\s.,]*\d)\s*([A-Z]{3}) в (.*)\.\s+.осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Покупка. Карта *2172, сумма 91.00 RUB в VKUSVILL 1596_2. Доступно 89194.65 RUB

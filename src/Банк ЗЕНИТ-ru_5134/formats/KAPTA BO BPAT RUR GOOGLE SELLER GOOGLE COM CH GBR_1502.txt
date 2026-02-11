@@ -1,0 +1,7 @@
+^([\d.]{8}).*(\d{4}) BO3BPAT.*?([\d\s.,]*\d) ([A-Z]{3}) (.*) / DOSTUPNO (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+03.12.14 06:07:10 KAPTA 5570*6456 BO3BPAT + 30 RUR GOOGLE *SELLER GOOGLE.COM/CH GBR / DOSTUPNO 207,24 RUR

@@ -1,0 +1,7 @@
+^.*арт.*?(\d{4}).*?[0.]{10}.*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}).*оступн.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 6784: 00.00.0000 00:00, списано 30585.00 RUR, 3DI CARD2CARD CLKNEW, MOSKVA. Доступно 1053.61 RUR.

@@ -1,0 +1,31 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}) .(?:plata za|urcha|urchas|плата за).*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?)\. .(?:riento|рієнто|риент|pproxim|vailab|ostup|осту|alan|алан).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+23.09.20 19:29 Visa Gold*0262 splata za tovar/poslugu 2869.04 UAH RAIFFEISEN ONLINE UAH. Dostupna suma 3849.95 UAH
+
+-----EXAMPLE-----
+16.10.20 13:57 Visa Gold*0262 splata za tovar/poslugu 201.60 UAH RAIFFEISEN ONLINE1. Dostupna suma 7699.90 UAH
+
+-----EXAMPLE-----
+18.11.20 17:26 Visa Signature*6168 оплата за товар/услугу 405.00 UAH Lapsha Bar Prospekt. Доступная сумма: 39403.41 UAH ║ Raiffeisen
+
+-----EXAMPLE-----
+16.01.21 15:19 Visa Signature*6168 оплата за товар/услугу 397.68 USD ORIENTAL DEVLP RIXOS. Ориентировочный баланс 55274.48 UAH ║ Raiffeisen
+
+-----EXAMPLE-----
+17.02.21 01:36 Mastercard Platinum*8942 splata za tovar/poslugu 35.88 USD 1PASSWORD  TRIAL OVER. Orientovnyi zalyshok 16335.47 UAH
+
+-----EXAMPLE-----
+18.02.21 09:06 Visa Signature*6981 purchase 85.00 UAH ProstirKavi. Available amount 12345.72 UAH ║ Raiffeisen
+
+-----EXAMPLE-----
+01.03.21 15:43 Mastercard Platinum*8942 purchase 3.99 EUR Deezer. Approximate balance 22721.45 UAH ║ Raiffeisen
+
+-----EXAMPLE-----
+22.05.21 04:06 Mastercard Platinum*3150 сплата за товар/послугу 15.00 USD MSFT  E0400EIOH0. Орієнтовний залишок 45445.50 UAH ║ Raiffeisen
+
+-----EXAMPLE-----
+05.01.22 20:28 Visa Instant*2298 splata za tovar/poslugu 216.00 UAH VaclevaGavela. Balans 276.44 UAH

@@ -1,0 +1,7 @@
+^.*ayment of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) on (\d{1,2}[-./]\d{1,2}[-./]\d{2,4}) for.*/*(\d{3,4}).*redit.*
+
+-----COLUMNS-----
+instrument;income;date#Mdy;syncid
+
+-----EXAMPLE-----
+Dear Customer, your payment of AED6.80 on 5/23/2023 for card ending with *208 has been credited. Thank you

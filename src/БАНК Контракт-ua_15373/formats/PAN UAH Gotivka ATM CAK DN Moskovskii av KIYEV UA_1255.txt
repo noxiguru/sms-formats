@@ -1,0 +1,7 @@
+^.*?#(\d{4}) ([\d\s.,]*\d) ([A-Z]{3}) Gotivka.*([\d/]{10}).*Dostupno: (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+PAN#8056 200 UAH Gotivka ATM CAK51603 DN00 Moskovskii av., 3 KIYEV UA 07/05/2014 23:22:14 Dostupno: 11855.48 UAH Vsogo: 10837.71 UAH

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*плата.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+в\s+(.*?)\s+║\s+Покуп.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Уважаемый клиент, по карте 4714*9752 произведена оплата на сумму 760,00 KGS в KAFE VASILIJ ALIBABAEVICH>BISHKEK KG ║ Покупка

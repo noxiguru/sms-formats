@@ -1,0 +1,7 @@
+^.*erevod(?!.*ransfer).*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).* ([\d-]{8}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#yy-MM-dd
+
+-----EXAMPLE-----
+Beznalichnyy perevod Karta:8792 summa:50.00 RUR balans:7924.22 RUR CURR=RUR 18-10-18 20:10:01

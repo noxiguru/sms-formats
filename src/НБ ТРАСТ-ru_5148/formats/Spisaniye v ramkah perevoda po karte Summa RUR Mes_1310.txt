@@ -1,0 +1,7 @@
+^([\d-]{10}).*pisaniye.*perevoda.*(\d{4}) Summa. ([\d\s.,]*\d) ([A-Z]{3}).*Dostupno. (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd-MM-yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+15-07-2014 11:48:54 Spisaniye v ramkah perevoda po karte 6720 Summa: 7 000.00 RUR Mesto: TRUST ONLINE Dostupno: 27 081.38RUR

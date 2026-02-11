@@ -1,0 +1,7 @@
+^([\d-]{10}).*?x(\d{4}) Otpravka.*Summa ([\d\s.,]*\d) ([A-Z]{3}) Dostupno ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+2013-07-27 14:52:33 Karta 5xxx1524 Otpravka perevoda (IBANK.KHMB.RU) Summa 790.00 RUR Dostupno 56 171.31 RUR Podderzhka +73467390700

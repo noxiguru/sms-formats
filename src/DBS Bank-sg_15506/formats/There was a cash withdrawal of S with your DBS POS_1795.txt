@@ -1,0 +1,7 @@
+^.*cash withd.*?([\d\s.,]*\d).*card.*?(\d{4})\s+on\s+(\d{2}\s+\S{3}).*
+
+-----COLUMNS-----
+outcome;syncid#cash;date#dd MMM
+
+-----EXAMPLE-----
+There was a cash withdrawal of S$1,000.00 with your DBS/POSB card ending 8758 on 04 Jun at 20:42. If you did not effect this, please call +65 63396963.

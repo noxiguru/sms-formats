@@ -1,0 +1,7 @@
+^Debit.*?([\d\s.,]*\d)\s*([A-Z]{3}) from.*?\*(\d{4}).*Cash Withdrawal.*([\d/]{8}) Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#MM/dd/yy;av_balance
+
+-----EXAMPLE-----
+Debit 6000.00 RUR from account **3333 Transaction: Cash Withdrawal - International Date: 09/21/13 Balance: 25969.44 RUR

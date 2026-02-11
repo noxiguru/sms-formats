@@ -1,0 +1,13 @@
+^.*Oplat.*?\*(\d{4}).*sum.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:POS \S+ )?(.*?)\s+([\d.]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;balance
+
+-----EXAMPLE-----
+Oplata po *6014 na sumu: 209.10 UAH POS P0153268 PORTMONE.MOB*ECT, UA 05.07.2017 09:14:00 Balans: 25225.22  Dostupno: 24877.22
+
+-----EXAMPLE-----
+Oplata po *2803 na sumu: 352.57 UAH POS 30000020 GIOC.KIEV.UA_GERC.UA, UA 12.07.2017 15:43:57 Balans: 2746.67
+
+-----EXAMPLE-----
+UniversalBank Oplata po *6014 na sumu: 541.92 UAH WWW.PORTMONE.COM, UA 16.02.2018 07:17:30 Balans: -13388.77 UAH Dostupno: 1011.23 UAH

@@ -1,0 +1,7 @@
+^.*?([\d.]{8}).*\*(\d{4}).*-([\d\s.,]*\d)\s*([a-zA-Z]{3})\s+pos.*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+Almazergienbank 09.11.15 karta *8753 16:03 -3.39 rub pos 202101 16:04 -6041.09 rub pos 365900 16:21 -3.39 rub pos 833691

@@ -1,0 +1,7 @@
+^.*?x(\d{4}) ([\d.]{10}).*opolnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4x3537 23.01.2020 13:19 msk Popolnenie  Summa 66200,00 RUR  Sviaz-Bank IB Card2Card Dostupno 77083,01 RUR  iz nih sobstv. 0,00 limit kred. 77083,01 tekushchaya zadolzh. 2916,99

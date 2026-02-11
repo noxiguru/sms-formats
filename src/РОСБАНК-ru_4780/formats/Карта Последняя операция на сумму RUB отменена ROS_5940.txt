@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+.оследняя\s+оп.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(отменена.*?)(?:\s+║\s+.*)?$
+
+-----COLUMNS-----
+syncid;income;instrument;comment
+
+-----EXAMPLE-----
+Карта *6578 Последняя операция на сумму 2 RUB отменена ║ ROSBANK Online

@@ -1,0 +1,7 @@
+^Przelew wy.*?(\d{4}) na .*kwota ([\d\s.,]*\d)\s*([A-Z]{3}) dla (.*?);.*[Dd]ost.*?\W?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Przelew wych. z rach. 82526021 na rach. 7412...440900 kwota 65,00 PLN dla PAYPRO S.A.; P24-E9D-C5H-R1T; Dost. 9482,11 PLN

@@ -1,0 +1,7 @@
+^Zachisleniye.*Summa.([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}). Data.([\d.]{8}).*Dostupno.(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Zachisleniye na schet, Summa:5000,00 RUR, Schet:0430XX7619, Data:12.05.14. Dostupno:511567.37 RUR

@@ -1,0 +1,7 @@
+^.*?(\d{4}):\s+\+([\d\s.,]*\d)\s*([A-Z]{3}),?\s+ost\.?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+26008*3929: +238.14UAH, ost. 3078.37; Rozrahunki z ekvairingu - cmps: 55    ,Vinarnya Zaratustra Kilkist tranz. 2sht. Vidshkod. po ekv. 238.14grn. Bonus plyus 0.

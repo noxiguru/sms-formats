@@ -1,0 +1,10 @@
+^\s*\*\s*(\d{4})\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*achis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*obstv.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*7951 21.01.22 18:34:53 Zachisleno vyplaty: 3013.23 UAH Sobstvennye 3052.66 UAH
+
+-----EXAMPLE-----
+* 7951   22.02.22 16:48  Zachisleno vyplaty: 3176.00UAH  Sobstvennye: 3177.40UAH

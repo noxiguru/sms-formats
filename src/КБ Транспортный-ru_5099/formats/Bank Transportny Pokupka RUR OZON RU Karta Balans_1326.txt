@@ -1,0 +1,7 @@
+^.*?okupka ([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{10}) [\d:]+ "?(.*?)"? Karta .?(\d{4}) Balans (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yyyy;payee;syncid;av_balance
+
+-----EXAMPLE-----
+Bank "Transportny" Pokupka 5 368.90 RUR 28.07.2014 17:05:41 "OZON.RU" Karta *1005 Balans 151 559.83 RUR +7(495) 646-52-32

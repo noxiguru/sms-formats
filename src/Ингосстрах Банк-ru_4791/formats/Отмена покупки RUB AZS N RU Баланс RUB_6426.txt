@@ -1,0 +1,7 @@
+^.*(.тмена.*?)\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W),\s+(.*?)\.\s+.алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Отмена покупки 187.37RUB, AZS N3, RU. Баланс 3285.27RUB

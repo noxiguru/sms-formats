@@ -1,0 +1,7 @@
+^.*?#(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+Deposit POS.*([\d/]{10}).*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+PAN#5250 6600 UAH Deposit POS 30000016 P2Y KYIV UA 05/01/2016 17:19:24 Dostupno: 18558.63 UAH Vsogo: -6.7 UAH

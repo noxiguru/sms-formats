@@ -1,0 +1,10 @@
+^.*(?:art|арт).*?(\d{4})\D? ([\d.]{8}) .*(?:pisan|писан).*?.*?([\d\s.,]*\d)\s*([A-Z]{3}), (.*?),.*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 2126: 09.09.17 08:58, spisanie 897.00 RUR, 3DI YM*PASSAGE-CINEMA, MOSCOW. Dostupno 7070.86 RUR.
+
+-----EXAMPLE-----
+Карта 2126: 29.12.17 19:11, списание 49.00 RUR, 3DI YM*ZELLULOZA, MOSCOW. Доступно 31768.68 RUR.

@@ -1,0 +1,10 @@
+^.*espinsa.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Respinsa tranz. Plata retail (Plati billing) la 04.03.18 13:31. Suma:190,00 MDL. Card:4**4505. Suma disp:30.200,46 MDL.
+
+-----EXAMPLE-----
+Tranz. respinsa, sold insuficient: Plata retail (GOOGLE *M3) la 01.06.23 12:35. Suma: 2,71 USD. Card: *9070. Suma disp.: -58,97 MDL.

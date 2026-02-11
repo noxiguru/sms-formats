@@ -1,0 +1,10 @@
+^.*art.*?(\d{4})\D?\s+([\d.]{10}).*dacha .*?([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*(?:ostu|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Karta 2088: 02.09.2017 00:24, vy'dacha nalichny'x 118000.00 RUR. komissiya D0.00 RUR. KOURALATM197771, EKATERINBURG, 53, MALYSHEVA. Dostupno 944.00 RUR.
+
+-----EXAMPLE-----
+Karta 1303: 23.02.2018 vy'dacha 2900.00 RUR. komissiya D0.00 RUR. KOURALATM200025, VERKHNYAYA PYSHM, 101, USPENSKIY. Balans 100.95 RUR.

@@ -1,0 +1,7 @@
+^(?:Списание|Spisanie|Perevod)(?!.*(?:stat|стат)).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4}).*?(?:Дата|Data):? ([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Spisanie 160.0 RUR Karta *1625 Data 20.05.2017 16:25

@@ -1,0 +1,7 @@
+^Beznal.*?perev.*?(\d{4}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Beznalichnyj perevod Karta:9150 summa:90,00 RUR  balans:0,53 RUR Transfer (vremya operatsii MSK 2018-01-17 12:03:47)

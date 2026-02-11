@@ -1,0 +1,7 @@
+^Credit.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}) on ([\d/]{8}) Transaction. (.*) Avail.*alance.*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#MM/dd/yy;payee;av_balance
+
+-----EXAMPLE-----
+Credit: 20000.00 RUB to account **9488 on 04/14/15 Transaction: Salary Credit Available balance: 41111.60 RUB

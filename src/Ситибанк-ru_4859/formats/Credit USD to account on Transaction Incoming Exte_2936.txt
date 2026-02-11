@@ -1,0 +1,7 @@
+^.*redit.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4}) on ([\d/]{10}) .ransac.*?:\s+(.*?)\s+.vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#yyyy/MM/dd;comment;av_balance
+
+-----EXAMPLE-----
+Credit: 130.50 USD to account **4100 on 2017/04/13 Transaction: Incoming External Credit Available balance: USD 1.145,07

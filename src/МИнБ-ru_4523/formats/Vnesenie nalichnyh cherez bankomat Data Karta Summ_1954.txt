@@ -1,0 +1,7 @@
+^Vnesenie n.*?([\d/]{5}).*arta.*?(\d{4}).*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid#cash;income;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Vnesenie nalichnyh cherez bankomat Data: 25/08 18:16 Karta: 1111 Summa: 1000.00RUB Komissija: 0.00RUB Dostupno: 1036.19RUB Terminal: K0020002,MINB,Leningradskiy pr-t,d.49,Moscow,RU

@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.тмена\s+.*)\s+в\s+(.*?)\.?\s+.стат.*?(-?[\d\s.,]*\d).*\*(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;comment;payee;av_balance;syncid
+
+-----EXAMPLE-----
++2.23 RUR Отмена покупки в 3DI CKASSA, YAROSLAVL. Остаток 1 200.00 RUR. Карта *8466 ║ Ozon.Card

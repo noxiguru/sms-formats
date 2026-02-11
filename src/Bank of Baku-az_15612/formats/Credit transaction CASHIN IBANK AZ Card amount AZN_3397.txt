@@ -1,0 +1,7 @@
+^.*?redit.*? ([\d.]{8}) .*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Credit transaction: 11.12.17 21:04 CASHIN IBANK, AZ Card: ****8974 amount: 255.00 AZN Balance: 255.00 AZN. Thank you. Bank of Baku

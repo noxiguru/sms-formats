@@ -1,0 +1,7 @@
+^([\d-]{8}) .*\*(\d{4}).*niatie n.+?\s+([1-9]\d{0,2}(?:\s\d{3})*\.\d{2}|\d+\.\d{2})\s*([a-zA-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+25-09-18 11:07 Karta *8750 Sniatie nalichnyh KAZAN PR-KT IBRAGIMOVA 56 Summa 12000.00 rub Dostupno 21.44 rub

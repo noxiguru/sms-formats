@@ -1,0 +1,7 @@
+^.*achisl.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;av_balance
+
+-----EXAMPLE-----
+Koshelek. Zachisleno 30.00 RUB. Dostupno 72.52 RUB. wallet.tinkoff.ru

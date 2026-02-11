@@ -1,0 +1,7 @@
+^Auth.?\s*([\d\s.,]*\d)\s*([A-Z]{3}).*Komissia ([\d\s.,]*\d)\s+(.*)\s+Card_N.*?(\d{4})\s.*BAL.*?([-\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;outcome;payee;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth:990.00RUR +Komissia 0.00  RUR Avtomoika Bumer Card_N**3681 DMITRY BENBAU BAL:27 396.19 2013-10-27 16:15:39

@@ -1,0 +1,7 @@
+^([\d.]{8}) .*?\*(\d{4}).*reditn.*?erevod.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+14.03.17 17:14. 4*1075. Kreditnaja chast' P2P perevoda cherez Internet-bank 14 163.00 RUR. Ostatok 19 281.65 RUR.

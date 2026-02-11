@@ -1,0 +1,7 @@
+^.*?(\d{4})승인 .*? ([\d\s.,]*\d)\s*([A-Z]{3}|\S+) 일시불 (\d{2}/\d{2}) [\d:]+ (.*?) 누적(-?[\d\s.,]*\d)\s*([A-Z]{3}|\S+).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#Md;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+삼성1476승인 KIM* 100원 일시불 01/09 20:07 세븐일레븐아산음 누적80,090원

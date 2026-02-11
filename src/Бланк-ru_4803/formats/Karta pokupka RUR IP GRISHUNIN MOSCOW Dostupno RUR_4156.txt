@@ -1,0 +1,7 @@
+^.*art.*?(\d{4}).* ([\d.]{8}) .*okup.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\.\s+.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 7216: 14.04.19 14:06, pokupka 1120.35 RUR, IP GRISHUNIN, MOSCOW. Dostupno 167483.42 RUR.

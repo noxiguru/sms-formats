@@ -1,0 +1,7 @@
+^\d+\*+(\d{4})\s+VYDACH.*USPES.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\d+:\d.*DOSTU.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+4714***9752 VYDACHA NALICHNYH USPESHNO 40000.00 KGS, Vip centr 2, KG, 27.11.2024 12:05, DOSTUPNO:104126.40 KGS ║ Транзакция

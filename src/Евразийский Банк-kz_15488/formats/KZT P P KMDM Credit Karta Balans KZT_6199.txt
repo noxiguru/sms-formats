@@ -1,0 +1,7 @@
+^\+?([\d\s.,]*\d)\s*([A-Z]{3})\s+(?!.*\d{2}[-.]\d{2}[-.]\d{2}).*?\*(\d{4})\.\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
++55000.00 KZT P2P KMDM Credit Karta*6266. Balans 77161.76 KZT.

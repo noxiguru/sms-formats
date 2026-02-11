@@ -1,0 +1,7 @@
+^Perevod\s+na\s+sum\w+\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+.*SBP.*oluchat\w+\s+-\s+(.*?)\.?$
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+Perevod na summu 5000.00 RUR cherez SBP ispolnen. Poluchatel - Valeriia Evgenevna B..

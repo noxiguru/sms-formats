@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{8}) .*(?:няти[eе]|nyatie)(?!.*(?:алан|alan))([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument
+
+-----EXAMPLE-----
+VISA2561 26.05.20 11:13 Snyatie 400p ATM5009020:

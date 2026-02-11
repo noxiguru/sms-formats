@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*пл[аa]т[аa].*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) (?:.[оo]лг .*)?.(?:[оo][сc]т[уy]|[сc]т[аa]т).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+*2993 Оплата 2231,03RUR PYATEROCHKA 12844 Долг 9587.95RUR Доступно 16159.34RUR
+
+-----EXAMPLE-----
+*5627 Оплата 136RUR STOLOVAIA 14 Остаток 47751.17RUR Овер-фт 39600RUR
+
+-----EXAMPLE-----
+*1350 Oплата 276,2RUR TAMERLAN Оcтaток 10720,5RUR

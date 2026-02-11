@@ -1,0 +1,7 @@
+^.*асход д.*\s+card.*\*(\d{4})\s+sum\s+([\d\s.,]*\d)([A-Z]{3})\s*Ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Kub universal bank.Расход денежных средств через ка card 4117*6827 sum 5 000.00RUROstatok 22 497.87 RUR

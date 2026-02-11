@@ -1,0 +1,7 @@
+^.*trans.*([\d.]{10}).*\*(\d{4}).*znesek.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s*(.+?)\.\s*Info.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Obvestilo o transakciji SPLET/TEL NAKUP 11.11.2015 23:54, kartica ***6761, znesek 1,59 EUR, LONDON GB. Informativno razpolozljivo stanje na kartici po izvedeni transakciji: 36,66 EUR. Info: 1234567890 NLB d.d.

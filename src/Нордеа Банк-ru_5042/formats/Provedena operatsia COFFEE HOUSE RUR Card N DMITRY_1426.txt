@@ -1,0 +1,7 @@
+^.*operatsia: (.*) - ([\d\s.,]*\d) ([A-Z]{3}) \(([\d\s.,]*\d).*?(\d{4}).*Balance. (-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+payee;op_outcome;instrument;outcome;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Provedena operatsia: COFFEE HOUSE - 240,00 RUR (240,00 ) Card N**9500 DMITRY POPKOV Balance: 000000,00 2014-11-05 20:41:12

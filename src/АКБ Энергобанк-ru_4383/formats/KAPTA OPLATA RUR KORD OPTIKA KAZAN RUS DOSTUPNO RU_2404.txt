@@ -1,0 +1,7 @@
+^([\d.]{8}) .*?\*(\d{4}) OPLA.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+/\s+DOSTUP.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+18.04.16 18:32:12 KAPTA 4751*6700 OPLATA 535 RUR KORD OPTIKA KAZAN RUS / DOSTUPNO 6682,09 RUR

@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{5})\s+.*(?:аличн|alich).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:стат|stat).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+ZSKB 0675 26.09 19:21 nalichnye 90000.00r, ostatok 88508.04r

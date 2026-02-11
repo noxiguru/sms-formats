@@ -1,0 +1,7 @@
+^([\d.]{8}) .*(OTMENA POK\S+).*\*(\d{4}).*SUM.*?([\d\s.,]*\d)\s*([A-Z]{3});\s*(.*?)\s+BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;date#dd.MM.yy;syncid;income;instrument;payee;balance
+
+-----EXAMPLE-----
+20.12.17 12:30 OTMENA POKUPKI EPOS (        ) card: ****4181 SUMMA:1.00 RUB;YOTA, RU BALANS PO KARTE: 67125.32 RUB

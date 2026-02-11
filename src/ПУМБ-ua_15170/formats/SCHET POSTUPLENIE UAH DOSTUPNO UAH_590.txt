@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*(?:POSTUPLENIE|NADHODZHENNIA)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*UPNO\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+SCHET 1111 2012-06-13 14:57:21 POSTUPLENIE 1200.00 UAH DOSTUPNO 1190.01 UAH

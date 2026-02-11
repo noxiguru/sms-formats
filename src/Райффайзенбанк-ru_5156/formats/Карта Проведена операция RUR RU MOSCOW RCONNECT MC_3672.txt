@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*роведена оп.*?([\d\s.,]*\d)\s*([A-Z]{3});\s*(.*?);.*omis.*?([\d\s.,]*\d).*([\d-]{10}).*осту.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;fee;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *8155; Проведена операция: 10000 RUR;  RU/MOSCOW/RCONNECT MCMS; Komissiya: 150 RUR; Дата: 2018-05-01; Доступный Остаток: 12215.85 RUR. Raiffeisenbank

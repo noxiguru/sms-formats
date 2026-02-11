@@ -1,0 +1,7 @@
+^.*DEBIT.*acc.*?\**([\d*]{4,6}) .*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}) ([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+*DEBIT* RCB account: ***311*01 Amount: 160.00 EUR 15/03/2018 12:04 T. +35725355722

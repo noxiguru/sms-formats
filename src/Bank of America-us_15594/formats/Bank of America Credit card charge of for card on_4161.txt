@@ -1,0 +1,19 @@
+^.*(?:(?:harge|oney tra\w+|draft|ayment) of|heck for) ([A-Z]{3}|\W)\s*([\d\s.,]*\d) (?:for|was deduc).*?(\d{4}) .*on (\d{2}/\d{2}/\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#Mdy
+
+-----EXAMPLE-----
+Bank of America: Credit card charge of $14.99 for card 7184 on 04/30/2019. Go online to view details.
+
+-----EXAMPLE-----
+Bank of America: Money transfer of $1,286.58 for account 8130 was deducted on 09/14/2021. Go online to view details.
+
+-----EXAMPLE-----
+Bank of America: Electronic draft of $418.80 for account 8130 was deducted on 09/27/2021. Go online to view details.
+
+-----EXAMPLE-----
+Bank of America: Online bill payment of $478.79 for account 8130 was deducted on 09/27/2021. Go online to view details.
+
+-----EXAMPLE-----
+Bank of America: Check for $2,100.00 was deducted from account 8950 on 10/12/2021. Go online to view details.

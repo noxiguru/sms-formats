@@ -1,0 +1,7 @@
+^Eliberare\s+num.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*\s*(\d{4}).*oldul.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Eliberare numerar in suma de 1501.00 MDL  de pe cardul *** 4712. Soldul disponibil: 5676.87 MDL. ║ MAIBank

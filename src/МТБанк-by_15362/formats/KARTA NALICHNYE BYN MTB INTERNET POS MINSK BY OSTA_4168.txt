@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d-]{10}).*NALICH.*?([\d\s.,]*\d)\s*([A-Z]{3}).*OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+KARTA 417753******7359 2019-05-12 19:38:55 NALICHNYE 300.00 BYN MTB INTERNET POS         MINSK        BY OSTATOK 2055.34 BYN Spr.:5099999

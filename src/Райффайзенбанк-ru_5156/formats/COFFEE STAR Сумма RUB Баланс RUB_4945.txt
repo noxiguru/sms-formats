@@ -1,0 +1,7 @@
+^(?!.*║)(.+?)\s+.умма\W?([\d\s.,]*\d)\s*([A-Z]{3})\s+.алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s*$
+
+-----COLUMNS-----
+payee;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+COFFEE STAR Сумма: 120.00 RUB Баланс: 187 787.80 RUB

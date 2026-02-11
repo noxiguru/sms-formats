@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(.*?)\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+.ополн.*?\*(\d{4}).*\s+║\s+(.озврат).*
+
+-----COLUMNS-----
+income;instrument;payee;av_balance;acc_instrument;syncid;comment
+
+-----EXAMPLE-----
++11 ₸ WILDBERRIES,ALMATYKZ Доступно 16 597,93 ₸ Пополнено Freedom **4208 ║ Возврат WILDBERRIES,ALMATYKZ

@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d) is cre.*X\d*(\d{4}) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy
+
+-----EXAMPLE-----
+AED 50,116.00 is credited to your account XXXXXXX354001 on 21-12-2021. If not initiated by you, call 04-2130000

@@ -1,0 +1,7 @@
+^([\d-]{10}).*?POSTUPLENIE ([\d\s.,]*\d) ([A-Z]{3}) BALANS (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+2013-11-19 18:49:26 *POSTUPLENIE 1000.00 UAH BALANS 1013.75 UAH KREDITNIY LIMIT 0.00 UAH VBR-BANK 0800-500-798

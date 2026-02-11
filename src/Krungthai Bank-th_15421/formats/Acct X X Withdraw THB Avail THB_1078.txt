@@ -1,0 +1,7 @@
+^(\d{2}-\d{2}).*Acct.*?\d*(\d{4}).*ithdraw.*?([\d\s.,]*\d)\s*([A-Z]{3}) Avail (-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dM;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+08-03@20:01 Acct X52928X: Withdraw 114.00THB Avail 6,848.07THB

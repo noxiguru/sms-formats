@@ -1,0 +1,7 @@
+Uspeshnaya operaciya\s+Karta:\s+\*(\d{4})\s+Summa:\s+([0-9][\d\s.,]*(?:[.,]\d+)?)\s+([A-Za-z]{1,3})\s+Balans:\s+([0-9][\d\s.,]*(?:[.,]\d+)?)\s+([A-Za-z]{1,3})\s+(.*?)\s+(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2})
+
+-----COLUMNS-----
+syncid;outcome;instrument;balance;acc_instrument;payee;date#yMd
+
+-----EXAMPLE-----
+Uspeshnaya operaciya Karta: *4538 Summa: 60 AZN Balans: 188.7 AZN ZULEYKHA ACCESSORIES 2025-04-26 17:48:04

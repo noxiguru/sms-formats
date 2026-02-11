@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+from\s+(.*?)\s+(has\s+been\s+refunded)\s+to\s+your.*?with\s+(\d{4}).*
+
+-----COLUMNS-----
+instrument;income;payee;comment;syncid
+
+-----EXAMPLE-----
+AED 10.94 from Al Futtaim has been refunded to your Wio Personal card ending with 8027.

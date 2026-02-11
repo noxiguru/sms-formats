@@ -1,0 +1,7 @@
+^.*?acc.*?(\d{4}) .*?credit.*?of\s+([a-zA-Z]{2,3})\.?\s*([\d\s.,]*\d)\s+on\s+(\d{1,2}-\S{3}-\d{2}).*alan.*?\.?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;income;date#dd-MMM-yy;av_balance
+
+-----EXAMPLE-----
+Your Citibank account XXXXXX4812 has been credited with salary of Rs. 196519 on 25-AUG-16. Account balance is Rs. 211161.52

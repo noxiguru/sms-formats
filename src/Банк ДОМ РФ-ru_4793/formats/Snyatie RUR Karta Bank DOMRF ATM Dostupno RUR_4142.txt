@@ -1,0 +1,7 @@
+^.*nyatie ([\d\s.,]*\d)\s*([A-Z]{3}).*art.*?(\d{4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Snyatie  14,000.00 RUR Karta 6469 Bank DOMRF ATM 09629600 Dostupno 158.12 RUR

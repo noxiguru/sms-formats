@@ -1,0 +1,7 @@
+^(.{4})\s+([\d/]{8}).*pisan.*?([\d\s.,]*\d)([A-Z]{3}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+5*00 02/11/14 Spisanie 209.68UAH. Bal:670.92UAH  Za kreditnyi limit 2.9 na ostatok dolga. pb.ua1809

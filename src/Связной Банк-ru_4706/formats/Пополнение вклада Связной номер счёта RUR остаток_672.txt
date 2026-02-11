@@ -1,0 +1,10 @@
+^(?:Пополнение|Popolnenie).*?\*\d*(\d{4}).*?\s([\d\s.,]*\d)\s*([A-Z]{3}). (?:остаток|ostatok) (-?[\d\s.,]*\d).*?([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Пополнение вклада "Связной +" номер счёта *1491485: 1000 RUR; остаток 76209.17 RUR; 17.03.2013 16:41;
+
+-----EXAMPLE-----
+Popolnenie scheta SAFE nomer *1217018 na summu 25000 RUR; ostatok 42210.71 RUR; 05.02.2014 15:20

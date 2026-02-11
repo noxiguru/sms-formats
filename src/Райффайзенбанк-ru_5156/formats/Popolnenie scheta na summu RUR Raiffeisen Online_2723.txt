@@ -1,0 +1,7 @@
+^(?:Popolnen|Пополнен).*?\*\d{4} (?:na|на).*?[\d\s.,]*\d\s*[A-Z]{3}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Popolnenie scheta *7487 na summu 1,878.89 RUR. 8-800-7000072 Raiffeisen Online

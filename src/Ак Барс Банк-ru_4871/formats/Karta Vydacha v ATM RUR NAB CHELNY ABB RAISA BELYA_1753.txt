@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*?ydacha.*?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Karta *7842. Vydacha v ATM 100.00RUR. NAB.CHELNY, ABB 12 RAISA BELYAEVA. 13.05.18 17:07. Ostatok 1059.10RUR.

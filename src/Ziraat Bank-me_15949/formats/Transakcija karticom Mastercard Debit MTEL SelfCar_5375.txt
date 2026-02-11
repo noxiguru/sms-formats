@@ -1,0 +1,7 @@
+^.ransak.*artic.*\*(\d{4}),\s+(.*?),\s+iznos ([\d\s.,]*\d)\s*([A-Z]{3}).*aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Transakcija karticom, Mastercard Debit ***0314, MTEL SelfCare - TEC90110, iznos 10.00 EUR Raspolozivo stanje: 26104.27 EUR

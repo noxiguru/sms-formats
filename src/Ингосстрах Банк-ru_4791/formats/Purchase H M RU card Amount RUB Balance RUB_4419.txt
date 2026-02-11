@@ -1,0 +1,10 @@
+^([\d.]{8}) .*urchase(?!.*ancel)\s+(.*?)\s+.ard\s+\*+(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;payee;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+26.12.19 21:24 Purchase H&M 687, RU card ***6665. Amount:1619.10RUB. Balance:16450.79RUB.
+
+-----EXAMPLE-----
+26.12.19 08:05 Electronic Purchase MGTRüMOSGORTRANS, RU card ***6665. Amount:300.00RUB. Balance:6075.89RUB.

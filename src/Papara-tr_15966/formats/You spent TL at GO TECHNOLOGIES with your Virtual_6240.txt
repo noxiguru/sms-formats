@@ -1,0 +1,7 @@
+^You\s+spent.*?([\d\s.,]*\d)\s*([A-Z]{2,3})\s+(?:at|on)\s+(?:your\s+)?(.*?)\s+(?:subscription\s+)?(?:with\s+your)\s+([A-Za-z]+)\s+Card.*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+You spent 275,68 TL at GO TECHNOLOGIES with your Virtual Card. ║ Papara Card spending

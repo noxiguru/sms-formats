@@ -1,0 +1,7 @@
+^Покупка ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) .*\*(\d{4}) (.*?) .осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка 651.04р Карта*2445 ATAK 695_Pus Доступно:4018.23р

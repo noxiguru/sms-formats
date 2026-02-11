@@ -1,0 +1,7 @@
+^.*ATM.*ending\s+(\d{4}) for ([a-zA-Z]{1,3})\.?([\d\s.,]*\d).* on ([\d-]{10}).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Thank you for using your HDFC bank DEBIT/ATM card ending 8223 for Rs.3890.00 in MUMBAI at DCSIMSEBELEC on 2016-02-13:05:49:33.

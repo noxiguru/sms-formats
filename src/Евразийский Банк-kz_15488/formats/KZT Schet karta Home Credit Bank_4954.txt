@@ -1,0 +1,7 @@
+^\+(?!.*alan)([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{4}) .*\*(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;date#dMy;syncid
+
+-----EXAMPLE-----
++ 21000.00 KZT 06-04-2021 12:25 Schet/karta *9238 Home Credit Bank.

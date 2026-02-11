@@ -1,0 +1,11 @@
+^.*?x(\d{4}) ([\d.]{10})(?!.*(?:ostu|осту)).*?(?:ydacha|ыдача).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument
+
+-----EXAMPLE-----
+Karta 4x8692 14.04.2016 13:48 MSK Vydacha v bankomate Summa 14000,00 RUR ATM30426802Kontakt-centr +74955800080
+
+-----EXAMPLE-----
+Карта 2x0658 18.02.2019 16:57 МСК Выдача в банкомате Сумма 
+4000,00 RUR ATM N34427420 Контакт-центр 88005000080

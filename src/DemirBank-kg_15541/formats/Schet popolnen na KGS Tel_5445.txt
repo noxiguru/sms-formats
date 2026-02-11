@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) \w+ popol.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;income;instrument
+
+-----EXAMPLE-----
+04.10.22 Schet popolnen na 86 477,00 KGS.Tel+1234567890
+
+-----EXAMPLE-----
+23/12/2022 Schet popolnen na 75 531,00 KGS.Tel+1234567890

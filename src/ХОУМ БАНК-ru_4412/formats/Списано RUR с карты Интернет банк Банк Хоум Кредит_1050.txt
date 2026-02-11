@@ -1,0 +1,16 @@
+^(?:Списан|Spisan|Перевод|Perevod).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:art|арт|клад|klad).*?\*\d*(\d{4})[~.,;]*[.,;]\s+([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Списано 15000.00 RUR с карты *9603; 11.11.2013 15:45:18; Интернет-банк. Банк Хоум Кредит
+
+-----EXAMPLE-----
+Spisano 43710.48 RUR po dogovoru vklada 9559 na vash schet 408*19292, 22.02.2015 17:54:33. Podrobnee po tel. 8(800)700-80-06.
+
+-----EXAMPLE-----
+Spisanie: 59.00 RUR. Karta *0021. 25.05.2017 05:36:51.
+
+-----EXAMPLE-----
+Perevod 30417.00 RUR ispolnen. Karta *0562. 19.07.2018 15:22:13

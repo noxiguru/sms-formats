@@ -1,0 +1,13 @@
+^(?:MUTQ|DEBIT|KANXI).*?([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}) .*(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ (?:MNAC|BALA).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+MUTQ HASHVIN 210,000.00 AMD 4318***0983 SBQ-BANK SYSTEM, AM 20.05.2022 13:44 MNACORD: 583,231.88 AMD
+
+-----EXAMPLE-----
+DEBIT ACCOUNT 196,935.80 AMD 4318***6203 SBQ-BANK SYSTEM, AM 08.03.2023 16:09 BALANCE: 26,319.20 AMD
+
+-----EXAMPLE-----
+KANXIKI MUTQ 111,000.00 AMD 4318***3157 ID BANK CJSC CENTRE BRANCH 2, AM 18.03.2023 00:11 MNACORD: 149,600.40 AMD

@@ -1,0 +1,7 @@
+^Зачисл.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*?\*(\d{4})\s+.осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Зачисление 1355.00 р Счет *5360 Доступно 1355.00 р ║

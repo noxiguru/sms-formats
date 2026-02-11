@@ -1,0 +1,10 @@
+^.*?(?:Snyat|Снят).*?\*(\d{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*(?:ostu|осту)(?!.*limit).*\s(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Snyatie nalichnyh. Karta *8591. Summa 500.00 RUB. KARUSEL, ST-PETERSBURG. 29.03.2013 08:03. Dostupno 5001.84 RUB. www.tcsbank.ru
+
+-----EXAMPLE-----
+Snyatie nalichnyh. Karta *1318. 3000.00 RUB. PRESNENSKAYA NAB., 6.2, Moskva. 23.06.2017 10:12. Dostupno 7370.33 RUB. Tinkoff.ru

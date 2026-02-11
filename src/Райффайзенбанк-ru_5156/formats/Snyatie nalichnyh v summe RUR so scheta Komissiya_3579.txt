@@ -1,0 +1,7 @@
+^Snyatie n.*?([\d\s.,]*\d)\s*([A-Z]{3}) s.*?(\d{4}).*omiss.*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;fee;av_balance
+
+-----EXAMPLE-----
+Snyatie nalichnyh v summe 500000 RUR so scheta *1222. Komissiya za snyatie 150 RUR. Balans 52.58 RUR. Raiffeisenbank

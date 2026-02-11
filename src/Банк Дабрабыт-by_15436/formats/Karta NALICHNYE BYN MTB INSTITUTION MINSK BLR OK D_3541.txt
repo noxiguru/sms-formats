@@ -1,0 +1,10 @@
+^.*?\*(\d{4})\s+(\d{2}[./]\d{2}[./]\d{2,4}) .*?(?:NALICH|НАЛИЧ).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 512722****6485 06/03/2018 12:07:19 NALICHNYE 60.00 BYN MTB INSTITUTION >MINSK>BLR OK Dostupno 977.18 BYN
+
+-----EXAMPLE-----
+Карта 421487****9627 26/03/2020 08:04:53 НАЛИЧНЫЕ 130.00 BYN 00027290504 >MINSK>BY OK Доступно 284.49 BYN

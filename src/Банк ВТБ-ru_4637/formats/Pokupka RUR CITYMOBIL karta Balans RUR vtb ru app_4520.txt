@@ -1,0 +1,13 @@
+^(?:Poku|POKU|Поку).*?\W?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\W?\s+\d{1,2}:\d{2}.*\*(\d{4}).*(?:alan|алан|BALA).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Pokupka, 85.00 RUR CITYMOBIL. 06:14 karta *0175 Balans 1520.04 RUR vtb.ru/app
+
+-----EXAMPLE-----
+Покупка 55.00 RUB METRO.SPB.RU PL ALEKSA 08:08 Карта *0446 Баланс 761.00 RUB ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+POKUPKA 640.00 RUR IP BARANOV A.S. 12:25 KARTA *8281 BALANS 295589.14 RUR vtb.ru/app

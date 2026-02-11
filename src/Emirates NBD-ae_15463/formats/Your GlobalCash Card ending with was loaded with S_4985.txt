@@ -1,0 +1,7 @@
+^.*nding.*?(\d{4})\s+was\s+load.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;income;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your GlobalCash Card ending with 2931 was loaded with SAR 100. Your available balance is SAR 190.52.

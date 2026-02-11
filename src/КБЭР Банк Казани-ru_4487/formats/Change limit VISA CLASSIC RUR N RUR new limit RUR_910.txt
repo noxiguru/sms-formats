@@ -1,0 +1,7 @@
+^Change limit.*?(\d{4})\D?\s+-([\d\s.,]*\d)\s*([А-ЯA-Z]{3}).*limit.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Change limit: VISA CLASSIC (RUR) N: *3947, -39.00 RUR; new limit: 3,609.82 RUR; 26.02.2018 13:19 (UTC+3)

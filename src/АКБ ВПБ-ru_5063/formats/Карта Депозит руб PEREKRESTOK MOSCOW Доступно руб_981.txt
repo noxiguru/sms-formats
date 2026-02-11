@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).\s+Депозит ([\d\s.,]*\d) ([а-яA-Z.]{3}). (.*?) [\d:]{5} ([\d.]{8}). Доступно. ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Карта 6706*8581.  Депозит 1100.00 руб. PEREKRESTOK >MOSCOW 20:53 16.09.13. Доступно: 1100.00 руб.

@@ -1,0 +1,7 @@
+^.*?([\d]{4})\D?\s+(?:Provedena tr|Проведена тр).*?([\d\s,.]*\d)\s*([A-Z]{3}).*?([\d.]{10}).\s*(?:Mesto|Место).?\s+(?!.*ATM)([^;]+);.*(?:stat|стат).*?(-?[\d\s,.]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Карта *2612; Проведена транзакция: 500 RUR; Дата: 10.05.2018; Место: OJSC "Vimpel-Communications"; Доступный Остаток: 52,856.32 RUR. Raiffeisenbank

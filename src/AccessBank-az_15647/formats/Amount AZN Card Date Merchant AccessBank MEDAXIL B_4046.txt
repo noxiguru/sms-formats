@@ -1,0 +1,7 @@
+^Amount.*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*([\d-]{10}).*erchan\S+\s+(.*?)\.\s*.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#yyyy-MM-dd;payee;av_balance
+
+-----EXAMPLE-----
+Amount: +2000 AZN. Card: *5333. Date: 2019-01-09 17:40. Merchant: AccessBank MEDAXIL>B. Balance: 5000 AZN

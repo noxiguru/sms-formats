@@ -1,0 +1,13 @@
+^(?!.*(?:ostu|осту)).*?\*(\d{4}).*?(?:nesenie|znos|несение|нос).*?(\d[\d\s.,]*)\s*([A-Z]{3});\s*([\d/]{5}|).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dd/MM
+
+-----EXAMPLE-----
+Карта *1240: Внесение средств 12 000.00 RUR; 24/03, 22:18;MOSCOW;PSB-RETAIL 00777781.
+
+-----EXAMPLE-----
+Карта *1240: Взнос наличными 15 000.00 RUR; 28/03, 09:24;MOSCOW;18-27, Stromynka St..
+
+-----EXAMPLE-----
+Karta *3115: Vznos nalichnymi 5 000.00 RUR;13:31;Moscow;Promsvyazbank.

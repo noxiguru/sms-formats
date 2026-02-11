@@ -1,0 +1,7 @@
+^.*\*(\d{4}).\s+Otmena.*Uspeshno.\s+Summa.\s+([\d\s.,]*\d)\s+([A-Z]{3}).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Karta: *1324; Otmena spisaniya; Uspeshno; Summa: 1270 RUB; Popolnenie karty; 25.01.2014 09:50. Dannoe sms besplatnoe Home Credit Bank

@@ -1,0 +1,7 @@
+^.*urchase.*?for\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+from\s+.*?([-\dX]{15})\s+at\s+(.*)
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee
+
+-----EXAMPLE-----
+You have made a purchase through Payment Gateway for AED 14068.44 from your account 101-XXX33XXX-01 at ALANSARIEXCHANGEMOBILE

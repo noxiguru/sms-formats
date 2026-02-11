@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) received from (.*?)\W?(?: ║ .*)?$
+
+-----COLUMNS-----
+income;instrument;payee
+
+-----EXAMPLE-----
+300 EUR received from NATĀLIJA LAVRINOVIČA. ║ Notification from Swedbank

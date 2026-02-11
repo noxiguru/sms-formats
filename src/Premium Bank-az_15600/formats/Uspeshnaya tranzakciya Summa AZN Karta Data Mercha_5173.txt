@@ -1,0 +1,7 @@
+^Uspesh.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*ata.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*ercha\w+:\s*ATM.*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Uspeshnaya tranzakciya Summa:200.00 AZN Karta:4192*8721 Data:12/11/21 11:03:34 Merchant:ATM ELIMLAR Balans:728.05 AZN

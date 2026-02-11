@@ -1,0 +1,7 @@
+^Posti.*?([\d.]{10})\s+[\d:]+\s+(.*?) z .*?(\d{4})\D.*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;comment;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Postiyne doruchennya: 02.04.2019 09:02:33 oplata mobilnogo +1234567890 z rakhunku 1234567890. Suma 230.00UAH. Dostupno 21609.78UAH

@@ -1,0 +1,11 @@
+^.*PURCHASE([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(.*?)\s+([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+E-POS PURCHASE
+34.90 USD
+5571***8126
+PAYPAL *BANGNGUYEN2, LU
+28.03.2018 11:36

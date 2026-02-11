@@ -1,0 +1,7 @@
+^.*PURCHASE.*?:\s*(.*?)\s*(?:,\s*)*(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+payee;date#dMy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+APPROVED PURCHASE DB SALE: VKUSVILL 1234, MOSCOW,,04.06.19 10:36,card ****1234. amount:475.00 RUB, balance:100000.00 AMD

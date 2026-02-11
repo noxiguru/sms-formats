@@ -1,0 +1,10 @@
+^.*?\.(\d{4}) ([\d-]{10}).*ayment\D?([\d\s.,]*\d)\s*([A-Z]{3}) (.*)
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+4...6796 2019-09-17 18:14:22 Online Payment,30.00 MDL Comision SMS (ATM),CHISINAU,MOLDOVA
+
+-----EXAMPLE-----
+4...6796 2019-09-20 15:00:51 CH Payment,30.00 MDL Web/Mob P2P transfer GHIREA AN,CHISINAU,MOLDOVA

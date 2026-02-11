@@ -1,0 +1,7 @@
+^(?:Withdr|Retir).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:with\s+yo|con\s+tu).*?(?:in|en)\s+(\d{4}).*\s+║\s+.*acc?ept.*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash
+
+-----EXAMPLE-----
+Withdrawal of 20,00 EUR with your card ending in 5361. ║ Withdrawal accepted 👍💶

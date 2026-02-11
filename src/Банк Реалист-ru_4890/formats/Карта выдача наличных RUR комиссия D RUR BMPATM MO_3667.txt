@@ -1,0 +1,7 @@
+^.*?(\d{4}):\s+([\d.]{10}).*выдача н.*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта *7923: 27.04.2018 11:05, выдача наличных 15500.00 RUR. комиссия D0.00 RUR. BMPATM159234, MOSCOW, 17A, BOLSHAYA ANDRONEVSKAYA. Доступно 10687.00 RUR.

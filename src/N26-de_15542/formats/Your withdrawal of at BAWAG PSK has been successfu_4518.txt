@@ -1,0 +1,7 @@
+^.*(.ithdr\w+).*?of (\S+?)\s*([\d\s.,]*\d).*uccess.*
+
+-----COLUMNS-----
+comment;instrument;outcome
+
+-----EXAMPLE-----
+Your withdrawal of €100.00 at BAWAG/PSK has been successfully processed. ║ N26

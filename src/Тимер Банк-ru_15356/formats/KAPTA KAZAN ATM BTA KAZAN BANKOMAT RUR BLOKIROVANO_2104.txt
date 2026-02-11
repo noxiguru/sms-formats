@@ -1,0 +1,7 @@
+^([\d-]{10}).*?\*(\d{4})\s+.*?BANKOMAT -([\d\s.,]*\d)\s*([A-Z]{3}).*BLOKI.*?([\d\s.,]*\d).*DOSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid#cash;op_outcome;instrument;outcome;av_balance
+
+-----EXAMPLE-----
+2015-11-16 12:58:34 KAPTA 4226***6344 KAZAN ATM00390115 BTA-KAZAN BANKOMAT -7 500.00 RUR BLOKIROVANO 7 500.00 RUR DOSTUPNO 25 134.57 RUR

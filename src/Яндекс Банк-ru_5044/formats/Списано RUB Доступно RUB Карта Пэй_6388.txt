@@ -1,0 +1,7 @@
+^Списан.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\.\s+Досту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\s+║\s+Карта\s+(\S+)$
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+Списано 2345.00 RUB. Доступно 84679.81 RUB ║ Карта Пэй

@@ -1,0 +1,10 @@
+^.*?[Pp]latezh: (.*?)\s+(\d\d\.\d\d\.\d{4}).*?\*(\d{4}) summa:([\d\s.,]*\d)([A-Z]{3}) dostupno:([\d\s.,]*\d).*
+
+-----COLUMNS-----
+payee;date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Internet-platezh: PAYPAL *SQHLJ, 4029357733,  30.06.2013 14:31 karta: **9133 summa:530.70RUB dostupno:29922.67RUB limit kredita:30000.00 RUB
+
+-----EXAMPLE-----
+Platezh: ANGOR, PERM,  10.07.2013 19:50 karta: **9133 summa:170.31RUB dostupno:45002.69RUB limit kredita:30000.00 RUB

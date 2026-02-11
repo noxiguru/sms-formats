@@ -1,0 +1,7 @@
+^.*\*(\d{4})\W? .pisan.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\W?\s+.alans:\s+(kred.*?)\.?$
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;comment
+
+-----EXAMPLE-----
+Karta *8679. Spisano 1 745.49 RUB. Hamburg STEAMGAMES.COM 4259522. Balans: kred. limit 1 065.48 RUB

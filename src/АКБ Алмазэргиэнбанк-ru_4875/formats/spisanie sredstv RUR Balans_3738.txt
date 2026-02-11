@@ -1,0 +1,7 @@
+^([\d.]{8}) .*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\.\.(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+10.06.18 0:03 spisanie sredstv 1500 RUR. 4098...2958. Balans:0

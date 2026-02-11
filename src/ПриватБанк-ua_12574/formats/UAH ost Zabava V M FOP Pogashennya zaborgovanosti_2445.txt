@@ -1,0 +1,7 @@
+^.*?\*(\d{4}):\s+-([\d\s.,]*\d)\s*([A-Z]{3}),\s+ost\.(-?[\d\s.,]*\d);.*?\s+-\s+(.+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;comment
+
+-----EXAMPLE-----
+26008*3929: -153.02UAH, ost. 75.22; Zabava V.M. FOP - Pogashennya zaborgovanosti z komisiji po ekvairingu zgidno ugodi   vid   bez PDV

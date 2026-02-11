@@ -1,0 +1,7 @@
+^Zarah.*?([\d.]{10}).* (z kart\w+\s+[\d*]+)\s+(.*?) na .*?\*(\d{4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;comment;payee;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Zarahuvannya: 05.04.2019 14:50:21 z kartky 5351***7206 OVCHARUK ROMAN na kartku 535129******5963. Suma 75.00UAH. Dostupno 3835.12UAH

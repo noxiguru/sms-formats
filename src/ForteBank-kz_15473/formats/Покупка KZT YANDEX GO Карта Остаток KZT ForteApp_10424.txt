@@ -1,0 +1,7 @@
+(?<!\S)Покупк[аa]\s*:\s*[+−-]?\s*([0-9][\d\s.,]*\d)\s*([^\d\s]{1,4})\s+(.*?)\s+Карт[аa]\s*\*\s*(\d{4})\s+(?:Остаток|Баланс|Доступно)\s*:\s*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([^\d\s]{1,4})
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка: −600.00 KZT YANDEX.GO Карта *4114 Остаток: 133 802.00 KZT ║ ForteApp

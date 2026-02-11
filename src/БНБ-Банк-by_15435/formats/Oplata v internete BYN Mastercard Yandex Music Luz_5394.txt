@@ -1,0 +1,7 @@
+^Oplat(?!.*(?:tmena|neusp)).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?#(\d{4}); (.*?); MCC.*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy;av_balance
+
+-----EXAMPLE-----
+Oplata v internete 5.49 BYN Mastercard#2140; Yandex.Music>Luzern>CHE; MCC 5815; 13.09.2022 02:33:08; Dostupno: 7.49

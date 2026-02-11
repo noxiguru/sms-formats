@@ -1,0 +1,7 @@
+^.*ash .epos.*?([\d\s.,]*\d)\s*([A-Z]{3}) Account:\s*(\S+)\s+(?:[A-Z]+\s+)?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;date#dMy
+
+-----EXAMPLE-----
+Cash Deposit 100.00 GEL Account: MC STANDARD 25/12/2021

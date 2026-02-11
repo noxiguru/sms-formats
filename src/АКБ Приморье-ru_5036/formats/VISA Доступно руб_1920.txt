@@ -1,0 +1,10 @@
+^.*\*(\d+).*([\d.]{8})\s+[\d:]+\s+(?:Дост|Dost).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+VISA**85: 04.08.15 17:37 Доступно 8 423.84 руб
+
+-----EXAMPLE-----
+VISA**15: 06.12.17 18:10 Dostupno 5000,55rub

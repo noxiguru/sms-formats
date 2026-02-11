@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d-]{10}).*?POSTUPLENIE ([\d\s.,]*\d) ([A-Z]{3}).*?BALANCE ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;balance
+
+-----EXAMPLE-----
+KOD 450288 2013-06-17 17:11:15 *POSTUPLENIE 900.00 UAH *BALANCE 956.33 UAH *Splachuy kartoy*

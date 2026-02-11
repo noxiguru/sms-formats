@@ -1,0 +1,13 @@
+^.*opera.*?\*(\d{4}).*um.*?([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+Uspeshnaya operaciya po schetu karti 4256***4478 na summu 45803.00 RUB. 19.04.18 17:07.
+
+-----EXAMPLE-----
+Successful operation. Card *2067. Sum 1678.00 RUB. 02.07.18 18:45
+
+-----EXAMPLE-----
+Successful operation. Card *4617. Sum 7000.00 RUB. 26.02.19 09:43 Loan: 7004.23 RUB. Debt: 22995.77 RUB

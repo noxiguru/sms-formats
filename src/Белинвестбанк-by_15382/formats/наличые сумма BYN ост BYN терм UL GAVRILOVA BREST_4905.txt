@@ -1,0 +1,7 @@
+^\*(\d{4})\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:алич|alich).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:ост|ost).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*2144 25.12.2020 15:17:39 наличые сумма=485 BYN ост= 0.07 BYN терм=UL. GAVRILOVA, 16>BREST BY

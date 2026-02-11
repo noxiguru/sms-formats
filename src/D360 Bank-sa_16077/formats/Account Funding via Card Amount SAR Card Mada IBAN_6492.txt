@@ -1,0 +1,7 @@
+^.*unding.*moun.*?(\W+|[A-Z]{2,3})\s*([\d\s.,]*\d).*Mada\s+IBAN.*?\*(\d{4}).*On:\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy
+
+-----EXAMPLE-----
+Account Funding via Card Amount: SAR 1000.00 Card: *0010 - Mada IBAN: *6495 On: 09/02/2025 10:48:05

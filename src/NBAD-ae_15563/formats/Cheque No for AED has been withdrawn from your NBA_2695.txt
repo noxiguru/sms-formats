@@ -1,0 +1,7 @@
+^Cheq.*?for\s+([A-Z]{3})\s*([\d\s.,]*\d).*ithdraw.*ccoun.*?\*(\d{4})\s+on\s+([\d-]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+Cheque No. 103 for AED 20,000.00 has been withdrawn from your NBAD account ******3000 on 08-10-2016 at 08:38 AM. Your Available Balance is  AED 13,218.41.

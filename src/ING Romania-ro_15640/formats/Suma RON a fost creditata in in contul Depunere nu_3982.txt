@@ -1,0 +1,7 @@
+^Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*redit.*?([\d-]{10}).*ontu.*?(\d{4}) .*old.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd-MM-yyyy;syncid;av_balance
+
+-----EXAMPLE-----
+Suma 1000 RON a fost creditata in 16-10-2018 in contul 1234567890 - Depunere numerar la 5590 OFFICE SV ST. C MARE. Sold: 1004.4 RON.

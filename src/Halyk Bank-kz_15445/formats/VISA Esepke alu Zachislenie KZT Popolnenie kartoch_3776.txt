@@ -1,0 +1,7 @@
+^.*?(\d{4}) .*achislen.*?\.?([\d\s.,]*\d)\s*([A-Z]{3});\s+(.*?); ([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+VISA7928 Esepke alu/Zachislenie. 51950.00 KZT; Popolnenie kartochnogo scheta cherez platezhnyi terminal; 04.07.2018 09:32. Kartadaghy kolzhetimdi soma/Dostupnaya summa po karte: 51938.13 KZT

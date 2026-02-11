@@ -1,0 +1,7 @@
+^.*sch.*?(\d{4}) ([\d.]{10}).*postup.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Na schet 1234567890 30.06.2017 11:19:31 postupila summa v razmere 6,650.00RUR Zachislenie na osnovanii platezhnogo porucheniya.Balance 21480.89RUR.Raiffeisenbank

@@ -1,0 +1,7 @@
+^.*(\d{1,2}/\d{1,2}/\d{2}).*Vydacha\s+n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*kart.*?\*(\d{4}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#MM/dd/yy;outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+TSESNABANK: 12/27/15 7:53 PM ATM00001443 Vydacha nalichnyh 3 000.00 KZT, ATM 1443 BAHUS STORE REF 1234567890 kartochka ***2656,Balance 126 116.97.tel.7711

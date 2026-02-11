@@ -1,0 +1,7 @@
+^.*([\d-]{10}).*opolnen.*\*(\d{4}).*?([A-Z]{3})\s*([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;instrument;income;av_balance
+
+-----EXAMPLE-----
+TSESNABANK: 2018-04-04 13:57:13 Popolnenie scheta***6864 na KZT 280,482.05. Balans 280,526.43,  tel. 7711, www.tsb.kz

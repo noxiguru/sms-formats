@@ -1,0 +1,10 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3}).*(?:opovnen|overnen).*\*(\d{4}).* ([\d.]{8}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
++14720.00UAH, popovnennya kartki 5355***7960, 07.02.19 17:11. Dostupno: 17112.67UAH. Alfa-Bank u vas v telefoni: www.alfabank.ua/getapp
+
+-----EXAMPLE-----
++2529.45UAH, Povernenia koshtiv na osnovniy rahunok kartki 4102***2698, 05.01.20 10:25. Dostupno: 2504.16UAH. Alfa-Bank u vas v telefoni: www.alfabank.ua/getapp ║ Alfa-Bank

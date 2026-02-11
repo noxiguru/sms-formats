@@ -1,0 +1,7 @@
+^Spisanie.*? za (.*?)\s+Kart.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Spisanie komissii za SMS informirovanie Karta:8624 summa:-49,00 RUR  balans:98.45 RUR  (vremya operatsii MSK 2017-06-07 11:31:00)

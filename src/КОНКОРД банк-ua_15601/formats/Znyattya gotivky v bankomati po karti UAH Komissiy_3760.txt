@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*nyattya go.*\*(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}) .omis.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;outcome;instrument;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+10.06.2021 10:04 Znyattya gotivky v bankomati po karti *1810 1000.00 UAH Komissiya: 5.00 UAH Dostupno: 28572.37 UAH (050)(068)(056)7345005

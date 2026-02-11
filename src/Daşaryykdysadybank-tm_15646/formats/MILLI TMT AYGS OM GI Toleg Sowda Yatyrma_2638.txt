@@ -1,0 +1,7 @@
+^MILLI.*\*(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\((.*?)\).*oleg.*?:\s*(.*?)\s+([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;comment;date#dd.MM.yy
+
+-----EXAMPLE-----
+MILLI 601584*****4212 88 TMT (AYGS OM-GI) Toleg/Sowda: Yatyrma 13.12.18 10:06

@@ -1,0 +1,10 @@
+^.*(?:واردة|[Ii]ncome).*?([\d\s.,]*\d)\s*([A-Z]{3}) .* (?:من|[Ff]rom).*?(\d{3}\*\d{3}) ((?:إلى|To) .*?) (?:في|[Oo]n) (\d{2}/\d{2}/\d{4}).*
+
+-----COLUMNS-----
+income;instrument;syncid;comment;date#dMy
+
+-----EXAMPLE-----
+Internal income Amount of 1240 SAR Sender Razan Kassem Abdulazim From account 101*102 To 123*002 On 12/03/2022, at 17:47
+
+-----EXAMPLE-----
+حوالة واردة داخلية مبلغ 1240 SAR مرسل RAZAN KASSEM ABDULAZEEM من 102*101 إلى 002*123 في 12/03/2022 17:47

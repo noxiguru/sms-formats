@@ -1,0 +1,10 @@
+^((?:Отмена|Возвра).*?)\W*([\d\s.,]*\d)\s*(\S{1,3})\s+(.*?)\s+.осту.*?(-?[\d\s.,]*\d)\s*(\S{1,3}).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Отмена покупка: 19 500 ₸ ASTYKZHAN-KOSTANAY LTD Доступно: 110 995,66 ₸
+
+-----EXAMPLE-----
+Возврат суммы: 353 ₸ Магазин на Kaspi.kz Доступно: 11 632,77 ₸ ║ Kaspi Gold

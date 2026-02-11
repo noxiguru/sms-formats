@@ -1,0 +1,7 @@
+^.*hold.*?(\$)([\d\s.,]*\d) on ([\d/]{10}) .*on.*?\((\d{4})\) at (.*?)\..*
+
+-----COLUMNS-----
+instrument;outcome;date#MM/dd/yyyy;syncid;payee
+
+-----EXAMPLE-----
+Capital One Alert: A chrge or hold for $5.50 on 03/21/2019 was placed on your credit card (8204) at MTA*METROCARD MACHIN. Std carrier chrges apply

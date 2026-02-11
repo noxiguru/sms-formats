@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}) .pisan.*(.pisan\w* za.*?) .umma ([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;comment;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+02.08.21 17:59 Karta ***3365 spisanie so scheta, Spisanie za uslugu SMS-informirovaniya summa 59.00 RUB. Dostupno: 1703512.86 RUB

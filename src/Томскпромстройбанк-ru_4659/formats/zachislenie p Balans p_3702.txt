@@ -1,0 +1,7 @@
+^\*(\d{4})\s+([\d./-]{5}) .*achislen.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;income;instrument;av_balance
+
+-----EXAMPLE-----
+*7481 19.12 06:59 zachislenie 100.92p Balans 200.14p

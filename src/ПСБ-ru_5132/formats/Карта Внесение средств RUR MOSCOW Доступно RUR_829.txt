@@ -1,0 +1,10 @@
+^.*?\*(\d{4}).*?(?:nesenie|znos|несение|нос).*?(\d[\d\s.,]*)\s*([A-Z]{3});\s*([\d/]{5}|)[^\d/]?.*?;.*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dd/MM;av_balance
+
+-----EXAMPLE-----
+Карта *8120: Внесение средств 70 000.00 RUR; 03/06, 10:51;MOSCOW;00778891.Доступно 75 201.64 RUR.
+
+-----EXAMPLE-----
+Karta *0744: Vnesenie 34 500.00 RUR;15:33;MOSCOW;PSB-RETAIL 00777782.Dostupno 35 208.74 RUR.

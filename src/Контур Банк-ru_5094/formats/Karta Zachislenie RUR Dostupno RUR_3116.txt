@@ -1,0 +1,7 @@
+^.*?(\d{4}): ([\d.]{10}) .*?achislen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 9371: 19.06.2017 14:54 Zachislenie 26473.23 RUR. Dostupno 50100.97 RUR.

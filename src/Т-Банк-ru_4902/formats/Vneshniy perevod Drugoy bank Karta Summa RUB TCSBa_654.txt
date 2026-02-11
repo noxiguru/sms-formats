@@ -1,0 +1,46 @@
+^.*?(?:erevod|еревод|перация\s+в\s+других).*?[\s*]([\d]{4}|Накоп\w*|Nakop\w+|Кошел\w+|Koshe\w+|[A-Z]{3})(?:\s+\w+)?\.\s+.*?(?:.umm\S+|.умм\S+)?(?!.*oluchat|олучат)\.?([\d\s.,]*\d)\s*([A-Z]{3}).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*(?:ostup|оступ)(?!.*limit|лимит).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Vneshniy perevod. Drugoy bank. Karta *0047. Summa 3941334.95 RUB. TCSBank. 06.03.2013 16:47. Dostupno 0.00 RUB. www.tcsbank.ru
+
+-----EXAMPLE-----
+Vnutrenniy perevod klientu TCS Banka. Karta *9944. Summa 1050.00 RUB. mBank. 24.03.2013 02:11. Dostupno 19041.94 RUB. www.tcsbank.ru
+
+-----EXAMPLE-----
+Jur. perevod. Karta *8591. Summa 10.00 RUB. iBank. 02.04.2013 16:23. Dostupno 91.84 RUB. www.tcsbank.ru
+
+-----EXAMPLE-----
+Perevod na kartu. Karta *8061. Summa 1500.00 RUB. iBank. 24.06.2013 13:49. Dostupno 57019.28 RUB. www.tcsbank.ru
+
+-----EXAMPLE-----
+Внутренний перевод себе. Карта *5281. Сумма 10.00 RUB. iBank. 08.07.2013 17:56. Доступно 91584.74 RUB. www.tcsbank.ru
+
+-----EXAMPLE-----
+Операция в других кредитных организациях. Карта *5281. Сумма 3000.00 RUB. RNKO-KYKYRYZA-3D, NOVOSIBIRSK. 23.08.2013 06:01. Доступно 282211.10 RUB.www.tcsbank.ru
+
+-----EXAMPLE-----
+Vnutrenniy perevod sebe. Nakopitelniy schet. Summa 40.00 RUB.  mBank. 02.04.2015 12:48. Dostupno 0.00 RUB. www.tinkoff.ru
+
+-----EXAMPLE-----
+Perevod na kartu. Karta *1208. 800.00 RUB. TINKOFF BANK CARD2CARD. 23.06.2017 11:17. Dostupno 1899.03 RUB. Tinkoff.ru
+
+-----EXAMPLE-----
+Jur. perevod. Karta *9535. 2000.00 RUB. iBank. 23.06.2017 10:09. Dostupno 17656.40 RUB. Tinkoff.ru
+
+-----EXAMPLE-----
+Vnutrenniy perevod sebe. Nakopitelniy schet. 3500.00 RUB. mBank. 04.07.2017 16:05. Dostupno 23687.02 RUB. Tinkoff.ru
+
+-----EXAMPLE-----
+Vnutrenniy perevod sebe. Koshelek. 1010.00 RUB. iBank. 06.07.2017 09:24. Dostupno 0.00 RUB. wallet.tinkoff.ru
+
+-----EXAMPLE-----
+Перевод. Счет RUB. 579 RUB. Анна Б. 08.09.2019 10:46. Доступно 64 222.12 RUB
+
+-----EXAMPLE-----
+Перевод. Накоп. счет. 3.95 RUB. 20.09.2019 14:10. Доступно 0 RUB ║ Тинькофф
+
+-----EXAMPLE-----
+Перевод. Счет RUB. 24 750 RUB. 01.08.2021 17:25. Доступно 253 750 RUB ║

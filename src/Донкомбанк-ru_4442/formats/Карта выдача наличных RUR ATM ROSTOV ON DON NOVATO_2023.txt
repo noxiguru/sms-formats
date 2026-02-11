@@ -1,0 +1,7 @@
+^.*(\d{4}):\s+([\d.]{10}).*выдача н.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Досту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 0407: 14.10.2015 12:54, выдача наличных 3700.00 RUR, ATM129796, ROSTOV-ON-DON, 3,NOVATOROV. Доступно 6359.72 RUR.

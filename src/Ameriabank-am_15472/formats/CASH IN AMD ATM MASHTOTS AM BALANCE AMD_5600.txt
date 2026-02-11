@@ -1,0 +1,7 @@
+^CASH-IN ([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}) .* (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ BALA.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+CASH-IN 520,000.00 AMD 5501***1072 ATM 216 MASHTOTS 48/79, AM 17.12.2022 16:55 BALANCE: 523,658.95 AMD

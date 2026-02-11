@@ -1,0 +1,7 @@
+^OPLATA ([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}) DATA ([\d.]{10}).*ACODE \d+ (?!.*OSTATOK)(.*)
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;payee
+
+-----EXAMPLE-----
+OPLATA 50000 BYR KARTA #6103 DATA 24.07.2014 12:14:35 ACODE 497200 BPSB - OPLATA USLUG>MINSK>BY

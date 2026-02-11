@@ -1,0 +1,7 @@
+^.*?Vydano ([\d\s.,]*\d) ([A-Z]{3}) Karta: \*(\d{4}).*?(\d{4}-[\d-]{5}).*?Dostupno.*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Vydano 28 000.00 RUR Karta: *1740 Akod: 143962 ul. Marshala Zhukova, 14A RUS 2013-05-25 19:25:05. Dostupno po karte 30.65 RUR.

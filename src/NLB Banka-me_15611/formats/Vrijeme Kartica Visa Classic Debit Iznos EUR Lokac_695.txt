@@ -1,0 +1,7 @@
+^.*arti\w+: (\S+).*znos.*?([\d\s.,]*\d)\s*([A-Z]{3}) Loka\w+: (.*?) Trenu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Vrijeme: 17:37 Kartica: Visa Classic Debit Iznos: 21.92 EUR Lokacija: conto 201 barmneme Trenutno stanje: 454.43 EUR

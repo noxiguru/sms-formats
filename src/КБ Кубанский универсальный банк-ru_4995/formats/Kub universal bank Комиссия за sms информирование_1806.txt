@@ -1,0 +1,7 @@
+^.*bank\.\s*(.омисс.*\sза.*)\s+card.*\*(\d{4})\s+sum\s+([\d\s.,]*\d)([A-Z]{3})\s*Ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Kub universal bank.Комиссия за sms-информирование(V card 4125*8025 sum 35.00RUROstatok 8 328.13 RUR

@@ -1,0 +1,7 @@
+OPLATA\s+([0-9][\d\s.,]*\d)\s+([A-Za-z]{1,3})\s+KARTA\s+#(\d{4})\s+DATA\s+(\d{2}\.\d{2}\.\d{4})\s{2,}\d{2}:\d{2}:\d{2}\s+(MP\s+'[^']+'\s+[A-Z][^>]+(?:>[^>]+)+)\s+OSTATOK\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,3})
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+OPLATA 156.00 BYN KARTA #2788 DATA 18.12.2025  19:21:11 MP 'DZYAKUY' BAPB>MINSKIY R-N>BY OSTATOK 360.57 BYN

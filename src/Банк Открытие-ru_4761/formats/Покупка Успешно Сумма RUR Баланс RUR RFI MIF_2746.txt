@@ -1,0 +1,10 @@
+^.*?(?:окуп|okup)(?!.*tmen).*?\*(\d{4}).*(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:алан|alan).*?(-?[\d\s.,]*\d).*?;\s+(.*?);\s+([\d.]{10}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Покупка *4917; Успешно; Сумма: 219.00 RUR; Баланс: 416.77 RUR; RFI*MIF; 24.11.2016 6:26
+
+-----EXAMPLE-----
+Pokupka *8419; Uspeshno; Summa: 512.24 RUR; Balans: 87480.21 RUR; ZOLOTAYA ROSHCHA; 22.12.2017 10:39

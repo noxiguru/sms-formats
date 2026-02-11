@@ -1,0 +1,7 @@
+^.*([A-Z]{3})\s*([\d\s.,]*\d).*X(\d{4}) .* at\s+(.*?)\s+on ([\d]{2}[- ]\S{3}[- ]\d{2}).*Avbl.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;payee;date#dd-MMM-yy;av_balance
+
+-----EXAMPLE-----
+Dear Customer, txn of INR 1,815.00 using Credit Card XX2008 done at Grofers India on 21-JUN-18. Avbl Cr lmt:INR 2,20,732.25. For dispute,call 04033667777.

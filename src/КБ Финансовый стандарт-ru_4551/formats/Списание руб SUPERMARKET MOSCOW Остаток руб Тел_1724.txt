@@ -1,0 +1,7 @@
+^.*?(\d{4}).*([\d.]{10}).*(?:писание|pisanie).*?([\d\s.,]*\d)\s*([а-яA-Z]{3})\S*\s+(.*).\s+.(?:стат|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+*1439: 12.05.2015 18:42 Списание: 297.70 руб., SUPERMARKET 24, MOSCOW. Остаток 10101.44 руб. Тел.: +7 495 995-5-995

@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d.]{8}).*NALICHNYE ([\d\s.,]*\d) ([A-Z]{3}) \(KOMISSIYA ([\d\s.,]*\d).*DOSTUPNO ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;outcome;av_balance
+
+-----EXAMPLE-----
+BFA BANK 4578***1151 15.10.13 07:50 NALICHNYE 24900.00 RUB (KOMISSIYA 0.00 RUB) BANK, SPB, PETROGRADSKAYA, DOSTUPNO 52852.86 RUB

@@ -1,0 +1,7 @@
+^.*?AUTH(\d{4}) ([\d-]{10}) [\d:]{8} ([\d.]+) (\S{3}) (.*?) AM§AVAIL ([\d.]+).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;balance
+
+-----EXAMPLE-----
+UniCreditBank#320 AUTH0361 2013-01-08 22:10:31 108.25 UAH GIPERMARKET GROSH-2 AM§AVAIL 444.50 UAH

@@ -1,0 +1,22 @@
+^(?:Deposit|ჩარიცხვა).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:Account|ანგარიში)?:?\s*(\S+)\s+(?:[A-Z]+\s+)*(\d{2}[-./]\d{2}[-./]\d{2,4})\s*(?:.ender:\s+)?(.*?|)\s*(?:(?:Thank|გმადლობთ).*)?$
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;payee
+
+-----EXAMPLE-----
+ჩარიცხვა: თანხა: 41.37 GEL ანგარიში: Current 09/04/2018 გმადლობთ
+
+-----EXAMPLE-----
+Deposit Money: Amount: 6.10 GEL Account: MC STANDARD 29/01/2020 Sender: LEILA MARTIROSYAN  Thank You
+
+-----EXAMPLE-----
+Deposit Money: Amount: 62.18 GEL Account: MC GOLD 06/01/2022  Thank You
+
+-----EXAMPLE-----
+Deposit Money: Amount: 9243.38 GEL Account: MC WORLD ELITE 12/07/2022  Thank You
+
+-----EXAMPLE-----
+Deposit Money: 18.00 GEL MC STANDARD 14/07/2022 IVAN SHASTSIUK
+
+-----EXAMPLE-----
+Deposit Money: 3054.81 GEL MC STANDARD 08/08/2022

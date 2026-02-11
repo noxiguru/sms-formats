@@ -1,0 +1,7 @@
+^\*+(\d{4}).*okup.*(.tmena); .umm.*?([\d\s.,]*\d)\s*([A-Z]{3}); (.*?); (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;date#dMy
+
+-----EXAMPLE-----
+**7036; Pokupka; Otmena; Summa: 1 241 RUR; RU/Moskva/Yandex.Eda; 18.07.2021 03:54:30 ║

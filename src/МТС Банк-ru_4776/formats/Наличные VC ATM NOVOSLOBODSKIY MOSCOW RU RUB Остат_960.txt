@@ -1,0 +1,13 @@
+^(?:Наличн|Nalichn).*?\*(\d{4})\W?\s+(\d{2}[-./]\d{2}[-./]?\d{0,4}) .*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(?:Оста|Лими|Osta|Limi).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Наличные VC *7891; 23.08 13:42; ATM-NOVOSLOBODSKIY>MOSCOW RU; 24 900,00 RUB; Остаток: 18 438,83 RUB
+
+-----EXAMPLE-----
+Nalichnye VP *6005; 28.03 14:12; ATM-ZEMLEDELCHESKIY-PER>MOSCOW RU; 500,00 RUB; Ostatok: 24 922,32 RUB
+
+-----EXAMPLE-----
+Nalichnye *3532 25.11 08:32 GAZPROMBANK 200,00 RUB Ostatok: 17 115,46 RUB

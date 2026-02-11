@@ -1,0 +1,10 @@
+^(?:Popolnen|Пополнен).*?x(\d{4}).*? ([\d.]{10}).*?(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:ostup|оступ).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Popolnenie Karta 4x7102 28.10.2013 19:46 MSK Summa 20000,00 RUR Dostupno 20288,73 RUR Kontakt-czentr +74955800080
+
+-----EXAMPLE-----
+Пополнение Карты 4x0163, 3x4203 02.06.2016 21:16 МСК Сумма 5000,00 RUR Доступно 5039,30 RUR ; Контакт-центр +74955800080

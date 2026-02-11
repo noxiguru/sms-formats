@@ -1,0 +1,10 @@
+^.*bank\.\s*(.ачисл.*?|.еречисл.*?)\s+card.*\*(\d{4})\s+sum\s+([\d\s.,]*\d)\s*?([A-Z]{3})\s*Ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Kub universal bank.начисление процентов card 4125*8025 sum 69.41RUROstatok 18 478.08 RUR
+
+-----EXAMPLE-----
+Kub universal bank.Перечисление оплаты труда за июн card 4117*3480 sum 4 072.00RUROstatok 31 264.38 RUR

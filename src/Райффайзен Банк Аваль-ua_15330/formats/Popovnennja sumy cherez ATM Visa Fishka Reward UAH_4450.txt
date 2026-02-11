@@ -1,0 +1,10 @@
+^Popovnen.*?([\d.]{10}).*?(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*ATM.*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid#cash;income;instrument;av_balance
+
+-----EXAMPLE-----
+Popovnennja sumy cherez ATM: 22.04.2014 09:56:03 Visa Fishka Reward/377634 1300.00 UAH ATM1001 RB AVAL KUTZ dostupna suma 4325.59 UAH
+
+-----EXAMPLE-----
+Popovnennja sumy: 11.01.2020 12:20:04 Visa Business Fishka/6256 13000.00 UAH ATM5049 KRDF DARNYTSK dostupna suma 35735.21 UAH

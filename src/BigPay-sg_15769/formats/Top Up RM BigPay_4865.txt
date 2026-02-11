@@ -1,0 +1,7 @@
+^Top Up\W? ([A-Z]{2,3})\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income
+
+-----EXAMPLE-----
+Top Up: RM 4300.00 ║ BigPay

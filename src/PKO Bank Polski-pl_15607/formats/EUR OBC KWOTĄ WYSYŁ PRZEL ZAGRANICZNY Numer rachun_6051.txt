@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})\s+.*WYSYŁ.*dbiorca:\s+(.*)\s+Tytuł.*ata.*?([\d]{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;comment;date#yMd
+
+-----EXAMPLE-----
+-1600,00 EUR OBC.KWOTĄ WYSYŁ. PRZEL.ZAGRANICZNY Numer rachunku odbiorcy: DK..9533 Odbiorca: SAXO BANK A/S PHILIP HEYMANS ALLE 1 52900 HELLERUP DENMARK Tytuł: SAXOBANK TRANSFER Na rachunku 33..3947 Data waluty: 2023-10-24 ║ Obciążenie rachunku

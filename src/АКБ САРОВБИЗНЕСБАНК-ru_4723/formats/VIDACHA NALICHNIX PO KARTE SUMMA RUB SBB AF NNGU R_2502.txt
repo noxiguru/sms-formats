@@ -1,0 +1,7 @@
+^([\d.]{8}).*V[IY]DACHA NAL.*(\d{4})(?!.*BALANS).*?UMM.*?([\d\s.,]*\d)\s*?([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+05.07.16 11:47 VIDACHA NALICHNIX PO KARTE ****9226 SUMMA: 21000.00 RUB; SBB AF NNGU, RUS

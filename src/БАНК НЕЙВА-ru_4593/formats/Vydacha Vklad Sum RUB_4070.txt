@@ -1,0 +1,7 @@
+^(?:Vydacha|Выдача)(?!.*(?:ostu|осту)).*\*(\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vydacha Vklad *0939 Sum 202897.86 RUB 27.01.2019, 09:39

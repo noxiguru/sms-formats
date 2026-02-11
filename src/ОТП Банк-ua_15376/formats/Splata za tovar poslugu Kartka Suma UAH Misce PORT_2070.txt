@@ -1,0 +1,16 @@
+^([\d/.]{5}).*?(?:plata|ytratna).*\*(\d{4}).*uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*isce.?\s*(.*?)\..*(?:alysh|ostup).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dM;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+18.06.2013 10:51:11: Splata za tovar/poslugu. Kartka *6331. Suma: 217,09UAH. Misce: PORTMONE MULTIPOINT Kyiv UA. Zalyshok: 8483,32UAH
+
+-----EXAMPLE-----
+31/10 17:19 Splata za tovar/poslugu. Kartka *0637. Suma: 762 UAH. Misce: LYUBYY DYADYA FOP PETR.  Zalyshok: 17465.73 UAH
+
+-----EXAMPLE-----
+16/11 19:23 Splata za tovar/poslugu. Kartka *3335. Suma: 789.61 UAH. Misce: MEGAMARKET G. Dostupnyi zalyshok: 11257.03 UAH
+
+-----EXAMPLE-----
+02/09 12:30 Splata za tovar. Kartka *6777. Suma: 35.11 USD. Misce: WWW.ALIEXPRESS.COM. Dostupno: 51620.99 UAH Kred.Lim: 60000 Vykorystanyi Kred.Lim: 8379.01

@@ -1,0 +1,16 @@
+^.*(?:икому не|ikomu ne|[Kk]od\W? \d{4}).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Никому не говорите код: 032152. Списание 3000.00 RUB
+
+-----EXAMPLE-----
+SMS-kod: 7026. Perevod SBP Переводы: Перевод по номеру телефона СБП na 79088241682 v ПАО СБЕРБАНК 044525225 v summe 6,000.00 RUB
+
+-----EXAMPLE-----
+Nikomu ne govorite kod: 799859. Spisanie 2 000.00 RUR
+
+-----EXAMPLE-----
+Kod: 0710 dlya oplaty uslugi Edinaya oplata mobil'noy svyazi na summu 115.00 RUB 01.10.2022 13:01

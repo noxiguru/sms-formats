@@ -1,0 +1,7 @@
+^.*chet.*?(\d{4})\s+.opoln.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Schet dogovora 3904397049 popolnen na 50000.00 KZT. HomeCreditBank

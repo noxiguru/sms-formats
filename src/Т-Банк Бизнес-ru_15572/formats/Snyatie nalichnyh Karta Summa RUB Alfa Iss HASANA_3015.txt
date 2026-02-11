@@ -1,0 +1,7 @@
+^.*?(?:Snyatie|Снятие).*?\*(\d{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10})(?!.*limit).*(?:ostu|осту).*\s(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Snyatie nalichnyh. Karta *6453. Summa 24700.00 RUB. Alfa Iss 26 HASANA TUF, NAB.CHELNY. 17.05.2017 14:20. Dostupno 36956.77 RUB. Tinkoff.ru

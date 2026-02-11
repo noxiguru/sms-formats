@@ -1,0 +1,7 @@
+^.*?([\d.]{8}).*?(\d{4})\s+(KOMISSIA.*?)\s([\d\s.,]*\d)\s*([A-Z]{3}).*OSTATOK.*\s(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+DATA 29.04.2014 VREMIA 14:17:30 KARTA 4164***0813 KOMISSIA ZA SMS 30.00 RUR V BANK SGB OSTATOK SCHETA 17566.69 RUR

@@ -1,0 +1,7 @@
+^.asxod.*(\d{2}[-./]\d{2}[-./]\d{2,4}) .*r/s .*?(\d{4})\D\s*\W?\s*([\d\s.,]*\d).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;av_balance
+
+-----EXAMPLE-----
+rasxod.16.12.2020 14:40:04 r/s 1234567890 :30,000,000.00 na tranz. schet po drugim sredstvam k beznal. ostatok: 32,297,266.27

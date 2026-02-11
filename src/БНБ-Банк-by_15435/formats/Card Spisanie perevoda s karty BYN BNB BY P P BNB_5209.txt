@@ -1,0 +1,7 @@
+^.*#(\d{4}).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Card#4899; Spisanie perevoda s karty: 289.72 BYN; 28.12.2021 13:41:51; BNB.BY_P2P_BNB-R>MINSK>BY; Dostupno 89.79 BYN

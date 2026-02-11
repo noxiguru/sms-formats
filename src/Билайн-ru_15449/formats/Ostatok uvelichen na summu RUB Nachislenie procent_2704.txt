@@ -1,0 +1,13 @@
+^.*?(\d{4}).*(?:velich|ostupl).*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+(Nachislen.*?|Vypl.*?|Popolnen.*?)(?:\.|$).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment
+
+-----EXAMPLE-----
+*8482; Ostatok uvelichen na summu 9.71 RUB. Nachislenie procentov ot banka po usluge "% na ostatok"
+
+-----EXAMPLE-----
+*8482; Ostatok uvelichen na 22.84RUR. Vyplata % po usluge "% na ostatok".Pozvolte karte rabotat na vas! Prosto popolnite kartu i poluchayte bolshe!
+
+-----EXAMPLE-----
+*7981; Postuplenie na summu 467,000 RUB. Popolnenie v banke po usluge % na ostatok"

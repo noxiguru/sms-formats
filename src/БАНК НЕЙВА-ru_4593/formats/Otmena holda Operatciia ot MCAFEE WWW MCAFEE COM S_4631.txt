@@ -1,0 +1,7 @@
+^(Otmena .*) Oper.* ot \d{2}[-./]\d{2}[-./]\d{2,4}\D? [\d:]{5,} (.*?);.*\*(\d{4}) Sum.*?-([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*ostu.*?(-?[\d\s.,]*\d).* (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;payee;syncid;income;instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Otmena holda Operatciia ot 10.04.2020, 10:15 MCAFEE *WWW.MCAFEE.COM; 8-800-5550216 Schet *5684 Sum -2.55 RUB Dostupno 74392.56 RUB 25.04.2020, 17:00

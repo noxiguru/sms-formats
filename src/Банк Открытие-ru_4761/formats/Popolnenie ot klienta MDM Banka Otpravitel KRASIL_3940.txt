@@ -1,0 +1,9 @@
+^Popolnen.*tpravitel\S*\s+(.*?)\s+\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*([\d./-]{10}).*
+
+-----COLUMNS-----
+payee;syncid;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Popolnenie ot klienta MDM Banka.Otpravitel' KRASIL'NIKOV EVGENII
+*8338; Uspeshno; Summa: 300.00 RUR; Balans: 694.85 RUR; 05.10.2018 7:38;
+Podrobnosti v mobil'nom banke binbank.ru/app

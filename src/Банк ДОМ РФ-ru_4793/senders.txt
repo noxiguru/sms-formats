@@ -1,0 +1,5 @@
+ROSCAP SMS
+roscapbank
+Bank_DOM.RF
+com.bssys.roscapretail
+com.bank.domrf.v2

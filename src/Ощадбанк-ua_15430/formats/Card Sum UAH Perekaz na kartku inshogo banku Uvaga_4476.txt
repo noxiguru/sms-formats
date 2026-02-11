@@ -1,0 +1,7 @@
+^([\d.]{8}).*(?:ard|cnt).*?(\d{2,4})[\s*]+Sum.\s*([\d\s.,]*\d)\s*([A-Z]{3}) (Perek.*?) Uvaga.*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;comment
+
+-----EXAMPLE-----
+10.01.20 11:33 Card:5-206* Sum:400.00 UAH Perekaz na kartku inshogo banku Uvaga! oschadbank.ua/chat

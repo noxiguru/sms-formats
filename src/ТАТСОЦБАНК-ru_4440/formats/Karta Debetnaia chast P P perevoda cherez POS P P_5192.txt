@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}) .ebet.*umm.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}) .omis.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d)\s*([a-zA-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+29-10-21 11:45 Karta *1326 Debetnaia chast P2P-perevoda cherez POS P2P MB BRS Summa 5000.00 rub Komissiia 50.00 rub Dostupno 7914.30 rub

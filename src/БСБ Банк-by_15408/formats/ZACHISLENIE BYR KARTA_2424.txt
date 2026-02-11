@@ -1,0 +1,7 @@
+^ZACHISLENIE([\d\s.,]*\d)\s*([A-Z]{3}) KART.*?#(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;syncid
+
+-----EXAMPLE-----
+ZACHISLENIE 2261839 BYR KARTA #4482

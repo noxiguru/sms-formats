@@ -1,0 +1,10 @@
+^.*?\*(\d{4}) .spish.*? -([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+\s+Perek.*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartka 4102***1049 uspishna operaciya -8148.72UAH 15.07.22 10:26 Perekaz z kartky na kartku, UKR Balans:3866.64UAH Korysne tut: https://sense.top/info ║ Sense SuperApp
+
+-----EXAMPLE-----
+Kartka 4028***6041 uspishno -60000.00UAH 16.11.23 08:57 Perekaz z kartky na kartku, UKR Balans:20094.34UAH Limit:20000.00 Korysno: https://sense.top/INFO ║ Sense SuperApp

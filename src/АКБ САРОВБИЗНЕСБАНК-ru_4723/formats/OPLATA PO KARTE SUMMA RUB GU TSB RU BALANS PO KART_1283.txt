@@ -1,0 +1,10 @@
+^([\d.]{8}).*(?:OPLATA|POKUPKA).*(\d{4}) SUMMA.\s*([\d\s.,]*\d) ([A-Z]{3}). (.*) BALANS.*\s(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+17.06.14 09:14 OPLATA PO KARTE ****3013 SUMMA: 56.72 RUB; GU TSB 1, RU BALANS PO KARTE: 8079.71 RUB
+
+-----EXAMPLE-----
+03.07.14 22:57 POKUPKA EPOS (995026  ) card: ****4010 SUMMA:1500.00 RUB; ROSTELEKOM, RU BALANS PO KARTE:  3187.14 RUB

@@ -1,0 +1,7 @@
+^(.+?)\s+.умма.*?([\d\s.,]*\d)\s*([A-Z]{3}).*алан.*?(-?[\d\s.,]*\d).*║.*\*(\d{4}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;av_balance;syncid
+
+-----EXAMPLE-----
+Billa  Сумма: 1 539.52 RUB  Баланс: 13 050.65 RUB ║ Операция по карте *5950

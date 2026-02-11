@@ -1,0 +1,7 @@
+^.*? ([A-Z]{3}|\W)\s*([\d\s.,]*\d) was debit.*\*(\d{3,4}).*vailab.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Customer, AED 100.00 was debited from your account *518. Your available account balance is AED 1000.00

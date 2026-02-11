@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4})\s+[Dd]ebit.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+07.09.2021 16:13:36 *7792 Debit: 275.38 UAH P24 DB V UA DN-SK. Balance: 0.02 UAH

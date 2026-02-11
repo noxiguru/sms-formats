@@ -1,0 +1,13 @@
+^.*-([\d\s.,]*\d)\s*([A-Z]{3}).*ergi.*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;fee;av_balance;acc_instrument;payee;date#dMy;syncid
+
+-----EXAMPLE-----
+Mebleg: -20.00 AZN
+Kom./Vergi: 0.00 AZN
+Balans: 555.15 AZN
+PANDA BABY>BAKU
+13-02-2022 17:34
+Kart: *5935.
+Tesekkur edirik.Unibank

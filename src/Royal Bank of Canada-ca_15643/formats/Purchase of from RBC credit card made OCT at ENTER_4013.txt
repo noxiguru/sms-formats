@@ -1,0 +1,7 @@
+^.*Purch.*?([A-Z]{3}|\$)\s*([\d\s.,]*\d) from .*?(\d{4}) made (\S{3}\d{1,2}) at (.*?)\s+(?:\(\d+\)\s*\d|\.).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#MMMDD;payee
+
+-----EXAMPLE-----
+Purchase of $36.78 from RBC credit card 0003 made OCT24 at ENTERPRISE (506)642-9176. Stop-txt STOP/Help-txt HELP

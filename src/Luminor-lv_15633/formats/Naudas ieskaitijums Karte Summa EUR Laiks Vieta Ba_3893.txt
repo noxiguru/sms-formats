@@ -1,0 +1,7 @@
+^.*eskaitij.*\*(\d{4}).*umm.*?([A-Z]{3})\s*([\d\s.,]*\d).*([\d.]{10}).*ieta:\s*(.*?)\s*.ieej.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dd.MM.yyyy;comment;av_balance
+
+-----EXAMPLE-----
+Naudas ieskaitijums Karte: *2941 Summa: EUR 319.72 Laiks: 30.08.2018 18:36 Vieta: Bankas operacija ar kontu>Riga LV Pieejams: EUR 1939.25 Paldies!

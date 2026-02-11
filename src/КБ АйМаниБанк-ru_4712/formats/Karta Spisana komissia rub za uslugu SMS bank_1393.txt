@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*?komissia ([\d\s.,]*\d) \S+ (.*)
+
+-----COLUMNS-----
+syncid;outcome;comment
+
+-----EXAMPLE-----
+Karta *2899 Spisana komissia 35 rub za uslugu SMS-bank

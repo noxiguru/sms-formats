@@ -1,0 +1,7 @@
+^.*?(\d{4}).*([\d.]{8}).*(?:дача н|dacha n).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:стат|ostu).*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 8827: 18.02.16 19:32, vy'dacha nalichny'x 3000.00 RUR, VB24, MOSKVA G, 2-2, KHOROSHEVSKOE. Dostupno 26601.51 RUR.

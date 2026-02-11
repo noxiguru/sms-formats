@@ -1,0 +1,7 @@
+^The avail.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+The available balance for account X1850 on 21/02 @ 06:04 is Bt 929.21.

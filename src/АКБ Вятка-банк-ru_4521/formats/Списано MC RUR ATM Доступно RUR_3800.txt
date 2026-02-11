@@ -1,0 +1,7 @@
+^Списан.*?\*(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*ATM.*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Списано MC *1142 300.00 RUR ATM 60002619 Доступно 1,321.86 RUR

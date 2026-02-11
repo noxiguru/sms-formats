@@ -1,0 +1,7 @@
+^(VOZVRAT)\s+(.*?),?([\d\s.,]*\d)\s*([A-Z]{3}).*\*\d*(\d{4}).*BAL(-?[\d\s.,]*\d).*\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+comment;payee;income;instrument;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+VOZVRAT HOTEL CITY SOFIA OOD, BG 463.53 BGN, CARD*2191 ALEXEY MALAKHOV BAL 144143.16 RUB 04.12.12 21:37 END

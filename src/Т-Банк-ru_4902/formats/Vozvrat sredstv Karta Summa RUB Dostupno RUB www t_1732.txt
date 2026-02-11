@@ -1,0 +1,7 @@
+^(?:Otmena|Отмена|Vozvrat|Возврат).*?\*([\d]{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}).\s+(\d{2}\.[\d.]{7}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Vozvrat sredstv. Karta *1632. Summa 9.85 RUB. 07.05.2015 14:35. Dostupno 16621.53 RUB. www.tinkoff.ru

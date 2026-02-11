@@ -1,0 +1,10 @@
+^.*\*(\d{4})\s+(?:Зачислен|Zachislen).*?([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{5}) .*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM;av_balance
+
+-----EXAMPLE-----
+*8265 Зачислено 1200.6RUB 05.02 12:20 Доступно 9086.14RUB
+
+-----EXAMPLE-----
+*2055 Zachisleno 14000RUB 17.04 10:20 Dostupno 53324.59RUB

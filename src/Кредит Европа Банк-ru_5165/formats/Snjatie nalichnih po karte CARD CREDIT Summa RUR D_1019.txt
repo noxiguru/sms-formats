@@ -1,0 +1,7 @@
+^Snjatie.*?#\s*(\d{4}) ([\d/]{10}).*?Summa:([\d\s.,]*\d)([A-Z]{3}).*?limit:([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd/MM/yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Snjatie nalichnih po karte CARD CREDIT #5309 14/10/2013 01:07:11 Summa:3000.00RUR Dostupniy limit:1543.85RUR ATM-KRSY-KARLA MARKSA  KRASNOYARSK

@@ -1,0 +1,7 @@
+^([\d-]{10}).*idmineno op.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+po\s+(\d{4})\s+(.*)\s+.alysh.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;income;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+2016-08-13 11:28:35 Vidmineno operatsiiu 69.06 UAH po 1855 MAGAZIN1036 Zalyshok 18 340.57 UAH

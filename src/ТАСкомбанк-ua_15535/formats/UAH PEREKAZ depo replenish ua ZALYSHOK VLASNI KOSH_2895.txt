@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) PEREK\w+ (.+) \*(\d{4}) ([\d/]{8})\D.*ZALY.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;date#dd/MM/yy;av_balance
+
+-----EXAMPLE-----
+4 192.03 UAH PEREKAZ depo replenish ua *5772 13/12/19, 01:17:19 ZALYSHOK 4 200.00, VLASNI KOSHTY 0.00

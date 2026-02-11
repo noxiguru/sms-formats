@@ -1,0 +1,7 @@
+^Poluchenie n.*?([\d.]{6}\d{4}).*?(\d{4}). Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}). Dost.*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Poluchenie nalichnykh: ATM FILIALA V KAZANI 225, KAZAN, BONDARENKO, 3,24.01.2014 15:12, karta 3229. Summa:18900.00 RUB. Dostupny ostatok:77108.77 RUB.

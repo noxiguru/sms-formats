@@ -1,0 +1,7 @@
+^Transfer bet.*?([\d\s.,]*\d)\s*([A-Z]{3}) From: ([A-Z]+)(?: [A-Z]+)? (To.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;comment;date#dMy
+
+-----EXAMPLE-----
+Transfer between Accounts:  200.00 GEL From: MC GOLD To: MC STANDARD 15/01/2022

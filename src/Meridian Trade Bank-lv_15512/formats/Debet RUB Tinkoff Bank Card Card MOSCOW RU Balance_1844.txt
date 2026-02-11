@@ -1,0 +1,7 @@
+^Deb.*(\d{4})\/([\d\s.,]*\d)\/([A-Z]{3})\/([\d.]{10}).*?\/(.*)\/Bal.*?(-?[\d\s.,]*\d)
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Debet/*730120030/20000.00/RUB/28.06.2015 22:49:58/Tinkoff Bank Card2Card>MOSCOW RU/Balance: 561.71

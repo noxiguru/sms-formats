@@ -1,0 +1,7 @@
+^.*etrag.*uma.*?([\d\s.,]*\d).*old.*?(-?[\d\s.,]*\d).*ata.*?(\d{2}[-./]\d{2}[-./]\d{2,4}) .*ard.*?(\d{4}).*
+
+-----COLUMNS-----
+outcome;av_balance;date#dMy;syncid#cash
+
+-----EXAMPLE-----
+OP: Retragere BD. STEFAN CEL MARE, 81-A Suma:250.00 Sold:4435.57 Data/Ora:14.02.2020 18:18:56 Card:6671 Eticheta:SALARIAL Suport:022256456

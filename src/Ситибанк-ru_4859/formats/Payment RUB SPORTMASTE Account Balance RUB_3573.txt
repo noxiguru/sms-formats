@@ -1,0 +1,10 @@
+^Payment.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?);\s*([\d/]{5})\s+.*?\*(\d{4}).*?alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#MM/dd;syncid;av_balance
+
+-----EXAMPLE-----
+Payment 409.00RUB "SPORTMASTE; 03/11 Account*4737 Balance 81687.88RUB
+
+-----EXAMPLE-----
+Payment 409.00RUB "SPORTMASTE; 03/11 Account*4737 Balance 81687.88RUB

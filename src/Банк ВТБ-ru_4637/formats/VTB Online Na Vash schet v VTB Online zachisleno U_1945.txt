@@ -1,0 +1,7 @@
+^VTB24(?!.*\(.*?\)).*Na.*?schet.*?zachis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument
+
+-----EXAMPLE-----
+VTB24-Online: Na Vash schet v "VTB24-Online" zachisleno 81.02 USD.VTB24

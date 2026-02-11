@@ -1,0 +1,7 @@
+^Conver.*From: ([A-Z]+)(?: [A-Z]+)? ([\d\s.,]*\d)\s*([A-Z]{3}) (To.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;date#dMy
+
+-----EXAMPLE-----
+Conversion: From: MC GOLD 163.13 USD To: MC GOLD 500.00 GEL Rate: 3.065 19/01/2022

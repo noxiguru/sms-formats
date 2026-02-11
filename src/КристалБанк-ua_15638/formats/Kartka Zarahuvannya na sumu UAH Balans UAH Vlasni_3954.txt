@@ -1,0 +1,7 @@
+^([\d./-]{5}) .*\*(\d{4}).*arak?huv.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+28.09 17:15 Kartka *3924 Zarahuvannya na sumu 24.01UAH Balans 5173.44UAH Vlasni koshty 5173.44UAH Detali za tel. 0445904595

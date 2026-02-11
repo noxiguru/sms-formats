@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).* for .*?: (.*?)\W?\s*([\d\s.,]*\d)\s*([A-Z]{3}) .*
+
+-----COLUMNS-----
+date#dMy;syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+15/01/2023 01:30 Card 436153******4747 was used for Internet-sales: BISHKEK,YANDEX TAXI,204.00 KGS 996 312 33-88-00, 8800

@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*([\d-]{10}).*(?:achislen|opolnen).*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Priorbank. Karta 4***8760 23-05-2018 23:31:04. Zachislenie perevoda 9.30 BYN. BLR P2P_SDBO. Dostupno:22.89 BYN. Spravka: 80172899292
+
+-----EXAMPLE-----
+Priorbank. Karta 4***1234 25-06-2018 00:00:00. Popolnenie 35.00 BYN. BLR I-RESURS FZ.TICKETPRO.BY. Dostupno:100.00BYN. Spravka: 80172899292

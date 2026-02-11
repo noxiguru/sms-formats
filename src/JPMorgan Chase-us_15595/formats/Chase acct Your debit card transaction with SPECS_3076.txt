@@ -1,0 +1,7 @@
+^.*?(\d{4}):.*?(\$)([\d\s.,]*\d) debit .* on ([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#MM/dd/yyyy
+
+-----EXAMPLE-----
+Chase acct 6377: Your $34.63 debit card transaction with SPECS #62            on 06/29/2017 09:36:22 ET was more than the $0.00 in your Alerts settings.

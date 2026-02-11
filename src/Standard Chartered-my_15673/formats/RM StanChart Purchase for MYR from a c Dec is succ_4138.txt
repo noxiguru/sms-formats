@@ -1,0 +1,7 @@
+^.*urchas.*?([A-Z]{3})\s*([\d\s.,]*\d).*\*(\d{4})\s*@\s*([\d]{2}\s*\w{3}\s*\d{2}) .* at\s+(.*?)\..*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#ddMMMyy;payee
+
+-----EXAMPLE-----
+RM0.00:StanChart: Purchase for MYR50.00 from a/c **8009 @ 21Dec18 17:26:04 is successful at U MOBILE TOP U. Did not perform? Pls contact the bank

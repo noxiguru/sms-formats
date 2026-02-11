@@ -1,0 +1,7 @@
+^Na .*?(\d{4})\s+.ostup.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+.stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Na schet KZ1234567890 postupila summa 119 560.00 KZT Ostatok sostavljaet 145528.68 KZT 25.06.2021 13:41:41

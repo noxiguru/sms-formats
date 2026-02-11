@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*ATM.*?\*(\d{4}) .*apilan\s+([\d\s.,]*\d)\s*([A-Z]{2,3}).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+13.11.2022 12:23:09 de   ATM den 529545******0488 kartinizla yapilan   4940,00 TRY Nakit Cekim bilginiz disindaysa 0850 222 0 800 u arayiniz.MERSIS NO:1234567890 B002

@@ -1,0 +1,13 @@
+^(Отмена оплаты|Otmena oplaty).*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]?\d{0,4}) [\d:]{5,}\W? \s*(.*?)\W?\s+([\d\s.,]*\d)\s*([A-Z]{3}).*(?:стат|имит|stat|imit).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+comment;syncid;date#dMy;payee;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Отмена оплаты ES *4072; 20.09 04:03; GOOGLE *MARKETPLACE>GOOGLE.COM/CH GB; 30,00 RUB; Остаток: 1 901,53 RUB
+
+-----EXAMPLE-----
+Otmena oplaty EW *3586; 26.07 19:21; SZT - MAXIM>Kurgan RU; 330,00 RUB; Limit: 18 847,00 RUB
+
+-----EXAMPLE-----
+Otmena oplaty *0485 16.11 16:21 ALTYN 5 815,00 RUB Ostatok: 15 032,45 RUB

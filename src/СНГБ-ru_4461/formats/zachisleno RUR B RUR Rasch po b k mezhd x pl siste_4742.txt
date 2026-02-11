@@ -1,0 +1,7 @@
+^(\d{4}[-./]\d{2}[-./]\d{2})\s+.*?(\d{4}).\s.*achisl.*<([A-Z]{3})\s+([\d\s.,]*\d)>\s+B.*?(-?[\d\s.,]*\d)>.*sistem:\s*(.*)
+
+-----COLUMNS-----
+date#yMd;syncid;instrument;income;av_balance;comment
+
+-----EXAMPLE-----
+2020.06.30 10:49 1234567890: zachisleno <RUR 9,187.20> B<RUR 143,054.59> Rasch.po b/k mezhd-x pl.sistem: IP Kochubeev Oleg Sergeevich, "Voobrazhulja"

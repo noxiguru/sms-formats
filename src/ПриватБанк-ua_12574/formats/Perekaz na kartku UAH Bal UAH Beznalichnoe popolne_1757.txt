@@ -1,0 +1,7 @@
+^(.{4}).*Perekaz\s+n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Bal.*?(-?[\d\s.,]*\d)\s*\S+\s+(.*)
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;comment
+
+-----EXAMPLE-----
+4*41 16:24 Perekaz na kartku 100.00UAH. Bal:140.82UAH Beznalichnoe popolnenie P35216 TCP35216 4*41

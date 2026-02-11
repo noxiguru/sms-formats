@@ -1,0 +1,7 @@
+^([\d.]{10}).*(?:PLATEG S|Plateg s).*(\d{4})\s+(?:V|v).*(?:SUM|sum).\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:ISP|isp).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+02.02.2015 17:10:48 PLATEG S: 1234567890 V POLZU: KATASHINSKIJ VLADIMIR JUREVICH 1234567890 SUM: 50000.00 RUR ISPOLNEN

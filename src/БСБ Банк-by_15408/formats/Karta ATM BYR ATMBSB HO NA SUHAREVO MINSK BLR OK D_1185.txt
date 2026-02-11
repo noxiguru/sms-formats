@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d.]{10}).*?ATM -([\d\s.,]*\d) ([A-Z]{3}).*Dostupno (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4.4073 21.02.2014 22:05:16 ATM -200000 BYR ATMBSB HO35 NA SUHAREVO MINSK BLR OK. Dostupno 5868135 BYR

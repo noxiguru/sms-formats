@@ -1,0 +1,7 @@
+^Credit.*moun.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*Num:\s*(\d{4}x+\d{2}),\s+.ate:\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*arration:\s+(.*?), .urrent.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy;comment;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Credit Alert, Amount: GHS102.0, Acct Num: 2030xxxxxxx19, Date: 26-06-2023 11:46:49, Narration: DEBIT TO AC 1234567890 FROM VODAFONE 0500480139, Current bal:GHS102.17.

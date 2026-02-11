@@ -1,0 +1,7 @@
+^.*?\*(\d{4}). Popolnenie.*v term.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{3}).*(?:Доступно|Dostupno).\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 6706*8581. Popolnenie sredstv v terminale.  Summa: 1000.00 rub. Dostupno: 1000.00 rub.

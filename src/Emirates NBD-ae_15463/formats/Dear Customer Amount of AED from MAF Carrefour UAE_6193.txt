@@ -1,0 +1,7 @@
+^.*mount\s+of\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+from\s+(.*?)\s+has\s+been\s+credit.*ending\s+(\d{4}).*vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;payee;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Customer, Amount of AED .36 from MAF Carrefour UAE has been credited to your card ending 9718. Available Limit is AED 51,348.78.

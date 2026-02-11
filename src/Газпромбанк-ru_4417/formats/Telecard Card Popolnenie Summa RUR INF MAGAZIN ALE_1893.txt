@@ -1,0 +1,7 @@
+^.*?(\d{4});\s*Popol.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{8}).*?;\s*(.*)
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;payee
+
+-----EXAMPLE-----
+Telecard; Card7423; Popolnenie; Summa 33500 RUR; 13.06.15 16:28:39; INF MAGAZIN ALENKA

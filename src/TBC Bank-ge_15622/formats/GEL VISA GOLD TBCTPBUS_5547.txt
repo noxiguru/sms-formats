@@ -1,0 +1,7 @@
+^(?!.*(?:alan|ashti))([\d\s.,]*\d)\s*([A-Z]{3}) [A-Z\s]+\(\*+(\d{4})\) (.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+1.00 GEL VISA GOLD (***5223) TBCTPBUS 02/12/2022

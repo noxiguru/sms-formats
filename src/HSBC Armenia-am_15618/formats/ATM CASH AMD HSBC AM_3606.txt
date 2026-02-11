@@ -1,0 +1,7 @@
+^ATM CASH([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*([\d.]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+ATM CASH 120,000.00 AMD 5571***8126 HSBC, AM 29.03.2018 22:10

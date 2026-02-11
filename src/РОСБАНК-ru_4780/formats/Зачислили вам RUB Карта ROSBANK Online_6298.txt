@@ -1,0 +1,7 @@
+^Зачисл.*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+.арт.*?(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;syncid
+
+-----EXAMPLE-----
+Зачислили вам 139179.6RUB. Карта *8200 ║ ROSBANK Online

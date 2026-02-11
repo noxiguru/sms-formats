@@ -1,0 +1,7 @@
+^(\d{6}).*(\d{4}). Deposit \+([\d\s.,]*\d).*Avail (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#ddMMyy;syncid;income;av_balance
+
+-----EXAMPLE-----
+231213:15.21 Acct X041423: Deposit +45,786.50 ฿ Avail 45,805.31 ฿

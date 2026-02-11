@@ -1,0 +1,10 @@
+^((?:Otmen|Vozvr).*?)([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) (\d{4}-\d{2}-\d{2}) .*esto:\s*(.*?); Ost.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;date#yMd;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Otmena oplaty 8.91 BYN Karty #7369 2020-09-06 08:39:25 Acode 754697; Mesto: NEW.TICKETBUS.BY > MINSK BLR; Ostatok: 241.48 BYN. BPS-Sberbank
+
+-----EXAMPLE-----
+Vozvrat 16.99 BYN na Kartu #3000 2023-04-19 21:45:42 Acode 000000; Mesto: I.-SHOP"WWW.PASS.RW.BY" > MINSK BLR; Ostatok: 23.40 BYN. Sber bank

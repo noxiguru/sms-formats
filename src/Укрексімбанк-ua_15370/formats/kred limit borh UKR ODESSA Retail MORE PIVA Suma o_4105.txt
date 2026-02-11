@@ -1,0 +1,7 @@
+^([\d.]{5}) [\d:]{5} .*?\*(\d{4}).*?-([\d\s.,]*\d)\s+=(-?[\d\s.,]*\d).*\(.*?\)\s+(.*?)\..*
+
+-----COLUMNS-----
+date#dd.MM;syncid;outcome;av_balance;payee
+
+-----EXAMPLE-----
+16.02 16:03 440271*4079.8142036253.980 -198,5 =64,72 (kred.limit 0, borh 0) UKR ODESSA Retail MORE PIVA.Suma operatsii UAH 198.5

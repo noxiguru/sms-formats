@@ -1,0 +1,7 @@
+^([\d.]{10}).*?\*(\d{4}). Debitnaja chast' P2P.*?\s([\d\s.,]*\d) ([A-Z]{3}). Ostatok ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+30.08.2013 09:38. 202001*2332. Debitnaja chast' P2P perevoda cherez Internet-bank 990.00 RUR. Ostatok 1 454.15 RUR.

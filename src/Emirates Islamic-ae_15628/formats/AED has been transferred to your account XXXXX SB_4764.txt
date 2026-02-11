@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s.,]*\d) has .* to your.*?([\d-]{4}) .*vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;av_balance
+
+-----EXAMPLE-----
+AED 2285.71 has been transferred to your account 370-83XXXXX5-01 SB REF. 21940769B/O NETWORK INTERNATIONAL LLCNI PO through SmartBusiness. Available Balance now is AED 108485.10

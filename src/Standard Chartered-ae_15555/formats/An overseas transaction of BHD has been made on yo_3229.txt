@@ -1,0 +1,7 @@
+^.*ransact.*?([A-Z]{3})\s*([\d\s.,]*\d).*ard.*?(\d{4}) on ([\d/]{10}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+An overseas transaction of BHD 4.523 has been made on your card ending 0453 on 22/02/2019

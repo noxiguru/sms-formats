@@ -1,0 +1,10 @@
+^.*?(\d{4}).*opolnen.*?\.?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+KZ2856 Popolnenie scheta. 110000 KZT 2017-06-23 15:34:31
+
+-----EXAMPLE-----
+KZ9393 Popolnenie scheta. 573260.31 KZT 2017-12-21 16:19:16

@@ -1,0 +1,7 @@
+^([\d.]{8}) .*?opolnen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?stat.*?(-?[\d\s.,]*\d).*?\*(\d{4})(?:$|\b.*)
+
+-----COLUMNS-----
+date#dd.MM.yy;income;instrument;av_balance;syncid
+
+-----EXAMPLE-----
+11.07.16 10:46 Popolnenie na 1586.46 RUB. Ostatok: 1586.52 RUB. Karta: *1238

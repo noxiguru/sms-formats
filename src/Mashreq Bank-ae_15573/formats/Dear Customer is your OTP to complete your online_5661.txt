@@ -1,0 +1,7 @@
+^.*is your OTP.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Dear Customer , 348887 is your OTP to complete your online transaction. Please do not share this code.

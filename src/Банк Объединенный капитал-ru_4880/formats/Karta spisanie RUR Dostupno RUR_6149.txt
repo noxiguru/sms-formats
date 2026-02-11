@@ -1,0 +1,10 @@
+^.*\*(\d{4}):\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:pisan|писан).*?([\d\s.,]*\d)\s*([A-Z]{3})\W? (.*?)\W?\s*.(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *8129: 25.02.2024 12:38, spisanie 2000.00 RUR. Dostupno 1848.93 RUR.
+
+-----EXAMPLE-----
+Карта *8129: 10.06.2024 08:40, списание 850.00 RUR, LUKOIL.AZK 78071 47S, SANQT PETERBU. Доступно 1220.90 RUR.

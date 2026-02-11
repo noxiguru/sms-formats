@@ -1,0 +1,7 @@
+^([\d.]{8}).*?(\d{4}).*?(?:Поступление|Postuplenie).*?\s*([\d\s.,]*\d) ([A-Z]{3}).*?(?:Доступно|Dostupno):\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+19.11.13 11:12 MC8580: Поступление средств на счет 1000.00 RUR   Saint-Petersburg RUS; Доступно: 1500.00 RUR

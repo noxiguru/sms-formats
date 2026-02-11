@@ -1,0 +1,10 @@
+^.*(?:adaxda).*?([\d\s.,]*\d)\s*(\w+)\s+.*\*\s*(\d{4}).*(?:biekti)\W?\s+(.*?)\s+(?:xelmis).*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+gadaxda: 16.20 lari barati: **** 7072 obiekti: LTD GIGA 2022>BATUMI GE xelmisacvdomi PLUS kula: 12,824.37 PLUS-ebi grovdeba sakartvelos bankis posterminalit gadaxdisas. 19.09.2022
+
+-----EXAMPLE-----
+gadaxda: 15.00 lari barati: **** 7072 obiekti: KAFE BATUMI LTD>BATUMI GE xelmisacvdomi PLUS kula: 12,940.13 PLUS-ebi grovdeba sakartvelos bankis posterminalit gadaxdisas. 20.09.2022

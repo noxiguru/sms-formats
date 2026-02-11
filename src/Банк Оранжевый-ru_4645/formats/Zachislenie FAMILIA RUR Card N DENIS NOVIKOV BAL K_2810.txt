@@ -1,0 +1,7 @@
+^Zachis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Zachislenie:  FAMILIA  1 394.00 RUR Card_N**5481 DENIS NOVIKOV BAL: 1 570.95 (Kredit: 50 000.00) 2017-01-02 00:00:00

@@ -1,0 +1,7 @@
+^SPISAN.*?\*(\d{4}).*?([\d.]{8}).*SUM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+SPISANIE: 4568***1758  22.12.15 18:50 SUMMA  50.00 RUR BALANCE: 21709.00 RUR

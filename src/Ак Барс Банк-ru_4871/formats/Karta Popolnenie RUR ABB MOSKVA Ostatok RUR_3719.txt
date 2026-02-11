@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*(?:opolnen|redit).*?([\d\s.,]*\d)\s*([A-Z]{3})\.(?!.*erevod)\s*(.*?)\.?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta*1010. Popolnenie 100.00RUR. ABB MOSKVA. 09.06.18 15:24. Ostatok 100.00RUR
+
+-----EXAMPLE-----
+Karta*4908. Credit 1367,19RUR. SANKT-PETERBU, "Bileter". 30.09.18 15:34. Ostatok 2990,33RUR
+
+-----EXAMPLE-----
+Карта*7299 SBP Credit 700.00RUR. Kazan, . 20.08.24 18:17. Остаток 1118.51RUR

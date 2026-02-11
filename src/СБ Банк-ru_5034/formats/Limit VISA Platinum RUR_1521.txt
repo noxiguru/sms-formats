@@ -1,0 +1,7 @@
+^([\d.]{8}) Limit (.*) [A-Z]{3}.(-?[\d.,]*\d)
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;av_balance
+
+-----EXAMPLE-----
+23.11.14 Limit VISA Platinum RUR:673545.77

@@ -1,0 +1,7 @@
+^.*urchase.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+to\s+(.*?)\s+has\s+been\s+comp.*
+
+-----COLUMNS-----
+instrument;outcome;payee
+
+-----EXAMPLE-----
+Your purchase has been completedYour purchase of NOK448.27 to REMA 1000 has been completed. You can find more info in your account details.

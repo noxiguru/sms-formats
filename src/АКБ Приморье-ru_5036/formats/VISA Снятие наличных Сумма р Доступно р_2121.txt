@@ -1,0 +1,10 @@
+.*\*(\d+).*([\d.]{8}).*(?:нятие н|nyatie n).*(?:умм|umm).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+VISA**31: 19.12.15 15:32 Снятие наличных Сумма:20 000.00р. Доступно:100 338.54р
+
+-----EXAMPLE-----
+VISA**15: 09.12.17 16:43 Snyatie nalichnyh Summa 4000rub Dostupno 429.55rub

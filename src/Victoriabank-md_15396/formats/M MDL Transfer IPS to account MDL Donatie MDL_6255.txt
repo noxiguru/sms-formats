@@ -1,0 +1,7 @@
+^.*?(\d{4}|\d[A-Z]{3})\s+(\d{4}-\d{2}-\d{2}).*Transfer\s+IPS\s+to.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s*║\s+.*
+
+-----COLUMNS-----
+syncid;date#yMd;income;instrument;comment
+
+-----EXAMPLE-----
+M...5MDL 2024-05-08 10:20:52 Transfer IPS to account;1.00 MDL Donatie ║ 1.00 MDL 2024-05-08 10:20:52

@@ -1,0 +1,7 @@
+^Nal.*?([\d.]{10}).*?\*(\d{4})\s+([\d\s.,]*\d)\s*([a-zA-Z]{3}).*ost.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Nalichnye 16:26 27.05.2015 karta 6*6181 2 000.00 rub. LPKB Ost. 7 075.16 rub. Dost. 7 075.16 rub.

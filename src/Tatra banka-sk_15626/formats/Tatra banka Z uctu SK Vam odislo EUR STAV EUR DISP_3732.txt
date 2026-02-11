@@ -1,0 +1,7 @@
+^.*?([\d.]{8,10}).*Z .*?(\d{4})\s+Vam.*?disl.*?([\d\s.,]*\d)\s*([A-Z]{3}).*DISP.*?(-?[\d\s.,]*\d).*(\*\d+.*)
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance;comment
+
+-----EXAMPLE-----
+Tatra banka 4.6.2018 13:33 Z uctu SK1234567890 Vam odislo 27,97 EUR. STAV 3523,65 EUR DISP 3523,65 EUR 440577******3153 dom nakup aut

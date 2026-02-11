@@ -1,0 +1,7 @@
+^Your .*?X(\d{4}) is debit.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome
+
+-----EXAMPLE-----
+Your AC No: XXXXXXXX2801 is debited with AED 600.50 for Online Local Funds Transfer (Charges & VAT incl. if applicable). Login to Online Banking for details.

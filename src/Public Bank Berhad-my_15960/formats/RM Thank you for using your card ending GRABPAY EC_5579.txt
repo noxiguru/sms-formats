@@ -1,0 +1,10 @@
+^([A-Z]{2,3}|\W)\s*([\d\s.,]*\d).*(?:ending |\*\s*)(\d{4}) (?:@|at) (.*?)\s+([A-Z]{2,3}|\W)\s*([\d\s.,]*\d) ([a-zA-Z]{3}\d{2}).*
+
+-----COLUMNS-----
+acc_instrument;fee;syncid;payee;instrument;outcome;date#Md
+
+-----EXAMPLE-----
+RM0 Thank you for using your card ending 5596 @ GRABPAY-EC PETALING JAY RM200.00 Nov08 05.47pm. Pls call Public Bank if you didn't use it.
+
+-----EXAMPLE-----
+RM0 Please contact PBB immediately if you didn't use your card **** 6902 at 7-ELEVEN PLAZA DAMAN KUALA LUMPUR  RM13.10 Apr10 03.08pm.

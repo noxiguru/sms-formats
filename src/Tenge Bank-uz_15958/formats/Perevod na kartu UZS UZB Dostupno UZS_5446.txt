@@ -1,0 +1,7 @@
+^Perevod\s+na.*\*(\d{4})\W?\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{4}-\d{2}-\d{2}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Perevod na kartu *0810, 3 000 000.00 UZS 2022-10-08 13:34:33, UZB. Dostupno: 3 000 000.00 UZS

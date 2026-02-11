@@ -1,0 +1,7 @@
+.*([\d.]{8}).*\*(\d{4}).*okupk.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+BALANS.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+10:36 05.08.15 MSK 5280***9995 Pokupka 120.00 RUB PLOSCHAD DVUKH FONTANO BALANS: 106.49 RUB

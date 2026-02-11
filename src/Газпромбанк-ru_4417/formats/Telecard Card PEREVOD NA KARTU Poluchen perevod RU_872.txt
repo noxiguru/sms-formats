@@ -1,0 +1,7 @@
+^.*?(\d{4});\s+([\d.]{8}).*?Poluchen\s+perevod;\s+([\d\s.,]*\d)\s+([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument
+
+-----EXAMPLE-----
+Telecard; Card7895; 14.06.13 18:52:12; PEREVOD NA KARTU; Poluchen perevod; 1865 RUR;

@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d/]{8}).*POKUPKA ([\d\s.,]*\d)\s*([A-Z]{3}).*KOMIS.*?([\d\s.,]*\d).*?\) (.*). DOST.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yy;outcome;instrument;fee;payee;av_balance
+
+-----EXAMPLE-----
+VTB Bank> KARTA *2542 13/03/15 14:52, POKUPKA 27.50 UAH (KOMISSIYA 0.00 UAH) BASSEYNAYA1, KIYEV, KIYEV, UKRAINE, DOSTUPNO 1833.03 UAH

@@ -1,0 +1,2 @@
+NOVIKOM
+com.bssys.novikomretail

@@ -1,0 +1,7 @@
+^Tranz ATM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}).*isponi.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Tranz ATM. Suma 300.00 RON. Card nr. ****8374, STEPAN CURUCI. 26.09.22 22:48. Suma disponibila: 847.42 RON. ATM: Bucuresti, STR. BRASOV NR. 1A, 42, RO.

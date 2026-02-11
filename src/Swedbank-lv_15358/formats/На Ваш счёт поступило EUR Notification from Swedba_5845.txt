@@ -1,0 +1,7 @@
+^На .*оступ.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument
+
+-----EXAMPLE-----
+На Ваш счёт поступило 200 EUR. ║ Notification from Swedbank

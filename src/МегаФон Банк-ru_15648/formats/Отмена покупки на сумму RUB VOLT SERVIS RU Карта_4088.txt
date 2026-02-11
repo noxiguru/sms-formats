@@ -1,0 +1,7 @@
+^(Отмена.*?) на .*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+([\d.]{8}) .*\*(\d{4}).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;date#dd.MM.yy;syncid
+
+-----EXAMPLE-----
+Отмена покупки на сумму 1.00 RUB 12 VOLT SERVIS, RU 23.01.19 12:37. Карта ***8395.

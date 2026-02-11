@@ -1,0 +1,7 @@
+^(Vozvr.*?)\..*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Vozvrat sredstv. Koshelek. Summa 1218.05 RUB. 11.05.2017 10:15. Dostupno 2283.11 RUB. wallet.tinkoff.ru

@@ -1,0 +1,7 @@
+^.*arta.*?\*(\d{4})\s+([\d.]{10}).*?-([\d\s.,]*\d)\s*([A-Z]{3})\s+POS\s+(.+)\s+DZ.VP.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+UniCredit Bank Debetna karta 5351 56*4710 17.12.2015 18:38 -12,41 EUR POS TESCO STORES SK , A.S.  BRATISLAVA SK DZ/VP: 376,00 EUR

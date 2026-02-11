@@ -1,0 +1,7 @@
+^Пополн.*\*(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Пополнена MC *1142 1,224.00 RUR Доступно 5,187.40 RUR

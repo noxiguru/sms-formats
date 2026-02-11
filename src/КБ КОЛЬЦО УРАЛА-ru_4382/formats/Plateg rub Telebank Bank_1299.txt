@@ -1,0 +1,7 @@
+^.*?([\d.]{8}) Plateg ([\d\s.,]*\d) (\S+).*?\*(\d{4}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;syncid
+
+-----EXAMPLE-----
+15:03 04.07.14 Plateg 20.00 rub 1001*4013 Telebank Bank 88001002254

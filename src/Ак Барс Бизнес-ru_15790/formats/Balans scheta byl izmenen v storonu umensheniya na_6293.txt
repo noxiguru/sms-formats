@@ -1,0 +1,7 @@
+^Balans\s+sch.*?\d*(\d{4})\s+byl\s+izmen.*umenshen.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alans\s+-\s+(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Balans scheta 1234567890 byl izmenen v storonu umensheniya na 427.85 RUR. Tekuschiy balans - 2,417,430.12 RUR.

@@ -1,0 +1,7 @@
+^Perevod\s+na\s+sum\w+\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(v\s+.*?)\s+ispol.*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Perevod na summu 180.00 RUR v Sberbank ispolnen. Dostupno: 12115.08 RUR. ║ Хоум Кредит

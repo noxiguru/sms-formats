@@ -1,0 +1,7 @@
+^.*X-(\d{4})@(.*?)\s+ยอด\s+([\d\s.,]*\d)\s*([A-Z]{3}|บาท)\s+║\s+SPEND.*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+ขอบคุณที่ใช้บัตร X-3382@WWW.GRAB.COM ยอด 264.00 บาท ║ SPENDING [KRUNGSRI VISA PLATINUM]

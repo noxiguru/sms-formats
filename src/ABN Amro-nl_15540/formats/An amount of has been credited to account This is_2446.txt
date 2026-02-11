@@ -1,0 +1,7 @@
+^.*? of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) .*?redited to .*?\*(\d{4}).*
+
+-----COLUMNS-----
+instrument;income;syncid
+
+-----EXAMPLE-----
+An amount of € 3.937,77 has been credited to account **************5398. This is shown in the transactions overview. ║ An amount has been credited

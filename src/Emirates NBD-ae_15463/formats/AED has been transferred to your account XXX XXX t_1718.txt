@@ -1,0 +1,10 @@
+^([A-Z]{3})\s+([\d\s.,]*\d).*transfer.*to.*?count\s+([-\dX]{13,15}).*
+
+-----COLUMNS-----
+instrument;income;syncid
+
+-----EXAMPLE-----
+AED 2,482.00 has been transferred to your account 101-XXX33XXX-01 through Online Banking
+
+-----EXAMPLE-----
+AED 755.20 has been transferred to your account 101XXX15XXX03

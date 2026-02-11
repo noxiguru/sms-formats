@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+[A-Z]+-\*+(\d{4})\s+.осту.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(.*?)\s+║\s+Пополн.*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument;comment
+
+-----EXAMPLE-----
++700 000 ₸ GL-**8449 Доступно 1 402,81 $ Invest ║ Пополнение с брокерского счета

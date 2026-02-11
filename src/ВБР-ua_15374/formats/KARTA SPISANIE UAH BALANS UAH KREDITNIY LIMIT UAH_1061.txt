@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d-]{10}).*SPISANIE ([\d\s.,]*\d) ([A-Z]{3}).*BALANS (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+KARTA *0288 2013-11-19 21:37:55 *SPISANIE 200.00 UAH *BALANS 813.75 UAH KREDITNIY LIMIT 0.00 UAH VBR-BANK 0800-500-798

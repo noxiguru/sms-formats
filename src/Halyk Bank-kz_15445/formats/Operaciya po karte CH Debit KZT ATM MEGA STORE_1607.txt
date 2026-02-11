@@ -1,0 +1,7 @@
+^([\d-]{10}).*?CH Debit (?!.*ostu)([\d\s.,]*\d)\s*([A-Z]{3}).+\*(\d{3,4}).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;syncid
+
+-----EXAMPLE-----
+2015-03-02 15:29:29 Operaciya po karte CH Debit 12320.00 KZT ATM 641 "MEGA" STORE 4**146

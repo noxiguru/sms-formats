@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8}).*OTMENA.*?([\d\s.,]*\d)\s*([A-Z]{3}).*OMISS.*?([\d\s.,]*\d).*?\)\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;fee;payee
+
+-----EXAMPLE-----
+KARTA 4*3964 03.09.16 00:06 OTMENA POKUPKA 30.00 RUB (KOMISSIYA 0.00 RUB)  GOOGLE *SERVICES g.co/payhelp# Great Britain

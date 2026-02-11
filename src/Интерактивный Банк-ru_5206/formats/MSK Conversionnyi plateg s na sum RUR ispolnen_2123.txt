@@ -1,0 +1,7 @@
+^([\d.]{10}).*Conver.*plat.*?\ss.*?(\d{4})\s+na.*sum.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+isp.*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+01.10.2015 11:56:36MSK Conversionnyi plateg s: 1234567890 na: 1234567890 sum: 21978.42 RUR ispolnen

@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d) is (reversed).*X\d*(\d{4}) from (.*?) on (\d{2}[-./]\d{2})\..*
+
+-----COLUMNS-----
+instrument;income;comment;syncid;payee;date#dM
+
+-----EXAMPLE-----
+AED 1.69 is reversed on your credit card 559580XXXXXX6006 from Smart Dubai Government on 03/10.

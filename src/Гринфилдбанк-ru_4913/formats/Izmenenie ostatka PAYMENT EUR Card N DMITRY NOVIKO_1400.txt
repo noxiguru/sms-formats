@@ -1,0 +1,7 @@
+^Izmenenie.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}).*BAL.\s*(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: PAYMENT 0.82EUR Card_N**6508 DMITRY NOVIKOV  BAL: 8.72 EUR 2014-10-15 00:00:00

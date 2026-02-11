@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*SP.S.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+SCHET 1111 2012-10-03 19:57:09 SPISANIE 27.18 UAH DOSTUPNO 948.10 UAH

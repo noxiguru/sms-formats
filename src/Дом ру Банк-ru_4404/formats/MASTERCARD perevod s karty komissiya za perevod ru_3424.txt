@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{8}) .*?perevod s.*?([\d\s.,]*\d).*omiss.*? ([\d\s.,]*\d).*stat.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;outcome;fee;av_balance
+
+-----EXAMPLE-----
+MASTERCARD-6794 23-01-18 14:32 perevod s karty 260.00; komissiya za perevod 0.00 rub; ostatok 58772.56 RUB; E-PAY, LENINA

@@ -1,0 +1,13 @@
+^.*(?:art|арт).*?(\d{4})\D?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*(?:pisan|писан).*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(?!.*\b(?:FFINBANK|3DI|bankffin|CARD2CARD|card2card)\b)(.*?)\.?\s+.(?:алан|alan).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;acc_instrument;payee
+
+-----EXAMPLE-----
+Карта 1234: 02.12.2022 11:48, списание 100.00 RUB, PRODUKTI SHOP RUS Moscow. Баланс 93006.75 RUB 0.00 USD 0.00 EUR ║ Уведомление об операции
+
+-----EXAMPLE-----
+Карта 1234: 02.12.2022 11:48, списание 100.00 RUB, Карта 8226: 12.12.2022 07:28, списание 3728.00 RUB, GEMOTEST RUS Gorod Moskva.  Баланс 86156.33 RUB 0.00 USD 0.00 EUR ║ Уведомление об операцииPRODUKTI SHOP RUS Moscow. Баланс 93006.75 RUB 0.00 USD 0.00 EUR ║ Уведомление об операции
+
+-----EXAMPLE-----
+Карта 2521: 08.11.2023 17:18, списание 100.00 RUB, 3DI2 YM*domgdeteplo RUS MOSCOW. Баланс 4995.64 RUB 0.00 USD 0.00 EUR ║ Уведомление об операции

@@ -1,0 +1,7 @@
+^Auth.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+Card.*?(\d{4}) D.*? (\d{4}[-./]\d{2}[-./]\d{2}) .*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;date#yMd;av_balance
+
+-----EXAMPLE-----
+Auth: 5 867.00RUR OOO PNKO ELPLAT  Card_N**4992 D: 2020-11-27 12:55:26 BALANS:2 951.79

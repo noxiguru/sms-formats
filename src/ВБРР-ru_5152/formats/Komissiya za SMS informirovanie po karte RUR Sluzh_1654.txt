@@ -1,0 +1,13 @@
+^((?:Komis|Комис).*? (?:[\d*]+|[A-Z]+)(\d{4}))\s+-([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument
+
+-----EXAMPLE-----
+Komissiya za SMS-informirovanie po karte 4*2801 -60,00 RUR. Sluzhba klientskoy podderzhki VBRR. TEL 7(495)9330349, 8(800)7000349
+
+-----EXAMPLE-----
+Комиссия за СМС-информирование по карте 5*7795 -60.00р Тел. 8(800)7000349
+
+-----EXAMPLE-----
+Комиссия за СМС-информирование VISA1829 -60.00р

@@ -1,0 +1,13 @@
+^.*(?:еревод|erevod)([\d\s.,]*\d)\s*([а-яА-ЯA-Z]{1,3})\s+[СсCcSs][oо].*?[\d*]*(\d{4})\s*(.*?)\s+.(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;comment;av_balance
+
+-----EXAMPLE-----
+i.abr.ru Исполнена операция Перевод 19500.79 RUB Со счета 40817***19890 На счет 40817***00910  Доступный остаток: 0.00 RUB
+
+-----EXAMPLE-----
+i.abr.ru  operatsiya Vneshniy perevod 22000.00 RUB So scheta 40817***31004 Dostupniy ostatok: 6648.21 RUB
+
+-----EXAMPLE-----
+i.abr.ru Перевод 20000 р со сч *46091 на сч *55228  Доступно 650 р

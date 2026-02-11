@@ -1,0 +1,10 @@
+^(Reversal.*?)\W? ([\d\s.,]*\d)\s*([A-Z]{3})\s+(\S+)\s+(?:[A-Z]+\s+)?(.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:alan|vila).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Reversal: 0.40 GEL MC GOLD Yandex.Taxi 07/05/2021 11:46:19 Avilable amount: 6604.35 GEL
+
+-----EXAMPLE-----
+Reversal: 1.00 TRY MC  STANDARD MIX NETFLIX.COM 27/12/2021 21:56:01 Balance: 58.36 GEL

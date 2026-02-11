@@ -1,0 +1,13 @@
+^.*?(\d{4}) .*(?:upiv|упiв).*?([\d\s.,]*\d)\s*([A-Z]{3}) POS \S* (.*?) ([\d.]{10}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Kartka #0848 Kupivlia tovariv na sumu: 334.19 UAH POS SHK208NT MAGAZIN1033>KIYEV, UA 26.07.2017 19:02:53 Dostupno: 999.18 UAH Kreditny limit: 0.00 UAH
+
+-----EXAMPLE-----
+Kartka #3733 Kupivlia tovariv na sumu: 267.00 UAH POS  Valve>Hamburg, DE 05.01.2018 15:01:23 Dostupno: 14760.18 UAH Kreditny limit: 0.00 UAH
+
+-----EXAMPLE-----
+Кaрткa #4825 Купiвля товaрiв нa суму: 128.00 UAH POS S1CS0KQ7 DOMICO>CHERKASSY, UA 16.01.2019 17:16:12 Доступно: 10.77 UAH Кредитний лiмiт: 10.00 UAH Поповнюй мобільний в додатку Екобанк https://auth.ukrgasbank.com

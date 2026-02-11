@@ -1,0 +1,7 @@
+^Квази.*\*(\d{4}).*умм.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*стат.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Квази-наличные 4301*9211 Сумма 117.00 р Остаток 0.20 р TINKOFF QUASIC

@@ -1,0 +1,7 @@
+^An\s+amou.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+has\s+been\s+cred.*?to\s+your\s+(current)\s+accou.*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+An amount of 449,105.44 RSD has been credited to your current account. The current available balance is: 451,688.79 RSD. ║ Current account credited

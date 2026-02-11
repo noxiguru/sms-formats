@@ -1,0 +1,7 @@
+^([\d.]{8}) .*?(\d{2})Na kosht.*?prots.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?podat.*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;outcome;av_balance
+
+-----EXAMPLE-----
+26.12.16 05:41 Acnt:090-262575-42Na koshty na rahunku narahovano protsenty 401.92 UAH, utrymano  podatok -78.10 UAH.  Balance=541.44 UAH.Info 0800210800

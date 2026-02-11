@@ -1,0 +1,7 @@
+^([\d.]{8}) .*?\*(\d{4}) .окуп.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+31.07.17 12:14 Счет 1270931 Карта **8327 Покупка 1833.00 RUR STROITELNYE MATERIALY Баланс 10022.97 RUR ПАО "БыстроБанк"

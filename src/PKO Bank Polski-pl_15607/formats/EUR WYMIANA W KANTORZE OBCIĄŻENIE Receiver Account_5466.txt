@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})\s+WYMIANA\s+W\s+KAN.*Title:\s+(.*?)\s+On\s+accou.*?(\d{4})\s+.*ate.?\s+(\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;date#yMd
+
+-----EXAMPLE-----
+-300,00 EUR WYMIANA W KANTORZE - OBCIĄŻENIE Receiver Account: 36..7425 Receiver: Pххххх  Pххххх UL. Zхххххх 35  M.36 MIŃSK Title: FX26667959 EUR/PLN 4.7889  1 436,67 PLN -300,00 EUR On account no. 53..7559 Value date: 2022-10-05 ║ Account debit

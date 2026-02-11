@@ -1,0 +1,7 @@
+^.*KART.*?(\d{4}) NA .*?([\d\s.,]*\d).* PO VALYUTE:\s*(\S+) KOMIS.*?([\d\s.,]*\d) na (.*?)\. BALA.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;fee;payee;av_balance
+
+-----EXAMPLE-----
+USPESHNO. PO KARTE4097XXXX7281 NA SUMMU 19.99. PO VALYUTE:840 KOMISSIYA 0.500 na Adobe.com,Dublin,IE. BALANS POSLE:52.55

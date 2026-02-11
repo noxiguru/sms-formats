@@ -1,0 +1,7 @@
+Gadaxda\s*:\s*([0-9][\d\s.,]*\d(?:[.,]\d{2})?)\s+([A-Za-z]{1,4})\s+(.+?)\s+\*{4}(\d{4})\s+i\.m[^>]*?>telavi\s+[A-Z]{2}\s+(\d{2}\/\d{2}\/\d{4})
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;date#dMy
+
+-----EXAMPLE-----
+Gadaxda : 54.80 GEL       Baratis N ****5988 i.m Vazha Tarughashvili>telavi        GE  25/05/2025 12:20:55 Nashti ixilet MyCredo-shi: https://mycredo.page.link/Pdkp

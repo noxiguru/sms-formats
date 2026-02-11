@@ -1,0 +1,7 @@
+^.*ransfer.*?([A-Z]{3})\s*([\d\s.,]*\d)\s+from .*?(\d{4})\s+(to .*?)\s+on ([\d/]{10}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;comment;date#yyyy/MM/dd
+
+-----EXAMPLE-----
+Your transfer for amount AED 1250.00 from Account number ending with 1818 to the destination Account ending with 0401 on 2018/04/20 has been completed.

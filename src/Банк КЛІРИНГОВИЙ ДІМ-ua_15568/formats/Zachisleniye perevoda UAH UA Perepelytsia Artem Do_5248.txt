@@ -1,0 +1,7 @@
+^\*(\d{4})\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*achis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*
+
+-----COLUMNS-----
+syncid;date#dMy;income;acc_instrument
+
+-----EXAMPLE-----
+*7951 26.01.2022 22:37:58 Zachisleniye perevoda: 5.00UAH UA, Perepelytsia Artem Dostupno: 129.37UAH, 0.00USD, 0.00EUR

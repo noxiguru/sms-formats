@@ -1,0 +1,13 @@
+^.*(?:ikomu|икому|екретный).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Ne soobschaite nikomu kod: 527059 dlya spisaniya 1.0RUR s karty *1658; pokupka na halvacard.ru Esli vy ne zakazyvali platezh, zvonite 88007007710!
+
+-----EXAMPLE-----
+Никому не сообщайте код: 5195 для входа в интернет-банк
+
+-----EXAMPLE-----
+1361 - секретный код списания 2000 р в мобильном приложении ║ Связной Плюс

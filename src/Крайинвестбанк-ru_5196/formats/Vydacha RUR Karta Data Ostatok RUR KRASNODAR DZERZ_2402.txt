@@ -1,0 +1,7 @@
+^Vydacha([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}) .*ata ([\d.]{10}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Vydacha 23800.0 RUR Karta *7418 Data 30.04.2016 17:47 Ostatok 36.81 RUR KRASNODAR, DZERZHINSKOGO STR., 42

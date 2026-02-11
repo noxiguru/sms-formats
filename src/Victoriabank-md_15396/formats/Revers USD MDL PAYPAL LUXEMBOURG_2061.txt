@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*Revers.*?,?([\d\s.,]*\d)\s*([A-Z]{3})=([\d\s.,]*\d)\s*[A-Z]+\s+(.+)
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;op_income;instrument;income;payee
+
+-----EXAMPLE-----
+4...9666 2015-10-30 17:08:52 Revers,1.00 USD=20.19 MDL PAYPAL,4029357733,LUXEMBOURG

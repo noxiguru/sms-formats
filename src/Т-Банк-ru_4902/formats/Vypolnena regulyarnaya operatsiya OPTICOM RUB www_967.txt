@@ -1,0 +1,10 @@
+^(?:Vypoln|Выполн).*?(regul.*?|регул.*?)\s+(?:oper|опер).*?:(?!.*;)\s+(.*?),([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+Vypolnena regulyarnaya operatsiya: OPTICOM, 500 RUB www.tcsbank.ru
+
+-----EXAMPLE-----
+Выполнена регулярная операция: Beeline-Internet, 1550 RUB www.tinkoff.ru

@@ -1,0 +1,10 @@
+^.*(?:Код під\w+|Code): \d{4}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Код підтвердження: 13831 для операції на суму 689.00 UAH - KASA.IN.UA1. 11.09.2021 22:05
+
+-----EXAMPLE-----
+<#>Parol' N166, Code: 9076. Perekaz na kartku Karta MasterCard. Suma: 3100.0 .QvWa5AZ3974

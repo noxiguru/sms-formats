@@ -1,0 +1,7 @@
+^.*ithdraw.*?([A-Z]{3})\s*([\d\s.,]*\d).*ACC.*?(\d{4}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;av_balance
+
+-----EXAMPLE-----
+ATM withdrawal AED1002.00 ACCT 6655. Bal AED 18831.54.

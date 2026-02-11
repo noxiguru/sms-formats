@@ -1,0 +1,7 @@
+^Vipiska.*?#\s*(\d{4}).*Zadolzhennost.?\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Vipiska po karte AUCHAN #7243 Min platezh: 7008.69RUR Data platezha: 10/08/2014 Zadolzhennost: 126145.51RUR. Podrobnee v Internet-Banke

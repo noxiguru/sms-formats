@@ -1,0 +1,13 @@
+^([\d-]{10})\s+[\d:]+\s+([\d\s.,]*\d)\s([A-Z]{3})\s+(?!ATM|ITT)(.+)\s+Karta.*?(\d{4})\..*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+2015-08-10 19:03:02 1 484.23 RUB W.QIWI.RU Karta 4057***9450. Balans 36 947.91 KZT. Tel. +77272508744 zahodi: www.smartbank.kz
+
+-----EXAMPLE-----
+2016-02-06 14:38:51 6 000.00 KZT APTEKA #2 Karta 5298***7653. Balans 21 245.93 KZT. Tel.7722
+
+-----EXAMPLE-----
+2015-08-10 23:14:12 1 000.00 KZT 5, ALIKHANOVA STR. 4037 Karta 4057***9450. Balans 35 887.91 KZT. Tel. +77272508744 zahodi: www.smartbank.kz

@@ -1,0 +1,7 @@
+^.*popovne.*suma([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}).*ostup.*?(-?[\d\s.,]*\d)\s.*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Vash kartkovyj rahunok bulo popovneno, suma 18104.00 UAH 03.02.16 17:00, dostupno 18094.33 UAH. FIDOBANK. fidomarket.ua

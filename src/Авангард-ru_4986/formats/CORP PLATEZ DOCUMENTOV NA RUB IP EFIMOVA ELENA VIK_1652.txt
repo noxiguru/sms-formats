@@ -1,0 +1,7 @@
+^(CORP):\s+PLATEZ.*NA\s+([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+CORP: PLATEZ DOCUMENTOV 1 NA 137151.00 RUB IP EFIMOVA ELENA VIKTOROVNA 03.04.15 12:37 END

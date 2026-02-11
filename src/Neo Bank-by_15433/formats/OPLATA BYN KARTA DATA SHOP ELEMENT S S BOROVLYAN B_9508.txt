@@ -1,0 +1,7 @@
+^OPLATA\s+([0-9][\d\s.,]*\d)\s+([A-Za-z]{1,3})\s+KARTA\s+#(\d{4})\s+DATA\s+(\d{2}[./-]\d{2}[./-]\d{4})\s{2}\d{2}:\d{2}:\d{2}\s+SHOP\s+(?!")([0-9][^"]*?)\s+OSTATOK\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s+([A-Za-z]{1,3})$
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+OPLATA 129.00 BYN KARTA #7022 DATA 23.08.2025  15:59:18 SHOP 5 ELEMENT>S.S.BOROVLYAN>BY OSTATOK 4041.88 BYN

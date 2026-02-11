@@ -1,0 +1,7 @@
+.*?(?:Karta|Карта)\s*\*(\d{4}).*?(?:vznos|взнос)\s*["]?(.+?)["]?,?\s*[,;]?\s*\+\s*([0-9][\d\s.,]*)\s*,\s*([A-Za-z]{1,4}).*?["]?(\d{2}[-./]\d{2}[-./]\d{2,4})["]?\s+\d{2}:\d{2}.*?(?:Dostupno|Доступно)\s*:?\s*(-?[0-9][\d\s]*[.,]\d{2})(?=[\s,]|$).*?,\s*([A-Za-z]{1,4})
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *0478. vznos "ACCOUNT UZS 2 VISA M", +10000000.00, UZS, "06-02-2026 09:10". Dostupno: 11598647.45, UZS.

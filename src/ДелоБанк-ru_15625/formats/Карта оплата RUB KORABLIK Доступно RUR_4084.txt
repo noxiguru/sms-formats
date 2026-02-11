@@ -1,0 +1,13 @@
+^.*(?:arta|арта).*?(\d{4}).*(?:плата|plata).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта 5*2006 оплата 899,00 RUB KORABLIK 25/01/2019 Доступно 6162,70 RUR
+
+-----EXAMPLE-----
+Karta 5*5359 oplata 628,98 RUB PEREKRESTOK CENTRALNYJ 10/12/2020 Dostupno 9341,13 RUR
+
+-----EXAMPLE-----
+Karta 7041 oplata 1583,40 RUB PYATEROCHKA 3579 22/08/2022 Dostupno 7519,80 RUR

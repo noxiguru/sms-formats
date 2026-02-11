@@ -1,0 +1,16 @@
+^.*(?:art|арт).*?(\d{4})\W?\s*(\d{2}[-./]\d{2}[-./]\d{2,4})\D.*(?:opoln|ополн).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;acc_instrument
+
+-----EXAMPLE-----
+Karta 5829: 14.02.2020 16:54, popolnenie 35017.50 RUR, FFINBANK Balans 35017.50 RUB 0.00 USD 0.00 EUR
+
+-----EXAMPLE-----
+Karta 7356: 17.09.2020, popolnenie 4.37 RUR.  Balans 45726.29 RUB 0.00 USD 0.00 EUR
+
+-----EXAMPLE-----
+Карта 8226: 19.08.2022, пополнение 9.66 RUB.  Баланс 88203.88 RUB 0.00 USD 0.00 EUR ║ Уведомление об операции
+
+-----EXAMPLE-----
+Karta 2688:20.01.2024 11:41, popolnenie 740.00 RUB, QIWI BANK RUS Moscow. Balans 740.00 RUB 0.00 USD 0.00 EUR

@@ -1,0 +1,7 @@
+^Reg.*?Platezh\s+(.*?)\.*\s+Karta\s+\*([\d]{4}).\s+Summa\s+([\d.]{3,})\s+([A-Z]{3}).\s+Vypolnena.*?(-?[\d.]{3,}).*?(\d{2}\.[\d.]{7}).*
+
+-----COLUMNS-----
+payee;syncid;outcome;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Regulyarnaya operatsia: Platezh StarNet. Karta *9922. Summa 600.00 RUB. Vypolnena. Dostupno 77140.21 RUB. 28.04.2013. www.tcsbank.ru

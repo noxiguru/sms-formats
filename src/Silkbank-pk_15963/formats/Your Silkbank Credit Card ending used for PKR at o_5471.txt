@@ -1,0 +1,7 @@
+^.*nding (\d{4}) used for ([A-Z]{3}|\W)\s*([\d\s.,]*\d).* on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}) at (.*?)(?: \d{8,} [A-Z]{2,3})?\..*vail.*?: (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dMy;payee;av_balance
+
+-----EXAMPLE-----
+Your Silkbank Credit Card ending 5577 used for PKR 274 at 10:47 on 14 Oct 22 at Daraz 1234567890 PK. Available (With 10% Excess Limit, if opted): 38,214.33

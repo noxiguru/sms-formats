@@ -1,0 +1,7 @@
+^.*?(\d{1,2}/\d{1,2}/\d{2}).*(?:opolnen|peration\s+p).*?\*(\d{4}).+?([\d\s.,]*\d)\s*([A-Z]{3}).+alan.+?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#MM/dd/yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+TSESNABANK: 12/31/15 2:44 PM Popolnenie cheta***5964 na 0,012.00 KZT. Balance 0.39,  tel. 7711, www.tsb.kz

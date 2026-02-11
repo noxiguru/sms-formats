@@ -1,0 +1,7 @@
+^Popol(?!.*\*).*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Popolnenie +1 130.53 RUB karti. Dostupno 3 571.83 RUB

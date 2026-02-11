@@ -1,0 +1,7 @@
+^.*perac.*?\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d/]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM/yy
+
+-----EXAMPLE-----
+Uspeshnaya operaciya po karte VISA*4478 na summu 5000.00 RUB. 01/08/17 11:13:30.

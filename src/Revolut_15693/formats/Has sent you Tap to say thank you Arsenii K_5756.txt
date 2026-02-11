@@ -1,0 +1,7 @@
+^Has\s+sent\s+you\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d).*\s+║\s+(.*)
+
+-----COLUMNS-----
+instrument;income;payee
+
+-----EXAMPLE-----
+Has sent you €39. Tap to say thank you 💸 ║ Arsenii K

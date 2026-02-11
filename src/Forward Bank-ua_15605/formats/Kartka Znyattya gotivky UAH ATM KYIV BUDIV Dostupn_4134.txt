@@ -1,0 +1,8 @@
+^.*art.*?[\d-]*(\d{4}).*nyat.*?got.*?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d/]{5}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM;av_balance
+
+-----EXAMPLE-----
+Kartka 5168-3487. Znyattya gotivky: - 1000 UAH ATM2418 KYIV
+BUDIV 40 27/03 10:24. Dostupno: 6657.55 UAH. Tel.583

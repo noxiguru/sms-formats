@@ -1,0 +1,7 @@
+^Popoln(?!.*CASH)\w* ([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) (\d{4}[-./]\d{2}[-./]\d{2}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#yMd;av_balance
+
+-----EXAMPLE-----
+Popolnenie 205.00 BYN Kartoi #3826 2020-05-18 13:38:24 Acode 252601; Mesto: USL 369 SOU BPS-Sberbank > Minsk BLR; Ostatok: 208.25 BYN. BPS-Sberbank ║ СМС Уведомление

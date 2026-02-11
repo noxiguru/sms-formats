@@ -1,0 +1,10 @@
+^((?:Выплат|Viplat).*?\s+(?:по\s+сч|po\s+sch).*?\*\d*(\d{4})\s+(?:за|za)\s+.*)\s+-\s+([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument
+
+-----EXAMPLE-----
+Выплата процентов по счёту 408*13331 за период с 01.03.2022 по 31.03.2022 - 22035.26 RUR.
+
+-----EXAMPLE-----
+Viplata procentov po schetu 408*85896 za period s 01.03.2023 po 31.03.2023 - 252.32 RUR.

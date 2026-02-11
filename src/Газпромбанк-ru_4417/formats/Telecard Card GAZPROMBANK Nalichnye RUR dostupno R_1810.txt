@@ -1,0 +1,13 @@
+^Telecard;\s+[^;]*?(\d{4}|[^\d\s;]+);\s+([\d.]{8})\s+.*;\s*Nalich.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Telecard; Card7895; 15.04.13 12:11:49; GAZPROMBANK; Nalichnye; 3900 RUR; dostupno: 200011.01 RUR; ostatok na schete: 200011.01 RUR
+
+-----EXAMPLE-----
+Telecard; Card9257; 28.02.14 07:38:37; GAZPROMBANK; Nalichnye; 15000 RUR; dostupno: 5000 RUR; ostatok na schete: 5000 RUR
+
+-----EXAMPLE-----
+Telecard; VISA Gold; 28.02.14 07:38:37; GAZPROMBANK; Nalichnye; 15000 RUR; dostupno: 5000 RUR; ostatok na schete: 5000 RUR

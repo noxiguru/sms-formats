@@ -1,0 +1,7 @@
+^.*(?:Paid|Оплата)\W?\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+\((?:[A-Z]{3}|\W)\s*([\d\s.,]*\d)\).*(?:Balan|Балан).*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d)\s+║\s+(.*)
+
+-----COLUMNS-----
+instrument;op_outcome;outcome;acc_instrument;av_balance;payee
+
+-----EXAMPLE-----
+🛍 Paid $14.76 (SEK160.11) at AliExpress SEK Balance: SEK5,559.43 ║ AliExpress

@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}) .(?:писан|pisan).*?\*(\d{4})\W? .(?:стат|stat).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+-13 986.00 RUB spisano so scheta 40802*3620, ostatok 76014.00 RUB

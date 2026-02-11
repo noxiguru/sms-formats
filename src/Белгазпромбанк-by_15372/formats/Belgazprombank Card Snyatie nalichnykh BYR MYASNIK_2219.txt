@@ -1,0 +1,16 @@
+^.*ard(\d{4});.*(?:alichn|нятие н|аличные в )(?!.*euspesh).*?([\d\s.,]*\d)\s*([A-Z]{3});\s+([\d.]{8}).*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Belgazprombank; Card2140; Snyatie nalichnykh: 600 000 BYR; 08.02.16 17:41:20; MYASNIKOVA 70,MINSK,BY; Dostupno: 1 267 895 BYR
+
+-----EXAMPLE-----
+Card8232; Снятие наличных: 100 BYN; 03.05.17 14:43:40; GORETSKOGO2,MINSK,BY; Dostupno: 7 657,06 BYN
+
+-----EXAMPLE-----
+Card9416; Nalichnye v ATM: 5,00 BYN; 24.10.19 18:27:12; ,MINSK,BLR; MCC: 6011; Dostupno: 27,20 BYN
+
+-----EXAMPLE-----
+Card1234; Наличные в ATM: 800,00 BYN; 14.11.19 14:34:00; MYASNIKOVA 7, MINSK,BY; MCC: 6011; Dostupno: 1 203,21 BYN ║ BGPB mobile

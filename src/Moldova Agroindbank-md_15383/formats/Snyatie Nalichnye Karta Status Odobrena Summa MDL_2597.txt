@@ -1,0 +1,7 @@
+^.*?nyat.*?alich.*?\*(\d{4}).*?dobren.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ost.*?(-?[\d\s.,]*\d).*?\s+([\d.]{8})\s+.*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Snyatie/Nalichnye Karta: *0593 Status: Odobrena Summa: 550 MDL Dost: 4017,39 Data/vremya: 26.08.16 22:36 Adres: ATM MAIB CASH IN DOCCB Podderzhka: +37322450

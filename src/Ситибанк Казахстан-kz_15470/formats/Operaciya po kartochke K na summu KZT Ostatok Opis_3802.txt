@@ -1,0 +1,7 @@
+^([\d-]{10}).*peraciya.*\*(\d{4}).*\+([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*pisan.*?:\s+(.*)
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;income;instrument;av_balance;comment
+
+-----EXAMPLE-----
+2018-07-25 00:00:00  Operaciya po kartochke K**5202 na summu +315349.89KZT. Ostatok : 315974.89. Opisanie: PAYMENT RECEIVED

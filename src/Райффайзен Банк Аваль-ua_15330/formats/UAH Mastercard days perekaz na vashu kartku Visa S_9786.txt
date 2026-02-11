@@ -1,0 +1,7 @@
+.*?([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4}).*?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\d{2}:\d{2}.*?(?:[Pp]erekaz|[Пп]ереказ).*?\*(\d{4}).*?(?:[Zz]alyshok|[Зз]алишок)[:\s]*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,4}).*
+
+-----COLUMNS-----
+income;instrument;date#dMy;syncid;balance;acc_instrument
+
+-----EXAMPLE-----
+120.00 UAH 01.10.25 13:38 Mastercard 100 days *3001 perekaz na vashu kartku Visa Signature  *1492. Zalyshok: 255742.42 UAH

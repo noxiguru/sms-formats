@@ -1,0 +1,7 @@
+^([\d.]{5}).*?(Otmena spisan.*?)\..*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3})(?!.*ostu).*esto:\s+(.*?)\..*
+
+-----COLUMNS-----
+date#dd.MM;comment;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+20.09 20:29 Otmena spisaniya sredstv. Karta *1210. Summa: 3053.00 RUR. Mesto: ALIZIYA BALASHIKHA. Podrobnee na otpbank.ru/ib2 . OTP Bank

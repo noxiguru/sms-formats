@@ -1,0 +1,7 @@
+^([\d-]{10}).*peraciya po k(?!.*nalich).*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) \S+\*(\d{3,4}).*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+2016-04-22 20:17 Operaciya po karte Retail 1200.00 KZT BEKMAMBETOV CINEMA 4**860 Dostupnaya summa:33926.35 KZT

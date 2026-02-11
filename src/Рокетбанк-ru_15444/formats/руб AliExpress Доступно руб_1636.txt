@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([а-яA-Z]{3})\.?(?!.*→)\s*(.*)\s+.осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;comment;av_balance
+
+-----EXAMPLE-----
++560,47 руб. AliExpress Доступно: 53 604 руб.

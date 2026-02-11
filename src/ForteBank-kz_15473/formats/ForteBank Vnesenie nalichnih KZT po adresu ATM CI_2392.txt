@@ -1,0 +1,7 @@
+^.*nesen.*?nal.*?([\d\s.,]*\d)\s*([A-Z]{3}).*data\s+(\d{1,2}\s+\w{3}\s+\d{4}).*art.*?\*(\d{4})\s+.*\s+OK.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd MMM yyyy;syncid#cash;av_balance
+
+-----EXAMPLE-----
+ForteBank. Vnesenie nalichnih 80 000.00 KZT po adresu ATM 2192 CI URP FURMANOVA, ALMATY, data 26 apr 2016, vremya 19:13:59, karta 4042********7228 status OK, ostatok 80 750.00 KZT. tel. 7-727-2583-555

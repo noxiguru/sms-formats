@@ -1,0 +1,7 @@
+^Oplata u[^:]+. (.*). Summa ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;outcome
+
+-----EXAMPLE-----
+Oplata uslugi: Sovershenie platezhey po rekvizitam (proizvol'nyy platezh). Summa 40400.00 : 0010007152

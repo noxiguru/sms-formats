@@ -1,0 +1,7 @@
+^(?:DEBIT ACC|ELQ HAS)\w+ ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:BALA|MNAC).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+DEBIT ACCOUNT 140,000.00 AMD 4083***9278 AMERIABANK API GATE, AM 06.09.2022 13:34 BALANCE: 786,322.77 AMD

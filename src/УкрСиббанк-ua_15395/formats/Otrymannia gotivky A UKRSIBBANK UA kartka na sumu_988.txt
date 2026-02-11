@@ -1,0 +1,19 @@
+^.*?otiv.*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*?(?:akhun|artk).*?(\d{4})[^\d*].*?[Ss]um.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Otrymannia gotivky: A0309362 UKRSIBBANK, UA 25.09.2013 18:57 kartka 4073***4441 na sumu 6000.00UAH. Dostupnyi zalyshok 3181.92UAH.
+
+-----EXAMPLE-----
+Otrymannya gotivky: 15.04.2016 10:45:26, rakhunok 1234567890 na sumu 25,000.00UAH. Dostupniy zalyshok 19104.93UAH.
+
+-----EXAMPLE-----
+Otrymannia gotivky: UAEN0028 , UA 14.01.2018 15:45. Kartka 5169***6474. Suma 500.00UAH. Dostupno 6096.89UAH
+
+-----EXAMPLE-----
+Otrymannya gotivky: 13.03.2019 12:39:30, rakhunok 1234567890 na sumu 80.00USD. Dostupniy zalyshok 0.00USD.
+
+-----EXAMPLE-----
+Gotivka: A0308141 UKRSIBBANK 26.04.2021 19:52:40. Kartka 535432****9548. Suma 1200.00UAH. Dostupno 20038.50UAH.Detali: my.ukrsibbank.com

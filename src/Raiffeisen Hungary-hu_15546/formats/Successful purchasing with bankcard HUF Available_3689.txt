@@ -1,0 +1,10 @@
+^.*?(?:uccess|ikeres).*?(?:purchas|vàsàrl).*?\*(\d{4}).*?,?([\d\s.,]*\d)\s*([A-Z]{3}).*?(?:vail|alan|gyenl).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (\d{4}[-./]\d{2}[-./]\d{2})\s+[\d:]+\s+(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;date#yMd;payee
+
+-----EXAMPLE-----
+Successful purchasing with 524836******4402 bankcard, 2.600,00 HUF. Available balance: 24.396,62 HUF 2018.05.21 11:02:49 WIZZ AIR HUNGARY KFT H Budapest       HU
+
+-----EXAMPLE-----
+Successful purchasing with 524836******7653 bankcard, 900,00 HUF. Available balance: 10.728.978,35 HUF 2022.02.05 13:52:54 LIPO'T GARA'ZS BUDAPEST HU

@@ -1,0 +1,7 @@
+^Has\s+recib.*?de\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+de\s+(.*?)\s+por\s+(?:-)?(.*?)\.\s+║.*Bizum.*
+
+-----COLUMNS-----
+income;instrument;payee;comment
+
+-----EXAMPLE-----
+Has recibido un BIZUM de 150,00 EUR de Natalia V. por -. ║ Pago Bizum 💶 📲

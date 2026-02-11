@@ -1,0 +1,7 @@
+^.*ate.([\d.]{5}) .*ard.*?-(\d{4}) (.arakhuv.*?) ([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dM;syncid;comment;income;instrument;av_balance
+
+-----EXAMPLE-----
+Date:06.04 13:45 Card:5168-8126 Zarakhuvannia zarobitnoi platy 2447.19 UAH Balance=2515.64 UAH

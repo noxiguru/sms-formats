@@ -1,0 +1,7 @@
+^Uspeshnaja\s+otmena.*\*(\d{4}).\s+Summa.\s+([\d\s.,]*\d)\s+([A-Z]{3}).\s+(.*)\s+([\d.]*\d{4}).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Uspeshnaja otmena operacii: 5*0611; Summa: 30,00 RUR; Pokupka Otmena; GB/GOOGLE.COM/CH/GOOGLE *MARKETPLACE; 01.10.2013 12:27:39. Alfa-bank.

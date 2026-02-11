@@ -1,0 +1,19 @@
+^.*?x(\d{4})\s+([\d.]{10}).*?(?:plata|okupka|pisan|плата|писан|окупка)(?!.*отмена).*?(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 4x4924 19.08.2013 06:44 MSK Oplata tovarov/uslug Summa 300,00 RUR MEGAFON Dostupno 9810,72 RUR Kontakt-czentr +74955800080
+
+-----EXAMPLE-----
+Karta 4x0163 30.03.2016 09:13 MSK Spisanie Summa 41779,00 RUR YA.TRANSFER Dostupno 31421,16 RUR Kontakt-centr +74955800080
+
+-----EXAMPLE-----
+Карта 4x0163 15.05.2016 21:44 МСК Оплата товаров/услуг Сумма 1744,00 RUR AV AZBUKAVKUSA Доступно 24724,73 RUR ; Контакт-центр +74955800080
+
+-----EXAMPLE-----
+Карта 4x0163 30.06.2016 17:38 МСК Списание Сумма 16108,10 RUR CARD2CARD YANDEX.MONEY Доступно 32310,69 RUR ; Контакт-центр +74955800080
+
+-----EXAMPLE-----
+Karta 4x7357 17.11.2019 10:52 msk Pokupka Summa 390,30 RUR OOO NEVA Dostupno 13648,86 RUR

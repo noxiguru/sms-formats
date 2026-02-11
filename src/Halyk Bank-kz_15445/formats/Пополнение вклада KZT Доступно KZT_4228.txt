@@ -1,0 +1,7 @@
+^([\d.]{10}).*(?:ополнен|opolnen).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+21.07.2019 14:00 Пополнение вклада 9500.00KZT, 0**2569. Доступно 32859.40KZT

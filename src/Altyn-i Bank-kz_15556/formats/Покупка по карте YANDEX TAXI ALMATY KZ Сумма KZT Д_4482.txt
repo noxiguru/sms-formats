@@ -1,0 +1,7 @@
+^Покупка .*арт.*?(\d{4})\s+(.*?)\s+.умм.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{4}-\d{2}-\d{2}) .*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#yMd;av_balance
+
+-----EXAMPLE-----
+Покупка по карте 0713 YANDEX.TAXI >ALMATY KZ Сумма: 49 KZT 2020-01-21 17:26:10 Доступно: 3199.54 KZT

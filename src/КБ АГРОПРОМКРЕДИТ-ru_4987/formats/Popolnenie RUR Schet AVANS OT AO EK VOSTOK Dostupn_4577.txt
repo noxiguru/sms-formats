@@ -1,0 +1,10 @@
+^.*opoln.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:chet|arta) (\d{4}) (.*?)\. .ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;comment;av_balance
+
+-----EXAMPLE-----
+14:40 Popolnenie 23 338.00 RUR Schet 1039 AVANS OT AO EK VOSTOK. Dostupno 32 669.92
+
+-----EXAMPLE-----
+16:23 Popolnenie 1 467.00 RUR Karta 0311 YM*Goods. Dostupno 43 011.01

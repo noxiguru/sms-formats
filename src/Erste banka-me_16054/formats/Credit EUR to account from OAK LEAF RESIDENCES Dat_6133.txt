@@ -1,0 +1,7 @@
+^.*redit.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+to.*?\d*(\d{4}).*rom:\s+(.*?)\s+.ate:\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*etail\w*:\s+(.*)
+
+-----COLUMNS-----
+income;instrument;syncid;payee;date#dMy;av_balance;acc_instrument;comment
+
+-----EXAMPLE-----
+Credit: 600,00 EUR to account: 540-1234567890-65 from: OAK LEAF RESIDENCES Date: 01.03.2024 Available: 600,85 EUR Details: Zarade i naknade zarada

@@ -1,0 +1,16 @@
+^.*\*(\d{3,4}) (?:.(?:окупк|okupk).*?|-)([\d\s.,]*\d)\s*([а-яA-Z]{1,3}|\W)\.? (?:.(?:эшб|ashb).*?[\d\s.,]*\d\s*[а-яA-Z]{1,3}\s+)?(.*?)\s+.(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*028 Покупка: 8 844т Кэшбэк (1.5%): 132.66т PINTA BAR&GRILL MOSKVA Доступно: 20 410.52т
+
+-----EXAMPLE-----
+*113 Покупка: 13 100т INTERTOP-1 (MEGA-2) Доступно: 59 038.86т Alfabank Kazakhstan
+
+-----EXAMPLE-----
+Карта *901 -1 420 т AZIZA, ALMATY Доступно: 416 156.3 т, из них: Собственные: 0 т Кредитные: 416 156.3 т
+
+-----EXAMPLE-----
+По карте *9408 -178 835 тг. ALMATHERM KZ, NUR-SULTAN Доступно: 1 532 842.74 тг.

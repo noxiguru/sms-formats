@@ -1,0 +1,10 @@
+^.*spent ([A-Z]{3}|\W)\s*([\d\s.,]*\d) .*\*(\d{4}) at (.*?) on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Customer, you have spent AED 408.45 from account **8237 at DU AUTOPAYMENT on 14/02/2021 Available Balance is AED 392.86
+
+-----EXAMPLE-----
+Dear Customer, you have spent EUR 109.90 from account **7542 at CONTINENTE on  04/02/2023 Available Balance is  EUR 460.49

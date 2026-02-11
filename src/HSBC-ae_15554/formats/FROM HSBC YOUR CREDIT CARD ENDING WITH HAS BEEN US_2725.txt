@@ -1,0 +1,7 @@
+^.*ENDING.*?(\d{4}) .*?USED FOR ([A-Z]{3})\s*([\d\s.,]*\d) ON ([\d/]{10}) AT(?!.*VAILAB)\s+(.*)
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#dd/MM/yyyy;payee
+
+-----EXAMPLE-----
+FROM HSBC : YOUR CREDIT CARD ENDING WITH *** 4988 HAS BEEN USED FOR AED 50.00 ON 22/10/2016 AT Smart Dubai Government

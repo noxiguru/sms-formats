@@ -1,0 +1,7 @@
+^.(?:окуп|okup).*?\*(\d{4}).\s+([\d\s.,]*\d)[\s\.]*([A-Z]{3}).*(?:стат|stat).*?(-?[\d\s.,]*\d)[^;]*;\s+(.+?)\s+(\d\d\.[\d.]{7}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Pokupka po NFC *5526: 619.50RUB. Ostatok 37910.85RUB; CE00MAGNOLIYA, MOSCOW 12.07.2015 06:50

@@ -1,0 +1,7 @@
+^.*ransact.*?([A-Z]{3})\s*([\d\s.,]*\d) .*nding (\d{4}) on (\d{2}[-./]\d{2}[-./]\d{2,4}) at (.*?)\. .*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy;payee
+
+-----EXAMPLE-----
+A transaction of SGD 79.00 was made with your UOB Card ending 6198 on 25/10/20 at ISTUDIO VIVOCITY. If unauthorised, call +65-62550160 now

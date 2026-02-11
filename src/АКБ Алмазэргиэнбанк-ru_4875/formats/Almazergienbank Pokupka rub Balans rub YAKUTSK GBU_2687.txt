@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*okupka\s+([\d.]{8})\s+[\d:]+([\d\s.,]*\d)\s*([a-zA-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Almazergienbank 4278***1600 Pokupka 13.10.16 16:20 236.54 rub Balans 46483.20 rub YAKUTSK, , GBU RS(YA) SETO

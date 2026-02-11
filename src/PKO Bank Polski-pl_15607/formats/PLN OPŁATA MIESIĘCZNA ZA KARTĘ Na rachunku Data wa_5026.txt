@@ -1,0 +1,16 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})\s+((?:OPŁATA|PRZELEW|Prowizja)(?!.*(?:eceiver|dbiorca)).*?)\s+(?:Na\s+ra|On\s+ac).*?(\d{4}).*[Dd]at[ae].*?(\d{4}[-./]\d{2}[-./]\d{2}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;date#yMd
+
+-----EXAMPLE-----
+-10,00 PLN OPŁATA MIESIĘCZNA ZA KARTĘ   Na rachunku 68..4809. Data waluty: 2021-05-13 ║ Obciążenie rachunku
+
+-----EXAMPLE-----
+-1,45 USD OPŁATA ZA PROWADZENIE RACHUNKU On account no. 83..7548 Value date: 2022-09-30 ║ Account debit
+
+-----EXAMPLE-----
+-5672,00 PLN PRZELEW US VAT Na rachunku 77..1035 Data waluty: 2023-11-14 ║ Obciążenie rachunku
+
+-----EXAMPLE-----
+-1,45 USD Prowizja On account no. 83..7548 Value date: 2024-09-23 ║ Account debit

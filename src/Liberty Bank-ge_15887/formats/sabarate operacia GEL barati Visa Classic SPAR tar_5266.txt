@@ -1,0 +1,16 @@
+^.*?(?:abarat|перац|perati|ოპერაცია).*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) .*?/\s*\.+(\d{4})\s+(.*?)\s+(?:tarigi|.ата|.ate|თარიღი)\W? (\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:ashti|алан|alan|ნაშთი).*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+sabarate operacia: GEL 5.85 barati: Visa Classic / ....1624 SPAR 244 tarigi: 09/04/2022 xelmisawvdomi nashti: GEL 18,902.95.
+
+-----EXAMPLE-----
+Операция по карте: GEL 21.99 Карта: Visa Classic / ....7573 PSP Дата: 27/06/2022 Общий доступный баланс: GEL 2,534.26
+
+-----EXAMPLE-----
+საბარათე ოპერაცია: GEL 1.20 ბარათი: Visa Classic / ....5180 LLC ORI NABIJI თარიღი: 14/07/2022 სულ ხელმისაწვდომი ნაშთი: GEL 998.80
+
+-----EXAMPLE-----
+Card Operation: GEL 12.20 Cashback: GEL 0.61 Card: Mastercard Debit Standard / ....1175 AUGUST Date: 20/03/2023 balance: GEL 867.00

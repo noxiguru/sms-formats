@@ -1,0 +1,10 @@
+^.*X(\d{4}).*(?:purchase| for ).*?([a-zA-Z]{2,3})\.?\s*([\d\s.,]*\d)\s+at\s+(.*?)\s+on\s+([\d]{2}[- ]\S{3}[- ]\d{2}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd-MMM-yy
+
+-----EXAMPLE-----
+Your debit card 5181XXXXXXXX1700 has been used to make a purchase of Rs. 7837 at Magneto Home Private L Jo on 04-APR-18.
+
+-----EXAMPLE-----
+Thank you for using your Citibank Debit Card 5181XXXXXXXX1700 for Rs. 6652.72 at DORABJEE AND CO PVT LT PU on 03-JUN-18.

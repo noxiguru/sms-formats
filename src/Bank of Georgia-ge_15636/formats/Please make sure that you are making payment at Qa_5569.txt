@@ -1,0 +1,7 @@
+^\d{5,}\s+Please\s+make\s+sure.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+98597 Please make sure that you are making payment at: QariMobilityECOM 0.00 GEL 26.11.2022

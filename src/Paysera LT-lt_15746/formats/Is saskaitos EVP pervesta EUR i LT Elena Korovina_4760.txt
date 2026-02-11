@@ -1,0 +1,13 @@
+^(?:Is|So) .*?(\d{4}) (?:perve|byl\w* ot).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:i|na sch\w+|poluch.*?) (.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Is saskaitos EVP1234567890 pervesta 25.46 EUR i LT1234567890 (Elena Korovina)
+
+-----EXAMPLE-----
+So scheta EVP1234567890 bylo otpravleno 8.37 EUR poluchatelyu GOGVO.COM
+
+-----EXAMPLE-----
+So scheta EVP1234567890 byl otpravlen perevod na summu 150.00 EUR na schet GB68CLJU1234567890 (Roman Ostapuk)

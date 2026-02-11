@@ -1,0 +1,16 @@
+^.*(?:[Pp]aid|Оплата)\W?\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(?:at\s+|\((?!(?:[A-Z]{3}|\W)\s*[\d\s.,]*\d)).*(?:Spent\s+tod|Расходы\s+за|Tap\s+to).*\s+║\s+(.*)
+
+-----COLUMNS-----
+instrument;outcome;payee
+
+-----EXAMPLE-----
+😉 Paid SEK 123.00 at Clas Ohlson 😉 Spent today: SEK 100.00 ║ Clas Ohlson
+
+-----EXAMPLE-----
+🛍 Оплата: €3.92 (Maxima) Расходы за сегодня: €3.92 ║ Maxima
+
+-----EXAMPLE-----
+🚎️️ Оплата: €16.82 (VIADA) Расходы за сегодня: €22 ║ VIADA
+
+-----EXAMPLE-----
+🛒 You paid SEK364.79 at Hemköp. Tap to split this bill with someone ║ Hemköp

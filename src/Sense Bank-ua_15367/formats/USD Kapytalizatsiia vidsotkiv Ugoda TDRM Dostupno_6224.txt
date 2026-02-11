@@ -1,0 +1,10 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.(?:apytal|yplata).*?),\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:goda|ahun).*?(?:[A-Z]+\d+|\*)(\d{4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;comment;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
++7.63USD, Kapytalizatsiia vidsotkiv, 04.05.2024 08:18, Ugoda TDRM000622975. Dostupno: 2321.31USD ║ Sense SuperApp
+
+-----EXAMPLE-----
++0.88USD, Vyplata vidsotkiv, 23.12.2024 10:16, Rahunok UA***2374. Dostupno: 1.24USD ║

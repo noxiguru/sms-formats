@@ -1,0 +1,7 @@
+^Получ.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+от\s+(.*)\s+на\s+.*?\*(\d{4}).*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*
+
+-----COLUMNS-----
+income;instrument;payee;syncid;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Получен перевод 50 050 KZT от Ayan Kulzhabaev на карточку *2171. Доступно: 150 050 KZT. 08/07/2021 09:39:52 ║ Home Credit Kazakhstan

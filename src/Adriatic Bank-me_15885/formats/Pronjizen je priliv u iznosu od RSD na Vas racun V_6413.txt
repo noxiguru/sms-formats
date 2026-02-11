@@ -1,0 +1,7 @@
+^.*riliv\s+u\s+izn.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+na\s+.*?\d*(\d{2}\.\d).*
+
+-----COLUMNS-----
+income;instrument;syncid
+
+-----EXAMPLE-----
+Pronjizen je priliv u iznosu od 38433333,5 RSD na Vas racun 40-008-0000036.4. Vasa Adriatic Bank a.d. Beograd

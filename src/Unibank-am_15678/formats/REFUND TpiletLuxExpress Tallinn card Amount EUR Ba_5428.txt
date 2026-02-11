@@ -1,0 +1,7 @@
+^(REFUND.*?):\s*(.*?)\s*(?:,\s*)*(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;payee;date#dMy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+REFUND: TpiletLuxExpress, Tallinn, ,25.08.22 14:43,card ***1779. Amount:327.00 EUR, Balance:19123.74 AMD

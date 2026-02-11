@@ -1,0 +1,7 @@
+^.*PROVEDENA OP.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*BALANS.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+PROVEDENA OPERACIYA 13 050.00 RUR; DOGOVOR 0173724/002/810; 10-01 03.06.2015 Msc; BALANS 65 330.28 RUR

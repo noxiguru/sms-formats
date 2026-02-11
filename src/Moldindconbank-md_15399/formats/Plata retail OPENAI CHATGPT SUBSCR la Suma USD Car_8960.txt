@@ -1,0 +1,7 @@
+.*?Plata\s+retail\((.*?)\)\s+la\s+(\d{2}\.\d{2}\.\d{2})\s+\d{2}:\d{2}\.\s+Suma:\s+([0-9][\d\s.,]*)\s+([A-Za-z]{1,4})\.\s+Card:\s+\*(\d{4})\.
+
+-----COLUMNS-----
+payee;date#dMy;outcome;instrument;syncid
+
+-----EXAMPLE-----
+Plata retail(OPENAI *CHATGPT SUBSCR) la 28.05.25 00:07. Suma: 24,00 USD. Card: *7012.

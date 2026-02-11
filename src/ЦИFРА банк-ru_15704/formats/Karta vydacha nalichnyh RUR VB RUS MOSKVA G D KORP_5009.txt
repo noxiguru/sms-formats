@@ -1,0 +1,7 @@
+^.*art.*?(\d{4})\D? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ydach.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;acc_instrument
+
+-----EXAMPLE-----
+Karta 8285: 22.04.2021 14:44, vydacha nalichnyh 61900.00 RUR. VB24 RUS MOSKVA G D. 7, KORP. 1, B-R OSENNI.  Balans 65.23 RUB 0.05 USD 0.00 EUR

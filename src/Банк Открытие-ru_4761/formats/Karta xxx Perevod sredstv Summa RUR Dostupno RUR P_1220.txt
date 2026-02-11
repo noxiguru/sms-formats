@@ -1,0 +1,13 @@
+^(?![\d.-]{10}).*?x(\d{4}).*?(?:Perevod|Otpravka [ps]).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 5xxx8008 Perevod sredstv Summa 350.00 RUR Dostupno 1 080.29 RUR Podderzhka +73467390700
+
+-----EXAMPLE-----
+Karta 4x6376 Otpravka perevoda (IBANK.KHMB.RU) Summa 1 000.00 RUR Dostupno 203 292.99 RUR
+
+-----EXAMPLE-----
+Schet 4xxx26924 Otpravka sredsv Summa 6 412.60 RUR Dostupno 92 235.87 RUR

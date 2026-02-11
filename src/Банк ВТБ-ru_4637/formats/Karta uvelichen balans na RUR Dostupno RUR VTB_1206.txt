@@ -1,0 +1,10 @@
+^.*?(\d{4}):?\s+([\d.]{5}).*?(?:uvelichen\s+balans\s+na|postuplenie\s+zarabotnoy\s+plati)([\d\s.,]*\d)\s*([A-Z]{3}).\s+Dostupno\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 9996: 28.03 10:21 uvelichen balans na 19640.42 RUR. Dostupno 40323.59 RUR. VTB24
+
+-----EXAMPLE-----
+Karta *4193: 27.01 17:43 postuplenie zarabotnoy plati2400.00 RUR. Dostupno 5618.56 RUR (v tom chisle kred.0 RUR). VTB24

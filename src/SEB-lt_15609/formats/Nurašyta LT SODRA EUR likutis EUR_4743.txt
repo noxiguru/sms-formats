@@ -1,0 +1,7 @@
+^Nuraš.*?(\d{4})\W\s*(.*?),\s*-([\d\s.,]*\d)\s*([A-Z]{1,3}).*ikut.*?(-?[\d\s.,]*\d).*\((\d{2}[-./]\d{2}[-./]?\d{0,4}) .*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Nurašyta LT1234567890, SODRA, -95.30 EUR, likutis: 11.99 EUR (02/07 10:55:07), 252 252.

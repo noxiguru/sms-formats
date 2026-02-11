@@ -1,0 +1,10 @@
+^(?:VOZVR|POPOLN).*?([\d\s.,]*\d)\s*([A-Z]{3}).*KART.*?(\d{4});\s+(.*?);.*([\d.]{10}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+VOZVRAT 152.69 RUR; KARTA *5126; Moscow, YM     *AliExpress.com; 00-00 19.02.2016 Msc; BALANS 22 976.08 RUR
+
+-----EXAMPLE-----
+POPOLNENIE 17 685.00 RUR; KARTA *2015; Visa Direct, Visa Money Transfer; 15-06 25.12.2016 Msc; BALANS 17 685.00 RUR

@@ -1,0 +1,7 @@
+^Is .*?(\d{4}) perve.*?([\d\s.,]*\d)\s*([A-Z]{1,3}) (?!i )(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Is saskaitos EVP1234567890 pervesta 5.67 EUR JYSK NORDIKA, VILNIUS

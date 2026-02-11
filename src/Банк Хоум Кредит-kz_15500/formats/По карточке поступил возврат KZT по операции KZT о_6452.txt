@@ -1,0 +1,7 @@
+^По\s+карт.*?\*(\d{4})\s+пост.*?(.озврат.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\sот\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]{5,}\s+(.*?)\s+║\s+.*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dMy;payee
+
+-----EXAMPLE-----
+По карточке **1345 поступил возврат 1220 KZT по операции 1470 KZT от 15.10.24 12:33:10 WILDBERRIES, ALMATY, KZ ║ Home Credit Kazakhstan

@@ -1,0 +1,13 @@
+^.*?(\d{1,2}\w{3}\d{2,4}) .*?(?:Debit|Paym|Trans).*?from (\S+)\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\-.*?alan.*?([A-Z]{3}|)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+From HSBC: 03SEP2016 Internet Banking Debit Telegraphic Transfer from AEDcurr AED 100,000.00- Your available balance is AED 6,424.05
+
+-----EXAMPLE-----
+From HSBC: 04OCT22 Internet Banking TT Payment from 031-245***-001 AED 21,487.74- Your available balance is AED 4,999.28
+
+-----EXAMPLE-----
+From HSBC: 04NOV22 Internet Banking Transfer from 031-245***-001 AED 4,000.00- Your available balance is 1,466.61

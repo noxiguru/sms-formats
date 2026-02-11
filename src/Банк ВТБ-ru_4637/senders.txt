@@ -1,0 +1,11 @@
+VTB24
+88001002424
++79037672424
++79049062424
++79922002424
++79503742424
+bonusvtb24
+vtb
+vtbbank
+ru.vtb24.mobilebanking.android
+ru.advisa.smartsms

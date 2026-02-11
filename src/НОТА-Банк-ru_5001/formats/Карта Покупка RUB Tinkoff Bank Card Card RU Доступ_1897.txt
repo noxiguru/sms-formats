@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+.окуп.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{8})\s+[\d:]+\s+(.*)\s+.осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+Карта 4058***6248 Покупка 3250.00RUB 20.07.15 00:21 Tinkoff Bank Card2Card, RU Доступно 33183.22RUB

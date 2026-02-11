@@ -1,0 +1,7 @@
+^.*?Depozit.*?(\d{4}) Summa. ([\d\s.,]*\d) ([а-яa-zA-Z]{3}).*alans. ([\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Forshtadt: Depozit Karta: *1362 Summa: 50.00 rub Balans: 1 359.94 rub Vremja: 18:31 04.12.13 Adres: FRSB ORENBURG, CHKALOVA 35/1

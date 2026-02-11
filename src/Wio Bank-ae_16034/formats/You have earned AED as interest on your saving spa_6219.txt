@@ -1,0 +1,7 @@
+^.*earned\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d).*on\s+your\s+saving\s+space\s+(\w+).*
+
+-----COLUMNS-----
+instrument;income;syncid
+
+-----EXAMPLE-----
+You have earned AED 119.92 as interest on your saving space Father

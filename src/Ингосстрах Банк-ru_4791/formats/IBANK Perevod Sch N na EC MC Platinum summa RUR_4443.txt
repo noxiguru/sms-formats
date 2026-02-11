@@ -1,0 +1,10 @@
+^.*(?:еревод|erevod)(?!.*(?:алан|alan)).*?\.(\d{3,4}).*((?:на|na)\s+.*?\d{3,4}), (?:сумм|summ).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument
+
+-----EXAMPLE-----
+IBANK Perevod Sch.N 42301...094 na EC/MC Platinum 5310...6665, summa 500.00RUR.
+
+-----EXAMPLE-----
+IBANK Perevod EC/MC Gold 5310...2513 na Sch.N 42306...277, summa 5,000.00RUR.

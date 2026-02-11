@@ -1,0 +1,7 @@
+^.*\*(\d{4})\W? ([\d\s.,]*\d)\s*([A-Z]{3})\W? .осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W? (.*?) ║ Покуп.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Карта *2310. 1579 RUB. Доступно 137455.75 RUB. SPORTMASTER 5468 ║ Покупка

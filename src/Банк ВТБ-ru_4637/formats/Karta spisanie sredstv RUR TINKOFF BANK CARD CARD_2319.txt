@@ -1,0 +1,10 @@
+^.*?(\d{4}):\s+spisan.*?(\d[\d\s.,]*)\s*([A-Z]{3}).*?\s+([\d.]{10})\s+(?!.*ostup).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Karta *5139: spisanie sredstv 20000.00 RUR; TINKOFF BANK CARD2CARD; data: 03.04.2016 15:49 (v tom chisle kred. 0.00 RUR). VTB24
+
+-----EXAMPLE-----
+Karta *5292: spisanie 8906.39 RUR; TINKOFF BANK CARD2CARD; 25.06.2016 17:30 (v tom chisle kred. 0.00 RUR). Kontroliruyte svoy byudzhet s besplatnim prilozheniem: www.vtb24.ru/m/smart. VTB24,

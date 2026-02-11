@@ -1,0 +1,7 @@
+^.*?Vidacha.*-([\d\s.,]*\d) ([A-Z]{3}).*\*(\d{4}) NEW_BAL: (-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Vidacha: RUS POLYARNYE ZOR PUSHKINA, 13 -3 000.00 RUR CARD **2133 NEW_BAL: 87 112.25 2013-07-03 17:17:47

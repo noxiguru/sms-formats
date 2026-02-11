@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s.,]*\d).*?eceived\s+as\s+(.*?)\..*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;comment;av_balance
+
+-----EXAMPLE-----
+AED 2,560.00 has been received as TELEGRAPHIC TRANSFER. The available balance of your account is AED 403511.37.

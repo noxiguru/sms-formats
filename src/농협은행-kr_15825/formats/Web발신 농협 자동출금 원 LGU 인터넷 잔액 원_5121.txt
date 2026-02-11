@@ -1,0 +1,7 @@
+^.*?(\d{2}/\d{2}) .*\*-(\d{4})-\d{2}\s+자동출금([\d\s.,]*\d)\s*([A-Z]{3}|\S)\s*\((.*)\).*잔액(-?[\d\s.,]*\d)\s*([A-Z]{3}|\S).*
+
+-----COLUMNS-----
+date#Md;syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+[Web발신] 농협07/22 20:18  352-****-4054-93  자동출금16,421원 (LGU+인터넷)  잔액51,089원

@@ -1,0 +1,10 @@
+^\*(\d{4}) (.*(?:тмена|tmena).*?) .(?:okupk|окупк).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3});?\s*(.*?)\s*\.?\s*.(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*8199 Отмена Покупка 977,77p Yandex.Fuel Доступно 242181,35p
+
+-----EXAMPLE-----
+*9429 Частичная отмена Покупка 26p mostran.vtb.ru 41, Доступно 1384,22p ║

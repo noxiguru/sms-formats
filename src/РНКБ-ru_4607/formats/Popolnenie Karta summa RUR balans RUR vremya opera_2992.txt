@@ -1,0 +1,7 @@
+^.*opoln.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Popolnenie, Karta:8624 summa:28077.62 RUR  balans:28079.26 RUR  (vremya operatsii MSK 2017-05-10 11:07:40)

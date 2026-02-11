@@ -1,0 +1,16 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*?(\d{4}):.*(?:plachen|плачен|pisano|писано).*?(\W+|[A-Z]{2,3})\s*([\d\s.,]*\d)\s+(?:.*?(?:отправлено|otpravleno)\s+)?(.*)\s+.(?:alan|алан).*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;outcome;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+05.08.2024 18:55 CARD1812: Oplacheno RUR 187.00 Moscow YANDEX*4121*TAXI Balans: RUR 8,120.62
+
+-----EXAMPLE-----
+07.08.2024 09:09 CARD2113: Оплачено RUR 20.00 Surgut SP_A3-KOPICENTR Баланс: RUR 32,032.67 ║ Оплата 20.00 ₽ SP_A3 KOPICENTR
+
+-----EXAMPLE-----
+12.08.2024 08:31 CARD1812: So scheta spisano RUR 1,000.00 Sistema bystryx platezhej -otpravleno Evgenij Vasilevich K Balans: RUR 27,648.06
+
+-----EXAMPLE-----
+10.08.2024 07:21 CARD2113: Со счета списано RUR 1,900.00 Система быстрых платежей - отправлено Игорь Андреевич Ж Баланс: RUR 3,780.90 ║ Cписано 1,900.00 ₽

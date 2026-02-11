@@ -1,0 +1,7 @@
+^([\d.]{8}).*\*(\d{4}).*VYDACH.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:BALAN|DOST).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+03.12.18 15:51 KARTA ****0402 VYDACHA ATM 1600.00 RUB SBB 00079972, RUS DOSTUPNO 24493.49 RUB

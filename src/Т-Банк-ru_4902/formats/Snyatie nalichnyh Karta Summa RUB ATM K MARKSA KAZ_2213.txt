@@ -1,0 +1,10 @@
+^.*?(?:Snyatie|Снятие).*?\*(\d{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*(?:ostu|осту).*limit.*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Snyatie nalichnyh. Karta *1253. Summa 4000.00 RUB. ATM 979751 12 K.MARKSA, KAZAN. 05.01.2016 14:27. Dostupno s uchetom rashodnogo limita 36000.00 RUB. www.tinkoff.ru
+
+-----EXAMPLE-----
+Snyatie nalichnyh. Karta *2044. 11000.00 RUB. VB24 D. 197, UL. PUSHK, IZHEVSK G. 23.06.2017 17:02. Dostupno s uchetom rashodnogo limita 13392.67 RUB. Tinkoff.ru

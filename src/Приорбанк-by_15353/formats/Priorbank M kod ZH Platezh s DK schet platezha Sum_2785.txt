@@ -1,0 +1,16 @@
+^.*kod=\s*\w{4}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Priorbank 15/12 16:20. M-kod=ZH39, Platezh s DK2300, schet platezha 20649712219. Summa 28.99 BYN. Spravka: 487
+
+-----EXAMPLE-----
+Priorbank 03/11 21:10. M-kod=XZ67, Platezh s DK6577, schet platezha 480949******6749. Summa 45.00 BYN. Spravka: 487
+
+-----EXAMPLE-----
+Priorbank 24/03 11:32. M-kod=VY68, Platezh s KK7255, schet platezha 73660438. Summa 20.14 BYN. Spravka: 487
+
+-----EXAMPLE-----
+Priorbank. 3D-Secure kod= jzfp. Summa platezha 2 990.00 RUB. Karta ***1871. Spravka: 487

@@ -1,0 +1,7 @@
+^Списан(?!.*ATM).*\*(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Списано MC *1142 149.70 RUR KRASNOE I BE Доступно 7,795.64 RUR

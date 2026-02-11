@@ -1,0 +1,7 @@
+^.*(\d{4})\s+zd.*?([\d\s.,]*\d)\s*([A-Z]{3});\s*(.+);\s*DOST.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Po kartci *05300 zdiysneno operaciyu na sumu 1 800.00 UAH; 10 PAVLOVSKAYA SQR.; DOSTUPNA SUMA 2 000,00 UAH; 2015-06-16 09:15:14 ProminvestBank

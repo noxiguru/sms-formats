@@ -1,0 +1,10 @@
+^Пополн.*?\.?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?)\.?$
+
+-----COLUMNS-----
+income;instrument;comment
+
+-----EXAMPLE-----
+Пополнение. 40000.00 RUB, банкомат.
+
+-----EXAMPLE-----
+Пополнение. 8900.00 RUB, Card2Card.

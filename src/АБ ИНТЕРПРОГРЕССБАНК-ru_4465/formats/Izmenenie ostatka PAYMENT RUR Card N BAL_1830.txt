@@ -1,0 +1,7 @@
+^Izm(?!.*[\d-]{10}).*PAYM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}).*BAL.*?(-?[\d\s.,]*\d)$
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Izmenenie ostatka: PAYMENT 10 000.00RUR Card_N**4731 BAL:10 000.00

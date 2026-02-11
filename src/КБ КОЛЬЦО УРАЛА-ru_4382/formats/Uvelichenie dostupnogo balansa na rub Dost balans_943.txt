@@ -1,0 +1,7 @@
+^.*?([\d.]{8}) Uvelichenie.*?na ([\d\s.,]*\d) (\S+) Dost.balans ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+15:58 27.06.13 Uvelichenie dostupnogo balansa na 2500.00 rub Dost.balans 2472.97 rub Bank 88001002254

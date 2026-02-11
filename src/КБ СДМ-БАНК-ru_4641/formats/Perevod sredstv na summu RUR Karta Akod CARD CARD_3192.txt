@@ -1,0 +1,7 @@
+^Perevod.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Perevod sredstv na summu 20 000.00 RUR Karta: *3312 Akod: 521239 CARD2CARD CLKNEW RUS 2017-09-01 13:12:34. Dostupno po karte 29 782.31 RUR. SDM-BANK +7(495)7059090.

@@ -1,0 +1,7 @@
+^Kreditnaja.*?P2P.*?\*(\d{4}).*? ([\d.]{8}) .*?umm.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*dobr.*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument
+
+-----EXAMPLE-----
+Kreditnaja chast' P2P perevoda cherez Telebank-terminal Karta *0996 Vremja 15:13:48 14.09.16 Summa 13 000.00 rub CUB,MAGNITOGORSK,193.16.210.223,Russia Odobreno

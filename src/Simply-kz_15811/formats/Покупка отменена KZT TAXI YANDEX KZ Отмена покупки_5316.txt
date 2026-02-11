@@ -1,0 +1,7 @@
+^(.*отменен\w+) ([\d\s.,]*\d)\s*([A-Z]{3})\W? (.*?), (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;date#dMy
+
+-----EXAMPLE-----
+Покупка отменена 20.00 KZT. TAXI.YANDEX.KZ, 14.06.2022 08:02:26 ║ Отмена покупки

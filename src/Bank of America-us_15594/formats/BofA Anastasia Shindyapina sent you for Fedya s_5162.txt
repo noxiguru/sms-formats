@@ -1,0 +1,7 @@
+^BofA: (.*?) sent y.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) for "(.*)"\s*$
+
+-----COLUMNS-----
+payee;instrument;income;comment
+
+-----EXAMPLE-----
+BofA: Anastasia Shindyapina sent you $265.34 for "Fedya's"

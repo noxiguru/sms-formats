@@ -1,0 +1,16 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:PŁATNO|PRZEL|NADANIE\s+PR|Obciąż|Przelew\s+(?:na\s+t|z\s+(?:kont|kart)))(?!.*(?:Title|Tytuł)).*(?:eceiver|dbiorca|DO\s+ORG\.?):?\s+(.*?)\s+(?:Na\s+rach|On\s+acc).*?(\d{4})\D.*\s+(\d{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;date#yMd
+
+-----EXAMPLE-----
+-48,99 PLN PŁATNOŚĆ WEB - KOD MOBILNY   Odbiorca: allegro.pl    Na rachunku 31..7970. Data waluty: 2020-09-06 ║ Obciążenie rachunku
+
+-----EXAMPLE-----
+-36,00 PLN PŁATNOŚĆ WEB - KOD MOBILNY   Receiver: allegro.pl    On account no. 84..9472  Value date: 2021-07-07 ║ Account debit
+
+-----EXAMPLE-----
+-106,59 PLN NADANIE PRZEKAZU VISA   Odbiorca: TRANSFERGO  LTINTERNET  Na rachunku 32..7759. Data waluty: 2021-09-25 ║ Obciążenie rachunku
+
+-----EXAMPLE-----
+-153,00 PLN PRZEL DO ORG. PODATKOWEGO/CELNEGO On account no. 90..1210 Value date: 2022-07-19 ║ Account debit

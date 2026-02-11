@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*Amount:\s([\d\s.,]*\d)\s*([A-Z]{3}).*New.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+4080*7766 - Operation Amount: 4037.00 RUR. Old Balance: 154.04 RUR. New Balance: 4191.04 RUR.

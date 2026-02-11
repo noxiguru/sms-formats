@@ -1,0 +1,13 @@
+^.*(?:პერაც|ransact|abarate op)(?!.*\*\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:ბარათი\S*\s+)?(\S+)\s+(?:[A-Z]+\s+)?(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:აშთ|alan|asht).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+საბარათე ოპერაცია: 55.00 GEL ბარათი: VISA CLASSIC SMUGGLER 6>Tbilisi GE 08/04/2018 ნაშთი: 235.93 GEL
+
+-----EXAMPLE-----
+Card transaction: 19.07 GEL MC STANDARD AVERSI #148 Abashidze 28/01/2020 Balance: 100.85 GEL
+
+-----EXAMPLE-----
+Sabarate operacia 35.96 GEL MC GOLD LTD FRESCO SHOPING CEN 06/02/2022  nashti: 6966.95 GEL

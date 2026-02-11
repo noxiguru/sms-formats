@@ -1,0 +1,7 @@
+^.*Date.*?([\d/]{5}).*Card.*?-(\d{4}).*Ok.*Term.*"(.+)".*Sum.*?([\d\s.,]*\d)\(([A-Z]{3}).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Date,Time:30/11 19:28 Card:4040-5711 Code:Ok! Terminal:6785594 "PORTMONE.COM.UA.TELEK1" Sum=510(UAH) Balance=21250(UAH)

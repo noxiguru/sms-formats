@@ -1,0 +1,7 @@
+^Spisanie.*?([\d.]{10}).*?\*(\d{4}) summa:([\d\s.,]*\d)([A-Z]{3}) dostupno:([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Spisanie so scheta: 08.07.2013 11:22 karta: **9133 summa:2385.51RUB dostupno:46628.46RUB limit kredita:30000.00 RUB

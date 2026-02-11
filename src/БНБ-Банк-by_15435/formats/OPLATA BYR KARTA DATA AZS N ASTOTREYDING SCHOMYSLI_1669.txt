@@ -1,0 +1,7 @@
+^(?!OTMENA).*?PLAT.*?([\d\s.,]*\d)\s*?([A-Z]{3}).*?ART.*?(\d{4}).*?([\d.]{10})[\s\d:]+(.+)\s+OSTAT.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+OPLATA 369000 BYR KARTA #6272 DATA 07.04.2015 08:13:52 AZS N 24 "ASTOTREYDING">SCHOMYSLITS.S/BY OSTATOK 638461 BYR

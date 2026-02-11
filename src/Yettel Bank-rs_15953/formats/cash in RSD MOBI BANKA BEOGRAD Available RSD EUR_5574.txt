@@ -1,0 +1,7 @@
+^.*\*(\d{4}),\s+cash\s+in.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#yMd
+
+-----EXAMPLE-----
+5574****8332, cash in: 42,000.00 RSD, 2022-12-08, MOBI BANKA BEOGRAD . Available: 42.000,00 RSD 1.000,00 EUR

@@ -1,0 +1,10 @@
+^.*utgoing.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+From.*?:\s+([A-Za-z]+)\s+(?:[A-Za-z\s])*.emain.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Outgoing transaction GEL 100.00 From account: TotalSafe Remaining balance: GEL 174.10 14.05.2023
+
+-----EXAMPLE-----
+Outgoing transaction GEL 60.00 From account: Visa plastic Remaining balance: GEL 550.78 18.05.2023

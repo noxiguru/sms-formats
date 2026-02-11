@@ -1,0 +1,10 @@
+^Оплач.*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3})\.?,\s+(.*?)\..*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+Оплачено  30 866,00 р., Grastin. Карта *1473. Чек #SE5348KAAYTG. https://pro.ru.iboxmpos.com/r/SE5348KAAYTG
+
+-----EXAMPLE-----
+Оплачено  1 070,00 р., ТАНУКИ. Карта *0309. Чек #URX3YLPABHSM. 19696177/12009200. https://pro.ru.iboxmpos.com/r/URX3YLPABHSM

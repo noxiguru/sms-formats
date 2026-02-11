@@ -1,0 +1,7 @@
+^.*acc.*?(\d{4}).*debit.*?([\d\s,]*\d\.\d{2})\d?\s*([A-Z]{3})\s+on\s+([\d/]{5}).*balanc.*?(-?[\d\s,]*\d\.\d{2})\d?\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Your account 3282 has been debited with 57.52 USD on 14/01, 22:12. The available balance of your account is 9,118.61 USD.

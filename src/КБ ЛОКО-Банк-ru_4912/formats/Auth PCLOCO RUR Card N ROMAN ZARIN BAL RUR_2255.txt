@@ -1,0 +1,16 @@
+^Auth:\s+(.+?)\s*(\s[\d\s.,]*\d)\s*([A-Z]{3}).*ard.*?\*(\d{4}).*BAL.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth: PCLOCO02 27 000.00RUR Card_N**9091 ROMAN ZARIN BAL:349.82RUR 2016-02-26 10:12:57
+
+-----EXAMPLE-----
+Auth: PLICHTA O/GDANSK 01 129.26PLN Card¿N**9091 ROMAN ZARIN BAL:24 114.36RUR 2015-03-17 16:35:04
+
+-----EXAMPLE-----
+Auth: PORTOVAYA, 41 10 000.00RUR Card_N**9091 ROMAN ZARIN BAL:22 749.82RUR 2016-02-12 19:13:20
+
+-----EXAMPLE-----
+Auth: UL.SHEVCHENKO D.7-9-11,1 145 000.00RUR Card_N**9091 ROMAN ZARIN BAL:146 405.32RUR 2015-05-03 16:52:05

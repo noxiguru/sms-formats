@@ -1,0 +1,7 @@
+^.*opolnen.*art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).* ([\d-]{8}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#yy-MM-dd
+
+-----EXAMPLE-----
+Popolnenie, Karta:9150 summa:353.99 RUR  balans:397.72 RUR  18-08-02 16:58:30

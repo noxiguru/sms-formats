@@ -1,0 +1,7 @@
+^Списан.*?([\d\s.,]*\d)\s*([A-Z]{3}).*арт.*?\*(\d{4})\s+.стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|) ║ Снятие ден.*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Списание: 500,00 KGS L.TOLSTOGO, 17>BISHKEK KG ROSIN157283 Карта: 4714*1250 Остаток: 11 761,63 ║ Снятие денежных средств

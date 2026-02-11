@@ -1,0 +1,7 @@
+^NALICH.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*([\d.]{10}).*OSTA.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+NALICHNYE 50.00 BYN KARTA #3208 DATA 28.05.2018 19:02:46 "PREZIDENT-OTEL" BR.519 ATM>MINSK>BY OSTATOK 180.70 BYN

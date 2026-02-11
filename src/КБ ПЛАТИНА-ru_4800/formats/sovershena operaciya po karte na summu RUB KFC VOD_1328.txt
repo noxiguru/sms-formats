@@ -1,0 +1,10 @@
+^([\d.]{8}).*(?:peraciya|перация).*?(\d{4}).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).? (?!.*ATM)(.*?)\.?\s+.(?:alan|алан).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+29.07.14 13:18:59 sovershena operaciya po karte 461273***0084 na summu 372 RUB. "KFC "VODNY STADION" REST, MOSCOW, RU. Balans: 2247,42 RUB.
+
+-----EXAMPLE-----
+24.12.17 14:46:25 совершена операция по карте 414010***0703 на сумму 970 RUB. "STARBUCKS" COFFEE HOUSE, MOSCOW, RU. Баланс: 9987,53 EUR.

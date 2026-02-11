@@ -1,0 +1,19 @@
+^([\d]{2}[\s/]?\d{2}) .*-(\d{4})\s+.(?:per.*usp|пер.*?усп).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+?)\s+(?:Vash\s+|Ваш\s+)?(?:[Oo]st|[Зз]ал|[Оо]ст|[Zz]alysh).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dM;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+22/12 22:06 5218-2257 Operatsiya uspeshna 2959.03 UAH VYNO I KYHNYA Vash ostatok 1650.92
+
+-----EXAMPLE-----
+06/03 12:14 5577-7732 Операція успішна 50 UAH DN00 Kostiantynivska Ваш залишок 12 UAH Замовляйте кредит онлайн до 100 000 грн. online.pravex.ua
+
+-----EXAMPLE-----
+11/11 21:11 5577-7732 Операція успішна 40 UAH RESTAURANT ITALYANSKA Остаток: 106.18 UAH
+
+-----EXAMPLE-----
+13/11 16:09 5577-7732 Operatsiia uspishna 3000UAH SendmoneydbMCuah1323BL Zalyshok: 10.05UAH Kurs rozrahunku po kartkam:1$=27,98UAH,1€=31,60UAH
+
+-----EXAMPLE-----
+1406 11:42 5218-8731 Operatsiia uspishna 118UAH KFC Zalyshok: 22819.27UAH Kurs po kartam:1$=26,47UAH; 1€=29,80UAH

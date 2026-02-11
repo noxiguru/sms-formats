@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8}) .*redit([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 4*8021 12.02.19 10:03 Credit 43.84 RUR YM*AliExpress Dostupno: 43.84 RUR Tel. 8(800)7000349

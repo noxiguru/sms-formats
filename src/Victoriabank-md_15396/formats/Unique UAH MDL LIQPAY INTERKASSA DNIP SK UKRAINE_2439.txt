@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d-]{10}).*Unique.*?,?([\d\s.,]*\d)\s*([A-Z]{3})=([\d\s.,]*\d)\s*[A-Z]+\s+(.+)
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;op_outcome;instrument;outcome;payee
+
+-----EXAMPLE-----
+4...9666 2016-05-08 19:32:02 Unique,25.25 UAH=20.25 MDL LIQPAY*INTERKASSA,DNIP-SK,UKRAINE

@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*?(\d{4})\D?\s+.*pisan.*?<([A-Z]{3})\s+-([\d\s.,]*\d)>\s+(.*?)(?:\.|$)
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;outcome;comment
+
+-----EXAMPLE-----
+29.06.2016 14:05 CARD8618: So scheta spisano <RUR -70.00> Komissija za uslugu SMS-Bank soglasno Tarifu TF ZAO SNGB i Dogovoru VE/92694.

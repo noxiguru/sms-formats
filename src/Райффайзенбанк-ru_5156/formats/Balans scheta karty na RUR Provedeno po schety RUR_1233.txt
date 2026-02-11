@@ -1,0 +1,7 @@
+^Balans.*?\*([\d]{4}).*?\s(-?[\d\s.,]*\d) ([A-Z]{3}). Provedeno.*([\d/]{10}). - ([\d\s,.]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;av_balance;acc_instrument;date#dd/MM/yyyy;outcome;instrument
+
+-----EXAMPLE-----
+Balans scheta karty *0007 na 16/04/2014: 21435.54 RUR. Provedeno po schety 15/04/2014: - 11477.76 RUR. Raiffeisenbank

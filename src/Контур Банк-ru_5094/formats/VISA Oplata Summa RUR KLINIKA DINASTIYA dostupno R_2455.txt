@@ -1,0 +1,10 @@
+^.*?(\d{4});.*?Oplata.*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*? ([\d.]{8}) .*?;\s+(.*?);.*?ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+VISA**9882; Oplata; Summa 1500 RUR; 02.06.16 12:45:18; KLINIKA DINASTIYA; dostupno: 15915.5 RUR
+
+-----EXAMPLE-----
+Telecard; Card2056; Oplata; Summa 216 RUR; 20.07.16 15:52:22; MAGNIT MM TERESINA; dostupno: 1595.91 RUR

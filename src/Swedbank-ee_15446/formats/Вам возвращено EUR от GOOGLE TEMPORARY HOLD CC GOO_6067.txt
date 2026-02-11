@@ -1,0 +1,7 @@
+^(Вам\s+возв.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+от\s+(.*?)\.\s+║.*
+
+-----COLUMNS-----
+comment;income;instrument;payee
+
+-----EXAMPLE-----
+Вам возвращено 1 EUR от GOOGLE*TEMPORARY HOLD CC GOOGLE.COM000SG. ║ Notification from Swedbank

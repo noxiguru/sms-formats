@@ -1,0 +1,7 @@
+^(.niatie\s+n.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+sniatie nalichnyh 10 BYN HYPERMARKET'GREEN' BAP>SOLIGORSK>BLR; MCC 6011'; '16/09/2024; Dostupno: 338.97 BYN

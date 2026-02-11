@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}).*nyat.*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+-50,000.00 KZT Snyatie nalichnyh  ATM 245 TD YEVRAZIYA-2 Karta*0786 Balans 495 280.00 KZT Tel.7711

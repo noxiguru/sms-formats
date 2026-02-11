@@ -1,0 +1,19 @@
+^\*(\d{4})(?!.*(?:тказ|тмена|tkaz|tmena)).*(?:okupk|окупк|etail).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3});?\s*(.*?)\s*\.?\s*.(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*5459 Pokupka 139.26 RUR;STOLOVAYA 2 NOVATE.Dostupno 198 987.55 RUR (v t.ch. kredit 198 987.55 RUR). Zadolzhennost' 313.97 RUR
+
+-----EXAMPLE-----
+*1635 Pokupka 11.68 RUR;ESV.Dostupno 4 831.21 RUR.
+
+-----EXAMPLE-----
+*2080 Pokupka 501p KFC LEPESTOK Dostupno 28335,61p
+
+-----EXAMPLE-----
+*4481 Покупка 2399p VLADIMIR TIPOGRAFI Доступно 1909,21p
+
+-----EXAMPLE-----
+*6282 Retail 59p OOO DRUZHBA Доступно 16006.37p

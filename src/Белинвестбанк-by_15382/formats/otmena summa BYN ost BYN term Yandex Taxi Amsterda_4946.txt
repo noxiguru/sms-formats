@@ -1,0 +1,7 @@
+^\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ (.(?:tmena|тмена).*?) .(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}) (?:ост|ost).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (?:терм|term)=(.*)
+
+-----COLUMNS-----
+syncid;date#dMy;comment;income;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+*1736 08.02.2021 23:12:31 otmena summa=3.4 BYN ost=1 431.28 BYN term=Yandex.Taxi>Amsterdam NL

@@ -1,0 +1,7 @@
+^VYPLATA\s+%\s+VKLAD\s+([\d\s.,]*\d).*?\*\d?(\d{4})\s+BAL\s+(-?[\d\s.,]*\d).*?([\d.]{8}).*?VYPLATA\s+VKLADA\s+([\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;syncid;av_balance;date#dd.MM.yy;income
+
+-----EXAMPLE-----
+VYPLATA % VKLAD 153.42 RUB #*01406 BAL 70153.42 RUB 18.09.13 00:06 // VYPLATA VKLADA 70000.00 RUB #*01406 BAL 70153.42 RUB 18.09.13 00:06 END

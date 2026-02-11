@@ -1,0 +1,7 @@
+^Depos.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(.*?)(?:\s*>\s*\d{8,}.*?)?\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+income;instrument;syncid;payee;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Deposit: 35.25 USD       Card N ****9911 LOCALRENT.COM> 1234567890           EE Balance: 17459.08 GEL       10/04/2023 10:40:16

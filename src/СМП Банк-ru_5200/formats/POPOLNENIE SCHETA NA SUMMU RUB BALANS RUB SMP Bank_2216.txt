@@ -1,0 +1,10 @@
+^.*? ([\d.]{8}) .*POPOLN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*BALAN.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+16:11 05.02.16 POPOLNENIE SCHETA NA SUMMU 1500.00 RUB BALANS: 1500.00 RUB. SMP Bank, tel. 8-800-555-2-555
+
+-----EXAMPLE-----
+10:36 01.06.18 MSK POPOLNENIE SCHETA NA SUMMU 18608.80 RUB BALANS: 18905.13 RUB. SMP Bank, tel. 8-800-700-0-555

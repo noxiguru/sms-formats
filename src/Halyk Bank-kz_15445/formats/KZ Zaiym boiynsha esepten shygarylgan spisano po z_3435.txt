@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+(Zaiym.*?|.*?pisanj po zaimu.*?);([\d\s.,]*\d)\s*([A-Z]{3});\s*([\d-]{10}).*(?:olzhe|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+KZ8598 Zaiym boiynsha esepten shygarylgan/spisano po zaimu; 40896.16 KZT; 2018-04-23 10:25:18.Kolzhetimdi soma/Dostupnaya summa: 40289.84    KZT.

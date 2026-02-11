@@ -1,0 +1,7 @@
+^.*r/s.*(\d{4}) na.*([\d.]{10}) ostatok (-?[\d\s.,]*\d).*Zachisleno 0.0.*Spisano ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;av_balance;outcome
+
+-----EXAMPLE-----
+BankUralsib: r/s N 40802810 0002 na 10:25:40 (Msk+2) 04.08.2014 ostatok 157839.73.  Zachisleno 0.00. Spisano 150.00

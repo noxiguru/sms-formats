@@ -1,0 +1,7 @@
+^.*?([\d-]{7}-\d\d).*DEBIT ([\d\s.,]*\d) ([A-Z]{3}) .BALANCE (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+PROCREDIT GSM CODE 1979501805 2015-01-09 14:44:04 *DEBIT 232.40 UAH *BALANCE 4668.67 UAH

@@ -1,0 +1,10 @@
+^(PEREVOD.*)\s+([\d\s.,]*\d)\s+([A-Z]{3})\W.*?\*\d?(\d{4})\s.*BAL\s+(-?[\d\s.,]*\d).*?([\d.]{8}).*
+
+-----COLUMNS-----
+comment;outcome;instrument;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+PEREVOD RUB MALAKHOV ALEKSEY VLA TKS BANK (ZAO) G. MO 8000.00 RUB #*00304 BAL 34480.00 RUB 01.04.13 13:00 END
+
+-----EXAMPLE-----
+PEREVOD CARD-CARD P2P DB MOBI MONEY, RU 50.00 RUB, CARD*3689 RENAT MAKHMUTOV BAL 169596.23 RUB 16.07.13 21:30 END

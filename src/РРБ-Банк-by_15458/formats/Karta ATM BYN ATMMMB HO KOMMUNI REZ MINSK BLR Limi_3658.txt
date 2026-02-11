@@ -1,0 +1,7 @@
+^(?!.*OK).*imit oper.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Karta 4.1526 03.03.2020 15:52:10 ATM -1800.00 BYN ATMMMB HO11 KOMMUNI REZ MINSK BLR Limit operacij. Dostupno 1942.42 BYN

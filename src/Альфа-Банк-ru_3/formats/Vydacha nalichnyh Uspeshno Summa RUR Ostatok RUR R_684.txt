@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*(?:ydacha\s+n|nyatie\s+n).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|stat|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+5*5416; Vydacha nalichnyh; Uspeshno; Summa: 500,00 RUR; Ostatok: 5634,76 RUR; RU/TOMSK/Mokrushina st  24; 28.03.2013 14:46:58
+
+-----EXAMPLE-----
+**9757; Vydacha nalichnyh; Uspeshno; Summa: 30 000 RUR; Dostupniy limit snyatiya v ATM: 170 000 RUR; RU/MOSCOW/Alfa Iss; 10.08.2018 10:30:48
+
+-----EXAMPLE-----
+**4140 Snyatie nalichnyh 5 000 RUR Balans 2 729,95 RUR Alfa Iss 07.04.2023 18:08

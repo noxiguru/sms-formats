@@ -1,0 +1,7 @@
+^([\d-]{10}) .*etail.*?\*(\d{3,4}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*pisan\w+\W?\s*(.*)
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+2019-12-26 13:53:34 Operaciya Retail po kartochke 4**584 na summu 21 816.00 KZT. Ostatok: 178 509.69 KZT. Opisanie: BELIY VETER SHOP

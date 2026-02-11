@@ -1,0 +1,13 @@
+^.*?(\d{4}) .*?okupk.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{4,5}\s+(.*?),?$
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;date#dMy;payee
+
+-----EXAMPLE-----
+Kartka ***6930 Pokupka 42.74 UAH Balans 2748.09 UAH Vlasni koshty 2748.09 UAH 07.04.16 20:01 BILLA BORSCHAGIVKA, P-A B,
+
+-----EXAMPLE-----
+Kartka ***3014 Pokupka I-net 108.90 USD Balans 2265.29 UAH Vlasni koshty 1265.29 UAH 08.06.16 22:37 ALIBABA.COM, LONDON,
+
+-----EXAMPLE-----
+Kartka ***2555 Pokupka 1181.20 UAH Balans 16938.55 UAH Vlasni koshty 16938.55 UAH 29.08.21 12:28 WOG 4226, PERSHE TRAVNY,

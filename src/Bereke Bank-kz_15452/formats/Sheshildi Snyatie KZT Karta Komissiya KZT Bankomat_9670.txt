@@ -1,0 +1,7 @@
+.*?(?:Sheshil\w*|[Ss]nyat\w*|Снят\w*).*?(?:[A-Za-z]{1,4}|[^\s\d])?\s*([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4}|[^\s\d]).*?(?:Karta|Карта).*?[^0-9]*?(\d{4})(?:.*?(?:Komiss\w*|Комисс\w*)\s+([0-9][\d\s.,]*\d)\s*(?:[A-Za-z]{1,4}|[^\s\d])?)?.*?(?:Balans|Баланс|Dostup\w*)\s+(-?[0-9][\d\s]*?(?:[.,]\d{2})?)(?=\s|$)\s*([A-Za-z]{1,4}|[^\s\d]).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;fee;balance;acc_instrument
+
+-----EXAMPLE-----
+Sheshildi/ Snyatie 20000,00 KZT Karta ***5396 Komissiya 200,00 KZT Bankomat: TC RAMSTOR ALL IN Balans 786840,64 KZT ║ Bereke Bank

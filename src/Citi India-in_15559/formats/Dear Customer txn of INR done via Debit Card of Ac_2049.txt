@@ -1,0 +1,7 @@
+^.*txn.*?([a-zA-Z]{2,3})\.?\s*([\d\s.,]*\d) done.*?(\d{4})\s+on\s+(\d{1,2}-\S{3}-\d{2}).*nfo.?\s+(.*?)\s*\..*Avbl.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dd-MMM-yy;comment;av_balance
+
+-----EXAMPLE-----
+Dear Customer,txn of INR 91.00 done via Debit Card of Acct XX1425 on 23-Oct-18.Info: VIN*PAYTM      .Avbl Bal:INR 26,573.99.For dispute,call 04033667777

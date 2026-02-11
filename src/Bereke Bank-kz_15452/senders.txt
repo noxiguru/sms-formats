@@ -1,0 +1,7 @@
+bereke bank
+2558
+sberbank kz
+969
+kz.sberbank.mobile.app
+kz.berekebank.mobile.app
+berekebank

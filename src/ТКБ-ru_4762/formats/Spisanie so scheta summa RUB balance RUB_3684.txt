@@ -1,0 +1,7 @@
+^Spisan.*?\*(\d{4}).? ([\d.]{8}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Spisanie so scheta ***2415: 01.05.18 12:50, summa:5100.69 RUB, balance:22762.12 RUB.

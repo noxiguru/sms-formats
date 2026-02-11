@@ -1,0 +1,7 @@
+^(Salar.*?)\s+([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d?\s+.redited\s+to\s+your\s+(\w+)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3})\s*(-?[\d\s,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+comment;instrument;income;syncid;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Salary OMR 9.980 Credited to your Account 01/08/2023. New Available Balance is OMR 5.200. DOWNLOAD free mBanking App from https://onelink.to/jb3k .Enjoy new services-funds transfer to any bank in Oman/India, Bill payment and many more!

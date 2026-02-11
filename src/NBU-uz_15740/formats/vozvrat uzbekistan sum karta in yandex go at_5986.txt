@@ -1,0 +1,7 @@
+^(.ozvr.*?)\s+([\d\s.,]*\d).*\*(\d{4})\s+in\s+(.*?)\s+at\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+comment;income;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+vozvrat 1340 uzbekistan sum karta 403701******6608 in yandex go at 21/07/23 22:13:22

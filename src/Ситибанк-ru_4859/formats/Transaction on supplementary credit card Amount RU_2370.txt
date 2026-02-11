@@ -1,0 +1,13 @@
+^(?:Transac|Supplem).*?\*(\d{4})\D.*?([\d\s.,]*\d)\s*([A-Z]{3})\s*(?:.*of sale:|;)\s*(.*?)\s+(?:Dat.*?|;)[\s;]([\d/]{8})[\s;].*(?:limi|vail).*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#MM/dd/yy;av_balance
+
+-----EXAMPLE-----
+Transaction on supplementary credit card **4005 Amount: 358.00 RUB  Point of sale: LENTA                     Date: 04/18/16 Available limit: 155,980.22 RUB
+
+-----EXAMPLE-----
+Transaction on credit card **4005 Amount: 776.00 RUB Point of sale: YM*YandexTaxi Date: 04/23/16 Available limit: 147,247.72 RUB
+
+-----EXAMPLE-----
+Supplementary card *8003; 1,318.69 RUB ; PYATEROCHKA 1199         ; 07/22/19; Available 68,044.88 RUB

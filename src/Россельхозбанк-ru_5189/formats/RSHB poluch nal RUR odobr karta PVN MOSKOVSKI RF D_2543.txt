@@ -1,0 +1,7 @@
+^.*?([\d/]{5}).*?poluch.*?nal\.?([\d\s.,]*\d)\s*([A-Z]{3})\s+odob.*\*(\d{4}).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;syncid
+
+-----EXAMPLE-----
+RSHB 29/07 14:20:50 poluch. nal. 10,000.00 RUR odobr. karta *6686 PVN MOSKOVSKI RF DO 21 MOZHAISK RU

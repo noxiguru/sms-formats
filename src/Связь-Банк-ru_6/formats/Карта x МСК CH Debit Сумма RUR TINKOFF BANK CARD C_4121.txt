@@ -1,0 +1,7 @@
+^.*?x(\d{4}).*?([\d.]{10}).*?ebit.*?(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument
+
+-----EXAMPLE-----
+Карта 4x3358 09.03.2019 15:31 МСК CH Debit Сумма 3600,00 RUR TINKOFF BANK CARD2CARD Контакт-центр 88005000080

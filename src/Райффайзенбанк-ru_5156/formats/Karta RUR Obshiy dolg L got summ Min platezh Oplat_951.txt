@@ -1,0 +1,10 @@
+^.*?\*(\d{4}).*Obshiy dolg.*(?:in plate|rocent).*(?:ostu|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+Karta *8868RUR; Obshiy dolg:172201,73; L'got summ:22137,99; Min platezh:11637,05; Oplatit' do 27/08/2013; Dostupny Ostatok: 130984,57. Raiffeisenbank
+
+-----EXAMPLE-----
+Karta *0248. Obshiy dolg 10544.97 RUR, procenty 215.01 RUR. Balans: 79391.76 RUR. Oplatite min.platezh 628.21 RUR do 20:00 Msk 28.01.2019.

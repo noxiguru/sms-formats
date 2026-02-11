@@ -1,0 +1,7 @@
+^A/C \d*(\d{4}) debit(?!.*alance)\w+ ([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d? on ([\d]{2}[- ](?:\w+|\d{2})) [\d:]{5,} "(.*?)".*
+
+-----COLUMNS-----
+syncid;instrument;income;date#dM;payee
+
+-----EXAMPLE-----
+A/C 1234567890 debited BHD 218.750 on 12-Jul 00:58 "EFTS-BPAY-FAWRI+-/PHONE/97339521177-". For any enquiries call 77777777

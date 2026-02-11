@@ -1,0 +1,7 @@
+^.*(\d{4}) Vydacha nal.*Uspeshno.*?([\d\s.,]*\d) ([A-Z]{3}).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+5.3552 Vydacha nalichnyh Uspeshno Summa:6000000 BYR BLR/MINSK/ATMALF HO84 PORT 31.10.2014 10:15:36

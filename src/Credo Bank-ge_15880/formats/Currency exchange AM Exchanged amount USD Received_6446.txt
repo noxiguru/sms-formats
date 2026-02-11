@@ -1,0 +1,10 @@
+^Currency\s+exch.*?(\d{1,2}/\d{1,2}/\d{2,4})\s+[\d:]{5,}\s+[AP]M\s+Exchanged.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+Received.*?([\d\s.,]*\d)\s*[A-Z]{3}\s+Balan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#Mdy;op_income;instrument;income;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Currency exchange: 12/28/2024 9:47:23 AM Exchanged amount: 300.00 USD Received amount: 838.50 GEL Balance: 1213.63 GEL
+
+-----EXAMPLE-----
+Currency exchange: 12/3/2024 11:21:49 PM Exchanged amount: 50.12 USD Received amount: 141.84 GEL Balance: 168.14 GEL

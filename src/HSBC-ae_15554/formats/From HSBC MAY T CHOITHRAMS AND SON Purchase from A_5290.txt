@@ -1,0 +1,10 @@
+^.*?(\d{1,2}\w{3}\d{2,4})\s+(.*?)\s+Purch.*?([A-Z]{3})\s*([\d\s.,]*\d)\-.*nding.*?(\d{4})\D.*alan.*?([A-Z]{3}|)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;payee;instrument;outcome;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+From HSBC: 29MAY22 T CHOITHRAMS AND SON Purchase from 012-384***-001 AED 7.95- by Card Ending with 6186. Your available balance is AED 41,741.53
+
+-----EXAMPLE-----
+From HSBC: 19OCT22 Careem Purchase from 012-384***-001 AED 26.50- by Card Ending with 6186. Your available balance is 290,871.79

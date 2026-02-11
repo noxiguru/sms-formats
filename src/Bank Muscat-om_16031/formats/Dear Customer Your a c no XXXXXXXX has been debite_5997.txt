@@ -1,0 +1,7 @@
+^.*our\s+a/c\s+.*?(\d{4})\s+has\s+been\s+debit.*?([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d?\s+as\s+payment\s+towards\s+(.*)
+
+-----COLUMNS-----
+syncid;instrument;outcome;comment
+
+-----EXAMPLE-----
+Dear Customer, Your a/c no 0307XXXXXXXX0014 has been debited for an amount of OMR 5.000 as payment towards Ooredoo TOPUP

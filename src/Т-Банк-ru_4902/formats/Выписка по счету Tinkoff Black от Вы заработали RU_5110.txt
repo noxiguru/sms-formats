@@ -1,0 +1,10 @@
+^Выписка\s+по\s+.*(Black).*?\s+от\s+(\d{2}[-./]\d{2})\.?\s+.*аработ.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)(?:\s*║.*)?$
+
+-----COLUMNS-----
+syncid;date#dM;income;instrument;comment
+
+-----EXAMPLE-----
+Выписка по счету Tinkoff Black от 14.08. Вы заработали 571.16 RUB: кэшбэк 432 RUB и проценты 139.16 RUB ║
+
+-----EXAMPLE-----
+Выписка по Tinkoff Black Premium от 04.01. Вы заработали 1637.85 RUB: кэшбэк 861.9 RUB и проценты 775.95 RUB ║

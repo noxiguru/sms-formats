@@ -1,0 +1,13 @@
+^.*?(\d{4})\s.*(?:OPLATA|POKUPKA|DRUGOE).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?OST.(-?[\d\s.,]*\d).*TERM.(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+BIB:OK:*5469  19:06:06 OPLATA SUMMA=72 250 BYR DOST=3 446 767 BYR TERM=GASTRONOM 'ALMI'>MINSK                BY
+
+-----EXAMPLE-----
+BANK *0141  16:26:23 DRUGOE SUMMA=235 000 BYR DOST=1 059 363 BYR TERM=MASKALIOU/YAUHEN>VISA DIRECT          BY
+
+-----EXAMPLE-----
+BANK *0141  14:47:51 OPLATA SUMMA=43 400 BYR OST=1 250 963 BYR TERM=MANON BAR>MINSK    BY

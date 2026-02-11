@@ -1,0 +1,7 @@
+^Izmenenie.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}).*(?:BAL|OST).*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: 12 391.43RUR PAYMENT Card_N**6950 ILIA MAKSIMOV OSTATOK:12 636.87 D: 2015-04-09 00:00:00

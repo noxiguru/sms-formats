@@ -1,0 +1,7 @@
+^([\d-]{10})\s+[\d:]+.*?([\d\s.,]*\d)[\s,]+.pisa.*(\d{4})\..*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;syncid;av_balance
+
+-----EXAMPLE-----
+2015-07-31 22:42:19 -200,00 , spisaniye s karty 4057XXXXXXX59450. Balans 191.24 KZT. Tel.Banka +77272508744 zahodi: www.smartbank.kz

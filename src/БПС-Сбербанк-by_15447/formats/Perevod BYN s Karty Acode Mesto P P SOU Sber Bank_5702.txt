@@ -1,0 +1,10 @@
+^Perevod ([\d\s.,]*\d)\s*([A-Z]{3})\s+s.*?#(\d{4}) (\d{4}[-./]\d{2}[-./]\d{2}) .*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Perevod 150.00 BYN s Karty #7522 2023-04-06 20:21:32 Acode 785522; Mesto: P2P SOU Sber Bank > Minsk BLR; Ostatok: 261.65 BYN. Sber Bank ║ СМС Уведомление
+
+-----EXAMPLE-----
+Perevod 100.00 BYN  s Karty #4205 2023-04-17 11:38:27 Acode 393357; Mesto: P2P SOU Sber Bank > Minsk BLR; Ostatok: 1 455.71 BYN. Sber Bank

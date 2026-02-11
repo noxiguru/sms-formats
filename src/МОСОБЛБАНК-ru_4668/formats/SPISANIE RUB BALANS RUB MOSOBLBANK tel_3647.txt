@@ -1,0 +1,7 @@
+^.*([\d.]{8}).*\*(\d{4})\s*SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+16:10 01.03.18 5579***0527 SPISANIE 7200.00 RUB BALANS: 7319.24 RUB. MOSOBLBANK, tel. 8-800-200-14-15

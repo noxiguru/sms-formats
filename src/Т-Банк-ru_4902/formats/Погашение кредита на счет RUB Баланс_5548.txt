@@ -1,0 +1,7 @@
+^(Погаше.*?)\s+на\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)\W?\s+счет\s+([A-Z]{3})\.\s+.алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W).*
+
+-----COLUMNS-----
+comment;outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Погашение кредита на 8 250 ₽, счет RUB. Баланс 677.36 ₽ ║

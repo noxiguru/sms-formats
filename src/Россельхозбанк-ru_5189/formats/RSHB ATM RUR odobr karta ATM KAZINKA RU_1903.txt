@@ -1,0 +1,10 @@
+^.*([\d/]{5}).*? ATM (?!.*omis).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+odobr. kart.*\*(\d{4}).*
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;syncid#cash
+
+-----EXAMPLE-----
+RSHB,30/07 11:25:57 ATM 200.00RUR odobr. karta *6176 ATM 4155 KAZINKA RU
+
+-----EXAMPLE-----
+RSHB 07/03 13:00:03 ATM vydacha nalichnykh 4,000.00 RUR odobr. karta *0718 ATM 5789 ABINSK RU

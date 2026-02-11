@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+\+([\d\s.,]*\d)\s*([a-zA-Z]{3}).*ostupl.*Dost.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 6*3599  +1 000.00 rub. postuplenie.  Ost. 10 453.93 rub.  Dost. 36 453.93 rub.

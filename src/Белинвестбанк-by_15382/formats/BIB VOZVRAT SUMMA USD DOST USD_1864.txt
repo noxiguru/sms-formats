@@ -1,0 +1,7 @@
+^.*?(\d{4})\s.*VOZVR.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?OST.(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+BIB *4020 12:00:29 VOZVRAT SUMMA=6.78 USD DOST=8.98 USD

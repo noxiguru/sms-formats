@@ -1,0 +1,7 @@
+^.*\*(\d{4}) ([\d-]{10}).*(OTMENA.*?) ([\d\s.,]*\d)\s*([A-Z]{3}).*OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;comment;income;instrument;av_balance
+
+-----EXAMPLE-----
+KARTA 535104******2032 2019-05-12 19:00:46 OTMENA 0.06 BYN  OSTATOK 70.59 BYN Spr.:5099999

@@ -1,0 +1,7 @@
+^\*(\d{4})\W? (.озврат) ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? (.*?)\. .алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*1639: возврат 10.00 RUR, mos.transport.vtb.ru 4. Баланс 257670.52р

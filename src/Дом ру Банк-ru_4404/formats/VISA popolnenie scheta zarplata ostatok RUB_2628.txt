@@ -1,0 +1,7 @@
+^\S+(\d{4}) ([\d-]{8}).*?popolnenie sch.*?([\d\s.,]*\d) \((.*?)\) ostatok (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;income;comment;av_balance
+
+-----EXAMPLE-----
+VISA-2126 12-09-16 21:22 popolnenie scheta 15542.33 (zarplata) ostatok 15593.23 RUB

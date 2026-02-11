@@ -1,0 +1,7 @@
+^.*\*(\d{4}):\s*\+\s*([\d\s.,]*\d)\s*([A-Z]{3})\s*\(([\d\s.,]*\d)\) .ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*\[[\d]{4}-\d{2}-\d{2} [\d:]+?\] (.*?) Tel:.*
+
+-----COLUMNS-----
+syncid;op_income;instrument;income;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Karta *9344:+ 2.00 USD (80.20) Dostupno: 11.19 UAH KrLim:2000.00 UAH Zaborhovanist: 0.00 UAH[2024-05-08 00:00:00] www.aliexpress.com WWW.ALIEXPRES GB Tel:080

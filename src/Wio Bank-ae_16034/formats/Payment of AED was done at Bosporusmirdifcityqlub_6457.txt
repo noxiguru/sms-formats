@@ -1,0 +1,10 @@
+^Payment\s+of\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+was\s+done\s+at\s+(.*?)\s+using.*?(\d{4}).*?with\s+Own\s+([A-Z]{3})\s+funds.*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid;acc_instrument
+
+-----EXAMPLE-----
+Payment of AED 507.09 was done at Bosporusmirdifcityqlub using your Wio Personal card 9072 with Own USD funds
+
+-----EXAMPLE-----
+Payment of AED 507.09 was done at Bosporusmirdifcityqlub using your Wio Personal card 9072 with Own USD funds

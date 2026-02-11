@@ -1,0 +1,7 @@
+^Perevod SBP (.*) v (.*?)\. .umm.*?([\d\s.,]*\d)\s*([A-Z]{3}) so? .*?\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+payee;comment;outcome;instrument;syncid;date#dMy
+
+-----EXAMPLE-----
+Perevod SBP DMITRIY VIKTOROVICH S v OOO "KHKF BANK". Summa 4100,00RUR so scheta *1585. Ispolnen 24.11.2020 11:25

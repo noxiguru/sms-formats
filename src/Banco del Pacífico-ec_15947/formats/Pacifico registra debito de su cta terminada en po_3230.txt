@@ -1,0 +1,7 @@
+^.*[Dd]ebito .*? en (\d{4}) por ([\d\s.,]*\d) en (.*?)\s+si no real.*
+
+-----COLUMNS-----
+syncid;outcome;payee
+
+-----EXAMPLE-----
+Pacifico registra debito de su cta terminada en 7703 por 9.94 en SUPER SANTAMARI  si no realizo esta transaccion llamar al (04)3731500.

@@ -1,0 +1,7 @@
+^.*?\*(\d{4})(?!.*ostu|.*umm).*?(zachis.*?prots.*?):?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Schet *7761: zachislenie protsentov po vkladu "Vigodniy Online" 168 dn.*1393: 3041.10 RUR; 03.10.2017 00:24.VTB24

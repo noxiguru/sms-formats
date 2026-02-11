@@ -1,0 +1,10 @@
+^(?!.*escript).*? of ([A-Z]{3}|\W)\s*([\d\s.,]*\d).*ebited from .*?\*(\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid
+
+-----EXAMPLE-----
+An amount of € 6,99 has been debited from account **************1397. This is shown in the transactions overview. ║ An amount has been debited
+
+-----EXAMPLE-----
+An amount of € 38,87 € has been debited from account *4773. This is shown in the transactions overview. ║ An amount has been debited

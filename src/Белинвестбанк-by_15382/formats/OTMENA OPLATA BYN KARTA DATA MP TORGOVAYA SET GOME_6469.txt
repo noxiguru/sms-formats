@@ -1,0 +1,10 @@
+^\*(\d{4})\s+(OTMEN.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*DATA\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]{5,}\s+(.*?)\s+OSTAT.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+*9240 OTMENA OPLATA 0.10 BYN KARTA #9240 DATA 27.01.2025 12:31:14 MP 'TORGOVAYA SET'>GOMEL>BY OSTATOK 994.31 BYN
+
+-----EXAMPLE-----
+*9240 OTMENA OPLATA 3.10 BYN KARTA #9240 DATA 02.02.2025 10:45:07 YANDEX GO>INTERNET>BY OSTATOK 394.84 BYN

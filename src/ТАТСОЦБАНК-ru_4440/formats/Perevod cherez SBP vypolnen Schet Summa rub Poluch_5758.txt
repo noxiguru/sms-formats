@@ -1,0 +1,7 @@
+^Perevod.*SBP.*\*\d*(\d{4}) Summ.*?([\d\s.,]*\d)\s*([a-zA-Z]{1,3}).*?olucha\w+\W? (.*?) .ank pol\w+\W?\s+(.*) Vrem.*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;comment;date#dMy
+
+-----EXAMPLE-----
+Perevod cherez SBP vypolnen Schet: ***36360 Summa: 20000 rub. Poluchatel: Mikhail Vitalevich M. Bank poluchatelia: Bank Russkii Standart Vremia: 18.02.2023 07:32:32 GMT+03:00

@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*splata.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*aspol.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Bojan Crevar, 5574****6787, Isplata: 2,500.00 RSD,  16.08.2018, 01/BG JURIJA GAGARINA BEOGRAD ,Raspolozivo: 72,986.66 RSD

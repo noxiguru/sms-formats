@@ -1,0 +1,10 @@
+^.*?\*(\d{4}).*cash\s+with.*?([A-Z]{3})\s*([\d\s.,]*\d)\s+on\s+([\d]{2}[-\s+/](?:\w+|\d{2})[-\s+/]\d{2,4}).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;date#dMy
+
+-----EXAMPLE-----
+Your card 440621******1787 was authorised for cash withdrawal at ATM 239 - AYIOS GEORGIOS for EUR  1.000,00 on 09/04/2015 13:12.
+
+-----EXAMPLE-----
+Your card 539132******3434 was authorised for cash withdrawal at ATM 285-EPISKOPI for EUR 240,00 on 21-JUL-22 10.42.39.000000 AM. QUERIES TEL: +35722500500

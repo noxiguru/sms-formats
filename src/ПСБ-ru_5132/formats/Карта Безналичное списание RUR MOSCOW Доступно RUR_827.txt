@@ -1,0 +1,19 @@
+^.*?\*(\d{4}).*?(?:писан|pisan|(?:erevod|еревод)(?!.*(?:opolnen|ополнен))).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3});?\s*(\d{2}/\d{2}|).*?(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM;av_balance
+
+-----EXAMPLE-----
+Карта *8120: Безналичное списание 833.00 RUR; 31/05, 17:11;MOSCOW;00778891.Доступно 8 101.64 RUR.
+
+-----EXAMPLE-----
+Karta *4849: Spisanie 90.00 RUR;15:41;MOSCOW;00778891.Dostupno 3 556.59 RUR.
+
+-----EXAMPLE-----
+Karta *7909: Perevod 1 500.00 RUR;20:49;IB.PSBANK.RU;C2C PSB MOBILE FEE.Dostupno 101 722.53 RUR (v t.ch. kredit 30 000,00 RUR).
+
+-----EXAMPLE-----
+*9337 Перевод 5000p C2C PSB-RETAIL FEE Доступно 5709,4p
+
+-----EXAMPLE-----
+*9019 Spisanie 800p 00778891 Dostupno 1819,63p

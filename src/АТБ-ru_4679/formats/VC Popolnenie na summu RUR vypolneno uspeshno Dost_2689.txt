@@ -1,0 +1,10 @@
+^.*?\*([\d/]{4})\s+([\d.]{10}).*opolnen(?!.*ATM).*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+VC: *1234 18.10.2016 02:00:00. Popolnenie na summu 10.00 RUR vypolneno uspeshno. Dostupno: 10.00 RUR.
+
+-----EXAMPLE-----
+*3956 30.12.2017 15:13:52 Popolnenie Zachislenie na depozit nalichnoe/beznalichnoe na summu: 77346.75 RUR vypolneno Dostupno: 100866.93 RUR

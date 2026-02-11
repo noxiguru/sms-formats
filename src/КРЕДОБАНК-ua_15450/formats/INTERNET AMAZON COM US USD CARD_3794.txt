@@ -1,0 +1,7 @@
+^([\d.]{10})(?!.*OST).*(?:KUPIVLIA|INTERNET)\s+(?:NA SUMU)?(.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}) .*CARD.*?(\d{4}).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;payee;outcome;instrument;syncid
+
+-----EXAMPLE-----
+30.06.2018 21:03 INTERNET AMAZON.COM, US 0.00USD CARD**0418

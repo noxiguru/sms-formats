@@ -1,0 +1,7 @@
+^(?!.*VIDMINA).*([\d.]{8}).*Otrymannya gotivky.*Kartka .(\d{4}).*?Suma: -?([\d\s.,]+)([A-Z]{3}).*Zalyshok: (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+OTPdirekt:26.06.13 19:01: Otrymannya gotivky. Kartka *1891. Suma: -4.000,00UAH . Misce: ATM7230 KPB PIRAMIDA KIEV. Zalyshok: 1.497,23UAH.

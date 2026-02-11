@@ -1,0 +1,13 @@
+^.*(?:.plata u.*?|.плата у.*?)\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:[Ss]o|[Сс]о).*?(\d{3,4}) .*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+i.abr.ru Ispolnena operatsiya Oplata uslug 800.00 rubley So scheta 40817***21336 Dostupniy ostatok: 3807.70 RUB
+
+-----EXAMPLE-----
+i.abr.ru Оплата услуг 300 р со сч *95408 Доступно 120281.94 р
+
+-----EXAMPLE-----
+i2.abr.ru  Оплата услуги 200.0 р со сч 40817...051 Исполнен Доступно 11.04 р

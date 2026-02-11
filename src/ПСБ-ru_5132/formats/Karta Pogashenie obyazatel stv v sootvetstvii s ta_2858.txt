@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*(Pogash.*?)\.\s*.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;av_balance
+
+-----EXAMPLE-----
+Karta *1234: Pogashenie obyazatel'stv v sootvetstvii s tarifami.Dostupno 123.45 RUR.

@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+Przelew\s+zagra.*?-([\d\s.,]*\d)\s*([A-Z]{3})\s+Opłata.*(?:adaw|ende)\w+:\s+(.*?)\s+.(?:ytu|itl)\w+:\s+(.*?)\s+(?:Na|On)\s+.*?(\d{4})\D.*?\s+(\d{4}[-./]\d{2}[-./]\d{2})\s+.*
+
+-----COLUMNS-----
+income;instrument;fee;acc_instrument;payee;comment;syncid;date#yMd
+
+-----EXAMPLE-----
++3183,71 USD Przelew zagraniczny -2,84 USD Opłata Sender Account: 89..5159 Sender: ANNA CHMARAK JANA KASPROWICZA 78 POLAND WARSAW 01-949 /PL/ Title: SCH REF(Y 1 1234567890) On account no. 93..1997 Value date: 2024-08-30 ║ Account credit

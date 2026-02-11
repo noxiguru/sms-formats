@@ -1,0 +1,10 @@
+^(?:ODOBRENO|Payment To).*?\*(\d{4}).*?(?:Payment To|AMOUNT).*?([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{10}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;balance
+
+-----EXAMPLE-----
+Payment To Client Contract 4*9056 AMOUNT 16 898,10 RUR 20.10.2017 17:00:12 BALANCE 27672.73 RUR TEL +74959330349, 88007000349
+
+-----EXAMPLE-----
+ODOBRENO 4*8718 Payment To Client Contract Пополнение карты INTERNET-BANK VBRR / MOSCOW / RUS 3000.00 RUR 13.11.2017 15:00:10 BALANCE 4917.27 RUR Tel +74959330349, 88007000349

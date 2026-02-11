@@ -1,0 +1,7 @@
+^Mobilni\s+KES\s+isp.*\*(\d{4})\s+.atum.*?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.znos.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+.aspol.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Mobilni KES isplata sa racuna: 2650**9382 Datum: 24.04.2023 Iznos: 4.500,00 RSD Raspolozivo stanje: 24.168,31 ║ Raiffeisen banka

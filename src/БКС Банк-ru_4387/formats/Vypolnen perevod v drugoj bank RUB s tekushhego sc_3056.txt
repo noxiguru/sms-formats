@@ -1,0 +1,7 @@
+^.*(perevod.*?)([\d\s.,]*\d)\s*([A-Z]{3}).* s .*?(\d{4}).*DOST.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+comment;outcome;instrument;syncid;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vypolnen perevod v drugoj bank 50000 RUB s tekushhego scheta *5046. DOSTUPNO: 72080.59 RUB 09.06.2017 14:06 nomer dokumenta: 1652

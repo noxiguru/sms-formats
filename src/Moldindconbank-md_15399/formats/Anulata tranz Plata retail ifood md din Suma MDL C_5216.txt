@@ -1,0 +1,7 @@
+^(Anulat.*?)\. .*(?:retail|unique)\s+"(.*)".*? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*uma.\s*([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}).*disp.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;payee;date#dMy;income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Anulata tranz. Plata retail "ifood.md" din 31.12.21 11:09. Suma:349,00 MDL. Card:5**2969. Suma disp:5.286,93 MDL.

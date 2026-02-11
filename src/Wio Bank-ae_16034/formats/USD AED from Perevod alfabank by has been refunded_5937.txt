@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+\(([A-Z]{3}|\W)\s*([\d\s.,]*\d)\)\s+from\s+(.*?)\s+has\s+been\s+refun.*with\s+(\d{4})*
+
+-----COLUMNS-----
+instrument;op_income;acc_instrument;income;comment;syncid
+
+-----EXAMPLE-----
+USD 100 (AED 367.26) from Perevod alfabank by has been refunded to your Wio Personal card ending with 8027.

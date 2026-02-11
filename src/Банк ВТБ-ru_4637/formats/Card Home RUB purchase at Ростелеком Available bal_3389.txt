@@ -1,0 +1,7 @@
+^.*\*(\d{4})\D?\s+.*?:\s+-([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*urchase\s+at\s+(.*)\.\s+.vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Card *2886. Home: -1103.50 RUB – purchase at Ростелеком. Available balance: 1 RUB ║ Notifications

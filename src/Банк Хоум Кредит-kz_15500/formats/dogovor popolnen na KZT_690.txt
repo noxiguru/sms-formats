@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4})\s+(?:[\d:]+\s+)?(?:dog|kar).*?(\d{4})\s+.opoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument
+
+-----EXAMPLE-----
+11.04.21 14:46:33 dogovor 4000134742 popolnen na 150000.00 KZT.
+
+-----EXAMPLE-----
+01.03.22 kartochka **0105 popolnena na 5500.00 KZT.

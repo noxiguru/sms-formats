@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+ (.tmen.*?) ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}) v term\w+ (.*?), .stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;comment;income;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+03.11.2022 11:30 Otmena pokupki(Pre.Auth) 13400.00 UZS po karte 5477***5263 v terminale Yandex.Taxi, NL, ostatok 198.65 USD

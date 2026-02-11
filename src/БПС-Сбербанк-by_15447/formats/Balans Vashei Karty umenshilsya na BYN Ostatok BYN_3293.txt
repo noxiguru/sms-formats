@@ -1,0 +1,7 @@
+^Balans.*?#(\d{4}).*mensh.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Balans Vashei Karty #8349 umenshilsya na 1.70 BYN; Ostatok: 605.29 BYN. BPS-Sberbank

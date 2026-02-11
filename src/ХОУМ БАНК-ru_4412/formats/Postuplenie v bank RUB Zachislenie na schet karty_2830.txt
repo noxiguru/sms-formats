@@ -1,0 +1,7 @@
+^.*ostup.*?([\d\s.,]*\d)\s*([A-Z]{3}).*na\s+sch.*?\*(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;syncid
+
+-----EXAMPLE-----
+Postuplenie v bank: 18549.53 RUB. Zachislenie na schet karty *2126 v techenie 24 chasov

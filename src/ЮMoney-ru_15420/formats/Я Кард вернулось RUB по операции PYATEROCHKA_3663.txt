@@ -1,0 +1,13 @@
+^(Я\.Кард|ЮCard).*?((?:вернул|возвра).*?) ([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*по (?:опер|плат)\S+\s+(.*)
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee
+
+-----EXAMPLE-----
+Я.Кард: вернулось 69,17 RUB по операции PYATEROCHKA 2104
+
+-----EXAMPLE-----
+Я.Кард: возвращаем 4,4 RUB — это курсовая разница по платежу HAPPY BARGRILL
+
+-----EXAMPLE-----
+Я.Кард: возвращаем 0,32 RUB по платежу SANI MARKET

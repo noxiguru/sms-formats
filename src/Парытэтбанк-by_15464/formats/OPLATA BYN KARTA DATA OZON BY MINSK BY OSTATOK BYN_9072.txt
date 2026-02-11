@@ -1,0 +1,7 @@
+(?:^|\b)OPLATA\s+([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3})\s+KARTA\s+#(\d{4})\s+DATA\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s{2}\d{2}:\d{2}:\d{2}\s+([^\s>]+(?:\.[^\s>]+)?(?:>[^\s>]+){2,})\s+OSTATOK\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,3})(?=\s|$)
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+OPLATA 17.57 BYN KARTA #2788 DATA 19.06.2025  10:07:41 OZON.BY>MINSK>BY OSTATOK 17.96 BYN

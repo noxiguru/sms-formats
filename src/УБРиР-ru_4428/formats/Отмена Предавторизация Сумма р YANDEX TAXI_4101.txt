@@ -1,0 +1,7 @@
+^(Отмен.*?)\s+\d*\*+(\d{4})\s+.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+(.*)
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+Отмена Предавторизация 4301*1879 Сумма 2.00 р YANDEX.TAXI

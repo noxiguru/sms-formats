@@ -1,0 +1,7 @@
+^.*\*([\d]{4}). Poluchenie nalichnyh: ([\d\s.,]*\d)\s*([A-Z]{3}). Dostupno.*?\s(-?[\d\s.,]*\d).*(\d{2}\.[\d.]{7}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+5163***5477; Poluchenie nalichnyh: 5000.00RUR; Dostupno po karte: 79295.19RUR; Mesto: 1234567890, RU; 20.02.2013 12:03.

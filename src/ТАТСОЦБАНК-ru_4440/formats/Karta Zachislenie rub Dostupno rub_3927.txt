@@ -1,0 +1,7 @@
+^([\d-]{8}) .*\*(\d{4}).*achislen.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+25-09-18 10:21 Karta *8750 Zachislenie 12000.00 rub Dostupno 12021.44 rub

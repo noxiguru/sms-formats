@@ -1,0 +1,7 @@
+^Zachis.*art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}\s+(.+?)\s*\(.*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;comment
+
+-----EXAMPLE-----
+Zachislenie Karta:8054 summa:1220.43 RUR balans:1234.01 RUR Kompensacija DetSad (vremya operatsii MSK 15.12.16 18:01)

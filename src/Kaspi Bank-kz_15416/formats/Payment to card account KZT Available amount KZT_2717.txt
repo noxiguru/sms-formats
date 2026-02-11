@@ -1,0 +1,7 @@
+^.*?ayment to (card) .*?([\d\s.,]*\d)\s*([A-Z]{3}).*vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Payment to card account 350 KZT Available amount 369,41 KZT

@@ -1,0 +1,7 @@
+^C2C ([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}) TO: (.*?) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*BALA.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+C2C 40,000.00 AMD 5571***7975 TO: ARTUR KHZMALYAN CABINET ARCA.AM, AM 17.08.2021 20:37 BALANCE: 96,665.83 AMD

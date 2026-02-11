@@ -1,0 +1,7 @@
+^([\d.]{8}).*V[IY]DACHA NAL.*(\d{4}) SUMMA.\s*([\d\s.,]*\d) ([A-Z]{3}).*BALANS.*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+16.06.14 17:02 VIDACHA NALICHNIX PO KARTE ****3013 SUMMA: 3900.00 RUB; SBB, RUS BALANS PO KARTE:8136.43  RUB

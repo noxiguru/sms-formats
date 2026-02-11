@@ -1,0 +1,7 @@
+^.*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*selgitus=(.*?)\).*vaba jääk.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Konto BANK jääk muutus +53500.00 EUR vòrra (selgitus=PAYMENT FOR GOODS ACCORDING TO), uus vaba jääk 107400.04 (saldo=107400.04, broneeringud=0.00)

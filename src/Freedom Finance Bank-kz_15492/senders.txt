@@ -1,0 +1,6 @@
+BANKFFIN
+bankffin_kz
+com.bpc.internetBanking
+kz.bankffin.app
+freedom.gl
+ffinbank.MyFreedom

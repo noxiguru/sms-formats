@@ -1,0 +1,7 @@
+^.*\s*,([\d/]{5}),.*?\*\d*(\d{4})\s+입금([\d\s.,]*\d)\s*(\w+)\s+(.*?)\s+잔액(-?[\d\s.,]*\d)\s*(\w+).*
+
+-----COLUMNS-----
+date#MM/dd;syncid;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+[Web발신] 하나,08/31,09:54 215******36307 입금420,000원 노재복 잔액437,892원

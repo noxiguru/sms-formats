@@ -1,0 +1,7 @@
+^(Vozvrat.*?):\s+([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(.*?)\s+.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Vozvrat: 20,00 KZT Karta: ***7436 YANDEX.GO Dostupno: 24779,00 KZT ║ Bereke Bank

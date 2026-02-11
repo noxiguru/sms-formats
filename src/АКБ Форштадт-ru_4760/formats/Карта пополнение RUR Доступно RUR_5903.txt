@@ -1,0 +1,7 @@
+^Карта (\d{4}) пополн.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта 9295 пополнение 42878.71 RUR. Доступно 42878.71 RUR

@@ -1,0 +1,7 @@
+^Poku.*(\d{4})\s.*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alans.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}\s+(.+)\s+\(vr.*([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#dd.MM.yy
+
+-----EXAMPLE-----
+Pokupka, Karta:1657 summa:89.00 RUR balans:684.76 RUR MEGASTROY CH (vremya operatsii MSK 09.09.15 19:16)

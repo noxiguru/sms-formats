@@ -1,0 +1,13 @@
+^.(?:окупк|писан|okup|pisan)(?!.*\.\d{2}\.\d{2}).*\*(\d{4})\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:есто|esto)\s+(.*?)(?:\s+.(?:pisan|писан).*)?,?\s+.(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Pokupka po karte: *4303 933.50 r. Mesto MOSCOW Spisanie so scheta Balans: 72503.07 r. i.binbank.ru
+
+-----EXAMPLE-----
+Pokupka po karte: *4406 639.86 r. Mesto Krasnoyarsk KRASNY YAR 08 Balans: 21448.57 r. i.binbank.ru.
+
+-----EXAMPLE-----
+Покупка по карте: *2675 631.91 р. Место Joshkar-Ola PEREKRESTOK GOMZOVO  Баланс: 231062.08 р. i.binbank.ru

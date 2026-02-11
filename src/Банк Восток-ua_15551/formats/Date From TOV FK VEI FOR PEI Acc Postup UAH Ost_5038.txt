@@ -1,0 +1,7 @@
+^Date\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*rom\W?\s*(.*?)\s+.cc.*?(\d{4})\s+.*ostu.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;payee;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Date: 18.05.2021  From: TOV FK "VEI FOR PEI"  Acc: 1234567890  Postup: 19176.78 UAH  Ost: 823958.69

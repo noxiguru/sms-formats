@@ -1,0 +1,7 @@
+.*?(?:Karta|Карта)\s*\*?(\d{2,}).*?((?:komiss\w*|комис\w*).*?)\s*-\s*([0-9][\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W)
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument
+
+-----EXAMPLE-----
+Karta*6380 komissiya za SMS-informirovanie -60.00 R

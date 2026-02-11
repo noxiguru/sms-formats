@@ -1,0 +1,10 @@
+^Fund Tr.*?(?:for|of)\s+([A-Z]{3})\s*([\d\s.,]*\d).*?acc.*?(\d{4}) on (\S{3}\s+\d{1,2}\s+\d{4}).*? bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#MMM dd yyyy;av_balance
+
+-----EXAMPLE-----
+Fund Transfer request through ADCB Personal Internet Banking for AED350.00 from your account no. XXX208001 on Jul 23 2016  4:48PM was registered successfully.Available balance is AED 5650.62.Visit www.adcb.com/mobileapp to download the ADCB Mobile Banking App.
+
+-----EXAMPLE-----
+Fund Transfer request of AED3000.00 via ADCB Personal Internet Banking from acc.no. XXX132001 on Sep 27 2017 12:31PM received. Avl. bal. AED 17251.14.

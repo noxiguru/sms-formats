@@ -1,0 +1,7 @@
+^([\d-]{10}).*peraciya.*\*(\d{4}).*-([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*pisan.*?:\s+(.*)
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;outcome;instrument;av_balance;comment
+
+-----EXAMPLE-----
+2018-07-25 01:39:12  Operaciya po kartochke 4**8673 na summu -200.00KZT. Ostatok : 625.00. Opisanie: Client SMS Charge

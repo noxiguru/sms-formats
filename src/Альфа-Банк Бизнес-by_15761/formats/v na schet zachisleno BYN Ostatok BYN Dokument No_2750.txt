@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*na sch.*?(\d{4})(?:0000)?\s+zachis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+21.11.2016 v 12:57 na schet: 1234567890 zachisleno: 259.80 BYN Ostatok: 279.19 BYN Dokument No:  92803

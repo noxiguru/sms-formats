@@ -1,0 +1,7 @@
+^.*(Lev)\w* \+([\d\s.,]*\d) ([\d.]{10}).*
+
+-----COLUMNS-----
+instrument;income;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+UCB Bulbank Online. Levы +120.00 20.06.2019 09:10

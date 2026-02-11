@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*?CARD(\d{4}):\s+(?:(?:Perev|Перев).*?)([A-Z]{2,3})\s*([\d\s.,]*\d).*?алан.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+18.08.2024 10:04 CARD2113: Перевод RUR 37,500.00 MOSCOW Баланс: RUR 45,842.31 ║ Перевод 37,500.00 ₽ CARD2CARD ALFA_MOBILE
+
+-----EXAMPLE-----
+18.09.2024 07:46 CARD2113: Перевод RUR 5,000.00 SURGUT Баланс: RUR 51,729.43 ║ Перевод 5,000.00 ₽

@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+Transfer.*?\s+║\s+Funds\s+Top-up
+
+-----COLUMNS-----
+income;instrument
+
+-----EXAMPLE-----
+40.00 USD Transfer Of Own Funds ║ Funds Top-up

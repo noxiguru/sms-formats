@@ -1,0 +1,7 @@
+^.*Transfer int.*?ard.*?\.{3}([\dA-Z]{4})\s+Data.*?(\d{4}[-./]\d{2}[-./]\d{2}).*[Ss]uma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*[Ss]old.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*etal\w+\W\s*(.*)
+
+-----COLUMNS-----
+syncid;date#yMd;outcome;instrument;av_balance;acc_instrument;comment
+
+-----EXAMPLE-----
+BC VICTORIABANK SA Transfer intern from account F1 Card: M...0MDL Data: 2025-01-15 22:33:19 Suma: 932.55 MDL Sold: 1357.93 MDL Detalii: Web/Mob Premier En

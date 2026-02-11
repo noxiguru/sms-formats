@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*X[-\d]+(\d{4})X* [Ww]ithdraw.*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d)\s*(\w+).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;outcome;av_balance;acc_instrument
+
+-----EXAMPLE-----
+01/02/16 16:17 A/C X210652X Withdrawal58.71 Outstanding Balance285900.04 Baht.
+
+-----EXAMPLE-----
+22/09/23 18:18 A/C X-5128 Withdrawal 240.00 Outstanding Balance 19,931.70 Baht.

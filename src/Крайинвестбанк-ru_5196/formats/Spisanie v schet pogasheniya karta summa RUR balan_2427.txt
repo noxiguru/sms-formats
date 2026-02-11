@@ -1,0 +1,13 @@
+^.*pisan.*art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).* ([\d-]{8}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#yy-MM-dd
+
+-----EXAMPLE-----
+Spisanie v schet pogasheniya karta:8510 summa:6101.00 RUR balans:1204.07 RUR 19-02-11 22:13:54
+
+-----EXAMPLE-----
+Spisanie, karta:8510 summa:6101.00 RUR balans:4546.09 RUR 19-03-11 22:10:27
+
+-----EXAMPLE-----
+Spisanie v schet pogasheniya karta:8510 summa:6101.00 RUR balans:1209.24 RUR 19-01-10 22:05:09

@@ -1,0 +1,7 @@
+^.*pisan.*?\*(\d{4}).*?umm.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(proizvedeno\s+na\s+.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment
+
+-----EXAMPLE-----
+Uvazhaemyi klient! Spisanie so scheta 4*8705 na summu 500.00 RUR proizvedeno na osnovanii postanovlenia sudebnogo pristava.

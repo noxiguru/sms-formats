@@ -1,0 +1,7 @@
+^([\d.]{10}).*?\*(\d{4}). Snjatie nalichnyh ([\d\s.,]*\d) ([A-Z]{3}). Ostatok ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+01.09.2013 19:57. 425607*1755. Snjatie nalichnyh 1 400.00 RUR. Ostatok 54.15 RUR. EKATERINBURG MALYSHEVA STR., 5(ALATYR).

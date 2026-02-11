@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*achis.*?\+([\d\s.,]*\d)\s+\(([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*?;\s*([\d.]{8}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Karta *2847: popolnenie scheta. Zachisleno +2184.00 (RUB); Ostatok: 20796.00 (RUB); 30.06.15 18:02

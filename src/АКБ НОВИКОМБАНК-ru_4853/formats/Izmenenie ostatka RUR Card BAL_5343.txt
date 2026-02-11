@@ -1,0 +1,13 @@
+^(?:Izm[eе]n.*?\+|Popoln|Postup).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*[BВ][AА]L.*?(-?[\d\s.,]*\d)\s+[\d:]{5,} (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#dMy
+
+-----EXAMPLE-----
+Izmenenie ostatka: + 39 771.29 RUR Card **1750 BAL: 39 771.29 13:37 25.07.2022
+
+-----EXAMPLE-----
+Postuplenie sredstv:  122.00 RUR  Card **0820  BAL: 444.68  03:58 23.11.2022
+
+-----EXAMPLE-----
+Izmenenie ostatka:  + 2 293.82 RUR  Card **0820  BAL: 2369.93  13:00 18.11.2022

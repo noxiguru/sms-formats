@@ -1,0 +1,10 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+[#*]+(\d{2,4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+111.00 UAH SHELL AZS 7004>CHERKASY, UA #9742 08:02:16 Dostupno: 111111.66 UAH Kreditny limit: 222222.00 UAH Detali: https://auth.ukrgasbank.com
+
+-----EXAMPLE-----
+155.58 UAH SUPERMARKET SUCHAS MOD>KHARKIV, UA **42 11:13:02 Dostupno: 1530.51 UAH Detali: https://auth.ukrgasbank.com

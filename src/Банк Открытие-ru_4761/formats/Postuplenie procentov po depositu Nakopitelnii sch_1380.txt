@@ -1,0 +1,7 @@
+^Postuplenie(?!.*\*\d{4}).*?: ([\d\s.,]*\d)\s*([A-Z]{3}). ([\d.]{10}).*
+
+-----COLUMNS-----
+income;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Postuplenie procentov po depositu Nakopitelnii schet: 314.15RUB. 12.09.2014 13:36. Oplati pocupki kartoy i poluchi bonusnyye rubli!

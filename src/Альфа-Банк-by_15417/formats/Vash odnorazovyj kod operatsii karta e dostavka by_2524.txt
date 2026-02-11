@@ -1,0 +1,13 @@
+^.*(?:dnoraz.*?kod|[Oo]tkaz|[Нн]икому не).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Vash odnorazovyj kod operatsii 565005 (karta 5.9170, e-dostavka.by, 43.94 BYN, data operatsii 2018-09-16 11:12:44)
+
+-----EXAMPLE-----
+Karta 5.1111 Oplata Otkaz(Net deneg) Summa:34.99 BYN Ostatok:7.02 BYN SHOP "MARK FORMEL" 30.06.2022 20:59:54
+
+-----EXAMPLE-----
+252749; Никому не сообщайте! Код для списания по карте 5.7838 (24afisha.by, 46.50 BYN) ║

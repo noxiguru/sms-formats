@@ -1,0 +1,7 @@
+^([\d.]{8}).*ыдача н.*?\*(\d{4});.*?([\d\s.,]*\d)\s*([A-Z]{3}).*аланс.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+26.06.15 20:48 Выдача наличных в АТМ (541044  ); карта:FEIB VISA ELECTRON CHIP****7451;RRN:034141; 500.00RUR,баланс:3435.00RUR 1234567890   , RU, 88003333355

@@ -1,0 +1,7 @@
+^.*?(\d{4}) .*?idacha.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Kartka ***3014 Vidacha gotivky ATM 150.00 UAH Balans 1208.94 UAH Vlasni koshty 208.94 UAH 25.05.16 11:03 ATMKD106, KIEV, ST. PANKOVSKAYA, 11

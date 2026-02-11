@@ -1,0 +1,7 @@
+^Post.*?([\d\s.,]*\d)\s*([A-Z]{3})\W? .ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Postuplenie 130.42 RUR. Dostupno 23950.55 RUR

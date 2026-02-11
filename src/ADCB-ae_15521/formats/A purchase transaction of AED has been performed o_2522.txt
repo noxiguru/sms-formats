@@ -1,0 +1,10 @@
+^.*purch.*?([A-Z]{3})\s*([\d\s.,]*\d).*?perform.*?X(\d{4}).* (\S{3}\s+\d{1,2}\s+\d{4}) .*at\s+(.+)\.\s*Avail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#MMM dd yyyy;payee;av_balance
+
+-----EXAMPLE-----
+A purchase transaction of AED15.24 has been performed on your Debit Card XXX0159 linked to your account XXX132001 on Jul 11 2016  3:45PM at PAYPAL  EXCHANG,LU.Available balance is AED 922.25. To enjoy real-time offers visit www.adcb.com/offersapp
+
+-----EXAMPLE-----
+A purchase transaction of AED305.39 has been performed on your Debit Card XXX2272 linked to your account XXX132001 on Aug  1 2016  9:51AM at CARREFOUR AL SA,AE.Available balance is AED 5542.93. To enjoy real-time offers visit www.adcb.com/offersapp

@@ -1,0 +1,10 @@
+^(Spisan.*? za .*?\s*\*(\d{4}).*?)\s+-?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Spisanie komissii za obsluzhivanie scheta*3813 za avgust -149.00 RUR. 03.08.18 16:06. Ostatok 306.73 RUR.
+
+-----EXAMPLE-----
+Spisanie komissii za obsluzhivanie scheta*3501 0.00 RUR. 01.09.18 00:02. Ostatok 737.49 RUR.

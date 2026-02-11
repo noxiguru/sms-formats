@@ -1,0 +1,16 @@
+^(?:Вы запл|You.*?paid).*? ([\d\s.,]*\d)\s*(\S{1,3}) (?:из кош|from the W)\w+\s+(\S+).* ║ .*(?:писан|ebit).*
+
+-----COLUMNS-----
+outcome;instrument;syncid
+
+-----EXAMPLE-----
+Вы заплатили 300,00 ₽ из кошелька FingerSan ║ Деньги списаны
+
+-----EXAMPLE-----
+Вы заплатили 2 743,60 ₽ из кошелька Denis Rudenko ║ Деньги списаны
+
+-----EXAMPLE-----
+You've paid 100.00 ₽ from the Wallet excitator ║ Debited
+
+-----EXAMPLE-----
+You've paid 6,000.00 ₽ from the Wallet Febalist ║ Debited

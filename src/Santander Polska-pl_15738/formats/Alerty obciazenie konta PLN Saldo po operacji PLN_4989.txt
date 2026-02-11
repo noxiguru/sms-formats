@@ -1,0 +1,7 @@
+^.*bciazen.*?(\d{4}) \* ([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) \* Sald.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Alerty24: obciazenie konta ...147534704 * 169,80 PLN 23-03-2021 * Saldo po operacji: 977,28 PLN

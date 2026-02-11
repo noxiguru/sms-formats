@@ -1,0 +1,7 @@
+^.* [Сс]нял\w* ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash
+
+-----EXAMPLE-----
+Вы сняли 400 р. в банкомате SHOPPING MALL с карты *6486.

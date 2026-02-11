@@ -1,0 +1,7 @@
+^S .*?SCHE.*?(\d{4}) SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+S VASHEGO SCHETA 40817810******003740 SPISANO 2500.00 RUR

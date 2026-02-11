@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d.]{8}) .*SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*DOSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+RIB 4**8317 02.02.15 14:08 SPISANIE 50,035.00 RUB DOSTUPNO: 10,465.00 RUB

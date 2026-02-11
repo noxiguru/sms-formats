@@ -1,0 +1,7 @@
+^POPOL.*?SBP.*?\*(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy
+
+-----EXAMPLE-----
+POPOLNENIE SBP SCHET *8646 500.00 RUB 01.03.2021 10:56 ot Tin'koff Bank Aleksandr Anatol'evich K

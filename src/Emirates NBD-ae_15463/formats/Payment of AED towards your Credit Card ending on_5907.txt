@@ -1,0 +1,7 @@
+^Paym.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+towa.*?nding\s+(\d{4})\s+on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*vaila.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Payment of AED 10730.60 towards your Credit Card ending 9718 on 30/07/2023 was received through Bank Transfer. Your available limit is AED 51,474.00.

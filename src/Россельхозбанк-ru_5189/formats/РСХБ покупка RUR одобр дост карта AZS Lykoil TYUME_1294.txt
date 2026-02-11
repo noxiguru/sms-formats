@@ -1,0 +1,19 @@
+^.*?([\d/]{5}).*?(?:окупк|okupk|debit|ATM pay).*?\.?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:[Дд]ост|алан|[Dd]ost|alan)\.?.*?(-?[\d\s.,]*\d).*\*(\d{4})\s+(.*)
+
+-----COLUMNS-----
+date#dd/MM;outcome;instrument;av_balance;syncid;payee
+
+-----EXAMPLE-----
+РСХБ,07/07 16:09:07 покупка 799.71RUR одобр. дост. 46.28 карта *3168 AZS 1 "Lykoil" TYUMEN RU
+
+-----EXAMPLE-----
+RSHB 20/01 14:08:21 pokupka 255.60 RUR odobr. dost. 53,044.24 karta *2021 OOO AVRORA RUSKO MOSCOW RU
+
+-----EXAMPLE-----
+РСХБ 01/07 10:06:47 перевод средств (debit) одобр. 85,793.71 RUR дост. 3,633.43 с карты *3537 TINKOFF BANK CARD2CARD MOSCOW RU
+
+-----EXAMPLE-----
+RSHB 05/12 18:45:53 ATM payment 200.00 RUR approved Balance 3,267.92 card *2537 MTS, APT 1759 MOSCOW RU
+
+-----EXAMPLE-----
+РСХБ 13/07 12:10:49 перевод средств (debit) одобр. 50,000.00 RUR Доступно 1,327.64 с карты *1998 Card2Card MOSKVA G RU

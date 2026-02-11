@@ -1,0 +1,10 @@
+^Money Withd.*from x*\d*(\d{4})x* via Online.*mount ([\d\s.,]*\d)\s*(\S+) .alan.*?(-?[\d\s.,]*\d).*\D(\d{1,2}[-./]\d{1,2}[-./]\d{2,4})\D.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Money Withdrawal from xxx120304x via Online Channel amount 1,097.91 Baht balance 8,178.90 Baht (26/12/20, 08:55hr)
+
+-----EXAMPLE-----
+Money Withdrawal from xxx120304x via Online Channel amount 11,000.00 Baht balance 2,361.81 Baht (2/1/21, 10:08hr)

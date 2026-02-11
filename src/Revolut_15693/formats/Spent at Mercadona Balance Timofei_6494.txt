@@ -1,0 +1,7 @@
+^Spent\s+(\W+|[A-Z]{2,3})\s*([\d\s.,]*\d)\s+at\s+(.*?)\s+.alan.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Spent €2.65 at Mercadona Balance: €17.82 ║ Timofei 💳

@@ -1,0 +1,7 @@
+^CASH\s*WITH.*?([\d\s.,]*\d) BY .*?(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*AVAIL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;syncid#cash;date#dMy;av_balance
+
+-----EXAMPLE-----
+CASH WITHDRAWAL 1.200 BY VISA5059, A/C XXXX082002, ATM 517/METROPOLIS ATM ONLY 15/09/2022 18:44. AVAIL. B/CE 1.292,30.

@@ -1,0 +1,10 @@
+^(Zachis.*?ash\s*.ack).*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*(?:ostu|stat).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Zachislenie CashBack po kontraktu *5032 za sovershennye pokupki v TSP za tekushchij mesyac. Summa CashBack 191.45 RUR. Data 2018-02-28 22:05:31.Dostupno 427.95 RUR
+
+-----EXAMPLE-----
+Zachislenie CashBack po kontraktu *7496 za tekushchij mesyac. Summa 49.27RUR. 2018-04-30 21:51:30. Ostatok 58,32RUR

@@ -1,0 +1,7 @@
+^(?:Снят|Snyat).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Снятие:230000.00 KZT ATM 1683 TD KOKTEM *8050 Доступно: 59000.73 ║

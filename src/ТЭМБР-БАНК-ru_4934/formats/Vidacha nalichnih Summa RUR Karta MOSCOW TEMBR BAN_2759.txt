@@ -1,0 +1,7 @@
+^.*idacha n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*art.*?(\d{4}).*([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Vidacha nalichnih, Summa:100 000.00 RUR, Karta:4*0873, 2016-12-02 18:18:02 MOSCOW TEMBR-BANK ATM00730, Dostupno:960.06 RUR

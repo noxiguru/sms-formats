@@ -1,0 +1,7 @@
+^([\d.]{5}) .*?\*(\d{4})(?!.*(?:отмена|otmena|ostup|оступ)).*(?:pisan|писан|okupk|окупк).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;outcome;instrument
+
+-----EXAMPLE-----
+07.03 12:40 Карта*1210 списание -5900.00 RUR.

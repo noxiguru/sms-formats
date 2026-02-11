@@ -1,0 +1,13 @@
+^.*?\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:plata|pisano) ([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\.\s+.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Priorbank. Karta 4***5756. 23-02-16 11:56:39. Oplata 554 400.00 BYR. BLR SHOP F-L N1 / OOO "TBM BE. Dostupno: 1 311 604.00 BYR. Spravka: 80172899292
+
+-----EXAMPLE-----
+Priorbank. Karta 5***1234. 01-12-2016 10:10:10. Oplata 176 500.00 BYR. BLR SHOP. Dostupno: 2 123 123.00 BYR. Spravka
+
+-----EXAMPLE-----
+Priorbank. Karta 4***1234. 24-11-2020 11:28:38. Itogo spisano 152.80 BYN. BLR AZS 14. Dostupno: 2 271.74 BYN. Spravka: 80172899292

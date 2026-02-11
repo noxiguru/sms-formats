@@ -1,0 +1,7 @@
+^([\d-]{10}) .*perac.*?\*(\d{3,4})\s.*?umm.*?\+([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?\d[\d\s.,]*).\s+.pisanie.\s*(?!.*A(?:TM|\d+))(.*)
+
+-----COLUMNS-----
+date#yyyy-MM-dd;syncid;income;instrument;av_balance;comment
+
+-----EXAMPLE-----
+2017-05-15 20:44:40  Operaciya po kartochke 5**8320 na summu +20000.00KZT. Ostatok : 22583.27. Opisanie: HB CARD TO CARD TRANSFER

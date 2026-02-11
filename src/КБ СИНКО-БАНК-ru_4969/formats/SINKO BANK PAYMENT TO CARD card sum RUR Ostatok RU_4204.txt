@@ -1,0 +1,7 @@
+^.*PAYMENT.*\*(\d{4}) .*[Ss]um.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+SINKO-BANK. PAYMENT TO CARD card 5342*8777 sum 23284.16 RUR Ostatok 23332.58 RUR

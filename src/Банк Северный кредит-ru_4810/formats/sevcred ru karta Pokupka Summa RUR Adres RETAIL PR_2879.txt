@@ -1,0 +1,7 @@
+^.*? ([\d.]{8}) .*\*(\d{4}).*okupk.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*dres:\s+(.*?);.*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+sevcred.ru; 18.02.17 18:53; karta ***0048; Pokupka; Summa: 2076.42 RUR; Adres: RETAIL PROPERTY 6 1492, RU; Dostupno: 90301.58 RUB

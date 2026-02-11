@@ -1,0 +1,7 @@
+^Kart.*?(\d{4}) (BALANCE INQ.*?) Uspe.*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}) .stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*? (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Karta 4.0895 BALANCE INQUIRY FEE FROM IPS Uspeshno Summa:0.83 USD Ostatok:790.11 USD ATM N229 EVROOPT 14.07.2023 20:55:18

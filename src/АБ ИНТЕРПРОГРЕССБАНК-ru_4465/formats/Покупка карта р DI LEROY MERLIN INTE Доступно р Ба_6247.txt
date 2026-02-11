@@ -1,0 +1,7 @@
+^Покупка.*\*(\d{4})\W?\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})[.,]+\s+(.*?)\.\s+.осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка, карта *2649. 2 436 р., 3DI2 LEROY MERLIN INTE. Доступно 96 595.59 р. ║ Банк ИПБ

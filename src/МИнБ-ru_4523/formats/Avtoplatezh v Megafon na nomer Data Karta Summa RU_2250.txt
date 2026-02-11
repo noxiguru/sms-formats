@@ -1,0 +1,7 @@
+^(Avtoplatezh v .*?) Data: ([\d/]{5}).*art.*?\*(\d{4}).*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*ostup.*?(-?[\d\s.,]*\d).*ermin.*?:\s+(.*)
+
+-----COLUMNS-----
+comment;date#dd/MM;syncid;outcome;instrument;fee;av_balance;payee
+
+-----EXAMPLE-----
+Avtoplatezh v Megafon na nomer 9261726801 Data: 14/01 19:20 Karta: ****8033 Summa: 600.00RUB Komissija: 0.00RUB Dostupno: 5715.71RUB Terminal: APAY0000,Klary Tsetkin, 20,Moscow,RU

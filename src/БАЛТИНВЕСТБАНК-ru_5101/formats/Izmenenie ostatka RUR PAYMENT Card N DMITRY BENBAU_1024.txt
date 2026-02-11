@@ -1,0 +1,7 @@
+^Izmenenie ostatka: ([\d\s.,]*\d)([A-Z]{3}).*\*(\d{4}).*BAL.([\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Izmenenie ostatka: 18 745.08RUR PAYMENT Card_N**5904 DMITRY BENBAU BAL:28 386.19

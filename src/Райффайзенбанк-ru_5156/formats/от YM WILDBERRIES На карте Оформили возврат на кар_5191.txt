@@ -1,0 +1,7 @@
+^\+\s*([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W) от (.*?)\. На к.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W) ║ (.*?) на ка.*?\*(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;payee;av_balance;acc_instrument;comment;syncid
+
+-----EXAMPLE-----
++ 1 656.00 ₽ от YM*WILDBERRIES. На карте 11 363.17 ₽ ║ Оформили возврат на карту *6665

@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*(?:okupk|окупк).*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\W?\s+.(?:alan|алан).*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Karta *5457. Pokupka 8800 RUR. RUTS-NIZHNEVARTOVSK. Balans 5.48 RUR. 2018-10-10
+
+-----EXAMPLE-----
+Карта *9521. Покупка 500 RUR. MD.*ZSD. Balans 9440 RUR. 2018-10-09

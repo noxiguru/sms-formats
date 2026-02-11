@@ -1,0 +1,7 @@
+.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*?\d{2}:\d{2}:\d{2}.*?\s(\d+)\s+(.*?)([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4}).*?(?:tusti)
+
+-----COLUMNS-----
+date#dMy;syncid;comment;income;instrument
+
+-----EXAMPLE-----
+07.01.26 13:34:16 4202095342 sharty boiynsha 99000.00 KZT tusti.

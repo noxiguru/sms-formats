@@ -1,0 +1,7 @@
+^.*\*(\d{4});\s*.писан.*?([\d\s.,]*\d)\s*([A-Z]{3});\s*(.*);\s*.стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *7113;Списание: 135.80 RUR;CHIZHIK CH5;Остаток 610.76 RUR

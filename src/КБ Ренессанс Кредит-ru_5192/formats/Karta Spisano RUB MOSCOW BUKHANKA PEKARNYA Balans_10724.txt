@@ -1,0 +1,7 @@
+^Karta \*(\d{4})\.\s+Spisano\s+([0-9][\d\s]*[.,]\d{2})\s+([A-Za-z]{1,3})\.\s+(.*?)\.\s+Balans:\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s+([A-Za-z]{1,3})\s*║$
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *9472. Spisano 210.00 RUB. MOSCOW BUKHANKA PEKARNYA. Balans: 790.00 RUB ║

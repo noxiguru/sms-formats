@@ -1,0 +1,7 @@
+^.*stekla\s+tran.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Mobilni KES - istekla transakcija Iznos: 4.500,00 RSD Datum kreiranja: 17.05.2023 Za ponovno slanje neophodno je kreirati novi kod. ║ Raiffeisen banka

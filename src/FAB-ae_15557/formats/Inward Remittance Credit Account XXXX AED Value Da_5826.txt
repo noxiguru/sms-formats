@@ -1,0 +1,10 @@
+^Inward.*ccoun.*?(\d{4})\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d).*ate\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.vail.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;income;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Inward Remittance Credit Account XXXX4002 AED 1000.00 Value Date 04/06/2023 Available Balance AED 1080.21
+
+-----EXAMPLE-----
+Inward Remittance  Credit   Account XXXX4002  AED 2341.32 Value Date 04/07/2023  Available Balance AED 3778.51

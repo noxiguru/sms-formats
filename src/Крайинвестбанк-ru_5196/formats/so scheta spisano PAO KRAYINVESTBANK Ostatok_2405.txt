@@ -1,0 +1,7 @@
+^([\d.]{10}) .*schet.*?(\d{4}) spisan.*?([\d\s.,]*\d)\s+.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;av_balance
+
+-----EXAMPLE-----
+29.04.2016 20:17 so scheta 1234567890 spisano 5.00 PAO "KRAYINVESTBANK"<.> Ostatok:1,107.64

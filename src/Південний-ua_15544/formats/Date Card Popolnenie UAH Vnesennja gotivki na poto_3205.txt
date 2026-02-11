@@ -1,0 +1,7 @@
+^.*ate.?([\d.]{5}) .*ard.*?(\d{4}) .opoln.*?([\d\s.,]*\d)\s*([A-Z]{3}).*nesennja g.*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid#cash;income;instrument;av_balance
+
+-----EXAMPLE-----
+Date:08.09 16:16 Card:5353-4910 Popolnenie=500.00 UAH Vnesennja gotivki na potochnij rakhunok  26 Balance=523.83 UAH

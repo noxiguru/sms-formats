@@ -1,0 +1,7 @@
+^Operat.*\*\d*(\d{4}):\s*-([\d\s.,]+\s*)\s+(?:\([\d\s.,]*\d\)\s+)?.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}-[\d-]{5}).*
+
+-----COLUMNS-----
+syncid;outcome;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+Operatsiia MTB za Rahunkom *6241:- 100.00 Dostupno: 779.51 UAH KrLim:2000.00 UAH Zaborhovanist: 0.00 UAH [2024-04-16 12:16:12] transaction through online ser

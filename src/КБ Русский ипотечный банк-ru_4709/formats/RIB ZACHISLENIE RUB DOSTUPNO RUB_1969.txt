@@ -1,0 +1,7 @@
+^.*(\d{4})\s+([\d.]{8}).*ZACHIS.*?([\d\s.,]*\d)\s*([A-Z]{3}).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+RIB 5*8468 31.08.15 16:58 ZACHISLENIE 134.25 RUB  DOSTUPNO 70134.25 RUB

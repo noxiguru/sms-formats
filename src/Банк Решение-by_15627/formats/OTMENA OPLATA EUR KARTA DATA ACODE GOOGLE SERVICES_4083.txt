@@ -1,0 +1,7 @@
+^(OTMENA).*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*([\d.]{10}).*ACODE \d+\s+(.*?)\s+OSTA.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;income;instrument;syncid;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+OTMENA OPLATA 1.00 EUR KARTA #3431 DATA 28.01.2019 11:47:35 ACODE 956737 GOOGLE *SERVICES>g.co/helppay>GB OSTATOK 55.46 BYN

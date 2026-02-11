@@ -1,0 +1,7 @@
+^.*ending\s+in\s+(\d{4}).*eposits\s+posted\s+ab.*on\s+(\d{2}/\d{2}/\d{2,4}):\s+(\W+|[A-Z]{2,3})\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#Mdy;instrument;income
+
+-----EXAMPLE-----
+Truist Alerts: For account ending in 4125, the following deposits posted above your set threshold amount on 02/29/2024: $1,285.78. Reply INFO for more info, LAST for transaction history, HELP for help, or STOP to stop alerts.

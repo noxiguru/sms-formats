@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*Credit([\d\s.,]*\d)\s*([A-Z]{3})\.\s*(.*?)\..*([\d-]{10}).*Dostupno (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *9146. Credit 250.00RUR. KAZAN, MAGAZIN DNS. Na schete zarezervirovano 250.00RUR. Date 2016-01-04 12:23:57. Dostupno 11588.43RUR

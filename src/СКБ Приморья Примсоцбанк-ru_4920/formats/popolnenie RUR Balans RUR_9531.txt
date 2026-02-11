@@ -1,0 +1,7 @@
+^\*\s*(\d{4})\s+\d{2}:\d{2}\s+popolnenie\s+([0-9][\d\s]*[.,]\d{2})\s+([A-Za-z]{1,3})\.\s+Balans\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s+([A-Za-z]{1,3})$
+
+-----COLUMNS-----
+syncid;income;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+*5757 17:25 popolnenie 4000.00 RUR. Balans 4175.39 RUR

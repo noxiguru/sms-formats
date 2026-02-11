@@ -1,0 +1,2 @@
+CardBeeline
+ru.beeline.card

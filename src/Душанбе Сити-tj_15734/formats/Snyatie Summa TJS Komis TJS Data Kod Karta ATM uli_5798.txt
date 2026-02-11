@@ -1,0 +1,7 @@
+^Snyat.*?([\d\s.,]*\d)\s*([A-Z]{3}) .omis.*?([\d\s.,]*\d).*ata [\d:]{5,} (\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;fee;date#dMy;syncid#cash;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Snyatie Summa 30.00 TJS Komis 0.00 TJS Data 13:44 14.05.23 Kod 1931545530 Karta ***5889 ATM ulica Zarafshon M4, dom 4 Balans 0.93 TJS

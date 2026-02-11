@@ -1,0 +1,7 @@
+^CASH.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*ard.*?\*?(\d{2,4})\s+(\d{2}-\d{2}-\d{2})\s+[\d:]+\s+Fee.*?([\d\s.,]*\d).*vail.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#yMd;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+CASH: -16000.00 KGS "Dordoi Plaza-2">Bis Card: *50 23-08-01 18:23 Fee:0.00 KGS Bal: 17743.64KGS Avail:17743.64KGS

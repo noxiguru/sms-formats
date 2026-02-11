@@ -1,0 +1,7 @@
+^.*(\d{4}):\s+([\d.]{10}).*писание.*?([\d\s.,]*\d)\s*([A-Z]{3}).\s+(.+)\.\s*Досту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта 0407: 15.10.2015 13:07, списание 141.00 RUR, MAGNIT MM BINGO, ROSTOV-NA-DON. Доступно 5996.92 RUR.

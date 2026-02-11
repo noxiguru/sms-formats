@@ -1,0 +1,7 @@
+^.*nding.*?(\d{4}) for ([A-Z]{3}|\W)\s*([\d\s.,]*\d\.\d{2})\d? at (.*?) on (\w+ \d{2}), [\d:]{5}.*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#Md
+
+-----EXAMPLE-----
+Thank you for using BBK CARD ending in 6769 for BHD 102.770 at NEC B S C Closed MANAMA BH on Sep 25, 07:28. For help 17207777

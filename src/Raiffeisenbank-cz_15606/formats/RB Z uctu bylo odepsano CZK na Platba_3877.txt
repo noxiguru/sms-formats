@@ -1,0 +1,7 @@
+^.*Z .*?(\d{4}) bylo ([\d.]{5}).*-([\d\s.,]*\d)\s*([A-Z]{3}) (na .*?)\s+\(Pla.*
+
+-----COLUMNS-----
+syncid;date#dd.MM;outcome;instrument;comment
+
+-----EXAMPLE-----
+RB: Z uctu 3747170001 bylo 03.09. odepsano -1.863,00 CZK na 2501199352/2010 (Platba).

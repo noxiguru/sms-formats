@@ -1,0 +1,13 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*?\*(\d{4}).*(?:Internet-sales|uccess.*?abroad).*?:?\s+(.*?),?\s*([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+16/03/2016 13:38 Your card 4172********8363 was used for Internet-sales: USA Scottsdale,PAYPAL *GODADDY.COM, 24.84 USD Call-center 1234567890
+
+-----EXAMPLE-----
+20/08/2016 22:02 Your card 4172********8218 was used successfully abroad: RUSSIAN FEDERATION MOSCOW,OOO SOBI-FARM, 977.00 RUR Call-center 1234567890
+
+-----EXAMPLE-----
+08/10/2023 10:23 417219******5995 used for Internet-sales 233.00 KGS

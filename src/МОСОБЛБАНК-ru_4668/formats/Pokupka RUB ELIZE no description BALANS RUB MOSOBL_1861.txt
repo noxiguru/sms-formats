@@ -1,0 +1,7 @@
+^.*([\d.]{8}).*\*(\d{4})\s*Pokup.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+18:44 01.07.15 5579***6253 Pokupka 572.00 RUB ELIZE                   > {no description} BALANS: 31505.36 RUB. MOSOBLBANK, tel. 8-800-200-14-15

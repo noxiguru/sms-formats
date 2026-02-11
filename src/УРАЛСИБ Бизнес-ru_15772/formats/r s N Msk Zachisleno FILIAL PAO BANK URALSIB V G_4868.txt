@@ -1,0 +1,10 @@
+^.*?_(\d{4})\D.* (\d{2}[-./]\d{2}[-./]\d{2,4})\D.*achislen.*?([\d\s.,]*\d)\W?\s+(.*?)\s+Ost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;payee;av_balance
+
+-----EXAMPLE-----
+r/s N 40702810_3274, 09:21:54 (Msk) 20.06.2019. Zachisleno 487.00. FILIAL PAO BANK URALSIB V G.SANKT-PETERBURG Ost 72483.14
+
+-----EXAMPLE-----
+r/s N 40702810_3274, 15:33:08 (Msk) 27.11.2020. Zachisleno 30000.00. GAVRILENKO ALEKSEY VALEREVICH Ost 37894.60

@@ -1,0 +1,10 @@
+^.*\*(\d{4})\s+•\s+.(?:алан|alan).*?(-?[\d\s.,]*\d)[\s‎]*([A-Z]{3}|₼)[\s‎]+║\s+.*(?:еревод|ransf).*?-[\s‎]*([\d\s.,]*\d)[\s‎]([A-Z]{3}|₼).*
+
+-----COLUMNS-----
+syncid;av_balance;acc_instrument;outcome;instrument
+
+-----EXAMPLE-----
+ABB MOBILE Карта: **7836 • Баланс: ‎7.12‎₼‎ ║ 💸 Перевод: -‎50.00‎₼
+
+-----EXAMPLE-----
+ABB MOBILE Card: **7836 • Balance: ‎7.12‎₼‎ ║ 💸 Transfer: -‎50.00‎₼

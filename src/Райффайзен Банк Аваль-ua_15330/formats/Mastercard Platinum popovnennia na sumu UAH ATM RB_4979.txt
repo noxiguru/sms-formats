@@ -1,0 +1,10 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}) .(?:opovn|оповн).*?([\d\s.,]*\d)\s*([A-Z]{3}).*ATM.*(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid#cash;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+10.03.21 14:56 Mastercard Platinum*3150 popovnennia na sumu 17000.00 UAH ATM5073 RBA GOLOSIYIV dostupna suma 60563.31 UAH. Perevirka balansu ONLINE: http://bit.ly/2MlgJNI
+
+-----EXAMPLE-----
+08.11.21 12:21 Mastercard Platinum*3150 поповнення на суму 6600.00 UAH в банкоматі ATM5073 RBA GOLOSIYIV доступна сума 108089.00 UAH ║ Raiffeisen

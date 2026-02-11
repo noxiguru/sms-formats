@@ -1,0 +1,7 @@
+^.opoln.*?([\d\s.,]*\d).*\*(\d{4})\s+in\s+(.*?)\s*at\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+income;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+popolnenie 121310.84 uzbekistan sum karta 403701******6608 in at 09/08/23 19:23:53

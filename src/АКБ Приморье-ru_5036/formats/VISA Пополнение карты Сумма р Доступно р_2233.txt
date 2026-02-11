@@ -1,0 +1,10 @@
+^.*\*(\d{2,4}): (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:ополн|opoln).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+VISA**63: 12.02.16 15:58 Пополнение карты Сумма5000р Доступно29838.27р
+
+-----EXAMPLE-----
+MC**51: 15.12.21 Popolnenie 8540,5 RUB. Dostupno 8540,5 RUB

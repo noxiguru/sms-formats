@@ -1,0 +1,10 @@
+^\d+\*+(\d{4})\s+(?:SPISAN|P2P\s+DEB).*USPES.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?\s(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\d+:\d.*DOSTU.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+4714***1250 SPISANIE SO SCHETA USPESHNO 700.00 KGS, OB CBS, KG, 07.12.2024 11:24, DOSTUPNO:37171.96 KGS ║ Списание со счета
+
+-----EXAMPLE-----
+4714***1250 P2P DEBET USPESHNO 3300.00 KGS, MB BB, KG, 07.12.2024 11:20, DOSTUPNO:37871.96 KGS ║ Транзакция

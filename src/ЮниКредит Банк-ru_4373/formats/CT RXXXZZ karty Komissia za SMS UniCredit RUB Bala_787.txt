@@ -1,0 +1,10 @@
+^.*?(\d{4})\s+([\d.]{10}).*?(Komissia.*?|Комиссия.*?|Смена PIN.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostup|оступ).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;comment;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+CT RXXXZZ #karty 7292 25.04.2013 15:07 Komissia za SMS.UniCredit 60.00 RUB. Balance: 62590.22. Dostupno: 62590.22. UniCredit Bank RU.
+
+-----EXAMPLE-----
+Карта 7117 02.09.2016 11:09 Смена PIN-кода 90.00 RUB. Доступно: 52879.77 RUR ATM1049 DO PJATNICKAJA MOSCOW

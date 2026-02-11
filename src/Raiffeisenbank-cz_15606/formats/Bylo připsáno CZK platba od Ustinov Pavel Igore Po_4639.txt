@@ -1,0 +1,7 @@
+^.*řipsá.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).* od (.*?)\).*
+
+-----COLUMNS-----
+income;instrument;payee
+
+-----EXAMPLE-----
+Bylo připsáno +11.500,00 CZK (platba od Ustinov, Pavel Igore). ║ Pohyb na účtě

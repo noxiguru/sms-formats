@@ -1,0 +1,7 @@
+^.*?([\d.]{8})\s*.okup.*?([\d\s.,]*\d)\s*([a-zA-Z]{3})\s+\(([\d\s.,]*\d).*?\*(\d{4})\s+(?!.*Balans)(.*?)\s+Bank.*
+
+-----COLUMNS-----
+date#dd.MM.yy;op_outcome;instrument;outcome;syncid;payee
+
+-----EXAMPLE-----
+00:48 25.03.15 Pokupka 4.36 USD (261.60 rub) 4272*3995 NICOSIA G2S.COM Bank 88001002254

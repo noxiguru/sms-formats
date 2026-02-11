@@ -1,0 +1,7 @@
+^Schet\s+([A-Z]{1}).*?\s+Izmenenie:\s+-([\d\s.,]*\d).*?Dostupno:?\s+([-\d\s.,]*\d);\s+(\d{2}/[\d/]{5}).*
+
+-----COLUMNS-----
+syncid;outcome;av_balance;date#dd/MM/yy
+
+-----EXAMPLE-----
+Schet A(RUR): Izmenenie: -1000.00; Ostatok: 105.00; Dostupno 10100.00; 28/03/13 06:30.

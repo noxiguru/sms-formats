@@ -1,0 +1,10 @@
+^.*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*алан.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Списан перевод 5000 RUR со счета *6246. Баланс 20178.91 RUR. Raiffeisenbank
+
+-----EXAMPLE-----
+Проведено списание 16255.47 RUR со счета *7430. Баланс 8030.97 RUR. Raiffeisenbank

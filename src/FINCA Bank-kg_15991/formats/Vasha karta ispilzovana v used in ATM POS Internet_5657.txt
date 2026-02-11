@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}) isp.*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?)\.\s*INFO.*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+03/02/2023 11:54 Vasha karta 471423******9862 ispilzovana v (used in) ATM/POS/Internet 5.99 USD MICROSOFT*SUBSCRIPTION Ireland MSBILL.INFO http://fincabank.kg/

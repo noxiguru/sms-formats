@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+[A-Z\s]+\s+\*+(\d{4}).*BALA.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*\s+║\s+.*CREDIT.*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+58,800.00 AMD VISA **7476 - BALANCE: 612,743.81 AMD SBQ-BANK SYSTEM, AM 08.08.2023 11:32 ║ IDBank: CREDIT ACCOUNT

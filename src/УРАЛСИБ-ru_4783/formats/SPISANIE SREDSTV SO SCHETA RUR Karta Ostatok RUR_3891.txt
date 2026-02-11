@@ -1,0 +1,7 @@
+^SPISANIE.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+SPISANIE SREDSTV SO SCHETA: 59.00 RUR. Karta *7328 08.09.18 03:19. Ostatok 767.01 RUR.

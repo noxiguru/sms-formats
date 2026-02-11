@@ -1,0 +1,25 @@
+^.*(?:edit kod.*?\d{4,}|euspishna op|erification|vkhid v sys|вхід до|║ Downloading).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Vvedit kod 26294 dlia pidtverdzhennia vkhody v UKRSIB online. ║ UKRSIB online
+
+-----EXAMPLE-----
+Uvaga! Nikoly i nikomu ne nazyvaite otrymanyi kod. Dlia pidtverdzhennia platezhu z vashoi kartky vvedit kod : 73217. Dovidka - 729 ║ UKRSIB online
+
+-----EXAMPLE-----
+Neuspishna oplata tovariv. Kartka 5351***4950, WWW.WISH.COM, NL. Nedostatno koshtiv. Dostupno 41.68UAH. Dovidka 729 ║ UKRSIB online
+
+-----EXAMPLE-----
+Account requisites_(10).pdf ║ Downloading is complete
+
+-----EXAMPLE-----
+Verification: 00188864  GOOGLE *TEMPORARY HOLD, GB 26.11.2019 08:43. Kartka 5351***4950. Dostupno 6.37UAH. ONLINE.UKRSIBBANK.COM ║ UKRSIB online
+
+-----EXAMPLE-----
+28.01.2020 zdijsneno vkhid v systemu Ukrsibbank online. Z Pristriy SM-N960F IP-adresa: 46.211.232.132. Dovidka: 729. ║ UKRSIB online
+
+-----EXAMPLE-----
+19.04.2021 17:31 здійснено вхід до системи UKRSIB online. SM-N920C  Android v. 7.0 Российская Федерация 195.225.38.17 ║ Вхід в UKRSIB online

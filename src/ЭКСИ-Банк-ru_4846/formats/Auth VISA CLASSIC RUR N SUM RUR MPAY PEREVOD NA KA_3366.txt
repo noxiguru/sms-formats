@@ -1,0 +1,10 @@
+^.*\*(\d{4}).*SUM(?!.*ATM).*?-([\d\s.,]*\d)\s*([A-Z]{3});\s*(.*?);\s+([\d.]{10}).*LIM.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Auth: VISA CLASSIC (RUR) N: *0086 SUM: -14,000.00 RUR; MPAY_PEREVOD_NA_KARTU_N:_*0052; 19.12.2017 16:31 (UTC+3); LIM: 16,130.00 RUR
+
+-----EXAMPLE-----
+Auth: VISA GOLD (RUR) N: *0797 SUM: -16,000.00 RUR; TINKOFF BANK CARD2CARD//Visa Direct; 18.09.2018 19:11; LIM: 942.32 RUR

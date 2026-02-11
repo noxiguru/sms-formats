@@ -1,0 +1,7 @@
+^Poku.*?:\s*(.+),\s*([\d.]{10}).*arta\s+(\d{4}).*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*osta.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+payee;date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Pokupka: "KFC VISHNEVSKOGO" CAF  >, KAZAN, ,25.10.2015 12:23, karta 8137. Summa:247.00 RUB. Dostupny ostatok:13406.71 RUB.

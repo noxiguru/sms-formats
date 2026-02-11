@@ -1,0 +1,10 @@
+^.*?(\d{4}) ([\d.]{10}).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\.\s*.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+So scheta 1234567890 24.10.2017 15:52:20 spisana summa v razmere 13,975.42RUR Oplata po karte.Balance 12384.83RUR.Raiffeisenbank
+
+-----EXAMPLE-----
+So scheta 1234567890 27.02.2018 07:36:41 spisana summa v razmere 1,937.00RUR Iskhodyaschij platezh v RUB.Balance 72820.28RUR.Raiffeisenbank

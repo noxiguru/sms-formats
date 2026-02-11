@@ -1,0 +1,7 @@
+^Balans.*?izmenilsja.*([\d-]{10}).*ostupn.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Balans scheta Vashej karty Renaissance Credit izmenilsja 2016-03-11 08:41:03 na 3 379.30 RUR. Dostupno 3 466.34 RUR.KB Renaissance Credit (OOO), lic. CB RF 3354.

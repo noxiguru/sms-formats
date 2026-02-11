@@ -1,0 +1,7 @@
+^Бала.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*\*(\d{4})\s+║\s+\W+\s+-([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(?!Снят)(.*)
+
+-----COLUMNS-----
+av_balance;acc_instrument;syncid;outcome;instrument;comment
+
+-----EXAMPLE-----
+Баланс: 0.00 UAH Карта: *2272 ║ ⬅️ -814.05₴ Перевод на карту *4930

@@ -1,0 +1,7 @@
+^.*Отказ.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+2455 Отказ  Недостаточно средств 2019-03-21 15:58:32 Сумма: 1.95 BYN BLR/MINSK/MINSKIY METROPOLITEN BPSB

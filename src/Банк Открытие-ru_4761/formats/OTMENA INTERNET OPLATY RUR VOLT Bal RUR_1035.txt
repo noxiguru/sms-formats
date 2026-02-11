@@ -1,0 +1,7 @@
+^(.{4}).*?(OTMENA.*?)\s([\d\s.,]*\d)([A-Z]{3}).*Bal:([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;av_balance
+
+-----EXAMPLE-----
+5*62 16:29 OTMENA INTERNET-OPLATY 2382.00RUR (220 VOLT). Bal:2382.37RUR

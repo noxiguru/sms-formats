@@ -1,0 +1,7 @@
+^Acc.*?(\d{4})\s+Amou.*?-([\d\s.,]*\d)\s+Bala.*?([\d\s.,]*\d)\s+.*QUA POS.*NGAY (\d{2}[-./]\d{2}[-./]\d{2,4}) TAI (.*?) APPCODE.*
+
+-----COLUMNS-----
+syncid;outcome;av_balance;date#dMy;payee
+
+-----EXAMPLE-----
+Account 1234567890 Amount: - 175,000 Balance: 47,796,020 GD THE QUA POS SO THE 422149...3710 NGAY 06/03/2023 TAI PHARMACITY DNPMC886 DA NANG VN APPCODE 698629 TID 24000176

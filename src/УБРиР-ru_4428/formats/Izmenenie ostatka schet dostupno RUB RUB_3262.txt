@@ -1,0 +1,7 @@
+^.*zmenenie\s+ost.*?\s+([\d.]{8})\s+.*\*(\d{4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;av_balance
+
+-----EXAMPLE-----
+!Izmenenie ostatka  03.11.17 13:10  schet:  40817810****3428  dostupno:  56105.66 RUB  (+53000.00 RUB)

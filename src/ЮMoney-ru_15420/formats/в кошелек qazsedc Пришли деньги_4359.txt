@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*(\S{1,3}) в кош\w+\s+(\S+).* ║ .*ришли.*
+
+-----COLUMNS-----
+income;instrument;syncid
+
+-----EXAMPLE-----
+167,31 ₽ в кошелек qazsedc13 ║ Пришли деньги

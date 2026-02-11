@@ -1,0 +1,10 @@
+^.*ard\W?(\d{4})\D? .(?:ополн|achis).*?([\d\s.,]*\d)\s*([A-Z]{3})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+BNB-Bank; Card5492; Пополнение счета: 999,62 BYN; 12.06.20 14:15:49; BNB BANK,MINSK,BLR; MCC: 0; Dostupno: 999,62 BYN
+
+-----EXAMPLE-----
+Card#4899; Zachislenie perevodа na kartu: 5.00 BYN; 15.12.2021 23:17:19; BNB PEREVOD>MINSK>BY ; Dostupno 189.69 BYN

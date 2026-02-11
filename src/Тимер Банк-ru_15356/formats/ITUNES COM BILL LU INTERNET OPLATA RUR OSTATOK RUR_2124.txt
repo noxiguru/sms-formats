@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8})\s+[\d:]+\s+(.+)\s+OPLATA.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+4568***1758 15.12.15 18:52 ITUNES.COM/BILL, LU INTERNET OPLATA: 199.00 RUR OSTATOK:21759.00 RUR

@@ -1,0 +1,7 @@
+^(?:Nalic|Налич).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W? \*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;syncid#cash
+
+-----EXAMPLE-----
+Nalichnye 200,00 RUB ATM TINKOFF 002370  Ostatok: 27 311,57 RUB; *4813

@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8}).*OPLAT.*?([\d\s.,]*\d)\s*([A-Z]{3}).*OMISS.*?([\d\s.,]*\d).*?\).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+KARTA 4*1833 29.03.17 19:09 OPLATA 100.00 RUB (KOMISSIYA 0.00 RUB) Michurina str., 50 SAMARA Russia DOSTUPNO 49900.00 RUB

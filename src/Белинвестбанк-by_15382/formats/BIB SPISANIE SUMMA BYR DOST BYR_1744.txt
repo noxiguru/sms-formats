@@ -1,0 +1,7 @@
+^.*?(\d{4})\s.*SPIS.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?OST.(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+BIB *6440*6996 12:11:39 SPISANIE SUMMA=50 000 BYR DOST=6 764 111 BYR

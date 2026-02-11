@@ -1,0 +1,10 @@
+^Transfer.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s*(\d{2}/\d{2}) .*\*(\d{4}).*?alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#MM/dd;syncid;av_balance
+
+-----EXAMPLE-----
+Transfer 10000.00RUB; 03/06 Account*4737 Balance 94589.85RUB
+
+-----EXAMPLE-----
+Transfer 10000.00RUB; 03/06 Account*4737 Balance 94589.85RUB

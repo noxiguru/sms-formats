@@ -1,0 +1,7 @@
+^VYPOL.*PEREVOD ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}).*OSTA.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+VYPOLNEN PEREVOD 5000.00 RUR KARTA *9895 Tinkoff Card2Card, Visa Direct 25.07.2023 10:55 MSK. OSTATOK 201337.54 RUR ║

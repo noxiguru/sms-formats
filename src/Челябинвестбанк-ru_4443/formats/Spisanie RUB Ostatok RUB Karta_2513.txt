@@ -1,0 +1,7 @@
+^([\d.]{8}).*pisa.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stato.*?(-?[\d\s.,]*\d).*arta.*?(\d{4})(?!.*dres).*
+
+-----COLUMNS-----
+date#dd.MM.yy;outcome;instrument;av_balance;syncid
+
+-----EXAMPLE-----
+10.07.16 21:00 Spisanie 10000.00 RUB. Ostatok: 171819.28 RUB. Karta: *1574

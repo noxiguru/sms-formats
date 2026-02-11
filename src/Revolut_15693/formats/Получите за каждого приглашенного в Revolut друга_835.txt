@@ -1,0 +1,22 @@
+^.*(?:за каждого приг|после\s+проверки|sufficient\s+funds|low\s+balance|rifiutato).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Получите 50 € за каждого приглашенного в Revolut друга. Подробнее ║ Всего 7 дн. ⏰
+
+-----EXAMPLE-----
+До 30 мая получите 40 € за каждого приглашенного друга! Подробнее ║ Хорошо иметь друзей 💰
+
+-----EXAMPLE-----
+🚫 Your payment of €10 to Sabrina Albrecht has been declined. Insufficient funds ║ Revolut
+
+-----EXAMPLE-----
+Your transaction of €24 to Daybreak failed due to low balance ║ Your balance is low ⚠️
+
+-----EXAMPLE-----
+✅ Мы получили перевод для вас. Сумма €6.67 будет зачислена на ваш счет после проверки. ║ Revolut
+
+-----EXAMPLE-----
+Il tuo acquisto ricorrente di €200,000 per un valore di BTC è stato rifiutato. Tocca per ricaricare il conto ║ Fondi insufficienti 🚫

@@ -1,0 +1,7 @@
+^POKUPKA.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8})\s+.*\*(\d{4})\s+(.*?)\s+DOSTU.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yy;syncid;payee;av_balance
+
+-----EXAMPLE-----
+POKUPKA: -6720.00 KZT 28.03.18 21:48:24 NOMER KARTY 404932******2793 TOO VEGAOIL, KOSTANAY, KZ DOSTUPNAYA SUMMA NA KARTE 196280.00 KZT.

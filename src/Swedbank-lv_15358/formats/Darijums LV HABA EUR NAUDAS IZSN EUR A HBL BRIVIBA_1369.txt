@@ -1,0 +1,7 @@
+^.*Darijums.*(\d{4}).[\d.]{10}.-([\d\s.,]*\d).*NAUDAS IZSN.*(\d\d\.\d\d\.\d\d) [\d:]+ ([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;date#dd.MM.yy;op_outcome;instrument
+
+-----EXAMPLE-----
+<Darijums/LV60HABA1234567890/30.08.2014/-50.00 EUR//NAUDAS IZSN. 1234567890 30.08.14 12:34 50.00 EUR (123456) A012/HBL>BRIVIBAS 123 RIGA LV>

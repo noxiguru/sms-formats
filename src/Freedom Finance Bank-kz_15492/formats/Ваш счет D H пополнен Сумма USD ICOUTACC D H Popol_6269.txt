@@ -1,0 +1,7 @@
+^Ваш\s+сч.*?(\d{4})\s+пополн.*умм.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:opoln|ополн).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Ваш счет D7H8882 пополнен. Сумма: 133.12 USD. ICOUTACC-1142256016 №D7H8882 Popolnenie 133.12 USD

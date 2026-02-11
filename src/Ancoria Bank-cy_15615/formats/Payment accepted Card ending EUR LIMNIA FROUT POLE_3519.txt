@@ -1,0 +1,7 @@
+^Payment.*end.*?(\d{4})\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+(.*?)\s+([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Payment accepted Card ending 6245 EUR7.30 LIMNIA FROUT. POLEMIDI LIMASSOL CY 22/02/2018 13:41:37 If fraud/suspicious call  35722849000 immediately

@@ -1,0 +1,7 @@
+^.*radi\s+kodi:\s+\d{4,}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Ertjeradi kodi: 980590 tanxa: 6.00 GEL Baratis N: ****6124 magti.com. Tu tqven ar axdent gadaxdas gtxovt dagvikavshirdet: *4242.

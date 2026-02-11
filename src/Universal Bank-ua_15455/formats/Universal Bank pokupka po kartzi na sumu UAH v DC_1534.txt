@@ -1,0 +1,7 @@
+^.*pokup.*?\*(\d{4}).*sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10})\s+v\s+[\d:]+.\s+(.+)\.\s*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Universal Bank: pokupka po kartzi *8014 na sumu 41.75 UAH. 30.12.2014 v 14:57. DC KONTRAKTOVA~~KYIV. Balans: 7,391.01 UAH.

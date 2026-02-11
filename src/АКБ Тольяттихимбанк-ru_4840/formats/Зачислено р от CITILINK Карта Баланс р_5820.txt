@@ -1,0 +1,7 @@
+^.*ачислен.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? от (.*?)\.? .арт.*?\*(\d{4}).*алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+income;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Зачислено 139 р. от CITILINK. Карта *5945. Баланс 132 962.04 р.

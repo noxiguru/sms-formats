@@ -1,0 +1,7 @@
+^Trans.*?([A-Z]{3})\s*([\d\s.,]*\d).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;av_balance
+
+-----EXAMPLE-----
+Transaction AED18.00 ACCT 6655 POS-ZOOM MARKET 6566-SUSTA. Bal AED 16874.95.

@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d?\s+.ithdraw.*?(\d{4}) throu.*on\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*vail.*?([A-Z]{3})\s*(-?[\d\s,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+instrument;outcome;syncid#cash;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+OMR 20.000 withdrawn from your a/c 0307XXXXXXXX0014 through FFM-13428316 Hay AL E ATM on 30/07/2023 10:32:59. New Available Balance is OMR 13.486.

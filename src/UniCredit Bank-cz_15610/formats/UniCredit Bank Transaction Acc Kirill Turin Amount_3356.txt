@@ -1,0 +1,7 @@
+^.*ransact.*Acc.*?(\d{4}) .*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+UniCredit Bank Transaction  Acc.:2106268936  Kirill Turin  Amount:42.256,00 CZK  Partner Acc.:64450-6004670025  Name:ORACLE CZECH ...  VC/SC:9/

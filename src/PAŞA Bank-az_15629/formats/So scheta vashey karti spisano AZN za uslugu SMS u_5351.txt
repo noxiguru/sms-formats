@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*pisan.*?([\d\s.,]*\d)\s*([A-Z]{3}) (za .*?)\.? ([\d]{2}[- ]\w{3}[- ]\d{2,4})\D.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;date#dMy
+
+-----EXAMPLE-----
+So scheta vashey karti *4993 spisano -1.00 AZN za uslugu SMS uvedomleniya. 29-JUL-22. Kontakti: +994 12 496 50 00 / *9123

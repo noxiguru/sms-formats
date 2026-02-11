@@ -1,0 +1,13 @@
+^((?:Отмен|Otmen).*?)\W?\s+\*+(\d{4})\s+.(?:умм|umm).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:стат|алан|stat|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)(?:\s+║\s+.*)?$
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Отмена операции: **4593 Сумма: 1 RUB Остаток: 60 113,98 RUB ВкусВилл ║ Уведомление
+
+-----EXAMPLE-----
+Отмена операции: **2414 Сумма: 1 RUB Баланс: 2 334,11 RUB Дом.ru ║ Уведомление
+
+-----EXAMPLE-----
+Otmena operacii: **6971 Summa: 1 RUR Ostatok: 342,61 RUR NALOG.RU

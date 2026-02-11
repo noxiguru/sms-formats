@@ -1,0 +1,10 @@
+^.*ebit.*?(\d{4}) date.([\d-]{10}).*amount.([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yyyy;outcome;instrument
+
+-----EXAMPLE-----
+There was a debit card transaction on acc no.:8753 date:19-04-2016 amount:7.60PLN  Citi Handlowy
+
+-----EXAMPLE-----
+Debit on personal account acc no:8753 date:29-04-2016 debited amount:1000.00PLN internet trx Citi Handlowy

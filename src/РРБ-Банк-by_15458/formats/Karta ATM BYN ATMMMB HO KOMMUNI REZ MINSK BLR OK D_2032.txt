@@ -1,0 +1,7 @@
+^.*art(?!.*edostat).*?(\d{4}) ([\d.]{10}).*ATM.*-([\d\s.,]*\d)\s*([A-Z]{3}) .* OK.*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dMy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4.1526 03.03.2020 15:52:44 ATM -1500.00 BYN ATMMMB HO11 KOMMUNI REZ MINSK BLR OK. Dostupno 442.42 BYN

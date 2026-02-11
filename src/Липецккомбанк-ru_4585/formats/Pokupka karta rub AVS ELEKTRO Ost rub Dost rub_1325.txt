@@ -1,0 +1,7 @@
+^Pokupka.*?([\d.]{10}).*?\*(\d{4}).*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).\s+(.*?)(?: >)?\s+Ost.*.*ost\.?.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Pokupka 18:53 28.07.2014 karta 6*3733 720.00 rub. AVS-ELEKTRO             > Ost. 22 546.14 rub. Dost. 46 546.14 rub.

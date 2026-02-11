@@ -1,0 +1,10 @@
+^.*[CK]ar[dt].*?(\d{4})\s+.(?:znos|moun).*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:ODOB|APPR).*(?:Opis|Locat).*?:\s+(.*?)\s+.(?:aspo|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartica: 5642 Iznos: 3,00 EUR Vrijeme: 30.03.2022 13:41:09 Status: ODOBRENO Opis: 2BI - Digitalni Kiosk    Podgorica    ME Raspolozivo: 442,93 EUR
+
+-----EXAMPLE-----
+Card: 9467 Amount: 32.61 EUR Date/Time: 16.12.2024 11:29:53 Status: APPROVED Location: SELF CARE Podgorica ME Balance: 435.79 EUR

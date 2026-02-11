@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+Spis.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}).*alans.*?(-?[\d\s.,]*\d)\s*[A-Z]+\s+iB[aA].*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Card*7409 Spisanie 8,535.00 RUR 08.06.15 21:51 MSK Balans 190,897.80 RUR iBANK.ru

@@ -1,0 +1,10 @@
+^\S+:\s+(.*?)\s+-([\d\s.,]*\d)\s*(\S{3})\s+([\d.]{8}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+Restaurant: COFEE NOSTRA -39.00uah 12.12.16 13:03
+
+-----EXAMPLE-----
+Одежда: ZARA FORUM LVIV -399.00ГРН 01.02.17 21:03

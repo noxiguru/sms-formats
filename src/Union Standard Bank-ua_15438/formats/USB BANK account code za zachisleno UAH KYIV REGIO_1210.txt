@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d-]{10}).*?zachisleno ([\d\s.,]*\d) ([A-Z]{3}).*balance (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+USB BANK account code 57za *0406 2014-04-01 16:42:16 *zachisleno 500.00 UAH KYIV REGIONAL DEP. KYIV UA *balance 518.51 UAH overdraft 0.00 UAH

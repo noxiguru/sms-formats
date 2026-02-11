@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{8}).*OTME.*POKUP.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)\s+DOS.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Lanta-Bank 4**3165 05.06.15 07:59 OTMENA POKUPKA 5.00 RUB OOO ABSOLYT KLIMAT (NOVOSIBIRSK,RU) DOSTUPNO: 31.07 RUB

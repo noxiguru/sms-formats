@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d\s.,]*\d)\s*([A-Z]{3}).*upiv\S+\s+(.*?)\s+([\d.]{8}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+PAN****7432 248.00 UAH Kupivlya POS MONO011  MONODirect, KYIV,  UA 29.05.18 12:11 Dostupno: 0.07 UAH

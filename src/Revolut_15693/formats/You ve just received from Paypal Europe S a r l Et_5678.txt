@@ -1,0 +1,10 @@
+^.*(?:eceived|олучили)\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+(?:from|от)\s+(.*?)\.?\s+\W*\s+║\s+.*
+
+-----COLUMNS-----
+instrument;income;payee
+
+-----EXAMPLE-----
+You've just received €130.63 from Paypal Europe S.a.r.l. Et Cie S.c.a 💸 ║ Revolut
+
+-----EXAMPLE-----
+Вы получили €6.67 от Anastasija Klova. 💸 ║ Revolut

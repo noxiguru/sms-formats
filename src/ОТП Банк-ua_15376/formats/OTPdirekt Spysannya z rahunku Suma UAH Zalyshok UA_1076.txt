@@ -1,0 +1,7 @@
+^.*?([\d.]{10}).*?Spysannya z rahunku.*?(\d{4}). Suma: ([\d\s.,]*\d) ([A-Z]{3}) Zalyshok: ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+OTPdirekt:16.12.2013 10:02: Spysannya z rahunku: 1234567890. Suma: 10000,00 UAH Zalyshok: 140,94 UAH Otrymuvach: Anton Konovalov

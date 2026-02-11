@@ -1,0 +1,7 @@
+^([\d/]{10}).*?Operatsia na sum.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(Splata min.*?)\s+z rakh.*?\*(\d{4}).*alysh.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM/yyyy;outcome;instrument;comment;syncid;av_balance
+
+-----EXAMPLE-----
+30/07/2016 01:19 Operatsia na sumu 48.75 UAH Splata minimalnoho platezhu za kredytkoiu z rakhunku 2625*3691. Zalyshok 7 700.00 UAH

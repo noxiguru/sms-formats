@@ -1,0 +1,7 @@
+^.*?(\d{4}):\s*([\d-]{10}).*?"(.*?)",([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;payee;outcome;instrument
+
+-----EXAMPLE-----
+KARTA 40X3683: 2016-01-21 15:13:48, RETAIL, ""KFC 82 MKAD" CAFE", 575.00 RUR. DOSTUPNIY OSTATOK ******* RUR. MOSKOMMERTSBANK.

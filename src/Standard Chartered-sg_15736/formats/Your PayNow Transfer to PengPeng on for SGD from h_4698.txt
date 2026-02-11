@@ -1,0 +1,7 @@
+^.*PayNow.*? to (.*?) on (\d{2}[-./]\d{2}[-./]\d{2,4}) .*for ([A-Z]{3})\s*([\d\s.,]*\d) from .*?\*(\d{4}) .*
+
+-----COLUMNS-----
+payee;date#dMy;instrument;outcome;syncid
+
+-----EXAMPLE-----
+Your PayNow Transfer to PengPeng on 15/05/2020 23:11:55 for SGD 400.00 from ******7006 has been successful. Please call +65 6747 7000 for assistance.

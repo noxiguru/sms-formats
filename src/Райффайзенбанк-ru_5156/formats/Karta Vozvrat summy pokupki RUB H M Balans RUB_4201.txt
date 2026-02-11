@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*(.(?:озврат|ozvrat).*?)([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(.*?)\W?\s+.(?:alan|алан).*?(-?[\d\s.,]*\d).*([\d/.]{10}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Karta *3827. Vozvrat summy pokupki 1199.00 RUB. H&M 724. Balans 142454.83 RUB. 18.06.2019

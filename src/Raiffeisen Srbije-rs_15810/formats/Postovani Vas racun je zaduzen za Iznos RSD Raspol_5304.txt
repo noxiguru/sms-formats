@@ -1,0 +1,10 @@
+^.*\*(\d{4})\s+je\s+zadu.*?([\d\s.,]*\d)\s*([A-Z]{3}).*aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*atum.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Postovani, Vas racun 2650**0065 je zaduzen za Iznos: 350,00 RSD Raspolozivo: 2.571,68 RSD Datum: 31.05.2022
+
+-----EXAMPLE-----
+Poštovani, Vaš račun 2650**7841 je zadužen za Iznos: 1.000,00 RSD Raspoloživo: 1.767,14 RSD Datum: 03.01.2025. ║ Raiffeisen banka

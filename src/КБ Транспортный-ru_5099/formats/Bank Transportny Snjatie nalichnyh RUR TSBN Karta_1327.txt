@@ -1,0 +1,7 @@
+^.*?njatie nal.*?(\d[\d\s.,]*)\s*([A-Z]{3}) ([\d.]{10}).*Karta .?(\d{4}) Balans (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#dd.MM.yyyy;syncid#cash;av_balance
+
+-----EXAMPLE-----
+Bank "Transportny" Snjatie nalichnyh 1 000.00 RUR 28.07.2014 20:41:16 TSBN Karta *1005 Balans 150 559.83 RUR +7(495)646-52-32

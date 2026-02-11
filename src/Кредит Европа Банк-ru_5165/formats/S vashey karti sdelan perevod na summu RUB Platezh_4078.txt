@@ -1,0 +1,7 @@
+^S.*?(\d{4}) .*erevod.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{10}).*imi.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+S vashey karti #9054 sdelan perevod na summu 8120.00 RUB 01.02.2019 16:33 Platezhny limit: 261 RUB

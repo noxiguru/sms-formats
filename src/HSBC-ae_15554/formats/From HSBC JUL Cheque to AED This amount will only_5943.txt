@@ -1,0 +1,7 @@
+^.*\s+(\d{1,2}\w{3}\d{2,4})\s+Cheque\s+to\s+(\S+)\s+([A-Z]{3})\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;instrument;income
+
+-----EXAMPLE-----
+From HSBC: 14JUL23 Cheque to 041-457***-001 AED 4,768.45+ This amount will only be available after the cheque is successfully cleared which can take upto 48 hours

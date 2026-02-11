@@ -1,0 +1,7 @@
+^.*ard.*?(\d{4})\W?\s+.nyatie\s+n.*?([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Card6226; Snyatie nalichnih: 260,00 BYN; 21.11.24 17:05:48; PR.MOSKOVSKIY,51A,VITEBSK,BY; Dostupno: 2 394,05 BYN

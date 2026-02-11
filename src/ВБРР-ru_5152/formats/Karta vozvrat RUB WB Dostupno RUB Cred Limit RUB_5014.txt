@@ -1,0 +1,13 @@
+^.*\*(\d{4}) (?:[\d:]+ )?((?:vozvra|otmena|выплата|отмена).*?) ([\d\s.,]*\d)\s*([A-Z]{3}) (.*?)\s*.(?:ostu|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta 5*4964 09:50 vozvrat 1720.00 RUB WB Dostupno: 90907.59 RUB Cred Limit: 250000.00 RUB
+
+-----EXAMPLE-----
+Карта 2*4918 выплата CASHBACK Mir 9000.00 RUB Доступно: 19698.67 RUB
+
+-----EXAMPLE-----
+Карта 6*5747 21:04 отмена 249.15 RUB LUKOIL.AZS 43033 43U Доступно: 94472.44 RUB ║ VBRR

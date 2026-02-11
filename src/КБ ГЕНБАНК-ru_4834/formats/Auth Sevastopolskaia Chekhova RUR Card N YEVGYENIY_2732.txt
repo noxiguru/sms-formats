@@ -1,0 +1,16 @@
+^Auth:\s*\S*(?:\d{4,})?\s+([\d\s.,]*\d)\s*([A-Z]{3}).*ard.*?(\d{4}).*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth: Sevastopolskaia/Chekhova 10 400.00RUR Card_N**8002 YEVGYENIY MIRONYUK BAL: 40.00 2016-08-10 16:00:33
+
+-----EXAMPLE-----
+Auth:
+910345002
+457.64RUR
+Card_N**7482
+STANISLAV SEROV
+BAL: 6 026.59
+2017-01-22 12:58:26

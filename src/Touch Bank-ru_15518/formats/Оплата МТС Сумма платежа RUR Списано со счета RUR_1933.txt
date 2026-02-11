@@ -1,0 +1,7 @@
+^Оплата\s+(.+)\.\s+Сумма пла.*?([\d\s.,]*\d)\s*([A-Z]{3}).*писано.*?([\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+payee;op_outcome;instrument;outcome;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Оплата МТС. Сумма платежа: 50RUR. Списано со счета: 50RUR. 13.08.15 12:30. www.touchbank.com

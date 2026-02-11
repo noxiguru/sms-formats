@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) uspis.*? ([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]+\s+Pryb.* .alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartka 4102***1049 uspishno 2000.00UAH 19.11.22 13:29 Prybutkovyy safe  znyattya, UKR Balans:36000.00UAH Korysno: https://sense.top/info ║ Sense SuperApp

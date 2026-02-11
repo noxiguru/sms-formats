@@ -1,0 +1,7 @@
+^([\d.]{8}) .*ithdrawal.*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*[Ff]ee.*?([\d\s.,]*\d).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+20.12.19 17:24 Withdrawal BANK SOYUZ, RU card ***6665. Amount:500.00RUB. Fee:0.00RUB. Balance:49219.13RUB.

@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d) is debited from .*?X\d*(\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid
+
+-----EXAMPLE-----
+USD 43.75 is debited from your account XXXXXXX354002. If not initiated by you, call 04-2130000

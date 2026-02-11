@@ -1,0 +1,13 @@
+^.*?\*(\d{4})\W?\s+(?:.pisan\w+ )?((?:PLATA ZA|komiss).*?)([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument
+
+-----EXAMPLE-----
+KARTA:5351*4665 PLATA ZA SERVISNOE OBSLUZHIVANIE 2,50 BYN Spravka 5099999
+
+-----EXAMPLE-----
+Uvazhaemyj klient! Po vashej karte (dogovor 39755062, karta 535104*4280) spisana komissiya za SMS-opoveshhenie 2.90 BYN. Vash MTBank! Tel.5099999
+
+-----EXAMPLE-----
+Uvazhaemyj klient! Po vashej karte (dogovor 32528036, karta 535104*3106) spisana komissiya za ezhegodnoe obsluzhivanie karty 1.99 BYN. Vash MTBank! Tel.5099999

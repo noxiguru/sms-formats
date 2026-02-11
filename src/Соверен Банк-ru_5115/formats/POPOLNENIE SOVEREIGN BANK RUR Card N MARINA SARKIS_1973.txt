@@ -1,0 +1,7 @@
+^.*?POPOL.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Card.*(\d{4}).*ostup.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+POPOLNENIE SOVEREIGN BANK 110.96RUR Card_N**3648 MARINA SARKISIAN Dostupno s uchetom creditnogo limita: 110.96 2015-09-01 00:00:00

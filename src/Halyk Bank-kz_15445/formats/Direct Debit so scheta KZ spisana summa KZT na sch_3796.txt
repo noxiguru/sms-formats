@@ -1,0 +1,7 @@
+^.* so .*?(\d{4}) spisan.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(na .*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment
+
+-----EXAMPLE-----
+Direct Debit: so scheta KZ3922 spisana summa 18308.10   KZT na schet KZ6008

@@ -1,0 +1,7 @@
+^Вам (возв.*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}) от (.*?)\W?(?: ║ .*)?$
+
+-----COLUMNS-----
+comment;income;instrument;payee
+
+-----EXAMPLE-----
+Вам возвращено 30.19 EUR от GRANDPARK KEMER Antalya TURTR. ║ Notification from Swedbank

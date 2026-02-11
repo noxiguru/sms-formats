@@ -1,0 +1,13 @@
+^.*?(\d{4})\D? ([\d.]{8}) .*(?:писан|plat|плат).*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?)\..*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта 2056: 10.04.17 17:04, списание 184.10 RUR, IP KOMAROVA K1, EKATERINBURG. Доступно 6590.74 RUR.
+
+-----EXAMPLE-----
+Karta 9371: 10.07.17 19:26 Oplata 973.00 RUR, MONETKA, EKATERINBURG. Dostupno 37416.31 RUR.
+
+-----EXAMPLE-----
+Карта 9371: 15.06.17 20:39 Оплата 104.00 RUR, UBER RU JUN15 MEIPZ HELP., help.uber.com. Доступно 24383.82 RUR.

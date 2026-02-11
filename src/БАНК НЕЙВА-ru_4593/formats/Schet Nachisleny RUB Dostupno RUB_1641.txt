@@ -1,0 +1,10 @@
+^.*(\d{4}) ((?:Nach|Начис).*%) ([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Schet: 4081781*1743 Nachisleny %% 543.71 RUB Dostupno 17397.05 RUB 31.03.2015, 21:44:32
+
+-----EXAMPLE-----
+Счёт *7477 Начислены %% 47.88 RUB Доступно 152.01 RUB 31.01.2019, 22:41

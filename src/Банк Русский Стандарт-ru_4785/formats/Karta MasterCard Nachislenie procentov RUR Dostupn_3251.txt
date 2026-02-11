@@ -1,0 +1,10 @@
+^.*\*(\d{4})\s+(Nachisl.*?|Vozvrat.*?):\s*\+([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta MasterCard *3828 Nachislenie procentov: +1 068.61 RUR 20.10.2017. Dostupno: 267 401.70 RUB. Bank Russkiy Standart
+
+-----EXAMPLE-----
+Karta MasterCard *7354 Vozvrat pokupki: +5 694.15 RUR 12.12.2017. Dostupno: 197 452.47 RUB. Bank Russkiy Standart

@@ -1,0 +1,10 @@
+^.*?([\d/]{5}).*Kart.*?(\d{4})\s+Sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Usp.*alan.*?(-?[\d\s.,]*\d).*M.st.*ATM.*
+
+-----COLUMNS-----
+date#dd/MM;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+!uvedomlenie! Data:12/09 23:01 Karta:****-0152 Summa= 3500UAH(Uspeshno) Balans= 31294.72UAH  Mesto:ATM3708  CAGRICOLE(8417081)
+
+-----EXAMPLE-----
+Data:17/02 16:29 Kartka:*4423 Suma= 400UAH(Uspishno) Balans= 9648.18UAH  Mistse:ATM3390 CAGRICOLE

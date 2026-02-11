@@ -1,0 +1,7 @@
+^\*(\d{4})\s+(\d{2}[-./]\d{2}[-./]?\d{0,4}) .*plata:?\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.ostu.*?-?[\d\s.,]*\d\s*[A-Z]{3}, -?[\d\s.,]*\d\s*[а-яa-zA-Z]{1,3}.*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;acc_instrument;payee
+
+-----EXAMPLE-----
+*7951 27.01.2022 18:48:37 Oplata: 71.90UAH UA, PARALLEL AZS 58 Dostupno: 65.57UAH, 0.00USD, 0.00EUR

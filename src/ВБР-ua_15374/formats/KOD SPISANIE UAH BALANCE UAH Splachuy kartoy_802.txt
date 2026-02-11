@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) ([\d-]{10}).*?SPISANIE ([\d\s.,]*\d) ([A-Z]{3}).*?BALANCE ([-\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;balance
+
+-----EXAMPLE-----
+KOD 450288 *0288 2013-05-07 18:17:39 *SPISANIE 20.00 UAH *BALANCE 11.13 UAH *Splachuy kartoy*

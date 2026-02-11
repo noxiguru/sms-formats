@@ -1,0 +1,10 @@
+^.*(?:Ваш перевод|Your transfer).*?([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(?:для|to)\s+(.*?)\s+(?:отправ|was sent).*
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+⚡️ Ваш перевод на сумму 16 € для Tatjana Sihova отправлен. Он поступит мгновенно. ║ Revolut
+
+-----EXAMPLE-----
+Your transfer of 2,500.00 UAH to IHOR MALINOVSKYI was sent. It will arrive in a few minutes ║ It's on its way 💸

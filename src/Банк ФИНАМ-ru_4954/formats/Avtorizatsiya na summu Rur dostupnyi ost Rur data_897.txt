@@ -1,0 +1,10 @@
+^(?:Авто|Avto).*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*\s(?:ost|ост)\..*?(-?[\d\s.,]*\d).*(?:карта|karta).*?(\d{4})\s+(?:в|v):\s*(.*)
+
+-----COLUMNS-----
+outcome;instrument;av_balance;syncid;payee
+
+-----EXAMPLE-----
+Avtorizatsiya na summu 80 Rur (dostupnyi ost. 14688.29 Rur) data: 02-apr 14:31 msk karta: ..9492 v: Rus Moscow Garmoniya Zdorovya
+
+-----EXAMPLE-----
+Авторизация на сумму 762 Rur (доступный ост. 4549.9 Rur) дата: 07-июл 15:14 мск карта: ..9492 в: Rus Khimki Magazin Chayko

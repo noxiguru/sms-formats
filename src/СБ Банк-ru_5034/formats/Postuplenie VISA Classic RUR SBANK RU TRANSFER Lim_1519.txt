@@ -1,0 +1,7 @@
+^Postuplenie (.*?) ([A-Z]{3}) ([\d.,]*\d).*imit.*?(-?[\d.,]*\d)
+
+-----COLUMNS-----
+syncid;instrument;income;av_balance
+
+-----EXAMPLE-----
+Postuplenie VISA Classic RUR 5000.00 SBANK.RU TRANSFER  Limit RUR 5030.26

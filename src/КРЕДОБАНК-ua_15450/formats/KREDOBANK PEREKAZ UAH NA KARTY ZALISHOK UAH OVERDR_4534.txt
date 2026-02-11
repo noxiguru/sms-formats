@@ -1,0 +1,7 @@
+^([\d.]{10}).*PEREKAZ([\d\s.,]*\d)\s*([A-Z]{3}) NA .*?(\d{4})\s.*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+06.03.2020 20:43 KREDOBANK PEREKAZ 100.00UAH NA KARTY **3189 ZALISHOK 100.00 UAH OVERDRAFT 0.00 UAH DOSTUPNO 100.00UAH

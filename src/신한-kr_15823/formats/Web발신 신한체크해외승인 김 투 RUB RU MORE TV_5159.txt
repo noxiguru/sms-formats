@@ -1,0 +1,7 @@
+^.*체크\w*승인.*\((\d{4})\) (\d{2}[-./]\d{2}) [\d:]{5} ([A-Z]{3}|\W)\s*([\d\s.,]*\d) (.*)
+
+-----COLUMNS-----
+syncid;date#Md;instrument;outcome;payee
+
+-----EXAMPLE-----
+[Web발신] 신한체크해외승인 김*투(9306) 10/12 16:59 RUB 299.00 (RU)MORE TV

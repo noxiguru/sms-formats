@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+(?!Кешб)(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*\*(\d{4})\s+Комі.*?([\d\s.,]*\d).*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+(?:Покуп|Списан|Забло).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dMy;syncid;fee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+222.10UAH OLX_DOSTAVKA_UAPAY Kyiv UA  09-03-2023 12:03  Картка: *5718  Комісія: 1.11UAH Доступно: 1123.66UAH ║ Заблоковано

@@ -1,0 +1,7 @@
+^Oper.*?rnet\s+(.+).\s+([\d\s.,]*\d)\s*([A-Z]{3}).\s*([\d.]{10})
+
+-----COLUMNS-----
+payee;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Operatciya po karte v seti Internet REG, 199.00 RUB, 13.08.2015

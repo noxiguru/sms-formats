@@ -1,0 +1,7 @@
+^(?:DEBIT ACC|ELQ HAS)\w+ ([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:BALA|MNAC).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+ELQ HASHVIC 2,500,000.00 AMD 4150***7159 EVOCABANK E-POS, AM 05.09.2022 22:26 MNACORD: 1,490,387.96 AMD

@@ -1,0 +1,16 @@
+^.(?:latezh|pisan|erevod).*?([\d\s.,]*\d)\s*([A-Z]{3}|) (?:s )?.(?:art|chet).*?(\d{4}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Spisanie  2,000.00 RUR Karta 1221 DOM.RF BANK P2P Dostupno 58,398.56 RUR
+
+-----EXAMPLE-----
+Platezh cherez internet-bank 100.00 RUR Karta 0239 Spisanie s karty Dostupno 10036.70 RUR
+
+-----EXAMPLE-----
+Platezh cherez internet-bank  26064.00 Schet  **61816 Spisanie s karty Dostupno 174.23 RUR
+
+-----EXAMPLE-----
+Perevod 9880.00 RUB s karty 8061 DOM.RF BANK P2P. Dostupno 69292.48 RUB

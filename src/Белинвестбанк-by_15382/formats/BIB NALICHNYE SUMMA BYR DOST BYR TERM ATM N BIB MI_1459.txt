@@ -1,0 +1,10 @@
+^.*?(\d{4})\s.*?NALICH(?!.*COMMIS).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?OST.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+BIB *8064  18:17:11 NALICHNYE SUMMA=100 000 BYR DOST=7 807 251 BYR TERM=ATM N137 BIB>MINSK                    BY
+
+-----EXAMPLE-----
+BANK *4893  17:41:21 NALICHNYE SUMMA=100 000 BYR OST=162 718 BYR TERM=ATM N6 GF VITEBSK BIB>VITEBSK         BY

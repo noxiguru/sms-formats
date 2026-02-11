@@ -1,0 +1,10 @@
+^.*(Cance.*?urchas.*?|[Rr]efund)\s+of\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:for\s+.*?)?in\s+(.*?)\s+with\s+yo.*?\s+in\s+(\d{4})\D.*║\s+.*(?:ancel|eimburs).*
+
+-----COLUMNS-----
+comment;income;instrument;payee;syncid
+
+-----EXAMPLE-----
+Canceled purchase of 100,00 EUR in G Y G LOW COST with your card ending in 5361. ║ Purchase cancelled ❌💳
+
+-----EXAMPLE-----
+A refund of 10,00 EUR for your payment in RENFE CERCANIAS TNA 08 (5 with your card ending in 4844 has been made. ║ Reimbursement accepted 👍🔙

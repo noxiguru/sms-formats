@@ -1,0 +1,7 @@
+^.*erevod.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Beznalichnyj perevod Karta:8624 summa:-12.000,00 RUR  balans:1991.45 RUR  (vremya operatsii MSK 2017-05-10 11:58:16)

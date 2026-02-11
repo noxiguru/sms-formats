@@ -1,0 +1,7 @@
+^OPLATA.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}) DATA(?!.*OSTAT) ([\d.]{10}) [\d:]+ (.*)
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dd.MM.yyyy;payee
+
+-----EXAMPLE-----
+OPLATA: 31 750 BYR KARTA #7280 DATA 24.03.2015 16:42:15 MINI-KAFE "MINUTKA">VITEBSK>BY

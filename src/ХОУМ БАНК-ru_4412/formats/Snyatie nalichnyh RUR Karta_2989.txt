@@ -1,0 +1,7 @@
+^Snyatie\s+n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash
+
+-----EXAMPLE-----
+Snyatie nalichnyh: 4000.00 RUR. Karta *9848. +74957858222

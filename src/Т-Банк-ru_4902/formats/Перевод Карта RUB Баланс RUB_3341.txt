@@ -1,0 +1,16 @@
+^.*(?:еревод|erevod).*?(\d{4}|Накопит\S+|[A-Z]{3}).*?\W?([\d\s.,]*\d)\s*([A-Z]{3})(?!.*\d\d\.\d\d\.\d{4})\W?\s+(.*?)\..*?(?:алан|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Перевод. Карта *0614. 6500 RUB. . Баланс 45867.68 RUB
+
+-----EXAMPLE-----
+Перевод. Карта *9383. 310 RUB. Kurovskiy Marat. Баланс 39949.67 RUB
+
+-----EXAMPLE-----
+Перевод. Накопительный счет. 3000 RUB. . Баланс 0.79 RUB
+
+-----EXAMPLE-----
+Перевод. Счет RUB. 1500 RUB. Card2Card. Баланс 6813.39 RUB

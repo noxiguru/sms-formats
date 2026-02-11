@@ -1,0 +1,7 @@
+^([\d.]{8}) .*\*(\d{4}) POPOLN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+30.12.17 18:38:14 KAPTA 5440*0774 POPOLNENIE + 50,56 RUR / DOSTUPNO 28890,6 RUR

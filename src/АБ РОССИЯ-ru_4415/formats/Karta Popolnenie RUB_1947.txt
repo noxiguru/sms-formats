@@ -1,0 +1,16 @@
+^.*? ([\d.]{8})\s+.*?(\d{4})\s+.(?:opoln|ополн|epoz)(?!.*осту|.*ostu).*?([\d\s.,]*\d)\s*([а-яА-ЯA-Z]{1,3}).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument
+
+-----EXAMPLE-----
+17:57 14.08.15 Karta **9708 Popolnenie 6352.75 RUB
+
+-----EXAMPLE-----
+00:45 17.07.17
+Karta **7884
+Depozit 202.00 RUB
+BANK "ROSSIYA" Moscow
+
+-----EXAMPLE-----
+13:02 16.04.18 МИР7732 Пополнение 8000 р

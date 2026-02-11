@@ -1,0 +1,7 @@
+^.*uto-redeemed.*? of ([A-Z]{3}|\W)\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income
+
+-----EXAMPLE-----
+BofA: Auto-redeemed cash rewards of $80.71 are on the way. Allow 5 business days to receive your rewards.

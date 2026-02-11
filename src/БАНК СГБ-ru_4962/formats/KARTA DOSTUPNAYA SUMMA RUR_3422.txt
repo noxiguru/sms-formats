@@ -1,0 +1,7 @@
+^KART.*?(\d{4}).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+KARTA 3739. DOSTUPNAYA SUMMA 2932.27 RUR

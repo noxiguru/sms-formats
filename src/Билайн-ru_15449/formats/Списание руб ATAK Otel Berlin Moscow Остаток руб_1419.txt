@@ -1,0 +1,7 @@
+^.*?(\d{4}). ([\d.]{10}).*?писание.?\s*([\d\s.,]*\d) (\S+), (.*). Остаток.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.M.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+*6082: 02.11.2014 18:53 Списание: 426.00 руб, ATAK 622_Otel Berlin, Moscow. Остаток 2013.00 руб

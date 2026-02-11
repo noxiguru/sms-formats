@@ -1,0 +1,7 @@
+^(?:MUTQ HASH|CREDIT ACC)\w+ ([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}) .*? (\d{2}[-./]\d{2}[-./]\d{2,4}) [\d:]{5,} (?:BALA|MNACO).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+MUTQ HASHVIN 111,111.00 AMD 4355***2826 ACBA BANK, AM 02.11.2022 15:18 MNACORD: 11,111.11 AMD

@@ -1,0 +1,7 @@
+^.*ending (\d{4}) at (.*?) for ([A-Z]{3})\s*([\d\s.,]*\d) APPR.* on ([\d]{2}[- ](?:\w+|\d{2})[- ]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;payee;instrument;outcome;date#dMy
+
+-----EXAMPLE-----
+NCB card ending 8529 at OLD HARBOUR for JMD 20,000.00 APPROVED on 14 JAN 23 05:36 PM.Query? Call 18886223477

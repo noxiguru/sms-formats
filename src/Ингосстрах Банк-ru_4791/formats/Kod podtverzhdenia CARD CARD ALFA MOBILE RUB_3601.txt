@@ -1,0 +1,7 @@
+^.*(?:[Kk]od podtver|[Кк]од подтвер).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Kod podtverzhdenia 102999 (CARD2CARD ALFA§MOBILE 7000.00RUB)

@@ -1,0 +1,7 @@
+.*lata.*?\*(\d{4}).*uma([\d\s.,]*\d)\s*([A-Z]{3}).*ispon.*?(-?[\d\s.,]*\d).*?;\s*(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Servicii BT: Plata la POS, card nr. *6868, titular MIHAI CIORANEANU suma 300.00 RON; Suma disponibila: 4933.14 RON;NORD VEST DENTAL SRL, ROM,BUCURESTI, ELIE CAR

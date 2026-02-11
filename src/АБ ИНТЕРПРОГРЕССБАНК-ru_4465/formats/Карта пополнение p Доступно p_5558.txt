@@ -1,0 +1,7 @@
+^.*\*(\d{4})\W? .ополн.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? .осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *5565: пополнение 1431.48 p. Доступно 14248.27 p.

@@ -1,0 +1,7 @@
+^.*?([\d.]{10}) Snyatie nalichnyh ([\d\s.,]*\d) ([A-Z]{3}).*?\*(\d{4}).*Ostatok ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+NadraBank 11:11 16.10.2013 Snyatie nalichnyh 2600.00 UAH Karta 4246*0916 CHERKASY 3, SUMGAITSKA  Ostatok 19102.63 UAH Kreditniy limit 5000 UAH tel 0-800-3000-70

@@ -1,0 +1,10 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?;\s*(.*?);.*stat.*?([\d\s.]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+BANK URALSIB.4242***8675 2012-11-30 12:22:52 summa 112.00 RUR;IZUMINKA EKAT-SK PERM EKA in PERM,RUS;Ostatok 6 135.40 RUR
+
+-----EXAMPLE-----
+BANK URALSIB. 4198***9282 2017-06-29 21:34:31 summa 1 150.00 RUR; OOO PILIGRIM in ZELENOGRAD, RUS; Ostatok 89 025.32 RUR

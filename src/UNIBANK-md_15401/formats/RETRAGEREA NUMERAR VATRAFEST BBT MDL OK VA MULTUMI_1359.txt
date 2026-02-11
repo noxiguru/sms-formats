@@ -1,0 +1,7 @@
+^RETRAGEREA N.*(\d{4}).*;\s*(\d[\d\s.,]*) ([A-Z]{3}). ([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+RETRAGEREA NUMERAR: 522399******9900 VATRAFEST BBT 19; 342.00 MDL; 16.08.2014, 15:06:09. OK VA MULTUMIM. UNIBANK

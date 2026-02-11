@@ -1,0 +1,10 @@
+^((?:Oplata|Оплата).*?).?\s+(?:so schet|со счет).*?(\d{4}).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}) ([\d.]{8}) .*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+Oplata Avtoplatezha 9377502515, so scheta 520373..9530 na summu 100 RUR 05.02.15 10:52:30, nomer porucheniya v PSB Retail 232814042.
+
+-----EXAMPLE-----
+Оплата Автоплатежа 905*******, со счета 526280..3115 на сумму 600 RUR 06.12.18 12:23:42, номер поручения в PSB Retail 833341599.

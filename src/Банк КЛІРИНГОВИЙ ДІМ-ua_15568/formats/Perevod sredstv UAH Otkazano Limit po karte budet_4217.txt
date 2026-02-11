@@ -1,0 +1,7 @@
+^.*[Oo]tkaz.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+*8536 15.07 14:20:40 Perevod sredstv 100.00UAH  Otkazano: Limit po karte budet prevyshen UA KYIV MONODirect

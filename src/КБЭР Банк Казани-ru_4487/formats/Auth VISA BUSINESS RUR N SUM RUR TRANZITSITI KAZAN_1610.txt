@@ -1,0 +1,7 @@
+^Auth.*?(\d{4}) SUM.*?-([\d\s.,]*\d) ([A-Z]{3}). (?!.*ATM)(.*). ([\d.]{10}).*LIM.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Auth: VISA BUSINESS (RUR) N: *0013 SUM: -1,000.00 RUR; TRANZITSITI//KAZAN/RU; 28.02.2015 21:56 (UTC+3); LIM: 11,490.19 RUR

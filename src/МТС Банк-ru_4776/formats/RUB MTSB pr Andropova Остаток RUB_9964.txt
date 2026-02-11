@@ -1,0 +1,7 @@
+^(-?[0-9][\d\s]*[.,]\d{2})(?=\s)\s+([A-Za-z]{1,3})\s+(.*?)\s{2,}[Оо]статок:\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s+([A-Za-z]{1,3})\s*;\s*\*(\d{4})(?:\s*║.*)?$
+
+-----COLUMNS-----
+outcome;instrument;payee;balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+59,00 RUB MTSB  pr. Andropova  Остаток: 347,00 RUB; *1024

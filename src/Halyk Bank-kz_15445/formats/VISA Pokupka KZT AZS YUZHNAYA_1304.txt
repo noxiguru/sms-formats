@@ -1,0 +1,7 @@
+^.*?(\d{4}) Pokupka. ([\d\s.,]*\d) ([A-Z]{3}). (.*?) ([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+VISA9060 Pokupka. 6000.00 KZT; AZS YUZHNAYA 11.07.2014 19:23

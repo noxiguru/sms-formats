@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+\*(\d{4})\s+(.*)\s+║\s+(.*?)\.?$
+
+-----COLUMNS-----
+outcome;instrument;syncid;comment;payee
+
+-----EXAMPLE-----
+640.19 TRY *9885 Duty Free Shops ║ Urart Gumruksuz Mag.

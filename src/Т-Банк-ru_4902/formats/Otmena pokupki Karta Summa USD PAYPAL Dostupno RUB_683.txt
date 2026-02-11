@@ -1,0 +1,19 @@
+^((?:Chastichnaya\s+ot|Частичная\s+от|Vozvrat|Возврат|Otmena|Отмена).*)\.\s+.*?([\d]{4}|Koshelek)\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+(?![\d\s.:]{10,})(.*?)\.\s+.*(?:ostu|осту)(?!.*limit).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Otmena pokupki. Karta *8591. Summa 1.00 USD. PAYPAL, 4029357733. 28.03.2013 02:29. Dostupno 6884.94 RUB. www.tcsbank.ru
+
+-----EXAMPLE-----
+Otmena platezha. Postavschik uslug ne dostupen. Karta *8826. Summa 2000.00 RUB. iBank.Tricolor TV. 16.03.2016 00:24. Dostupno 2002.69 RUB. www.tinkoff.ru
+
+-----EXAMPLE-----
+Otmena. Karta *8236. Summa 1200 RUB. TINKOFF BANK CARD2CARD. 17.12.2017 09:33. Dostupno 7745.7 RUB. Tinkoff.ru
+
+-----EXAMPLE-----
+Chastichnaya otmena pokupki. Karta *3552. Summa 4576.00 RUB. LOTTE HOTEL RECEPTION, MOSKVA. 01.07.2016 08:26. Dostupno 131377.33 RUB. www.tinkoff.ru
+
+-----EXAMPLE-----
+Otmena pokupki. Koshelek. Summa 30.00 RUB. GOOGLE *SERVICES, g.co/payhelp#. 31.08.2017 22:57. Dostupno 508.52 RUB. wallet.tinkoff.ru

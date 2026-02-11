@@ -1,0 +1,7 @@
+^\+\s?([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,3})\s+Przelew natychmiastowy na konto\s+Rachunek nadawcy:\s+\d{2}\.\.\d+\s+Nadawca:\s+(.*?)\s+Tytuł:\s+(.*?)\s+Na rachunku\s+(\d{2})(?=\.\.)\.\.\d+\s+Data waluty:\s+(\d{4}[-./]\d{2}[-./]\d{2})\s*(?:║\s*Uznanie rachunku)?\s*$
+
+-----COLUMNS-----
+income;instrument;payee;comment;syncid;date#yMd
+
+-----EXAMPLE-----
++2775,00 PLN Przelew natychmiastowy na konto Rachunek nadawcy: 59..5357 Nadawca: VERANIKA DZENISIUK UL. GRUDZIENIEC 11/2 60-601 POZNAŃ   Tytuł: ZWROT PORZYCZKI   Na rachunku 51..4479 Data waluty: 2025-10-30 ║ Uznanie rachunku

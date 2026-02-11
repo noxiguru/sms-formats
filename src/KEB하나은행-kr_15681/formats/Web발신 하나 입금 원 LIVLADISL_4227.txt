@@ -1,0 +1,7 @@
+^.*\s*,([\d/]{5}),.*?\*\d*(\d{4})\s+입금(?!.*잔액)([\d\s.,]*\d)\s*(\w+).*
+
+-----COLUMNS-----
+date#MM/dd;syncid;income;instrument
+
+-----EXAMPLE-----
+[Web발신] 하나,07/24,19:41 339******58207 입금200,000원 LIVLADISL

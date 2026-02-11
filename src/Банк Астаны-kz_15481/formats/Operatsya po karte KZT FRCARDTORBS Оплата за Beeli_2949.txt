@@ -1,0 +1,7 @@
+^Opera.*?(\d{3,4}),([\d\s.,]*\d),?\s*([A-Z]{3}),?\s+([\d-]{10}).*?,.*?,.*?,\s+(.+?)\..*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yyyy-MM-dd;comment;av_balance
+
+-----EXAMPLE-----
+Operatsya po karte 5**853, 500.00, KZT, 2017-04-22 12:01:10, FRCARDTORBS,  , Оплата за Beeline. Мобильный телефон: 7777668425. Номер операции: 2364742;Dostupno 201 457.08 KZT.

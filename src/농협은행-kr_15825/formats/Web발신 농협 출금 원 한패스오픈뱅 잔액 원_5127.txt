@@ -1,0 +1,7 @@
+^.*출금.*?([\d\s.,]*\d)\s*([A-Z]{3}|\S)\s+(\d{2}/\d{2}) .*\*-(\d{4})-\d{2}\s+(.*?)\s+잔액(-?[\d\s.,]*\d)\s*([A-Z]{3}|\S).*
+
+-----COLUMNS-----
+outcome;instrument;date#Md;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+[Web발신] 농협 출금701,000원 08/22 22:35 352-****-4612-83 한패스오픈뱅 잔액4,308,001원

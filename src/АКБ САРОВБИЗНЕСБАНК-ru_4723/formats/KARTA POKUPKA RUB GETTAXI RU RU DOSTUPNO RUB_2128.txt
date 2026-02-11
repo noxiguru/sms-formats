@@ -1,0 +1,7 @@
+^([\d.]{8}).*\*(\d{4}).*POKUP.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+(?:BALAN|DOST).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+30.11.18 13:31 KARTA ****0402 POKUPKA 211.50 RUB GETTAXI.RU, RU DOSTUPNO 31200.49 RUB

@@ -1,0 +1,7 @@
+^(\d{2}/\d{2}) TARIK TUN.*ACCOU.*?X(\d{2}) SEBE.*?([A-Z]{3})\s*([\d\s.,]*\d) \(DR\).*
+
+-----COLUMNS-----
+date#dM;syncid#cash;instrument;outcome
+
+-----EXAMPLE-----
+17/12 TARIK TUNAI ATM PB KRISNA SUNSET DP ACCOUNT# 98XXXXXX99 SEBESAR IDR 3.000.000,00 (DR) GRATIS BIAYA TRANSFER DI PERMATAMOBILE X bit.ly/pmx-trf

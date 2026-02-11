@@ -1,0 +1,10 @@
+^(Kompens.*?|Компенс.*?)\s+\*(\d{4}).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:alan|алан).*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Компенсация покупки бонусами *3263; Успешно; Сумма: 703.00 RUR; Баланс: 2897.51 RUR; 03.04.2017 12:05
+
+-----EXAMPLE-----
+Kompensatsiya pokupki bonusami *9285; Uspeshno; Summa: 410.00 RUR; Balans: 1232.49 RUR; 03.03.2018 10:22

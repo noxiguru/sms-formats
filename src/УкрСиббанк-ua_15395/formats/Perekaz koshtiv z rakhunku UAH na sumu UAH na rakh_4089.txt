@@ -1,0 +1,7 @@
+^Perekaz.*([\d.]{10}).*z .*?(\d{4})[A-Z]{0,3} .*umu.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(na .*?)\.\s*.ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Perekaz koshtiv: 08.02.2019 16:59:42 z rakhunku 2620UAH na sumu 2714.00UAH na rakhunok 2620USD na sumu 1000.00USD. Dostupni zalyshky: 3929.64UAH ta 100.00USD

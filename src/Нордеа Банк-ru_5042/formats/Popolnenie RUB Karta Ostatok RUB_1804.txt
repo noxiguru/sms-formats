@@ -1,0 +1,7 @@
+^.*Popol.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Kart.*?\*(\d{4}).*stat.*?([\d\s.,]*\d).*([\d.]{8}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#dd.MM.yy
+
+-----EXAMPLE-----
+Popolnenie: 100500.00 RUB. Karta *1178. Ostatok: 000000 RUB. 08.06.15 12:46

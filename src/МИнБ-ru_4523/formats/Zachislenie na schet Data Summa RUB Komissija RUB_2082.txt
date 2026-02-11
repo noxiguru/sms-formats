@@ -1,0 +1,10 @@
+^(?:Zachis|Perevod).*?na.*?(\d{3,4}) .* ([\d/]{5}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*omiss.*?([\d\s.,]*\d).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM;income;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Zachislenie na schet 40817***013 Data: 29/10 16:53 Summa: 14600.00RUB Komissija: 0.00RUB Dostupno: 26760.44RUB
+
+-----EXAMPLE-----
+Perevod cherez Telebank na schet 40817***835 Data: 06/03 12:40 Id.klienta: ****8092 Summa: 100.00RUB Komissija: 0.00RUB Dostupno: 101439.07RUB TermMbank_01

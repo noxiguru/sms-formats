@@ -1,0 +1,7 @@
+^.*\*([\d]{4}). (?:Popolnenie|Perevod.* na ).*?\s([\d\s.]*\d)\s*([A-Z]{3}); Dostupno.*? (-?[\d\s.]*\d).*?([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+5203***8898; Popolnenie karty: 15000.00RUR; Dostupno po karte: 16016.03RUR; 15.03.2013 17:43 Vy mozhete popolnit kartu s ispolzovaniem karty drugih bankov MasterCard v Internet-banke razdel "Popolnit kartu". www.svyaznoybank.ru

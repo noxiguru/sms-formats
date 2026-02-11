@@ -1,0 +1,7 @@
+^.*([\d]{4}).\s*Oplata:\s*(.+);\s*Summa.*?([\d\s.,]*\d)\s*([A-Z]{3})(?!.*Bal).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+Karta: *4398; Oplata: Megafon Moscow; Summa: 1000.00 RUR;

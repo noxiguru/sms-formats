@@ -1,0 +1,10 @@
+^(?:СБП|SBP).*(?:ачислен|achislen).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? (?:(?:от|ot) )?(.*?) (?:Счет|Schet).*?(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;payee;syncid
+
+-----EXAMPLE-----
+СБП. Зачислено 5000 р. от Марат Шавкатович С Счет 6121. ║
+
+-----EXAMPLE-----
+SBP. Zachisleno 10 r. ot Ajdar Il'darovich SH Schet 9605.

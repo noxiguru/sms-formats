@@ -1,0 +1,7 @@
+^.*? ([\d\s.,]*\d)\s*([A-Z]{3}) EFT.* to yo.*?-(\d{3,4}) .* by (.*?) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+income;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Dear KATASHINSKII, 2.800,00 TRY EFT (Electronic Fund Transfer) was made to your 3330-21****67-351 account by HIZLIPARA ODEME HIZMETLERI VE ELEKTRONIK PARA A.S. on 23.11.2022. Info: 08502220800 MERSIS:1234567890 B002

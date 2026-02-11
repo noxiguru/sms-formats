@@ -1,0 +1,7 @@
+^(.*?otmen.*?)\s+\*(\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}) .*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Operatsiya po karte otmenena *5976: 1.00 RUR 15.08.18 21:22. Balans: 501.45 RUR i.binbank.ru

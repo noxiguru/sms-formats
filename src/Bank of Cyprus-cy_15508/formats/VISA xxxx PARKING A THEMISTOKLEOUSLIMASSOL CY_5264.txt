@@ -1,0 +1,7 @@
+^.*xxxx (\d{4}) ║ ([A-Z]{3}|\W)\s*([\d\s.,]*\d) - (.*)
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee
+
+-----EXAMPLE-----
+VISA xxxx 6650 ║ €3,00 - PARKING A.THEMISTOKLEOUSLIMASSOL CY

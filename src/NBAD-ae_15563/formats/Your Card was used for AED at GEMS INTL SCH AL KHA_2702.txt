@@ -1,0 +1,7 @@
+^.*ard.*?(\d{4}) .*?for\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+at\s+(.*?)\s+on\s+([\d-]{10}).*Lmt.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+Your Card 6040 was used for AED 6,000.00 at GEMS INTL SCH AL KHAIL on 24-10-2016 03:14 PM. Avl.Lmt AED 54,000.00. Get the NBAD Mobile Banking App.

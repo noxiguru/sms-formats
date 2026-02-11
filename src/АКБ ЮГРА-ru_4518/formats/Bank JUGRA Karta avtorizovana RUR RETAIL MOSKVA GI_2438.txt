@@ -1,0 +1,7 @@
+^.*arta.?(\d{4}).*vana.?([\d\s.,]*\d)\s*([A-Z]{3});\s*([\d.]{8}) .*TAIL.?\s*(.*?)\..*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;payee
+
+-----EXAMPLE-----
+Bank JUGRA: Karta:6079 avtorizovana: 433.00 RUR;25.05.16 12:48:13. RETAIL: MOSKVA GIGEA-FARM. +74959590000

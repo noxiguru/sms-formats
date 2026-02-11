@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) Popolnena\s?([\d-]{10}) [\d:]*\s+([\d\s.,]*\d) ([A-Z]{3})\s+Dostupno vsego (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta  MC  *9011 Popolnena2013-08-15 00:00:00   3 787.12 RUR   Dostupno vsego 3 767.78 RURBINBANK tel 8 800 200 50 75

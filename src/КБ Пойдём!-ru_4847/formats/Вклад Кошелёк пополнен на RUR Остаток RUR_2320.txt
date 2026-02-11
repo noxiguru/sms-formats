@@ -1,0 +1,7 @@
+^([\d.]{10}).*Вклад (\S+?) пополнен.*?([\d\s.,]*\d)\s*([A-Z]{3}).*стат.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+10.03.2016 Вклад Кошелёк пополнен на 100 RUR. Остаток 200 RUR.

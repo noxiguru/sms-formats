@@ -1,0 +1,7 @@
+^.*znanie(?!.*Data).*\.(\d{4}).*?\+([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:-\s*)?.*WPLYW,\s+(.*?),\s+(.*?)\s+(?:[Ss]aldo|Stan\s+kon).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;comment;av_balance
+
+-----EXAMPLE-----
+Systematyczne uznanie Konto 16..0273 Kwota +14283,09 PLN - PRZELEW PRZYCH. SYSTEMAT. WPLYW,   MAPBOX POLAND SPOLKA..., WYNAGRODZENIE ZA PAZDZIERNIK 2022  Stan konta +14589,34

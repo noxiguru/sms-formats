@@ -1,0 +1,7 @@
+^.*ransaction of ([A-Z]{3}|\W)\s*([\d\s.,]*\d) at (.*?) has s.*with (\d{4}).*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+Dear Customer, Transaction of BND34.90 at SOON LEE MEGA M has successfully been made on your card ending with 1171. Thank you for banking with BIBD.

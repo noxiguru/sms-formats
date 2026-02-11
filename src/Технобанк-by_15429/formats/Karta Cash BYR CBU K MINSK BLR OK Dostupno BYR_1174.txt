@@ -1,0 +1,10 @@
+^.*?(\d{4}) ([\d.]{10}).*?(?:Cash|ATM) -([\d\s.,]*\d)\s*([A-Z]{3}).*OK.\s*Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4.4073 14.02.2014 16:07:34 Cash -24300000 BYR CBU1 K3 MINSK BLR OK. Dostupno 5379211 BYR
+
+-----EXAMPLE-----
+Karta 4.4073 28.02.2014 14:13:51 ATM -2000000 BYR ATM N117 BELEXPO BIB MINSK BLR OK. Dostupno 3466205 BYR

@@ -1,0 +1,13 @@
+^.*?\*(\d{4}).*?BALANS\s+COMMIS.*?([\d\s.,]*\d).*?OST.*?(-?[\d\s.,]*\d).*?TERM.(.*)
+
+-----COLUMNS-----
+syncid;fee;av_balance;payee
+
+-----EXAMPLE-----
+BANK *7047
+20:09:08
+BALANS
+
+COMMIS=1 000 BYR
+OST=13 601 678 BYR
+TERM=TC 'KARAVAN' BR.519 ATM>MINSK BY

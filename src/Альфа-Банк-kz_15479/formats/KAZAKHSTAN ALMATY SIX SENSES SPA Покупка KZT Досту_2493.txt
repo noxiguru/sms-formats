@@ -1,0 +1,16 @@
+^.*?\*(\d{4})\s.*?\s([\d.]{8})\s+(.+?)\s+(?:Mail/phone\s+)?.(?:окупк|okupk|rder).*?([\d\s.,]*\d)\s*?([A-Z$]{1,3}) .*?(?:алан|alan).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+4267***2173 21:16 27.06.16 KAZAKHSTAN ALMATY  28553821 SIX SENSES SPA          > Покупка 25,400.00 KZT Доступный баланс: 1,194,580.00 KZT
+
+-----EXAMPLE-----
+4267***2173 11:43 10.07.16 United States of America TAMPA  01491708 GOLIVELLC.COM 813-885- Покупка 89.40 $ Доступный баланс: 1,059,667.17 KZT
+
+-----EXAMPLE-----
+4267***2173 12:07 12.07.16 Russia MOSCOW  20002285 YM*YandexTaxi Mail/phone Order 1,239.00 RUB Доступный баланс: 923,310.51 KZT
+
+-----EXAMPLE-----
+4269***9287 08:47 10.11.17 KAZAKHSTAN ALMATY  32319801 APREL SHOP Pokupka 450.00 KZT Dostupnyiy balans: 407,828.51 KZT

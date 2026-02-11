@@ -1,0 +1,7 @@
+^Bezgotivkove zarakhuvannya. ([\d.]{10}).*?(\d{4}) ([\d\s.,]*\d) ([A-Z]{3}).*?suma (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Bezgotivkove zarakhuvannya: 18.02.2014 16:04:00 VISA Gold/066292 2000.00 UAH RAIFFEISEN ONLINE UAH dostupna suma 2437.58 UAH

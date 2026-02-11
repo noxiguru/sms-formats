@@ -1,0 +1,7 @@
+^([\d.]{10}).*ZARAKHUV.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4}).*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+14.07.2015 19:04 ZARAKHUVANIA 5394.41UAH CARD**2206 ZALISHOK 5414.41 UAH OVER 0.00 UAH DOSTUPNO 5414.41UAH

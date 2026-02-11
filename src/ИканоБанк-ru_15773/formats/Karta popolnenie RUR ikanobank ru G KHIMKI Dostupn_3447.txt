@@ -1,0 +1,7 @@
+^.*\*(\d{4}):\s*(\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:ополн|opoln).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?.*(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta *9566:06.08.2021 16:52, popolnenie 15000.00 RUR, ikanobank.ru, G KHIMKI. Dostupno 130031.94 RUR. Spravka: 7(495)7847373

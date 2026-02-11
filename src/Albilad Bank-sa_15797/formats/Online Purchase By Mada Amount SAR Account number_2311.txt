@@ -1,0 +1,10 @@
+^.*urchas.*?\*(\d{4}).*mount.*?([\d\s.,]*\d)\s*([A-Z]{3}).* At:\s*(.*?) (?:Countr.*?)?Date: (\d{2,4}[-./]\d{2}[-./]\d{2}) .*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yMd
+
+-----EXAMPLE-----
+Online Purchase By: **5351; Mada, Amount: 31.44 SAR Account number: xx008 At: UBER TRIP HELP UBER CO Country: Netherlands Date: 2021-05-04 00:47
+
+-----EXAMPLE-----
+POS Local Purchase By: **5351; Mada, Apple PAY Amount: 11.00 SAR At: HERFY 1067 Date: 2021/05/04 22:20

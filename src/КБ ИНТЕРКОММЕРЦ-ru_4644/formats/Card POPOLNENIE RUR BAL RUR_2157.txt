@@ -1,0 +1,7 @@
+^\w+(\d{4})\s+POPOL.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+BAL:\s*(-?[\d\s.,]*\d).+([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Card_3436 POPOLNENIE 32 056.82RUR BAL:36 571.60 RUR 2016-01-13 00:00:00

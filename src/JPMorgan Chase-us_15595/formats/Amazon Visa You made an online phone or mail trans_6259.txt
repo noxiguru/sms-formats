@@ -1,0 +1,7 @@
+^(\w+)\s+Visa:\s+You.*?transaction\s+of\s+(\$)([\d\s.,]*\d)\s+with\s+(.*?)\s+on\s+(\w+\s+\d{1,2},\s+\d{4}).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#Mdy
+
+-----EXAMPLE-----
+Amazon Visa: You made an online, phone, or mail transaction of $30.00 with EXXON 7-ELEVEN 36591 on Jun 8, 2024 at 7:05 PM ET.

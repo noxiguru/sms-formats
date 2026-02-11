@@ -1,0 +1,7 @@
+^((?:Vash cash|Ваш к[еэ]ш).*?) (?:po|по) .*?#(\d{4}) za.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument
+
+-----EXAMPLE-----
+Vash cashback po karte 490449######2140 za mesyats sostavil 386.91 KZT. Platite chasche kartochkami BankRBK i poluchayte esche bolshe cashback! Используйте приложение My RBK https://onelink.to/vxgdps ║ My RBK

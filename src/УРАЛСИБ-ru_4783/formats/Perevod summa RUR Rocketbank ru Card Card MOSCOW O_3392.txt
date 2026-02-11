@@ -1,0 +1,7 @@
+^.*\*(\d{4}) Perevod ([\d-]{10}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+4242***6448 Perevod 2017-12-22 14:34:36 summa 7000.00 RUR;Rocketbank.ru Card2Card;MOSCOW; Ostatok 70401.62 RUR

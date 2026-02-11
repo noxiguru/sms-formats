@@ -1,0 +1,7 @@
+^(?!.*║)−\s*([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\S) в (.*?)\W? Теперь.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\S)\s*$
+
+-----COLUMNS-----
+outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+− 2 674.60 ₽ в Детский Мир. Теперь на карте 185 348.11 ₽

@@ -1,0 +1,10 @@
+^.*?-(\d{4}) uspishna operaciya ([\d\s.,]*\d)\s*([A-Z]{3}) ([\d/]{5}) [\d:]+ (.*?)\.? .ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Kartka 4102-6555 uspishna operaciya 42UAH 20/10 13:14 MY_ALFABANK_COM_UA Dostupno:139.04UAH
+
+-----EXAMPLE-----
+Kartka 5351-5607 uspishna operaciya 103 UAH 09/08 12:24 Kafe. Dostupno: 20957.94 UAH

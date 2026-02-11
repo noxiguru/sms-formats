@@ -1,0 +1,7 @@
+^Priliv.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*acnik:\s*(.*)\s+Namen: (?:.*?;\s*)?(.*) Znesek.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;payee;comment;income;instrument
+
+-----EXAMPLE-----
+Priliv Datum: 01.02.2023 Na racun: SI56***********5870 Placnik: Mauri Canoi Namen: Sent from Revolut (Mauri tennis fee for Bob) Znesek: 40,00 EUR Nova KBM d.d.

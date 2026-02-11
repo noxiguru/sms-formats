@@ -1,0 +1,13 @@
+^.*?([\d]{4});\s+.(?:rovedena t|роведена т)\S+:([\d\s,.]*\d)\s*([A-Z]{3}).*?([\d/]{10}).\s*(?:.esto:\s*|.есто:\s*)?(?!.*ATM)(.+?)\s*(?:Malina:.*)?;?\s*.(?:ost|ост).*?(-?[\d\s,.]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd/MM/yyyy;payee;av_balance
+
+-----EXAMPLE-----
+Karta *7762; Provedena tranzakcija:650,00RUB; Data:09/04/2014;Mesto: SI KAFE SANKT-PETERBU; Dostupny Ostatok: 112166,02RUB. Raiffeisenbank
+
+-----EXAMPLE-----
+Karta *3347; Provedena tranzakcija: 192.92 GBP; Data: 13/06/2015; MANDARIN ORIENTAL Dostupny Ostatok: 136133.65 RUB. Raiffeisenbank
+
+-----EXAMPLE-----
+карта *8484; проведена транзакция: 1650 RUB; дата: 29/04/2018; ip tarantin s.a. доступный остаток: 157689.99 RUB. raiffeisenbank

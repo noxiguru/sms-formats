@@ -1,0 +1,7 @@
+^.*Na.*kartu\s+(.{4})\s+zachisleno\s+([\d\s.,]*\d)\s*([A-Z]{3}).\s+(.*).\s+pb.u.*
+
+-----COLUMNS-----
+syncid;income;instrument;comment
+
+-----EXAMPLE-----
+Uvazhaemyi klient! Na Vashu kartu 5*06 zachisleno 6.86 UAH. Vozvrat sredstv za dvoinuyu konvertaciyu. pb.ua/5368

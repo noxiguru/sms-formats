@@ -1,0 +1,7 @@
+^.*?(\d{4});\s+([\d.]{8}).*?ZAPROS\s+BALANSA.\s+dostupno.\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Card6736; 27.11.13 17:23:35; GAZPROMBANK; ZAPROS BALANSA; dostupno: 2957.75 RUR; ostatok na schete: 2957.75 RUR

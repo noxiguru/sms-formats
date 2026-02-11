@@ -1,0 +1,7 @@
+.*?(?:Card|Karta)\s*\*?(\d{4}).*?(?:Snyat\w*\s+denezh\w*\s+sredst\w*).*?([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4}).*?(\d{2}[-./]\d{2}[-./]\d{2,4})(?=\s+\d{2}:\d{2}).*?(?:Dostupn\w*).*?(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,4})
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Card8385; Snyatie denezhnykh sredstv: 600,00 BYN; 29.10.25 08:47:29; KALVARIYSKAYA,17,MINSK,BY; MCC: 6011;Dostupno: 975,47 BYN

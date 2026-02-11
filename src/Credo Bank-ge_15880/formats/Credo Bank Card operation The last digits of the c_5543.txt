@@ -1,0 +1,7 @@
+^.*ard\s+operat(?!.*ATM).*ard:\s*(\d{4})\s+.mount:\s*([\d\s.,]*\d)\s*([A-Z]{3})\s+.bject:\s+CardAc.*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Credo Bank: Card operation The last 4 digits of the card: 4358 Amount: 16.97 GEL       Object: CardAcceptor ,  CardAcceptorLocation  Date:  Date   Time  Balance on the account: 238.51 GEL

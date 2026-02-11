@@ -1,0 +1,7 @@
+^.*asavlis\s+op.*?anxa.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d).*?ngarish.*?(\d{4})[A-Z]{3}\s+.anxa\s+angar.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*arigi.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;acc_instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+sakartvelos banki: gasavlis operacia iuridiuli piri: im evgenii troickii, 302216331 tanxa: EUR500.00 angarishidan: GE11BG1234567890EUR tanxa angarishze: EUR6,866.77 tarigi: 28/09/2023

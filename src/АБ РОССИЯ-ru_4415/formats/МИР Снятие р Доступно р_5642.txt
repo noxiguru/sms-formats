@@ -1,0 +1,7 @@
+^[А-Я]+\s*\*?(\d{4}) Снят.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) .осту.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+МИР1234 Снятие 2900р Доступно 10000.00р

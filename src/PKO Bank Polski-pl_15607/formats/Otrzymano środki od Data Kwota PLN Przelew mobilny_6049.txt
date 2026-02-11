@@ -1,0 +1,10 @@
+^(?:Otrzyman|Receiv).*\s+(?:od|from):\s*(.*?)\s+[Dd]at[ae].*?([\d]{4}-\d{2}-\d{2})\s+.*(?:wota|moun).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+payee;date#yMd;income;instrument
+
+-----EXAMPLE-----
+Otrzymano środki od: 48518060627 Data: 2023-11-05 19:46:33 Kwota: 2 000,00 PLN ║ Przelew mobilny
+
+-----EXAMPLE-----
+Received from: 48571238506 Date: 2023-11-11 16:34:50 Amount: 130,00 PLN ║ Mobile transfer

@@ -1,0 +1,10 @@
+^.*(?:ard|\*)(\d{4}).*(?:Cash-in|несение).*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*\s+([\d.]{8})\s+.*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Telecard; Card0754; Cash-in; Summa 100 RUR; 22.01.15 15:17:25; ATM-09309314 RIABANK; dostupno: 30971.1 RUR
+
+-----EXAMPLE-----
+*2172 Внесение 1500р GAZPROMBANK 10.06.18 23:33:31 Доступно 1661.77р

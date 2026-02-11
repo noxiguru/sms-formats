@@ -1,0 +1,7 @@
+^.*?(\d{4})\s.*plata (.*) ([\d\s.,]*\d) ([A-Z]{3}) Kod:.*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument
+
+-----EXAMPLE-----
+Karta 4.0483 - Oplata ATcS AtlantTelekom - internet 200000 BYR Kod: 9da6272 Opr.N: 11128853

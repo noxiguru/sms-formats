@@ -1,0 +1,10 @@
+^.*opovn.*? got.*?\*(\d{4}).*sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d.]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#dd.MM.yyyy;balance
+
+-----EXAMPLE-----
+Popovnennia gotivky po *6014 na sumu: 8000.00 UAH ATM EFU01201 UNIV, UA 30.06.2017 13:18:31 Balans: 17717.74  Dostupno: 25595.34
+
+-----EXAMPLE-----
+Popovnennia gotivky po *2803 na sumu: 10000.00 UAH ATM EFU04801 UNIV, UA 12.08.2017 14:06:27 Balans: 12101.84

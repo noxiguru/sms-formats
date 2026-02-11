@@ -1,0 +1,7 @@
+^([\d-]{10}).*zachisleno\s*([\d\s.,]*\d)\s*([A-Z]{3}) Dostupno. (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd-MM-yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+15-07-2014  Na vash kartochny schet zachisleno34000.00RUR Dostupno: 34 081.38 RUR

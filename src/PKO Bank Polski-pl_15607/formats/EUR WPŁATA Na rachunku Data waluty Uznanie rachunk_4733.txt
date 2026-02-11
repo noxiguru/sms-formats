@@ -1,0 +1,10 @@
+^\+([\d\s.,]*\d)\s*([A-Z]{1,3}).*WPŁATA\s+(?!GOT).*(?:achun|ccount).*?\.(\d{4}).*\s+(\d{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+income;instrument;syncid;date#yMd
+
+-----EXAMPLE-----
++440,00 EUR WPŁATA    Na rachunku 71..8801. Data waluty: 2020-11-12 ║ Uznanie rachunku
+
+-----EXAMPLE-----
++10000,00 USD WPŁATA On account no. 83..7548 Value date: 2022-08-16 ║ Account credit

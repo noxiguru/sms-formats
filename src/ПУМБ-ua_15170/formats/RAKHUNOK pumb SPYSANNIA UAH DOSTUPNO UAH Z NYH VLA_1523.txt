@@ -1,0 +1,7 @@
+^.*?pumb\s+([\d-]{10}).*SP.S.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+RAKHUNOK pumb 2014-12-19 01:07:07 SPYSANNIA 6.99 UAH DOSTUPNO 710.06 UAH Z NYH VLASNYH KOSHTIV 710.06 UAH Detali v PUMB online.

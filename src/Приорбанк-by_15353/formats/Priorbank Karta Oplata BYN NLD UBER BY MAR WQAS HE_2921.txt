@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).* ([\d-]{8}) .*plata (?!.*ostup)([\d\s.,]*\d)\s*([A-Z]{3})\.?\s+(.*?)\..*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;outcome;instrument;payee
+
+-----EXAMPLE-----
+Priorbank. Karta 4***9602. 30-03-17 17:59:06. Oplata 4.17 BYN. NLD UBER BY MAR30 2WQAS HELP..  Spravka: 80172899292

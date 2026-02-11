@@ -1,0 +1,7 @@
+^(Я\.Кард|ЮCard).*?снял.*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}).*([\d\s.,]*\d)\s*[A-Z]{3}\s+.\s+комис.*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+Я.Кард: вы сняли 5000 RUB (PROSPEKT SHAHTEROV,54). Ещё 0 RUB — комиссия. Доступно 12985,87 RUB

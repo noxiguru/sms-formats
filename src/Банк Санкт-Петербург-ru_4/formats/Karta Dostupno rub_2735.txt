@@ -1,0 +1,7 @@
+^.*?\*\d*(\d{4}),?\s*.ostupn.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;av_balance
+
+-----EXAMPLE-----
+Karta *677445, Dostupno = 5639.41 rub

@@ -1,0 +1,7 @@
+^.*bonus.*rakh.*?(\d{4})[^\d]*\s+zarakh.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Vitaiemo! V ramkakh bonusnoi programy KOMPENSUIEMO 50 KOP PROIZDU V METRO na rakhunok 1234567890UAH zarakhovano 1.00UAH za serpen.

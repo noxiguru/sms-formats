@@ -1,0 +1,10 @@
+^.(?:меньшен|menshen).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Уменьшен баланс счета на 528.00 RUB карта *6308 Баланс 6062.68 RUB ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Umenshen balans scheta na 206.99 RUR karta *5452 Balans 292633.65 RUR

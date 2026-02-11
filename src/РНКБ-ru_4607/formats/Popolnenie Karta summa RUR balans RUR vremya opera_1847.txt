@@ -1,0 +1,7 @@
+^Popol.*(\d{4})\s.*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alans.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Popolnenie, Karta:5907 summa:7003.50 RUR  balans:246733.59 RUR  (vremya operatsii MSK 13:29:53 25.06.2015)

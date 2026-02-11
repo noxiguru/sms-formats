@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d.]{8}) .*окупк.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\..*оступ.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Карта ***8478 26.08.16 14:58. Покупка 12.87 RUB PRISMA, RU. Доступно: 351.50 RUB

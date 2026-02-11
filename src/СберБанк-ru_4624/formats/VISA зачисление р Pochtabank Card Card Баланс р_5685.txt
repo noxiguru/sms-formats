@@ -1,0 +1,10 @@
+^(?:.*?:\s+)?(?:[\w\.\*-]+|\*)(\d{4})\s+[\d:]{5,}\s+.(?:ачисл\w+|achisle\w+)(?!.*ATM)\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W?\s+(.*?)\s+.(?:алан|стат|stat).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+VISA5292 11:12 зачисление 1300р Pochtabank Card 2 Card Баланс: 14059.08р
+
+-----EXAMPLE-----
+MIR-7244 10:44 зачисление 250р AVITO Баланс: 5928.50р

@@ -1,0 +1,22 @@
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+((?:(?:Zarp|Зарп)|(?:Zarak?h|Зарах).*(?:rotsent|рот?цент)).*?)\s+(\d\*\d{2})\s+.*(?:Bal|Бал).\s*(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;comment;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+423.19UAH Zarplata, Kalynovskaia TsRB  5*87 13:23 Na Skarbnychku 21.16UAH Bal. 459.10UAH https://pb.ua/s/p24/2
+
+-----EXAMPLE-----
+950.00UAH Зарплата, ТОВ 4*46 10:38 Бал. 3195.15UAH
+
+-----EXAMPLE-----
+14.07UAH Zarakhuvannia protsentiv za dohovorom SAMDNWFD1234567890 4*93 06:20 Bal. 1234.28UAH
+
+-----EXAMPLE-----
+423.19UAH Zarplata, Kalynovskaia TsRB 5*87 13:23 Na Skarbnychku 21.16UAH Bal. 459.10UAH https://pb.ua/s/p24/2
+
+-----EXAMPLE-----
+950.00UAH Зарплата, ТОВ 4*46 10:38 Бал. 3195.15UAH
+
+-----EXAMPLE-----
+0.36USD Зарахування процентів за договором «Приват-вклад» 5*69 06:12 Бал. 0.72USD ║ ПриватБанк: Транзакции по счетам

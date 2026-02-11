@@ -1,0 +1,7 @@
+^.*?(\d{4}) .*(?:nesen|несен).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}) \(([\d\s.,]*\d).*?(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+syncid#cash;op_income;instrument;income;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Karta 5.4992 Vnesenie nalichnyh Uspeshno Summa:25.00 USD (50.48 BYN) Ostatok:54.80 BYN Na vremya:18:30:13 BLR/MINSK/ATMALF HO83 PORT 22.09.2019 18:30:03

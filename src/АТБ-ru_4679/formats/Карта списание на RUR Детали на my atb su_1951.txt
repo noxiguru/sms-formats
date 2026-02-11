@@ -1,0 +1,7 @@
+^.*\*(\d{4}) списание.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument
+
+-----EXAMPLE-----
+Карта *0754 списание на 2790.00 RUR Детали на my.atb.su

@@ -1,0 +1,7 @@
+^.*?stat.*([\d.]{10}).*?\*(\d{4})\s+.ost.*?(-?[\d\s.,]*\d).*?\(-([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;av_balance;outcome;instrument
+
+-----EXAMPLE-----
+! Ostatok 31.05.2015 04:07 schet: 42301810****6824 dostupno:  15948.79 RUB (-9057.00 RUB) Tel:88001000200 Internet-bank: i.ubrr.ru

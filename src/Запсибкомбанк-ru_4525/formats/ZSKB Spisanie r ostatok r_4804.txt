@@ -1,0 +1,7 @@
+^.*?(\d{4}) (\d{2}[-./]\d{2}[-./]?\d{0,4}) .*(?:писан|pisan).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:стат|stat).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+ZSKB 3574 02.09 14:43 Spisanie 2200.00r, ostatok 537.37r

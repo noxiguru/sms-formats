@@ -1,0 +1,7 @@
+\+?([0-9][\d\s.,]*\d)([A-Za-z]{1,3}),\s+(Povernennia depozytu),\s+(\d{2}\.\d{2}\.\d{4})\s+\d{2}:\d{2},\s+Rahunok\s+[A-Z]{2}\*{3}(\d{4})\.?\s+Dostupno:\s+([0-9][\d\s.,]*\d)([A-Za-z]{1,3})\s*║\s*Sense SuperApp$
+
+-----COLUMNS-----
+income;instrument;comment;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
++12406.84UAH, Povernennia depozytu, 11.05.2025 08:13, Rahunok UA***1038. Dostupno: 12411.43UAH ║ Sense SuperApp

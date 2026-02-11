@@ -1,0 +1,7 @@
+^Drugie zachis.*art.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*[A-Z]{3}\s+(.+?)\s*\(.*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;payee
+
+-----EXAMPLE-----
+Drugie zachislenija Karta:8792 summa:3.110,00 RUR  balans:14.494,15 RUR AEROFLOT PAO (vremya operatsii MSK 2018-05-17 11:00:14)

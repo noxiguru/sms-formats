@@ -1,0 +1,7 @@
+^Vznos n.*Odob.*?(\d{4}) Summa.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?ostupno (-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vznos nalichnyh Odobreno: 676567 Karta: 437563*6740 Summa: 400000.00 RUB Bank Neyva Chapaeva 3a. Dostupno 400224.14 RUB 11.03.2015, 17:25:39

@@ -1,0 +1,7 @@
+^Withdrawal.*?([\d.]{8}).*(\d{4})\s+Amount.\s+([\d\s.,]*\d)\s+([A-Z]{3})\s+Av/Balance.\s+(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Withdrawal 21.01.14 08:04 4301****5203 Amount: 8000.00 RUB Av/Balance: 91.29 RUB Term: UBRD Tel:+73432645564 www.ubrr.ru

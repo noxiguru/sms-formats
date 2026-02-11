@@ -1,0 +1,10 @@
+^Zachis.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#\d*(\d{4})\D.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Zachislenie 43.93 BYN Karta #7563; Ostatok: 133.95 BYN. BPS-Sberbank
+
+-----EXAMPLE-----
+Zachislenie 0.01 BYN, IBAN #5521718.Ostatok: 4 095.71 BYN. BPS-Sberbank

@@ -1,0 +1,7 @@
+^.*?-\s*([\d\s.,]*\d)\s*([A-Z]{3})\s+(.латеж.*займ.*?)\s+\*(\d{4})\s+.alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+--1,873.33 KZT Платеж по банковскому займу *6479 Balans 17,467.30 KZT Tel.7711

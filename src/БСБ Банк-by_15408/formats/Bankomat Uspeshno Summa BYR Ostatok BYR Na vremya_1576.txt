@@ -1,0 +1,13 @@
+^.*?(\d{4}).*(?:Banko|Банко|Nali|Нали|Vydacha|Выдача).*(?:Usp|Усп).*([\d]{4}-\d{2}-\d{2}).*(?:umm|умм).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#yMd;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+4..6523 Bankomat Uspeshno 2015-02-06 19:02:40 Summa: 7 000 000 BYR Ostatok: 2 472 892 BYR Na vremya: 19:02:45 BLR/BOROVLIANY/ATMALF HO50 BOROVLIANY
+
+-----EXAMPLE-----
+7411 Банкомат Успешно 2017-09-26 18:59:14 Сумма: 20 BYN Остаток: 638 BYN BLR/MINSK/ATMBSB HO28 RKC 1
+
+-----EXAMPLE-----
+8312 Vydacha nalichnyh Uspeshno 2023-12-07 14:18:50 Summa: 150 BYN Ostatok: 3 955.73 BYN BLR/BY/BOROVAYA Vash BSB Bank

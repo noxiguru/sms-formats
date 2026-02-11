@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?)(?:,\s*)+([\d.]{10}).*стат.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Карта ****0516; Списание: 300.00 RUB, CLOUD*takiedela.ru, Moskva, , 19.07.2017 12:01; Остаток: 31725.89 RUB. С уважением, банк Раунд

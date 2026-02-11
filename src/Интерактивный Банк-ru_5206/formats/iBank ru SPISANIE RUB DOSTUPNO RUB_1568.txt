@@ -1,0 +1,10 @@
+^.*?(\d{4}) ([\d.]{8}) [\d:]+ (?:SPISANIE|QUASI-CASH)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*DOSTUPNO.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+iBank.ru 4**8317 02.02.15 14:08 SPISANIE 50,035.00 RUB DOSTUPNO: 10,465.00 RUB
+
+-----EXAMPLE-----
+iBank.ru 4**6842 10.02.16 12:28 QUASI-CASH 700.00 RUB TINKOFF BANK CARD2CARD (MOSCOW,RU) DOSTUPNO: 33.19 RUB

@@ -1,0 +1,16 @@
+^.*(?:Tranz|Ai facu).*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}) (?:de )?la (.*?) d?in (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ontul RO(\d{2,4})XX.*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#dMy;syncid
+
+-----EXAMPLE-----
+Tranzactia de 60.00 RON de la Revolut**9333** GBR din 13/05/2020 09:00 s-a inregistrat in contul RO74XX, titular Uzun Evgeniy. ║ Info tranzactii card de credit
+
+-----EXAMPLE-----
+Tranzactia de 48.00 RON de la PROFI1234 MARASESTI din 14/05/2020 09:00 s-a inregistrat in contul RO74XX, titular Uzun Evgeniy. ║ Info plati
+
+-----EXAMPLE-----
+Ai facut o plata de 10 RON la STR.STEFAN CEL MARE NR .SUCEAVA din 20/06/2020 16:02 din contul RO14XX. ║ Info plati
+
+-----EXAMPLE-----
+Ai facut o plata de 3.34 RON la UNICARM SUCEAVA 1 SUCEAVA in 22/06/2020 13:32 din contul RO14XX. ║ Info plati

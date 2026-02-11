@@ -1,0 +1,7 @@
+.*?(?:Spisaniye|Списан\w*).*?-\s*([0-9][\d\s.,]*\d)\s*([A-Za-z]{1,4}).*?\w*\*?(\d{4}).*?(?:Balans|Баланс)\s+(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-z]{1,4})
+
+-----COLUMNS-----
+outcome;instrument;syncid;balance;acc_instrument
+
+-----EXAMPLE-----
+Spisaniye so scheta -731.50 KZT KZ*8605 Balans 129.60 KZT

@@ -1,0 +1,7 @@
+^.*?(\d{4}) ([\d.]{5}).*?popovneno.*?(\d[\d\s.,]*) ([A-Z]{3}).*(?:Zalyshok|Dostupno) (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM;income;instrument;av_balance
+
+-----EXAMPLE-----
+Kartku 44**-5832 20.05 12:17 popovneno na 4,700.00 UAH Переказ коштів на  власний картковий рах. Dostupno 11182.33 UAH. Detali:0444289595.

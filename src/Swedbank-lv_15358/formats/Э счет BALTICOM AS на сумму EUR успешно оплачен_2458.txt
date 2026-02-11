@@ -1,0 +1,7 @@
+^Э-счет\s+(.+?)\s+на сум.*?([\d\s.,]*\d)\s*([A-Z]{3}) успешн.*
+
+-----COLUMNS-----
+payee;outcome;instrument
+
+-----EXAMPLE-----
+Э-счет BALTICOM AS на сумму 18.60 EUR успешно оплачен!

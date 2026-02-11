@@ -1,0 +1,10 @@
+^.*([\d.]{10}).*VIDMINA.*\*\s*(\d{4}).*SUM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+DATE 27.09.2017, TIME 11:26:KREDOBANK VIDMINA ROZRAKHUNOK V INTERNETI CARD **** 9324 SUMA: 627.26 UAH BALANCE: 85391.20 UAH
+
+-----EXAMPLE-----
+DATE 16.09.2018, TIME 04:39:KREDOBANK VIDMINA ROZRAKHUNOK V POS-TERMINALI CARD **** 0471  SUMA: 1.00 UAH BALANCE: 104759.11 UAH

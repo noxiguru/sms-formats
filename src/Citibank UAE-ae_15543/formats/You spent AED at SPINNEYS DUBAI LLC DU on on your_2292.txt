@@ -1,0 +1,7 @@
+^.*spen.*?([A-Z]{3})\s*([\d\s.,]*\d) at (.*?) on ([\d/]{10}).*ending.*?(\d{4})\..*imit.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;payee;date#dd/MM/yyyy;syncid;av_balance
+
+-----EXAMPLE-----
+You spent AED 312.40 at SPINNEYS DUBAI LLC     DU on 19/03/2016, on your Citi Card ending with 1234. The available spending limit is AED 1452.30.

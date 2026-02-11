@@ -1,0 +1,10 @@
+^.*[.*](\d{4})\W.* (\d{2}[-./]\d{2}[-./]\d{2,4})\D.*(?:SPISAN|списан).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:OSTA|[Дд]ост).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+KB AGROPROMKREDIT SChET 40817810..6635, DATA 25/03/2019, SPISANIE 600.00 RUR, OSTATOK 57.00 RUR
+
+-----EXAMPLE-----
+Карта *4119: 23.03.2021 16:30, списание 8000.00 RUR. Доступно 34918.60 RUR. Справка: 8 800 100 80 08

@@ -1,0 +1,7 @@
+^([\d.]{8}).*(?:OPLATA|POKUPKA).*(\d{4}) SUMMA.\s*([\d\s.,]*\d)\s*([A-Z]{3});\s+(?!.*BALAN)(.*)
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+18.12.16 15:51 OPLATA PO KARTE ****9419 SUMMA: 1999.00 RUB; DETSKIY MIR, RU

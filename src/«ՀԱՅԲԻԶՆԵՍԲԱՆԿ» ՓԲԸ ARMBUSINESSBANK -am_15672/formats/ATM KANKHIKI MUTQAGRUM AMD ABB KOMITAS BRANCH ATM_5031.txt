@@ -1,0 +1,7 @@
+^ATM.*? ([\d\s.,]*\d)\s*([A-Z]{3}) \d+\*+(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*MNAC.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+ATM KANKHIKI MUTQAGRUM 20000.00 AMD 4722***3758 ABB KOMITAS BRANCH ATM SV2, AM 30.01.2021 15:04,TRN.NU. 90496954, MNACORD: 15000.00 AMD

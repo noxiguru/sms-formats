@@ -1,0 +1,7 @@
+^.*([\d]{4}).\s+Snyat.*nal.*umma.*?([\d\s.,]*\d)\s*([A-Z]{3})(?!.*Bal).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument
+
+-----EXAMPLE-----
+Karta: *5255; Snyatie nalichnyh; Summa: 2000.00 RUR; +74957858222

@@ -1,0 +1,7 @@
+^\+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*ополнен.*стат.*?(-?[\d\s.,]*\d).*\*(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;syncid
+
+-----EXAMPLE-----
++5 188.50 RUR Пополнение. Остаток 6 244.50 RUR. Карта *1593 ║ Ozon.Card

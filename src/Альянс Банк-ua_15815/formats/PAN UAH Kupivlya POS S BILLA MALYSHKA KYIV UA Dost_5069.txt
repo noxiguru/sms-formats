@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) (-?[\d\s.,]*\d)\s*([A-Z]{3}) .upiv\w+\s*(?:POS \w\d+)?\s*(.*) (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+PAN5375***3426 7.49 UAH Kupivlya POS S0156284 BILLA MALYSHKA, KYIV, UA 06.07.21 14:36 Dostupno: 4209.18 UAH

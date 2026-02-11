@@ -1,0 +1,7 @@
+^Oplat.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\.\s+(.*?)\..*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+Oplata: 1000.00 RUR. Karta *2039. OnLime(ОнЛайм). Dostupno: 9016.97 RUR.

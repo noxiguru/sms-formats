@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*? ([\d-]{8}) .*opolnen.*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+(.*?)\..*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yy;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Priorbank. Karta 4***5992. 06-05-17 00:00:00. Popolnenie 100.00 USD. GBR AIRBNB. Dostupno: 100.00 USD. Spravka: 80172899292

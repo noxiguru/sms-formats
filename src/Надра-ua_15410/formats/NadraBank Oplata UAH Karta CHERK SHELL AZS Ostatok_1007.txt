@@ -1,0 +1,7 @@
+^.*?([\d.]{10}) Oplata ([\d\s.,]*\d) ([A-Z]{3}).*?\*(\d{4}) (.*) Ostatok ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;outcome;instrument;syncid;payee;av_balance
+
+-----EXAMPLE-----
+NadraBank 11:15 16.10.2013 Oplata 100.03 UAH Karta 4246*0916 CHERK SHELL AZS 7004 Ostatok 19002.60 UAH Kreditniy limit 5000 UAH tel 0-800-3000-70

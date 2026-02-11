@@ -1,0 +1,10 @@
+^.*Tran.*?(\S+?)\s*([\d\s.,]*\d) (to .*?) on (\d{2}[-./\s](?:\d{2}|\w+)[-./\s]\d{2,4}) .*
+
+-----COLUMNS-----
+instrument;outcome;comment;date#dMy
+
+-----EXAMPLE-----
+M2U. Instant Transfer RM1000.00 to ***4427/My CIMB on 28 Nov 2020 14:33:25. Call 03-58914744 if you did NOT perform this transf... ║ Instant Transfer to My CIMB
+
+-----EXAMPLE-----
+M2U. IBG Transfer RM1000.00 to ***4427/CIMB on 28 Nov 2020 22:42:07. Call 03-58914744 if you did NOT perform this transfer. ║ IBG Transfer to My CIMB

@@ -1,0 +1,13 @@
+^.*([Kk]od\s+\d{4,}|evirn.*?kod|ідтвердит).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Kartka 5168***6016 pomylka: nevirnyi pin-kod po transakcii -100.00UAH 11.02.19 11:29 7078629        , UA Dostupno:5942.10UAH
+
+-----EXAMPLE-----
+Kod 84858, TRANSFER 2004.80 UAH, kartka *3504, 15.03.19 09:20.
+
+-----EXAMPLE-----
+Підтвердити списання з картки *1355  ║ Підтвердження операції

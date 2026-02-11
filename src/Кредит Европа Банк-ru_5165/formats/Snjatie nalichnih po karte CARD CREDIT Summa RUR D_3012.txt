@@ -1,0 +1,7 @@
+^Snjatie n.*?#\s*(\d{4}) ([\d/]{8}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?imi.*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd/MM/yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Snjatie nalichnih po karte CARD CREDIT #5062 23/05/17 22:15 Summa:13000.00RUR Dostupniy limit:281.98RUR CEB106 DMITROVSKOE  MOSCOW    RU

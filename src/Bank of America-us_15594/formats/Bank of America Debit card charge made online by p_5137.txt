@@ -1,0 +1,7 @@
+^.*ard (\d{4}) .harge.* on (\d{2}[-./]\d{2}[-./]\d{2,4}) for ([A-Z]{3}|\W)\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#Mdy;instrument;outcome
+
+-----EXAMPLE-----
+Bank of America: Debit card 2506 charge made online, by phone, or mail on 09/03/2021 for $30.00. Go online to view details.

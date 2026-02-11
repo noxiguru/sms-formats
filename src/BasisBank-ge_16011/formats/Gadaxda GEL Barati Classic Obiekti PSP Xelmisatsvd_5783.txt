@@ -1,0 +1,7 @@
+^Gadax.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}) Obiek\w+: (.*?) Xelmis.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Gadaxda: 22.65 GEL Barati: Classic ***7046 Obiekti: PSP 104 Xelmisatsvdomi tanxa: 87.46 GEL 02.05.2023

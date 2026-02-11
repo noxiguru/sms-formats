@@ -1,0 +1,19 @@
+^(?!Ukugat).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\(\*+(\d{4})\)\s+(.*)\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:alan|ashti).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+17.07 GEL MC STANDARD MIX (***3138) DEGUSTO 15 13/07/2022 Balance: 2362.20 GEL
+
+-----EXAMPLE-----
+Card transaction: 19.75 GEL MC STANDARD MIX (***1023) MASPINDZELI LTD 12/07/2022 Balance: 48.96 GEL
+
+-----EXAMPLE-----
+7.80 GEL MC GOLD (***1978) ARBO 2009 LTD 16/07/2022  Nashti: 2510.09 GEL
+
+-----EXAMPLE-----
+76.00 GEL MC GOLD (***5552) P/E MZEVINAR GOGUADZE 12/02/2023 13:59:26 Balance: 23457.85 GEL
+
+-----EXAMPLE-----
+48.80 GEL MC WORLD ELITE (***3949) Wolt 26/01/2024 12:38:10 Check your balance in the digital bank: https://link.tbc.ge/balance

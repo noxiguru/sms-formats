@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\.?\s+(Nachislen.*?)\..*?([\d\s.,]*\d)\s*([A-Z]{3}).* ([\d.]{8}) .*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+Kontract*9940. Nachislenyi protsentyi na deposit za Iyul'. 30.83RUR 01.08.18 13:11

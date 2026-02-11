@@ -1,0 +1,7 @@
+^Ai trim.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*ontul RO(\d{2,4})XX.*atre (.*?) in (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy
+
+-----EXAMPLE-----
+Ai trimis 50 RON din contul RO14XX, titular UZUN EVGENIY, catre PRIPA STEFAN in 14/05/2020 14:41. ║ Info plati

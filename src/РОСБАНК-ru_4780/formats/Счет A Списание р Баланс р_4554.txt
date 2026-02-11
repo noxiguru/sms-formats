@@ -1,0 +1,19 @@
+^.*\*(\d{3,4})\W?\s+.(?:pisanie|plata\s+us|писание|ерев[ое]д(?: в другой.*?)?|плата\s+ус|ebit)(?!.*pisano)\w*\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*(?:алан|стат|alan|stat).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Счет A*078 Списание 14000 р. Баланс 70671.59 р.
+
+-----EXAMPLE-----
+Счет *956 перевод 700.00 р. Баланс 286.95 р. ║ ROSBANK Online
+
+-----EXAMPLE-----
+С карты *5028 переведено 16 500 RUB Tinkoff Card2Card. Списано 16 500 RUB. Остаток 51 016.13 RUB ║ ROSBANK Online
+
+-----EXAMPLE-----
+Account A*286 Debit 135000 RUB Balance 15383.63 RUB
+
+-----EXAMPLE-----
+Счет *0605 перевод в другой банк 15000 р. Баланс 15732.86 р. ║ ROSBANK Online

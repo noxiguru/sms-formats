@@ -1,0 +1,7 @@
+^Popoln.*?\*(\d{4}).? ([\d.]{8}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Popolnenie karty ***8583: 30.08.17 12:58, summa:5500.00 RUB, balance:5532.84 RUB.

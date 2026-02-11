@@ -1,0 +1,16 @@
+^.*?\*(\d{4})\.\s*(?:Pokupka.*?|Spisan.*?)?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) ([\d.]{10}) .*?ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta MasterCard *1125.Pokupka: -900.00 RUB TEL1234567890M0 24.12.2012 17:44. Dostupno: 276872.44 RUB. Bank Russkiy Standart
+
+-----EXAMPLE-----
+Karta MasterCard *0065.Spisanie so scheta: -2500.00 RUB debet operation>Mosc 16.04.2013 07:50. Dostupno: 135.28 RUB. Bank Russkiy Standart
+
+-----EXAMPLE-----
+Karta MasterCard *3385. Spisanie so scheta: 15000.00 RUB MCP2P>Moscow 13.05.2013 20:00. Dostupno: 125509.31 RUB. Bank Russkiy Standart
+
+-----EXAMPLE-----
+Karta MasterCard *8904. 1530.00 RUB IDEYA PARKETA>CHEBOK 12.04.2016 18:44. Dostupno: 4535.65 RUB. Bank Russkiy Standart

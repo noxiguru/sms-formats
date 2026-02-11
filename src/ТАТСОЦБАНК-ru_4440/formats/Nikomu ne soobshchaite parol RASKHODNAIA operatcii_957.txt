@@ -1,0 +1,7 @@
+^.*ikomu ne .*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Nikomu ne soobshchaite parol! RASKHODNAIA operatciia Sait: P2P MB BRS Summa: 5000.00 RUB Parol N1: 944841

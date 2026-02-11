@@ -1,0 +1,13 @@
+^(?:Popol|Попол|Perevod na|Перевод на).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W? \*(\d{4}).*
+
+-----COLUMNS-----
+income;instrument;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+Popolnenie 40 000,00 RUB  Ostatok: 46 893,64 RUB; *4813
+
+-----EXAMPLE-----
+Перевод на карту 20 694,90 RUB pay2card  Остаток: 153 608,21 RUB; *8332 ║ МТС Банк
+
+-----EXAMPLE-----
+Perevod na kartu 2 940,00 RUB AVITO  Ostatok: 51 316,82 RUB; *4813

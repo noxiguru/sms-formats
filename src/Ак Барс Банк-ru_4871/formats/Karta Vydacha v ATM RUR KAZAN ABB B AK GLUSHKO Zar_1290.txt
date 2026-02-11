@@ -1,0 +1,7 @@
+^.*?(\d{4}). Vydacha v ATM ([\d\s.,]*\d)([A-Z]{3}).*([\d-]{10}).*Dostupno (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Karta *9647. Vydacha v ATM 500.00RUR. KAZAN, ABB 16 B AK.GLUSHKO. Zarezervirovano 500.00RUR. 2014-06-03 17:32:48. Dostupno 1048.03RUR

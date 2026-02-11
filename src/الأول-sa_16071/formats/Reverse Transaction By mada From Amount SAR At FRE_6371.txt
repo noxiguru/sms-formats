@@ -1,0 +1,7 @@
+^.*(Reverse.*?)\s+By.*?\*(\d{4}).*mount.*?([A-Z]{3})\s*([\d\s.,]*\d)\s+At:\s+(.*?)\s+Date.*?([\d]{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+comment;syncid;instrument;income;payee;date#yMd
+
+-----EXAMPLE-----
+Reverse Transaction By: ***5581;mada From: ***001 Amount: SAR 1.00 At: FRESHA MODERN××Riya Date: 2024-10-15 15:39:53

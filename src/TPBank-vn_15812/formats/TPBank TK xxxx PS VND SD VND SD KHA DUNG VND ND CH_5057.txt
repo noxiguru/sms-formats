@@ -1,0 +1,7 @@
+^.*?(\d{2}[-./]\d{2}[-./]\d{2,4})..*TK:.*?(\d{4}) PS:.*?\+([\d\s.,]*\d)\s*([A-Z]{3}) SD:.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).* ND:\s*(.*)
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+(TPBank): 03/06/21;11:37 TK: xxxx9314401 PS:+4.700.000VND SD: 4.700.000VND SD KHA DUNG: 4.700.000VND ND: CHUYEN TIEN DEN SO TAI KHOAN 04339314401 - DENIS KAMASH

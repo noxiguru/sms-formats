@@ -1,0 +1,7 @@
+^.*? ([A-Z]{3}|\W)\s*([\d\s.,]*\d) was credit.*\*(\d{3,4}).*vailab.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Dear Customer, AED 110.00 was credited to your account *123. Your available account balance is AED 5200.00

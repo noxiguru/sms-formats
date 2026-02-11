@@ -1,0 +1,7 @@
+^.*?ostu.*?alan.*?\*(\d{4}) na.*?([\d.]{10}).*ostav.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Dostupnyi balans karty **0461 na 17:55 08.08.2017 sostavliaet 18 966.96 rub

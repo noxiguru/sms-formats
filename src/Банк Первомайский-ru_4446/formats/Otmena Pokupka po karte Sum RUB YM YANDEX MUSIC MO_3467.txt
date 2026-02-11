@@ -1,0 +1,7 @@
+^(Otmena.*?)\s+po .*\*(\d{4})\s+([\d-]{10}).*um.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+[\d-]{12,}.*
+
+-----COLUMNS-----
+comment;syncid;date#yyyy-MM-dd;income;instrument;payee
+
+-----EXAMPLE-----
+Otmena Pokupka po karte *4735 2018-02-11 17:24 Sum.: 2.00 RUB YM*YANDEX.MUSIC         > MOSCOW 8-800-100-5-100

@@ -1,0 +1,13 @@
+^([\d\s.,]*\d)\s*([A-Z]{3}) (?:sama\w+|has.* to|paid at) (.*?)\.? ║ Notif.*
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+10 EUR samaksāts Revolut**1834* GBR LTULT. ║ Notification from Swedbank
+
+-----EXAMPLE-----
+2400 EUR has been sent to Renarts Georgs Lavrinovics. ║ Notification from Swedbank
+
+-----EXAMPLE-----
+25.99 EUR paid at Google Payment LTD Dublin IRLE. ║ Notification from Swedbank

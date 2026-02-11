@@ -1,0 +1,7 @@
+^.*using NBB (Debit).*ATM.* for ([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d? on (\d{2}[-./]\d{2}) .*alan.*?(-?[\d\s,]*\d\.\d{2}).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;date#dM;av_balance
+
+-----EXAMPLE-----
+Dear Mr.MOHAMED ABDULRAHMAN, thank you for using NBB Debit Card ATM 074 GRODNO BLR for BHD 26.231 on 07/05 13:34. Your account balance is BHD 18.667.

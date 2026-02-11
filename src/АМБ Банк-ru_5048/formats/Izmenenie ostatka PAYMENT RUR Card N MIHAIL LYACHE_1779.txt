@@ -1,0 +1,7 @@
+^.*PAYMENT.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s.*BAL.*?(-?[\d\s.,]*\d)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Izmenenie ostatka: PAYMENT 37 499.89RUR Card_N **8287 MIHAIL LYACHENKOV BAL:88 166.67 2015-05-29 00:00:00

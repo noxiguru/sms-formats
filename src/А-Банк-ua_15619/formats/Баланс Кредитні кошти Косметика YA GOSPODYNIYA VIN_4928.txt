@@ -1,0 +1,10 @@
+^(Кешб.*?|)\s*Бал.*?\.?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).* ║ \W*([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(.*)
+
+-----COLUMNS-----
+comment;av_balance;acc_instrument;outcome;instrument;payee
+
+-----EXAMPLE-----
+Баланс: 20806.93 ₴ Кредитні кошти: 9193.07 ₴ ║ 💊 138.71 ₴ Косметика YA GOSPODYNIYA, VINNYTSIA
+
+-----EXAMPLE-----
+Кешбек 11.54  ₴ Баланс: 8947.66 ₴ ║ 🍸 384.75 ₴ Ресторан Dominospizza, LVOV

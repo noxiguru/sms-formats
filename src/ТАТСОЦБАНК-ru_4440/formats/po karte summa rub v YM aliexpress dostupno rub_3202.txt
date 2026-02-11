@@ -1,0 +1,10 @@
+^.* ([\d.]{8}) .*po kart.*?(\d{4}).*umm.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}) v (.*?) .ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+15:29 29.08.17 po karte 5248***0623 summa 12775.35 rub v YM*aliexpress dostupno 5286.75 rub
+
+-----EXAMPLE-----
+11:32 01.04.19 pokupka po karte 1854 summa 131.00 rub v AO "Zavod "Kopir" dostupno 2686.95 rub

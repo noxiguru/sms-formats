@@ -1,0 +1,7 @@
+^.*?(\d{4}) .*w/d of\s+([\d\s.,]*\d) from acc.*on\s+([\d/]{10}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Your VISA0608 was used for a w/d of 360 from account XXXX369631 at ATM 333/Linopetra on 31/10/2016 at 20:24. The available balance is 1.438,34

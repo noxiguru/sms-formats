@@ -1,0 +1,7 @@
+^A\s+transfer\s+of\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+was\s+made\s+to\s+(.*?)\s+from.*with\s+(\d{4}).*alanc.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+A transfer of 600.00 AED was made to Ahmed Sobhy Wahdan from your account ending with 7001. Your balance is now 12,986.32 AED.

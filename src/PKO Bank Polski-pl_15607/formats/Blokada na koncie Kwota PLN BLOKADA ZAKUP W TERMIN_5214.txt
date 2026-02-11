@@ -1,0 +1,13 @@
+^(?:Bloka|Zdjec|Nie\s+udało).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Blokada na koncie 70..4889 Kwota 26,00 PLN BLOKADA - ZAKUP W TERMINALU Stan konta +70,56 PLN Data zakonczenia 2021-12-29
+
+-----EXAMPLE-----
+Zdjecie blokady na koncie 70..4889 Kwota 26,00 PLN BLOKADA - ZAKUP W TERMINALU Stan konta +333,77 PLN
+
+-----EXAMPLE-----
+Nie udało się wykonać transakcji kartą *6048 Masz za mało środków na koncie. Kwota: 500,00 PLN Miejsce: Revolut**0936*, Dublin Data: 2024-02-08 18:16:16 Karta do konta: 23..4189 ║ Nieudana transakcja kartą

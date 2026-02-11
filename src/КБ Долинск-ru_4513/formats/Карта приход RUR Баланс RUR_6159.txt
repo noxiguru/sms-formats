@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+.риход\s+([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\s+.алан.*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *3028 приход 5439.48 RUR Баланс 70076.10 RUR

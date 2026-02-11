@@ -1,0 +1,16 @@
+^.*(?:KOD\s+POD|[Вв]ход\s+в\s+|синхронизация).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+PLATEZ TIPOVOI 1000.00 RUB, KOD PODTVERZDENIA 077551.      27.07.18 12:30 END
+
+-----EXAMPLE-----
+Вход в Интернет-Банк выполнен c IP-адреса 32.173.85.98. Пользователь ALEKSANDR KOTENKO. 15.09.19 06:57  Конец ║ Avangard
+
+-----EXAMPLE-----
+Идет синхронизация ║ АВАНГАРД
+
+-----EXAMPLE-----
+OPERACIA V INTERNETE pettown 1000.00 RUB, CARD*1234, KOD PODTVERZDENIA 077551. 11.02.20 12:30 END

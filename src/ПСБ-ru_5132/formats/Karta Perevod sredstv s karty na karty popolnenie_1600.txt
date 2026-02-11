@@ -1,0 +1,13 @@
+^(?!.*\d{2}[-./]\d{2}[-./]\d{2}).*?\*(\d{4}).*(?:opolnen|ополнен).*?(\d[\d\s.,]*)\s*([а-яa-zA-Z]{1,3});?\s*(\d{2}/\d{2}|)\S.*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM;av_balance
+
+-----EXAMPLE-----
+Karta *2068: Perevod sredstv s karty na karty - popolnenie 1 330.86 RUR; 24/02, 21:20;RETAIL.PAYMENT.RU;P2P PSB-RETAIL.Dostupno 93 697.05 RUR (v t.ch. kredit 93 697.05 RUR).
+
+-----EXAMPLE-----
+*3981 Popolnenie 300p PSB-RETAIL 0077778 Dostupno 2750p
+
+-----EXAMPLE-----
+*1635 Пополнение 10000p PSB-RETAIL 0077778 Доступно 10964,26p

@@ -1,0 +1,7 @@
+^.* (\d{4}[-./]\d{2}[-./]\d{2}) [\d:]+ 입금 ([\d\s.,]*\d)\s*([A-Z]{3}|\S)\W? 잔액 (-?[\d\s.,]*\d)\s*([A-Z]{3}|\S) (.*) \d+\*+\d+(\d{4}).*
+
+-----COLUMNS-----
+date#yMd;income;instrument;av_balance;acc_instrument;payee;syncid
+
+-----EXAMPLE-----
+[Web발신] 2021/08/17 19:00 입금 1,000원. 잔액 1,014,145원 IVASHCHENK 665***08301015 기업

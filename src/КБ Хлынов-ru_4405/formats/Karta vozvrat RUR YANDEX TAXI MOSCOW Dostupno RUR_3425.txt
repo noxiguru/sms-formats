@@ -1,0 +1,7 @@
+^.*?(\d{4}).*00\.00\..*(vozvrat)([\d\s.,]*\d)\s*?([A-Z]{3}),?\s+(.*?)\.\s+.ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 4313: 00.00.0000 00:00, vozvrat 2.00 RUR, YANDEX.TAXI, MOSCOW. Dostupno 10670.98 RUR. Spravka: 88002502777

@@ -1,0 +1,13 @@
+^.*(?:Оплата|Paid|Ai plăt.*?)(?!.*║.*·\s):?\s+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+(?:(?:at|в|la)\s+|\((?![\d\s.,]*\d\s*(?:[A-Z]{3}|\W))).*(?:Расходы\s+за|Spent\s+to).*\s+║\s+(.*)
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+❤️ Оплата: 44,99 RON (Shop Name) 😉 Расходы за сегодня: 81,34 RON ║ Shop Name
+
+-----EXAMPLE-----
+🚎️️ Оплата: 7,20 € (Uab Ltg Link) Расходы за сегодня: 7,20 € ║ Uab Ltg Link
+
+-----EXAMPLE-----
+🚎️️ Paid 12,50 € at Uber Spent today: 12,50 € ║ Uber

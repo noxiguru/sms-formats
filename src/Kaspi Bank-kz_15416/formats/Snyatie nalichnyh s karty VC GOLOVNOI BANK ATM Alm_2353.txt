@@ -1,0 +1,7 @@
+^Snyat.*?nal.*?(\d{4}): ([\d-]{10}).*summ.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#yyyy-MM-dd;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Snyatie nalichnyh s karty VC*1234: 2016-04-12 12:07  GOLOVNOI BANK ATM>Almaty KZ na summu 500.00 KZT. Dostupno 204.20 KZT.

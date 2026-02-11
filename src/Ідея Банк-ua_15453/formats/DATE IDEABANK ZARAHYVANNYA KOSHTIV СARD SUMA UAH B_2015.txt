@@ -1,0 +1,10 @@
+^.*(\d{2}[./]\d{2}[./]?\d{0,4}) .*ZARAHYV.*[СC]ARD.*?(\d{4})\s+SUM.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+DATE 08.10 16:15 IDEABANK ZARAHYVANNYA KOSHTIV СARD 4069-4040 SUMA 34.97 UAH BALANCE: 1131.5 UAH
+
+-----EXAMPLE-----
+09.10 13:00 IDEABANK ZARAHYVANNYA KOSHTIV CARD 5355-7866 SUMA 287.57 UAH BALANCE: 7484.38 UAH

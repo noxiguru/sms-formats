@@ -1,0 +1,7 @@
+^Izm.*?-([\d\s.,]*\d)\s*([A-Z]{3}).*?\*(\d{4}).*[BВ][AА]L.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|).*(\d{4}-\d{2}-\d{2}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument;date#yMd
+
+-----EXAMPLE-----
+Izmenenie ostatka: -12 187.81 RUR Card_N**8344 ANDRYEI GUBIN  BAL: 196 555.47  2018-06-18 00:00:00

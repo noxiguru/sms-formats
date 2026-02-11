@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s.,]*\d) deduct.*ccoun.*?([\d-]{4})\..*vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;av_balance
+
+-----EXAMPLE-----
+AED 5 deducted from your account 370-83XXXXX5-01. Available Balance now is AED 87655.33.

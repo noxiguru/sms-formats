@@ -1,0 +1,7 @@
+^(?:Payment From|ODOB)(?!.*ATM|.*ayment To|.*etail).*?\*(\d{4}).*?-?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{10}).*?BAL.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+ODOBRENO 4*9091 Payment From Client Contract Оплата услуги Яндекс Деньги INTERNET-BANK VBRR / MOSCOW / RUS 100.00 RUR 30.11.2017 15:28:54 BALANCE 3755.22 RUR Tel +74959330349, 88007000349

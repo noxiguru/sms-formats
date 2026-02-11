@@ -1,0 +1,7 @@
+^.*(\d{4})\s+([\d.]{10}).*(?:opoln|ayment).*?\+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\s+OK.\s*Dost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Karta 9.8727 05.04.2016 14:17:53 CH Payment +1000000 BYR BVB PEREVOD CARD TO CARD IB SBS BLR OK. Dostupno 2001167 BYR

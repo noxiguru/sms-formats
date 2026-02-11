@@ -1,0 +1,13 @@
+^.*\*(\d{4}).*(.(?:тмена|озвра).*?) ([\d\s.,]*\d)\s*([а-яA-Z]{1,3})\W?\s+(.*?)(?:\s+║.*|$)
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee
+
+-----EXAMPLE-----
+Карта*6359 Оформлена отмена покупки 156.00р WWW.RZD.RU ║ Отмена
+
+-----EXAMPLE-----
+Карта*3326 Оформлена отмена покупки 271.82р YANDEX.DRIVE
+
+-----EXAMPLE-----
+Карта *4524 Возврат 2320 RUB, WILDBERRIES.RU,VLD. 1,MILKOVO D.,RU ║ Операция

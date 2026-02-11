@@ -1,0 +1,7 @@
+^.*?([\d-]{10}).*perac.*?([A-Z]{3})\s*([\d\s.,]*\d).*redit.*?\*(\d{4}).*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;instrument;income;syncid;av_balance
+
+-----EXAMPLE-----
+TSESNABANK: 2018-03-14 14:59:53 operacija na summu KZT 10,000.00,P2P KMDM Credit REF 1234567890 kartochka ***8697,Balans 12,996.83. tel.7711

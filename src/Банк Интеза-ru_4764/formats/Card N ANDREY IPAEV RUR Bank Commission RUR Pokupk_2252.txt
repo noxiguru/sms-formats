@@ -1,0 +1,7 @@
+^.*?(\d{4}).*?([\d-]{10})\s+[\d:]+([\d\s.,]*\d)\s*([A-Z]{3}).*ommiss.*?([\d\s.,]*\d).*okupka (.*)\s+.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;fee;payee;av_balance
+
+-----EXAMPLE-----
+Card N**1052 ANDREY IPAEV 2016-02-26 00:00:00 333.61 RUR Bank Commission 0,00 RUR  Pokupka BILLA-PEROVO Balance: 729.71

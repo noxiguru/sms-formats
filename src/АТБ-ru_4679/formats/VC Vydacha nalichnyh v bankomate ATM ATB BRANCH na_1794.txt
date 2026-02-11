@@ -1,0 +1,10 @@
+^.*(\d{4})\s+([\d.]{10}).*ydacha(?!.*ostu).*?ATM.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument
+
+-----EXAMPLE-----
+VC: *2126 26.05.2015 08:47:15. Vydacha nalichnyh v bankomate ATM ATB BRANCH na summu 39000.00 RUR vypolnena uspeshno.
+
+-----EXAMPLE-----
+VISA: *0754 18.01.2018 10:03:11 Vydacha v bankomate ATM ATB STICK 6000.00 RUR vypolnena

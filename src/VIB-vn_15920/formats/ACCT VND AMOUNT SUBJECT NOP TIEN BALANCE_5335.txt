@@ -1,0 +1,10 @@
+^[\d:]{5,};(\d{2}[-./]\d{2}[-./]\d{2,4}) ACC.*?(\d{4})([A-Z]{3}) AMOU.*?\+([\d\s.,]*\d) SUBJECT:\s*(.*?)\s+BALAN.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;syncid;acc_instrument;income;comment;av_balance
+
+-----EXAMPLE-----
+15:12;21/07/2022 ACCT:023901788VND AMOUNT:+2,500,000 SUBJECT:NOP TIEN BALANCE:+2,500,000
+
+-----EXAMPLE-----
+18:14;07/11/2022 ACCT:023901788VND AMOUNT:+9,601,040 SUBJECT:INVOICE 1 BALANCE:+11,506,649

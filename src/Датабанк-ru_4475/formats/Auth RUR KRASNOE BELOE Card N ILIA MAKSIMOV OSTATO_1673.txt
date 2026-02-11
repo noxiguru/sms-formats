@@ -1,0 +1,7 @@
+^Auth.*?([\d\s.,]*\d)\s*([A-Z]{3}) (.*?) Card.*?(\d{4}).*(?:BAL|OST).*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth: 189.96RUR KRASNOE & BELOE Card_N**6950 ILIA MAKSIMOV OSTATOK:245.44 D: 2015-04-09 17:11:11

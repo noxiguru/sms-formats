@@ -1,0 +1,10 @@
+^.*(?:arta|chet|арта|сч[её]т).*?(\d{4})\D.*?(?:писан|pisan)(?!.*(?:omiss|омисс)).*?([\d\s.,]*\d)\s*([а-яА-ЯA-Z]{3}).*?(?:алан|alan).*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Карта *2824. Списано 25000.00 RUR. CHATBANK P2P. Balans 96930.22 RUR. 26.01.2019
+
+-----EXAMPLE-----
+Schet 1234567890. Iskhodyaschij platezh v RUB. Spisano 10,037.66 RUR. Balans 121415.96 RUR. Data 17.06.2019 09:04:04

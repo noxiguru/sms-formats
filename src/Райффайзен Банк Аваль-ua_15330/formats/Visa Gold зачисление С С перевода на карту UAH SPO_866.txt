@@ -1,0 +1,13 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}).*(?:ачислен|arak?huv|арахув).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+02.10.20 19:00 Visa Gold*2109 зачисление С2С перевода на карту 1300.00 UAH SPORTBANK. Доступная сумма: 3000.00 UAH ║ Raiffeisen
+
+-----EXAMPLE-----
+16.10.20 18:09 Visa Gold*0262 bezgotivkove zarakhuvannya 3275.20 UAH RAIFFEISEN ONLINE UAH. Dostupna suma 7699.90 UAH. Perevirka balansu ONLINE: http://bit.ly/2MlgJNI
+
+-----EXAMPLE-----
+09.06.21 15:25 Visa Signature*8196 зарахування С2С переказу на картку 5500.00 UAH FUIB MoneyTransfer. Доступна сума: 30697.78 UAH ║ Raiffeisen

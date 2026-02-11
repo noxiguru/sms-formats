@@ -1,0 +1,10 @@
+^(?:POPOLN|ZACHIS).*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}).*([\d.]{10}).*OST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+POPOLNENIE SCHETA 80.00 BYN KARTA #9826 DATA 11.02.2018 18:39:46 BR.633 CASH IN>SOLIGORSK>BY OSTATOK 80.54 BYN
+
+-----EXAMPLE-----
+ZACHISLENIE 79.76 BYN KARTA #4984 DATA 04.05.2019 17:02:21 OSTATOK 79.89 BYN

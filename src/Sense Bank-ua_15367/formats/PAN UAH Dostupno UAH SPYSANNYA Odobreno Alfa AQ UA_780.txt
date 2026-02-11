@@ -1,0 +1,7 @@
+^.*?-(\d{4}) -([\d.]+) ([A-Z]{3}) ([\d/]{5}).*?Dostupno: ([\d.]+).*?SPYSANNYA Odobreno (.*)
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM;av_balance;payee
+
+-----EXAMPLE-----
+PAN 5441-0800 -1800 UAH 16/04 12:50 Dostupno: 2056.64 UAH SPYSANNYA Odobreno Alfa AQ UAH

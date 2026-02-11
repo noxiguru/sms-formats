@@ -1,0 +1,7 @@
+^PAYMENT.* CR: (\d{2}[-./]\d{2}[-./]\d{2,4}) .*\*(\d{4}).*mount.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;outcome;instrument
+
+-----EXAMPLE-----
+PAYMENT RECEIVED CR: 23.10.22 16:11,card ***9612. Amount:13.00 EUR, Balance:97394.38 AMD

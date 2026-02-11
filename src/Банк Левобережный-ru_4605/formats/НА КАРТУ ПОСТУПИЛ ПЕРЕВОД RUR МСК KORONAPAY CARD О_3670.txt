@@ -1,0 +1,7 @@
+^(?:НА|NA).*?(\d{4}).*(?:ПОСТУП|POSTUP).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+([\d.]{8}) .*(?:OST|ОСТ).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+НА КАРТУ 4698 ПОСТУПИЛ ПЕРЕВОД 5800.00 RUR 26.11.18 06:24 МСК KORONAPAY2CARD, -.ОСТАТОК 8244.83 RUR..

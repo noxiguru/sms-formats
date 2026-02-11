@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d-]{10}).*?(?:SPISANIE|SPYSANNIA|ZABLOKIROVANO|ZABLOKOVANO)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*BAL.*?(-?[\d\s.,]*\d).*KOSHTY\s+[\d\s.,]+\s*[A-Z]{3}\s+(.+)\s+Detali.*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;outcome;instrument;av_balance;payee
+
+-----EXAMPLE-----
+*3646 2015-08-14 09:06 ZABLOKOVANO 58.00UAH (BALANCE 2706.20UAH) VLASNI KOSHTY 2706.20UAH POLYUSVITA DNEPROPETR-SK UA Detali pumb.ua/ib

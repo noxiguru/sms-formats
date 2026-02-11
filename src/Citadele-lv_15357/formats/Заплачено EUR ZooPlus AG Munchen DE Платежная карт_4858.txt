@@ -1,0 +1,10 @@
+^.*(?:аплач|[Pp]aid).*?-?([\d\s.,]*\d)\s*([A-Z]{3}) (.*)\. (?:Плат|Paym).*?\*\s*(\d{4})\..*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+🙂 Заплачено -83.25 EUR ZooPlus AG Munchen DE. Платежная карта 4908 47** **** 6879. ║ Citadele
+
+-----EXAMPLE-----
+💳 Paid -461.30 EUR CRV*ABBOTT FRANCE SAS Vilnius LT. Payment card 4234 81** **** 7691. ║

@@ -1,0 +1,7 @@
+.*?(?:Karta|Карта)\s*\*+(\d{4}).*?(?:Vozvrat|Возврат).*?:\s*(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\d{2}:\d{2},\s*(.*?);\s*(?:Summa|Сумма)\s*:\s*([0-9][\d\s.,]*\d)\s*([A-Za-zА-Яа-я]{1,4}|\W)\s*;.*?(?:Ostatok|Остаток)\s*:\s*(-?[0-9][\d\s]*[.,]\d{2})(?=\s|$)\s*([A-Za-zА-Яа-я]{1,4}|\W)
+
+-----COLUMNS-----
+syncid;date#dMy;payee;income;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+Karta ****1319; Vozvrat komissii za snyatie v ATM: 05.07.25 20:45, Uzum bank; Summa: 1950.00 UZS; Ostatok: 30074.42 UZS.

@@ -1,0 +1,16 @@
+^(?:Na|На) .*?(\d{4}) (?:postu|посту).*?([\d\s.,]*\d)\s*([A-Z]{3}) (\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:limi|лими).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Na kartu MEGACARD #2130 postupilo 2000.00RUR 31/07/2013 19:51:50 Dostupniy limit:38147.78RUR
+
+-----EXAMPLE-----
+Na kartu #7378 postupilo 7000.00RUR 25/08/15 19:56 Dost. limit:41419.32 RUR
+
+-----EXAMPLE-----
+Na kartu #3958 postupil perevod 2000.00 RUB 18.08.2018 06:47 Platezhny limit: 3027.02 RUB
+
+-----EXAMPLE-----
+На карту #1234 поступил перевод Summa: 1000.00 RUB 16.09.2022 00:00 Платежный лимит: 1000.00 RUB

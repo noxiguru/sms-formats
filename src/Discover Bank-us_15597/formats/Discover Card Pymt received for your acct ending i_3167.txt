@@ -1,0 +1,7 @@
+^.*eceiv.*in (\d{4})\..* ([\d/]{8}) Amt.*?(\$)\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#MM/dd/yy;instrument;income
+
+-----EXAMPLE-----
+Discover Card: Pymt received for your acct ending in 8092. Pymt Post Date: 08/18/17 Amt: $138.00 Visit http://discvr.co/t8kg7L Text STOP to quit.

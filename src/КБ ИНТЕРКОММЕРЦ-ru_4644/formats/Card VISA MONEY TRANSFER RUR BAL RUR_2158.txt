@@ -1,0 +1,7 @@
+^\w+(\d{4})\s+(.*?)\s+\+\s*([\d\s.,]*\d)\s*([A-Z]{3})\s+BAL:\s*(-?[\d\s.,]*\d).+([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;payee;income;instrument;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Card_3436 VISA MONEY TRANSFER +4 900.00RUR BAL:12 660.58 RUR 2015-10-16 14:28:24

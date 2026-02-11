@@ -1,0 +1,7 @@
+^([A-Z]{3}|\W)\s*([\d\s.,]*\d) cred.* to .*?(\d{4}) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*Info- (.*?) Avl .*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid;date#dMy;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+INR 179735.00 credited to A/c no. XX9028 on 30-05-22 at 22:14:09 IST. Info- NEFT/PUNBH22150161083/INSOLVENC/PUNJAB N. Avl Bal- INR 179735.00 - Axis Bank

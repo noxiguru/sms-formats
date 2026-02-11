@@ -1,0 +1,7 @@
+^.*\*(\d{4})\W? (\d{2}[-./]\d{2}[-./]\d{2,4}).*писан.*?([\d\s.,]*\d)\s*([A-Z]{3}), (.*?), .*осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *9135: 28.11.2022 18:59, списание 22.09 EUR, MINIPRECO, 1200-815 LISB. Доступно 1227.46 USD. Справка: +992 44 625-77-77

@@ -1,0 +1,16 @@
+^.*\*(\d{4}):?\s*(\d{2}[-./]\d{2}[-./]?\d{0,4}) .*(?:писан|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3})\W (?:BANKKRGZ)?(.*?)\W?\s*.(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *5933: 15.01.2019 08:43, списание 520.00 KGS. Доступно 8614.87 KGS.
+
+-----EXAMPLE-----
+*4488: 18.06 04:22 Spisanie 700 KGS. BANKKRGZ. Dostupno 9953.60 KGS.
+
+-----EXAMPLE-----
+Karta *3337:02.01.2023 18:14, spisanie 102.00 KGS. Dostupno 105925.27 KGS. Spravka: 3333
+
+-----EXAMPLE-----
+Karta *0546 18.01.2023 19:27, spisanie 685.00 KGS, KOFEJNYA "AVENUE", G. BISHKEK. Dostupno 16412.12 KGS.

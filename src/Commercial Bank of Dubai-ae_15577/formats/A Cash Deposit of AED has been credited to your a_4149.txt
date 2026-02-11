@@ -1,0 +1,7 @@
+^.*[Cc]ash [Dd]epo.*?([A-Z]{3})\s*([\d\s.,]*\d).*redit.*?(\d{4}) on ([\d-]{10}).*.*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;income;syncid#cash;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+A Cash Deposit of AED 710.00 has been credited to your a/c #6655 on 05-04-2019 22:37. Your balance is AED 13759.27.

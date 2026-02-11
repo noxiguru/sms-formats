@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).* ([\d-]{10}) .*erevod([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd-MM-yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Priorbank. Karta 4***5163 23-05-2018 23:12:48. Perevod 100.00 BYN. BLR P2P_MTBANK. Dostupno:510.86 BYN. Spravka: 80172899292

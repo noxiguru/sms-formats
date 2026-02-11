@@ -1,0 +1,7 @@
+^.*onversion\s+[Ff]rom.*?(\d{4})([A-Z]{3}):\s+([A-Z]{3}|\W)\s*([\d\s.,]*\d)\s+.*(On\s+acc.*?)\s+.emain.*\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;acc_instrument;instrument;outcome;comment;date#dMy
+
+-----EXAMPLE-----
+Bank of Georgia: Conversion From account: GE09BG1234567890USD: USD 100.00 Remaining balance: GEL 1,322.62 On account: GE09BG1234567890GEL: GEL  279.50 Remaining balance: GEL 1,322.62 Exchange rate: 2.7950 14.09.2022

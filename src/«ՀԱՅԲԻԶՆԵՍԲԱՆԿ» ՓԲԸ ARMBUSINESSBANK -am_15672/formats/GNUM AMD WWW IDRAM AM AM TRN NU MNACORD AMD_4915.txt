@@ -1,0 +1,13 @@
+^(?:HASHVIC ELQ|GNUM).*?([\d\s.,]*\d)\s*([A-Z]{3}),? \d+\*+(\d{4}),? (.*?),?\s*(\d{2}[-./]\d{2}[-./]\d{2,4}).*MNACO.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+GNUM 500.00 AMD, 4722***3132, WWW.IDRAM.AM, AM, 07.12.0018 23:48,TRN.NU. 35768968, MNACORD: 10603.24 AMD
+
+-----EXAMPLE-----
+HASHVIC ELQAGRUM 500.00 AMD 5175***2314 30.12.2020 12:29,TRN.NU. 86588505, MNACORD: 201985.60 AMD
+
+-----EXAMPLE-----
+GNUM 4.99 USD, 4722***5682, Spotify, SE, 01.09.2023 06:10,TRN.NU. 242943689, MNACORD: 173748.08 AMD

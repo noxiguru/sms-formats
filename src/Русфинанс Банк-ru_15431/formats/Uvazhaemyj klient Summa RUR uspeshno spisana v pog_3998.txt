@@ -1,0 +1,7 @@
+^.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*(.pisan.*?ogash.*?)\s+#.*?\*([\d\-A-Z]{3,4}).*
+
+-----COLUMNS-----
+outcome;instrument;comment;syncid
+
+-----EXAMPLE-----
+Uvazhaemyj klient! Summa 4800.00 RUR uspeshno spisana v pogashenie KD # 167***7-F. Tel. 8(495) 926 70 07

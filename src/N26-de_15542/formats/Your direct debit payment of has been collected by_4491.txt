@@ -1,0 +1,7 @@
+^.*ayment.*? (\D{1,3})\s*([\d\s.,]*\d) has been col\w+ by (.*?)\.?\s*(?:║.*)?$
+
+-----COLUMNS-----
+instrument;outcome;payee
+
+-----EXAMPLE-----
+Your direct debit payment of € 6.90 has been collected by MASS Response Service GmbH. ║ N26

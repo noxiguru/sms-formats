@@ -1,0 +1,13 @@
+^.*\*(\d{2,4}). .(?:opol|опол).*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Schet karty **3920. Popolnenie. Summa 12 000.00 RUR; Dostupno: 36 002.72 RUR
+
+-----EXAMPLE-----
+Schet karty **63. Popolnenie. Summa 16262.00 RUR; Dostupno: 74637.81 RUR
+
+-----EXAMPLE-----
+Schet karty **76. Пополнение. Summa 396.80 RUR; Dostupno: 745.85 RUR

@@ -1,0 +1,7 @@
+^Trans.*anulow.*ata.*?(\d{4}-\d{2}-\d{2}).*kwota.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+(Anulow.*)
+
+-----COLUMNS-----
+date#yMd;income;instrument;comment
+
+-----EXAMPLE-----
+Transakcja WEB została anulowana Data: 2023-03-31 17:15:13 Anulowana kwota:25,00 PLN ║ Anulowanie transakcji WEB

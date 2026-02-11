@@ -1,0 +1,7 @@
+^Vozob.*lim.*?([\d\s.,]*\d).*([\d/]{10})
+
+-----COLUMNS-----
+av_balance;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Vozobnovlen kreditnyi limit ot banka Tinkoff do 658.54 RUR; 19/04/2015 18:30:11

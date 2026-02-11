@@ -1,0 +1,7 @@
+^.*CREDIT\s+P.*?: (\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*moun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Person to Person CREDIT Payment is Received: 26.03.24 12:20,card ***8755. Amount:5000.00 AMD, Balance:14415.82 AMD

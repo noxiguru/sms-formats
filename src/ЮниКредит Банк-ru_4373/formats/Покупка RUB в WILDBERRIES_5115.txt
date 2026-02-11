@@ -1,0 +1,10 @@
+^(?:Покупка|Спис.*СБП.*?) ([\d\s.,]*\d)\s*([A-Z]{3}) в (.*?)(?:\W? Успеш.*?)?(?: ║ .*)?$
+
+-----COLUMNS-----
+outcome;instrument;payee
+
+-----EXAMPLE-----
+Покупка 290.00 RUB в WILDBERRIES_1
+
+-----EXAMPLE-----
+Списание по СБП на 557.00 RUB в WILDBERRIES. Успешно ║ UniCredit

@@ -1,0 +1,7 @@
+^.*icin sifreniz \d{6}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Lutfen sifrenizi kimseyle paylasmayiniz. 95,00 CHF tutarindaki Hotel on Booking.com alisverisiniz icin sifreniz 716887 Tarih: 11.11.2022 20:46 B003

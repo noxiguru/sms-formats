@@ -1,0 +1,7 @@
+^Trans.*?stornir.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*\*(\d{4}).*znosu.*?([\d\s.,]*\d)\s*([A-Z]{3}).*mestu (.*?)\..*
+
+-----COLUMNS-----
+date#dMy;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+Transakcija je stornirana dana 28/11/2022 17:36:15, karticom 537473******8198, u iznosu od 1,00 USD , na prodajnom mestu TRADINGVIEW, United States of America.

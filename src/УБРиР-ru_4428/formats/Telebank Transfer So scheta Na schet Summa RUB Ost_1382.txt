@@ -1,0 +1,7 @@
+^.*?ransfer\s+([\d.]{8}).*o\s+scheta.*?(\d{4})\s.*Summa.?\s*([\d\s.,]*\d)\s*([A-Z]{3}).*Ostatok.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Telebank Transfer 16.09.14 14:10 9990****2817 So scheta: 42301810****2506 Na schet: 42305810****2801 Summa: 100.00 RUB Ostatok: 4930.78 RUB Tel:+73432645564 www.ubrr.ru

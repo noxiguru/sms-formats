@@ -1,0 +1,7 @@
+^.*олучен.*?([\d\s.,]*\d)\s*([A-Z]{1,3}).* ║ .*
+
+-----COLUMNS-----
+income;instrument
+
+-----EXAMPLE-----
+🎉 Получен платеж 1.00 EUR. ║ Citadele

@@ -1,0 +1,7 @@
+^(?:Popoln|Perevod\s+na).*?\D(\d{4}-\d{2}-\d{2})\s+.*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#yMd;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Popolnenie scheta: IFB WALLET TRANSFER Tashkent UZB 2024-09-26 11:51:17, karta 404800***9078. summa: 50 000.00 UZS, balans: 15 000 000.00 UZS

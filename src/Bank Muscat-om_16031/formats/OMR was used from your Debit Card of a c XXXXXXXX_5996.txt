@@ -1,0 +1,7 @@
+^.*?([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d?\s+was\s+used\s+from.*?(\d{4})\s+at\s+(.*?)\s+has\s+been\s+(reversed).*alan.*?([A-Z]{3})\s*(-?[\d\s,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+instrument;income;syncid;payee;comment;acc_instrument;av_balance
+
+-----EXAMPLE-----
+OMR 5.938 was used from your Debit Card of a/c 0307XXXXXXXX0014 at CANVA* I03882-17766610 has been reversed. New Available Balance is OMR 383.418.

@@ -1,0 +1,7 @@
+^Cash In.*?(\d{4}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Cash In MC2728 summa 130 000,00 KZT A-13089 77-8, AL FARABI 2018-08-17 12:04:57 Ostatok:666 359,54

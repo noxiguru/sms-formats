@@ -1,0 +1,7 @@
+^Odliv.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+Sa\s+ra.*?(\d{4})\s+Prim\w+\W?\s+(.*?)\s+Na\s+ra.*Stan.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Odliv: 5,00 EUR Sa računa: 1234567890 Primalac: MTEL DOO Na račun: 1234567890 Stanje: 58,84 EUR

@@ -1,0 +1,7 @@
+^([\d.]{5}) .*\*(\d{4})\s+.ачисл.*?([\d\s.,]*\d)\s*([A-Z]{3}).*осту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+04.05 12:49 Карта*1587 зачисление 45570.95 RUR. OTPBANK Moscow. Доступно 297477.10 RUR.

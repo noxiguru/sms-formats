@@ -1,0 +1,7 @@
+^([\d.]{10}).*?Zdiisneno.*?(\d[\d\s.,]*) ([A-Z]{3}).*?\*(\d{4}) (.*?)\. Dostupno ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;outcome;instrument;syncid;payee;balance
+
+-----EXAMPLE-----
+23.05.2013 14:51 Zdiisneno pokupku na sumu 1796.00 UAH, **2421 SEKUNDA SHOP, UA, KIEV, . Dostupno 47204.00 UAH

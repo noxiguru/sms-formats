@@ -1,0 +1,7 @@
+^.*?kupka.*?(\d{4}). ([\d\s.,]*\d)(\S+).*?statok.?\s*(-?[\d\s.,]*\d)\S+ (.*) (\d\d\.[\d.]{7}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;payee;date#dd.M.yyyy
+
+-----EXAMPLE-----
+Pokupka po NFC *4966: 137.00руб. Ostatok 105.40руб; CE00ATAK 622_Otel Berlin, Moscow 10.11.2014 17:17

@@ -1,0 +1,7 @@
+^.*\*(\d{4}),\s+trans.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(\d{4}-\d{2}-\d{2}),\s+(.*?),?\.\s+.vail\w+:\s+0,00.*?(?!\s+0,00)(-?[\d\s.,]*\d)\s*(RSD).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#yMd;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Card 5574****1234, transaction amount: 10.00 PER, 2023-09-21, SHOP. Available: 0,00 EUR 4.866.629,27 RSD

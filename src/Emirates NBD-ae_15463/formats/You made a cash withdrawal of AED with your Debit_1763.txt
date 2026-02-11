@@ -1,0 +1,7 @@
+^.*cash\s+withd.*\s([A-Z]{3})\s*([\d\s.,]*\d)(?!.*ending).*(?:alan|imit).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;av_balance
+
+-----EXAMPLE-----
+You made a cash withdrawal of AED 500.00 with your Debit Card at EI DUBAI AIRPORT ARRIVAL, DUBAI. Available Account Balance is AED 31,982.42.

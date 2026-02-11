@@ -1,0 +1,7 @@
+^.*?(?:erevod|еревод).*?\*([\d]{4})\.\s+(?:.umm\S+|.умм\S+)?([\d\s.,]*\d)\s*([A-Z]{3}).*?oluchatel[\s-]+(.+?)\.\s+([\d.]{10}).*(?:ostu|осту).*limit.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vnutrenniy perevod klientu Tinkoff Banka. Karta *3552. Summa 1500.00 RUB. Poluchatel - Berdichevskiy Vladislav. 08.07.2016 20:07. Dostupno s uchetom rashodnogo limita 292488.93 RUB. www.tinkoff.ru

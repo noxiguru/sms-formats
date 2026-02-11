@@ -1,0 +1,7 @@
+^Снят.*\*(\d{4})\W? ([\d\s.,]*\d)\s*([A-Z]{3}).*Ост.*?\.?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Снятие. Карта *2461. 5000 RUB. Sovetskaya, 1. Ост. 104338.43 RUB

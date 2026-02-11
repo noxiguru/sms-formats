@@ -1,0 +1,10 @@
+^\+?([\d\s.,]*\d)\s*([A-Z]{3}) operac.*?\*(\d{4})\s+'(.+)'.*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;syncid;comment;av_balance
+
+-----EXAMPLE-----
+574 545.15 KZT operaciya po schetu karti KZ29***6190 'AVANS ZA ZARABOTNUYU PLATU SOTRUDNIKAM ZA APREL 2016 SOGLASNO SPISKUPERECHISLENIE YURIDICHESKIM LITS'. Balans 578 482.49 KZT. Tel.7722
+
+-----EXAMPLE-----
++638.82 KZT operaciya po schetu karti KZ12***4659 'PERECHISLYAETSYA ZAR'. Balans 656.67 KZT. www.smartbank.kz/app

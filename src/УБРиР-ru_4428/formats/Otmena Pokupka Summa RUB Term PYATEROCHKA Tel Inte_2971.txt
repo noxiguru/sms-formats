@@ -1,0 +1,7 @@
+^Otmena\s+Pokupka\s+([\d.]{8})\s+.*\*(\d{4}).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*erm\S*:\s+(.*?)\s+Tel.*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+Otmena Pokupka  03.05.17 00:29  4301****6431  Summa: 294.52 RUB  Term: PYATEROCHKA 5293  Tel:88001000200  Internet-bank: i.ubrr.ru

@@ -1,0 +1,7 @@
+^.*?(\d{4}) Amt.?\s*([A-Z]{0,3})\s*([\d\s.,]*\d) DR .*COMM.*?([\d\s.,]*\d).*Desc:[\s-]*(.*?)\s+.vail.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;fee;comment;av_balance
+
+-----EXAMPLE-----
+Acct: 0228895607 Amt: 20,000.00 DR ,COMM+VAT= 52.50 Desc: Borrow TO ACCESS/EYO SYLVANUS                                         Avail Bal: 253,906.71

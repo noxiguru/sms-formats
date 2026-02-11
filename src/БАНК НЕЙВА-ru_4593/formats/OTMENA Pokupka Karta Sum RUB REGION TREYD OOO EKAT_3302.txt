@@ -1,0 +1,13 @@
+^(OTMENA|Vozvrat).*\*(\d{4}).*um([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?),?\s+.ostu.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+OTMENA Pokupka Karta *0997 Sum 42.00 RUB REGION TREYD OOO EKATERINBURG,  Dostupno 14268.76 RUB 20.11.2017, 16:41
+
+-----EXAMPLE-----
+OTMENA Pokupka Karta *0997 Sum 362.17 RUB WWW.ALIEXPRESS.COM INTERNET  Dostupno 23923.04 RUB 09.02.2018, 09:17
+
+-----EXAMPLE-----
+Vozvrat tovara Num Karta *0997 Sum 999.00 RUB DECATHLON EKATERINBURG  Dostupno 5296.51 RUB 14.05.2018, 11:35

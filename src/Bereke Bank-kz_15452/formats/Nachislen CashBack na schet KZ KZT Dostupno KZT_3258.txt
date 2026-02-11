@@ -1,0 +1,7 @@
+^.*([Cc]ash[Bb]ack).*\*(\d{4})\s+(?:na\s+sum.*?)?([\d\s.,]*\d)\s*([A-Z]{3})\s+(\d{4}-\d{2}-\d{2}).*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;date#yMd;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Nachislen CashBack na schet KZ***5843  234,77 KZT 2021-08-31 01:25:36  Dostupno 21964,04 KZT

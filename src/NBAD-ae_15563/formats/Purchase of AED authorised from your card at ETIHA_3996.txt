@@ -1,0 +1,7 @@
+^.*urchas.*?([A-Z]{3})\s*([\d\s.,]*\d).*ard.*?(\d{4}) at\s+(.*?)\..*Avl.*?(-?[\d\s.,]*\d).*([\d-]{10}).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;av_balance;date#dd-MM-yyyy
+
+-----EXAMPLE-----
+Purchase of AED 3,483.00 authorised from your card 9193 at ETIHAD AIRWAYS EY ALLNKR. Avl.Lmt AED 23,644.95 - 27-10-2018 05:40 PM

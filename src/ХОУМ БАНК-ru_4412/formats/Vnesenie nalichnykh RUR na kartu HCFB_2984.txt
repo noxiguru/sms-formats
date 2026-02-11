@@ -1,0 +1,7 @@
+^Vnese.*?nal(?!.*ostu).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*\s+([\d.]{10})\s+.*
+
+-----COLUMNS-----
+income;instrument;syncid#cash;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vnesenie nalichnykh:30000.00 RUR na kartu *9848. HCFB. 05.05.2017 08:03:07. .

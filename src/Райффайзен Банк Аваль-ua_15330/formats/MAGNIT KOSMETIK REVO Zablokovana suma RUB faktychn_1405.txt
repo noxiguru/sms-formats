@@ -1,0 +1,7 @@
+^([\d.]{10}) [\d:]+ (.*) \d[\d*]*(\d{4}).*ablokovana suma ([\d\s.,]*\d) ([A-Z]{3}).*stupna suma (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;payee;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+22.10.2014 08:34 MAGNIT-KOSMETIK REVO 000000*0000 Zablokovana suma 313.90 RUB, faktychno spusana suma https://online.aval.ua. Dostupna suma 141.23 UAH

@@ -1,0 +1,10 @@
+^([\d.]{8}).*(?:Выдача н.*арте|arta).*?(\d{4}).*(?:умм|ydacha nal).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:омисс|omiss).*?([\d\s.,]*\d).*(?:Бал|Bal).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid#cash;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+03.12.15 16:47 Выдача наличных по карте***5016 Сумма:500.00RUB Комиссия:0.00RUB 347519/BANK SOYUZ, RU Баланс:92.00RUB Банк СОЮЗ (АО)
+
+-----EXAMPLE-----
+13.01.16 10:57 Karta 5016, vydacha nalichnykh 6100.00RUB, komissiia 0.00RUB BANK SOYUZ, RU. Balans 2808.01RUB

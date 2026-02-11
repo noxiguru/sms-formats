@@ -1,0 +1,16 @@
+^.*?(\d{4}) .*(?:erevod.*?ostup|opol|ostup).*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*?stat.*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+4.3194 Postuplenie Uspeshno Summa:35000000 BYR Ostatok:41660487 BYR Na vremya:10:52:12 06.11.2014
+
+-----EXAMPLE-----
+4.0514 Popolnenie Uspeshno Summa:700 USD Ostatok:665,9 USD Na vremya:09:51:48 BLR/MINSK/ALFA ERIP PRITYCK 15.04.2015 09:49:09
+
+-----EXAMPLE-----
+5.8750 Perevod (Postuplenie) Uspeshno Summa:300 BYN Ostatok:406,01 BYN Na vremya:16:03:58 BLR/ONLINE SERVICE/Transfers AK AM 23.06.2017 16:03:50
+
+-----EXAMPLE-----
+Karta 5.2712 Postuplenie summy Uspeshno Summa:80.00 BYN Ostatok:80.53 BYN Na vremya:12:32:51 BLR/MINSK/ALFA KRASNAYA 27.04.2018 12:32:51

@@ -1,0 +1,7 @@
+^.*перац.*?\+([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+Ком.*?([\d\s.,]*\d)\s*(?:[A-Z]{3}|\W)\s+.*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*(?:артка|ахунок).*?\*(\d{4})\s+.алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W).*
+
+-----COLUMNS-----
+income;instrument;fee;date#dMy;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+💳Операція на +15.00₴ Комісія: 0.00₴ MONO*SAKHARNOV ANDRII, Visa Direct 17.08.23 12:10 Картка 421113******3596 Баланс: 2 507.84₴ ║ FreeBank

@@ -1,0 +1,7 @@
+^([\d/]{8}) .*X\d*(\d{4}).*transferred.*?([\d\s.,]*\d)\s*([a-zA-Z]{3,4}) (to .*?)\s+Outst.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM/yy;syncid;outcome;instrument;comment;av_balance
+
+-----EXAMPLE-----
+30/01/18 16:58 A/C X235075X transferred 30933.00 Baht to A/C X132395X Outstanding Balance 43394.18 Baht.

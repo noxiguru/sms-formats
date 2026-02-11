@@ -1,0 +1,7 @@
+^([\d\s.,]*\d)\s*\S+ ([\d\s.,]*\d)\s*\S+ ║ (.*) для.*
+
+-----COLUMNS-----
+income;income;comment
+
+-----EXAMPLE-----
+2 000,00 ₽ 1 000,00 ₽ ║ 2 перевода для danil.borchevkin

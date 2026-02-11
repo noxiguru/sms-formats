@@ -1,0 +1,7 @@
+^Popolnenie.*?([\d.]{6}\d{4}).*?(\d{4}). summa.([\d\s.,]*\d)\s*([A-Z]{3}). Dost.*?(-?\d[\d\s.,]*).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Popolnenie scheta: 27.01.2014 17:02, karta 3229. summa:59800.00 RUB. Dostupny ostatok:136908.77 RUB.

@@ -1,0 +1,7 @@
+^(?:Perevod s|Перевод с).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:stat|стат).*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\W? \*(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+Перевод с карты 500,00 RUB MTS.INVESTITSII  Остаток: 645,85 RUB; *4654 ║ МТС Банк

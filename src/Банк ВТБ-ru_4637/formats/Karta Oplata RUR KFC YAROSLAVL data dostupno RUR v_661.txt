@@ -1,0 +1,58 @@
+^(?!.*(?:tmena|тмена)).*\*(\d{4}).*?(?:plata|okupk|плата|окупк).*?,?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}|\W);?\s*(?:poluchat\S+\s+|получат\S+\s+)?(.*?);?\s*(?:(?:data|дата)\W?\s*)?(\d{2}[-./]\d{2}[-./]\d{2,4}|)\s+\d{2}:\d{2}.*(?:ostu|stat|осту|стат).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;av_balance
+
+-----EXAMPLE-----
+Karta *0136: Oplata 211.00 RUR; KFC YAROSLAVL; data: 25.10.2013 11:06; dostupno 616.37 RUR (v tom chisle kred. 0.00 RUR). VTB24
+
+-----EXAMPLE-----
+Karta *8082: Oplata 4800 RUB; IKEA DOM 3 CASH LINE; data: 09/07/2015 14:25; dostupno 45200 RUB. VTB24
+
+-----EXAMPLE-----
+Karta *0347: Oplata 63.00 RUR; PYATEROCHKA 1492; 05.04.2016 11:46, dostupno 14326.31 RUR (v tom chisle kred. 14326.31 RUR). VTB24
+
+-----EXAMPLE-----
+Karta *4428: Oplata 631.75 RUB; APTECHNYY PUNKT; 06/04/2016 11:03, dostupno 25512.92 RUB. VTB24
+
+-----EXAMPLE-----
+Карта *2190: Оплата 141 RUB; UBER BV; дата: 08/07/2016 20:38, доступно 423211.56 RUB. Контролируйте свой бюджет с бесплатным приложением www.vtb24.ru/m/smart. ВТБ24
+
+-----EXAMPLE-----
+Карта *1420: Оплата 264.00 RUR; MCDONALDS 11025; дата: 27.08.2016 10:17, доступно 93477.07 RUR. ВТБ24
+
+-----EXAMPLE-----
+Karta *4982: Oplata 990.00 RUB; 06.07.2017 22:12, dostupno 29046.16 RUB. VTB24
+
+-----EXAMPLE-----
+Karta *9816 Pokupka, 245.40 RUR 349  KIROVSKIY 02.01.18 16:26 MSK Ostatok 2551.72 RUR
+
+-----EXAMPLE-----
+Karta *0573 oplata 100.00 RUR YANDEX.MONEY 14.01.18 15:38 MSK Ostatok 575227.93 RUB
+
+-----EXAMPLE-----
+Karta *8768: Oplata 215.00 RUR; &quot;STARBUCKS&quot; COFFEE HOU; 01.02.2018 13:53, dostupno 0.83 RUR.
+
+-----EXAMPLE-----
+Karta *6508:Oplata 356.00 RUB;KRASNOE&BELOE;07.09.2018 19:43,dostupno 513.12 RUB.
+
+-----EXAMPLE-----
+Карта *6243: Оплата 5994.00 руб; Иль Де Ботэ; 08.11.2018 08:08, Доступно 15857.95 руб ;blok 10161.59;dolg 83980.46;limit 90000.00
+
+-----EXAMPLE-----
+Карта *9658: Оплата 2.38 €; Aliexpress.com; 24.09.2019 11:00, Доступно 6.52 € ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Карта *4833 Покупка, 6.00 $ SIMPLEMODEL 27.09.19 15:34 МСК Доступно 302.50 RUB долг 0 блок 395.10 ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Карта *5320: Оплата 120.00 RUB; Хурма; 12:47, Доступно 10762.20 RUB ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Карта *9146: Оплата 175.54 RUB; Перекресток; 19:37, Доступно 443416.58 RUB (кредитные средства 443416.58);блок 11753.59;долг 79829.83;лимит 535000.00 ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Карта *4918: Оплата 3400.00 RUB; PRODLIT ZHIZN; 19:57, Доступно 249559.85 RUB ║ ВТБ-Онлайн
+
+-----EXAMPLE-----
+Карта *9146: Оплата 3906.00 RUB; Wildberries; 19:50, Доступно 439260.58 RUB (кредитные средства 439260.58);блок 15551.59;долг 80187.83;лимит 535000.00 ║ ВТБ-Онлайн

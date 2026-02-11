@@ -1,0 +1,7 @@
+^([A-Z]{3})\s*([\d\s,]*\d\.\d{2})\d? has been credited.*?X(\d{4}) by (.*?) on (\d{2}[-./]\w+[-./]\d{2,4}).*alan.*?([A-Z]{3})\s*(-?[\d\s,]*\d\.\d{2})\d?.*
+
+-----COLUMNS-----
+instrument;income;syncid;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+OMR 200.000 has been credited to your a/c 0307XXXXXXXX0014 by WAHEEBA HASSAN N M AL-RASHID on 14/09/2023 13:27:43. New Available Balance is OMR 367.583.

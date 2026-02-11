@@ -1,0 +1,7 @@
+^(OTMENA)\s+([\d-]{10})\s+[\d:]+\s+([\d\s.,]*\d)\s([A-Z]{3})\s+(?!ATM|ITT)(.+)\s+Karta.*?(\d{4})\..*alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+comment;date#yyyy-MM-dd;outcome;instrument;payee;syncid;av_balance
+
+-----EXAMPLE-----
+OTMENA 2018-09-14 06:02:05 395.00 KZT ITUNES.COM/BILL Karta 5304***8826.  Bonus. Balans 191440.54 KZT. www.smartbank.kz/app

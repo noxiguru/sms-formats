@@ -1,0 +1,10 @@
+^SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*#(\d{4}) DATA (\d{2}[-./]\d{2}[-./]\d{2,4}).*OSTAT.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;date#dMy;balance;acc_instrument
+
+-----EXAMPLE-----
+SPISANIE 0.67 BYN KARTA #5984 DATA 11.09.2019 11:46:25 OSTATOK -0.67 BYN
+
+-----EXAMPLE-----
+SPISANIE: 11.08 BYN KARTA #6545 DATA 09.02.2023 20:07:13 PLATEZHY PO OVERDRAFTU OSTATOK 392.29 BYN

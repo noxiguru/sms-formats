@@ -1,0 +1,7 @@
+^\S+(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3}).*aneme.*?:\s+(.+)\s+.etal.*?:\s+(.*)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;comment
+
+-----EXAMPLE-----
+LV60HABA1234567890 232EUR Sanemejs: ROMANS OPIKOVS Detalas: savstarp. norekini

@@ -1,0 +1,16 @@
+^.*?[*#]\d*(\d{4}).*(?:opoln|ополн).*? ([\d/]{10}) (?:na|на).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM/yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Balans vashey karty *5165 popolnilsya 27/03/2013 na:36000,00RUB.Dostupny Ostatok: 40237,77RUB. Raiffeisenbank
+
+-----EXAMPLE-----
+Balans vashey karty **7942 popolnilsya 17/11/2016 na: 100.00 RUB. Dostupny Ostatok: 21.11 RUB. Raiffeisenbank
+
+-----EXAMPLE-----
+Balans vashego scheta #9355 popolnilsya 22/11/2016 na 15000.00 RUR. Dostupny ostatok 15025.54 RUR. Raiffeisenbank
+
+-----EXAMPLE-----
+баланс вашей карты *1558 пополнился 08/05/2018 на: 26000 RUB. доступный остаток: 492474.77 RUB. raiffeisenbank

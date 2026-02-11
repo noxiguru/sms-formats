@@ -1,0 +1,7 @@
+^.*A/C.*?(\d{4}) is cred.*?([A-Z]{3}|\W)\s*([\d\s.,]*\d) on (\d{2}[-./]\d{2}[-./]\d{2,4}).*alan.*?([A-Z]{3}|\W)\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;income;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your A/C XXXXX543758 is credited with INR 1,79,735.00 on 30/05/22 22:22. Your new balance is INR 1,97,196.97. We are now on WhatsApp! Experience everyday banking on WhatsApp now: idfcfir.st/WAEng Team IDFC FIRST Bank

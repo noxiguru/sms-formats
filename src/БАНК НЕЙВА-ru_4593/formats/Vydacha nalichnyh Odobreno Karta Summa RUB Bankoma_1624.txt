@@ -1,0 +1,16 @@
+^(?:Vydacha|Выдача).*\*(\d{4}).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d) .*([\d.]{10}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Vydacha nalichnyh Odobreno: 214710 Karta: 437563*6740 Summa: 50000.00 RUB Bankomat: 66000005 Lenina 48. Dostupno 45460.34 RUB 19.03.2015, 18:53:51
+
+-----EXAMPLE-----
+Vydacha Num 091772 Karta *7969 Sum 1000.00 RUB 66000002 Chapaeva 3a. Dostupno 67579.72 RUB 05.10.2016 10:36
+
+-----EXAMPLE-----
+Vydacha Schet *5684 ANDREY ALEKSEEV Sum 3000.00 RUB 66000006 Kraulia 6. Dostupno 29453.92 RUB 10.12.2017, 18:36
+
+-----EXAMPLE-----
+Выдача № AU6TBW Карта *4697 Сумма 5000.00 RUB EKATERINBURG 1 BAKHCHIVANDZHI SQ Доступно 2754.63 USD 10.01.2019, 06:22

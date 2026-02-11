@@ -1,0 +1,7 @@
+^\*(\d{4}) (СПИСАН.*?КОМИС.*?)([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument
+
+-----EXAMPLE-----
+*1096 СПИСАНИЕ КОМИССИИ 61.00 RUB

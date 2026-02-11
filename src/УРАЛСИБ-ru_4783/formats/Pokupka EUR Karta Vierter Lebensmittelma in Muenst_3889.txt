@@ -1,0 +1,7 @@
+^Pokup.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\D?\s*(.*?),\s*([\d.]{8}) .*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Pokupka 7.28 EUR. Karta *6311, Vierter Lebensmittelma in Muenster, 08.09.18 13:08. Ostatok 592.40 EUR

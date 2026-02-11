@@ -1,0 +1,7 @@
+^.*?(\d{4})\s.*debited.*?([A-Z]{3})\s*([\d\s.,]*\d).*([\d-]{10}).*Bal.*?(-?[\d\s.,]*\d).*CASH.*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+Your a/c 396445 is debited INR 500.00 on 04-11-2015 12:08:14 A/c Bal is INR 304.90 Info: CASH-ATM/BECN156604. Get Axis Mobile: m.axisbank.com/cwdl

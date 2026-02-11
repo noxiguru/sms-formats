@@ -1,0 +1,7 @@
+^.*?SPISANIE SREDSTV.*?: ([\d\s.,]*\d) ([A-Z]{3}) ([\d-]{10}).*Ostatok ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+BANK URALSIB.SPISANIE SREDSTV SO SCHETA: 3 500.00 RUR 2013-10-08 03:07:58;Ostatok 7 774.15 RUR

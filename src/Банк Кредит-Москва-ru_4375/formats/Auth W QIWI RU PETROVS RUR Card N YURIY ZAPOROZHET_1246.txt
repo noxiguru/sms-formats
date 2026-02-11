@@ -1,0 +1,7 @@
+^Auth.(.*?) ([\d\s.,]*\d)([A-Z]{3}).*?(\d{4}).*BAL. (-?[\d\s.,]*\d) ([\d-]{10}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;av_balance;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Auth:W.QIWI.RU 10/2 PETROVS 10 075.00RUR Card_N**0363 YURIY ZAPOROZHETS BAL: 989.47 2014-03-07 19:14:55

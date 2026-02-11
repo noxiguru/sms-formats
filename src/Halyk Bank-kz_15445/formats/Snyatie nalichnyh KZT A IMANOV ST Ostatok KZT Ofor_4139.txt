@@ -1,0 +1,7 @@
+^([\d.]{10}).*nyatie n.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;outcome;instrument;syncid#cash;av_balance
+
+-----EXAMPLE-----
+12.04.2019 14:54 Snyatie nalichnyh 210000.00 KZT A-11162 13, IMANOV ST. **9672 Ostatok 16437.10 KZT Oformi kredit - vyigraj avto! www.halykauto.kz

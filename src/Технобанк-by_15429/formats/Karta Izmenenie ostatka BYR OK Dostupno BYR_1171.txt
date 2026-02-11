@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{10}).*(?:redit|zmenenie ost.*?) \+([\d\s.,]*\d)\s*([A-Z]{3})\s+OK.\s*Dost.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4.4073 12.02.2014 11:43:14 Izmenenie ostatka +29588849 BYR OK. Dostupno 29765011 BYR

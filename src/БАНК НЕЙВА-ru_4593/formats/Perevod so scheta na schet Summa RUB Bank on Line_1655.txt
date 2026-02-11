@@ -1,0 +1,37 @@
+^((?:Zachis|Uvel|Popoln|Otmen|Vznos|Perevod s|Зачис|Пополн|Увел|Отмен|ОТМЕН|Взнос|Перевод с)(?!.*(?:alic|алич)).*?)\s*(?:(?:na|на) .*)?.(?:art|chet|арт|ч[её]т)\w*\W?\s+\d*\*\d*(\d{4})\s*(?:.(?:ум|um)\w*\W?)?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*? (-?[\d\s.,]*\d)\s*([A-Z]{3}).*\D?(\d{2}[-./]\d{2}[-./]\d{2,4})\D.*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Perevod so scheta: 408*1743 na schet: 408*1744 Summa: 349924.54 RUB Bank-on-Line Dostupno po schetu 408*1743 49999.80 RUB Dostupno po schetu 408*1744 5689.83 USD 13.03.2015, 12:03:11
+
+-----EXAMPLE-----
+Zachislen cashback Schet: 4081781*0974 Summa: 38.10 RUB Dostupno 1607.45 RUB 06.04.2015, 14:59:19
+
+-----EXAMPLE-----
+Zachislen cashback Karta: 437563*1958 Schet: 4081781*5684 504.18 RUB Dostupno 5201.82 RUB 07.10.2015, 15:39:08
+
+-----EXAMPLE-----
+Perevod s vklada: 423*1997 na schet: 408*1729 Summa: 791.10 RUB Bank-on-Line Ostatok vklada 423*1997 1500.00 RUB Dostupno po schetu 408*1729 2443.62 RUB 24.03.2016, 16:54:18
+
+-----EXAMPLE-----
+PopolnenieNumKarta *6954Sum 14000.00 RUBVISA MONEY TRANSFERVisa Direct Dostupno 64000.63 RUB13.05.2016 15:31
+
+-----EXAMPLE-----
+Otmena holda Schet *1729 Sum 3277.60 RUB Dostupno 42241.45 RUB 21.06.2016 15:40
+
+-----EXAMPLE-----
+Vznos Num 904285 Karta *7969 Sum 100000.00 RUB 66000001 Chapaeva 3a. Dostupno 102437.70 RUB 16.09.2016 12:51
+
+-----EXAMPLE-----
+Взнос № P91RL4 Карта *4697 Сумма 6000.00 USD Банк Нейва Чапаева 3а. Доступно 6257.75 USD 02.02.2019, 14:52
+
+-----EXAMPLE-----
+Зачислен cashback Карта *4697 Счёт *7477 223.40 RUB Доступно 226.41 RUB 08.02.2019, 15:42
+
+-----EXAMPLE-----
+Зачислен cashback Карта *4697 Счёт *7478 11.60 USD Доступно 6269.35 USD 08.02.2019, 15:42
+
+-----EXAMPLE-----
+ОТМЕНА Покупка Карта *1899 Сумма 588.22 RUB GAZPROMNEFT AZS 472 > Gubkin Текущий долг по кредиту: 179377.46 RUB Доступно кредита: 20622.54 RUB 02.10.2020, 13:02

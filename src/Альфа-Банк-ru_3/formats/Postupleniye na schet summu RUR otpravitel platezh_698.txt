@@ -1,0 +1,10 @@
+^Postupleniye.*?\*\d(\d{4})\s+summu\s+([\d.,]{4,})\s+([A-Z]{3}).*?platezha\s+([^;]+);\s+([\d.]{10}).*
+
+-----COLUMNS-----
+syncid;income;instrument;payee;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Postupleniye na schet 408*01546 summu 257.84 RUR; otpravitel platezha 1234567890; 28.03.2013 00:48:38
+
+-----EXAMPLE-----
+Postupleniye na schet 408*00057 summu 245.10 RUR, otpravitel platezha 1234567890; 28.04.2013 20:07:29

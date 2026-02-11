@@ -1,0 +1,7 @@
+^Vhod.*chet.*?(\d{4}) .ata.*? ([\d.]{8}) .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*etal\w*:\s*(.*?)\s+.alan.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;income;instrument;comment;av_balance
+
+-----EXAMPLE-----
+Vhodjashij platezh Schet: LV48CBBR1234567890 Data: 05.05.19 11:00 Summa: 1.26 EUR Detali: Nichupienko Ilya Balans: 2.20 EUR

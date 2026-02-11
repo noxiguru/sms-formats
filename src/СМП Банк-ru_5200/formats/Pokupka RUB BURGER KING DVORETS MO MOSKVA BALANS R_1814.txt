@@ -1,0 +1,10 @@
+^.*?([\d.]{8}).*(\d{4})\s+(?:.*?okupka|OPLA|.*?ayment).*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+BALANS.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+14:00 10.06.15 5209***7352 Pokupka 304.00 RUB BURGER KING DVORETS MO MOSKVA BALANS: 99999.99 RUB. SMP Bank, tel. 8-800-555-2-555
+
+-----EXAMPLE-----
+13:16 17.11.17 5209***2840 POS Payment 1148.55 RUB SLV-SMPBANK SADOVNICHESKAYA 71-11 BALANS: 28362.98 RUB. SMP Bank, tel. 8-800-555-2-555

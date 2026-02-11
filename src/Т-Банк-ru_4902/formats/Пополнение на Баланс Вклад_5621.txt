@@ -1,0 +1,7 @@
+^Пополн.*?([\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+.алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\W)\s+║\s+(Вклад).*
+
+-----COLUMNS-----
+income;instrument;balance;acc_instrument;syncid
+
+-----EXAMPLE-----
+Пополнение на 45 000 ₽ Баланс 291 677.49 ₽ ║ Вклад

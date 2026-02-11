@@ -1,0 +1,7 @@
+^([a-zA-Z]{2,3})\.?\s*([\d\s.,]*\d).*spent.*?(\d{4})\s+on\s+(\d{1,2}-\S{3}-\d{2})\s+at\s+(.*?)(?:\.|$)
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dd-MMM-yy;payee
+
+-----EXAMPLE-----
+Rs 358.00 was spent on your Credit Card 4386XXXXXXXX0619 on 04-OCT-16 at MEDILINE CHEMIST.

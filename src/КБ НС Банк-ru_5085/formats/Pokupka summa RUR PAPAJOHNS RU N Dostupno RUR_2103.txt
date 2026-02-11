@@ -1,0 +1,7 @@
+^Pokup.*?\*(\d{4}).*([\d/]{5}).*sum.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\.Dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd/MM;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Pokupka *9969, 12/11, 20:51, summa 819.00 RUR PAPAJOHNS.RU N2.Dostupno 755.22 RUR.

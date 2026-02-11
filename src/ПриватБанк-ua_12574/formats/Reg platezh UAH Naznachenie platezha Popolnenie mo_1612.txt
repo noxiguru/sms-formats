@@ -1,0 +1,10 @@
+^(.{4})\s+Reg\.\s+pl.*?([\d\s.,]*\d)\s*([a-zA-Z]{3})\.\s+(?:Naz|Pryzn|Prizn).*?:\s+(.*?)\.\s+pb\.u.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment
+
+-----EXAMPLE-----
+5*49 Reg. platezh 30.00 UAH. Naznachenie platezha: Popolnenie mobilnoi svyazi klienta 3050113737 na nomer +1234567890. pb.ua/1206
+
+-----EXAMPLE-----
+5*42 Reg. platizh 10.00 grn. Priznachennya platezhu: DNH0NS-153M5MU chast strahovoi premii Cipkin Dmitro Vasilovich po dogovoru ot 24-04-2015. pb.ua/1206

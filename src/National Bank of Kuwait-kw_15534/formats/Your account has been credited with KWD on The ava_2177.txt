@@ -1,0 +1,7 @@
+^.*acc.*?(\d{4}).*credit.*?([\d\s,]*\d\.\d{2})\d?\s*([A-Z]{3})\s+on\s+([\d/]{5}).*alan.*?(-?[\d\s,]*\d\.\d{2})\d?\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd/MM;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Your account 3231 has been credited with 400.000 KWD on 16/01, 09:41. The available balance of your account is 400.237 KWD.

@@ -1,0 +1,7 @@
+^([\d.]{5}).*Vnes.*\snal.*\*(\d{4}).*umma.*?([\d\s.,]*\d)\s*([A-Z]{3})(?!.*Dost).*
+
+-----COLUMNS-----
+date#dd.MM;syncid#cash;income;instrument
+
+-----EXAMPLE-----
+13.08 14:10 Vnesenie nalichnyh. Karta *1357. Summa: 600.00 RUR. Mesto: SOVETSKAYA, 7 BARNAUL. OTP Bank

@@ -1,0 +1,10 @@
+^(?:OTMENA OP|VOZVRAT SR).*?([\d\s.,]*\d)\s*([A-Z]{3}).*?(\d{4}) DATA ([\d.]{10})\s+[\d:]+\s+(?:ACODE \d+\s+)?(?!.*OSTATOK)(.*)
+
+-----COLUMNS-----
+income;instrument;syncid;date#dd.MM.yyyy;comment
+
+-----EXAMPLE-----
+OTMENA OPLATA 61900 BYR KARTA #0530 DATA 05.02.2015 17:58:57 ACODE 999896 PT SHOP N9 KOLOSOK BIB>SVETLOGORSK>BY
+
+-----EXAMPLE-----
+VOZVRAT SREDSTV 378.68 UAH KARTA #0854 DATA 01.11.2016 00:00:00 WWW.UZ.GOV.UA>KYIV>UA

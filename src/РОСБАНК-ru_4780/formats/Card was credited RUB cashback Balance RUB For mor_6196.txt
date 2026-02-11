@@ -1,0 +1,7 @@
+^.*\*(\d{3,4})\W?\s+was\s+credit\w*\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\.\s+.(?:alan|stat).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;comment;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Card *1840 was credited 2936.00 RUB cashback. Balance: 7496.08 RUB.02/04/24. For more details https://rblink.ru/e/6X0DyV

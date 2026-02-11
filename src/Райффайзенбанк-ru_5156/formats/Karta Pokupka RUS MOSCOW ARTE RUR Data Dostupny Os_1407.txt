@@ -1,0 +1,7 @@
+^.*?(\d{4});.*okupka.?\s*(.*); ([\d\s.,]*\d)\s*([A-Z]{3}).*([\d/]{10}).*statok.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+Karta *9082; Pokupka: RUS/MOSCOW/ARTE; 525.00 RUR; Data: 27/10/2014; Dostupny Ostatok: 3379.95 RUR. Raiffeisenbank

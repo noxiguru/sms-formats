@@ -1,0 +1,7 @@
+^(?!.*VIDMINA)[^\d.]*([\d.]{8})\s+.*?Splata.*?Kartka .(\d{4}). Suma.\s*-?([\d\s.,]*\d)\s*([A-Z]{3})[^\d]+Misce: (.*?). Zalyshok: ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+OTPdirekt:09.06.13 23:20: Splata za tovar/poslugu. Kartka *1891. Suma: -5,00UAH . Misce: PORTMONE.MOBILE Kyiv. Zalyshok: 16.807,79UAH.

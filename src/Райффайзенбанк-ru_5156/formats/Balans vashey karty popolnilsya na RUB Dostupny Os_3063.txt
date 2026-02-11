@@ -1,0 +1,7 @@
+^Balan.*?\*(\d{4}) popol.*? ([\d-]{10}) na.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#yyyy-MM-dd;income;instrument;av_balance
+
+-----EXAMPLE-----
+Balans vashey karty *6269 popolnilsya 2017-06-24 na: 8000 RUB. Dostupny Ostatok: 8134.6 RUB. Raiffeisenbank

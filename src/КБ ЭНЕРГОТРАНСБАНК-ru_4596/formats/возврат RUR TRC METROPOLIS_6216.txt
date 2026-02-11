@@ -1,0 +1,7 @@
+^\*(\d{4})\s+((?:возврат|vozvrat)(?!.*(?:алан|alan)).*?)\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*)
+
+-----COLUMNS-----
+syncid;comment;income;instrument;payee
+
+-----EXAMPLE-----
+*3258 возврат 24890.00 RUR TRC METROPOLIS

@@ -1,0 +1,7 @@
+^Gada\w+\W?\s+(.*?),\s+(?:ID:.*?,\s+)?Tanx.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+payee;outcome;instrument;date#dMy
+
+-----EXAMPLE-----
+Gadaxda: Tbilisi energy Tbilisi energy, ID: 361564924, Tanxa: 9.18 GEL, 07/06/2023 17:33. Gmadlobt, rom sargeblobt chveni momsaxurebit!

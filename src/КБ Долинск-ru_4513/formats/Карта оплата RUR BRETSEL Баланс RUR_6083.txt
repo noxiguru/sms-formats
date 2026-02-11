@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+.плата\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Карта *3028 оплата 46.00 RUR BRETSEL Баланс 52659.36 RUR

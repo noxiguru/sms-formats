@@ -1,0 +1,7 @@
+^Zarahuv.*art.*?(\d{4}) .*um.*?([\d\s.,]*\d)\s*\(?([A-Z]{3}).* ([\d.]{5}) .*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM;av_balance
+
+-----EXAMPLE-----
+Zarahuvannya koshtiv Kartka 5169-3585 Suma 4,986.08(UAH) Data 07.03 12:30 Dostupna suma 4993.03(UAH) CrLim=0(UAH)

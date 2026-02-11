@@ -1,0 +1,7 @@
+^.*\*\s*(\d{4}).*redita.*?([\d\s.,]*\d)\s*([A-Z]{3}).*isponi.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Cardul *** 0573 a fost creditat cu 500.00 EUR. Soldul disponibil: 4082.22 MDL. ║ MAIBank

@@ -1,0 +1,10 @@
+^(?:Pokupka|Operaciya).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4})\s+(?:Akod.? \d+\s+)?(.*?)\s+([\d-]{10}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Pokupka na summu 123.50 RUR Karta: *6666 Akod: 143835 MAGNOLIYA RUS 2014-01-14 09:18:34. Dostupno po karte 64 514.72 RUR. SDM-BANK +7(495)7059090.
+
+-----EXAMPLE-----
+Pokupka 259.00 RUR Karta: *6509 KFS-AEROPORT 2018-11-29 19:48:28. Dostupno po karte 12 662.93 RUR. +7(495)7059090.

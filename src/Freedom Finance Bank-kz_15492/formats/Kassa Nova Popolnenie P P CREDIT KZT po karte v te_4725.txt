@@ -1,0 +1,7 @@
+^.*\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*opolnen.*?([\d\s.,]*\d)\s*([A-Z]{1,3})\s+po\s+.*?\*(\d{4})\s+.*stat.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dMy;income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+Kassa Nova 05.05.20 15:24 Popolnenie P2P CREDIT 100000.00 KZT po karte 5504***8156 v terminale P2P HB3 WITHOUT 3D, KZ, ostatok 545959.85 KZT.

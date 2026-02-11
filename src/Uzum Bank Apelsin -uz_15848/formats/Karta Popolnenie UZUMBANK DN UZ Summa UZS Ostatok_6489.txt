@@ -1,0 +1,7 @@
+^.*\*(\d{4}).*opolnen.*?(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]{5,},\s+(.*?)[\s,]*;.*umma.*?([\d\s.,]*\d)\s*([A-Z]{3}).*stat.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;payee;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Karta ****6160; Popolnenie: 06.02.25 09:13, UZUMBANK DN 01158 01, UZ; Summa: 600000.00 UZS; Ostatok: 3466120.02 UZS.

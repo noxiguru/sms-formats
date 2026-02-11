@@ -1,0 +1,10 @@
+^Trans.*?(?:\*{4}|curent)\s+\d*(\d{4})\s+(la\s+(?:cont|card).*?)\s+in\s+sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;comment;outcome;instrument
+
+-----EXAMPLE-----
+Transfer de la cardul **** 9941 la contul curent 22524476096 in suma de 1300,00 MDL ║ MAIBank
+
+-----EXAMPLE-----
+Transfer de la contul curent 22525179438 la cardul **** 3446 in suma de 730.00 USD ║ maibank

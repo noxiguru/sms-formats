@@ -1,0 +1,19 @@
+^.*(?:vedite kod|[Oo]tkaz |[Оо]тказ |ikomu ne|одтвердите оп|икому не).*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+SMS61 Podtverdite vhod v internet-bank. Vvedite kod 552216 . Esli vy ne sovershali vhod, obratites' v Promsvyaz'bank po t. 88003330303
+
+-----EXAMPLE-----
+Karta *2950: Otkaz v operacii Pokupka 3 498.00 RUR;26/08, 18:11;MOSCOW;OSTIN MF.
+
+-----EXAMPLE-----
+803170 - Nikomu ne soobschajte etot SMS-kod. Operaciya po karte *2981 v primroza 12.01.2019 na summu 2 267.59 RUB
+
+-----EXAMPLE-----
+*5803 Отказ Покупка 16640p IP KORNILAEV I.E. Доступно 15623,01p
+
+-----EXAMPLE-----
+PUSH50 Подтвердите операцию: Перевод в ПСБ, 50000 RUR. Введите код 189754 ║

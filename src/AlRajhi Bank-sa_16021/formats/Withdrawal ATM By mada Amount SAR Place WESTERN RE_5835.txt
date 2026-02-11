@@ -1,0 +1,7 @@
+^Withdra.*By:\s*(\d{4}).*mount:\s*([A-Z]{3}|\W)\s*([\d\s.,]*\d).*ate:\s*(\d{2}-\d{2}-\d{2}) .*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;date#yMd
+
+-----EXAMPLE-----
+Withdrawal:ATM By:6569;mada Amount:SAR 700 Place:WESTERN REGION Date:23-06-05 23:01

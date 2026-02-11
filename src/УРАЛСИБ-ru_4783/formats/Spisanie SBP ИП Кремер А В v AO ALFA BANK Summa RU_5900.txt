@@ -1,0 +1,7 @@
+^Spisanie SBP (.*) v .*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}) so? .*?\*(\d{4}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;date#dMy
+
+-----EXAMPLE-----
+Spisanie SBP ИП Кремер А.В.. v AO "ALFA-BANK". Summa 1800.00 RUR so scheta *2946. Ispolneno 26.07.2023 20:21 ║ Уралсиб

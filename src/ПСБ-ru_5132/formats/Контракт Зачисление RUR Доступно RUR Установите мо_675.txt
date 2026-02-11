@@ -1,0 +1,16 @@
+^.*?\*(\d{4})\W?\s*.(?:achis|ачис)(?!.*Back).*?([\d\s.,]*\d)\s*?([а-яa-zA-Z]{1,3})\W?\s*([\d-]{10}|).*(?:ostu|осту).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Контракт *7932: Зачисление 55 555.00 RUR;2013-03-25.Доступно 55 555.00 RUR. Установите мобильный банк PSB-Mobile на смартфон с iOS http://psb.io/PSB-Mobile_iOS или Android http://psb.io/PSB-Mobile_Google
+
+-----EXAMPLE-----
+Kontrakt *9927: Zachisleniye 39 000.00 RUR;2014-07-18.Dostupno 54 787.54 RUR.
+
+-----EXAMPLE-----
+Kontrakt *5456: Zachislenie 54 000.00 RUR;00:00.Dostupno 55 927.22 RUR.
+
+-----EXAMPLE-----
+Контракт *0768 Зачисление 1945,17p Доступно 639799,1p

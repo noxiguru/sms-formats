@@ -1,0 +1,7 @@
+^([\d/]{5}) .*Oper.*usp.*?(\d{4}).*umu\s+\+([\d\s.,]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd/MM;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+29/01 17:32 Operacija uspishna za kartkoiu 47-3377 na sumu +300 UAH SAKHARNOV ANDRII Zalyshok 400 UAH

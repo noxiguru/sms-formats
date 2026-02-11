@@ -1,0 +1,7 @@
+^Od.*okup.*\*(\d{4}).\s+(.*).\s+[\d:]{5}\s+([\d.]{10}).\s+([\d\s.,]*\d)\s([a-zA-Z]{3})(?!.*ostup).*
+
+-----COLUMNS-----
+syncid;payee;date#dd.MM.yyyy;outcome;instrument
+
+-----EXAMPLE-----
+Odobreno Pokupka, Karta **3815, TSENTR TORGOVLI MOLNIYA4, , CHELYABINSK, 12:44 21.04.2016, 149.4 rub

@@ -1,0 +1,7 @@
+^.*urchase.*?([A-Z]{3})\s*([\d\s.,]*\d).*nding\s*(\d{4}) at (.*?)(?:, .*?)?\. Avail.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+You have made a purchase of AED 1,318.68 on your card ending 2652 at TESTGORILLA, +31646255333. Available Balance now is AED 149,274.70.

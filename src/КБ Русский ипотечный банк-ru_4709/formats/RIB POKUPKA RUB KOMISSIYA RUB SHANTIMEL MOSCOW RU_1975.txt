@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+([\d.]{8}).*(?:POKUP|BRON).*?([\d\s.,]*\d)\s*([A-Z]{3}).*OMISS.*?([\d\s.,]*\d)\s*[A-Z]+\s+(.*)\s+DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;fee;payee;av_balance
+
+-----EXAMPLE-----
+RIB 5*8468 03.09.15 16:27 POKUPKA 340.00 RUB KOMISSIYA 0.00 RUB SHANTIMEL (MOSCOW,RU) DOSTUPNO 69794.25 RUB

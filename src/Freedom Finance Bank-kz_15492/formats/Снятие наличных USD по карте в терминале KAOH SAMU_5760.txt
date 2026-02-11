@@ -1,0 +1,7 @@
+^(?:Snyat|Снят).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*?\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;syncid#cash;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Снятие наличных 143.54 USD, по карте 5269********6226 в терминале KAOH SAMUI BRANCH,SURATTHANITH 28.02.23 11:56:21 остаток по карте 245 241.05 KZT ║ BANKFFIN

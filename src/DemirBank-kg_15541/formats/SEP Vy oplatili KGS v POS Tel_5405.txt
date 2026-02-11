@@ -1,0 +1,10 @@
+^([\d]{2}[- /](?:\w+|\d{2})[- /]\d{2,4}) (?:[\d:]+ )?(?:Vy op|[Tt]rans).*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;outcome;instrument
+
+-----EXAMPLE-----
+13-SEP-22 Vy oplatili 894.74 KGS v POS.Tel:+1234567890
+
+-----EXAMPLE-----
+14/10/2023 12:21 transactsiya: 11.00 KGS .Tel: 1234567890

@@ -1,0 +1,7 @@
+^.*?\*(\d{3,4}) zachis.*?bonusy([\d\s.,]*\d)\s*([A-Z]{3})$
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Po vashemu schetu K**219 zachisleny bonusy 3088.27 KZT

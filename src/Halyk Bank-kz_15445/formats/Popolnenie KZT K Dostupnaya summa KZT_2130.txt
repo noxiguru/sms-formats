@@ -1,0 +1,13 @@
+^([\d-]{10}).*(?:erevod na |opolnen).*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{3,4}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#yyyy-MM-dd;income;instrument;syncid;av_balance
+
+-----EXAMPLE-----
+2015-12-10 00:00:00 Popolnenie 216012.41 KZT K**649 Dostupnaya summa:248339.93 KZT
+
+-----EXAMPLE-----
+2018-11-09 00:00:00 Popolnenie 46314.58 KZT K**717 Dostupnaya summa:153400.19 KZT
+
+-----EXAMPLE-----
+2018-11-20 10:25:10 Operaciya po karte Perevod na kartu 40425.00 KZT P2P HB3 INNER 3D 400303**4160 Dostupnaya summa: 152770.11 KZT

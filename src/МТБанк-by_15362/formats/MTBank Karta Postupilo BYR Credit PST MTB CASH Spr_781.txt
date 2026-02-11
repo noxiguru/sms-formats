@@ -1,0 +1,7 @@
+^.*?\*(\d{4}) Postupilo (\d[\d\s.]+) ([A-Z]{3}) ([\d-]{8}) [\d:]+ (.*?) Spravka:.*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd-MM-yy;payee
+
+-----EXAMPLE-----
+MTBank. 12/04 14:53.Karta 5***5296 Postupilo 10 000.00 BYR 12-04-13 14:53 Credit PST 017 MTB CASH Spravka: 80172899292

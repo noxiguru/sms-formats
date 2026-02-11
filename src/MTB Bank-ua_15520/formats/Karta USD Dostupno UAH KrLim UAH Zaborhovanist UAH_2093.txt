@@ -1,0 +1,7 @@
+^.*\*\d*(\d{4}):\s*-([\d\s.,]+\s*)\s*([A-Z]{3})\s+(?:\(([\d\s.,]*\d)\)\s+)?.ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*(\d{4}-[\d-]{5}).*?\]\s*(?!.*ATM)(.*)\s+Tel:.*
+
+-----COLUMNS-----
+syncid;op_outcome;instrument;outcome;av_balance;acc_instrument;date#yMd;payee
+
+-----EXAMPLE-----
+Karta *1291: -2.20 USD (59.40) Dostupno: 73.81 UAH KrLim:2000.00 UAH Zaborhovanist:0.00 UAH [2021-11-19 15:30:33] ALIEXPRESS.COM Luxembourg LU Tel:0800500255

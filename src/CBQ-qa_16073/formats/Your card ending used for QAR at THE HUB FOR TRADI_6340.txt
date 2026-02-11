@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+used\s+for\s+([A-Z]{3})\s*([\d\s.,]*\d)\s+at\s+(.*?)\s+at\s+[\d:]+\s+([\d]{2}[-\s+](?:\w+|\d{2})[-\s+]\d{2,4}).*vail.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dMy;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your card ending **1234 used for QAR 25.50 at THE HUB FOR TRADING at 19:55 27-Sep-24 Available Limit: QAR 12,345.67

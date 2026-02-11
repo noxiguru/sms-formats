@@ -1,0 +1,7 @@
+^Зачислен.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+на\s+карт.*?(\d{4}).*стат.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+income;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Зачисление 20.80 RUB на карту *7951. Остаток: 62.64 RUB

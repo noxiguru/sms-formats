@@ -1,0 +1,7 @@
+^Вы зап.*?([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W? в (.*?) .арт.*?(\d{4}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+Вы заплатили 359.2 р. в MINDAL - 7 картой *6486.

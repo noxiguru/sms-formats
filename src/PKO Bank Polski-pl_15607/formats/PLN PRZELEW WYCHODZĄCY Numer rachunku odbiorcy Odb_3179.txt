@@ -1,0 +1,28 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3})\s+(?:PŁATNO|PRZEL|NADANIE\s+PR|Wymiana\s+w\s+kant|Obciąż|Przelew\s+(?:na\s+t|z\s+(?:kont|kart))).*(?:eceiver|dbiorca|DO\s+ORG\.?):?\s+(.*?)\s+(?:(?:Title|Tytuł)):\s+(.*?)(?:Na\s+rach|On\s+acc).*?(\d{4})\D.*\s+(\d{4}-\d{2}-\d{2})\s+.*
+
+-----COLUMNS-----
+outcome;instrument;payee;comment;syncid;date#yMd
+
+-----EXAMPLE-----
+-130,00 PLN PRZELEW WYCHODZĄCY Numer rachunku odbiorcy: 1234567890 Odbiorca: RIO GRAPPLING CLUB    Tytuł: TARAN KYRYLO. KARNET CZERWIEC.   Na rachunku 32..7759. Data waluty: 2020-06-04 ║ Obciążenie rachunku
+
+-----EXAMPLE-----
+-1,20 PLN PRZELEW PŁATNOŚĆ ZA PARKING   Odbiorca: MOBILE-TRAFFIC-DATA SP. Z O. O.  UL. DRUŻBICKIEGO 11 61-693 POZNAŃ  Tytuł: ZAKUP BILETU PARKINGOWEGO   Na rachunku 31..7970. Data waluty: 2020-10-26 ║ Obciążenie rachunku
+
+-----EXAMPLE-----
+-10,96 PLN PRZELEW WYCHODZĄCY   Receiver Account: 28..2442 Receiver: MIKHAIL GUZELEVICH    Title: PRZELEW ŚRODKÓW   On account no. 68..4809  Value date: 2021-06-04 ║ Account debit
+
+-----EXAMPLE-----
+-190,00 PLN Przelew na telefon - wysłany Receiver Account: 08..7535 Receiver: SAHANYA Title: MOBILE TRANSFER OD: 48781393728 DO: 48453482018 On account no. 05..9635 Value date: 2024-08-30 ║ Account debit
+
+-----EXAMPLE-----
+-50,00 PLN Przelew na telefon - wysłany Numer rachunku odbiorcy: 70..8337 Odbiorca: ELZA Tytuł: PRZELEW NA TELEFON OD: 48532004562 DO: 48538906840 Na rachunku 95..6997 Data waluty: 2024-08-28 ║ Obciążenie rachunku
+
+-----EXAMPLE-----
+-4201,28 PLN Przelew z konta Receiver Account: 43..1160 Receiver: EWELINA PRUSZYŃSKA-BIELAWKA Title: CZYNSZ WRZESIEŃ On account no. 78..5957 Value date: 2024-08-30 ║ Account debit
+
+-----EXAMPLE-----
+-40,00 PLN Przelew z konta Numer rachunku odbiorcy: 67..1658 Odbiorca: DZMITRY SHUBKIN Tytuł: PRZELEW DO DZIECKA Na rachunku 42..5634 Data waluty: 2024-08-22 ║ Obciążenie rachunku
+
+-----EXAMPLE-----
+-400,00 EUR Wymiana w kantorze - obciążenie Receiver Account: 36..7425 Receiver: PAVEL PAULAVETS UL. ZASLAVSKAYA 35 M.36 MIŃSK Title: FX61261926 EUR/PLN 4.2624 1 704,96 PLN -400,00 EUR On account no. 53..7559 Value date: 2024-08-29 ║ Account debit

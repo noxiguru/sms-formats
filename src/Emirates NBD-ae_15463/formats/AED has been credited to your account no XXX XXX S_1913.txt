@@ -1,0 +1,7 @@
+^.*([A-Z]{3})\s+([\d\s.,]*\d).*(?:credited|deposited)\s+to.*?([-\dX]{15})\.?\s+(?!alanc).*
+
+-----COLUMNS-----
+instrument;income;syncid
+
+-----EXAMPLE-----
+AED 873.51 has been credited to your account no. 101-XXX83XXX-01 SB REF. 6196505

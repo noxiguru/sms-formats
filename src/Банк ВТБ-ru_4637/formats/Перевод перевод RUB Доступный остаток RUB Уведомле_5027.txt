@@ -1,0 +1,13 @@
+^.*?-([\d\s.,]*\d)\s*([A-Z]{3})\W?\s+.(?:vail|осту).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+outcome;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Перевод: перевод -10000 RUB. Доступный остаток: 148492.35 RUB ║ Уведомления
+
+-----EXAMPLE-----
+Transfer: transfer -2000 RUB. Available balance: 72533.47 RUB ║ Notifications
+
+-----EXAMPLE-----
+-500 RUB. Доступный остаток: 47153.73 RUB ║ Уведомления

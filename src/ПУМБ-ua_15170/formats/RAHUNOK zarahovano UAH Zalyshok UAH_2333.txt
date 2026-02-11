@@ -1,0 +1,7 @@
+^RAHUN.*?(\d{4}).\s+([\d.]{10}).\s+zarahov.*?([\d\s.,]*\d)\s*([A-Z]{3}).*alysh.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+RAHUNOK 1234567890, 28.03.2016, zarahovano 610.00 UAH. Zalyshok 611.38 UAH.

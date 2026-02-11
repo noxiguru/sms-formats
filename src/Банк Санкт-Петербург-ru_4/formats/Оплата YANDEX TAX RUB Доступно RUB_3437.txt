@@ -1,0 +1,16 @@
+^.*\*(\d{4}) (?:Оплата|Oplata|Квази.*?нал\S*)\s+(.*?):([\d\s.,]*\d)\s*([a-zA-Z]{3}) ([\d.]{5}) .*(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;date#dd.MM;av_balance
+
+-----EXAMPLE-----
+*0376 Оплата YANDEX.TAX: 1218RUB 06.02 07:11 Доступно 163218.96RUB
+
+-----EXAMPLE-----
+*5354 Oplata BONAPE: 129RUB 17.04 09:03 Dostupno 6136.89RUB
+
+-----EXAMPLE-----
+*3081 Оплата TAKSIM PEH: 54trl 13.06 20:59 Доступно 111573.81RUB
+
+-----EXAMPLE-----
+*1816 Квази наличные YANDEX.MON: 1265.31RUB 25.07 07:53 Доступно 2951.92RUB

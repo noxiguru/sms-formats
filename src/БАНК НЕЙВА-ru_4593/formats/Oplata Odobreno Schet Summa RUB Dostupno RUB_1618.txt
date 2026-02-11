@@ -1,0 +1,16 @@
+^(?:Oplata|Оплата|Spisanie|Списание) .*?\*(\d{4})\s+.(?:um|ум).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:ostu|осту).*?(-?[\d\s.,]*\d).* (\d{2}[-./]\d{2}[-./]\d{2,4})\D.*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dMy
+
+-----EXAMPLE-----
+Oplata  Odobreno: 748204 Schet: 4081781*1743 Summa: 300.00 RUB Dostupno 399924.14 RUB 11.03.2015, 17:34:23
+
+-----EXAMPLE-----
+Оплата МТС Счёт *7477 Сумма 3500.00 RUB Mobile Bank "Neyva" Доступно 63492.34 RUB 04.07.2019, 12:04
+
+-----EXAMPLE-----
+Списание через СБП Счёт *7477 Сумма 2000.00 RUB Для Александр Викторович П В Тинькофф Банк Доступно 23490.82 RUB 20.04.2020, 20:22
+
+-----EXAMPLE-----
+Oplata Po nomeru scheta Schet *4195 Sum 27300.00 RUB Mobile Bank "Neyva" Dostupno 28926.72 RUB 06.08.2020, 10:25

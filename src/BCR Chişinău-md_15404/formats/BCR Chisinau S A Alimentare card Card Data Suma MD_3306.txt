@@ -1,0 +1,7 @@
+^.*liment.*ard.*?(\d{4}) .* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*(?:uma|moun).*?([\d\s.,]*\d)\s*([A-Z]{3}).*(?:old|alan).*?(-?[\d\s.,]*\d).*etai?l\w+:\s+(.*)
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;av_balance;comment
+
+-----EXAMPLE-----
+BCR Chisinau S.A. Alimentare card Card: 5398...5235 Data:    15.11.2017 12:58 Suma:  6315.95 MDL Sold: 6341.12 MDL Detalii: FILE_BCR Alimentarea prin border

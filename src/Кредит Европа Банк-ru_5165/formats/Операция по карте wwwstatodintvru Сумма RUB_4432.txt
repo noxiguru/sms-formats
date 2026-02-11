@@ -1,0 +1,7 @@
+^Опер.*#\s*(\d{4})\s+(.*) Сумм.*?([A-Z]{3})\s*([\d\s.,]*\d) ([\d/]{8}) .*
+
+-----COLUMNS-----
+syncid;payee;instrument;outcome;date#dd/MM/yy
+
+-----EXAMPLE-----
+Операция по карте #5051 wwwstatodintvru Сумма RUB 250.00 21/11/19 01:06

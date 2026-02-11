@@ -1,0 +1,7 @@
+^Popolnenie[^:]*: ([\d.]{10}).*?\*(\d{4}) summa:([\d\s.,]*\d)([A-Z]{3}) dostupno:([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;av_balance
+
+-----EXAMPLE-----
+Popolnenie scheta: 07.07.2013 16:34 karta: **9133 summa:25000.00RUB dostupno:51546.82RUB limit kredita:30000.00 RUB

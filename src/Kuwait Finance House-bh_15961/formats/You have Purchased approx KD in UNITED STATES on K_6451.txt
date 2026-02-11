@@ -1,0 +1,7 @@
+^.*urchased.*?(\W+|[A-Z]{2,3})\s*([\d\s.,]*\d)\s+in\s+(.*?)\s+on\s+.*?ard.*?x+(\d{3,4}).*
+
+-----COLUMNS-----
+instrument;outcome;payee;syncid
+
+-----EXAMPLE-----
+You have Purchased approx KD 1.919 in UNITED STATES on KNET Card - xx103 - For query pls call 1803333

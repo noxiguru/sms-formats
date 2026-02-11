@@ -1,0 +1,7 @@
+^(.{4}).*nyatie ([\d\s.,]*\d)\s*([A-Z]{3}).*Bal.?\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+5*05 19:22 Snyatie 2000.00RUR (ATM 254622 6 KOMSOMO). Bal:6315.16RUR

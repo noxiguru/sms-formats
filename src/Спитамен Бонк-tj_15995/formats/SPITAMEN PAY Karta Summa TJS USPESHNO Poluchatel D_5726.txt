@@ -1,0 +1,7 @@
+^.*\*(\d{4}) .umma.*?([\d\s.,]*\d)\s*([A-Z]{3}) - USPE.*oluchat\w+:\s+(.*?)\s+.ata.*?(\d{2}[-./]\d{2}[-./]\d{2,4}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy
+
+-----EXAMPLE-----
+SPITAMEN PAY Karta: 460765******5215 Summa: 239.50 TJS - USPESHNO Poluchatel: 26084.44 Data: 17.04.2023 11:14:31 Kod operatsii: 18959334

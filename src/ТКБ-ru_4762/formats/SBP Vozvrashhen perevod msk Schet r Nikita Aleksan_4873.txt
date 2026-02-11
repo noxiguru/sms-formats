@@ -1,0 +1,7 @@
+^.*(.ozvra.*?)\W? .chet.*?(\d{4})\W? ([\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3})\W?\s+(.*?) v .*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee
+
+-----EXAMPLE-----
+SBP. Vozvrashhen perevod 17:11 (msk). Schet *1505. 650 r. Nikita Aleksandrovich ZH v AO "TIN'KOFF BANK".

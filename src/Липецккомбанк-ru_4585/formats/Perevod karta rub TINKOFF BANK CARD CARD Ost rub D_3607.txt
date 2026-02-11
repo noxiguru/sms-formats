@@ -1,0 +1,7 @@
+^Perevod.*?([\d.]{10}).*?\*(\d{4}).*?-([\d\s.,]*\d)\s*([a-zA-Z]{3}).*ost\.?.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Perevod 20:25 26.03.2018 karta 5*1738 -7 000.00 rub. TINKOFF BANK CARD2CARD  > Ost. 1 509.64 rub. Dost. 1 509.64 rub.

@@ -1,0 +1,7 @@
+^Broug.*ard (\d{4}) was used at (.*?) in .*? for ([A-Z]{3}|\W)\s*([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;instrument;outcome
+
+-----EXAMPLE-----
+Brought to you by ECU Cards: Card 4865 was used at Wise in 188-89083833 USA for $9.00.

@@ -1,0 +1,10 @@
+^.*statok\s+([\d.]{10}).*\*(\d{4}).*ostu.*?(-?[\d\s.,]*\d).*\(\+([\d\s.,]*\d)\s*([A-Z]{3})\).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;av_balance;income;instrument
+
+-----EXAMPLE-----
+! Ostatok 19.08.2013 13:34 schet: 42301810****3950 dostupno:  57046.19 RUB (+32000.00 RUB) Tel:+73432645564 www.ubrr.ru
+
+-----EXAMPLE-----
+!Ostatok  10.10.2016 18:32  schet:  42301810****3554  dostupno:  30304.74 RUB  (+30299.00 RUB)  Tel:88001000200  Internet-bank: i.ubrr.ru

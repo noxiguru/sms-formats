@@ -1,0 +1,7 @@
+^Выдача н.*?(\d{4}). У.*мма.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Баланс.*?(-?[\d\s.,]*\d).*(\d\d\.[\d.]{7}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Выдача наличных *1857; Уcпешно; Cумма: 300.00 RUR; Баланс: 1 249.05 RUR; ATM 46 KUBAN-CREDIT; 05.03.2015 17:24:33

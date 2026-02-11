@@ -1,0 +1,7 @@
+^Povern.*?([\d.]{10}).*?(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+(.+)\s+dostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yyyy;syncid;income;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Povernennja sumy: 11.10.2015 15:54:40 Visa Fishka Reward/318917 287.00 UAH K MY COFFEE dostupna suma 1480.97 UAH

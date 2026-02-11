@@ -1,0 +1,7 @@
+^.*achislen.*(CashBack.*?)\..*art.*?(\d{4}).*ashback.*?([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument
+
+-----EXAMPLE-----
+Vam zachislen CashBack za pokupki po programme 'Moy bonus'. Karta 8339. Cashback za 03-2018: 221.35 RUR. . Info o programme: bm.ru/rd/005/

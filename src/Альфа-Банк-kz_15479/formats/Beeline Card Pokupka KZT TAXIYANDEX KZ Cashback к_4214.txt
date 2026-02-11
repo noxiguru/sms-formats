@@ -1,0 +1,16 @@
+^.*?\*(\d{3,4}) [\d:]{8} (\d{2}[-./]\d{2}[-./]\d{2,4}) .(?:окуп|okup).*?([\d\s.,]*\d)\s*([а-яA-Z]{1,3}|\W) (?:\d{8,} )?(.*?)(?: .(?:эшб|ashb).*?)?\s*.(?:осту|ostu).*?(-?[\d\s.,]*\d)\s*([а-яa-zA-Z]{1,3}).*
+
+-----COLUMNS-----
+syncid;date#dMy;outcome;instrument;payee;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Beeline Card  5194***7871 09:23:09 26.03.19 Pokupka 560.00 KZT 825187   TAXIYANDEX_KZ          Cashback к начислению 5%: 28.00 KZT Dostupno: 25,005.38 KZT
+
+-----EXAMPLE-----
+Beeline Card  5194***3770 18:45:54 19.01.20 Покупка: 8.79 $  ALIEXPRESS.COM         Cashback к начислению 1.5%Доступно: 2,514.34 KZT
+
+-----EXAMPLE-----
+Beeline Card 5194***2319 13:40:32 31.12.19 Покупка: 3,630.00 KZT 01000745 TOO CASPIAN FOOD Кэшбэк к начислению 1.7%: 61.71 KZT Доступно: 7,008.19 KZT
+
+-----EXAMPLE-----
+Beeline Card 5194***9758 10:51:12 08.06.20 Покупка: 42,470.00 KZT 25900119 www.wildberries.kz Доступно: 39,504.76 KZT

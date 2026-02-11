@@ -1,0 +1,13 @@
+^.*ard.*?(\d{4}).*used for ([A-Z]{3})\s*([\d\s.,]*\d).* on (\w{3}\s+\d{1,2}\s+\d{4}) .* at\s+(.*?)\. Avl.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;instrument;outcome;date#MMM dd yyyy;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Your debit card XXX5992 linked to acc. XXX132001 was used for AED36.00 on Sep 11 2017 12:32PM at ZOOM MARKET 659,AE. Avl.Bal AED 5606.13.
+
+-----EXAMPLE-----
+Your debit card XXX2585 linked to acc. XXX141001 was used for AED91.45 on Oct  3 2017  6:49PM at AD CO OP  SPAR,AE. Avl.Bal AED 16400.04.
+
+-----EXAMPLE-----
+Your debit card XXX0728 linked to acc. XXX920001 was used for AED36.99 (plus foreign transaction fee of 1.05%) on Nov 1 2023 4:16PM at APPLE.COMBILL,IE. Avl.Bal AED 30011.66.

@@ -1,0 +1,7 @@
+^.*арт.*?(\d{4}).*?([\d.]{10}).*?ополнен.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ATM.*оступн.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 6784: 25.01.2016 00:45, пополнение 14500.00 RUR, ATM146254, NOVOSIBIRSK, DUSI KOVALCHUK D.250. Доступно 14500.00 RUR.

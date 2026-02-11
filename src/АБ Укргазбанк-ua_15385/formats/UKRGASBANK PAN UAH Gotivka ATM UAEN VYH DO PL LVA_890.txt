@@ -1,0 +1,7 @@
+^.*?#(\d{4})\s+([\d\s.,]*\d)\s*([A-Z]{3})\s+Gotivka.*([\d/]{10}).*Dostupno: ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dd/MM/yyyy;av_balance
+
+-----EXAMPLE-----
+UKRGASBANK            PAN#4497 200 UAH Gotivka ATM UAEN0353 VYH.DO PL. LVA TOLSTOHO KYIV UA 08/07/2013 10:38:55 Dostupno: 623.27 UAH Vsogo: 648.7 UAH

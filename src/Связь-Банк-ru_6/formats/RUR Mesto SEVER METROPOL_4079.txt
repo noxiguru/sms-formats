@@ -1,0 +1,7 @@
+^-([\d\s.,]*\d)\s*([A-Z]{3}).*esto\W?\s+(.*?)\s+([\d-]{10}).*
+
+-----COLUMNS-----
+outcome;instrument;payee;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+- 328.00RUR Mesto: SEVER-METROPOL  2019-02-05 18:02:03

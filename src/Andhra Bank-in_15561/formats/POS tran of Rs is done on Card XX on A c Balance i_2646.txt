@@ -1,0 +1,7 @@
+^POS tran of\s+([a-zA-Z]{2,3})\.?\s*([\d\s.,]*\d).*?done.*ard.*?(\d{4})\s+on\s+([\d-]{10}).*alan.*?\.?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;date#dd-MM-yyyy;av_balance
+
+-----EXAMPLE-----
+POS tran of Rs. 800 is done on Card XX2407 on 24-09-2016. A/c Balance is Rs. 39124.54 .

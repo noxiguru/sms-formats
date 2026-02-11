@@ -1,0 +1,10 @@
+^.*Payment_OK.*?([\d\s.,]*\d)\s*([A-Z]{3}).*([\d-]{10}).*Card.*?(\d{4}) .*Available a.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#yyyy-MM-dd;syncid;av_balance
+
+-----EXAMPLE-----
+CH Payment_OK Authorization 3,970.00 UAH at Kyiv time 2016-03-21 22:21:16
+Card=4**5914 in UKR Visa Direct
+(GOROPASHNY)
+Available amount 6,750.10 UAH

@@ -1,0 +1,7 @@
+^Отмена оп.*?([\d\s.,]*\d)\s*([А-ЯA-Z]{3}) в (.*)
+
+-----COLUMNS-----
+income;instrument;comment
+
+-----EXAMPLE-----
+Отмена операции на сумму 100.41 РУБ в LUKOIL AZS 16110 URNP

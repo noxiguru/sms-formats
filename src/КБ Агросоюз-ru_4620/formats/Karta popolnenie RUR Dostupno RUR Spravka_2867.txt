@@ -1,0 +1,7 @@
+^.*?(\d{4}).*([\d.]{10}).*(?:ополнение|opolnenie).*?([\d\s.,]*\d)\s*([A-Z]{3})\.\s+(?:Остат|Dostu).*?([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;income;instrument;av_balance
+
+-----EXAMPLE-----
+Karta 4421: 17.02.2017 17:21, popolnenie 20000.00 RUR.  Dostupno 20000.00 RUR. Spravka: 88005550091

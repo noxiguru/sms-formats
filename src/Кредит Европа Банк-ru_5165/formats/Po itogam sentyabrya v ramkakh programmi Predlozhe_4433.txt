@@ -1,0 +1,7 @@
+^Po itogam.* na .*?#\s*(\d{4}) .achisl.*?([\d\s.,]*\d)\s*([a-zA-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument
+
+-----EXAMPLE-----
+Po itogam sentyabrya 2019 v ramkakh programmi Predlozheniya Partnerov po karte CARD PLUS v sety LENTA na Vash schet #2716 zachisleno 362,95rub. AO Kredit Evropa Bank(Rossiya)

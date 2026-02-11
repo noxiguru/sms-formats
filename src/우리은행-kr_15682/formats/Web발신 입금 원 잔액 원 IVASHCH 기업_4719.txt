@@ -1,0 +1,7 @@
+^.* (\d{4}/\d{2}/\d{2}) .*(?:입금|RCV)\s+([\d\s.,]*\d)\s*([A-Z]{3}|\S)\s+(?:잔액|BAL).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}|\S)\s+(.*)\s+\d+\*+\d*(\d{4}) .*
+
+-----COLUMNS-----
+date#yMd;income;instrument;av_balance;acc_instrument;payee;syncid
+
+-----EXAMPLE-----
+[Web발신] 2021/08/06 02:45 입금 2원 잔액 4,962,045원 IVASHCH 665***08301015 기업

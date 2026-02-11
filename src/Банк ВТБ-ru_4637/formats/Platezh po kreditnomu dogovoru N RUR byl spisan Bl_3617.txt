@@ -1,0 +1,7 @@
+^(Platez.*\*\d*(\d{4}).*?)\s+([\d\s.,]*\d)\s*([A-Z]{3}).*pisan\s+([\d.]{8}).*
+
+-----COLUMNS-----
+comment;syncid;outcome;instrument;date#dd.MM.yy
+
+-----EXAMPLE-----
+Platezh po kreditnomu dogovoru N*00697-15 28334.00 RUR byl spisan 20.03.18. Blagodarim Vas za pol'zovanie nashimi uslugami!

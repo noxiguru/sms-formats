@@ -1,0 +1,7 @@
+^.*[Kk]od [\d-]*\d{4}.*
+
+-----COLUMNS-----
+
+
+-----EXAMPLE-----
+Kod 57-5453 Online platezh N11 ot 30.09.22 na summu 104850.00 RUB so scheta: 1234567890 na schet: 1234567890

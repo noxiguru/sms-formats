@@ -1,0 +1,7 @@
+^.*신한\s*(\d{2}/\d{2}) [\d:.]+ [*\d-]+(\d{4}) 입금 ([\d\s.,]*\d) 잔액 (-?[\d\s.,]*\d) (.*)
+
+-----COLUMNS-----
+date#Md;syncid;income;av_balance;payee
+
+-----EXAMPLE-----
+[Web발신] 신한12/13 18:26 110-530-371330 입금 500,000 잔액 514,112 KIM ARTUR YAKO

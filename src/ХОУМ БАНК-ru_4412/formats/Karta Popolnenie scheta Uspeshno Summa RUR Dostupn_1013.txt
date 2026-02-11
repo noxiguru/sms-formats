@@ -1,0 +1,7 @@
+^.*\*(\d{4}).\s+Popolnenie.*Uspeshno.\s+Summa.\s+([\d\s.,]*\d)\s+([A-Z]{3}).*([\d.]{10}).\s+Dostupno.\s+([\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;income;instrument;date#dd.MM.yyyy;av_balance
+
+-----EXAMPLE-----
+Karta: *8537; Popolnenie scheta; Uspeshno; Summa: 2747.7 RUR; 17.10.2013; Dostupno: 121307.85 RUR.

@@ -1,0 +1,7 @@
+^.*?(\d{4}):\s+(?:spis|zapr).*?(\d[\d\s.,]*)\s*([A-Z]{3}).*dostupno\s+(-?[\d\s.,]*\d).*([\d/]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;av_balance;date#dd/MM/yyyy
+
+-----EXAMPLE-----
+Schet *0015: spisanie 355964.38 RUB; dostupno 3035.62 RUB; 16/12/2014 01:42.VTB24

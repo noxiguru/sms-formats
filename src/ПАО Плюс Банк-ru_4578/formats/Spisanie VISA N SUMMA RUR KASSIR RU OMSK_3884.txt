@@ -1,0 +1,7 @@
+^Spisan.*?(\d{4}) SUM.*?([\d\s.,]*\d)\s*([A-Z]{3});\s*(.*?);\s*([\d-]{10}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#yyyy-MM-dd
+
+-----EXAMPLE-----
+Spisanie  VISA N 8015 SUMMA 1 100,00 RUR;  KASSIR.RU OMSK; 2018-09-01 12:44:05

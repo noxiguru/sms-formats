@@ -1,0 +1,7 @@
+^.*?(\d{4})\D? ([\d.]{8}) .*(?:писан|плат|plat|pisan).*?([\d\s.,]*\d)\s*([A-Z]{3})\. .(?:осту|ostu).*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta MIR 9612: 28.11.17 10:12 Spisanie 24000.00 RUR. Dostupno 249.33 RUR.

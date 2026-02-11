@@ -1,0 +1,7 @@
+^.*?zachisleno ([\d\s.,]*\d) ([A-Z]{3}). Data ([\d-]{10}).*Dostupno ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;date#yyyy-MM-dd;av_balance
+
+-----EXAMPLE-----
+Na schet Vashey karty Renaissance Credit zachisleno 11 000.00 RUR. Data 2013-08-27 00:11:25. Dostupno 11 222.81 RUR. Renaissance Credit

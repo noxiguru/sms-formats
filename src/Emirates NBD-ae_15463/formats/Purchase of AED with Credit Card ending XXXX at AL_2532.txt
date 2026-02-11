@@ -1,0 +1,19 @@
+^.*urchase.*?([A-Z]{3})\s*([\d\s.,]*\d).*?ending.*?(\d{4})\s+at\s+(.*?)\.\s+.*(?:Bal|imit|alan).*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+instrument;outcome;syncid;payee;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Purchase of AED 1,300.00 with Credit Card ending XXXX91805 at AL ALIAA POLYCLINIC, DUBAI. Avl Cr. Limit is AED 75,561.33
+
+-----EXAMPLE-----
+Purchase of AED 50.00 with Credit Card ending 8742 at THRILL ZONE GAME LLC, DUBAI. Avl Cr. Limit is AED 8,384.48
+
+-----EXAMPLE-----
+Purchase of AED 380.00 with Debit Card ending 6663 at Du, Dubai. Avl Balance is AED 476,303.28.
+
+-----EXAMPLE-----
+Purchase of AED 41.43 with Debit Card ending 6663 at WIX.COM*121529458, 1234567890. Avl Bal is AED 450,561.24. Pls refer stmt for exact amt
+
+-----EXAMPLE-----
+Online Purchase of SAR 23 with GlobalCash Card ending 2931 at Mobily\Riyadh. Avl Bal is SAR 239.13.

@@ -1,0 +1,7 @@
+^(?:Покупка|Pokupka).*(\d{4}) (?:Сумма|Summa). ([\d\s.,]*\d) ([A-Z]{3}).*?([\d.]{8}).*?(?:Mесто|Mesto). (.*) (?:Доступно|Dostupno). (-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dd.MM.yy;payee;av_balance
+
+-----EXAMPLE-----
+Покупка по карте *2670 Сумма: 960 RUB. Дата: 24.12.13 10:47:41 Mесто: CITILINK.RU SHOP MOSCOW RU  Доступно: 14488.84 RUB. Предварительное количество бонусных баллов: 96

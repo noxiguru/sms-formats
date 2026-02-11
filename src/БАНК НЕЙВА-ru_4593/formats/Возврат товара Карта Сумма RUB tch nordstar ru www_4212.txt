@@ -1,0 +1,7 @@
+^((?:Возвра|Vozvra).*?)\s+.(?:арт|art).*?(\d{4}).*умм.*?([\d\s.,]*\d)\s*([A-Z]{3})\s+(.*?)\s+.(?:осту|ostu).*?(-?[\d\s.,]*\d).*([\d.]{10}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;payee;av_balance;date#dd.MM.yyyy
+
+-----EXAMPLE-----
+Возврат товара № Карта *4697 Сумма 1500.00 RUB tch.nordstar.ru www.nordstar.​ Доступно 66992.34 RUB 01.07.2019

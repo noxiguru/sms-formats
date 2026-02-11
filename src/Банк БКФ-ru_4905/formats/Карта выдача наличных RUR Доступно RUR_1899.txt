@@ -1,0 +1,7 @@
+^.*(\d{4}):\s+([\d.]{10}).*ыдача н.*?([\d\s.,]*\d)\s*([A-Z]{3}).*Досту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;date#dd.MM.yyyy;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Карта 4252: 24.07.2015 13:23, выдача наличных 1 RUR. Доступно 1 RUR.

@@ -1,0 +1,7 @@
+^Izm.*?\+([\d\s.,]*\d)\s*([a-zA-Z]{3}).*Dost.\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+income;instrument;av_balance
+
+-----EXAMPLE-----
+Izmenenie balansa:  +15.64 rub. postuplenie.  Ost. 8 549.19 rub.  Dost. 27 049.19 rub.

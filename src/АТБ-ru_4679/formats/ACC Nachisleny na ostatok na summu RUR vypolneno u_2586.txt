@@ -1,0 +1,7 @@
+^.*?\*(\d{4})\s+([\d.]{10}).*achisleny.*?\s+(.+?)\s+na sum.*?([\d\s.,]*\d)\s*([A-Z]{3}).*peshn(?!.*ostu).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;comment;income;instrument
+
+-----EXAMPLE-----
+ACC: *8349 21.08.2016 02:12:15. Nachisleny %+na ostatok na summu: 172.59 RUR vypolneno uspeshno.

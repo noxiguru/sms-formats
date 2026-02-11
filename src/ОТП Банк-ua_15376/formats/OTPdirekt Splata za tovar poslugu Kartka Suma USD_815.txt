@@ -1,0 +1,7 @@
+^(?!.*VIDMINA).*([\d.]{8}).*?Splata.*?Kartka .(\d{4}).*?([\d\s.,]*\d)([A-Z]{3}).*?([\d\s.,]*\d).*?Misce: (.*?). Zalyshok: ([\d\s.,]*\d).*
+
+-----COLUMNS-----
+date#dd.MM.yy;syncid;op_outcome;instrument;outcome;payee;av_balance
+
+-----EXAMPLE-----
+OTPdirekt:15.05.13 18:35: Splata za tovar/poslugu. Kartka *6452. Suma: -132,97USD (-1.077,66UAH). Misce: UNDER ARMOUR DIRECT VI BALTIM. Zalyshok: 12.098,86UAH.

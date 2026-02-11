@@ -1,0 +1,13 @@
+^((?:Viplat|Выплат|Vash [kc]|Ваш к).*?) (?:po kar|по кар)\w+ \**(\d{4})\W? \+([\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument
+
+-----EXAMPLE-----
+Viplata procentov na ostatok po karte 6877, +986.29 RUB
+
+-----EXAMPLE-----
+Vash cashback po karte 5634, +2 961.92 RUB
+
+-----EXAMPLE-----
+Vash keshbek po karte **2670, +854.53 RUB

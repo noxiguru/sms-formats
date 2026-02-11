@@ -1,0 +1,7 @@
+^Isplata\s+na\s+bankom.*kart.\s+\d+_(\d{4})\s+/\s+Iznos.*?([A-Z]{3})\s*([\d\s.,]*\d)\s+/\s+Rasp.*?([A-Z]{3})\s*(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid#cash;instrument;outcome;acc_instrument;av_balance
+
+-----EXAMPLE-----
+Isplata na bankomatu: ATM POSTA 11911 / BEOGRAD RS / Br.kart. 535174_7521 / Iznos: RSD 30.000,00 / Raspolozivo: RSD 120.000,00

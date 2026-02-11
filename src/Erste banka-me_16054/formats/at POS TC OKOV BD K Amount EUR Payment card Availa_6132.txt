@@ -1,0 +1,7 @@
+^(\d{2}[-./]\d{2}[-./]\d{2,4}).*POS:\s+(.*?);\s+Amoun.*?([\d\s.,]*\d)\s*([A-Z]{3}).*\*(\d{4}).*vail.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+date#dMy;payee;outcome;instrument;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+03.02.24 at 09:14; POS: TC OKOV BD-605-K; Amount: 6,58 EUR; Payment card: 537433***3458; Available funds: 592,52 EUR.

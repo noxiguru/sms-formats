@@ -1,0 +1,7 @@
+^Priliv\s+(sa\s+.*?)\s+na\s+.*?(\d{4})\s+u\s+izn.*?([\d\s.,]*\d)\s*([A-Z]{3}).*aspol.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+comment;syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Priliv sa racuna POLISHKO SERGEY broj 1234567890 na Vas racun broj 1234567890 u iznosu od 620,00 EUR. Raspolozivo: 4.720,14 EUR.

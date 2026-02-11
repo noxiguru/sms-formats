@@ -1,0 +1,7 @@
+^.*?(\d{4}):\s*([\d.]{10}).*писание.*?([\d\s.,]*\d)\s*([A-Z]{3}).\s*(.+)\.\s*Досту.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yyyy;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+Karta 9146: 02.10.2015 12:12, списание 5000.00 RUR, LA RUCHE. Доступно 123.00 RUR. Справка: +74951234567

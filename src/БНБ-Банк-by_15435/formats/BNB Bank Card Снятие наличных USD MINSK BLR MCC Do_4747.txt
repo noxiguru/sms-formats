@@ -1,0 +1,10 @@
+^.*ard\W?(\d{4})\W? .(?:няти|oluch.*?nal).*?([\d\s.,]*\d)\s*([A-Z]{3}).* (\d{2}[-./]\d{2}[-./]\d{2,4}) .*ostu.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid#cash;outcome;instrument;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+BNB-Bank; Card5492; Снятие наличных: 500,00 USD; 01.07.20 21:11:10; ,MINSK,BLR; MCC: 6011; Dostupno: 1 476,42 BYN
+
+-----EXAMPLE-----
+Card#5492; Poluchenie nalichnyh: 200.00 BYN; 08.02.2022 13:59:13; >MINSK>BLR; Dostupno 937.04 BYN

@@ -1,0 +1,10 @@
+^\d+\*+(\d{4})\s+(?:POKUP|PLATEZ).*USPES.*?([\d\s.,]*\d)\s*([A-Z]{3}),\s+(.*?),\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\d+:\d.*DOSTU.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+4714***1250 POKUPKA USPESHNO 674.00 KGS, BULAK, KG, 21.11.2024 12:12, DOSTUPNO:25313.03 KGS
+
+-----EXAMPLE-----
+4714***8624 PLATEZH USPESHNO 17.00 KGS, MB QR Pay, KG, 25.11.2024 12:30, DOSTUPNO:13693.73 KGS

@@ -1,0 +1,7 @@
+^.*\*(\d{4})\s+([\d.]{8}) .*SPISAN.*?([\d\s.,]*\d)\s*([A-Z]{3}).*KOMIS.*?.([\d\s.,]*\d).*?\)\s+.*DOST.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;date#dd.MM.yy;outcome;instrument;fee;av_balance
+
+-----EXAMPLE-----
+*7432 06.04.18 15:52 SPISANIE 5,000.00 RUB (KOMISSIYA 0.00 RUB) Rocketbank.ru Card2Card (MOSCOW,RU) DOSTUPNO: 2,301.15 RUB

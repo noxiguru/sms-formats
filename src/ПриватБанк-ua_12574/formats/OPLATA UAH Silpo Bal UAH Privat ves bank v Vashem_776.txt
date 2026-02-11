@@ -1,0 +1,13 @@
+^(.{4}).*(?:PLATA|plata|EKVIVALENT\s+NAL|Pred.*oper).*?([\d\s.,]*\d)([A-Z]{3})\s+\((.*?)\)(?!.*Komissia).*Bal.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;av_balance
+
+-----EXAMPLE-----
+4*42 18:09OPLATA 123.01UAH (Silpo) Bal:10409.06UAH Privat24 - ves bank v Vashem kompyutere i smartfone! privat24.ua
+
+-----EXAMPLE-----
+5*53 19:31OPLATA 85.68UAH (K Simeyniy market). Vash Bonus: 1.75UAH. Balans karty: 1784.99USD. Schet BONUS+: 19.45UAH (na 11.09.13). www.bonus.pb.ua
+
+-----EXAMPLE-----
+5*53 11:44EKVIVALENT NALICHNYH 100.00USD (PANTEONFINANCE.COM). Bal:1629.97USD

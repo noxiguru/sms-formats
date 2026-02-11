@@ -1,0 +1,7 @@
+^.*?(\d{4})\s+.umma -?([\d\s.,]*\d)\s*([A-Z]{3})\s+adres\s+(.*)\s+data ([\d.]{8}).*ostup.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;date#dd.MM.yy;av_balance
+
+-----EXAMPLE-----
+Karta 4489 summa -165.18 UAH adres PORTMONEΛCOMMUNΛGERC data 17.05.15 17:24 dostupno 786.04 UAH (credit 0.00 UAH). fidomarket.ua

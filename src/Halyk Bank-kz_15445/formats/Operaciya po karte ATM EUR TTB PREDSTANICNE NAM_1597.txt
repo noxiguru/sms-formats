@@ -1,0 +1,7 @@
+^([\d-]{10}).*?ATM ([\d\s.,]*\d)\s*([A-Z]{3}).+\*(\d{3,4})$
+
+-----COLUMNS-----
+date#yyyy-MM-dd;outcome;instrument;syncid#cash
+
+-----EXAMPLE-----
+2015-02-22 22:54:54 Operaciya po karte ATM 80.00 EUR TTB PREDSTANICNE NAM. 1 4**146

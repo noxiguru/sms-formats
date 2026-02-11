@@ -1,0 +1,7 @@
+^.*?(?:плата|plata).*?чет\s+([A-Z]{3})\.\s+([\d\s.,]*\d)\s*([A-Z]{3})\.\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+[\d:]+\.\s+.(?:алан|alan).*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;outcome;instrument;date#dMy;balance;acc_instrument
+
+-----EXAMPLE-----
+Оплата. Счет RUB. 284 RUB. 13.09.2022 14:22. Баланс 11 935.96 RUB ║

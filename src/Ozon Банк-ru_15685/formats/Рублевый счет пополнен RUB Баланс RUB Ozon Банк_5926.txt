@@ -1,0 +1,7 @@
+^([А-Яа-я]+)\s+счет\s+пополн.*?\.?([\d\s.,]*\d)\s*([A-Z]{3}).*алан.*?(-?[\d\s.,]*\d)\s*([A-Z]{3}).*
+
+-----COLUMNS-----
+syncid;income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Рублевый счет пополнен. 2 000 RUB. Баланс 2 200.20 RUB ║ Ozon Банк

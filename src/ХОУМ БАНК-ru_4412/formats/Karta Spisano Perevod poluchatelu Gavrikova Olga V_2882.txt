@@ -1,0 +1,7 @@
+^.*?\*(\d{4}).*pisan.*oluchat\S+\s+(.*?);.*umm.*?([\d\s.,]*\d)\s*([A-Z]{3}).*ostu.*?(-?[\d\s.,]*\d).*
+
+-----COLUMNS-----
+syncid;payee;outcome;instrument;av_balance
+
+-----EXAMPLE-----
+Karta: *4261; Spisano; Perevod poluchatelu: Gavrikova Olga Vasilevna; Summa: 500.00 RUR; Dostupno: 14401.62 RUR.
