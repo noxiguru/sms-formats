@@ -30,6 +30,7 @@ class SmsRequest(BaseModel):
 
 
 StatusValue = Literal[
+    "ad",
     "unknown_sender",
     "duplicate",
     "otp",
